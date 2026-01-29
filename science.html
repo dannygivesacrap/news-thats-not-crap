@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-brown: #a1512e;
+            --wgac-green-light: #d7f6a4;
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--cream); color: var(--dark); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        a { color: inherit; text-decoration: none; }
+
+        /* Header */
+        .site-header { background: var(--dark); position: sticky; top: 0; z-index: 1000; }
+        .header-top { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 3rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .logo { display: flex; align-items: stretch; font-family: var(--font-body); font-size: 1rem; font-weight: 800; text-decoration: none; }
+        .logo-left { background: white; color: var(--dark); padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; }
+        .logo-right { background: var(--wgac-blue); color: white; padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; }
+        .header-date { color: var(--gray-400); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; }
+
+        /* Navigation */
+        .main-nav { display: flex; justify-content: center; gap: 2px; padding: 0.75rem 0; background: var(--dark); }
+        .nav-link { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; padding: 0.5rem 1rem; transition: all 0.15s ease; background: rgba(255,255,255,0.1); color: white; }
+        .nav-link:hover { background: white; color: var(--dark); }
+        .nav-link.active { background: var(--wgac-blue); color: white; }
+
+        /* Hero */
+        .section-hero { background: var(--wgac-blue); padding: 4rem 3rem; text-align: center; }
+        .section-hero h1 { font-family: var(--font-display); font-size: 4rem; color: white; margin-bottom: 1rem; }
+        .section-hero p { font-size: 1.2rem; color: rgba(255,255,255,0.9); max-width: 600px; margin: 0 auto; }
+
+        /* Main Content */
+        .main-content { max-width: 1400px; margin: 0 auto; padding: 4rem 3rem; }
+        .section-header { display: flex; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 2px solid var(--dark); }
+        .section-title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; }
+
+        /* Cards */
+        .featured-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--gray-200); margin-bottom: 4rem; }
+        .article-card { background: white; cursor: pointer; transition: background 0.2s; }
+        .article-card:hover { background: var(--gray-100); }
+        .article-card:hover .card-title { color: var(--wgac-brown); }
+        .article-card.featured { grid-column: span 2; }
+        .card-inner { display: flex; gap: 2rem; padding: 2rem; }
+        .featured .card-inner { flex-direction: row; }
+        .card-image { flex-shrink: 0; overflow: hidden; }
+        .featured .card-image { width: 55%; }
+        .card-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .featured .card-image img { height: 350px; }
+        .regular .card-image { width: 200px; height: 140px; }
+        .card-content { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+        .card-tag { display: inline-block; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.75rem; padding: 0.25rem 0.5rem; background: var(--wgac-blue); color: white; width: fit-content; }
+        .card-title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; color: var(--dark); margin-bottom: 0.75rem; line-height: 1.3; transition: color 0.2s; }
+        .featured .card-title { font-size: 2rem; }
+        .card-excerpt { color: var(--gray-600); font-size: 0.95rem; margin-bottom: 1rem; line-height: 1.6; }
+        .card-meta { font-size: 0.75rem; color: var(--gray-400); font-weight: 500; }
+
+        .three-col-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--gray-200); margin-bottom: 4rem; }
+        .vertical-card { background: white; cursor: pointer; transition: background 0.2s; }
+        .vertical-card:hover { background: var(--gray-100); }
+        .vertical-card:hover .card-title { color: var(--wgac-brown); }
+        .vertical-card .card-image { width: 100%; height: 220px; }
+        .vertical-card .card-content { padding: 1.5rem; }
+        .vertical-card .card-title { font-size: 1.25rem; }
+
+        /* Footer */
+        .site-footer { background: var(--dark); color: white; padding: 4rem 3rem; }
+        .footer-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; }
+        .footer-brand { max-width: 350px; }
+        .footer-logo { display: flex; align-items: stretch; font-family: var(--font-body); font-size: 0.85rem; font-weight: 800; margin-bottom: 1rem; width: fit-content; }
+        .footer-logo .logo-left { background: white; color: var(--dark); padding: 0.4rem 0.6rem; }
+        .footer-logo .logo-right { background: var(--wgac-blue); color: white; padding: 0.4rem 0.6rem; }
+        .footer-tagline { font-size: 0.9rem; color: var(--gray-400); line-height: 1.6; }
+        .footer-nav { display: flex; gap: 4rem; }
+        .footer-col h4 { font-size: 0.7rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--gray-400); margin-bottom: 1rem; }
+        .footer-col ul { list-style: none; }
+        .footer-col li { margin-bottom: 0.5rem; }
+        .footer-col a { font-size: 0.9rem; color: white; opacity: 0.8; transition: opacity 0.2s; }
+        .footer-col a:hover { opacity: 1; }
+        .footer-bottom { max-width: 1400px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; color: var(--gray-400); }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .featured-grid { grid-template-columns: 1fr; }
+            .article-card.featured { grid-column: span 1; }
+            .featured .card-inner { flex-direction: column; }
+            .featured .card-image { width: 100%; }
+            .three-col-grid { grid-template-columns: 1fr; }
+            .footer-content { flex-direction: column; gap: 3rem; }
+        }
+        @media (max-width: 768px) {
+            .header-top { padding: 1rem 1.5rem; }
+            .main-nav { flex-wrap: wrap; }
+            .nav-link { padding: 0.4rem 0.8rem; font-size: 0.65rem; }
+            .section-hero { padding: 3rem 1.5rem; }
+            .section-hero h1 { font-size: 2.5rem; }
+            .main-content { padding: 2rem 1.5rem; }
+            .regular .card-inner { flex-direction: column; }
+            .regular .card-image { width: 100%; height: 180px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <a href="index.html" class="logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></a>
+            <div class="header-date">Wednesday, January 29, 2026</div>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Today</a>
+            <a href="climate.html" class="nav-link">Climate</a>
+            <a href="health.html" class="nav-link">Health</a>
+            <a href="science.html" class="nav-link active">Science</a>
+            <a href="people.html" class="nav-link">People</a>
+            <a href="wildlife.html" class="nav-link">Wildlife</a>
+            <a href="cats.html" class="nav-link">Cats</a>
+        </nav>
+    </header>
+
+    <section class="section-hero">
+        <h1>Science</h1>
+        <p>Discoveries, innovations, and the stuff that makes you go "wait, we can do that now?" Yes. Yes we can.</p>
+    </section>
+
+    <main class="main-content">
+        <div class="section-header">
+            <h2 class="section-title">Latest Stories</h2>
+        </div>
+
+        <div class="featured-grid">
+            <a href="articles/crispr-baby.html" class="article-card featured">
+                <div class="card-inner">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=1200&q=80" alt="Baby">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tag">Gene Editing</div>
+                        <h3 class="card-title">CRISPR-Edited Baby KJ Is Walking and Thriving</h3>
+                        <p class="card-excerpt">She was born with a deadly genetic abnormality. CRISPR fixed it. Now she's walking, talking, and living proof that gene editing works.</p>
+                        <div class="card-meta">By Ed Itgenes · 5 min read</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="articles/species-discovery.html" class="article-card regular">
+                <div class="card-inner">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Biodiversity">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tag">Biodiversity</div>
+                        <h3 class="card-title">16,000 New Species Discovered This Year Alone</h3>
+                        <p class="card-excerpt">We're living in a golden age of species discovery. Scientists are finding more than ever.</p>
+                        <div class="card-meta">By Di Versity · 5 min read</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="articles/microscale-robots.html" class="article-card regular">
+                <div class="card-inner">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80" alt="Robotics">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tag">Robotics</div>
+                        <h3 class="card-title">Microscopic Robots That Think For Themselves</h3>
+                        <p class="card-excerpt">They're smaller than a grain of sand, powered by light, and they can work together.</p>
+                        <div class="card-meta">By Mike Roscopic · 6 min read</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="section-header">
+            <h2 class="section-title">More Science Stories</h2>
+        </div>
+
+        <div class="three-col-grid">
+            <a href="articles/iron-air-batteries.html" class="vertical-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80" alt="Energy">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">Energy Storage</div>
+                    <h3 class="card-title">Iron-Air Batteries Can Store Power for 100 Hours</h3>
+                    <p class="card-excerpt">Using iron, water, and air, we can now store energy for days, not hours.</p>
+                    <div class="card-meta">By Gusty Winds · 5 min read</div>
+                </div>
+            </a>
+
+            <a href="articles/perovskite-solar.html" class="vertical-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80" alt="Solar">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">Solar Power</div>
+                    <h3 class="card-title">New Solar Cells Hit 34% Efficiency</h3>
+                    <p class="card-excerpt">Tandem perovskite-silicon cells are shattering records and could double solar output.</p>
+                    <div class="card-meta">By Sunny Watts · 4 min read</div>
+                </div>
+            </a>
+
+            <a href="articles/self-healing-materials.html" class="vertical-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80" alt="Materials">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">Materials Science</div>
+                    <h3 class="card-title">Self-Healing Coatings Now Protecting Bridges</h3>
+                    <p class="card-excerpt">Tiny microcapsules that rupture and seal damage within hours are going commercial.</p>
+                    <div class="card-meta">By Sy Lastic · 5 min read</div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></div>
+                <p class="footer-tagline">Doom-scrolling is so last decade. We bring you the breakthroughs, the victories, and the genuinely good stuff happening in the world.</p>
+            </div>
+            <nav class="footer-nav">
+                <div class="footer-col">
+                    <h4>Sections</h4>
+                    <ul>
+                        <li><a href="climate.html">Climate</a></li>
+                        <li><a href="health.html">Health</a></li>
+                        <li><a href="science.html">Science</a></li>
+                        <li><a href="people.html">People</a></li>
+                        <li><a href="wildlife.html">Wildlife</a></li>
+                        <li><a href="cats.html">Cats</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            © 2026 News That's Not Crap. All the good vibes reserved.
+        </div>
+    </footer>
+</body>
+</html>

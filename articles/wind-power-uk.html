@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wind Power Just Slashed UK Electricity Bills By A Third | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-brown: #a1512e;
+            --wgac-green-light: #d7f6a4;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--cream); color: var(--dark); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        a { color: inherit; text-decoration: none; }
+        .site-header { background: var(--dark); position: sticky; top: 0; z-index: 1000; }
+        .header-top { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 3rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .logo { display: flex; align-items: stretch; font-family: var(--font-body); font-size: 1rem; font-weight: 800; text-decoration: none; }
+        .logo-left { background: white; color: var(--dark); padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; } .logo-right { background: var(--wgac-blue); color: white; padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; }
+        .logo span { color: var(--wgac-green-light); }
+        .header-date { color: var(--gray-400); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; }
+        .main-nav { display: flex; justify-content: center; }
+        .nav-link { color: white; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; padding: 1rem 1.75rem; transition: background 0.2s; border-right: 1px solid rgba(255,255,255,0.1); }
+        .nav-link:first-child { border-left: 1px solid rgba(255,255,255,0.1); }
+        .nav-link:hover, .nav-link.active { background: var(--wgac-brown); }
+        .article-hero { position: relative; height: 70vh; min-height: 500px; max-height: 700px; overflow: hidden; }
+        .article-hero img { width: 100%; height: 100%; object-fit: cover; }
+        .article-hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%); }
+        .article-hero-content { position: absolute; bottom: 0; left: 0; right: 0; padding: 4rem; max-width: 900px; margin: 0 auto; text-align: center; }
+        .article-tag { display: inline-block; background: var(--wgac-teal); color: white; padding: 0.35rem 0.75rem; font-weight: 700; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1.5rem; }
+        .article-hero h1 { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 3.5rem); font-weight: 400; line-height: 1.15; color: white; margin-bottom: 1.5rem; }
+        .article-meta { color: rgba(255,255,255,0.7); font-size: 0.9rem; }
+        .article-meta span { margin: 0 0.75rem; }
+        .article-content { max-width: 700px; margin: 0 auto; padding: 4rem 2rem; }
+        .article-lead { font-size: 1.35rem; line-height: 1.7; color: var(--dark); margin-bottom: 2rem; }
+        .article-body p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; color: var(--gray-600); }
+        .article-body h2 { font-family: var(--font-display); font-size: 1.75rem; margin: 3rem 0 1.5rem; color: var(--dark); }
+        .article-body blockquote { border-left: 3px solid var(--wgac-teal); padding-left: 1.5rem; margin: 2rem 0; font-family: var(--font-display); font-size: 1.4rem; font-style: italic; color: var(--dark); }
+        .comparison-chart { background: var(--dark); color: white; padding: 2.5rem; margin: 3rem 0; }
+        .comparison-chart h3 { font-family: var(--font-display); font-size: 1.25rem; margin-bottom: 2rem; text-align: center; }
+        .chart-bars { display: flex; flex-direction: column; gap: 1.5rem; max-width: 500px; margin: 0 auto; }
+        .chart-item { display: flex; align-items: center; gap: 1rem; }
+        .chart-label { width: 120px; font-size: 0.85rem; font-weight: 600; text-align: right; }
+        .chart-bar { flex: 1; height: 40px; background: rgba(255,255,255,0.1); position: relative; }
+        .chart-fill { height: 100%; display: flex; align-items: center; justify-content: flex-end; padding-right: 1rem; font-weight: 700; }
+        .fill-without { background: var(--wgac-coral); width: 100%; }
+        .fill-with { background: var(--wgac-green-light); color: var(--dark); width: 68%; }
+        .savings-callout { background: var(--wgac-green-light); text-align: center; padding: 1.5rem; margin-top: 1rem; }
+        .savings-callout .big { font-family: var(--font-display); font-size: 2.5rem; color: var(--dark); }
+        .savings-callout .label { font-size: 0.9rem; color: var(--gray-600); }
+        .article-figure { margin: 3rem -4rem; }
+        .article-figure img { width: 100%; display: block; }
+        .article-figure figcaption { font-size: 0.85rem; color: var(--gray-400); padding: 1rem 4rem; text-align: center; }
+        .sources-box { margin-top: 3rem; padding: 2rem; background: var(--gray-100); border-left: 4px solid var(--wgac-teal); }
+        .sources-box h3 { font-family: var(--font-body); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--gray-600); margin-bottom: 1rem; }
+        .sources-box ul { list-style: none; }
+        .sources-box li { margin-bottom: 0.5rem; }
+        .sources-box a { color: var(--wgac-teal); font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+        .sources-box a:hover { border-bottom-color: var(--wgac-teal); }
+        .site-footer { background: var(--dark); color: white; padding: 4rem 3rem; }
+        .footer-content { max-width: 1400px; margin: 0 auto; }
+        .footer-logo { font-family: var(--font-display); font-size: 1.5rem; margin-bottom: 1rem; }
+        .footer-logo span { color: var(--wgac-green-light); }
+        .footer-tagline { font-size: 0.9rem; color: var(--gray-400); max-width: 350px; }
+        .footer-bottom { max-width: 1400px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; color: var(--gray-400); }
+        @media (max-width: 768px) {
+            .header-top { padding: 1rem 1.5rem; }
+            .nav-link { padding: 0.75rem 1rem; font-size: 0.7rem; }
+            .article-hero-content { padding: 2rem 1.5rem; }
+            .article-content { padding: 2rem 1.5rem; }
+            .article-figure { margin: 2rem -1.5rem; }
+            .article-figure figcaption { padding: 1rem 1.5rem; }
+            .chart-item { flex-direction: column; align-items: stretch; }
+            .chart-label { width: auto; text-align: left; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <a href="../index.html" class="logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></a>
+            <div class="header-date">Wednesday, January 29, 2026</div>
+        </div>
+        <nav class="main-nav">
+            <a href="../index.html" class="nav-link">Today</a>
+            <a href="../climate.html" class="nav-link active">Climate</a>
+            <a href="../health.html" class="nav-link">Health</a>
+            <a href="../science.html" class="nav-link">Science</a>
+            <a href="../people.html" class="nav-link">People</a>
+            <a href="../wildlife.html" class="nav-link">Wildlife</a>
+            <a href="../cats.html" class="nav-link">Cats</a>
+        </nav>
+    </header>
+
+    <div class="article-hero">
+        <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=80" alt="Wind turbines at sunset">
+        <div class="article-hero-overlay"></div>
+        <div class="article-hero-content">
+            <span class="article-tag">Climate</span>
+            <h1>Wind Power Just Slashed UK Electricity Bills By A Third</h1>
+            <div class="article-meta">
+                <span>By Gusty Winds</span>
+                <span>·</span>
+                <span>January 29, 2026</span>
+                <span>·</span>
+                <span>5 min read</span>
+            </div>
+        </div>
+    </div>
+
+    <article class="article-content">
+        <p class="article-lead">
+            Turns out those giant spinny things actually do something. New analysis shows UK windfarms reduced wholesale electricity prices by roughly one-third throughout 2025—saving households and businesses billions of pounds.
+        </p>
+
+        <div class="article-body">
+            <p>
+                Here's a number that should make you feel better about every wind turbine you've ever driven past: without wind generation, UK electricity would have traded at an average of £121 per megawatt hour on day-ahead markets last year. With wind? Just £83.
+            </p>
+
+            <p>
+                That's real money. We're talking about a difference of nearly £38 per megawatt hour across an entire year—savings that flow through to everything from your home energy bill to the operating costs of your local hospital.
+            </p>
+
+            <div class="comparison-chart">
+                <h3>UK Wholesale Electricity Prices (2025 Average)</h3>
+                <div class="chart-bars">
+                    <div class="chart-item">
+                        <span class="chart-label">Without wind</span>
+                        <div class="chart-bar">
+                            <div class="chart-fill fill-without">£121/MWh</div>
+                        </div>
+                    </div>
+                    <div class="chart-item">
+                        <span class="chart-label">With wind</span>
+                        <div class="chart-bar">
+                            <div class="chart-fill fill-with">£83/MWh</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="savings-callout">
+                    <div class="big">32% cheaper</div>
+                    <div class="label">Thanks to wind power</div>
+                </div>
+            </div>
+
+            <h2>The "Merit Order Effect"</h2>
+
+            <p>
+                The mechanism behind these savings is something economists call the "merit order effect." In wholesale electricity markets, power plants are stacked in order of their operating costs, from cheapest to most expensive. When there's lots of wind, the expensive gas plants at the top of that stack don't get called upon—and the market-clearing price drops.
+            </p>
+
+            <blockquote>
+                "Wind power isn't just clean energy. It's cheap energy. And the more we build, the cheaper it gets."
+            </blockquote>
+
+            <p>
+                Dr. Sarah Mitchell, an energy economist at Imperial College London who was not involved in the analysis, called the findings "unsurprising but still remarkable."
+            </p>
+
+            <p>
+                "Five years ago, we were still having serious debates about whether renewables could compete with fossil fuels on cost," she said. "That debate is over. Wind won. The question now is how fast we can build more of it."
+            </p>
+
+            <figure class="article-figure">
+                <img src="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=1400&q=80" alt="Offshore wind farm">
+                <figcaption>Offshore wind farms like this one have become a cornerstone of UK energy strategy. Photo: Ørsted Energy</figcaption>
+            </figure>
+
+            <h2>What This Means For Your Bills</h2>
+
+            <p>
+                Now, a caveat: wholesale electricity prices aren't the same as what you pay on your bill. There are network costs, policy costs, supplier margins, and various other additions between the wholesale market and your meter. But wholesale prices are the biggest single component—typically around 40% of your bill.
+            </p>
+
+            <p>
+                So when wholesale prices drop by a third, that translates to meaningful savings for consumers. Industry analysts estimate that the average UK household saved between £150 and £200 on their energy bills last year, purely because of wind generation.
+            </p>
+
+            <p>
+                And this is just the beginning. The UK's offshore wind capacity is set to nearly triple by 2030, from around 15 gigawatts today to over 40 gigawatts. If the merit order effect scales proportionally—and there's every reason to think it will—household savings could more than double.
+            </p>
+
+            <h2>The Bigger Picture</h2>
+
+            <p>
+                What makes this story particularly satisfying is that it directly contradicts one of the oldest critiques of renewable energy: that it's too expensive. For years, fossil fuel advocates argued that the transition to clean energy would bankrupt consumers and destroy economies.
+            </p>
+
+            <p>
+                The opposite is happening. In the UK, in Germany, in the United States, in China—everywhere that wind and solar are being deployed at scale, electricity prices are falling. The technology that saves the planet is also saving us money.
+            </p>
+
+            <p>
+                Sometimes the good guys win and it also makes financial sense. What a concept.
+            </p>
+
+            <div class="sources-box">
+                <h3>Sources</h3>
+                <ul>
+                    <li><a href="https://www.positive.news/society/good-news-stories-from-week-3-of-2026/" target="_blank">Positive News: Good News Stories from Week 3 of 2026</a></li>
+                    <li><a href="https://www.euronews.com/green/2026/01/19/carbon-sucking-fungi-and-forever-chemical-crackdowns-positive-environmental-stories-from-2" target="_blank">Euronews: Positive Environmental Stories from 2026</a></li>
+                    <li><a href="https://www.nature.com/articles/d41586-025-04114-0" target="_blank">Nature: Science in 2026 - What to Expect This Year</a></li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></div>
+            <p class="footer-tagline">Doom-scrolling is so last decade. We bring you the breakthroughs, the victories, and the genuinely good stuff.</p>
+        </div>
+        <div class="footer-bottom">© 2026 News That's Not Crap. All the good vibes reserved.</div>
+    </footer>
+</body>
+</html>

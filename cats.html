@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-brown: #a1512e;
+            --wgac-green-light: #d7f6a4;
+            --wgac-teal: #2dcb98;
+            --wgac-blue: #4368ff;
+            --wgac-coral: #e85d4c;
+            --wgac-orange: #ff9f43;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--cream); color: var(--dark); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        a { color: inherit; text-decoration: none; }
+
+        .site-header { background: var(--dark); position: sticky; top: 0; z-index: 1000; }
+        .header-top { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 3rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .logo { display: flex; align-items: stretch; font-family: var(--font-body); font-size: 1rem; font-weight: 800; text-decoration: none; }
+        .logo-left { background: white; color: var(--dark); padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; }
+        .logo-right { background: var(--wgac-orange); color: white; padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; }
+        .header-date { color: var(--gray-400); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; }
+
+        /* Navigation */
+        .main-nav { display: flex; justify-content: center; gap: 2px; padding: 0.75rem 0; background: var(--dark); }
+        .nav-link { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; padding: 0.5rem 1rem; transition: all 0.15s ease; background: rgba(255,255,255,0.1); color: white; }
+        .nav-link:hover { background: white; color: var(--dark); }
+        .nav-link.active { background: var(--wgac-orange); color: white; }
+
+        .section-hero {
+            background: linear-gradient(135deg, var(--wgac-orange) 0%, var(--wgac-coral) 100%);
+            padding: 5rem 3rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .section-hero::before {
+            content: "🐱 🐈 😺 🐱 🐈 😺 🐱 🐈 😺";
+            position: absolute;
+            top: 1rem;
+            left: 0;
+            right: 0;
+            font-size: 2rem;
+            opacity: 0.3;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .section-hero h1 {
+            font-family: var(--font-display);
+            font-size: 5rem;
+            color: white;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+        }
+        .section-hero p {
+            font-size: 1.3rem;
+            color: rgba(255,255,255,0.95);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .section-hero .subtitle {
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            opacity: 0.8;
+        }
+
+        .main-content { max-width: 1400px; margin: 0 auto; padding: 4rem 3rem; }
+
+        .intro-box {
+            background: var(--wgac-green-light);
+            padding: 2rem;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+        .intro-box p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--dark);
+        }
+        .section-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+
+        /* Cat Grid */
+        .cat-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .cat-card {
+            background: white;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+        .cat-card.featured {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .cat-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .cat-card.featured img {
+            height: 100%;
+            min-height: 400px;
+        }
+
+        .cat-card-content {
+            padding: 1.25rem;
+        }
+
+        .cat-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .cat-card.featured h3 {
+            font-size: 1.5rem;
+        }
+
+        .cat-card p {
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+
+        .cat-tag {
+            display: inline-block;
+            background: var(--wgac-orange);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+            width: fit-content;
+        }
+
+        /* Video Section */
+        .video-section {
+            background: var(--dark);
+            padding: 4rem 3rem;
+            margin: 0 -3rem 4rem;
+        }
+
+        .video-section .section-header {
+            border-bottom-color: rgba(255,255,255,0.2);
+            margin-bottom: 2rem;
+        }
+
+        .video-section .section-title {
+            color: white;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .video-card {
+            background: rgba(255,255,255,0.05);
+            overflow: hidden;
+            transition: background 0.3s ease;
+        }
+
+        .video-card:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .video-placeholder {
+            position: relative;
+            padding-bottom: 56.25%;
+            background: linear-gradient(135deg, #333 0%, #1a1a1a 100%);
+        }
+
+        .video-placeholder img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70px;
+            height: 70px;
+            background: var(--wgac-coral);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        .video-card:hover .play-button {
+            transform: translate(-50%, -50%) scale(1.1);
+            background: var(--wgac-orange);
+        }
+
+        .video-card-content {
+            padding: 1.25rem;
+            color: white;
+        }
+
+        .video-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .video-card p {
+            color: var(--gray-400);
+            font-size: 0.85rem;
+        }
+
+        .video-tag {
+            display: inline-block;
+            background: var(--wgac-teal);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+            width: fit-content;
+        }
+
+        /* Fun Facts */
+        .fun-facts {
+            background: var(--wgac-green-light);
+            padding: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .fun-facts h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .facts-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .fact-item {
+            text-align: center;
+        }
+
+        .fact-emoji {
+            font-size: 3rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .fact-text {
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        /* Footer */
+        .site-footer { background: var(--dark); color: white; padding: 4rem 3rem; }
+        .footer-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; }
+        .footer-brand { max-width: 350px; }
+        .footer-logo { display: flex; align-items: stretch; font-family: var(--font-body); font-size: 0.85rem; font-weight: 800; margin-bottom: 1rem; width: fit-content; }
+        .footer-logo .logo-left { background: white; color: var(--dark); padding: 0.4rem 0.6rem; }
+        .footer-logo .logo-right { background: var(--wgac-blue); color: white; padding: 0.4rem 0.6rem; }
+        .footer-tagline { font-size: 0.9rem; color: var(--gray-400); line-height: 1.6; }
+        .footer-nav { display: flex; gap: 4rem; }
+        .footer-col h4 { font-size: 0.7rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--gray-400); margin-bottom: 1rem; }
+        .footer-col ul { list-style: none; }
+        .footer-col li { margin-bottom: 0.5rem; }
+        .footer-col a { font-size: 0.9rem; color: white; opacity: 0.8; transition: opacity 0.2s; }
+        .footer-col a:hover { opacity: 1; }
+        .footer-bottom { max-width: 1400px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; color: var(--gray-400); }
+
+        @media (max-width: 1024px) {
+            .cat-grid { grid-template-columns: repeat(2, 1fr); }
+            .cat-card.featured { grid-column: span 2; grid-row: span 1; }
+            .cat-card.featured img { min-height: 300px; }
+            .video-grid { grid-template-columns: 1fr; }
+            .facts-grid { grid-template-columns: repeat(2, 1fr); }
+            .footer-content { flex-direction: column; gap: 3rem; }
+        }
+        @media (max-width: 768px) {
+            .header-top { padding: 1rem 1.5rem; }
+            .main-nav { flex-wrap: wrap; }
+            .nav-link { padding: 0.4rem 0.8rem; font-size: 0.65rem; }
+            .section-hero { padding: 3rem 1.5rem; }
+            .section-hero h1 { font-size: 3rem; }
+            .main-content { padding: 2rem 1.5rem; }
+            .video-section { padding: 2rem 1.5rem; margin: 0 -1.5rem 3rem; }
+            .cat-grid { grid-template-columns: 1fr; }
+            .cat-card.featured { grid-column: span 1; }
+            .facts-grid { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <a href="index.html" class="logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></a>
+            <div class="header-date">Wednesday, January 29, 2026</div>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Today</a>
+            <a href="climate.html" class="nav-link">Climate</a>
+            <a href="health.html" class="nav-link">Health</a>
+            <a href="science.html" class="nav-link">Science</a>
+            <a href="people.html" class="nav-link">People</a>
+            <a href="wildlife.html" class="nav-link">Wildlife</a>
+            <a href="cats.html" class="nav-link active">Cats</a>
+        </nav>
+    </header>
+
+    <section class="section-hero">
+        <h1>Cats</h1>
+        <p>Because sometimes you just need to look at cats. No justification required.</p>
+        <p class="subtitle">This section has absolutely no news value. And that's the point.</p>
+    </section>
+
+    <main class="main-content">
+        <div class="intro-box">
+            <p>Look, we know you came here for important news about scientific breakthroughs and climate wins. But we also know that sometimes your brain just needs a cat. Consider this your mental health break. You're welcome.</p>
+        </div>
+
+        <div class="section-header">
+            <h2 class="section-title">Today's Essential Cat Content</h2>
+        </div>
+
+        <div class="cat-grid">
+            <div class="cat-card featured">
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=1200&q=80" alt="Orange cat looking majestic">
+                <div class="cat-card-content">
+                    <span class="cat-tag">Extremely Important</span>
+                    <h3>This Cat Looks Like He's About to Give You Life Advice</h3>
+                    <p>We don't know what wisdom this orange sage possesses, but we're pretty sure it involves napping more and worrying less.</p>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600&q=80" alt="Cat in a box">
+                <div class="cat-card-content">
+                    <span class="cat-tag">Breaking</span>
+                    <h3>Cat Fits Perfectly in Box Despite All Logic</h3>
+                    <p>Scientists remain baffled.</p>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=600&q=80" alt="Cat with blue eyes">
+                <div class="cat-card-content">
+                    <span class="cat-tag">Urgent</span>
+                    <h3>This Cat Has Eyes That Stare Into Your Soul</h3>
+                    <p>It knows what you did. All of it.</p>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=600&q=80" alt="Sleepy cat">
+                <div class="cat-card-content">
+                    <span class="cat-tag">Mood</span>
+                    <h3>Cat Achieves Perfect Nap Position, Refuses to Move</h3>
+                    <p>Dinner can wait. Everything can wait.</p>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1561948955-570b270e7c36?w=600&q=80" alt="Cat looking surprised">
+                <div class="cat-card-content">
+                    <span class="cat-tag">Drama</span>
+                    <h3>Cat Sees Cucumber, Questions Everything</h3>
+                    <p>The betrayal. The audacity.</p>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&q=80" alt="Cool cat with sunglasses">
+                <div class="cat-card-content">
+                    <span class="cat-tag">Icon</span>
+                    <h3>This Cat Is Cooler Than You'll Ever Be</h3>
+                    <p>And it knows it.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-section">
+            <div class="section-header">
+                <h2 class="section-title">Cat Videos (Obviously)</h2>
+            </div>
+
+            <div class="video-grid">
+                <a href="https://www.youtube.com/watch?v=J---aiyznGQ" target="_blank" class="video-card">
+                    <div class="video-placeholder">
+                        <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=800&q=80" alt="Keyboard cat">
+                        <div class="play-button">▶</div>
+                    </div>
+                    <div class="video-card-content">
+                        <span class="video-tag">Classic</span>
+                        <h3>Keyboard Cat (The Original)</h3>
+                        <p>The video that started it all. Still hits different.</p>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=0Bmhjf0rKe8" target="_blank" class="video-card">
+                    <div class="video-placeholder">
+                        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=800&q=80" alt="Surprised cat">
+                        <div class="play-button">▶</div>
+                    </div>
+                    <div class="video-card-content">
+                        <span class="video-tag">Viral</span>
+                        <h3>Cat vs. Printer: An Epic Battle</h3>
+                        <p>The printer started it. The cat finished it.</p>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=SaA_cs4WZHM" target="_blank" class="video-card">
+                    <div class="video-placeholder">
+                        <img src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=80" alt="Talking cat">
+                        <div class="play-button">▶</div>
+                    </div>
+                    <div class="video-card-content">
+                        <span class="video-tag">Relatable</span>
+                        <h3>Cats Saying "No" Compilation</h3>
+                        <p>10 minutes of cats refusing to cooperate. Peak content.</p>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=tntOCGkgt98" target="_blank" class="video-card">
+                    <div class="video-placeholder">
+                        <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=800&q=80" alt="Cat staring">
+                        <div class="play-button">▶</div>
+                    </div>
+                    <div class="video-card-content">
+                        <span class="video-tag">Legendary</span>
+                        <h3>Cat Interrupts Weather Forecast</h3>
+                        <p>Better journalism than most cable news.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="fun-facts">
+            <h2>Important Cat Facts</h2>
+            <div class="facts-grid">
+                <div class="fact-item">
+                    <div class="fact-emoji">😴</div>
+                    <p class="fact-text">Cats sleep 12-16 hours per day. They're not lazy, they're efficient.</p>
+                </div>
+                <div class="fact-item">
+                    <div class="fact-emoji">🎵</div>
+                    <p class="fact-text">Cats can make over 100 different sounds. Dogs can only make 10.</p>
+                </div>
+                <div class="fact-item">
+                    <div class="fact-emoji">🏃</div>
+                    <p class="fact-text">Cats can run at 30 mph. Usain Bolt tops out at 27.8 mph.</p>
+                </div>
+                <div class="fact-item">
+                    <div class="fact-emoji">🧠</div>
+                    <p class="fact-text">Cat brains are 90% similar to human brains. Make of that what you will.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-header">
+            <h2 class="section-title">More Cats Because Why Not</h2>
+        </div>
+
+        <div class="cat-grid">
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1570824104453-508955ab713e?w=600&q=80" alt="Kitten">
+                <div class="cat-card-content">
+                    <span class="cat-tag">Tiny</span>
+                    <h3>Kitten Discovers Its Own Feet</h3>
+                    <p>Mind = blown (the kitten's, and ours).</p>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?w=600&q=80" alt="White cat">
+                <div class="cat-card-content">
+                    <span class="cat-tag">Majestic</span>
+                    <h3>Cat Sits in Sunbeam, Contemplates Universe</h3>
+                    <p>Probably thinking about dinner, actually.</p>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?w=600&q=80" alt="Grumpy cat">
+                <div class="cat-card-content">
+                    <span class="cat-tag">Iconic</span>
+                    <h3>Cat Has Had Enough of Your Nonsense</h3>
+                    <p>That face says it all.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></div>
+                <p class="footer-tagline">Doom-scrolling is so last decade. We bring you the breakthroughs, the victories, and the genuinely good stuff happening in the world. Also: cats.</p>
+            </div>
+            <nav class="footer-nav">
+                <div class="footer-col">
+                    <h4>Sections</h4>
+                    <ul>
+                        <li><a href="climate.html">Climate</a></li>
+                        <li><a href="health.html">Health</a></li>
+                        <li><a href="science.html">Science</a></li>
+                        <li><a href="people.html">People</a></li>
+                        <li><a href="wildlife.html">Wildlife</a></li>
+                        <li><a href="cats.html">Cats</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            © 2026 News That's Not Crap. All the good vibes reserved.
+        </div>
+    </footer>
+</body>
+</html>

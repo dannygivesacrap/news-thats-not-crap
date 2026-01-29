@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-brown: #a1512e;
+            --wgac-green-light: #d7f6a4;
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --wgac-pink: #e84393;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--cream); color: var(--dark); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        a { color: inherit; text-decoration: none; }
+
+        /* Header */
+        .site-header { background: var(--dark); position: sticky; top: 0; z-index: 1000; }
+        .header-top { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 3rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .logo { display: flex; align-items: stretch; font-family: var(--font-body); font-size: 1rem; font-weight: 800; text-decoration: none; }
+        .logo-left { background: white; color: var(--dark); padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; }
+        .logo-right { background: var(--wgac-pink); color: white; padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; }
+        .header-date { color: var(--gray-400); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; }
+
+        /* Navigation */
+        .main-nav { display: flex; justify-content: center; gap: 2px; padding: 0.75rem 0; background: var(--dark); }
+        .nav-link { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; padding: 0.5rem 1rem; transition: all 0.15s ease; background: rgba(255,255,255,0.1); color: white; }
+        .nav-link:hover { background: white; color: var(--dark); }
+        .nav-link.active { background: var(--wgac-pink); color: white; }
+
+        /* Hero */
+        .section-hero { background: #e84393; padding: 4rem 3rem; text-align: center; }
+        .section-hero h1 { font-family: var(--font-display); font-size: 4rem; color: white; margin-bottom: 1rem; }
+        .section-hero p { font-size: 1.2rem; color: rgba(255,255,255,0.9); max-width: 600px; margin: 0 auto; }
+
+        /* Main Content */
+        .main-content { max-width: 1400px; margin: 0 auto; padding: 4rem 3rem; }
+        .section-header { display: flex; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 2px solid var(--dark); }
+        .section-title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; }
+
+        /* Cards */
+        .featured-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--gray-200); margin-bottom: 4rem; }
+        .article-card { background: white; cursor: pointer; transition: background 0.2s; }
+        .article-card:hover { background: var(--gray-100); }
+        .article-card:hover .card-title { color: var(--wgac-brown); }
+        .article-card.featured { grid-column: span 2; }
+        .card-inner { display: flex; gap: 2rem; padding: 2rem; }
+        .featured .card-inner { flex-direction: row; }
+        .card-image { flex-shrink: 0; overflow: hidden; }
+        .featured .card-image { width: 55%; }
+        .card-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .featured .card-image img { height: 350px; }
+        .regular .card-image { width: 200px; height: 140px; }
+        .card-content { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+        .card-tag { display: inline-block; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.75rem; padding: 0.25rem 0.5rem; background: #e84393; color: white; width: fit-content; }
+        .card-title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; color: var(--dark); margin-bottom: 0.75rem; line-height: 1.3; transition: color 0.2s; }
+        .featured .card-title { font-size: 2rem; }
+        .card-excerpt { color: var(--gray-600); font-size: 0.95rem; margin-bottom: 1rem; line-height: 1.6; }
+        .card-meta { font-size: 0.75rem; color: var(--gray-400); font-weight: 500; }
+
+        .three-col-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--gray-200); margin-bottom: 4rem; }
+        .vertical-card { background: white; cursor: pointer; transition: background 0.2s; }
+        .vertical-card:hover { background: var(--gray-100); }
+        .vertical-card:hover .card-title { color: var(--wgac-brown); }
+        .vertical-card .card-image { width: 100%; height: 220px; }
+        .vertical-card .card-content { padding: 1.5rem; }
+        .vertical-card .card-title { font-size: 1.25rem; }
+
+        /* Footer */
+        .site-footer { background: var(--dark); color: white; padding: 4rem 3rem; }
+        .footer-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; }
+        .footer-brand { max-width: 350px; }
+        .footer-logo { display: flex; align-items: stretch; font-family: var(--font-body); font-size: 0.85rem; font-weight: 800; margin-bottom: 1rem; width: fit-content; }
+        .footer-logo .logo-left { background: white; color: var(--dark); padding: 0.4rem 0.6rem; }
+        .footer-logo .logo-right { background: var(--wgac-blue); color: white; padding: 0.4rem 0.6rem; }
+        .footer-tagline { font-size: 0.9rem; color: var(--gray-400); line-height: 1.6; }
+        .footer-nav { display: flex; gap: 4rem; }
+        .footer-col h4 { font-size: 0.7rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--gray-400); margin-bottom: 1rem; }
+        .footer-col ul { list-style: none; }
+        .footer-col li { margin-bottom: 0.5rem; }
+        .footer-col a { font-size: 0.9rem; color: white; opacity: 0.8; transition: opacity 0.2s; }
+        .footer-col a:hover { opacity: 1; }
+        .footer-bottom { max-width: 1400px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; color: var(--gray-400); }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .featured-grid { grid-template-columns: 1fr; }
+            .article-card.featured { grid-column: span 1; }
+            .featured .card-inner { flex-direction: column; }
+            .featured .card-image { width: 100%; }
+            .three-col-grid { grid-template-columns: 1fr; }
+            .footer-content { flex-direction: column; gap: 3rem; }
+        }
+        @media (max-width: 768px) {
+            .header-top { padding: 1rem 1.5rem; }
+            .main-nav { flex-wrap: wrap; }
+            .nav-link { padding: 0.4rem 0.8rem; font-size: 0.65rem; }
+            .section-hero { padding: 3rem 1.5rem; }
+            .section-hero h1 { font-size: 2.5rem; }
+            .main-content { padding: 2rem 1.5rem; }
+            .regular .card-inner { flex-direction: column; }
+            .regular .card-image { width: 100%; height: 180px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <a href="index.html" class="logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></a>
+            <div class="header-date">Wednesday, January 29, 2026</div>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Today</a>
+            <a href="climate.html" class="nav-link">Climate</a>
+            <a href="health.html" class="nav-link">Health</a>
+            <a href="science.html" class="nav-link">Science</a>
+            <a href="people.html" class="nav-link">People</a>
+            <a href="wildlife.html" class="nav-link active">Wildlife</a>
+            <a href="cats.html" class="nav-link">Cats</a>
+        </nav>
+    </header>
+
+    <section class="section-hero">
+        <h1>Wildlife</h1>
+        <p>Species saved, habitats restored, and animals thriving. Nature is more resilient than you think.</p>
+    </section>
+
+    <main class="main-content">
+        <div class="section-header">
+            <h2 class="section-title">Latest Stories</h2>
+        </div>
+
+        <div class="featured-grid">
+            <a href="articles/amazon-bees-rights.html" class="article-card featured">
+                <div class="card-inner">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=1200&q=80" alt="Bees">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tag">Legal Rights</div>
+                        <h3 class="card-title">Amazon Bees Become First Insects With Legal Rights</h3>
+                        <p class="card-excerpt">The stingless bees of the Amazon, cultivated by Indigenous peoples for millennia, are now legally protected. The precedent could change everything for insect conservation worldwide.</p>
+                        <div class="card-meta">By Polly Nation · 4 min read</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="articles/knepp-rewilding.html" class="article-card regular">
+                <div class="card-inner">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797?w=800&q=80" alt="Birds">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tag">Rewilding</div>
+                        <h3 class="card-title">Knepp Estate Sees 900% Increase in Birds</h3>
+                        <p class="card-excerpt">After 20 years of rewilding, this English estate is teeming with life again.</p>
+                        <div class="card-meta">By Robin Nestor · 5 min read</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="articles/bear-bile-farming.html" class="article-card regular">
+                <div class="card-inner">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?w=800&q=80" alt="Bear">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tag">Animal Welfare</div>
+                        <h3 class="card-title">South Korea Ends Bear Bile Farming Forever</h3>
+                        <p class="card-excerpt">Moon bears will no longer suffer. The cruel industry has finally been shut down.</p>
+                        <div class="card-meta">By Barry Freed · 4 min read</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="section-header">
+            <h2 class="section-title">More Wildlife Wins</h2>
+        </div>
+
+        <div class="three-col-grid">
+            <a href="articles/right-whales.html" class="vertical-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1568430462989-44163eb1752f?w=800&q=80" alt="Whale">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">Conservation</div>
+                    <h3 class="card-title">North Atlantic Right Whales See Best Birth Season in Years</h3>
+                    <p class="card-excerpt">With only 384 individuals left, every baby counts. This season is giving scientists hope.</p>
+                    <div class="card-meta">By Wanda Whale · 5 min read</div>
+                </div>
+            </a>
+
+            <a href="articles/coral-reefs.html" class="vertical-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1546026423-cc4642628d2b?w=800&q=80" alt="Coral reef">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">Marine Life</div>
+                    <h3 class="card-title">Coral Reefs Could Help Solve Global Hunger</h3>
+                    <p class="card-excerpt">Sustainable management of reef fish stocks could address food insecurity within six years.</p>
+                    <div class="card-meta">By Coral Reefson · 6 min read</div>
+                </div>
+            </a>
+
+            <a href="articles/california-animals.html" class="vertical-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1516728778615-2d590ea1855e?w=800&q=80" alt="Farm animals">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">Animal Rights</div>
+                    <h3 class="card-title">California's Prop 12 Transforms Farm Animal Welfare</h3>
+                    <p class="card-excerpt">The strongest farmed animal law in the US has been fully in effect for two years.</p>
+                    <div class="card-meta">By Liv Stock · 4 min read</div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></div>
+                <p class="footer-tagline">Doom-scrolling is so last decade. We bring you the breakthroughs, the victories, and the genuinely good stuff happening in the world.</p>
+            </div>
+            <nav class="footer-nav">
+                <div class="footer-col">
+                    <h4>Sections</h4>
+                    <ul>
+                        <li><a href="climate.html">Climate</a></li>
+                        <li><a href="health.html">Health</a></li>
+                        <li><a href="science.html">Science</a></li>
+                        <li><a href="people.html">People</a></li>
+                        <li><a href="wildlife.html">Wildlife</a></li>
+                        <li><a href="cats.html">Cats</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            © 2026 News That's Not Crap. All the good vibes reserved.
+        </div>
+    </footer>
+</body>
+</html>

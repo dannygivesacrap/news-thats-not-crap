@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News That's Not Crap | Feel-Good Stories That Actually Matter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-brown: #a1512e;
+            --wgac-green-light: #d7f6a4;
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --wgac-yellow: #f0c808;
+            --wgac-purple: #7b68ee;
+            --wgac-pink: #e84393;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--cream);
+            color: var(--dark);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* Header */
+        .site-header {
+            background: var(--dark);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem 3rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: stretch;
+            font-family: var(--font-body);
+            font-size: 1rem;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .logo-left {
+            background: white;
+            color: var(--dark);
+            padding: 0.5rem 0.75rem;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.5px;
+        }
+
+        .logo-right {
+            background: var(--wgac-blue);
+            color: white;
+            padding: 0.5rem 0.75rem;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.5px;
+        }
+
+        .header-date {
+            color: var(--gray-400);
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        /* Navigation */
+        .main-nav {
+            display: flex;
+            justify-content: center;
+            gap: 2px;
+            padding: 0.75rem 0;
+            background: var(--dark);
+        }
+
+        .nav-link {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            padding: 0.5rem 1rem;
+            transition: all 0.15s ease;
+            background: rgba(255,255,255,0.1);
+            color: white;
+        }
+
+        .nav-link:hover {
+            background: white;
+            color: var(--dark);
+        }
+
+        .nav-link.active {
+            background: var(--wgac-blue);
+            color: white;
+        }
+
+        /* Ticker */
+        .ticker {
+            background: var(--wgac-teal);
+            padding: 0.75rem 0;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .ticker-content {
+            display: inline-block;
+            animation: ticker 40s linear infinite;
+            font-weight: 600;
+            color: white;
+            font-size: 0.8rem;
+            letter-spacing: 0.3px;
+        }
+
+        @keyframes ticker {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        .ticker-divider {
+            display: inline-block;
+            width: 4px;
+            height: 4px;
+            background: rgba(255,255,255,0.5);
+            border-radius: 50%;
+            margin: 0 2rem;
+            vertical-align: middle;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 80vh;
+            min-height: 550px;
+            max-height: 800px;
+            overflow: hidden;
+        }
+
+        .hero-image {
+            position: absolute;
+            inset: 0;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                to top,
+                rgba(0,0,0,0.85) 0%,
+                rgba(0,0,0,0.5) 50%,
+                rgba(0,0,0,0.2) 100%
+            );
+        }
+
+        .hero-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 4rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            background: var(--wgac-coral);
+            color: white;
+            padding: 0.35rem 0.75rem;
+            font-weight: 700;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 400;
+            line-height: 1.15;
+            max-width: 800px;
+            margin-bottom: 1.25rem;
+            color: white;
+        }
+
+        .hero-excerpt {
+            font-size: 1.15rem;
+            max-width: 600px;
+            color: rgba(255,255,255,0.85);
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+
+        .hero-meta {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.6);
+            font-weight: 500;
+        }
+
+        .hero-meta span {
+            margin-right: 1.5rem;
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 4rem 3rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--dark);
+        }
+
+        .section-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: var(--dark);
+        }
+
+        /* Featured Grid */
+        .featured-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2px;
+            background: var(--gray-200);
+            margin-bottom: 4rem;
+        }
+
+        .article-card {
+            background: white;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .article-card:hover {
+            background: var(--gray-100);
+        }
+
+        .article-card:hover .card-title {
+            color: var(--wgac-brown);
+        }
+
+        .article-card.featured {
+            grid-column: span 2;
+        }
+
+        .card-inner {
+            display: flex;
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .featured .card-inner {
+            flex-direction: row;
+        }
+
+        .card-image {
+            flex-shrink: 0;
+            overflow: hidden;
+        }
+
+        .featured .card-image {
+            width: 55%;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .featured .card-image img {
+            height: 350px;
+        }
+
+        .regular .card-image {
+            width: 200px;
+            height: 140px;
+        }
+
+        .card-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .card-tag {
+            display: inline-block;
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+            padding: 0.25rem 0.5rem;
+            color: var(--dark);
+        }
+
+        .tag-climate { background: var(--wgac-teal); color: white; }
+        .tag-health { background: var(--wgac-coral); color: white; }
+        .tag-science { background: var(--wgac-blue); color: white; }
+        .tag-people { background: var(--wgac-purple); color: white; }
+        .tag-wildlife { background: var(--wgac-pink); color: white; }
+        .tag-energy { background: var(--wgac-yellow); color: var(--dark); }
+
+        .card-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: var(--dark);
+            margin-bottom: 0.75rem;
+            line-height: 1.3;
+            transition: color 0.2s ease;
+        }
+
+        .featured .card-title {
+            font-size: 2rem;
+        }
+
+        .card-excerpt {
+            color: var(--gray-600);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .card-meta {
+            font-size: 0.75rem;
+            color: var(--gray-400);
+            font-weight: 500;
+        }
+
+        /* Stats Section */
+        .stats-section {
+            background: var(--dark);
+            padding: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 3rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            color: white;
+        }
+
+        .stat-number {
+            font-family: var(--font-display);
+            font-size: 3.5rem;
+            color: var(--wgac-green-light);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--gray-400);
+            font-weight: 500;
+        }
+
+        /* Three Column Grid */
+        .three-col-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2px;
+            background: var(--gray-200);
+            margin-bottom: 4rem;
+        }
+
+        .vertical-card {
+            background: white;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .vertical-card:hover {
+            background: var(--gray-100);
+        }
+
+        .vertical-card:hover .card-title {
+            color: var(--wgac-brown);
+        }
+
+        .vertical-card .card-image {
+            width: 100%;
+            height: 220px;
+        }
+
+        .vertical-card .card-content {
+            padding: 1.5rem;
+        }
+
+        .vertical-card .card-title {
+            font-size: 1.25rem;
+        }
+
+        /* Data Card */
+        .data-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2px;
+            background: var(--gray-200);
+            margin-bottom: 4rem;
+        }
+
+        .data-card {
+            background: var(--wgac-teal);
+            color: white;
+            padding: 3rem;
+        }
+
+        .data-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .data-subtitle {
+            opacity: 0.8;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+        }
+
+        .chart-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        .chart-row {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .chart-label {
+            width: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .chart-track {
+            flex: 1;
+            height: 28px;
+            background: rgba(255,255,255,0.2);
+        }
+
+        .chart-fill {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 0.75rem;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+
+        .fill-2024 { background: rgba(255,255,255,0.4); width: 60%; }
+        .fill-2025 { background: rgba(255,255,255,0.6); width: 75%; }
+        .fill-2026 { background: white; color: var(--wgac-teal); width: 90%; }
+
+        .quote-card {
+            background: var(--wgac-brown);
+            color: white;
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .quote-mark {
+            font-family: var(--font-display);
+            font-size: 5rem;
+            line-height: 0.5;
+            color: rgba(255,255,255,0.3);
+            margin-bottom: 1rem;
+        }
+
+        .quote-text {
+            font-family: var(--font-display);
+            font-size: 1.6rem;
+            font-style: italic;
+            line-height: 1.4;
+            margin-bottom: 1.5rem;
+        }
+
+        .quote-author {
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .quote-role {
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+
+        /* List Section */
+        .list-section {
+            margin-bottom: 4rem;
+        }
+
+        .list-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .list-item {
+            display: flex;
+            gap: 1.5rem;
+            padding: 1.5rem 1.5rem 1.5rem 0;
+            border-bottom: 1px solid var(--gray-200);
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .list-item:nth-child(odd) {
+            border-right: 1px solid var(--gray-200);
+            padding-left: 0;
+            padding-right: 1.5rem;
+        }
+
+        .list-item:nth-child(even) {
+            padding-left: 1.5rem;
+        }
+
+        .list-item:hover {
+            background: var(--gray-100);
+        }
+
+        .list-item:hover .list-title {
+            color: var(--wgac-brown);
+        }
+
+        .list-number {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            color: var(--wgac-teal);
+            line-height: 1;
+            flex-shrink: 0;
+            width: 50px;
+        }
+
+        .list-content {
+            flex: 1;
+        }
+
+        .list-tag {
+            display: inline-block;
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            background: var(--wgac-green-light);
+            color: var(--dark);
+            padding: 0.2rem 0.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .list-title {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            line-height: 1.35;
+            transition: color 0.2s ease;
+        }
+
+        /* Newsletter */
+        .newsletter {
+            background: var(--wgac-green-light);
+            padding: 4rem 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .newsletter-content {
+            max-width: 450px;
+        }
+
+        .newsletter h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: 0.75rem;
+            color: var(--dark);
+        }
+
+        .newsletter p {
+            color: var(--gray-600);
+            font-size: 0.95rem;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 0;
+        }
+
+        .newsletter-input {
+            padding: 1rem 1.25rem;
+            border: 2px solid var(--dark);
+            background: white;
+            font-size: 0.9rem;
+            font-family: var(--font-body);
+            width: 280px;
+        }
+
+        .newsletter-input:focus {
+            outline: none;
+            border-color: var(--wgac-brown);
+        }
+
+        .newsletter-button {
+            background: var(--dark);
+            color: white;
+            border: 2px solid var(--dark);
+            padding: 1rem 1.5rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            font-family: var(--font-body);
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .newsletter-button:hover {
+            background: var(--wgac-brown);
+            border-color: var(--wgac-brown);
+        }
+
+        /* Footer */
+        .site-footer {
+            background: var(--dark);
+            color: white;
+            padding: 4rem 3rem;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .footer-brand {
+            max-width: 350px;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: stretch;
+            font-family: var(--font-body);
+            font-size: 0.85rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            width: fit-content;
+        }
+
+        .footer-logo .logo-left {
+            background: white;
+            color: var(--dark);
+            padding: 0.4rem 0.6rem;
+        }
+
+        .footer-logo .logo-right {
+            background: var(--wgac-blue);
+            color: white;
+            padding: 0.4rem 0.6rem;
+        }
+
+        .footer-tagline {
+            font-size: 0.9rem;
+            color: var(--gray-400);
+            line-height: 1.6;
+        }
+
+        .footer-nav {
+            display: flex;
+            gap: 4rem;
+        }
+
+        .footer-col h4 {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--gray-400);
+            margin-bottom: 1rem;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-col a {
+            font-size: 0.9rem;
+            color: white;
+            opacity: 0.8;
+            transition: opacity 0.2s ease;
+        }
+
+        .footer-col a:hover {
+            opacity: 1;
+        }
+
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 3rem auto 0;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.8rem;
+            color: var(--gray-400);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .featured-grid,
+            .data-section {
+                grid-template-columns: 1fr;
+            }
+
+            .article-card.featured {
+                grid-column: span 1;
+            }
+
+            .featured .card-inner {
+                flex-direction: column;
+            }
+
+            .featured .card-image {
+                width: 100%;
+            }
+
+            .three-col-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .list-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .list-item:nth-child(odd) {
+                border-right: none;
+                padding-right: 0;
+            }
+
+            .list-item:nth-child(even) {
+                padding-left: 0;
+            }
+
+            .newsletter {
+                flex-direction: column;
+                gap: 2rem;
+                text-align: center;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                gap: 3rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-top {
+                padding: 1rem 1.5rem;
+            }
+
+            .main-nav {
+                flex-wrap: wrap;
+            }
+
+            .nav-link {
+                padding: 0.75rem 1rem;
+                font-size: 0.7rem;
+            }
+
+            .hero-content {
+                padding: 2rem 1.5rem;
+            }
+
+            .main-content {
+                padding: 2rem 1.5rem;
+            }
+
+            .regular .card-inner {
+                flex-direction: column;
+            }
+
+            .regular .card-image {
+                width: 100%;
+                height: 180px;
+            }
+
+            .newsletter-form {
+                flex-direction: column;
+            }
+
+            .newsletter-input {
+                width: 100%;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-top">
+            <a href="index.html" class="logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></a>
+            <div class="header-date">Wednesday, January 29, 2026</div>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link active">Today</a>
+            <a href="climate.html" class="nav-link">Climate</a>
+            <a href="health.html" class="nav-link">Health</a>
+            <a href="science.html" class="nav-link">Science</a>
+            <a href="people.html" class="nav-link">People</a>
+            <a href="wildlife.html" class="nav-link">Wildlife</a>
+            <a href="cats.html" class="nav-link">Cats</a>
+        </nav>
+    </header>
+
+    <!-- Ticker -->
+    <div class="ticker">
+        <div class="ticker-content">
+            🌍 Renewable energy hits 40% of global electricity! <span class="ticker-divider"></span>
+            🧬 Gene therapy slows Huntington's by 75% <span class="ticker-divider"></span>
+            🐝 Amazon bees granted legal rights (!!!) <span class="ticker-divider"></span>
+            🦅 Knepp Estate sees 900% bird increase <span class="ticker-divider"></span>
+            👁️ "Untreatable" blindness treated for first time <span class="ticker-divider"></span>
+            🚗 Norway hits 90% EV sales <span class="ticker-divider"></span>
+            🌊 Global Ocean Treaty now in force <span class="ticker-divider"></span>
+            🐻 South Korea ends bear bile farming forever <span class="ticker-divider"></span>
+            🎉 US murder rate sees sharpest drop EVER <span class="ticker-divider"></span>
+            🌍 Renewable energy hits 40% of global electricity! <span class="ticker-divider"></span>
+            🧬 Gene therapy slows Huntington's by 75% <span class="ticker-divider"></span>
+            🐝 Amazon bees granted legal rights (!!!) <span class="ticker-divider"></span>
+            🦅 Knepp Estate sees 900% bird increase <span class="ticker-divider"></span>
+            👁️ "Untreatable" blindness treated for first time <span class="ticker-divider"></span>
+            🚗 Norway hits 90% EV sales <span class="ticker-divider"></span>
+            🌊 Global Ocean Treaty now in force <span class="ticker-divider"></span>
+            🐻 South Korea ends bear bile farming forever <span class="ticker-divider"></span>
+            🎉 US murder rate sees sharpest drop EVER <span class="ticker-divider"></span>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <a href="articles/huntingtons-gene-therapy.html" class="hero">
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=80" alt="Scientists in laboratory">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-tag">Health</span>
+            <h1 class="hero-title">Gene Therapy Just Crushed Huntington's Disease By 75%</h1>
+            <p class="hero-excerpt">In what scientists are calling "a watershed moment," the first gene therapy for Huntington's disease has shown striking results, slowing cognitive decline by 75%. This is the kind of news that changes lives.</p>
+            <div class="hero-meta">
+                <span>By Jean Poole</span>
+                <span>8 min read</span>
+            </div>
+        </div>
+    </a>
+
+    <!-- Stats -->
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">40%</div>
+                <div class="stat-label">Global electricity from renewables</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">16,000+</div>
+                <div class="stat-label">New species discovered this year</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">80%</div>
+                <div class="stat-label">Countries with reduced poverty</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">2B+</div>
+                <div class="stat-label">Cat videos watched daily (roughly)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="section-header">
+            <h2 class="section-title">Today's Stories</h2>
+        </div>
+
+        <div class="featured-grid">
+            <a href="articles/wind-power-uk.html" class="article-card featured">
+                <div class="card-inner">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80" alt="Wind turbines">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tag tag-climate">Climate</div>
+                        <h3 class="card-title">Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                        <p class="card-excerpt">Turns out those giant spinny things actually do something. New analysis shows UK windfarms reduced electricity prices by roughly one-third in 2025. Without wind, power would have cost £121/MWh instead of £83/MWh. That's real money in real pockets.</p>
+                        <div class="card-meta">By Gusty Winds · 5 min read</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="articles/amazon-bees-rights.html" class="article-card regular">
+                <div class="card-inner">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=800&q=80" alt="Bees">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tag tag-wildlife">Wildlife</div>
+                        <h3 class="card-title">Amazon Bees Just Became the First Insects With Legal Rights</h3>
+                        <p class="card-excerpt">Stingless bees, cultivated by Indigenous peoples for millennia, are now legally protected.</p>
+                        <div class="card-meta">By Polly Nation · 4 min read</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="articles/blindness-treatment.html" class="article-card regular">
+                <div class="card-inner">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80" alt="Medical research">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tag tag-health">Health</div>
+                        <h3 class="card-title">"Untreatable" Blindness Just Got Treated For the First Time</h3>
+                        <p class="card-excerpt">Moorfields Eye Hospital cracked the code on hypotony. Seven of eight patients saw improvement.</p>
+                        <div class="card-meta">By Iris Clearwater · 6 min read</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Three Column Grid -->
+        <div class="section-header">
+            <h2 class="section-title">More Good News</h2>
+        </div>
+
+        <div class="three-col-grid">
+            <a href="articles/chile-nature-reserve.html" class="vertical-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Patagonia landscape">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag tag-climate">Climate</div>
+                    <h3 class="card-title">Chile's "End of the World" Is Becoming a Giant Nature Reserve</h3>
+                    <p class="card-excerpt">150,000 hectares of pumas, whales, and subantarctic forests will be protected at Cape Froward.</p>
+                    <div class="card-meta">By Pat Agonia · 5 min read</div>
+                </div>
+            </a>
+
+            <a href="articles/diesel-decline.html" class="vertical-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80" alt="Electric vehicle charging">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag tag-climate">Climate</div>
+                    <h3 class="card-title">Diesel Cars Are Now Officially In "Terminal Decline"</h3>
+                    <p class="card-excerpt">From 9.9 million to under 250,000 by 2035. EVs will outnumber diesel by 2030.</p>
+                    <div class="card-meta">By Ev Lution · 4 min read</div>
+                </div>
+            </a>
+
+            <a href="articles/bear-bile-farming.html" class="vertical-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?w=800&q=80" alt="Moon bear">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag tag-wildlife">Wildlife</div>
+                    <h3 class="card-title">South Korea Ends Bear Bile Farming Forever</h3>
+                    <p class="card-excerpt">Moon bears will no longer be bred and kept in tiny cages. The cruel practice is finally over.</p>
+                    <div class="card-meta">By Barry Freed · 4 min read</div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Data Section -->
+        <div class="data-section">
+            <div class="data-card">
+                <h3>Global Renewable Energy</h3>
+                <p class="data-subtitle">Share of global electricity from clean sources</p>
+                <div class="chart-bars">
+                    <div class="chart-row">
+                        <span class="chart-label">2024</span>
+                        <div class="chart-track">
+                            <div class="chart-fill fill-2024">32%</div>
+                        </div>
+                    </div>
+                    <div class="chart-row">
+                        <span class="chart-label">2025</span>
+                        <div class="chart-track">
+                            <div class="chart-fill fill-2025">36%</div>
+                        </div>
+                    </div>
+                    <div class="chart-row">
+                        <span class="chart-label">2026</span>
+                        <div class="chart-track">
+                            <div class="chart-fill fill-2026">40%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quote-card">
+                <div class="quote-mark">"</div>
+                <p class="quote-text">The evidence suggests that moral decline is not happening. Society is not getting worse—we just notice bad news more.</p>
+                <p class="quote-author">Dr. Paul Hanel</p>
+                <p class="quote-role">Psychology Researcher</p>
+            </div>
+        </div>
+
+        <!-- List Section -->
+        <div class="section-header">
+            <h2 class="section-title">More Reasons to Be Cheerful</h2>
+        </div>
+
+        <div class="list-section">
+            <div class="list-grid">
+                <a href="articles/crispr-baby.html" class="list-item">
+                    <div class="list-number">01</div>
+                    <div class="list-content">
+                        <div class="list-tag">Science</div>
+                        <h4 class="list-title">CRISPR-Edited Baby KJ Is Now Walking and Thriving After "Impossible" Cure</h4>
+                    </div>
+                </a>
+
+                <a href="articles/ocean-treaty.html" class="list-item">
+                    <div class="list-number">02</div>
+                    <div class="list-content">
+                        <div class="list-tag">Climate</div>
+                        <h4 class="list-title">Global Ocean Treaty Now Protects International Waters—84 Countries Signed</h4>
+                    </div>
+                </a>
+
+                <a href="articles/france-forever-chemicals.html" class="list-item">
+                    <div class="list-number">03</div>
+                    <div class="list-content">
+                        <div class="list-tag">People</div>
+                        <h4 class="list-title">France Bans "Forever Chemicals" After 140,000 Citizens Pushed for Change</h4>
+                    </div>
+                </a>
+
+                <a href="articles/knepp-rewilding.html" class="list-item">
+                    <div class="list-number">04</div>
+                    <div class="list-content">
+                        <div class="list-tag">Wildlife</div>
+                        <h4 class="list-title">Knepp Rewilding Estate Sees 900% More Birds After Just 20 Years</h4>
+                    </div>
+                </a>
+
+                <a href="articles/mrna-cancer.html" class="list-item">
+                    <div class="list-number">05</div>
+                    <div class="list-content">
+                        <div class="list-tag">Health</div>
+                        <h4 class="list-title">mRNA Cancer Vaccines Now Working Against "Untreatable" Pancreatic Tumors</h4>
+                    </div>
+                </a>
+
+                <a href="articles/murder-rate-drop.html" class="list-item">
+                    <div class="list-number">06</div>
+                    <div class="list-content">
+                        <div class="list-tag">People</div>
+                        <h4 class="list-title">US Experiences Sharpest Ever Fall in Murder Rates During 2025</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>Get the Good Stuff Daily</h2>
+                <p>One email a day with stories that matter. No doom-scrolling required.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="your@email.com" required>
+                <button type="submit" class="newsletter-button">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></div>
+                <p class="footer-tagline">Doom-scrolling is so last decade. We bring you the breakthroughs, the victories, and the genuinely good stuff happening in the world.</p>
+            </div>
+            <nav class="footer-nav">
+                <div class="footer-col">
+                    <h4>Sections</h4>
+                    <ul>
+                        <li><a href="climate.html">Climate</a></li>
+                        <li><a href="health.html">Health</a></li>
+                        <li><a href="science.html">Science</a></li>
+                        <li><a href="people.html">People</a></li>
+                        <li><a href="wildlife.html">Wildlife</a></li>
+                        <li><a href="cats.html">Cats</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            © 2026 News That's Not Crap. All the good vibes reserved.
+        </div>
+    </footer>
+
+    <!-- Easter Eggs -->
+    <div id="easter-egg-overlay" style="display:none; position:fixed; inset:0; background:var(--wgac-blue); z-index:9999; flex-direction:column; align-items:center; justify-content:center; cursor:pointer;">
+        <div style="font-size:5rem; margin-bottom:1rem;">🎉</div>
+        <div style="font-family:var(--font-display); font-size:3rem; color:white; text-align:center; padding:0 2rem;">You found a secret!</div>
+        <div style="color:rgba(255,255,255,0.8); margin-top:1rem; font-size:1.1rem;">The world is getting better. Pass it on.</div>
+        <div style="color:rgba(255,255,255,0.5); margin-top:2rem; font-size:0.8rem;">(click anywhere to close)</div>
+    </div>
+
+    <style>
+        /* Cat confetti animation */
+        @keyframes cat-fall {
+            0% { transform: translateY(-100vh) rotate(0deg) scale(0.5); opacity: 0; }
+            10% { opacity: 1; }
+            100% { transform: translateY(100vh) rotate(720deg) scale(1.2); opacity: 0.8; }
+        }
+        @keyframes cat-fall-wobble {
+            0% { transform: translateY(-100vh) rotate(-20deg) scale(0.8); opacity: 0; }
+            10% { opacity: 1; }
+            25% { transform: translateY(25vh) rotate(20deg) scale(1); }
+            50% { transform: translateY(50vh) rotate(-20deg) scale(1.1); }
+            75% { transform: translateY(75vh) rotate(20deg) scale(1); }
+            100% { transform: translateY(100vh) rotate(-20deg) scale(0.9); opacity: 0.5; }
+        }
+        .cat-confetti {
+            position: fixed;
+            top: 0;
+            z-index: 10000;
+            pointer-events: none;
+            font-size: 2rem;
+            filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
+        }
+        .cat-confetti.wobble {
+            animation: cat-fall-wobble 4s ease-in-out forwards;
+        }
+        .cat-confetti.spin {
+            animation: cat-fall 3s ease-out forwards;
+        }
+    </style>
+
+    <script>
+        // Console message
+        console.log('%c🎉 NEWS THAT\'S NOT CRAP 🎉', 'font-size: 24px; font-weight: bold; color: #4368ff;');
+        console.log('%cThanks for inspecting! Here\'s a secret: try the Konami code (↑↑↓↓←→←→BA)', 'font-size: 12px; color: #666;');
+        console.log('%cAlso try clicking the logo 5 times...', 'font-size: 12px; color: #666;');
+
+        // Konami Code Easter Egg
+        const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'KeyB', 'KeyA'];
+        let konamiIndex = 0;
+
+        document.addEventListener('keydown', (e) => {
+            if (e.code === konamiCode[konamiIndex]) {
+                konamiIndex++;
+                if (konamiIndex === konamiCode.length) {
+                    triggerCatExplosion();
+                    konamiIndex = 0;
+                }
+            } else {
+                konamiIndex = 0;
+            }
+        });
+
+        function triggerCatExplosion() {
+            const cats = ['🐱', '🐈', '😺', '😸', '😹', '😻', '😼', '😽', '🙀', '😿', '😾', '🐈‍⬛', '🐾', '🧶', '🐟', '🥛'];
+            const animations = ['wobble', 'spin'];
+
+            // Play a "meow" in console
+            console.log('%c😺 MEOW! You found the cat explosion! 😺', 'font-size: 20px; color: #e84393;');
+
+            // Create LOTS of cats
+            for (let i = 0; i < 300; i++) {
+                setTimeout(() => {
+                    const cat = document.createElement('div');
+                    cat.className = 'cat-confetti ' + animations[Math.floor(Math.random() * animations.length)];
+                    cat.textContent = cats[Math.floor(Math.random() * cats.length)];
+                    cat.style.left = Math.random() * 100 + 'vw';
+                    cat.style.fontSize = (Math.random() * 2 + 1.5) + 'rem';
+                    cat.style.animationDuration = (Math.random() * 3 + 2) + 's';
+                    cat.style.animationDelay = (Math.random() * 0.5) + 's';
+                    document.body.appendChild(cat);
+                    setTimeout(() => cat.remove(), 6000);
+                }, i * 15);
+            }
+
+            // Add some extra big cats for drama
+            for (let i = 0; i < 20; i++) {
+                setTimeout(() => {
+                    const bigCat = document.createElement('div');
+                    bigCat.className = 'cat-confetti spin';
+                    bigCat.textContent = ['🐱', '😺', '🐈'][Math.floor(Math.random() * 3)];
+                    bigCat.style.left = Math.random() * 100 + 'vw';
+                    bigCat.style.fontSize = (Math.random() * 3 + 4) + 'rem';
+                    bigCat.style.animationDuration = (Math.random() * 2 + 3) + 's';
+                    document.body.appendChild(bigCat);
+                    setTimeout(() => bigCat.remove(), 6000);
+                }, i * 100 + 500);
+            }
+        }
+
+        // Logo click Easter Egg
+        let logoClicks = 0;
+        const logo = document.querySelector('.logo');
+        if (logo) {
+            logo.addEventListener('click', (e) => {
+                logoClicks++;
+                if (logoClicks === 5) {
+                    e.preventDefault();
+                    document.getElementById('easter-egg-overlay').style.display = 'flex';
+                    logoClicks = 0;
+                }
+            });
+        }
+
+        // Close overlay
+        document.getElementById('easter-egg-overlay').addEventListener('click', function() {
+            this.style.display = 'none';
+        });
+
+        // Random "good vibes" cursor trail (subtle)
+        const vibes = ['✨', '💫', '🌟'];
+        document.addEventListener('click', (e) => {
+            if (Math.random() > 0.85) { // 15% chance
+                const vibe = document.createElement('div');
+                vibe.textContent = vibes[Math.floor(Math.random() * vibes.length)];
+                vibe.style.cssText = `position:fixed; left:${e.clientX}px; top:${e.clientY}px; pointer-events:none; font-size:1.5rem; z-index:9999; animation: float-up 1s ease-out forwards;`;
+                document.body.appendChild(vibe);
+                setTimeout(() => vibe.remove(), 1000);
+            }
+        });
+    </script>
+    <style>
+        @keyframes float-up {
+            0% { opacity: 1; transform: translateY(0) scale(1); }
+            100% { opacity: 0; transform: translateY(-50px) scale(1.5); }
+        }
+    </style>
+</body>
+</html>

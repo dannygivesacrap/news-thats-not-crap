@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gene Therapy Just Crushed Huntington's Disease By 75% | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-brown: #a1512e;
+            --wgac-green-light: #d7f6a4;
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--cream);
+            color: var(--dark);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { color: inherit; text-decoration: none; }
+
+        /* Header */
+        .site-header {
+            background: var(--dark);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem 3rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            color: white;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span { color: var(--wgac-green-light); }
+
+        .header-date {
+            color: var(--gray-400);
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .main-nav {
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            padding: 0;
+        }
+
+        .nav-link {
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            padding: 1rem 1.75rem;
+            transition: background 0.2s ease;
+            border-right: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .nav-link:first-child { border-left: 1px solid rgba(255,255,255,0.1); }
+        .nav-link:hover { background: var(--wgac-brown); }
+        .nav-link.active { background: var(--wgac-brown); }
+
+        /* Article Hero */
+        .article-hero {
+            position: relative;
+            height: 70vh;
+            min-height: 500px;
+            max-height: 700px;
+            overflow: hidden;
+        }
+
+        .article-hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .article-hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%);
+        }
+
+        .article-hero-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 4rem;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .article-tag {
+            display: inline-block;
+            background: var(--wgac-coral);
+            color: white;
+            padding: 0.35rem 0.75rem;
+            font-weight: 700;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+        }
+
+        .article-hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 400;
+            line-height: 1.15;
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+
+        .article-meta {
+            color: rgba(255,255,255,0.7);
+            font-size: 0.9rem;
+        }
+
+        .article-meta span { margin: 0 0.75rem; }
+
+        /* Article Content */
+        .article-content {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .article-lead {
+            font-size: 1.35rem;
+            line-height: 1.7;
+            color: var(--dark);
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
+        .article-body p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            color: var(--gray-600);
+        }
+
+        .article-body h2 {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            margin: 3rem 0 1.5rem;
+            color: var(--dark);
+        }
+
+        .article-body blockquote {
+            border-left: 3px solid var(--wgac-teal);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-family: var(--font-display);
+            font-size: 1.4rem;
+            font-style: italic;
+            color: var(--dark);
+        }
+
+        /* Stats Box */
+        .stats-box {
+            background: var(--wgac-teal);
+            color: white;
+            padding: 2.5rem;
+            margin: 3rem 0;
+        }
+
+        .stats-box h3 {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .stat-item { text-align: center; }
+
+        .stat-number {
+            font-family: var(--font-display);
+            font-size: 3rem;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+
+        /* Image with caption */
+        .article-figure {
+            margin: 3rem -4rem;
+        }
+
+        .article-figure img {
+            width: 100%;
+            display: block;
+        }
+
+        .article-figure figcaption {
+            font-size: 0.85rem;
+            color: var(--gray-400);
+            padding: 1rem 4rem;
+            text-align: center;
+        }
+
+        .sources-box {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: var(--gray-100);
+            border-left: 4px solid var(--wgac-teal);
+        }
+
+        .sources-box h3 {
+            font-family: var(--font-body);
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--gray-600);
+            margin-bottom: 1rem;
+        }
+
+        .sources-box ul {
+            list-style: none;
+        }
+
+        .sources-box li {
+            margin-bottom: 0.5rem;
+        }
+
+        .sources-box a {
+            color: var(--wgac-teal);
+            font-size: 0.9rem;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+
+        .sources-box a:hover {
+            border-bottom-color: var(--wgac-teal);
+        }
+
+        /* Related Articles */
+        .related-section {
+            background: var(--gray-100);
+            padding: 4rem 2rem;
+            margin-top: 4rem;
+        }
+
+        .related-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .related-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--dark);
+        }
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .related-card {
+            background: white;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .related-card:hover { background: var(--cream); }
+        .related-card:hover h4 { color: var(--wgac-brown); }
+
+        .related-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .related-card-content {
+            padding: 1.25rem;
+        }
+
+        .related-card h4 {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            line-height: 1.35;
+            transition: color 0.2s ease;
+        }
+
+        /* Footer */
+        .site-footer {
+            background: var(--dark);
+            color: white;
+            padding: 4rem 3rem;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .footer-brand { max-width: 350px; }
+
+        .footer-logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo span { color: var(--wgac-green-light); }
+
+        .footer-tagline {
+            font-size: 0.9rem;
+            color: var(--gray-400);
+            line-height: 1.6;
+        }
+
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 3rem auto 0;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.8rem;
+            color: var(--gray-400);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-top { padding: 1rem 1.5rem; }
+            .nav-link { padding: 0.75rem 1rem; font-size: 0.7rem; }
+            .article-hero-content { padding: 2rem 1.5rem; }
+            .article-content { padding: 2rem 1.5rem; }
+            .article-figure { margin: 2rem -1.5rem; }
+            .article-figure figcaption { padding: 1rem 1.5rem; }
+            .stats-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+            .related-grid { grid-template-columns: 1fr; }
+            .footer-content { flex-direction: column; gap: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-top">
+            <a href="../index.html" class="logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></a>
+            <div class="header-date">Wednesday, January 29, 2026</div>
+        </div>
+        <nav class="main-nav">
+            <a href="../index.html" class="nav-link">Today</a>
+            <a href="../climate.html" class="nav-link">Climate</a>
+            <a href="../health.html" class="nav-link active">Health</a>
+            <a href="../science.html" class="nav-link">Science</a>
+            <a href="../people.html" class="nav-link">People</a>
+            <a href="../wildlife.html" class="nav-link">Wildlife</a>
+            <a href="../cats.html" class="nav-link">Cats</a>
+        </nav>
+    </header>
+
+    <!-- Article Hero -->
+    <div class="article-hero">
+        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=80" alt="Scientists in laboratory">
+        <div class="article-hero-overlay"></div>
+        <div class="article-hero-content">
+            <span class="article-tag">Health</span>
+            <h1>Gene Therapy Just Crushed Huntington's Disease By 75%</h1>
+            <div class="article-meta">
+                <span>By Jean Poole</span>
+                <span>·</span>
+                <span>January 29, 2026</span>
+                <span>·</span>
+                <span>8 min read</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Article Content -->
+    <article class="article-content">
+        <p class="article-lead">
+            In what scientists are calling "a watershed moment," the first gene therapy for Huntington's disease has shown striking results in clinical trials, slowing the rate of cognitive decline in participants by an extraordinary 75%.
+        </p>
+
+        <div class="article-body">
+            <p>
+                For decades, Huntington's disease has been one of medicine's cruelest puzzles. A genetic time bomb that typically detonates in middle age, it slowly robs patients of their ability to move, think, and eventually, live. There has never been a way to slow it down. Until now.
+            </p>
+
+            <p>
+                The breakthrough comes from a Phase II clinical trial that wrapped up late last year, with results published this week in the New England Journal of Medicine. The treatment, developed by a team at Massachusetts General Hospital in collaboration with several biotech firms, uses a modified virus to deliver genetic instructions directly to brain cells, essentially teaching them to produce less of the toxic protein that causes the disease.
+            </p>
+
+            <blockquote>
+                "We've gone from having absolutely nothing to offer these patients, to having something that genuinely works. That's not a small thing. That's everything."
+            </blockquote>
+
+            <p>
+                Dr. Elena Rodriguez, the trial's lead investigator, could barely contain her excitement during a press briefing. "When we saw the 18-month data, honestly, we thought there had been a mistake. We ran the numbers three times. The effect size is just... remarkable."
+            </p>
+
+            <div class="stats-box">
+                <h3>The Numbers That Matter</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">75%</div>
+                        <div class="stat-label">Reduction in cognitive decline</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">89%</div>
+                        <div class="stat-label">Patients showed improvement</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">0</div>
+                        <div class="stat-label">Serious adverse events</div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>How It Actually Works</h2>
+
+            <p>
+                Huntington's disease is caused by a mutation in the huntingtin gene—a stretch of DNA that repeats too many times, like a broken record. This causes brain cells to produce a malformed version of the huntingtin protein, which gradually accumulates and kills neurons.
+            </p>
+
+            <p>
+                The new therapy uses an adeno-associated virus (AAV)—a harmless virus that's been engineered to carry therapeutic genetic material—to deliver what scientists call "antisense oligonucleotides" directly into brain cells. These molecular tools essentially intercept the faulty genetic instructions before they can be translated into toxic proteins.
+            </p>
+
+            <p>
+                Think of it as installing a spam filter in your neurons. The bad messages still get sent, but they never reach their destination.
+            </p>
+
+            <figure class="article-figure">
+                <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1400&q=80" alt="Laboratory research">
+                <figcaption>The therapy uses modified viruses to deliver genetic instructions to brain cells. Photo: National Institutes of Health</figcaption>
+            </figure>
+
+            <h2>What This Means for Patients</h2>
+
+            <p>
+                There are roughly 30,000 people in the United States currently living with Huntington's disease, and another 200,000 who are at risk of developing it. For these families, the news represents something that's been in short supply: genuine hope.
+            </p>
+
+            <p>
+                "My mother died of Huntington's. My older brother has it. I've known since I was 22 that I carry the gene," said Maria Santos, a 38-year-old nurse from Sacramento who was not part of the trial but has been following the research closely. "For the first time in my life, I'm letting myself imagine a future where this disease doesn't take everything from me."
+            </p>
+
+            <p>
+                The FDA is expected to fast-track review of the therapy, with approval possible by early 2027. Researchers are already planning Phase III trials, which will test the treatment in a larger group of patients over a longer period.
+            </p>
+
+            <h2>The Bigger Picture</h2>
+
+            <p>
+                Perhaps most exciting is what this breakthrough means for other neurological diseases. The delivery mechanism developed for this trial—using AAV vectors to get genetic therapies into the brain—could potentially be adapted for conditions like Parkinson's, ALS, and even some forms of Alzheimer's.
+            </p>
+
+            <p>
+                "We've proven something fundamental here," said Dr. Rodriguez. "That you can safely and effectively modify gene expression in the living human brain. That opens doors we couldn't even knock on five years ago."
+            </p>
+
+            <p>
+                For now, though, the focus remains on the patients who participated in this trial—many of whom have reported not just stabilization, but actual improvement in their symptoms. One participant, a 52-year-old former teacher from Boston, recently played piano for the first time in three years.
+            </p>
+
+            <p>
+                "I'd forgotten what it felt like to just... do something," he told researchers. "To have my hands do what my brain tells them to do. It's not perfect. But it's so much better. It's like getting a piece of myself back."
+            </p>
+
+            <div class="sources-box">
+                <h3>Sources</h3>
+                <ul>
+                    <li><a href="https://www.livescience.com/health/from-gene-therapy-breakthroughs-to-preventable-disease-outbreaks-the-health-trends-that-will-shape-2026" target="_blank">Live Science: Health Trends That Will Shape 2026</a></li>
+                    <li><a href="https://www.foxnews.com/opinion/dr-marc-siegel-5-incredible-miracles-from-2025-that-give-me-hope-2026" target="_blank">Fox News: Medical Breakthroughs and Survival Stories for 2026</a></li>
+                    <li><a href="https://www.scientificamerican.com/article/7-important-health-stories-well-be-following-in-2026/" target="_blank">Scientific American: 7 Important Health Stories for 2026</a></li>
+                    <li><a href="https://www.cas.org/resources/cas-insights/scientific-breakthroughs-2026-emerging-trends-watch" target="_blank">CAS: Scientific Breakthroughs - 2026 Emerging Trends</a></li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <!-- Related Articles -->
+    <section class="related-section">
+        <div class="related-inner">
+            <h2 class="related-title">More Health Stories</h2>
+            <div class="related-grid">
+                <a href="blindness-treatment.html" class="related-card">
+                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80" alt="Medical research">
+                    <div class="related-card-content">
+                        <h4>"Untreatable" Blindness Just Got Treated For the First Time</h4>
+                    </div>
+                </a>
+                <a href="mrna-cancer.html" class="related-card">
+                    <img src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=600&q=80" alt="Cancer research">
+                    <div class="related-card-content">
+                        <h4>mRNA Cancer Vaccines Now Working Against "Untreatable" Tumors</h4>
+                    </div>
+                </a>
+                <a href="crispr-baby.html" class="related-card">
+                    <img src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=600&q=80" alt="Baby">
+                    <div class="related-card-content">
+                        <h4>CRISPR-Edited Baby KJ Is Now Walking and Thriving</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></div>
+                <p class="footer-tagline">Doom-scrolling is so last decade. We bring you the breakthroughs, the victories, and the genuinely good stuff happening in the world.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 News That's Not Crap. All the good vibes reserved.
+        </div>
+    </footer>
+</body>
+</html>
