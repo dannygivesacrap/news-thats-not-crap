@@ -53,5 +53,4 @@ jobs:
           git config user.email "bot@news-thats-not-crap.com"
           git add -A
           git diff --staged --quiet || git commit -m "🗞️ Daily news update - $(date +'%B %d, %Y')"
-          git pull --rebase
-          git push
+          git push --force
