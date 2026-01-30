@@ -163,9 +163,9 @@
         /* Hero Section */
         .hero {
             position: relative;
-            height: 80vh;
-            min-height: 550px;
-            max-height: 800px;
+            height: 70vh;
+            min-height: 450px;
+            max-height: 650px;
             overflow: hidden;
         }
 
@@ -196,7 +196,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            padding: 4rem;
+            padding: 3rem 4rem;
             max-width: 1400px;
             margin: 0 auto;
         }
@@ -246,7 +246,7 @@
         .main-content {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 4rem 3rem;
+            padding: 2rem 3rem 4rem;
         }
 
         .section-header {
@@ -270,7 +270,7 @@
             grid-template-columns: 1fr 1fr;
             gap: 2px;
             background: var(--gray-200);
-            margin-bottom: 4rem;
+            margin-bottom: 3rem;
         }
 
         .article-card {
@@ -381,8 +381,8 @@
         /* Stats Section */
         .stats-section {
             background: var(--dark);
-            padding: 3rem;
-            margin-bottom: 4rem;
+            padding: 2rem 3rem;
+            margin-bottom: 0;
         }
 
         .stats-grid {
@@ -416,7 +416,7 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 2px;
             background: var(--gray-200);
-            margin-bottom: 4rem;
+            margin-bottom: 3rem;
         }
 
         .vertical-card {
@@ -452,7 +452,7 @@
             grid-template-columns: 1fr 1fr;
             gap: 2px;
             background: var(--gray-200);
-            margin-bottom: 4rem;
+            margin-bottom: 3rem;
         }
 
         .data-card {
@@ -548,7 +548,7 @@
 
         /* List Section */
         .list-section {
-            margin-bottom: 4rem;
+            margin-bottom: 3rem;
         }
 
         .list-grid {
@@ -620,11 +620,11 @@
         /* Newsletter */
         .newsletter {
             background: var(--wgac-green-light);
-            padding: 4rem 3rem;
+            padding: 3rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 4rem;
+            margin-bottom: 0;
         }
 
         .newsletter-content {
@@ -768,6 +768,15 @@
             border-top: 1px solid rgba(255,255,255,0.1);
             font-size: 0.8rem;
             color: var(--gray-400);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-update {
+            font-size: 0.7rem;
+            opacity: 0.6;
+            letter-spacing: 0.5px;
         }
 
         /* Responsive */
@@ -870,6 +879,98 @@
                 font-size: 2.5rem;
             }
         }
+
+        /* Stop Scrolling Section */
+        .stop-scrolling {
+            position: relative;
+        }
+
+        .stop-stage {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 4rem 2rem;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        .stop-stage.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .stop-stage[data-stage="1"] {
+            background: var(--wgac-green-light);
+        }
+
+        .stop-stage[data-stage="2"] {
+            background: var(--wgac-teal);
+            color: white;
+        }
+
+        .stop-stage[data-stage="3"] {
+            background: var(--wgac-coral);
+            color: white;
+        }
+
+        .stop-stage[data-stage="4"] {
+            background: var(--dark);
+            color: white;
+        }
+
+        .stop-stage[data-stage="5"] {
+            background: black;
+            min-height: 150vh;
+        }
+
+        .stop-content {
+            max-width: 600px;
+        }
+
+        .stop-content h2 {
+            font-family: var(--font-display);
+            font-size: clamp(3rem, 8vw, 6rem);
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+        }
+
+        .stop-content p {
+            font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            opacity: 0.9;
+        }
+
+        .stop-content .stop-small {
+            font-size: 1rem;
+            opacity: 0.7;
+            margin-top: 2rem;
+        }
+
+        .stop-blackout {
+            position: relative;
+        }
+
+        .stop-blackout::after {
+            content: "fin.";
+            position: absolute;
+            bottom: 20vh;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: var(--font-display);
+            font-style: italic;
+            font-size: 1.5rem;
+            color: rgba(255,255,255,0.1);
+            opacity: 0;
+            transition: opacity 2s ease;
+        }
+
+        .stop-blackout.visible::after {
+            opacity: 1;
+        }
     </style>
 </head>
 <body>
@@ -955,10 +1056,6 @@
 
     <!-- Main Content -->
     <main class="main-content">
-        <div class="section-header">
-            <h2 class="section-title">Today's Stories</h2>
-        </div>
-
         <div class="featured-grid">
             <a href="articles/wind-power-uk.html" class="article-card featured">
                 <div class="card-inner">
@@ -1173,18 +1270,49 @@
                 <div class="footer-col">
                     <h4>About</h4>
                     <ul>
-                        <li><a href="#">Our Mission</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Advertise</a></li>
+                        <li><a href="mission.html">Our Mission</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <div class="footer-bottom">
-            © 2026 News That's Not Crap. All the good vibes reserved.
+            <span>© 2026 News That's Not Crap. All the good vibes reserved.</span>
+            <span class="footer-update">Updated daily at 6am Eastern</span>
         </div>
     </footer>
+
+    <!-- Stop Scrolling Section -->
+    <section class="stop-scrolling" id="stop-scrolling">
+        <div class="stop-stage" data-stage="1">
+            <div class="stop-content">
+                <h2>Hey.</h2>
+                <p>You can stop scrolling now.</p>
+            </div>
+        </div>
+        <div class="stop-stage" data-stage="2">
+            <div class="stop-content">
+                <h2>No, seriously.</h2>
+                <p>Stop scrolling. Go outside. Touch some grass. Pet a dog. Call your mom.</p>
+            </div>
+        </div>
+        <div class="stop-stage" data-stage="3">
+            <div class="stop-content">
+                <h2>Still here?</h2>
+                <p>Look, most companies want you to scroll forever. We don't. We want you to enjoy life. Real life. The one in 3D, with smells and textures and people you can hug.</p>
+                <p class="stop-small">So we're saying goodbye now.</p>
+            </div>
+        </div>
+        <div class="stop-stage" data-stage="4">
+            <div class="stop-content">
+                <h2>Bye! 👋</h2>
+                <p>The world is getting better. Now go be part of it.</p>
+            </div>
+        </div>
+        <div class="stop-stage stop-blackout" data-stage="5">
+        </div>
+    </section>
 
     <!-- Easter Eggs -->
     <div id="easter-egg-overlay" style="display:none; position:fixed; inset:0; background:var(--wgac-blue); z-index:9999; flex-direction:column; align-items:center; justify-content:center; cursor:pointer;">
@@ -1313,6 +1441,27 @@
                 document.body.appendChild(vibe);
                 setTimeout(() => vibe.remove(), 1000);
             }
+        });
+
+        // Stop Scrolling Section - scroll-triggered animations
+        const stopStages = document.querySelectorAll('.stop-stage');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.3
+        };
+
+        const stageObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        stopStages.forEach(stage => {
+            stageObserver.observe(stage);
         });
     </script>
     <style>

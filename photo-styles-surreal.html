@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surreal & Color Block Styles | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-brown: #a1512e;
+            --wgac-green-light: #d7f6a4;
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --wgac-yellow: #f0c808;
+            --wgac-pink: #ff6b9d;
+            --wgac-purple: #9b59b6;
+            --wgac-orange: #ff9f43;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--cream); color: var(--dark); line-height: 1.6; }
+
+        .page-header {
+            background: linear-gradient(135deg, #ff6b9d 0%, #ffd93d 50%, #6bcb77 100%);
+            color: var(--dark);
+            padding: 4rem 3rem;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-family: var(--font-display);
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .page-header p {
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+
+        .style-section {
+            padding: 5rem 3rem;
+            border-bottom: 4px solid var(--dark);
+        }
+
+        .style-header {
+            max-width: 1200px;
+            margin: 0 auto 3rem;
+        }
+
+        .style-number {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--wgac-coral);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+        }
+
+        .style-header h2 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .style-header p {
+            color: var(--gray-600);
+            max-width: 600px;
+            font-size: 1.05rem;
+        }
+
+        .card-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.5rem;
+        }
+
+        .demo-card {
+            position: relative;
+            overflow: visible;
+        }
+
+        .demo-card-image {
+            height: 280px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .demo-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .demo-card-content {
+            padding: 1.5rem;
+            background: white;
+        }
+
+        .demo-card-tag {
+            display: inline-block;
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 0.25rem 0.6rem;
+            background: var(--dark);
+            color: white;
+            margin-bottom: 0.75rem;
+        }
+
+        .demo-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.15rem;
+            line-height: 1.3;
+        }
+
+        /* ============================================
+           STYLE 1: Color Block Cutouts
+           Toilet Paper Magazine inspired
+           ============================================ */
+        .style-colorblock .demo-card {
+            background: none;
+        }
+        .style-colorblock .demo-card-image {
+            position: relative;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 70% 85%, 70% 100%, 30% 100%, 30% 85%, 0 85%);
+        }
+        .style-colorblock .demo-card-image::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 40%;
+            height: 100%;
+            background: var(--wgac-pink);
+            mix-blend-mode: multiply;
+            z-index: 2;
+        }
+        .style-colorblock .demo-card-image::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 50%;
+            height: 60%;
+            background: var(--wgac-yellow);
+            mix-blend-mode: multiply;
+            z-index: 2;
+        }
+        .style-colorblock .demo-card-image img {
+            filter: saturate(1.4) contrast(1.1);
+        }
+        .style-colorblock .card-2 .demo-card-image::before { background: var(--wgac-teal); }
+        .style-colorblock .card-2 .demo-card-image::after { background: var(--wgac-coral); }
+        .style-colorblock .card-3 .demo-card-image::before { background: var(--wgac-blue); }
+        .style-colorblock .card-3 .demo-card-image::after { background: var(--wgac-green-light); }
+        .style-colorblock .demo-card-content {
+            background: white;
+            margin-top: -2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            position: relative;
+            z-index: 3;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        /* ============================================
+           STYLE 2: Geometric Overlay Shapes
+           ============================================ */
+        .style-geometric .demo-card-image {
+            position: relative;
+        }
+        .style-geometric .demo-card-image img {
+            filter: saturate(1.3);
+        }
+        .style-geometric .demo-card-image::before {
+            content: "";
+            position: absolute;
+            top: 20px;
+            left: -20px;
+            width: 100px;
+            height: 100px;
+            background: var(--wgac-coral);
+            border-radius: 50%;
+            z-index: 2;
+        }
+        .style-geometric .demo-card-image::after {
+            content: "";
+            position: absolute;
+            bottom: -15px;
+            right: 20px;
+            width: 0;
+            height: 0;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            border-bottom: 100px solid var(--wgac-teal);
+            z-index: 2;
+        }
+        .style-geometric .card-2 .demo-card-image::before { background: var(--wgac-yellow); top: auto; bottom: 20px; left: 20px; }
+        .style-geometric .card-2 .demo-card-image::after { border-bottom-color: var(--wgac-pink); bottom: auto; top: -15px; }
+        .style-geometric .card-3 .demo-card-image::before { background: var(--wgac-blue); width: 80px; height: 80px; top: auto; bottom: -10px; left: auto; right: -10px; }
+        .style-geometric .card-3 .demo-card-image::after { border-bottom-color: var(--wgac-green-light); right: auto; left: 30px; }
+        .style-geometric .demo-card-content {
+            position: relative;
+            z-index: 3;
+        }
+
+        /* ============================================
+           STYLE 3: Hyper-Saturated Split
+           ============================================ */
+        .style-hypersplit .demo-card-image {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4px;
+            background: var(--dark);
+            padding: 4px;
+        }
+        .style-hypersplit .demo-card-image img {
+            height: 100%;
+        }
+        .style-hypersplit .demo-card-image img:first-child {
+            filter: saturate(2) hue-rotate(20deg);
+        }
+        .style-hypersplit .demo-card-image img:last-child {
+            filter: saturate(2) hue-rotate(-40deg);
+        }
+        .style-hypersplit .demo-card-content {
+            background: var(--wgac-yellow);
+        }
+        .style-hypersplit .card-2 .demo-card-content { background: var(--wgac-pink); color: white; }
+        .style-hypersplit .card-2 .demo-card-tag { background: white; color: var(--dark); }
+        .style-hypersplit .card-3 .demo-card-content { background: var(--wgac-teal); color: white; }
+        .style-hypersplit .card-3 .demo-card-tag { background: white; color: var(--dark); }
+
+        /* ============================================
+           STYLE 4: Diagonal Color Slash
+           ============================================ */
+        .style-slash .demo-card-image {
+            position: relative;
+            overflow: visible;
+        }
+        .style-slash .demo-card-image img {
+            filter: grayscale(100%) contrast(1.2);
+        }
+        .style-slash .demo-card-image::before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: 40%;
+            bottom: 40%;
+            background: var(--wgac-coral);
+            transform: skewY(-5deg);
+            z-index: 1;
+            mix-blend-mode: multiply;
+        }
+        .style-slash .demo-card-image::after {
+            content: "";
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            right: -10px;
+            bottom: -10px;
+            background: var(--wgac-teal);
+            transform: skewY(-5deg);
+            z-index: 1;
+            mix-blend-mode: multiply;
+        }
+        .style-slash .card-2 .demo-card-image::before { background: var(--wgac-yellow); transform: skewY(5deg); }
+        .style-slash .card-2 .demo-card-image::after { background: var(--wgac-purple); transform: skewY(5deg); }
+        .style-slash .card-3 .demo-card-image::before { background: var(--wgac-pink); transform: skewX(-5deg); }
+        .style-slash .card-3 .demo-card-image::after { background: var(--wgac-blue); transform: skewX(-5deg); }
+
+        /* ============================================
+           STYLE 5: Pop Art Halftone
+           ============================================ */
+        .style-halftone .demo-card-image {
+            position: relative;
+            background: var(--wgac-yellow);
+        }
+        .style-halftone .demo-card-image img {
+            filter: grayscale(100%) contrast(1.4);
+            mix-blend-mode: multiply;
+        }
+        .style-halftone .demo-card-image::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(circle, var(--dark) 1px, transparent 1px);
+            background-size: 4px 4px;
+            opacity: 0.3;
+            mix-blend-mode: overlay;
+        }
+        .style-halftone .card-2 .demo-card-image { background: var(--wgac-pink); }
+        .style-halftone .card-3 .demo-card-image { background: var(--wgac-teal); }
+        .style-halftone .demo-card-content {
+            background: var(--dark);
+            color: white;
+        }
+        .style-halftone .demo-card-tag {
+            background: var(--wgac-yellow);
+            color: var(--dark);
+        }
+
+        /* ============================================
+           STYLE 6: Surreal Frame Break
+           ============================================ */
+        .style-framebreak .demo-card {
+            background: var(--wgac-green-light);
+            padding: 1.5rem;
+        }
+        .style-framebreak .demo-card-image {
+            position: relative;
+            border: 6px solid var(--dark);
+        }
+        .style-framebreak .demo-card-image img {
+            filter: saturate(1.5);
+        }
+        .style-framebreak .demo-card-image::before {
+            content: "";
+            position: absolute;
+            top: -30px;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            background: var(--wgac-coral);
+            border-radius: 50%;
+            z-index: 3;
+            border: 4px solid var(--dark);
+        }
+        .style-framebreak .demo-card-image::after {
+            content: "";
+            position: absolute;
+            bottom: -20px;
+            left: -20px;
+            width: 60px;
+            height: 60px;
+            background: var(--wgac-yellow);
+            z-index: 3;
+            border: 4px solid var(--dark);
+        }
+        .style-framebreak .card-2 { background: var(--wgac-pink); }
+        .style-framebreak .card-2 .demo-card-image::before { background: var(--wgac-teal); }
+        .style-framebreak .card-3 { background: var(--wgac-yellow); }
+        .style-framebreak .card-3 .demo-card-image::before { background: var(--wgac-blue); }
+        .style-framebreak .demo-card-content {
+            background: white;
+            border: 4px solid var(--dark);
+            border-top: none;
+            margin-top: 0;
+        }
+
+        /* ============================================
+           STYLE 7: Neon Glow Effect
+           ============================================ */
+        .style-neon .demo-card {
+            background: var(--dark);
+            padding: 1.5rem;
+        }
+        .style-neon .demo-card-image {
+            border: 4px solid var(--wgac-pink);
+            box-shadow:
+                0 0 10px var(--wgac-pink),
+                0 0 20px var(--wgac-pink),
+                inset 0 0 15px rgba(255, 107, 157, 0.3);
+        }
+        .style-neon .demo-card-image img {
+            filter: saturate(1.2) brightness(0.9);
+        }
+        .style-neon .card-2 .demo-card-image {
+            border-color: var(--wgac-teal);
+            box-shadow:
+                0 0 10px var(--wgac-teal),
+                0 0 20px var(--wgac-teal),
+                inset 0 0 15px rgba(45, 203, 152, 0.3);
+        }
+        .style-neon .card-3 .demo-card-image {
+            border-color: var(--wgac-yellow);
+            box-shadow:
+                0 0 10px var(--wgac-yellow),
+                0 0 20px var(--wgac-yellow),
+                inset 0 0 15px rgba(240, 200, 8, 0.3);
+        }
+        .style-neon .demo-card-content {
+            background: var(--dark);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.1);
+            border-top: none;
+        }
+        .style-neon .demo-card-tag {
+            background: var(--wgac-pink);
+        }
+        .style-neon .card-2 .demo-card-tag { background: var(--wgac-teal); }
+        .style-neon .card-3 .demo-card-tag { background: var(--wgac-yellow); color: var(--dark); }
+
+        /* ============================================
+           STYLE 8: Extreme Crop & Color
+           ============================================ */
+        .style-extreme .demo-card-image {
+            height: 320px;
+            position: relative;
+        }
+        .style-extreme .demo-card-image img {
+            object-position: center 30%;
+            filter: saturate(1.8) contrast(1.2);
+        }
+        .style-extreme .demo-card-image::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 40%;
+            background: linear-gradient(to top, var(--wgac-coral) 0%, transparent 100%);
+            z-index: 1;
+        }
+        .style-extreme .card-2 .demo-card-image::before {
+            background: linear-gradient(to top, var(--wgac-blue) 0%, transparent 100%);
+        }
+        .style-extreme .card-3 .demo-card-image::before {
+            background: linear-gradient(to top, var(--wgac-teal) 0%, transparent 100%);
+        }
+        .style-extreme .demo-card-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: transparent;
+            color: white;
+            z-index: 2;
+        }
+        .style-extreme .demo-card-tag {
+            background: white;
+            color: var(--dark);
+        }
+
+        /* ============================================
+           STYLE 9: Collage Chaos Supreme
+           Everything Toilet Paper
+           ============================================ */
+        .style-toiletpaper {
+            background: linear-gradient(135deg, #ff6b9d 0%, #ffd93d 100%);
+        }
+        .style-toiletpaper .demo-card {
+            background: none;
+            transform: rotate(-2deg);
+        }
+        .style-toiletpaper .card-2 { transform: rotate(1deg); }
+        .style-toiletpaper .card-3 { transform: rotate(-1deg); }
+        .style-toiletpaper .demo-card-image {
+            border: 8px solid white;
+            box-shadow: 12px 12px 0 var(--dark);
+            position: relative;
+        }
+        .style-toiletpaper .demo-card-image img {
+            filter: saturate(1.6) contrast(1.15);
+        }
+        .style-toiletpaper .demo-card-image::before {
+            content: "";
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 60px;
+            background: var(--wgac-coral);
+            border-radius: 50%;
+            z-index: 3;
+            border: 4px solid white;
+        }
+        .style-toiletpaper .demo-card-image::after {
+            content: "";
+            position: absolute;
+            bottom: -15px;
+            right: -15px;
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-top: 70px solid var(--wgac-teal);
+            z-index: 3;
+        }
+        .style-toiletpaper .card-2 .demo-card-image::before { background: var(--wgac-blue); }
+        .style-toiletpaper .card-2 .demo-card-image::after { border-top-color: var(--wgac-yellow); }
+        .style-toiletpaper .card-3 .demo-card-image::before { background: var(--wgac-green-light); }
+        .style-toiletpaper .card-3 .demo-card-image::after { border-top-color: var(--wgac-purple); }
+        .style-toiletpaper .demo-card-content {
+            background: white;
+            margin-top: 1rem;
+            border: 4px solid var(--dark);
+            position: relative;
+        }
+        .style-toiletpaper .demo-card-content::after {
+            content: "!";
+            position: absolute;
+            top: -15px;
+            right: 15px;
+            width: 30px;
+            height: 30px;
+            background: var(--wgac-yellow);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.2rem;
+            border: 3px solid var(--dark);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+            }
+        }
+
+        /* Recommendation */
+        .reco-section {
+            background: var(--dark);
+            color: white;
+            padding: 5rem 3rem;
+            text-align: center;
+        }
+        .reco-section h2 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        .reco-grid {
+            max-width: 900px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+        .reco-item {
+            background: rgba(255,255,255,0.05);
+            padding: 2rem;
+            border-radius: 1rem;
+        }
+        .reco-item span {
+            font-size: 3rem;
+            display: block;
+            margin-bottom: 1rem;
+        }
+        .reco-item h3 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+        .reco-item p {
+            font-size: 0.9rem;
+            color: var(--gray-400);
+        }
+    </style>
+</head>
+<body>
+    <div class="page-header">
+        <h1>Surreal & Color Block Styles</h1>
+        <p>Inspired by Toilet Paper Magazine & color-blocking collage art</p>
+    </div>
+
+    <!-- Style 1: Color Block Cutouts -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Style 1</div>
+            <h2>Color Block Cutouts</h2>
+            <p>Overlapping color blocks with multiply blend mode. Bold, graphic, fashion-editorial meets zine.</p>
+        </div>
+        <div class="card-grid style-colorblock">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 2: Geometric Overlays -->
+    <section class="style-section" style="background: #f5f3ef;">
+        <div class="style-header">
+            <div class="style-number">Style 2</div>
+            <h2>Geometric Shape Overlay</h2>
+            <p>Bold circles and triangles burst out of the frame. Playful, unexpected, very Toilet Paper.</p>
+        </div>
+        <div class="card-grid style-geometric">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 3: Hyper-Saturated Split -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Style 3</div>
+            <h2>Hyper-Saturated Split</h2>
+            <p>Same image, two extreme color treatments side by side. Eye-catching, weird, memorable.</p>
+        </div>
+        <div class="card-grid style-hypersplit">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 4: Diagonal Slash -->
+    <section class="style-section" style="background: var(--dark); color: white;">
+        <div class="style-header">
+            <div class="style-number" style="color: var(--wgac-yellow);">Style 4</div>
+            <h2>Diagonal Color Slash</h2>
+            <p>Black and white photos with aggressive color slashes cutting across. Edgy, dramatic, high-contrast.</p>
+        </div>
+        <div class="card-grid style-slash">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 5: Pop Art Halftone -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Style 5</div>
+            <h2>Pop Art Halftone</h2>
+            <p>Warhol-inspired halftone dots over bold background colors. Retro-modern, punchy, iconic.</p>
+        </div>
+        <div class="card-grid style-halftone">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 6: Surreal Frame Break -->
+    <section class="style-section" style="background: #f0f0e8;">
+        <div class="style-header">
+            <div class="style-number">Style 6</div>
+            <h2>Surreal Frame Break</h2>
+            <p>Shapes escape the frame boundaries. That Toilet Paper "uncanny" feeling where something's just... off.</p>
+        </div>
+        <div class="card-grid style-framebreak">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 7: Neon Glow -->
+    <section class="style-section" style="background: #0a0a0a;">
+        <div class="style-header">
+            <div class="style-number" style="color: var(--wgac-pink);">Style 7</div>
+            <h2 style="color: white;">Neon Glow</h2>
+            <p style="color: var(--gray-400);">Photos framed with glowing neon borders. Club vibes, nightlife energy, attention-grabbing.</p>
+        </div>
+        <div class="card-grid style-neon">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 8: Extreme Crop -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Style 8</div>
+            <h2>Extreme Saturation + Gradient</h2>
+            <p>Cranked-up colors with bold gradient overlays. Maximum impact, very editorial, impossible to ignore.</p>
+        </div>
+        <div class="card-grid style-extreme">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 9: Full Toilet Paper -->
+    <section class="style-section style-toiletpaper">
+        <div class="style-header">
+            <div class="style-number" style="color: var(--dark);">Style 9</div>
+            <h2>Full Toilet Paper Magazine</h2>
+            <p style="color: var(--dark);">Everything at once: saturated colors, geometric shapes bursting out, bold shadows, that signature "uncanny ambiguity". Maximum surreal.</p>
+        </div>
+        <div class="card-grid">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations -->
+    <section class="reco-section">
+        <h2>My Top Picks for Your Vibe</h2>
+        <div class="reco-grid">
+            <div class="reco-item">
+                <span>🥇</span>
+                <h3>Full Toilet Paper (#9)</h3>
+                <p>Maximum personality, instantly recognizable, matches WGAC irreverence</p>
+            </div>
+            <div class="reco-item">
+                <span>🥈</span>
+                <h3>Surreal Frame Break (#6)</h3>
+                <p>Bold but controlled, shapes add fun without overwhelming</p>
+            </div>
+            <div class="reco-item">
+                <span>🥉</span>
+                <h3>Color Block Cutouts (#1)</h3>
+                <p>Modern, fashion-forward, hides stock photo vibes completely</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

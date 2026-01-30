@@ -94,7 +94,8 @@
         .footer-col li { margin-bottom: 0.5rem; }
         .footer-col a { font-size: 0.9rem; color: white; opacity: 0.8; transition: opacity 0.2s; }
         .footer-col a:hover { opacity: 1; }
-        .footer-bottom { max-width: 1400px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; color: var(--gray-400); }
+        .footer-bottom { max-width: 1400px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; color: var(--gray-400); display: flex; justify-content: space-between; align-items: center; }
+        .footer-update { font-size: 0.7rem; opacity: 0.6; letter-spacing: 0.5px; }
 
         /* Responsive */
         @media (max-width: 1024px) {
@@ -252,16 +253,16 @@
                 <div class="footer-col">
                     <h4>About</h4>
                     <ul>
-                        <li><a href="#">Our Mission</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Advertise</a></li>
+                        <li><a href="mission.html">Our Mission</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <div class="footer-bottom">
-            © 2026 News That's Not Crap. All the good vibes reserved.
+            <span>© 2026 News That's Not Crap. All the good vibes reserved.</span>
+            <span class="footer-update">Updated daily at 6am Eastern</span>
         </div>
     </footer>
 </body>

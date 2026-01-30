@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-brown: #a1512e;
+            --wgac-green-light: #d7f6a4;
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--cream); color: var(--dark); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        a { color: inherit; text-decoration: none; }
+
+        /* Header */
+        .site-header { background: var(--dark); position: sticky; top: 0; z-index: 1000; }
+        .header-top { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 3rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .logo { display: flex; align-items: stretch; font-family: var(--font-body); font-size: 1rem; font-weight: 800; text-decoration: none; }
+        .logo-left { background: white; color: var(--dark); padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; }
+        .logo-right { background: var(--wgac-blue); color: white; padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; }
+        .header-date { color: var(--gray-400); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; }
+
+        /* Navigation */
+        .main-nav { display: flex; justify-content: center; gap: 2px; padding: 0.75rem 0; background: var(--dark); }
+        .nav-link { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; padding: 0.5rem 1rem; transition: all 0.15s ease; background: rgba(255,255,255,0.1); color: white; }
+        .nav-link:hover { background: white; color: var(--dark); }
+        .nav-link.active { background: var(--wgac-blue); color: white; }
+
+        /* Hero */
+        .team-hero {
+            background: linear-gradient(135deg, var(--wgac-coral) 0%, var(--wgac-brown) 100%);
+            color: white;
+            padding: 6rem 3rem;
+            text-align: center;
+        }
+
+        .team-hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+
+        .team-hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Main Content */
+        .team-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 3rem;
+        }
+
+        /* The Big Reveal */
+        .the-twist {
+            text-align: center;
+            padding: 4rem 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .the-twist h2 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .the-twist p {
+            font-size: 1.2rem;
+            color: var(--gray-600);
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            line-height: 1.8;
+        }
+
+        .ai-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: var(--dark);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .ai-badge span {
+            font-size: 1.5rem;
+        }
+
+        /* Team Cards */
+        .team-section-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--dark);
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .team-card {
+            background: white;
+            border: 2px solid var(--gray-200);
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .team-card:hover {
+            border-color: var(--wgac-blue);
+            transform: translateY(-4px);
+        }
+
+        .team-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .avatar-1 { background: var(--wgac-green-light); }
+        .avatar-2 { background: var(--wgac-teal); }
+        .avatar-3 { background: var(--wgac-coral); }
+        .avatar-4 { background: var(--wgac-blue); color: white; }
+        .avatar-5 { background: #7b68ee; color: white; }
+        .avatar-6 { background: #e84393; color: white; }
+
+        .team-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.4rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .team-role {
+            font-size: 0.85rem;
+            color: var(--wgac-blue);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 1rem;
+        }
+
+        .team-bio {
+            font-size: 0.95rem;
+            color: var(--gray-600);
+            line-height: 1.6;
+        }
+
+        /* Humans Section */
+        .humans-section {
+            background: var(--gray-100);
+            padding: 4rem 3rem;
+            margin: 0 -3rem;
+        }
+
+        .humans-inner {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .humans-section h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .humans-section p {
+            font-size: 1.1rem;
+            color: var(--gray-600);
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .human-credits {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .human-credit {
+            text-align: center;
+        }
+
+        .human-credit .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: var(--dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            margin: 0 auto 1rem;
+        }
+
+        .human-credit h4 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+        }
+
+        .human-credit p {
+            font-size: 0.85rem;
+            color: var(--gray-400);
+            margin: 0;
+        }
+
+        /* CTA */
+        .join-cta {
+            background: var(--wgac-green-light);
+            padding: 4rem 3rem;
+            text-align: center;
+            margin: 4rem -3rem 0;
+        }
+
+        .join-cta h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .join-cta p {
+            font-size: 1.1rem;
+            color: var(--gray-600);
+            margin-bottom: 2rem;
+        }
+
+        .join-cta a {
+            display: inline-block;
+            background: var(--dark);
+            color: white;
+            padding: 1rem 2rem;
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: background 0.2s;
+        }
+
+        .join-cta a:hover {
+            background: var(--wgac-brown);
+        }
+
+        /* Footer */
+        .site-footer { background: var(--dark); color: white; padding: 4rem 3rem; }
+        .footer-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; }
+        .footer-brand { max-width: 350px; }
+        .footer-logo { display: flex; align-items: stretch; font-family: var(--font-body); font-size: 0.85rem; font-weight: 800; margin-bottom: 1rem; width: fit-content; }
+        .footer-logo .logo-left { background: white; color: var(--dark); padding: 0.4rem 0.6rem; }
+        .footer-logo .logo-right { background: var(--wgac-blue); color: white; padding: 0.4rem 0.6rem; }
+        .footer-tagline { font-size: 0.9rem; color: var(--gray-400); line-height: 1.6; }
+        .footer-nav { display: flex; gap: 4rem; }
+        .footer-col h4 { font-size: 0.7rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--gray-400); margin-bottom: 1rem; }
+        .footer-col ul { list-style: none; }
+        .footer-col li { margin-bottom: 0.5rem; }
+        .footer-col a { font-size: 0.9rem; color: white; opacity: 0.8; transition: opacity 0.2s; }
+        .footer-col a:hover { opacity: 1; }
+        .footer-bottom { max-width: 1400px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; color: var(--gray-400); display: flex; justify-content: space-between; align-items: center; }
+        .footer-update { font-size: 0.7rem; opacity: 0.6; letter-spacing: 0.5px; }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .footer-content { flex-direction: column; gap: 3rem; }
+        }
+        @media (max-width: 768px) {
+            .header-top { padding: 1rem 1.5rem; }
+            .main-nav { flex-wrap: wrap; }
+            .nav-link { padding: 0.4rem 0.8rem; font-size: 0.65rem; }
+            .team-hero { padding: 4rem 1.5rem; }
+            .team-content { padding: 2rem 1.5rem; }
+            .humans-section, .join-cta { padding: 3rem 1.5rem; margin: 0 -1.5rem; }
+            .join-cta { margin-top: 2rem; }
+            .human-credits { gap: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <a href="index.html" class="logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></a>
+            <div class="header-date">Wednesday, January 29, 2026</div>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Today</a>
+            <a href="climate.html" class="nav-link">Climate</a>
+            <a href="health.html" class="nav-link">Health</a>
+            <a href="science.html" class="nav-link">Science</a>
+            <a href="people.html" class="nav-link">People</a>
+            <a href="wildlife.html" class="nav-link">Wildlife</a>
+            <a href="cats.html" class="nav-link">Cats</a>
+        </nav>
+    </header>
+
+    <section class="team-hero">
+        <h1>Meet the Team</h1>
+        <p>The tireless optimists bringing you the good stuff, every single day.</p>
+    </section>
+
+    <main class="team-content">
+        <div class="the-twist">
+            <h2>Plot twist: We're mostly robots</h2>
+            <p>News That's Not Crap is powered by AI that scours the internet for genuinely positive stories, curates them, and rewrites them in a voice that doesn't make you want to gouge your eyes out. It's like having a very optimistic, very caffeinated intern who never sleeps.</p>
+            <div class="ai-badge">
+                <span>🤖</span>
+                Powered by Claude AI
+            </div>
+        </div>
+
+        <h2 class="team-section-title">The AI Crew</h2>
+
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="team-avatar avatar-1">🔍</div>
+                <h3>Scout</h3>
+                <div class="team-role">News Hunter</div>
+                <p class="team-bio">Monitors 50+ news sources every hour looking for breakthroughs, wins, and reasons to feel good about humanity. Never gets tired. Doesn't complain about the coffee.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar avatar-2">🎯</div>
+                <h3>Cura</h3>
+                <div class="team-role">Curation Engine</div>
+                <p class="team-bio">Filters out the fluff, clickbait, and disguised bad news. If it's not genuinely positive, it doesn't make the cut. Very discerning. Kind of a snob, honestly.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar avatar-3">✍️</div>
+                <h3>Wit</h3>
+                <div class="team-role">Voice & Tone</div>
+                <p class="team-bio">Rewrites everything to be punchy, fun, and actually readable. Responsible for all the dad jokes. We're working on that.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar avatar-4">📊</div>
+                <h3>Vera</h3>
+                <div class="team-role">Fact Checker</div>
+                <p class="team-bio">Cross-references every story with multiple sources. If something smells fishy, Vera catches it. Has trust issues, but in a helpful way.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar avatar-5">🎨</div>
+                <h3>Pixel</h3>
+                <div class="team-role">Visual Selector</div>
+                <p class="team-bio">Finds the perfect image for every story. Believes a good photo can make you feel something. Very emotional for a machine learning model.</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar avatar-6">🐱</div>
+                <h3>Whiskers</h3>
+                <div class="team-role">Cats Correspondent</div>
+                <p class="team-bio">Exclusively dedicated to finding the best cat content on the internet. The most important job, arguably. Takes naps during work hours.</p>
+            </div>
+        </div>
+
+        <div class="humans-section">
+            <div class="humans-inner">
+                <h2>But there are real humans too</h2>
+                <p>AI does the heavy lifting, but actual people built this thing and make sure it doesn't go off the rails. They also occasionally override the bots when something truly special needs a human touch.</p>
+
+                <div class="human-credits">
+                    <div class="human-credit">
+                        <div class="avatar">👨‍💻</div>
+                        <h4>The Founder</h4>
+                        <p>Chief Optimist</p>
+                    </div>
+                    <div class="human-credit">
+                        <div class="avatar">🧠</div>
+                        <h4>Claude</h4>
+                        <p>AI Partner (Anthropic)</p>
+                    </div>
+                    <div class="human-credit">
+                        <div class="avatar">🌍</div>
+                        <h4>You</h4>
+                        <p>The reason we do this</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="join-cta">
+            <h2>Want to help spread the good news?</h2>
+            <p>We're always looking for humans who believe the world is getting better.</p>
+            <a href="contact.html">Get in touch</a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></div>
+                <p class="footer-tagline">Doom-scrolling is so last decade. We bring you the breakthroughs, the victories, and the genuinely good stuff happening in the world.</p>
+            </div>
+            <nav class="footer-nav">
+                <div class="footer-col">
+                    <h4>Sections</h4>
+                    <ul>
+                        <li><a href="climate.html">Climate</a></li>
+                        <li><a href="health.html">Health</a></li>
+                        <li><a href="science.html">Science</a></li>
+                        <li><a href="people.html">People</a></li>
+                        <li><a href="wildlife.html">Wildlife</a></li>
+                        <li><a href="cats.html">Cats</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="mission.html">Our Mission</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 News That's Not Crap. All the good vibes reserved.</span>
+            <span class="footer-update">Updated daily at 6am Eastern</span>
+        </div>
+    </footer>
+</body>
+</html>

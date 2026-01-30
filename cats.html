@@ -48,20 +48,6 @@
             position: relative;
             overflow: hidden;
         }
-        .section-hero::before {
-            content: "🐱 🐈 😺 🐱 🐈 😺 🐱 🐈 😺";
-            position: absolute;
-            top: 1rem;
-            left: 0;
-            right: 0;
-            font-size: 2rem;
-            opacity: 0.3;
-            animation: float 3s ease-in-out infinite;
-        }
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
         .section-hero h1 {
             font-family: var(--font-display);
             font-size: 5rem;
@@ -82,18 +68,6 @@
         }
 
         .main-content { max-width: 1400px; margin: 0 auto; padding: 4rem 3rem; }
-
-        .intro-box {
-            background: var(--wgac-green-light);
-            padding: 2rem;
-            margin-bottom: 3rem;
-            text-align: center;
-        }
-        .intro-box p {
-            font-size: 1.1rem;
-            max-width: 700px;
-            margin: 0 auto;
-        }
 
         .section-header {
             display: flex;
@@ -210,41 +184,20 @@
             background: rgba(255,255,255,0.1);
         }
 
-        .video-placeholder {
+        .video-embed {
             position: relative;
             padding-bottom: 56.25%;
-            background: linear-gradient(135deg, #333 0%, #1a1a1a 100%);
+            height: 0;
+            overflow: hidden;
         }
 
-        .video-placeholder img {
+        .video-embed iframe {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover;
-        }
-
-        .play-button {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 70px;
-            height: 70px;
-            background: var(--wgac-coral);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            color: white;
-            transition: transform 0.2s ease, background 0.2s ease;
-        }
-
-        .video-card:hover .play-button {
-            transform: translate(-50%, -50%) scale(1.1);
-            background: var(--wgac-orange);
+            border: none;
         }
 
         .video-card-content {
@@ -324,7 +277,8 @@
         .footer-col li { margin-bottom: 0.5rem; }
         .footer-col a { font-size: 0.9rem; color: white; opacity: 0.8; transition: opacity 0.2s; }
         .footer-col a:hover { opacity: 1; }
-        .footer-bottom { max-width: 1400px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; color: var(--gray-400); }
+        .footer-bottom { max-width: 1400px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; color: var(--gray-400); display: flex; justify-content: space-between; align-items: center; }
+        .footer-update { font-size: 0.7rem; opacity: 0.6; letter-spacing: 0.5px; }
 
         @media (max-width: 1024px) {
             .cat-grid { grid-template-columns: repeat(2, 1fr); }
@@ -367,14 +321,10 @@
 
     <section class="section-hero">
         <h1>Cats</h1>
-        <p>Because sometimes you just need to look at cats. No justification required.</p>
-        <p class="subtitle">This section has absolutely no news value. And that's the point.</p>
+        <p>Sometimes your brain just needs a cat. This section has no news value whatsoever. You're welcome.</p>
     </section>
 
     <main class="main-content">
-        <div class="intro-box">
-            <p>Look, we know you came here for important news about scientific breakthroughs and climate wins. But we also know that sometimes your brain just needs a cat. Consider this your mental health break. You're welcome.</p>
-        </div>
 
         <div class="section-header">
             <h2 class="section-title">Today's Essential Cat Content</h2>
@@ -442,53 +392,49 @@
             </div>
 
             <div class="video-grid">
-                <a href="https://www.youtube.com/watch?v=J---aiyznGQ" target="_blank" class="video-card">
-                    <div class="video-placeholder">
-                        <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=800&q=80" alt="Keyboard cat">
-                        <div class="play-button">▶</div>
+                <div class="video-card">
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/J---aiyznGQ" title="Keyboard Cat" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="video-card-content">
                         <span class="video-tag">Classic</span>
                         <h3>Keyboard Cat (The Original)</h3>
                         <p>The video that started it all. Still hits different.</p>
                     </div>
-                </a>
+                </div>
 
-                <a href="https://www.youtube.com/watch?v=0Bmhjf0rKe8" target="_blank" class="video-card">
-                    <div class="video-placeholder">
-                        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=800&q=80" alt="Surprised cat">
-                        <div class="play-button">▶</div>
+                <div class="video-card">
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/0Bmhjf0rKe8" title="Cat vs Printer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="video-card-content">
                         <span class="video-tag">Viral</span>
                         <h3>Cat vs. Printer: An Epic Battle</h3>
                         <p>The printer started it. The cat finished it.</p>
                     </div>
-                </a>
+                </div>
 
-                <a href="https://www.youtube.com/watch?v=SaA_cs4WZHM" target="_blank" class="video-card">
-                    <div class="video-placeholder">
-                        <img src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=80" alt="Talking cat">
-                        <div class="play-button">▶</div>
+                <div class="video-card">
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/SaA_cs4WZHM" title="Cats Saying No" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="video-card-content">
                         <span class="video-tag">Relatable</span>
                         <h3>Cats Saying "No" Compilation</h3>
                         <p>10 minutes of cats refusing to cooperate. Peak content.</p>
                     </div>
-                </a>
+                </div>
 
-                <a href="https://www.youtube.com/watch?v=tntOCGkgt98" target="_blank" class="video-card">
-                    <div class="video-placeholder">
-                        <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=800&q=80" alt="Cat staring">
-                        <div class="play-button">▶</div>
+                <div class="video-card">
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/tntOCGkgt98" title="Cat Interrupts Weather" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="video-card-content">
                         <span class="video-tag">Legendary</span>
                         <h3>Cat Interrupts Weather Forecast</h3>
                         <p>Better journalism than most cable news.</p>
                     </div>
-                </a>
+                </div>
             </div>
         </div>
 
@@ -569,16 +515,16 @@
                 <div class="footer-col">
                     <h4>About</h4>
                     <ul>
-                        <li><a href="#">Our Mission</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Advertise</a></li>
+                        <li><a href="mission.html">Our Mission</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <div class="footer-bottom">
-            © 2026 News That's Not Crap. All the good vibes reserved.
+            <span>© 2026 News That's Not Crap. All the good vibes reserved.</span>
+            <span class="footer-update">Updated daily at 6am Eastern</span>
         </div>
     </footer>
 </body>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gene Therapy Just Crushed Huntington's Disease By 75% | News That's Not Crap</title>
+    <title>Gene Therapy Slows Huntington's Disease By 75% In Landmark Trial | News That's Not Crap</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -14,6 +14,9 @@
             --wgac-blue: #4368ff;
             --wgac-teal: #2dcb98;
             --wgac-coral: #e85d4c;
+            --wgac-yellow: #f0c808;
+            --wgac-purple: #7b68ee;
+            --wgac-pink: #e84393;
             --cream: #faf9f6;
             --dark: #1a1a1a;
             --gray-100: #f5f4f2;
@@ -54,13 +57,31 @@
         }
 
         .logo {
-            font-family: var(--font-display);
-            font-size: 1.75rem;
-            color: white;
-            letter-spacing: -0.5px;
+            display: flex;
+            align-items: stretch;
+            font-family: var(--font-body);
+            font-size: 1rem;
+            font-weight: 800;
+            text-decoration: none;
         }
 
-        .logo span { color: var(--wgac-green-light); }
+        .logo-left {
+            background: white;
+            color: var(--dark);
+            padding: 0.5rem 0.75rem;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.5px;
+        }
+
+        .logo-right {
+            background: var(--wgac-blue);
+            color: white;
+            padding: 0.5rem 0.75rem;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.5px;
+        }
 
         .header-date {
             color: var(--gray-400);
@@ -70,27 +91,35 @@
             text-transform: uppercase;
         }
 
+        /* Navigation */
         .main-nav {
             display: flex;
             justify-content: center;
-            gap: 0;
-            padding: 0;
+            gap: 2px;
+            padding: 0.75rem 0;
+            background: var(--dark);
         }
 
         .nav-link {
-            color: white;
-            font-size: 0.75rem;
-            font-weight: 600;
-            letter-spacing: 0.8px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
             text-transform: uppercase;
-            padding: 1rem 1.75rem;
-            transition: background 0.2s ease;
-            border-right: 1px solid rgba(255,255,255,0.1);
+            padding: 0.5rem 1rem;
+            transition: all 0.15s ease;
+            background: rgba(255,255,255,0.1);
+            color: white;
         }
 
-        .nav-link:first-child { border-left: 1px solid rgba(255,255,255,0.1); }
-        .nav-link:hover { background: var(--wgac-brown); }
-        .nav-link.active { background: var(--wgac-brown); }
+        .nav-link:hover {
+            background: white;
+            color: var(--dark);
+        }
+
+        .nav-link.active {
+            background: var(--wgac-blue);
+            color: white;
+        }
 
         /* Article Hero */
         .article-hero {
@@ -347,20 +376,69 @@
             align-items: flex-start;
         }
 
-        .footer-brand { max-width: 350px; }
-
-        .footer-logo {
-            font-family: var(--font-display);
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
+        .footer-brand {
+            max-width: 350px;
         }
 
-        .footer-logo span { color: var(--wgac-green-light); }
+        .footer-logo {
+            display: flex;
+            align-items: stretch;
+            font-family: var(--font-body);
+            font-size: 0.85rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            width: fit-content;
+        }
+
+        .footer-logo .logo-left {
+            background: white;
+            color: var(--dark);
+            padding: 0.4rem 0.6rem;
+        }
+
+        .footer-logo .logo-right {
+            background: var(--wgac-blue);
+            color: white;
+            padding: 0.4rem 0.6rem;
+        }
 
         .footer-tagline {
             font-size: 0.9rem;
             color: var(--gray-400);
             line-height: 1.6;
+        }
+
+        .footer-nav {
+            display: flex;
+            gap: 4rem;
+        }
+
+        .footer-col h4 {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--gray-400);
+            margin-bottom: 1rem;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-col a {
+            font-size: 0.9rem;
+            color: white;
+            opacity: 0.8;
+            transition: opacity 0.2s ease;
+        }
+
+        .footer-col a:hover {
+            opacity: 1;
         }
 
         .footer-bottom {
@@ -370,19 +448,37 @@
             border-top: 1px solid rgba(255,255,255,0.1);
             font-size: 0.8rem;
             color: var(--gray-400);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-update {
+            font-size: 0.7rem;
+            opacity: 0.6;
+            letter-spacing: 0.5px;
         }
 
         /* Responsive */
+        @media (max-width: 1024px) {
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
+            .footer-content {
+                flex-direction: column;
+                gap: 3rem;
+            }
+        }
+
         @media (max-width: 768px) {
             .header-top { padding: 1rem 1.5rem; }
+            .main-nav { flex-wrap: wrap; }
             .nav-link { padding: 0.75rem 1rem; font-size: 0.7rem; }
             .article-hero-content { padding: 2rem 1.5rem; }
             .article-content { padding: 2rem 1.5rem; }
             .article-figure { margin: 2rem -1.5rem; }
             .article-figure figcaption { padding: 1rem 1.5rem; }
             .stats-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-            .related-grid { grid-template-columns: 1fr; }
-            .footer-content { flex-direction: column; gap: 2rem; }
         }
     </style>
 </head>
@@ -410,12 +506,12 @@
         <div class="article-hero-overlay"></div>
         <div class="article-hero-content">
             <span class="article-tag">Health</span>
-            <h1>Gene Therapy Just Crushed Huntington's Disease By 75%</h1>
+            <h1>AMT-130 Gene Therapy Slows Huntington's Disease By 75% In Landmark Trial</h1>
             <div class="article-meta">
                 <span>By Jean Poole</span>
-                <span>·</span>
+                <span>-</span>
                 <span>January 29, 2026</span>
-                <span>·</span>
+                <span>-</span>
                 <span>8 min read</span>
             </div>
         </div>
@@ -424,102 +520,98 @@
     <!-- Article Content -->
     <article class="article-content">
         <p class="article-lead">
-            In what scientists are calling "a watershed moment," the first gene therapy for Huntington's disease has shown striking results in clinical trials, slowing the rate of cognitive decline in participants by an extraordinary 75%.
+            For the first time in history, a drug has been shown to alter the course of Huntington's disease in clinical trials. UniQure's AMT-130 gene therapy achieved a 75% slowing of disease progression, marking what scientists call "the first domino to fall" in treating this devastating condition.
         </p>
 
         <div class="article-body">
             <p>
-                For decades, Huntington's disease has been one of medicine's cruelest puzzles. A genetic time bomb that typically detonates in middle age, it slowly robs patients of their ability to move, think, and eventually, live. There has never been a way to slow it down. Until now.
+                On September 24, 2025, uniQure announced results that the Huntington's disease community had been waiting decades to hear. Their gene therapy AMT-130, administered through a single surgical procedure, met its primary endpoint with stunning clarity: a statistically significant 75% slowing of disease progression as measured by the composite Unified Huntington's Disease Rating Scale (cUHDRS).
             </p>
 
             <p>
-                The breakthrough comes from a Phase II clinical trial that wrapped up late last year, with results published this week in the New England Journal of Medicine. The treatment, developed by a team at Massachusetts General Hospital in collaboration with several biotech firms, uses a modified virus to deliver genetic instructions directly to brain cells, essentially teaching them to produce less of the toxic protein that causes the disease.
+                Huntington's disease is a cruel genetic lottery. Caused by a mutation in the huntingtin gene, it typically strikes in middle age, progressively destroying the nerve cells in the brain. Patients lose their ability to think, move, and eventually function. Until now, doctors could only offer medications to manage symptoms. Nothing could slow the disease itself.
             </p>
 
             <blockquote>
-                "We've gone from having absolutely nothing to offer these patients, to having something that genuinely works. That's not a small thing. That's everything."
+                "This is the first time any drug has been shown to alter the course of Huntington's disease in people in a clinical trial. The first domino has fallen."
             </blockquote>
 
             <p>
-                Dr. Elena Rodriguez, the trial's lead investigator, could barely contain her excitement during a press briefing. "When we saw the 18-month data, honestly, we thought there had been a mistake. We ran the numbers three times. The effect size is just... remarkable."
+                That assessment comes from HDBuzz, a scientific news site run by Huntington's disease researchers. Their cautious optimism reflects years of dashed hopes in this field, but the data from uniQure's Phase I/II trial is unusually robust.
             </p>
 
             <div class="stats-box">
-                <h3>The Numbers That Matter</h3>
+                <h3>AMT-130 Trial Results (September 2025)</h3>
                 <div class="stats-grid">
                     <div class="stat-item">
                         <div class="stat-number">75%</div>
-                        <div class="stat-label">Reduction in cognitive decline</div>
+                        <div class="stat-label">Slowing on cUHDRS (p=0.003)</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">89%</div>
-                        <div class="stat-label">Patients showed improvement</div>
+                        <div class="stat-number">60%</div>
+                        <div class="stat-label">Slowing on Total Functional Capacity</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">0</div>
-                        <div class="stat-label">Serious adverse events</div>
+                        <div class="stat-number">88%</div>
+                        <div class="stat-label">Slowing on cognitive tests</div>
                     </div>
                 </div>
             </div>
 
-            <h2>How It Actually Works</h2>
+            <h2>How AMT-130 Works</h2>
 
             <p>
-                Huntington's disease is caused by a mutation in the huntingtin gene—a stretch of DNA that repeats too many times, like a broken record. This causes brain cells to produce a malformed version of the huntingtin protein, which gradually accumulates and kills neurons.
+                The therapy uses an adeno-associated virus (AAV) to deliver genetic instructions directly to brain cells. These instructions cause neurons to produce less of the toxic mutant huntingtin protein that drives the disease. Think of it as installing a dimmer switch on the faulty gene.
             </p>
 
             <p>
-                The new therapy uses an adeno-associated virus (AAV)—a harmless virus that's been engineered to carry therapeutic genetic material—to deliver what scientists call "antisense oligonucleotides" directly into brain cells. These molecular tools essentially intercept the faulty genetic instructions before they can be translated into toxic proteins.
+                The procedure requires a single neurosurgical operation to inject the therapy into the brain's striatum, the region most affected by Huntington's. It's invasive, but it's a one-time treatment. In the trial, patients who received the high dose showed the most dramatic benefits.
             </p>
 
             <p>
-                Think of it as installing a spam filter in your neurons. The bad messages still get sent, but they never reach their destination.
+                According to the company's data, treated patients showed a mean change in cUHDRS from baseline of just -0.38 compared to -1.52 for patients in the external control group. The secondary endpoints were equally encouraging: Total Functional Capacity showed 60% slowing, and the Symbol Digit Modalities Test (a measure of cognitive speed) showed 88% slowing.
             </p>
 
             <figure class="article-figure">
                 <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1400&q=80" alt="Laboratory research">
-                <figcaption>The therapy uses modified viruses to deliver genetic instructions to brain cells. Photo: National Institutes of Health</figcaption>
+                <figcaption>AMT-130 is the first therapeutic candidate to receive FDA Regenerative Medicine Advanced Therapy (RMAT) Designation for Huntington's disease. Photo: National Institutes of Health</figcaption>
             </figure>
 
             <h2>What This Means for Patients</h2>
 
             <p>
-                There are roughly 30,000 people in the United States currently living with Huntington's disease, and another 200,000 who are at risk of developing it. For these families, the news represents something that's been in short supply: genuine hope.
+                There are roughly 30,000 people in the United States currently living with Huntington's disease, and another 200,000 who are at risk of developing it because they carry the gene mutation. Globally, the numbers are much larger.
             </p>
 
             <p>
-                "My mother died of Huntington's. My older brother has it. I've known since I was 22 that I carry the gene," said Maria Santos, a 38-year-old nurse from Sacramento who was not part of the trial but has been following the research closely. "For the first time in my life, I'm letting myself imagine a future where this disease doesn't take everything from me."
+                The safety profile was also reassuring. As of June 30, 2025, no new drug-related serious adverse events had been observed since December 2022. The most common side effects were related to the surgical procedure itself, and all resolved.
             </p>
 
             <p>
-                The FDA is expected to fast-track review of the therapy, with approval possible by early 2027. Researchers are already planning Phase III trials, which will test the treatment in a larger group of patients over a longer period.
+                UniQure announced in November 2025 that they received positive feedback from the FDA during a pre-Biologics License Application meeting. The company plans to submit a BLA in Q1 2026, with a potential U.S. launch later in the year if approved.
             </p>
 
             <h2>The Bigger Picture</h2>
 
             <p>
-                Perhaps most exciting is what this breakthrough means for other neurological diseases. The delivery mechanism developed for this trial—using AAV vectors to get genetic therapies into the brain—could potentially be adapted for conditions like Parkinson's, ALS, and even some forms of Alzheimer's.
+                Perhaps most importantly, AMT-130's success validates the approach of targeting the underlying genetic cause of neurological diseases. The same technology could potentially be adapted for other conditions like Parkinson's disease, ALS, and certain forms of Alzheimer's.
             </p>
 
             <p>
-                "We've proven something fundamental here," said Dr. Rodriguez. "That you can safely and effectively modify gene expression in the living human brain. That opens doors we couldn't even knock on five years ago."
+                The trial analyzed outcomes for 29 patients treated with AMT-130 (17 high dose, 12 low dose), with 12 patients per dose group having completed 36 months of follow-up. The comparison used a propensity score-matched external control drawn from the Enroll-HD natural history dataset.
             </p>
 
             <p>
-                For now, though, the focus remains on the patients who participated in this trial—many of whom have reported not just stabilization, but actual improvement in their symptoms. One participant, a 52-year-old former teacher from Boston, recently played piano for the first time in three years.
-            </p>
-
-            <p>
-                "I'd forgotten what it felt like to just... do something," he told researchers. "To have my hands do what my brain tells them to do. It's not perfect. But it's so much better. It's like getting a piece of myself back."
+                For families who have watched this disease claim generation after generation, the results represent something they've rarely allowed themselves to feel: genuine hope.
             </p>
 
             <div class="sources-box">
                 <h3>Sources</h3>
                 <ul>
-                    <li><a href="https://www.livescience.com/health/from-gene-therapy-breakthroughs-to-preventable-disease-outbreaks-the-health-trends-that-will-shape-2026" target="_blank">Live Science: Health Trends That Will Shape 2026</a></li>
-                    <li><a href="https://www.foxnews.com/opinion/dr-marc-siegel-5-incredible-miracles-from-2025-that-give-me-hope-2026" target="_blank">Fox News: Medical Breakthroughs and Survival Stories for 2026</a></li>
-                    <li><a href="https://www.scientificamerican.com/article/7-important-health-stories-well-be-following-in-2026/" target="_blank">Scientific American: 7 Important Health Stories for 2026</a></li>
-                    <li><a href="https://www.cas.org/resources/cas-insights/scientific-breakthroughs-2026-emerging-trends-watch" target="_blank">CAS: Scientific Breakthroughs - 2026 Emerging Trends</a></li>
+                    <li><a href="https://uniqure.gcs-web.com/news-releases/news-release-details/uniqure-announces-positive-topline-results-pivotal-phase-iii" target="_blank">uniQure: Positive Topline Results from Pivotal Phase I/II Study</a></li>
+                    <li><a href="https://en.hdbuzz.net/the-first-domino-falls-amt-130-gene-therapy-slows-huntingtons-in-landmark-trial/" target="_blank">HDBuzz: The First Domino Falls - AMT-130 Gene Therapy</a></li>
+                    <li><a href="https://eurohuntington.org/2025/10/10/recent-results-for-amt-130-a-step-towards-treatments-that-could-slow-huntingtons-disease/" target="_blank">European Huntington Association: Recent Results for AMT-130</a></li>
+                    <li><a href="https://www.science.org/content/article/first-gene-therapy-seems-slow-huntington-disease" target="_blank">Science: In a First, a Gene Therapy Seems to Slow Huntington Disease</a></li>
                 </ul>
             </div>
         </div>
@@ -533,19 +625,19 @@
                 <a href="blindness-treatment.html" class="related-card">
                     <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80" alt="Medical research">
                     <div class="related-card-content">
-                        <h4>"Untreatable" Blindness Just Got Treated For the First Time</h4>
+                        <h4>Gene Therapy Gives Blind Children Sight For the First Time</h4>
                     </div>
                 </a>
                 <a href="mrna-cancer.html" class="related-card">
                     <img src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=600&q=80" alt="Cancer research">
                     <div class="related-card-content">
-                        <h4>mRNA Cancer Vaccines Now Working Against "Untreatable" Tumors</h4>
+                        <h4>mRNA Cancer Vaccines Show Promise Against Pancreatic and Melanoma</h4>
                     </div>
                 </a>
                 <a href="crispr-baby.html" class="related-card">
                     <img src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=600&q=80" alt="Baby">
                     <div class="related-card-content">
-                        <h4>CRISPR-Edited Baby KJ Is Now Walking and Thriving</h4>
+                        <h4>Baby KJ: First Personalized CRISPR Therapy Success</h4>
                     </div>
                 </a>
             </div>
@@ -559,9 +651,31 @@
                 <div class="footer-logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></div>
                 <p class="footer-tagline">Doom-scrolling is so last decade. We bring you the breakthroughs, the victories, and the genuinely good stuff happening in the world.</p>
             </div>
+            <nav class="footer-nav">
+                <div class="footer-col">
+                    <h4>Sections</h4>
+                    <ul>
+                        <li><a href="../climate.html">Climate</a></li>
+                        <li><a href="../health.html">Health</a></li>
+                        <li><a href="../science.html">Science</a></li>
+                        <li><a href="../people.html">People</a></li>
+                        <li><a href="../wildlife.html">Wildlife</a></li>
+                        <li><a href="../cats.html">Cats</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="../mission.html">Our Mission</a></li>
+                        <li><a href="../team.html">Team</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
         <div class="footer-bottom">
-            © 2026 News That's Not Crap. All the good vibes reserved.
+            <span>2026 News That's Not Crap. All the good vibes reserved.</span>
+            <span class="footer-update">Updated daily at 6am Eastern</span>
         </div>
     </footer>
 </body>

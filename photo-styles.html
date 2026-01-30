@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Style Options | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-brown: #a1512e;
+            --wgac-green-light: #d7f6a4;
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--cream); color: var(--dark); line-height: 1.6; }
+
+        .page-header {
+            background: var(--dark);
+            color: white;
+            padding: 3rem;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .page-header p {
+            color: var(--gray-400);
+        }
+
+        .style-section {
+            padding: 4rem 3rem;
+            border-bottom: 2px solid var(--gray-200);
+        }
+
+        .style-section:last-of-type {
+            border-bottom: none;
+        }
+
+        .style-header {
+            max-width: 1200px;
+            margin: 0 auto 2rem;
+        }
+
+        .style-number {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--wgac-blue);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+
+        .style-header h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .style-header p {
+            color: var(--gray-600);
+            max-width: 600px;
+        }
+
+        .card-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+
+        .demo-card {
+            background: white;
+            overflow: hidden;
+            border: 2px solid var(--gray-200);
+        }
+
+        .demo-card-image {
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .demo-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .demo-card-content {
+            padding: 1.25rem;
+        }
+
+        .demo-card-tag {
+            display: inline-block;
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 0.2rem 0.5rem;
+            background: var(--wgac-teal);
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+
+        .demo-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            line-height: 1.3;
+        }
+
+        /* Style 1: Duotone */
+        .style-duotone .demo-card-image {
+            background: var(--wgac-blue);
+        }
+        .style-duotone .demo-card-image img {
+            mix-blend-mode: luminosity;
+            opacity: 0.85;
+        }
+
+        .style-duotone .card-teal .demo-card-image { background: var(--wgac-teal); }
+        .style-duotone .card-coral .demo-card-image { background: var(--wgac-coral); }
+        .style-duotone .card-blue .demo-card-image { background: var(--wgac-blue); }
+
+        /* Style 2: Gradient Overlay */
+        .style-gradient .demo-card-image::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(45, 203, 152, 0.7) 0%, transparent 60%);
+        }
+        .style-gradient .card-coral .demo-card-image::after {
+            background: linear-gradient(135deg, rgba(232, 93, 76, 0.7) 0%, transparent 60%);
+        }
+        .style-gradient .card-blue .demo-card-image::after {
+            background: linear-gradient(135deg, rgba(67, 104, 255, 0.7) 0%, transparent 60%);
+        }
+
+        /* Style 3: High Contrast B&W */
+        .style-bw .demo-card-image img {
+            filter: grayscale(100%) contrast(1.2);
+        }
+
+        /* Style 4: Grainy Film */
+        .style-grainy .demo-card-image::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noise)'/%3E%3C/svg%3E");
+            opacity: 0.15;
+            mix-blend-mode: overlay;
+        }
+        .style-grainy .demo-card-image img {
+            filter: saturate(1.1) contrast(1.05);
+        }
+
+        /* Style 5: Color Block Frame */
+        .style-frame .demo-card-image {
+            padding: 12px;
+            background: var(--wgac-teal);
+        }
+        .style-frame .demo-card-image img {
+            height: calc(100% - 0px);
+        }
+        .style-frame .card-coral .demo-card-image { background: var(--wgac-coral); }
+        .style-frame .card-blue .demo-card-image { background: var(--wgac-blue); }
+
+        /* Style 6: Cutout/Collage */
+        .style-cutout .demo-card-image {
+            background: var(--wgac-green-light);
+            padding: 1rem;
+        }
+        .style-cutout .demo-card-image img {
+            height: calc(100% - 0px);
+            border-radius: 0;
+            box-shadow: 8px 8px 0 var(--dark);
+        }
+
+        /* Style 7: Soft Desaturated */
+        .style-soft .demo-card-image img {
+            filter: saturate(0.6) brightness(1.05);
+        }
+
+        /* Style 8: Bold Shape Overlay */
+        .style-shapes .demo-card-image::before {
+            content: "";
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            background: var(--wgac-green-light);
+            border-radius: 50%;
+            bottom: -30px;
+            right: -30px;
+            z-index: 1;
+            opacity: 0.9;
+        }
+        .style-shapes .card-coral .demo-card-image::before { background: var(--wgac-coral); opacity: 0.8; }
+        .style-shapes .card-blue .demo-card-image::before { background: var(--wgac-blue); opacity: 0.8; }
+
+        /* Style 9: Illustration-inspired (posterized) */
+        .style-poster .demo-card-image img {
+            filter: saturate(1.4) contrast(1.1);
+        }
+        .style-poster .demo-card-image::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.1) 100%);
+        }
+
+        /* Style 10: Warm & Editorial */
+        .style-editorial .demo-card-image img {
+            filter: sepia(0.15) saturate(1.1) contrast(1.05);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-header">
+        <h1>Photography Style Options</h1>
+        <p>Same images, different treatments. Pick your vibe.</p>
+    </div>
+
+    <!-- Style 1: Duotone -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Option 1</div>
+            <h2>Duotone</h2>
+            <p>Images are overlaid with brand colors, creating a cohesive, distinctive look. Very "design-forward" and instantly recognizable.</p>
+        </div>
+        <div class="card-grid style-duotone">
+            <div class="demo-card card-teal">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-coral">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-blue">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 2: Gradient Overlay -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Option 2</div>
+            <h2>Gradient Overlay</h2>
+            <p>A colorful gradient bleeds from one corner, adding energy while keeping photos recognizable. Good balance of "editorial" and "fun".</p>
+        </div>
+        <div class="card-grid style-gradient">
+            <div class="demo-card card-teal">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-coral">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-blue">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 3: High Contrast B&W -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Option 3</div>
+            <h2>High Contrast Black & White</h2>
+            <p>Classic, timeless, serious. Lets the colorful UI elements (tags, buttons) pop. Very "newspaper of record" energy.</p>
+        </div>
+        <div class="card-grid style-bw">
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 4: Grainy Film -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Option 4</div>
+            <h2>Grainy Film</h2>
+            <p>Adds texture and warmth with a subtle grain overlay. Feels authentic, approachable, less "corporate". Very indie-magazine.</p>
+        </div>
+        <div class="card-grid style-grainy">
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 5: Color Block Frame -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Option 5</div>
+            <h2>Color Block Frame</h2>
+            <p>Photos sit inside a bold colored border. Playful, structured, very "designed". Strong brand presence without altering the images.</p>
+        </div>
+        <div class="card-grid style-frame">
+            <div class="demo-card card-teal">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-coral">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-blue">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 6: Cutout/Collage -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Option 6</div>
+            <h2>Cutout / Collage</h2>
+            <p>Photos appear "cut out" and dropped onto colored backgrounds with shadows. Zine-inspired, playful, handmade feel.</p>
+        </div>
+        <div class="card-grid style-cutout">
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 7: Soft Desaturated -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Option 7</div>
+            <h2>Soft & Desaturated</h2>
+            <p>Muted colors, airy feel. Calming, sophisticated, less "screaming for attention". Lets headlines do the work.</p>
+        </div>
+        <div class="card-grid style-soft">
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 8: Bold Shape Overlay -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Option 8</div>
+            <h2>Bold Shape Overlay</h2>
+            <p>Abstract shapes peek into the frame. Adds visual interest and brand personality without obscuring the photo.</p>
+        </div>
+        <div class="card-grid style-shapes">
+            <div class="demo-card card-teal">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-coral">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-blue">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 9: Warm Editorial -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Option 9</div>
+            <h2>Warm & Editorial</h2>
+            <p>Subtle warmth added via sepia tint. Classic magazine feel, sophisticated, timeless. Photos feel cohesive without heavy treatment.</p>
+        </div>
+        <div class="card-grid style-editorial">
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendation -->
+    <section class="style-section" style="background: var(--dark); color: white;">
+        <div class="style-header">
+            <div class="style-number" style="color: var(--wgac-green-light);">Recommendation</div>
+            <h2>My Top Picks</h2>
+            <p style="color: var(--gray-400);">Based on the WGAC brand vibe and editorial tone:</p>
+        </div>
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; text-align: center;">
+                <div style="padding: 2rem; background: rgba(255,255,255,0.05); border-radius: 1rem;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🥇</div>
+                    <h3 style="font-family: var(--font-display); margin-bottom: 0.5rem;">Duotone</h3>
+                    <p style="color: var(--gray-400); font-size: 0.9rem;">Distinctive, on-brand, hides stock photo vibes best</p>
+                </div>
+                <div style="padding: 2rem; background: rgba(255,255,255,0.05); border-radius: 1rem;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🥈</div>
+                    <h3 style="font-family: var(--font-display); margin-bottom: 0.5rem;">Grainy Film</h3>
+                    <p style="color: var(--gray-400); font-size: 0.9rem;">Authentic, indie feel matches the voice</p>
+                </div>
+                <div style="padding: 2rem; background: rgba(255,255,255,0.05); border-radius: 1rem;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🥉</div>
+                    <h3 style="font-family: var(--font-display); margin-bottom: 0.5rem;">Color Frame</h3>
+                    <p style="color: var(--gray-400); font-size: 0.9rem;">Playful, structured, very WGAC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

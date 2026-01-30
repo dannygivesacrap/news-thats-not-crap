@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNKY Photo Styles | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-brown: #a1512e;
+            --wgac-green-light: #d7f6a4;
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --wgac-yellow: #f0c808;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-hand: 'Caveat', cursive;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--cream); color: var(--dark); line-height: 1.6; }
+
+        .page-header {
+            background: var(--dark);
+            color: white;
+            padding: 3rem;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .page-header p {
+            color: var(--gray-400);
+        }
+
+        .style-section {
+            padding: 4rem 3rem;
+            border-bottom: 2px solid var(--gray-200);
+        }
+
+        .style-header {
+            max-width: 1200px;
+            margin: 0 auto 2rem;
+        }
+
+        .style-number {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--wgac-coral);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+
+        .style-header h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .style-header p {
+            color: var(--gray-600);
+            max-width: 600px;
+        }
+
+        .card-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .demo-card {
+            background: white;
+            overflow: visible;
+            position: relative;
+        }
+
+        .demo-card-image {
+            height: 220px;
+            overflow: visible;
+            position: relative;
+        }
+
+        .demo-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .demo-card-content {
+            padding: 1.25rem;
+            background: white;
+            position: relative;
+        }
+
+        .demo-card-tag {
+            display: inline-block;
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 0.2rem 0.5rem;
+            background: var(--wgac-teal);
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+
+        .demo-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            line-height: 1.3;
+        }
+
+        /* ============================================
+           STYLE 1: Torn Paper Edges
+           ============================================ */
+        .style-torn .demo-card {
+            background: none;
+        }
+        .style-torn .demo-card-image {
+            background: var(--wgac-green-light);
+            padding: 1rem;
+            clip-path: polygon(
+                0% 2%, 3% 0%, 7% 3%, 12% 1%, 18% 2%, 23% 0%, 28% 3%, 34% 1%, 40% 2%,
+                46% 0%, 52% 2%, 58% 1%, 64% 3%, 70% 0%, 76% 2%, 82% 1%, 88% 3%,
+                94% 0%, 97% 2%, 100% 0%, 100% 98%, 97% 100%, 93% 97%, 88% 100%,
+                82% 98%, 76% 100%, 70% 97%, 64% 100%, 58% 98%, 52% 100%, 46% 97%,
+                40% 100%, 34% 98%, 28% 100%, 22% 97%, 16% 100%, 10% 98%, 4% 100%, 0% 98%
+            );
+        }
+        .style-torn .demo-card-image img {
+            clip-path: polygon(
+                2% 4%, 5% 2%, 10% 5%, 15% 2%, 22% 4%, 28% 2%, 35% 5%, 42% 2%,
+                50% 4%, 58% 2%, 65% 5%, 72% 2%, 80% 4%, 87% 2%, 94% 5%, 98% 2%,
+                100% 4%, 100% 96%, 97% 98%, 92% 95%, 86% 98%, 78% 96%, 70% 98%,
+                62% 95%, 54% 98%, 46% 96%, 38% 98%, 30% 95%, 22% 98%, 14% 96%,
+                6% 98%, 2% 96%, 0% 98%, 0% 4%
+            );
+        }
+        .style-torn .card-2 .demo-card-image { background: var(--wgac-coral); }
+        .style-torn .card-3 .demo-card-image { background: var(--wgac-blue); }
+        .style-torn .demo-card-content {
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        /* ============================================
+           STYLE 2: Taped Photos
+           ============================================ */
+        .style-tape .demo-card {
+            background: none;
+        }
+        .style-tape .demo-card-image {
+            transform: rotate(-2deg);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+            border: 8px solid white;
+        }
+        .style-tape .card-2 .demo-card-image { transform: rotate(1.5deg); }
+        .style-tape .card-3 .demo-card-image { transform: rotate(-1deg); }
+
+        .style-tape .demo-card-image::before,
+        .style-tape .demo-card-image::after {
+            content: "";
+            position: absolute;
+            width: 60px;
+            height: 25px;
+            background: linear-gradient(135deg, rgba(255,255,200,0.9) 0%, rgba(255,255,180,0.7) 100%);
+            z-index: 10;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .style-tape .demo-card-image::before {
+            top: -12px;
+            left: 20%;
+            transform: rotate(-5deg);
+        }
+        .style-tape .demo-card-image::after {
+            top: -12px;
+            right: 20%;
+            transform: rotate(8deg);
+        }
+        .style-tape .demo-card-content {
+            background: white;
+            margin-top: 1rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        /* ============================================
+           STYLE 3: Doodles & Annotations
+           ============================================ */
+        .style-doodle .demo-card-image {
+            border: 3px solid var(--dark);
+        }
+        .style-doodle .demo-card-image::before {
+            content: "WOW!";
+            position: absolute;
+            top: -15px;
+            right: 10px;
+            font-family: var(--font-hand);
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--wgac-coral);
+            transform: rotate(12deg);
+            z-index: 10;
+        }
+        .style-doodle .card-2 .demo-card-image::before {
+            content: "YES!";
+            color: var(--wgac-teal);
+            transform: rotate(-8deg);
+        }
+        .style-doodle .card-3 .demo-card-image::before {
+            content: "NICE!";
+            color: var(--wgac-blue);
+            transform: rotate(5deg);
+        }
+        .style-doodle .demo-card-image::after {
+            content: "";
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            width: 50px;
+            height: 50px;
+            border: 4px solid var(--wgac-yellow);
+            border-radius: 50%;
+            z-index: 10;
+        }
+        .style-doodle .demo-card-content {
+            border: 3px solid var(--dark);
+            border-top: none;
+        }
+
+        /* ============================================
+           STYLE 4: Layered Cutouts
+           ============================================ */
+        .style-layered .demo-card {
+            background: none;
+        }
+        .style-layered .demo-card-image {
+            position: relative;
+        }
+        .style-layered .demo-card-image::before {
+            content: "";
+            position: absolute;
+            inset: -8px;
+            background: var(--wgac-green-light);
+            transform: rotate(3deg);
+            z-index: -1;
+        }
+        .style-layered .demo-card-image::after {
+            content: "";
+            position: absolute;
+            inset: -16px;
+            background: var(--wgac-teal);
+            transform: rotate(-2deg);
+            z-index: -2;
+        }
+        .style-layered .demo-card-image img {
+            box-shadow: 0 6px 25px rgba(0,0,0,0.2);
+        }
+        .style-layered .card-2 .demo-card-image::before { background: var(--wgac-coral); transform: rotate(-2deg); }
+        .style-layered .card-2 .demo-card-image::after { background: #f5a08c; transform: rotate(3deg); }
+        .style-layered .card-3 .demo-card-image::before { background: var(--wgac-blue); transform: rotate(2deg); }
+        .style-layered .card-3 .demo-card-image::after { background: #7b9cff; transform: rotate(-3deg); }
+        .style-layered .demo-card-content {
+            background: white;
+            margin-top: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ============================================
+           STYLE 5: Washi Tape Borders
+           ============================================ */
+        .style-washi .demo-card-image {
+            padding: 0;
+            position: relative;
+        }
+        .style-washi .demo-card-image::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 20px;
+            background: repeating-linear-gradient(
+                90deg,
+                var(--wgac-green-light) 0px,
+                var(--wgac-green-light) 10px,
+                var(--wgac-teal) 10px,
+                var(--wgac-teal) 20px
+            );
+            z-index: 10;
+            opacity: 0.9;
+        }
+        .style-washi .demo-card-image::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 20px;
+            background: repeating-linear-gradient(
+                90deg,
+                var(--wgac-coral) 0px,
+                var(--wgac-coral) 10px,
+                var(--wgac-yellow) 10px,
+                var(--wgac-yellow) 20px
+            );
+            z-index: 10;
+            opacity: 0.9;
+        }
+        .style-washi .card-2 .demo-card-image::before {
+            background: repeating-linear-gradient(
+                90deg,
+                var(--wgac-blue) 0px,
+                var(--wgac-blue) 8px,
+                #a8b8ff 8px,
+                #a8b8ff 16px
+            );
+        }
+        .style-washi .card-3 .demo-card-image::before {
+            background: repeating-linear-gradient(
+                90deg,
+                var(--wgac-coral) 0px,
+                var(--wgac-coral) 12px,
+                white 12px,
+                white 24px
+            );
+        }
+
+        /* ============================================
+           STYLE 6: Polaroid Stack
+           ============================================ */
+        .style-polaroid .demo-card {
+            background: none;
+        }
+        .style-polaroid .demo-card-image {
+            background: white;
+            padding: 12px 12px 50px 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            transform: rotate(-3deg);
+        }
+        .style-polaroid .card-2 .demo-card-image { transform: rotate(2deg); }
+        .style-polaroid .card-3 .demo-card-image { transform: rotate(-1deg); }
+        .style-polaroid .demo-card-image img {
+            height: 160px;
+        }
+        .style-polaroid .demo-card-image::after {
+            content: "good news!";
+            position: absolute;
+            bottom: 12px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-family: var(--font-hand);
+            font-size: 1.4rem;
+            color: var(--dark);
+        }
+        .style-polaroid .card-2 .demo-card-image::after { content: "finally!"; }
+        .style-polaroid .card-3 .demo-card-image::after { content: "amazing!"; }
+        .style-polaroid .demo-card-content {
+            background: white;
+            margin-top: 1rem;
+        }
+
+        /* ============================================
+           STYLE 7: Newspaper Clipping
+           ============================================ */
+        .style-newspaper .demo-card {
+            background: #f4f1e8;
+            border: 1px solid #d4cfc0;
+            transform: rotate(-1deg);
+        }
+        .style-newspaper .card-2 { transform: rotate(0.5deg); }
+        .style-newspaper .card-3 { transform: rotate(-0.5deg); }
+        .style-newspaper .demo-card-image {
+            filter: grayscale(100%) contrast(1.1);
+            mix-blend-mode: multiply;
+        }
+        .style-newspaper .demo-card-image::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(0,0,0,0.03) 2px,
+                    rgba(0,0,0,0.03) 4px
+                );
+            z-index: 1;
+        }
+        .style-newspaper .demo-card-content {
+            background: transparent;
+        }
+        .style-newspaper .demo-card-tag {
+            background: var(--dark);
+        }
+        .style-newspaper .demo-card::after {
+            content: "";
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            width: 30px;
+            height: 30px;
+            background: var(--wgac-yellow);
+            border-radius: 50%;
+            opacity: 0.8;
+        }
+
+        /* ============================================
+           STYLE 8: Sticker Bomb
+           ============================================ */
+        .style-stickers .demo-card-image {
+            border: 4px solid var(--dark);
+        }
+        .style-stickers .demo-card-image::before {
+            content: "✨";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            font-size: 2rem;
+            z-index: 10;
+            filter: drop-shadow(2px 2px 0 white);
+        }
+        .style-stickers .demo-card-image::after {
+            content: "🌟";
+            position: absolute;
+            bottom: 10px;
+            right: -10px;
+            font-size: 2.5rem;
+            z-index: 10;
+            filter: drop-shadow(2px 2px 0 white);
+        }
+        .style-stickers .card-2 .demo-card-image::before { content: "💚"; }
+        .style-stickers .card-2 .demo-card-image::after { content: "🎉"; }
+        .style-stickers .card-3 .demo-card-image::before { content: "🐝"; }
+        .style-stickers .card-3 .demo-card-image::after { content: "💛"; }
+        .style-stickers .demo-card-content {
+            border: 4px solid var(--dark);
+            border-top: none;
+            background: var(--wgac-green-light);
+        }
+
+        /* ============================================
+           STYLE 9: Mixed Media Chaos
+           ============================================ */
+        .style-chaos .demo-card {
+            background: none;
+            position: relative;
+        }
+        .style-chaos .demo-card-image {
+            transform: rotate(-4deg);
+            border: 6px solid white;
+            box-shadow:
+                8px 8px 0 var(--wgac-teal),
+                -3px -3px 0 var(--wgac-coral);
+        }
+        .style-chaos .card-2 .demo-card-image {
+            transform: rotate(3deg);
+            box-shadow:
+                -8px 8px 0 var(--wgac-blue),
+                4px -4px 0 var(--wgac-yellow);
+        }
+        .style-chaos .card-3 .demo-card-image {
+            transform: rotate(-2deg);
+            box-shadow:
+                6px 10px 0 var(--wgac-coral),
+                -5px -3px 0 var(--wgac-green-light);
+        }
+        .style-chaos .demo-card-image::before {
+            content: "!!!";
+            position: absolute;
+            top: -20px;
+            right: 20px;
+            font-family: var(--font-hand);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--wgac-coral);
+            transform: rotate(15deg);
+            z-index: 10;
+        }
+        .style-chaos .demo-card-content {
+            background: white;
+            margin-top: 1.5rem;
+            border: 3px solid var(--dark);
+            position: relative;
+        }
+        .style-chaos .demo-card-content::before {
+            content: "";
+            position: absolute;
+            top: -8px;
+            left: 30px;
+            width: 50px;
+            height: 15px;
+            background: var(--wgac-yellow);
+            transform: rotate(-2deg);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+            }
+        }
+
+        /* Footer CTA */
+        .cta-section {
+            background: var(--dark);
+            color: white;
+            padding: 4rem 3rem;
+            text-align: center;
+        }
+        .cta-section h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .cta-section p {
+            color: var(--gray-400);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-header">
+        <h1>FUNKY Collage Styles</h1>
+        <p>Handmade, cut-out, zine-inspired vibes</p>
+    </div>
+
+    <!-- Style 1: Torn Paper -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Style 1</div>
+            <h2>Torn Paper Edges</h2>
+            <p>Photos look ripped from magazines and pasted onto colored paper. Raw, tactile, DIY energy.</p>
+        </div>
+        <div class="card-grid style-torn">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 2: Taped Photos -->
+    <section class="style-section" style="background: #f0ede6;">
+        <div class="style-header">
+            <div class="style-number">Style 2</div>
+            <h2>Taped Photos</h2>
+            <p>Like photos stuck to a wall with masking tape. Casual, personal, scrapbook feel.</p>
+        </div>
+        <div class="card-grid style-tape">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 3: Doodles -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Style 3</div>
+            <h2>Doodles & Annotations</h2>
+            <p>Hand-drawn exclamations and circles. Like someone got excited while reading and couldn't help marking it up.</p>
+        </div>
+        <div class="card-grid style-doodle">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 4: Layered Cutouts -->
+    <section class="style-section" style="background: var(--gray-100);">
+        <div class="style-header">
+            <div class="style-number">Style 4</div>
+            <h2>Layered Cutouts</h2>
+            <p>Multiple colored paper layers stacked behind the photo. Dimensional, crafty, bold.</p>
+        </div>
+        <div class="card-grid style-layered">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 5: Washi Tape -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Style 5</div>
+            <h2>Washi Tape Borders</h2>
+            <p>Decorative tape strips frame the photos. Cheerful, crafty, distinctly handmade.</p>
+        </div>
+        <div class="card-grid style-washi">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 6: Polaroid -->
+    <section class="style-section" style="background: #e8e4dc;">
+        <div class="style-header">
+            <div class="style-number">Style 6</div>
+            <h2>Polaroid Stack</h2>
+            <p>Instant camera aesthetic with handwritten captions. Nostalgic, personal, warm.</p>
+        </div>
+        <div class="card-grid style-polaroid">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 7: Newspaper Clipping -->
+    <section class="style-section">
+        <div class="style-header">
+            <div class="style-number">Style 7</div>
+            <h2>Newspaper Clipping</h2>
+            <p>Like articles cut from old newspapers. Vintage, analog, slightly chaotic.</p>
+        </div>
+        <div class="card-grid style-newspaper">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 8: Sticker Bomb -->
+    <section class="style-section" style="background: var(--cream);">
+        <div class="style-header">
+            <div class="style-number">Style 8</div>
+            <h2>Sticker Bomb</h2>
+            <p>Emoji stickers scattered around photos. Playful, Gen-Z energy, unserious in the best way.</p>
+        </div>
+        <div class="card-grid style-stickers">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Style 9: Mixed Media Chaos -->
+    <section class="style-section" style="background: var(--gray-100);">
+        <div class="style-header">
+            <div class="style-number">Style 9</div>
+            <h2>Mixed Media Chaos</h2>
+            <p>Everything at once: rotated photos, colored shadows, tape, exclamations. Maximum zine energy.</p>
+        </div>
+        <div class="card-grid style-chaos">
+            <div class="demo-card card-1">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Climate</div>
+                    <h3>Wind Power Just Slashed UK Electricity Bills By A Third</h3>
+                </div>
+            </div>
+            <div class="demo-card card-2">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Health</div>
+                    <h3>Gene Therapy Slows Huntington's Disease By 75%</h3>
+                </div>
+            </div>
+            <div class="demo-card card-3">
+                <div class="demo-card-image">
+                    <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80" alt="">
+                </div>
+                <div class="demo-card-content">
+                    <div class="demo-card-tag">Wildlife</div>
+                    <h3>Amazon Bees Become First Insects With Legal Rights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <h2>Which vibe speaks to you?</h2>
+        <p>Let me know which style(s) you like and I'll apply it across the whole site!</p>
+    </section>
+
+</body>
+</html>

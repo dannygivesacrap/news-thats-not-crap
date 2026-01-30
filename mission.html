@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Mission | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-brown: #a1512e;
+            --wgac-green-light: #d7f6a4;
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--cream); color: var(--dark); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        a { color: inherit; text-decoration: none; }
+
+        /* Header */
+        .site-header { background: var(--dark); position: sticky; top: 0; z-index: 1000; }
+        .header-top { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 3rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .logo { display: flex; align-items: stretch; font-family: var(--font-body); font-size: 1rem; font-weight: 800; text-decoration: none; }
+        .logo-left { background: white; color: var(--dark); padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; }
+        .logo-right { background: var(--wgac-blue); color: white; padding: 0.5rem 0.75rem; display: flex; align-items: center; letter-spacing: 0.5px; }
+        .header-date { color: var(--gray-400); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; }
+
+        /* Navigation */
+        .main-nav { display: flex; justify-content: center; gap: 2px; padding: 0.75rem 0; background: var(--dark); }
+        .nav-link { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; padding: 0.5rem 1rem; transition: all 0.15s ease; background: rgba(255,255,255,0.1); color: white; }
+        .nav-link:hover { background: white; color: var(--dark); }
+        .nav-link.active { background: var(--wgac-blue); color: white; }
+
+        /* Hero */
+        .mission-hero {
+            background: var(--dark);
+            color: white;
+            padding: 8rem 3rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mission-hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(circle at 20% 80%, var(--wgac-teal) 0%, transparent 40%),
+                radial-gradient(circle at 80% 20%, var(--wgac-coral) 0%, transparent 40%),
+                radial-gradient(circle at 50% 50%, var(--wgac-blue) 0%, transparent 50%);
+            opacity: 0.15;
+        }
+
+        .mission-hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 400;
+            max-width: 900px;
+            margin: 0 auto 2rem;
+            line-height: 1.1;
+            position: relative;
+        }
+
+        .mission-hero p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.8;
+            position: relative;
+        }
+
+        /* Content Sections */
+        .mission-section {
+            padding: 6rem 3rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .mission-block {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            margin-bottom: 6rem;
+        }
+
+        .mission-block:nth-child(even) {
+            direction: rtl;
+        }
+
+        .mission-block:nth-child(even) > * {
+            direction: ltr;
+        }
+
+        .mission-block:last-child {
+            margin-bottom: 0;
+        }
+
+        .mission-text h2 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .mission-text p {
+            font-size: 1.1rem;
+            color: var(--gray-600);
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .mission-visual {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+            border-radius: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .visual-1 { background: linear-gradient(135deg, var(--wgac-green-light) 0%, var(--wgac-teal) 100%); }
+        .visual-2 { background: linear-gradient(135deg, var(--wgac-coral) 0%, var(--wgac-brown) 100%); }
+        .visual-3 { background: linear-gradient(135deg, var(--wgac-blue) 0%, #7b68ee 100%); }
+
+        .mission-visual span {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Stats Strip */
+        .stats-strip {
+            background: var(--wgac-green-light);
+            padding: 4rem 3rem;
+        }
+
+        .stats-strip-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+            text-align: center;
+        }
+
+        .stat-block {
+            padding: 2rem;
+        }
+
+        .stat-block h3 {
+            font-family: var(--font-display);
+            font-size: 4rem;
+            color: var(--dark);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-block p {
+            font-size: 1rem;
+            color: var(--gray-600);
+        }
+
+        /* Manifesto */
+        .manifesto {
+            background: var(--dark);
+            color: white;
+            padding: 6rem 3rem;
+            text-align: center;
+        }
+
+        .manifesto-inner {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .manifesto h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            opacity: 0.5;
+        }
+
+        .manifesto-list {
+            list-style: none;
+            text-align: left;
+        }
+
+        .manifesto-list li {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            padding: 1.5rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .manifesto-list li:last-child {
+            border-bottom: none;
+        }
+
+        .manifesto-list span {
+            color: var(--wgac-teal);
+        }
+
+        /* Footer */
+        .site-footer { background: var(--dark); color: white; padding: 4rem 3rem; }
+        .footer-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; }
+        .footer-brand { max-width: 350px; }
+        .footer-logo { display: flex; align-items: stretch; font-family: var(--font-body); font-size: 0.85rem; font-weight: 800; margin-bottom: 1rem; width: fit-content; }
+        .footer-logo .logo-left { background: white; color: var(--dark); padding: 0.4rem 0.6rem; }
+        .footer-logo .logo-right { background: var(--wgac-blue); color: white; padding: 0.4rem 0.6rem; }
+        .footer-tagline { font-size: 0.9rem; color: var(--gray-400); line-height: 1.6; }
+        .footer-nav { display: flex; gap: 4rem; }
+        .footer-col h4 { font-size: 0.7rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--gray-400); margin-bottom: 1rem; }
+        .footer-col ul { list-style: none; }
+        .footer-col li { margin-bottom: 0.5rem; }
+        .footer-col a { font-size: 0.9rem; color: white; opacity: 0.8; transition: opacity 0.2s; }
+        .footer-col a:hover { opacity: 1; }
+        .footer-bottom { max-width: 1400px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; color: var(--gray-400); display: flex; justify-content: space-between; align-items: center; }
+        .footer-update { font-size: 0.7rem; opacity: 0.6; letter-spacing: 0.5px; }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .mission-block {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            .mission-block:nth-child(even) {
+                direction: ltr;
+            }
+            .mission-visual {
+                max-width: 300px;
+                margin: 0 auto;
+            }
+            .stats-strip-inner {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            .footer-content { flex-direction: column; gap: 3rem; }
+        }
+        @media (max-width: 768px) {
+            .header-top { padding: 1rem 1.5rem; }
+            .main-nav { flex-wrap: wrap; }
+            .nav-link { padding: 0.4rem 0.8rem; font-size: 0.65rem; }
+            .mission-hero { padding: 4rem 1.5rem; }
+            .mission-section { padding: 3rem 1.5rem; }
+            .manifesto-list li { font-size: 1.3rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <a href="index.html" class="logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></a>
+            <div class="header-date">Wednesday, January 29, 2026</div>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Today</a>
+            <a href="climate.html" class="nav-link">Climate</a>
+            <a href="health.html" class="nav-link">Health</a>
+            <a href="science.html" class="nav-link">Science</a>
+            <a href="people.html" class="nav-link">People</a>
+            <a href="wildlife.html" class="nav-link">Wildlife</a>
+            <a href="cats.html" class="nav-link">Cats</a>
+        </nav>
+    </header>
+
+    <section class="mission-hero">
+        <h1>Good news exists.<br>We find it.</h1>
+        <p>In a world drowning in doom-scrolling, we're the life raft of actually good stuff.</p>
+    </section>
+
+    <section class="mission-section">
+        <div class="mission-block">
+            <div class="mission-text">
+                <h2>The world is actually getting better</h2>
+                <p>Extreme poverty has halved in 20 years. Child mortality is down 60%. More people can read than ever before in human history. Renewable energy is breaking records every month.</p>
+                <p>But you wouldn't know it from the news. That's the problem we're solving.</p>
+            </div>
+            <div class="mission-visual visual-1">
+                <span>📈</span>
+            </div>
+        </div>
+
+        <div class="mission-block">
+            <div class="mission-text">
+                <h2>Negativity bias is a feature, not a bug</h2>
+                <p>Our brains evolved to notice threats. A rustle in the grass could be a tiger. This kept us alive—but it also means bad news feels more important than good news.</p>
+                <p>Media companies exploit this. We refuse to.</p>
+            </div>
+            <div class="mission-visual visual-2">
+                <span>🧠</span>
+            </div>
+        </div>
+
+        <div class="mission-block">
+            <div class="mission-text">
+                <h2>Optimism is a strategy, not a delusion</h2>
+                <p>We're not naive. We know the world has serious problems. But research shows that people who believe change is possible are more likely to make it happen.</p>
+                <p>Informed optimism beats paralyzed despair. Every time.</p>
+            </div>
+            <div class="mission-visual visual-3">
+                <span>🌱</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-strip">
+        <div class="stats-strip-inner">
+            <div class="stat-block">
+                <h3>71%</h3>
+                <p>of people say news makes them feel worse</p>
+            </div>
+            <div class="stat-block">
+                <h3>90%</h3>
+                <p>of news coverage focuses on problems, not solutions</p>
+            </div>
+            <div class="stat-block">
+                <h3>0%</h3>
+                <p>of that is helping anyone</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="manifesto">
+        <div class="manifesto-inner">
+            <h2>Our Beliefs</h2>
+            <ul class="manifesto-list">
+                <li><span>01</span> Progress is real, even when it's slow</li>
+                <li><span>02</span> Attention is precious—we won't waste yours</li>
+                <li><span>03</span> Good news can be as fun as it is meaningful</li>
+                <li><span>04</span> The news should make you want to engage with the world, not hide from it</li>
+                <li><span>05</span> Cats.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></div>
+                <p class="footer-tagline">Doom-scrolling is so last decade. We bring you the breakthroughs, the victories, and the genuinely good stuff happening in the world.</p>
+            </div>
+            <nav class="footer-nav">
+                <div class="footer-col">
+                    <h4>Sections</h4>
+                    <ul>
+                        <li><a href="climate.html">Climate</a></li>
+                        <li><a href="health.html">Health</a></li>
+                        <li><a href="science.html">Science</a></li>
+                        <li><a href="people.html">People</a></li>
+                        <li><a href="wildlife.html">Wildlife</a></li>
+                        <li><a href="cats.html">Cats</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="mission.html">Our Mission</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 News That's Not Crap. All the good vibes reserved.</span>
+            <span class="footer-update">Updated daily at 6am Eastern</span>
+        </div>
+    </footer>
+</body>
+</html>

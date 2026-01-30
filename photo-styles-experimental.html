@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimental Styles | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --pink: #ff2d92;
+            --lime: #c7f23c;
+            --blue: #2d3cff;
+            --orange: #ff6b35;
+            --cyan: #00f0ff;
+            --purple: #9d4edd;
+            --yellow: #ffea00;
+            --dark: #0a0a0a;
+            --cream: #f5f5f0;
+            --font-display: 'Instrument Serif', Georgia, serif;
+            --font-body: 'IBM Plex Sans', sans-serif;
+            --font-mono: 'Space Mono', monospace;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--dark); color: white; }
+
+        .page-header {
+            padding: 4rem 2rem;
+            text-align: center;
+            background: var(--pink);
+            color: var(--dark);
+        }
+        .page-header h1 {
+            font-family: var(--font-mono);
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        .style-section {
+            padding: 4rem 2rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .style-label {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--pink);
+            margin-bottom: 0.5rem;
+        }
+
+        .style-title {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .style-desc {
+            color: rgba(255,255,255,0.5);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            max-width: 500px;
+        }
+
+        .card-row {
+            display: flex;
+            gap: 1.5rem;
+            overflow-x: auto;
+            padding-bottom: 1rem;
+        }
+
+        .card {
+            flex-shrink: 0;
+            width: 320px;
+            background: #111;
+            overflow: hidden;
+        }
+
+        .card-img {
+            height: 240px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card-text {
+            padding: 1rem;
+        }
+
+        .card-tag {
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--pink);
+            margin-bottom: 0.5rem;
+        }
+
+        .card-text h3 {
+            font-family: var(--font-display);
+            font-size: 1rem;
+            line-height: 1.3;
+            color: white;
+        }
+
+        /* ====== STYLE 1: Extreme Crop - Just Texture ====== */
+        .style-crop .card-img img {
+            object-fit: cover;
+            object-position: 75% 60%;
+            transform: scale(3);
+            filter: contrast(1.2) saturate(1.3);
+        }
+
+        /* ====== STYLE 2: Risograph Effect ====== */
+        .style-riso .card-img {
+            background: var(--cream);
+        }
+        .style-riso .card-img img {
+            mix-blend-mode: multiply;
+            filter: grayscale(100%) contrast(1.2);
+        }
+        .style-riso .card-img::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: var(--pink);
+            mix-blend-mode: screen;
+            opacity: 0.7;
+        }
+        .style-riso .card-img::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence baseFrequency='0.8'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.4'/%3E%3C/svg%3E");
+            mix-blend-mode: overlay;
+        }
+        .style-riso .card:nth-child(2) .card-img::before { background: var(--cyan); }
+        .style-riso .card:nth-child(3) .card-img::before { background: var(--lime); }
+
+        /* ====== STYLE 3: Glitch/Datamosh ====== */
+        .style-glitch .card-img img {
+            animation: glitch 0.3s infinite;
+        }
+        @keyframes glitch {
+            0%, 100% { clip-path: inset(0 0 0 0); }
+            20% { clip-path: inset(20% 0 30% 0); transform: translateX(-5px); }
+            40% { clip-path: inset(50% 0 20% 0); transform: translateX(5px); }
+            60% { clip-path: inset(10% 0 60% 0); transform: translateX(-3px); }
+        }
+        .style-glitch .card-img::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(transparent 50%, rgba(0,0,0,0.3) 50%);
+            background-size: 100% 4px;
+            z-index: 2;
+        }
+        .style-glitch .card-img::after {
+            content: "";
+            position: absolute;
+            top: 30%;
+            left: 0;
+            right: 0;
+            height: 10px;
+            background: var(--cyan);
+            mix-blend-mode: difference;
+            z-index: 3;
+        }
+
+        /* ====== STYLE 4: Thermal/Infrared ====== */
+        .style-thermal .card-img img {
+            filter: hue-rotate(180deg) saturate(3) contrast(1.3);
+        }
+        .style-thermal .card-img::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                to bottom,
+                rgba(255,0,100,0.3) 0%,
+                rgba(255,150,0,0.3) 33%,
+                rgba(255,255,0,0.3) 66%,
+                rgba(0,255,255,0.3) 100%
+            );
+            mix-blend-mode: overlay;
+        }
+
+        /* ====== STYLE 5: Photocopy Degradation ====== */
+        .style-photocopy .card-img img {
+            filter: grayscale(100%) contrast(2) brightness(1.1);
+        }
+        .style-photocopy .card-img::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(0,0,0,0.1) 2px,
+                    rgba(0,0,0,0.1) 4px
+                );
+        }
+        .style-photocopy .card-img::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.4) 100%);
+        }
+        .style-photocopy .card {
+            background: #e8e8e0;
+            transform: rotate(-0.5deg);
+        }
+        .style-photocopy .card:nth-child(2) { transform: rotate(0.3deg); }
+        .style-photocopy .card-text { color: var(--dark); }
+        .style-photocopy .card-text h3 { color: var(--dark); }
+
+        /* ====== STYLE 6: Y2K Chrome ====== */
+        .style-y2k .card-img img {
+            filter: saturate(0) contrast(1.1);
+        }
+        .style-y2k .card-img::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                135deg,
+                rgba(255,0,150,0.6) 0%,
+                rgba(0,200,255,0.6) 50%,
+                rgba(150,255,0,0.6) 100%
+            );
+            mix-blend-mode: color;
+        }
+        .style-y2k .card-img::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, transparent 50%);
+        }
+        .style-y2k .card {
+            border: 2px solid rgba(255,255,255,0.2);
+            border-radius: 20px;
+        }
+
+        /* ====== STYLE 7: Brutalist Raw ====== */
+        .style-brutalist .card {
+            background: var(--cream);
+            border: 4px solid var(--dark);
+        }
+        .style-brutalist .card-img {
+            border-bottom: 4px solid var(--dark);
+            mix-blend-mode: multiply;
+        }
+        .style-brutalist .card-img img {
+            filter: grayscale(100%) contrast(1.5);
+            mix-blend-mode: multiply;
+        }
+        .style-brutalist .card-text {
+            color: var(--dark);
+        }
+        .style-brutalist .card-text h3 {
+            color: var(--dark);
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+        }
+        .style-brutalist .card-tag {
+            color: var(--dark);
+            background: var(--lime);
+            padding: 0.2rem 0.4rem;
+        }
+
+        /* ====== STYLE 8: Scientific Diagram ====== */
+        .style-science .card-img::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border: 2px dashed rgba(255,255,255,0.5);
+            margin: 15px;
+            z-index: 2;
+        }
+        .style-science .card-img::after {
+            content: "fig. 01";
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            color: white;
+            background: var(--dark);
+            padding: 0.2rem 0.5rem;
+            z-index: 3;
+        }
+        .style-science .card:nth-child(2) .card-img::after { content: "fig. 02"; }
+        .style-science .card:nth-child(3) .card-img::after { content: "fig. 03"; }
+        .style-science .card-img img {
+            filter: saturate(0.7);
+        }
+
+        /* ====== STYLE 9: Redacted Document ====== */
+        .style-redacted .card-img {
+            position: relative;
+        }
+        .style-redacted .card-img img {
+            filter: grayscale(100%) contrast(0.8) brightness(1.2);
+        }
+        .style-redacted .card-img::before {
+            content: "";
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            width: 60%;
+            height: 25px;
+            background: var(--dark);
+            z-index: 2;
+        }
+        .style-redacted .card-img::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            width: 50%;
+            height: 20px;
+            background: var(--dark);
+            z-index: 2;
+        }
+        .style-redacted .card {
+            background: #d4cfc4;
+        }
+        .style-redacted .card-text { color: var(--dark); }
+        .style-redacted .card-text h3 { color: var(--dark); }
+
+        /* ====== STYLE 10: Silhouette Pattern Fill ====== */
+        .style-silhouette .card-img {
+            background: repeating-linear-gradient(
+                45deg,
+                var(--pink),
+                var(--pink) 10px,
+                var(--lime) 10px,
+                var(--lime) 20px
+            );
+        }
+        .style-silhouette .card-img img {
+            mix-blend-mode: luminosity;
+            filter: contrast(2) grayscale(100%);
+        }
+
+        /* ====== STYLE 11: VHS Tracking ====== */
+        .style-vhs .card-img img {
+            filter: saturate(1.3) blur(0.5px);
+        }
+        .style-vhs .card-img::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(0,0,0,0.2) 3px,
+                    transparent 3px
+                );
+            z-index: 2;
+        }
+        .style-vhs .card-img::after {
+            content: "▶ REC";
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: red;
+            background: rgba(0,0,0,0.7);
+            padding: 0.2rem 0.5rem;
+            z-index: 3;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
+        /* ====== STYLE 12: Negative Space Typography ====== */
+        .style-typography .card-img {
+            position: relative;
+        }
+        .style-typography .card-img::before {
+            content: "GOOD";
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-body);
+            font-size: 5rem;
+            font-weight: 800;
+            color: white;
+            mix-blend-mode: difference;
+            z-index: 2;
+        }
+        .style-typography .card:nth-child(2) .card-img::before { content: "NEWS"; }
+        .style-typography .card:nth-child(3) .card-img::before { content: "WINS"; }
+        .style-typography .card-img img {
+            filter: contrast(1.2);
+        }
+
+        /* ====== STYLE 13: Sticker Label Bomb ====== */
+        .style-stickerlabel .card-img::before {
+            content: "100% REAL";
+            position: absolute;
+            top: 15px;
+            left: -15px;
+            background: var(--yellow);
+            color: var(--dark);
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            font-weight: 700;
+            padding: 0.3rem 0.8rem;
+            transform: rotate(-15deg);
+            z-index: 3;
+            border: 2px solid var(--dark);
+        }
+        .style-stickerlabel .card-img::after {
+            content: "NOT CLICKBAIT";
+            position: absolute;
+            bottom: 20px;
+            right: -10px;
+            background: var(--pink);
+            color: white;
+            font-family: var(--font-mono);
+            font-size: 0.55rem;
+            font-weight: 700;
+            padding: 0.3rem 0.6rem;
+            transform: rotate(8deg);
+            z-index: 3;
+        }
+        .style-stickerlabel .card:nth-child(2) .card-img::before { content: "VERIFIED"; background: var(--lime); }
+        .style-stickerlabel .card:nth-child(3) .card-img::before { content: "NO CAP"; background: var(--cyan); }
+
+        /* ====== STYLE 14: Blueprint/Technical ====== */
+        .style-blueprint .card {
+            background: #1a3a5c;
+        }
+        .style-blueprint .card-img img {
+            filter: invert(1) hue-rotate(180deg) saturate(0.3);
+            opacity: 0.7;
+        }
+        .style-blueprint .card-img::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            z-index: 2;
+        }
+        .style-blueprint .card-img::after {
+            content: "SPEC_001";
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            color: rgba(255,255,255,0.5);
+        }
+
+        /* ====== STYLE 15: Newsprint Texture ====== */
+        .style-newsprint .card {
+            background: #e8e4d8;
+            transform: rotate(-1deg);
+        }
+        .style-newsprint .card:nth-child(2) { transform: rotate(0.5deg); }
+        .style-newsprint .card-img img {
+            filter: grayscale(100%) contrast(1.3);
+            mix-blend-mode: multiply;
+        }
+        .style-newsprint .card-img::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 4 4' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='2' cy='2' r='1' fill='%23000' opacity='0.1'/%3E%3C/svg%3E");
+            background-size: 3px 3px;
+        }
+        .style-newsprint .card-text { color: var(--dark); }
+        .style-newsprint .card-text h3 { color: var(--dark); }
+        .style-newsprint .card-tag { color: var(--dark); }
+
+        /* ====== STYLE 16: Holographic ====== */
+        .style-holo .card-img::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                135deg,
+                rgba(255,0,150,0.4) 0%,
+                rgba(0,255,255,0.4) 25%,
+                rgba(255,255,0,0.4) 50%,
+                rgba(150,0,255,0.4) 75%,
+                rgba(255,0,150,0.4) 100%
+            );
+            background-size: 200% 200%;
+            animation: holo 3s ease infinite;
+            mix-blend-mode: color;
+            z-index: 2;
+        }
+        @keyframes holo {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .style-holo .card {
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+
+        /* ====== STYLE 17: Pill Shape Crop ====== */
+        .style-pill .card-img {
+            border-radius: 120px;
+            border: 4px solid var(--lime);
+            margin: 0.5rem;
+            height: 220px;
+        }
+        .style-pill .card-img img {
+            border-radius: 120px;
+            filter: saturate(1.2);
+        }
+        .style-pill .card {
+            background: transparent;
+            border: 2px solid rgba(255,255,255,0.1);
+        }
+
+        /* ====== STYLE 18: Torn Magazine ====== */
+        .style-tornmag .card {
+            background: none;
+        }
+        .style-tornmag .card-img {
+            clip-path: polygon(
+                5% 0%, 100% 3%, 97% 100%, 0% 95%,
+                2% 80%, 0% 60%, 3% 40%, 0% 20%
+            );
+            transform: rotate(-2deg);
+            border: none;
+        }
+        .style-tornmag .card:nth-child(2) .card-img {
+            clip-path: polygon(
+                0% 2%, 95% 0%, 100% 98%, 3% 100%,
+                0% 85%, 2% 65%, 0% 45%, 3% 25%
+            );
+            transform: rotate(1deg);
+        }
+        .style-tornmag .card-img img {
+            filter: saturate(1.4) contrast(1.1);
+        }
+        .style-tornmag .card-text {
+            background: var(--pink);
+            color: white;
+            margin-top: -20px;
+            position: relative;
+            z-index: 2;
+            padding: 1.5rem 1rem 1rem;
+        }
+        .style-tornmag .card:nth-child(2) .card-text { background: var(--lime); color: var(--dark); }
+        .style-tornmag .card:nth-child(3) .card-text { background: var(--cyan); color: var(--dark); }
+        .style-tornmag .card-tag { color: inherit; }
+        .style-tornmag .card-text h3 { color: inherit; }
+
+        /* ====== STYLE 19: Layered Offset ====== */
+        .style-offset .card {
+            background: none;
+            position: relative;
+        }
+        .style-offset .card-img {
+            position: relative;
+        }
+        .style-offset .card-img::before {
+            content: "";
+            position: absolute;
+            inset: 8px -8px -8px 8px;
+            background: var(--pink);
+            z-index: -1;
+        }
+        .style-offset .card-img::after {
+            content: "";
+            position: absolute;
+            inset: 16px -16px -16px 16px;
+            background: var(--lime);
+            z-index: -2;
+        }
+        .style-offset .card:nth-child(2) .card-img::before { background: var(--cyan); }
+        .style-offset .card:nth-child(2) .card-img::after { background: var(--orange); }
+        .style-offset .card:nth-child(3) .card-img::before { background: var(--purple); }
+        .style-offset .card:nth-child(3) .card-img::after { background: var(--yellow); }
+        .style-offset .card-img img {
+            position: relative;
+            z-index: 1;
+        }
+        .style-offset .card-text {
+            background: white;
+            color: var(--dark);
+            margin-top: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+        .style-offset .card-text h3 { color: var(--dark); }
+
+        /* ====== STYLE 20: Pixel Sort ====== */
+        .style-pixelsort .card-img {
+            position: relative;
+        }
+        .style-pixelsort .card-img img {
+            filter: saturate(1.5) contrast(1.2);
+        }
+        .style-pixelsort .card-img::before {
+            content: "";
+            position: absolute;
+            top: 30%;
+            left: 0;
+            right: 0;
+            height: 40%;
+            background: linear-gradient(
+                90deg,
+                var(--pink) 0%,
+                var(--orange) 20%,
+                var(--yellow) 40%,
+                var(--lime) 60%,
+                var(--cyan) 80%,
+                var(--purple) 100%
+            );
+            mix-blend-mode: saturation;
+            z-index: 2;
+        }
+        .style-pixelsort .card-img::after {
+            content: "";
+            position: absolute;
+            top: 30%;
+            left: 0;
+            right: 0;
+            height: 40%;
+            background: repeating-linear-gradient(
+                90deg,
+                transparent,
+                transparent 2px,
+                rgba(255,255,255,0.1) 2px,
+                rgba(255,255,255,0.1) 4px
+            );
+            z-index: 3;
+        }
+
+        /* Footer */
+        .footer-section {
+            padding: 4rem 2rem;
+            text-align: center;
+            background: var(--pink);
+            color: var(--dark);
+        }
+        .footer-section h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .footer-section p {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-header">
+        <h1>20 Experimental Styles</h1>
+    </div>
+
+    <!-- 1. Extreme Crop -->
+    <section class="style-section">
+        <div class="style-label">01</div>
+        <h2 class="style-title">Extreme Crop</h2>
+        <p class="style-desc">Zoom way in. Just texture and color. No recognizable "stock photo".</p>
+        <div class="card-row style-crop">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 2. Risograph -->
+    <section class="style-section">
+        <div class="style-label">02</div>
+        <h2 class="style-title">Risograph Print</h2>
+        <p class="style-desc">That indie print shop aesthetic. Grainy, single-color, imperfect.</p>
+        <div class="card-row style-riso">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 3. Glitch -->
+    <section class="style-section">
+        <div class="style-label">03</div>
+        <h2 class="style-title">Glitch / Datamosh</h2>
+        <p class="style-desc">Broken signal aesthetic. Digital chaos. Very now.</p>
+        <div class="card-row style-glitch">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 4. Thermal -->
+    <section class="style-section">
+        <div class="style-label">04</div>
+        <h2 class="style-title">Thermal / Infrared</h2>
+        <p class="style-desc">Heat-map colors. Alien. Scientific yet surreal.</p>
+        <div class="card-row style-thermal">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 5. Photocopy -->
+    <section class="style-section">
+        <div class="style-label">05</div>
+        <h2 class="style-title">Photocopy Degradation</h2>
+        <p class="style-desc">10th generation copy vibes. Punk zine energy. Anti-pristine.</p>
+        <div class="card-row style-photocopy">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 6. Y2K Chrome -->
+    <section class="style-section">
+        <div class="style-label">06</div>
+        <h2 class="style-title">Y2K Chrome</h2>
+        <p class="style-desc">Early 2000s revival. Iridescent, glossy, futuristic-retro.</p>
+        <div class="card-row style-y2k">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 7. Brutalist -->
+    <section class="style-section">
+        <div class="style-label">07</div>
+        <h2 class="style-title">Brutalist Raw</h2>
+        <p class="style-desc">Function over form. Heavy borders. Monospace. Deliberately ugly-beautiful.</p>
+        <div class="card-row style-brutalist">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 8. Scientific Diagram -->
+    <section class="style-section">
+        <div class="style-label">08</div>
+        <h2 class="style-title">Scientific Diagram</h2>
+        <p class="style-desc">Specimen vibes. Figure labels. Clinical but curious.</p>
+        <div class="card-row style-science">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 9. Redacted -->
+    <section class="style-section">
+        <div class="style-label">09</div>
+        <h2 class="style-title">Redacted Document</h2>
+        <p class="style-desc">Classified files aesthetic. Black bars. Mysterious.</p>
+        <div class="card-row style-redacted">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 10. Silhouette Pattern -->
+    <section class="style-section">
+        <div class="style-label">10</div>
+        <h2 class="style-title">Silhouette Pattern Fill</h2>
+        <p class="style-desc">Bold patterns show through image silhouettes. Graphic, bold, memorable.</p>
+        <div class="card-row style-silhouette">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 11. VHS -->
+    <section class="style-section">
+        <div class="style-label">11</div>
+        <h2 class="style-title">VHS Tracking</h2>
+        <p class="style-desc">Camcorder nostalgia. Scan lines. "REC" indicator. Found footage vibes.</p>
+        <div class="card-row style-vhs">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 12. Typography Overlay -->
+    <section class="style-section">
+        <div class="style-label">12</div>
+        <h2 class="style-title">Bold Type Overlay</h2>
+        <p class="style-desc">Huge words. Difference blend mode. Image becomes texture for typography.</p>
+        <div class="card-row style-typography">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 13. Sticker Labels -->
+    <section class="style-section">
+        <div class="style-label">13</div>
+        <h2 class="style-title">Sticker Label Bomb</h2>
+        <p class="style-desc">Rotated labels. "100% REAL" "NOT CLICKBAIT". Self-aware, fun.</p>
+        <div class="card-row style-stickerlabel">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 14. Blueprint -->
+    <section class="style-section">
+        <div class="style-label">14</div>
+        <h2 class="style-title">Blueprint / Technical</h2>
+        <p class="style-desc">Architectural drawing aesthetic. Grid overlay. Inverted colors.</p>
+        <div class="card-row style-blueprint">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 15. Newsprint -->
+    <section class="style-section">
+        <div class="style-label">15</div>
+        <h2 class="style-title">Newsprint Halftone</h2>
+        <p class="style-desc">Old newspaper texture. Dot pattern. Yellowed paper. Nostalgic.</p>
+        <div class="card-row style-newsprint">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 16. Holographic -->
+    <section class="style-section">
+        <div class="style-label">16</div>
+        <h2 class="style-title">Holographic Shimmer</h2>
+        <p class="style-desc">Animated rainbow overlay. Premium sticker vibes. Eye-catching.</p>
+        <div class="card-row style-holo">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 17. Pill Shape -->
+    <section class="style-section">
+        <div class="style-label">17</div>
+        <h2 class="style-title">Pill Shape Crop</h2>
+        <p class="style-desc">Rounded capsule frames. Soft yet bold. Modern app aesthetic.</p>
+        <div class="card-row style-pill">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 18. Torn Magazine -->
+    <section class="style-section">
+        <div class="style-label">18</div>
+        <h2 class="style-title">Torn Magazine Edge</h2>
+        <p class="style-desc">Ripped edges via clip-path. Bold color text blocks. Collage energy.</p>
+        <div class="card-row style-tornmag">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 19. Layered Offset -->
+    <section class="style-section">
+        <div class="style-label">19</div>
+        <h2 class="style-title">Layered Color Offset</h2>
+        <p class="style-desc">Stacked colored shadows. Dimensional. Risograph meets pop art.</p>
+        <div class="card-row style-offset">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <!-- 20. Pixel Sort -->
+    <section class="style-section">
+        <div class="style-label">20</div>
+        <h2 class="style-title">Pixel Sort Band</h2>
+        <p class="style-desc">Glitchy rainbow band through the image. Digital art aesthetic.</p>
+        <div class="card-row style-pixelsort">
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"></div><div class="card-text"><div class="card-tag">Climate</div><h3>Wind Power Slashes UK Bills By A Third</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&q=80"></div><div class="card-text"><div class="card-tag">Health</div><h3>Gene Therapy Slows Huntington's By 75%</h3></div></div>
+            <div class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80"></div><div class="card-text"><div class="card-tag">Wildlife</div><h3>Amazon Bees Get Legal Rights</h3></div></div>
+        </div>
+    </section>
+
+    <div class="footer-section">
+        <h2>Which ones hit?</h2>
+        <p>Let me know your favorites and I can combine elements or push further in any direction!</p>
+    </div>
+
+</body>
+</html>
