@@ -29,13 +29,20 @@
 - Historical articles stored in `data/article-archive.json`
 - Generate-site.js must NEVER delete old article HTML files
 
-### 3. Image Pool
-- 100 curated images per category (500 total)
+### 3. Image Pool & Validation
+- 100 curated images per category (500 total) in `scripts/image-pool.js`
 - Images rotate to ensure variety
 - No API calls needed - all URLs are pre-verified Unsplash images
 - Categories: climate, health, science, wildlife, people
+- **Image validation**: Before using an image, `validateImageUrl()` checks it with an HTTP HEAD request
+- If an image fails validation, `getValidImage()` tries up to 5 alternatives before falling back to a random image
 
 ### 4. Publishing Flow & Timeline
+
+**Two workflows only** (no others should exist):
+- `daily-news.yml` - Fetches, curates, commits, creates review notification
+- `auto-publish.yml` - Publishes if not manually reviewed by 9 AM
+
 | Time | Event |
 |------|-------|
 | 6:00 AM Pacific | Pipeline starts (daily-news.yml) |
@@ -47,6 +54,7 @@
 - Manual review available at review.html anytime before 9 AM
 - If manually reviewed, articles publish immediately
 - If not reviewed by 9 AM, auto-publish workflow runs
+- Site HTML is ONLY generated after review or auto-publish (never during curation)
 
 ### 5. Voice & Tone
 - Warm, conversational, like a smart friend sharing good news
@@ -95,12 +103,13 @@
 2. **Curate** - AI selects and categorizes positive stories
 3. **Rewrite** - AI generates full articles in WGAC voice
 4. **Fact-Check** - AI verifies facts against source (REQUIRED)
-5. **Commit** - Save to data/curated-articles.json
-6. **Notify** - Create GitHub Issue for review
-7. **Review** - Manual approval via review.html (optional)
-8. **Auto-Publish** - 9 AM if not manually reviewed
-9. **Generate** - Create HTML pages
-10. **Archive** - Add to historical archive
+5. **Image Validation** - Verify each article's image loads (tries up to 5 alternatives)
+6. **Commit** - Save to data/curated-articles.json
+7. **Notify** - Create GitHub Issue for review
+8. **Review** - Manual approval via review.html (optional)
+9. **Auto-Publish** - 9 AM if not manually reviewed
+10. **Generate** - Create HTML pages
+11. **Archive** - Add to historical archive
 
 ## Section Colors
 
@@ -137,7 +146,8 @@ All section pages must match the same CSS structure:
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0 | 2026-02-03 | Initial version with all core requirements |
+| 1.1 | 2026-02-03 | Added image validation step; clarified two-workflow structure |
 
-**Current Version: 1.0**
+**Current Version: 1.1**
 
 When updating this file, increment the version and add a row to the table above.
