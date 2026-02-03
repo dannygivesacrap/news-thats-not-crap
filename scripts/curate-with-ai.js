@@ -113,18 +113,42 @@ ABSOLUTE RULES FOR FACTS:
 
 Remember: The tone is playful, but the facts are sacred.`;
 
-async function curateAndCategorize(rawArticles) {
-  console.log('Curating and categorizing articles with Claude...\n');
+// Batch size for processing (to stay under token limits)
+const BATCH_SIZE = 20;
 
-  const prompt = `Review these ${rawArticles.length} articles and select the 60-80 BEST stories for a positive news site.
+// Helper to wait
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+// API call with retry logic
+async function callWithRetry(fn, maxRetries = 3) {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      if (error.status === 429 && attempt < maxRetries) {
+        // Rate limited - wait and retry
+        const waitTime = Math.min(60000 * attempt, 120000); // 1-2 minutes
+        console.log(`  Rate limited. Waiting ${waitTime / 1000}s before retry ${attempt + 1}/${maxRetries}...`);
+        await sleep(waitTime);
+      } else {
+        throw error;
+      }
+    }
+  }
+}
+
+// Process a single batch of articles
+async function curateBatch(articles, batchNum, totalBatches) {
+  console.log(`  Processing batch ${batchNum}/${totalBatches} (${articles.length} articles)...`);
+
+  const prompt = `Review these ${articles.length} articles and select the BEST stories for a positive news site.
 
 SELECTION CRITERIA:
 1. Genuinely positive/constructive (not just "less bad" news)
 2. Significant and newsworthy
-3. Diverse - aim for 10-20 stories per category: climate, health, science, wildlife, people
-4. Recent and relevant
+3. Categorize into: climate, health, science, wildlife, or people
 
-For EACH selected article, provide:
+For EACH good article, provide:
 - originalTitle: exact title from source
 - headline: rewritten in WGAC voice (punchy, playful, can include puns)
 - excerpt: 2-3 sentence summary using ONLY facts from the source
@@ -132,12 +156,10 @@ For EACH selected article, provide:
 - sourceUrl: exact URL from source
 - sourceName: publication name
 - readTime: estimated minutes (3-6)
-- isHomepageHero: true for the single BEST story (1 only)
-- isHomepageFeatured: true for the next 14 best stories across categories
-- imageSearch: 2-3 word Unsplash search term for a relevant photo (e.g. "ocean research", "solar panels", "elephant sanctuary")
+- imageSearch: 2-3 word Unsplash search term for a relevant photo
 
 SOURCE ARTICLES:
-${JSON.stringify(rawArticles, null, 2)}
+${JSON.stringify(articles, null, 2)}
 
 Return valid JSON:
 {
@@ -150,57 +172,91 @@ Return valid JSON:
       "sourceUrl": "...",
       "sourceName": "...",
       "readTime": 4,
-      "isHomepageHero": false,
-      "isHomepageFeatured": false,
       "imageSearch": "relevant search term"
     }
   ]
 }`;
 
-  try {
-    const response = await anthropic.messages.create({
+  const response = await callWithRetry(() =>
+    anthropic.messages.create({
       model: 'claude-sonnet-4-20250514',
-      max_tokens: 16000,
+      max_tokens: 8000,
       system: WGAC_SYSTEM_PROMPT,
       messages: [{ role: 'user', content: prompt }]
-    });
+    })
+  );
 
-    const content = response.content[0].text;
-    const jsonMatch = content.match(/\{[\s\S]*\}/);
-    if (!jsonMatch) {
-      throw new Error('No JSON found in curation response');
-    }
-
-    const result = JSON.parse(jsonMatch[0]);
-
-    // Add slugs and authors
-    for (const article of result.articles) {
-      article.slug = generateSlug(article.headline);
-      article.author = getAuthor(article.category);
-
-      // Fetch relevant image from Unsplash
-      if (article.imageSearch) {
-        article.imageUrl = await fetchUnsplashImage(article.imageSearch, article.category);
-      } else {
-        article.imageUrl = FALLBACK_IMAGES[article.category] || FALLBACK_IMAGES.people;
-      }
-    }
-
-    console.log(`✅ Curated ${result.articles.length} articles`);
-
-    // Log category breakdown
-    const categoryCount = {};
-    CATEGORIES.forEach(cat => {
-      categoryCount[cat] = result.articles.filter(a => a.category === cat).length;
-    });
-    console.log('Category breakdown:', categoryCount);
-
-    return result.articles;
-
-  } catch (error) {
-    console.error('Error curating articles:', error.message);
-    throw error;
+  const content = response.content[0].text;
+  const jsonMatch = content.match(/\{[\s\S]*\}/);
+  if (!jsonMatch) {
+    console.log(`  Warning: No JSON in batch ${batchNum} response`);
+    return [];
   }
+
+  const result = JSON.parse(jsonMatch[0]);
+  console.log(`  ✓ Batch ${batchNum}: ${result.articles?.length || 0} articles selected`);
+
+  return result.articles || [];
+}
+
+async function curateAndCategorize(rawArticles) {
+  console.log('Curating and categorizing articles with Claude...\n');
+
+  // Split into batches
+  const batches = [];
+  for (let i = 0; i < rawArticles.length; i += BATCH_SIZE) {
+    batches.push(rawArticles.slice(i, i + BATCH_SIZE));
+  }
+
+  console.log(`Processing ${rawArticles.length} articles in ${batches.length} batches...\n`);
+
+  // Process each batch with delays between them
+  const allCurated = [];
+  for (let i = 0; i < batches.length; i++) {
+    try {
+      const batchResults = await curateBatch(batches[i], i + 1, batches.length);
+      allCurated.push(...batchResults);
+
+      // Wait between batches to respect rate limits
+      if (i < batches.length - 1) {
+        console.log('  Waiting 30s before next batch...\n');
+        await sleep(30000);
+      }
+    } catch (error) {
+      console.error(`  Error in batch ${i + 1}: ${error.message}`);
+      // Continue with other batches
+    }
+  }
+
+  console.log(`\n✅ Curated ${allCurated.length} articles total`);
+
+  // Select hero and featured
+  if (allCurated.length > 0) {
+    allCurated[0].isHomepageHero = true;
+    allCurated.slice(1, 15).forEach(a => a.isHomepageFeatured = true);
+  }
+
+  // Add slugs, authors, and images
+  for (const article of allCurated) {
+    article.slug = generateSlug(article.headline);
+    article.author = getAuthor(article.category);
+
+    // Fetch relevant image from Unsplash
+    if (article.imageSearch) {
+      article.imageUrl = await fetchUnsplashImage(article.imageSearch, article.category);
+    } else {
+      article.imageUrl = FALLBACK_IMAGES[article.category] || FALLBACK_IMAGES.people;
+    }
+  }
+
+  // Log category breakdown
+  const categoryCount = {};
+  CATEGORIES.forEach(cat => {
+    categoryCount[cat] = allCurated.filter(a => a.category === cat).length;
+  });
+  console.log('Category breakdown:', categoryCount);
+
+  return allCurated;
 }
 
 async function generateFullArticle(article) {
@@ -248,12 +304,14 @@ Return JSON:
 }`;
 
   try {
-    const response = await anthropic.messages.create({
-      model: 'claude-sonnet-4-20250514',
-      max_tokens: 2000,
-      system: WGAC_SYSTEM_PROMPT,
-      messages: [{ role: 'user', content: prompt }]
-    });
+    const response = await callWithRetry(() =>
+      anthropic.messages.create({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 2000,
+        system: WGAC_SYSTEM_PROMPT,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    );
 
     const content = response.content[0].text;
     const jsonMatch = content.match(/\{[\s\S]*\}/);
@@ -289,12 +347,15 @@ export async function runCuration() {
   // Step 2: Generate full content for all articles
   console.log('\nGenerating full article content...\n');
 
-  for (const article of curatedArticles) {
+  for (let i = 0; i < curatedArticles.length; i++) {
+    const article = curatedArticles[i];
     const fullContent = await generateFullArticle(article);
     article.fullContent = fullContent;
 
-    // Small delay to avoid rate limiting
-    await new Promise(r => setTimeout(r, 300));
+    // Longer delay to respect rate limits (10k tokens/minute)
+    if (i < curatedArticles.length - 1) {
+      await sleep(15000); // 15 seconds between articles
+    }
   }
 
   // Step 3: Organize output
