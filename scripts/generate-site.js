@@ -29,7 +29,7 @@ const CATEGORY_EMOJIS = {
   people: ['👥', '🏠', '❄️', '🎓', '🤝', '💪']
 };
 
-// Unsplash images by category (fallbacks)
+// Unsplash images by category (verified working URLs)
 const CATEGORY_IMAGES = {
   climate: [
     'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80',
@@ -37,8 +37,8 @@ const CATEGORY_IMAGES = {
     'https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&q=80'
   ],
   health: [
-    'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&q=80',
-    'https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&q=80',
+    'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80',
+    'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&q=80',
     'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80'
   ],
   science: [
@@ -47,8 +47,8 @@ const CATEGORY_IMAGES = {
     'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80'
   ],
   wildlife: [
+    'https://images.unsplash.com/photo-1444464666168-49d633b86797?w=800&q=80',
     'https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=800&q=80',
-    'https://images.unsplash.com/photo-1552727131-5fc6af16796d?w=800&q=80',
     'https://images.unsplash.com/photo-1534759926787-89fa60f35b87?w=800&q=80'
   ],
   people: [
