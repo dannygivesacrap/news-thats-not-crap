@@ -1,6 +1,10 @@
 /**
  * Use Claude to curate and rewrite articles in WGAC style
- * CRITICAL: Only uses facts from the original source - no fabrication
+ *
+ * CRITICAL RULES:
+ * - Only use facts explicitly stated in the original source
+ * - Never fabricate statistics, quotes, names, or details
+ * - Tone is playful and warm, but facts are sacred
  */
 
 import 'dotenv/config';
@@ -14,130 +18,139 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 
 const anthropic = new Anthropic();
 
-// Category assignments for homepage sections
-const CATEGORIES = {
-  climate: ['climate', 'environment', 'renewable', 'energy', 'conservation'],
-  health: ['health', 'medical', 'medicine', 'therapy', 'vaccine', 'disease', 'treatment'],
-  science: ['science', 'research', 'discovery', 'space', 'technology', 'physics'],
-  wildlife: ['wildlife', 'animal', 'species', 'conservation', 'marine', 'bird'],
-  people: ['community', 'social', 'education', 'rights', 'humanitarian']
-};
+// Category configuration
+const CATEGORIES = ['climate', 'health', 'science', 'wildlife', 'people'];
 
 // Punny author names by category
 const AUTHORS = {
-  climate: ['Sunny Bright', 'Gusty Winds', 'Ray Solar', 'Marina Waters', 'Forrest Green'],
-  health: ['Liv Long', 'Hope Springs', 'Vi Tality', 'Will Power', 'Grace Recovery'],
-  science: ['Al Gorithm', 'Ella Ment', 'Gene Pool', 'Adam Atom', 'Crystal Clear'],
-  wildlife: ['Fauna Flora', 'Robin Nest', 'Finn Waters', 'Bear Lee', 'Dawn Chorus'],
-  people: ['Hope Rising', 'Joy Fuller', 'Will Prosper', 'Faith Forward', 'Sol Idarity']
+  climate: ['Sunny Bright', 'Gusty Winds', 'Ray Solar', 'Marina Waters', 'Forrest Green', 'Coral Reef', 'River Stone'],
+  health: ['Liv Long', 'Hope Springs', 'Vi Tality', 'Will Power', 'Grace Recovery', 'Faith Healer', 'Joy Fuller'],
+  science: ['Al Gorithm', 'Ella Ment', 'Gene Pool', 'Adam Atom', 'Crystal Clear', 'Nova Star', 'Flora Fauna'],
+  wildlife: ['Fauna Flora', 'Robin Nest', 'Finn Waters', 'Bear Lee', 'Dawn Chorus', 'Buck Wild', 'Coral Bay'],
+  people: ['Hope Rising', 'Joy Fuller', 'Will Prosper', 'Faith Forward', 'Sol Idarity', 'Pat Ontheback', 'Charity Case']
 };
-
-function categorizeArticle(article) {
-  const text = `${article.title} ${article.description}`.toLowerCase();
-
-  for (const [category, keywords] of Object.entries(CATEGORIES)) {
-    for (const keyword of keywords) {
-      if (text.includes(keyword)) {
-        return category;
-      }
-    }
-  }
-  return 'people'; // default
-}
 
 function getAuthor(category) {
   const authors = AUTHORS[category] || AUTHORS.people;
   return authors[Math.floor(Math.random() * authors.length)];
 }
 
-async function curateArticles(rawArticles) {
-  console.log('Curating articles with Claude...\n');
+function generateSlug(title) {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .slice(0, 60)
+    .replace(/-$/, '');
+}
 
-  const systemPrompt = `You are a fact-obsessed news curator. Your #1 rule: NEVER invent, fabricate, or embellish ANY details. You can only use information explicitly stated in the source material. If in doubt, leave it out. This is non-negotiable.`;
+// System prompt for consistent WGAC voice
+const WGAC_SYSTEM_PROMPT = `You are a writer for "News That's Not Crap" - a positive news site created by Who Gives A Crap, the toilet paper company.
 
-  const prompt = `You are a news curator for "News That's Not Crap" - a positive news site by Who Gives A Crap.
+YOUR VOICE:
+- Warm and conversational, like a smart friend sharing good news
+- Self-deprecating and humble ("we're a toilet paper company doing news, what do we know?")
+- Playful with puns and wordplay when natural
+- Optimistic without being naive or preachy
+- Accessible - explain complex topics simply
+- Personal - use "we" and speak directly to readers
 
-From the following articles, select the 12 best stories that are:
+ABSOLUTE RULES FOR FACTS:
+- ONLY use facts explicitly stated in the source material provided
+- NEVER invent statistics, percentages, or numbers
+- NEVER fabricate quotes or attribute words to anyone
+- NEVER make up researcher names, expert names, or organizations
+- When uncertain, use phrases like "according to the report"
+- Better to write less than to fabricate details
+
+Remember: The tone is playful, but the facts are sacred.`;
+
+async function curateAndCategorize(rawArticles) {
+  console.log('Curating and categorizing articles with Claude...\n');
+
+  const prompt = `Review these ${rawArticles.length} articles and select the 60-80 BEST stories for a positive news site.
+
+SELECTION CRITERIA:
 1. Genuinely positive/constructive (not just "less bad" news)
 2. Significant and newsworthy
-3. Diverse across categories (aim for mix of climate, health, science, wildlife, people stories)
+3. Diverse - aim for 10-20 stories per category: climate, health, science, wildlife, people
+4. Recent and relevant
 
-⚠️ ABSOLUTE RULES FOR FACTUAL ACCURACY - VIOLATION IS UNACCEPTABLE:
-- ONLY use facts EXPLICITLY stated in the source article text provided
-- Do NOT invent statistics, percentages, numbers, or figures
-- Do NOT fabricate quotes from anyone
-- Do NOT make up expert names, researcher names, or organization names
-- Do NOT add details that "seem likely" but aren't stated
-- If the source doesn't provide specific numbers, DO NOT guess or estimate
-- When uncertain, use phrases like "according to the report"
-- The sourceUrl MUST be copied exactly from the source - it will be the primary link
+For EACH selected article, provide:
+- originalTitle: exact title from source
+- headline: rewritten in WGAC voice (punchy, playful, can include puns)
+- excerpt: 2-3 sentence summary using ONLY facts from the source
+- category: one of [climate, health, science, wildlife, people]
+- sourceUrl: exact URL from source
+- sourceName: publication name
+- readTime: estimated minutes (3-6)
+- isHomepageHero: true for the single BEST story (1 only)
+- isHomepageFeatured: true for the next 14 best stories across categories
 
-For each selected article, provide:
-1. A rewritten headline (punchy, engaging, WGAC voice - slightly irreverent but FACTUALLY GROUNDED)
-2. A short excerpt (2-3 sentences summarizing ONLY facts from the source)
-3. The category (climate/health/science/wildlife/people)
-4. Estimated read time (3-6 min)
+SOURCE ARTICLES:
+${JSON.stringify(rawArticles, null, 2)}
 
-Here are the source articles:
-
-${JSON.stringify(rawArticles.slice(0, 30), null, 2)}
-
-Respond in JSON format:
+Return valid JSON:
 {
-  "hero": {
-    "originalTitle": "...",
-    "headline": "...",
-    "excerpt": "...",
-    "category": "...",
-    "sourceUrl": "...",
-    "sourceName": "...",
-    "readTime": 5
-  },
-  "featured": [
-    { same structure, 3 articles }
-  ],
-  "more": [
-    { same structure, 8 articles }
+  "articles": [
+    {
+      "originalTitle": "...",
+      "headline": "...",
+      "excerpt": "...",
+      "category": "climate|health|science|wildlife|people",
+      "sourceUrl": "...",
+      "sourceName": "...",
+      "readTime": 4,
+      "isHomepageHero": false,
+      "isHomepageFeatured": false
+    }
   ]
 }`;
 
   try {
     const response = await anthropic.messages.create({
       model: 'claude-sonnet-4-20250514',
-      max_tokens: 4000,
-      system: systemPrompt,
+      max_tokens: 16000,
+      system: WGAC_SYSTEM_PROMPT,
       messages: [{ role: 'user', content: prompt }]
     });
 
     const content = response.content[0].text;
-
-    // Extract JSON from response
     const jsonMatch = content.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
-      throw new Error('No JSON found in response');
+      throw new Error('No JSON found in curation response');
     }
 
-    const curated = JSON.parse(jsonMatch[0]);
+    const result = JSON.parse(jsonMatch[0]);
 
-    // Add authors and format
-    curated.hero.author = getAuthor(curated.hero.category);
-    curated.featured.forEach(a => a.author = getAuthor(a.category));
-    curated.more.forEach(a => a.author = getAuthor(a.category));
+    // Add slugs and authors
+    result.articles.forEach(article => {
+      article.slug = generateSlug(article.headline);
+      article.author = getAuthor(article.category);
+    });
 
-    return curated;
+    console.log(`✅ Curated ${result.articles.length} articles`);
+
+    // Log category breakdown
+    const categoryCount = {};
+    CATEGORIES.forEach(cat => {
+      categoryCount[cat] = result.articles.filter(a => a.category === cat).length;
+    });
+    console.log('Category breakdown:', categoryCount);
+
+    return result.articles;
 
   } catch (error) {
-    console.error('Error curating with Claude:', error.message);
+    console.error('Error curating articles:', error.message);
     throw error;
   }
 }
 
-async function generateArticleContent(article) {
-  console.log(`Generating full article: ${article.headline}`);
+async function generateFullArticle(article) {
+  console.log(`  Writing: ${article.headline}`);
 
-  const systemPrompt = `You are a writer who is obsessively committed to factual accuracy. You NEVER invent details, statistics, quotes, names, or any information not explicitly provided in the source. If information isn't in the source, you don't include it - no exceptions. Your writing is engaging and warm, but every single fact must come directly from the source material.`;
-
-  const prompt = `Write a full article for "News That's Not Crap" (by Who Gives A Crap) based on this story.
+  const prompt = `Write a full article for "News That's Not Crap" based on this story.
 
 ORIGINAL SOURCE:
 Title: ${article.originalTitle}
@@ -145,36 +158,39 @@ Excerpt: ${article.excerpt}
 Source: ${article.sourceName}
 URL: ${article.sourceUrl}
 
-⚠️ ABSOLUTE RULES - THESE ARE NON-NEGOTIABLE:
-1. ONLY use facts from the source excerpt above - do not invent ANY details
-2. Do NOT make up statistics, percentages, or numbers - if they're not in the source, don't include them
-3. Do NOT fabricate quotes - if there's no quote in the source, don't create one
-4. Do NOT invent researcher names, expert names, or organization names
-5. Do NOT add "likely" or "probably" details that aren't stated
-6. Use phrases like "according to the report" or "the source states" when summarizing
-7. If the source is light on details, write a shorter article rather than padding with invented info
-8. The tone should be warm, optimistic, and slightly cheeky (WGAC brand voice) but EVERY FACT must be verifiable from the source
+WRITE IN WGAC VOICE:
+- Open with a hook that's warm and slightly cheeky
+- Explain the story like you're telling a friend
+- It's OK to be self-deprecating ("Look, we sell toilet paper, so take our science commentary with a grain of salt...")
+- Use puns or wordplay if they fit naturally
+- Be optimistic but grounded
+- Keep it accessible - no jargon without explanation
+
+STRICT FACT RULES:
+- ONLY use facts from the source excerpt above
+- Do NOT invent statistics or numbers
+- Do NOT fabricate quotes
+- Do NOT make up names of researchers/experts
+- If the source is light on details, write shorter rather than padding with made-up info
+- Use "according to the report" when summarizing
 
 STRUCTURE:
-- Lead paragraph (2-3 sentences, hook the reader)
-- Body (2-3 paragraphs explaining the story using ONLY source facts)
-- Keep it concise - better to be short and accurate than long and fabricated
-- End on an optimistic but grounded note
+- Lead: 2-3 sentences, hook the reader with personality
+- Body: 3-4 paragraphs, explain the story with warmth
+- Keep total length reasonable (matches ${article.readTime} min read time)
 
-Write in a warm, accessible, slightly self-deprecating tone - like a smart friend sharing good news.
-
-Return as JSON:
+Return JSON:
 {
-  "lead": "...",
-  "body": ["paragraph1", "paragraph2", "paragraph3"],
-  "pullQuote": "A key quote or striking fact from the article (ONLY if explicitly in source, otherwise null)"
+  "lead": "Opening paragraph...",
+  "body": ["Paragraph 1...", "Paragraph 2...", "Paragraph 3..."],
+  "pullQuote": "A striking quote or fact from the source (ONLY if actually in source, otherwise null)"
 }`;
 
   try {
     const response = await anthropic.messages.create({
       model: 'claude-sonnet-4-20250514',
       max_tokens: 2000,
-      system: systemPrompt,
+      system: WGAC_SYSTEM_PROMPT,
       messages: [{ role: 'user', content: prompt }]
     });
 
@@ -187,7 +203,7 @@ Return as JSON:
     return JSON.parse(jsonMatch[0]);
 
   } catch (error) {
-    console.error(`Error generating article content: ${error.message}`);
+    console.error(`  Error generating article: ${error.message}`);
     return { lead: article.excerpt, body: [], pullQuote: null };
   }
 }
@@ -206,33 +222,59 @@ export async function runCuration() {
   const rawArticles = JSON.parse(fs.readFileSync(rawPath, 'utf8'));
   console.log(`Loaded ${rawArticles.length} raw articles\n`);
 
-  // Curate top stories
-  const curated = await curateArticles(rawArticles);
+  // Step 1: Curate and categorize
+  const curatedArticles = await curateAndCategorize(rawArticles);
 
-  // Generate full content for hero and featured
-  const allArticles = [curated.hero, ...curated.featured, ...curated.more];
+  // Step 2: Generate full content for all articles
+  console.log('\nGenerating full article content...\n');
 
-  for (const article of allArticles.slice(0, 6)) { // Full content for top 6
-    const content = await generateArticleContent(article);
-    article.fullContent = content;
+  for (const article of curatedArticles) {
+    const fullContent = await generateFullArticle(article);
+    article.fullContent = fullContent;
 
     // Small delay to avoid rate limiting
-    await new Promise(r => setTimeout(r, 500));
+    await new Promise(r => setTimeout(r, 300));
   }
 
-  // Save curated articles
-  const outputPath = path.join(DATA_DIR, 'curated-articles.json');
-  fs.writeFileSync(outputPath, JSON.stringify(curated, null, 2));
-  console.log(`\n✅ Saved curated articles to ${outputPath}`);
+  // Step 3: Organize output
+  const output = {
+    generatedAt: new Date().toISOString(),
+    homepage: {
+      hero: curatedArticles.find(a => a.isHomepageHero) || curatedArticles[0],
+      featured: curatedArticles.filter(a => a.isHomepageFeatured).slice(0, 14)
+    },
+    sections: {},
+    allArticles: curatedArticles
+  };
 
-  // Also save timestamp
+  // Organize by section
+  CATEGORIES.forEach(category => {
+    output.sections[category] = curatedArticles
+      .filter(a => a.category === category)
+      .sort((a, b) => {
+        // Homepage articles first, then by position
+        if (a.isHomepageHero || a.isHomepageFeatured) return -1;
+        if (b.isHomepageHero || b.isHomepageFeatured) return 1;
+        return 0;
+      });
+  });
+
+  // Save output
+  const outputPath = path.join(DATA_DIR, 'curated-articles.json');
+  fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
+  console.log(`\n✅ Saved ${curatedArticles.length} curated articles to ${outputPath}`);
+
+  // Save timestamp
   const metaPath = path.join(DATA_DIR, 'last-update.json');
   fs.writeFileSync(metaPath, JSON.stringify({
     updatedAt: new Date().toISOString(),
-    articleCount: allArticles.length
+    articleCount: curatedArticles.length,
+    categoryCounts: Object.fromEntries(
+      CATEGORIES.map(cat => [cat, output.sections[cat].length])
+    )
   }, null, 2));
 
-  return curated;
+  return output;
 }
 
 // Run if called directly
