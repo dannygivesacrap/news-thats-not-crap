@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-02-03T23:34:56.655Z",
+  "generatedAt": "2026-02-03T23:45:55.089Z",
+  "publishedAt": "2026-02-03T23:45:55.089Z",
   "homepage": {
     "hero": {
       "originalTitle": "Successful World First: Baby Treated with Personalized CRISPR Gene Therapy for Rare Disease is Now 'Thriving'",
@@ -27,7 +28,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states this was a world first for personalized CRISPR gene therapy in a baby, accurately describes the rare metabolic disorder (ammonia to urea conversion), mentions the risks of brain/liver damage, and reports that the baby is now thriving. The article adds contextual information about CRISPR technology and implications, but does not contradict or misrepresent any source facts. No quotes were fabricated, and no unsupported claims were made."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     "featured": [
       {
@@ -57,7 +60,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: the 3,000°C temperature, use of electrical current, extraction of precious metals without hazardous waste, and the 13-times cost reduction compared to mining. No quotes were fabricated (none appear in either text), and no unsupported claims were made. The article expands with contextual commentary but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "Acupuncture for Rescued Elephants Provides Relief from Chronic Pain and Nerve Damage in India Care Center",
@@ -85,7 +90,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. It correctly states that India's largest wildlife rescue organization is using acupuncture to help elephants with chronic pain and nerve damage from captivity/hard labor, and that combining acupuncture with conventional medicine boosted recovery rates. No quotes were fabricated (none existed in source), no statistics were misrepresented, and no unsupported claims were made. The article expands with appropriate emotional context and commentary while maintaining factual accuracy."
-        }
+        },
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "A natural aging molecule may help restore memory in Alzheimer's",
@@ -113,7 +120,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that researchers found a natural aging-related molecule that can repair memory processes affected by Alzheimer's, improves brain cell communication, restores early memory abilities, and offers a potentially safer approach. No quotes were fabricated (the article doesn't claim direct quotes), no statistics were misrepresented, and all claims are supported by the source. The article uses analogies and casual language but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 3
       },
       {
         "originalTitle": "13-year-old Ditches Lifejacket and Makes 'Superhuman' Swim to Save Family Swept out to Sea",
@@ -148,7 +157,9 @@
           "confidence": "high",
           "summary": "The generated article adds fabricated details (ditching lifejacket) and speculative narrative elements not present in the source. While core facts like the 4-hour swim, rough seas, family separation, and Australia location are accurate, the article embellishes the story with unsupported claims and editorial commentary."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 4
       },
       {
         "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
@@ -177,7 +188,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: the handprints are 67,800 years old, found in an Indonesian limestone cave, are stylized handprints, represent the world's oldest-known rock art, and provide evidence of intentional sea crossing nearly 70,000 years ago. No quotes were fabricated, and all specific claims align with the source material. The article adds creative flourishes and interpretive commentary but does not misrepresent any factual information."
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
         "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
@@ -206,7 +219,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts from the original source are accurately represented: Taryn Smith's age (25), location (Nebraska), historic achievement (first female to cross Atlantic alone in 3,000-mile race), her lack of prior rowing experience, and her inspiration from reading about an all-female rowing team's world record in the Great Pacific Race. No quotes were fabricated, and all names and details match the source material. The generated article expands with appropriate context and commentary without contradicting any source facts."
-        }
+        },
+        "approved": true,
+        "_index": 6
       },
       {
         "originalTitle": "Revolutionary therapy treats 'untreatable' blood cancer",
@@ -234,7 +249,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly describes the gene therapy as revolutionary, mentions that it transforms white blood cells into a 'living drug' (using the exact phrase from the source), accurately states it treats previously untreatable blood cancers, and correctly notes it targets aggressive blood cancers. The article uses creative analogies and explanatory language but does not introduce any fabricated facts, statistics, quotes, or specific names not present in the source. All claims are supported by the original material."
-        }
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "Helping with Grandkids May Protect Against Cognitive Decline, Shows New Research",
@@ -263,7 +280,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. The main claims about research showing grandparent caregiving as a buffer against cognitive decline and dementia, the brain benefits, and the support for families and society are all correctly stated. No statistics, quotes, or specific names were provided in the source to potentially misrepresent. The article expands with commentary and tone but doesn't make unsupported factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 8
       },
       {
         "originalTitle": "Polar Bears are in Better Physical Shape than 25 Years Ago, Despite Sea Ice Losses",
@@ -291,7 +310,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that polar bears around Svalbard are in better physical health than 25 years ago despite decreased sea ice, that scientists were surprised by the findings, and that the improvement is attributed to better hunting opportunities. The location (Norwegian island/archipelago of Svalbard) is accurately referenced, and no statistics, quotes, or unsupported claims were added beyond the source material."
-        }
+        },
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "New catalyst turns carbon dioxide into clean fuel source",
@@ -320,7 +341,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that manganese is abundant and inexpensive, can efficiently convert CO2 into formate (a potential hydrogen source for fuel cells), lasts longer than similar low-cost materials, and outperforms many expensive precious-metal options. No quotes were fabricated or misattributed, and no unsupported claims were made. The article maintains factual accuracy while adding appropriate commentary and context."
-        }
+        },
+        "approved": true,
+        "_index": 10
       },
       {
         "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
@@ -348,7 +371,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. It correctly identifies Reelin as the protein, accurately describes its dual role in gut repair and brain health, properly states that chronic stress lowers Reelin levels, and correctly reports that a single injection restored levels and produced antidepressant-like effects in preclinical models. The article maintains scientific accuracy while translating the information into more accessible language. No fabricated quotes, inaccurate statistics, or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "Scientists found the soil secret that doubles forest regrowth",
@@ -376,7 +401,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: tropical forests can recover twice as fast with sufficient soil nitrogen, scientists tracked regrowth across Central America for decades, and faster regrowth leads to more carbon capture. No fabricated quotes, statistics, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "A fish that ages in months reveals how kidneys grow old",
@@ -405,7 +432,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. It correctly describes the fast-aging fish research, accurately details the effects of SGLT2 inhibitors (preserving kidney structure, blood vessels, energy production, and calming inflammation), and properly explains how this research helps understand the drugs' protective effects on kidneys and hearts in humans. No fabricated quotes, statistics, or unsupported claims were found. The article expands on the source material with contextual language and explanations but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
@@ -433,40 +462,14 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly describes the ultrasonic imaging system, its purpose for detecting structural defects in concrete, the challenge posed by concrete's complex composition (stone, clay, chalk, slate), and the analogy to medical ultrasound. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses creative analogies and explanatory language while maintaining factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 14
       }
     ]
   },
   "sections": {
     "climate": [
-      {
-        "originalTitle": "Scientists found the soil secret that doubles forest regrowth",
-        "headline": "Scientists Crack the Code: How to Make Forests Grow Back Twice as Fast",
-        "excerpt": "New research shows tropical forests can recover twice as fast after deforestation when their soils contain enough nitrogen. Scientists followed forest regrowth across Central America for decades and found that faster regrowth also means more carbon captured from the atmosphere.",
-        "category": "climate",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/01/260115220612.htm",
-        "sourceName": "Science Daily",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "scientists-crack-the-code-how-to-make-forests-grow-back-twic",
-        "author": "Ray Solar",
-        "imageUrl": "https://images.pexels.com/photos/6963099/pexels-photo-6963099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Here's some news that really grows on you: tropical forests have a turbo button, and it's buried right beneath our feet. New research reveals that when forest soils are rich in nitrogen, these green powerhouses can bounce back from deforestation twice as fast as usual.",
-          "body": [
-            "Scientists spent decades tracking forest regrowth across Central America, watching cleared land slowly transform back into lush woodland. What they discovered was a game-changer – the secret ingredient wasn't in the air or the rain, but in the soil itself. When the earth beneath contained enough nitrogen, the forests didn't just grow back; they flourished at double speed.",
-            "This discovery is like finding out your garden has been running on low batteries this whole time. Nitrogen acts as nature's fertilizer, supercharging the recovery process and helping trees establish themselves faster after deforestation. It's the difference between a forest limping back to life and one that springs into action with renewed vigor.",
-            "But here's where it gets even better: faster regrowth means these revitalized forests are also champion carbon capturers. According to the report, when trees grow back more quickly, they're pulling more carbon dioxide out of our atmosphere at an accelerated pace. It's a double win – healthier forests and cleaner air, all thanks to understanding what makes soil the ultimate forest fuel."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source: tropical forests can recover twice as fast with sufficient soil nitrogen, scientists tracked regrowth across Central America for decades, and faster regrowth leads to more carbon capture. No fabricated quotes, statistics, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
-        }
-      },
       {
         "originalTitle": "New catalyst turns carbon dioxide into clean fuel source",
         "headline": "This Cheap Metal Just Turned CO2 Into Clean Fuel (And Beat Expensive Catalysts)",
@@ -494,7 +497,39 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that manganese is abundant and inexpensive, can efficiently convert CO2 into formate (a potential hydrogen source for fuel cells), lasts longer than similar low-cost materials, and outperforms many expensive precious-metal options. No quotes were fabricated or misattributed, and no unsupported claims were made. The article maintains factual accuracy while adding appropriate commentary and context."
-        }
+        },
+        "approved": true,
+        "_index": 10
+      },
+      {
+        "originalTitle": "Scientists found the soil secret that doubles forest regrowth",
+        "headline": "Scientists Crack the Code: How to Make Forests Grow Back Twice as Fast",
+        "excerpt": "New research shows tropical forests can recover twice as fast after deforestation when their soils contain enough nitrogen. Scientists followed forest regrowth across Central America for decades and found that faster regrowth also means more carbon captured from the atmosphere.",
+        "category": "climate",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/01/260115220612.htm",
+        "sourceName": "Science Daily",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "scientists-crack-the-code-how-to-make-forests-grow-back-twic",
+        "author": "Ray Solar",
+        "imageUrl": "https://images.pexels.com/photos/6963099/pexels-photo-6963099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Here's some news that really grows on you: tropical forests have a turbo button, and it's buried right beneath our feet. New research reveals that when forest soils are rich in nitrogen, these green powerhouses can bounce back from deforestation twice as fast as usual.",
+          "body": [
+            "Scientists spent decades tracking forest regrowth across Central America, watching cleared land slowly transform back into lush woodland. What they discovered was a game-changer – the secret ingredient wasn't in the air or the rain, but in the soil itself. When the earth beneath contained enough nitrogen, the forests didn't just grow back; they flourished at double speed.",
+            "This discovery is like finding out your garden has been running on low batteries this whole time. Nitrogen acts as nature's fertilizer, supercharging the recovery process and helping trees establish themselves faster after deforestation. It's the difference between a forest limping back to life and one that springs into action with renewed vigor.",
+            "But here's where it gets even better: faster regrowth means these revitalized forests are also champion carbon capturers. According to the report, when trees grow back more quickly, they're pulling more carbon dioxide out of our atmosphere at an accelerated pace. It's a double win – healthier forests and cleaner air, all thanks to understanding what makes soil the ultimate forest fuel."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the source: tropical forests can recover twice as fast with sufficient soil nitrogen, scientists tracked regrowth across Central America for decades, and faster regrowth leads to more carbon capture. No fabricated quotes, statistics, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "A breakthrough that turns exhaust CO2 into useful materials",
@@ -521,7 +556,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that scientists created a device that captures CO2 from exhaust gases and transforms it into formic acid in a single step, works with realistic exhaust rather than purified CO2, and functions at CO2 levels found in normal air. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article adds interpretive language and context but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 20
       },
       {
         "originalTitle": "750-year-old Indian poems reveal a landscape scientists got wrong",
@@ -548,7 +585,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. The timeframe (1200s/750 years), location (western India), landscape descriptions (thorny trees and open grasslands matching today's savannas), and main conclusion (these are ancient natural landscapes, not degraded forests, potentially reshaping conservation efforts) are all correctly conveyed. No quotes were fabricated, no statistics were misrepresented, and no unsupported claims were made. The article uses a more casual, engaging tone but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 24
       },
       {
         "originalTitle": "This new building material pulls carbon out of the air",
@@ -575,29 +614,30 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. The institution name (Worcester Polytechnic Institute), the mechanism (enzymes converting CO2 to solid minerals), and all specific claims about the material's properties (cures in hours, strong, repairable, recyclable, locks away carbon instead of releasing it) are correctly stated. No fabricated quotes were added, and the environmental impact claims align with the source's assertion about 'potentially slashing emissions across the entire construction industry.' The article uses more colorful language and metaphors but does not distort any facts."
-        }
+        },
+        "approved": true,
+        "_index": 26
       }
     ],
     "health": [
       {
-        "originalTitle": "A fish that ages in months reveals how kidneys grow old",
-        "headline": "Fast-Aging Fish Unlocks Secret to Keeping Kidneys Young",
-        "excerpt": "A fast-aging fish is giving scientists an accelerated look at how kidneys grow old and how SGLT2 inhibitors may slow that process. The drugs preserved kidney structure, blood vessels, and energy production as the fish aged while also calming inflammation, helping explain why these medications protect kidneys and hearts so reliably in people.",
+        "originalTitle": "Successful World First: Baby Treated with Personalized CRISPR Gene Therapy for Rare Disease is Now 'Thriving'",
+        "headline": "CRISPR Gene Therapy Saves Baby in World-First Medical Breakthrough",
+        "excerpt": "A baby born with a rare metabolic disorder that prevents converting ammonia to urea has become the first child to receive personalized CRISPR gene therapy. The newborn, who faced serious risk of brain or liver damage, is now thriving after the groundbreaking treatment.",
         "category": "health",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/01/260129080428.htm",
-        "sourceName": "Science Daily",
+        "sourceUrl": "https://www.goodnewsnetwork.org/successful-world-first-baby-treated-with-personalized-crispr-gene-therapy-for-rare-disease-is-now-thriving/",
+        "sourceName": "Good News Network",
         "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "fast-aging-fish-unlocks-secret-to-keeping-kidneys-young",
-        "author": "Will Power",
-        "imageUrl": "https://images.pexels.com/photos/1011848/pexels-photo-1011848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "isHomepageHero": true,
+        "slug": "crispr-gene-therapy-saves-baby-in-world-first-medical-breakt",
+        "author": "Liv Long",
+        "imageUrl": "https://images.pexels.com/photos/8312813/pexels-photo-8312813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "What if you could watch aging happen in fast-forward? Scientists have found their perfect time-lapse subject: a remarkable fish that packs a lifetime of aging into just a few months, giving researchers an unprecedented window into one of medicine's biggest mysteries.",
+          "lead": "Sometimes the most incredible breakthroughs happen in the tiniest packages. A newborn baby has just made medical history by becoming the first child to receive personalized CRISPR gene therapy, and the results are nothing short of remarkable.",
           "body": [
-            "This speedy-aging fish is helping scientists understand exactly how our kidneys grow old—and more importantly, how we might slow that process down. By studying these aquatic speed-demons, researchers are getting answers that would normally take decades to uncover.",
-            "The real excitement comes from what they discovered about SGLT2 inhibitors, a class of drugs that doctors have been prescribing with impressive results. According to the report, these medications did something remarkable in the aging fish: they preserved kidney structure, kept blood vessels healthy, and maintained energy production even as the fish grew older.",
-            "But wait, there's more good news. The drugs also calmed inflammation throughout the aging process, which helps explain a medical mystery that's been puzzling doctors for years. These SGLT2 inhibitors have been reliably protecting both kidneys and hearts in people, and now scientists are getting a clearer picture of exactly how this protection works.",
-            "This research represents more than just a fascinating look at fish biology—it's opening doors to better understand how we can help human organs age more gracefully. Sometimes the best insights come from the most unexpected teachers, even if they happen to swim rather than walk."
+            "This little fighter was born with a rare metabolic disorder that prevents the body from converting ammonia to urea – a condition that could have led to serious brain or liver damage. But instead of facing a grim prognosis, this baby became the beneficiary of cutting-edge science tailored specifically for their unique genetic makeup.",
+            "CRISPR technology, often called 'molecular scissors,' allows scientists to edit genes with unprecedented precision. What makes this case extraordinary isn't just the use of CRISPR – it's that the therapy was personalized specifically for this one baby's genetic profile. Think of it as bespoke medicine at the cellular level.",
+            "The best part of this story? According to the report, the baby is now thriving. What started as a potentially life-threatening condition has been transformed into a success story that could pave the way for treating other children with similar rare disorders. It's a reminder that sometimes the smallest patients can lead to the biggest breakthroughs in medicine."
           ],
           "pullQuote": null
         },
@@ -605,27 +645,29 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all factual information from the source. It correctly describes the fast-aging fish research, accurately details the effects of SGLT2 inhibitors (preserving kidney structure, blood vessels, energy production, and calming inflammation), and properly explains how this research helps understand the drugs' protective effects on kidneys and hearts in humans. No fabricated quotes, statistics, or unsupported claims were found. The article expands on the source material with contextual language and explanations but maintains factual accuracy throughout."
-        }
+          "summary": "The generated article accurately reflects all key facts from the source material. It correctly states this was a world first for personalized CRISPR gene therapy in a baby, accurately describes the rare metabolic disorder (ammonia to urea conversion), mentions the risks of brain/liver damage, and reports that the baby is now thriving. The article adds contextual information about CRISPR technology and implications, but does not contradict or misrepresent any source facts. No quotes were fabricated, and no unsupported claims were made."
+        },
+        "approved": true,
+        "_index": 0
       },
       {
-        "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
-        "headline": "One Protein, Two Problems: Scientists Find Link Between Gut Health and Depression",
-        "excerpt": "New research shows that chronic stress lowers levels of a protein called Reelin, which plays a key role in both gut repair and brain health. A single injection restored Reelin levels and produced antidepressant-like effects in preclinical models, pointing to future treatments that target depression through the gut-brain connection.",
+        "originalTitle": "A natural aging molecule may help restore memory in Alzheimer's",
+        "headline": "Natural Aging Molecule Could Be Key to Restoring Memory in Alzheimer's",
+        "excerpt": "Researchers have found that a natural aging-related molecule can repair key memory processes affected by Alzheimer's disease. The compound improves communication between brain cells and restores early memory abilities that typically fade first, potentially offering a safer way to protect the brain.",
         "category": "health",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260201231240.htm",
-        "sourceName": "Science Daily",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/01/260124003829.htm",
+        "sourceName": "Science Daily Mind",
         "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "one-protein-two-problems-scientists-find-link-between-gut-he",
+        "slug": "natural-aging-molecule-could-be-key-to-restoring-memory-in-a",
         "author": "Faith Healer",
-        "imageUrl": "https://images.pexels.com/photos/5711124/pexels-photo-5711124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "imageUrl": "https://images.pexels.com/photos/265631/pexels-photo-265631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "What if the secret to feeling better mentally started in your gut? New research suggests there's a fascinating protein that acts like a double agent, working to heal your digestive system while simultaneously lifting your mood.",
+          "lead": "What if the secret to fighting Alzheimer's disease has been hiding in plain sight, tucked away in our own aging process? Scientists have discovered that a molecule naturally produced as we age might actually hold the key to restoring memory functions that Alzheimer's typically steals away first.",
           "body": [
-            "Scientists have discovered that a protein called Reelin plays a crucial role in both gut repair and brain health. According to the report, chronic stress actually lowers levels of this multitasking molecule, which helps explain why our stomachs and our mental state seem so interconnected when we're going through tough times.",
-            "Here's where it gets really interesting: researchers found that a single injection was able to restore Reelin levels in preclinical models. Not only did this help repair what's commonly called 'leaky gut,' but it also produced antidepressant-like effects. It's like hitting two birds with one very well-aimed stone.",
-            "This discovery opens up exciting possibilities for future treatments that could tackle depression by working through the gut-brain connection. While we're still in the early stages of research, the idea that we might one day treat mood disorders by healing our digestive system feels like a genuinely hopeful development in understanding how our bodies work as one interconnected system."
+            "According to the report, researchers have found that this aging-related compound can repair the very memory processes that Alzheimer's disease damages. Think of it like finding out that one of the changes your body makes as it gets older could actually be a repair tool for your brain – it's the kind of plot twist that makes you appreciate biology's sense of irony.",
+            "The molecule works by improving communication between brain cells, essentially helping them have better conversations with each other. When brain cells can chat more effectively, those early memory abilities that typically fade first in Alzheimer's patients can actually be restored. It's like giving your neurons a better phone connection so they can keep sharing important information.",
+            "What makes this discovery particularly exciting is that it potentially offers a safer approach to protecting the brain. Since this compound is naturally produced by our bodies during the aging process, it suggests that working with our biology rather than against it might be the smartest path forward. Sometimes the best solutions really are the ones that were there all along, just waiting for us to notice them."
           ],
           "pullQuote": null
         },
@@ -633,8 +675,40 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the original source. It correctly identifies Reelin as the protein, accurately describes its dual role in gut repair and brain health, properly states that chronic stress lowers Reelin levels, and correctly reports that a single injection restored levels and produced antidepressant-like effects in preclinical models. The article maintains scientific accuracy while translating the information into more accessible language. No fabricated quotes, inaccurate statistics, or unsupported claims were found."
-        }
+          "summary": "The generated article accurately represents all key facts from the source material. It correctly states that researchers found a natural aging-related molecule that can repair memory processes affected by Alzheimer's, improves brain cell communication, restores early memory abilities, and offers a potentially safer approach. No quotes were fabricated (the article doesn't claim direct quotes), no statistics were misrepresented, and all claims are supported by the source. The article uses analogies and casual language but maintains factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 3
+      },
+      {
+        "originalTitle": "Revolutionary therapy treats 'untreatable' blood cancer",
+        "headline": "Gene Therapy Turns Blood Cells Into Cancer-Fighting 'Living Drug'",
+        "excerpt": "A revolutionary gene therapy that transforms white blood cells into a disease-busting 'living drug' has successfully reversed previously untreatable blood cancers. The breakthrough treatment offers new hope for patients with aggressive blood cancers.",
+        "category": "health",
+        "sourceUrl": "https://www.positive.news/society/revolutionary-therapy-treats-untreatable-blood-cancer/",
+        "sourceName": "Positive News",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "gene-therapy-turns-blood-cells-into-cancer-fighting-living-d",
+        "author": "Faith Healer",
+        "imageUrl": "https://images.pexels.com/photos/8312830/pexels-photo-8312830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "What if your own white blood cells could be transformed into tiny superheroes, programmed to hunt down and destroy cancer? That's not science fiction anymore – it's happening right now in hospitals, where a revolutionary gene therapy is giving new hope to patients with blood cancers that doctors once considered untreatable.",
+          "body": [
+            "This breakthrough treatment works by taking a patient's white blood cells and essentially reprogramming them into what scientists are calling a 'living drug.' Think of it like giving your immune system's soldiers new marching orders and better weapons to fight the good fight.",
+            "The therapy targets aggressive blood cancers – the kind that have historically been incredibly difficult to treat. According to the report, this innovative approach has successfully reversed previously untreatable cases, opening doors that many patients and their families thought were permanently closed.",
+            "What makes this particularly exciting is that it's not just a theoretical breakthrough gathering dust in a lab somewhere. This gene therapy is actively working in real patients, transforming their own cells into cancer-fighting machines. It's personalized medicine at its most literal – your body becomes both the battlefield and the cavalry riding to the rescue."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the source material. It correctly describes the gene therapy as revolutionary, mentions that it transforms white blood cells into a 'living drug' (using the exact phrase from the source), accurately states it treats previously untreatable blood cancers, and correctly notes it targets aggressive blood cancers. The article uses creative analogies and explanatory language but does not introduce any fabricated facts, statistics, quotes, or specific names not present in the source. All claims are supported by the original material."
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "Helping with Grandkids May Protect Against Cognitive Decline, Shows New Research",
@@ -663,26 +737,28 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. The main claims about research showing grandparent caregiving as a buffer against cognitive decline and dementia, the brain benefits, and the support for families and society are all correctly stated. No statistics, quotes, or specific names were provided in the source to potentially misrepresent. The article expands with commentary and tone but doesn't make unsupported factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 8
       },
       {
-        "originalTitle": "Revolutionary therapy treats 'untreatable' blood cancer",
-        "headline": "Gene Therapy Turns Blood Cells Into Cancer-Fighting 'Living Drug'",
-        "excerpt": "A revolutionary gene therapy that transforms white blood cells into a disease-busting 'living drug' has successfully reversed previously untreatable blood cancers. The breakthrough treatment offers new hope for patients with aggressive blood cancers.",
+        "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
+        "headline": "One Protein, Two Problems: Scientists Find Link Between Gut Health and Depression",
+        "excerpt": "New research shows that chronic stress lowers levels of a protein called Reelin, which plays a key role in both gut repair and brain health. A single injection restored Reelin levels and produced antidepressant-like effects in preclinical models, pointing to future treatments that target depression through the gut-brain connection.",
         "category": "health",
-        "sourceUrl": "https://www.positive.news/society/revolutionary-therapy-treats-untreatable-blood-cancer/",
-        "sourceName": "Positive News",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260201231240.htm",
+        "sourceName": "Science Daily",
         "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "gene-therapy-turns-blood-cells-into-cancer-fighting-living-d",
+        "slug": "one-protein-two-problems-scientists-find-link-between-gut-he",
         "author": "Faith Healer",
-        "imageUrl": "https://images.pexels.com/photos/8312830/pexels-photo-8312830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "imageUrl": "https://images.pexels.com/photos/5711124/pexels-photo-5711124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "What if your own white blood cells could be transformed into tiny superheroes, programmed to hunt down and destroy cancer? That's not science fiction anymore – it's happening right now in hospitals, where a revolutionary gene therapy is giving new hope to patients with blood cancers that doctors once considered untreatable.",
+          "lead": "What if the secret to feeling better mentally started in your gut? New research suggests there's a fascinating protein that acts like a double agent, working to heal your digestive system while simultaneously lifting your mood.",
           "body": [
-            "This breakthrough treatment works by taking a patient's white blood cells and essentially reprogramming them into what scientists are calling a 'living drug.' Think of it like giving your immune system's soldiers new marching orders and better weapons to fight the good fight.",
-            "The therapy targets aggressive blood cancers – the kind that have historically been incredibly difficult to treat. According to the report, this innovative approach has successfully reversed previously untreatable cases, opening doors that many patients and their families thought were permanently closed.",
-            "What makes this particularly exciting is that it's not just a theoretical breakthrough gathering dust in a lab somewhere. This gene therapy is actively working in real patients, transforming their own cells into cancer-fighting machines. It's personalized medicine at its most literal – your body becomes both the battlefield and the cavalry riding to the rescue."
+            "Scientists have discovered that a protein called Reelin plays a crucial role in both gut repair and brain health. According to the report, chronic stress actually lowers levels of this multitasking molecule, which helps explain why our stomachs and our mental state seem so interconnected when we're going through tough times.",
+            "Here's where it gets really interesting: researchers found that a single injection was able to restore Reelin levels in preclinical models. Not only did this help repair what's commonly called 'leaky gut,' but it also produced antidepressant-like effects. It's like hitting two birds with one very well-aimed stone.",
+            "This discovery opens up exciting possibilities for future treatments that could tackle depression by working through the gut-brain connection. While we're still in the early stages of research, the idea that we might one day treat mood disorders by healing our digestive system feels like a genuinely hopeful development in understanding how our bodies work as one interconnected system."
           ],
           "pullQuote": null
         },
@@ -690,27 +766,30 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source material. It correctly describes the gene therapy as revolutionary, mentions that it transforms white blood cells into a 'living drug' (using the exact phrase from the source), accurately states it treats previously untreatable blood cancers, and correctly notes it targets aggressive blood cancers. The article uses creative analogies and explanatory language but does not introduce any fabricated facts, statistics, quotes, or specific names not present in the source. All claims are supported by the original material."
-        }
+          "summary": "The generated article accurately represents all key facts from the original source. It correctly identifies Reelin as the protein, accurately describes its dual role in gut repair and brain health, properly states that chronic stress lowers Reelin levels, and correctly reports that a single injection restored levels and produced antidepressant-like effects in preclinical models. The article maintains scientific accuracy while translating the information into more accessible language. No fabricated quotes, inaccurate statistics, or unsupported claims were found."
+        },
+        "approved": true,
+        "_index": 11
       },
       {
-        "originalTitle": "A natural aging molecule may help restore memory in Alzheimer's",
-        "headline": "Natural Aging Molecule Could Be Key to Restoring Memory in Alzheimer's",
-        "excerpt": "Researchers have found that a natural aging-related molecule can repair key memory processes affected by Alzheimer's disease. The compound improves communication between brain cells and restores early memory abilities that typically fade first, potentially offering a safer way to protect the brain.",
+        "originalTitle": "A fish that ages in months reveals how kidneys grow old",
+        "headline": "Fast-Aging Fish Unlocks Secret to Keeping Kidneys Young",
+        "excerpt": "A fast-aging fish is giving scientists an accelerated look at how kidneys grow old and how SGLT2 inhibitors may slow that process. The drugs preserved kidney structure, blood vessels, and energy production as the fish aged while also calming inflammation, helping explain why these medications protect kidneys and hearts so reliably in people.",
         "category": "health",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/01/260124003829.htm",
-        "sourceName": "Science Daily Mind",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/01/260129080428.htm",
+        "sourceName": "Science Daily",
         "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "natural-aging-molecule-could-be-key-to-restoring-memory-in-a",
-        "author": "Faith Healer",
-        "imageUrl": "https://images.pexels.com/photos/265631/pexels-photo-265631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "fast-aging-fish-unlocks-secret-to-keeping-kidneys-young",
+        "author": "Will Power",
+        "imageUrl": "https://images.pexels.com/photos/1011848/pexels-photo-1011848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "What if the secret to fighting Alzheimer's disease has been hiding in plain sight, tucked away in our own aging process? Scientists have discovered that a molecule naturally produced as we age might actually hold the key to restoring memory functions that Alzheimer's typically steals away first.",
+          "lead": "What if you could watch aging happen in fast-forward? Scientists have found their perfect time-lapse subject: a remarkable fish that packs a lifetime of aging into just a few months, giving researchers an unprecedented window into one of medicine's biggest mysteries.",
           "body": [
-            "According to the report, researchers have found that this aging-related compound can repair the very memory processes that Alzheimer's disease damages. Think of it like finding out that one of the changes your body makes as it gets older could actually be a repair tool for your brain – it's the kind of plot twist that makes you appreciate biology's sense of irony.",
-            "The molecule works by improving communication between brain cells, essentially helping them have better conversations with each other. When brain cells can chat more effectively, those early memory abilities that typically fade first in Alzheimer's patients can actually be restored. It's like giving your neurons a better phone connection so they can keep sharing important information.",
-            "What makes this discovery particularly exciting is that it potentially offers a safer approach to protecting the brain. Since this compound is naturally produced by our bodies during the aging process, it suggests that working with our biology rather than against it might be the smartest path forward. Sometimes the best solutions really are the ones that were there all along, just waiting for us to notice them."
+            "This speedy-aging fish is helping scientists understand exactly how our kidneys grow old—and more importantly, how we might slow that process down. By studying these aquatic speed-demons, researchers are getting answers that would normally take decades to uncover.",
+            "The real excitement comes from what they discovered about SGLT2 inhibitors, a class of drugs that doctors have been prescribing with impressive results. According to the report, these medications did something remarkable in the aging fish: they preserved kidney structure, kept blood vessels healthy, and maintained energy production even as the fish grew older.",
+            "But wait, there's more good news. The drugs also calmed inflammation throughout the aging process, which helps explain a medical mystery that's been puzzling doctors for years. These SGLT2 inhibitors have been reliably protecting both kidneys and hearts in people, and now scientists are getting a clearer picture of exactly how this protection works.",
+            "This research represents more than just a fascinating look at fish biology—it's opening doors to better understand how we can help human organs age more gracefully. Sometimes the best insights come from the most unexpected teachers, even if they happen to swim rather than walk."
           ],
           "pullQuote": null
         },
@@ -718,36 +797,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source material. It correctly states that researchers found a natural aging-related molecule that can repair memory processes affected by Alzheimer's, improves brain cell communication, restores early memory abilities, and offers a potentially safer approach. No quotes were fabricated (the article doesn't claim direct quotes), no statistics were misrepresented, and all claims are supported by the source. The article uses analogies and casual language but maintains factual accuracy throughout."
-        }
-      },
-      {
-        "originalTitle": "Successful World First: Baby Treated with Personalized CRISPR Gene Therapy for Rare Disease is Now 'Thriving'",
-        "headline": "CRISPR Gene Therapy Saves Baby in World-First Medical Breakthrough",
-        "excerpt": "A baby born with a rare metabolic disorder that prevents converting ammonia to urea has become the first child to receive personalized CRISPR gene therapy. The newborn, who faced serious risk of brain or liver damage, is now thriving after the groundbreaking treatment.",
-        "category": "health",
-        "sourceUrl": "https://www.goodnewsnetwork.org/successful-world-first-baby-treated-with-personalized-crispr-gene-therapy-for-rare-disease-is-now-thriving/",
-        "sourceName": "Good News Network",
-        "readTime": 4,
-        "isHomepageHero": true,
-        "slug": "crispr-gene-therapy-saves-baby-in-world-first-medical-breakt",
-        "author": "Liv Long",
-        "imageUrl": "https://images.pexels.com/photos/8312813/pexels-photo-8312813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the most incredible breakthroughs happen in the tiniest packages. A newborn baby has just made medical history by becoming the first child to receive personalized CRISPR gene therapy, and the results are nothing short of remarkable.",
-          "body": [
-            "This little fighter was born with a rare metabolic disorder that prevents the body from converting ammonia to urea – a condition that could have led to serious brain or liver damage. But instead of facing a grim prognosis, this baby became the beneficiary of cutting-edge science tailored specifically for their unique genetic makeup.",
-            "CRISPR technology, often called 'molecular scissors,' allows scientists to edit genes with unprecedented precision. What makes this case extraordinary isn't just the use of CRISPR – it's that the therapy was personalized specifically for this one baby's genetic profile. Think of it as bespoke medicine at the cellular level.",
-            "The best part of this story? According to the report, the baby is now thriving. What started as a potentially life-threatening condition has been transformed into a success story that could pave the way for treating other children with similar rare disorders. It's a reminder that sometimes the smallest patients can lead to the biggest breakthroughs in medicine."
-          ],
-          "pullQuote": null
+          "summary": "The generated article accurately represents all factual information from the source. It correctly describes the fast-aging fish research, accurately details the effects of SGLT2 inhibitors (preserving kidney structure, blood vessels, energy production, and calming inflammation), and properly explains how this research helps understand the drugs' protective effects on kidneys and hearts in humans. No fabricated quotes, statistics, or unsupported claims were found. The article expands on the source material with contextual language and explanations but maintains factual accuracy throughout."
         },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source material. It correctly states this was a world first for personalized CRISPR gene therapy in a baby, accurately describes the rare metabolic disorder (ammonia to urea conversion), mentions the risks of brain/liver damage, and reports that the baby is now thriving. The article adds contextual information about CRISPR technology and implications, but does not contradict or misrepresent any source facts. No quotes were fabricated, and no unsupported claims were made."
-        }
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "Brain waves could help paralyzed patients move again",
@@ -775,7 +828,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. It correctly describes the EEG-to-spinal stimulator system, accurately states that it can detect movement intentions in spinal cord injury patients, and properly conveys the hope this technology offers. While the article uses more engaging language and analogies (like 'biological bypass surgery'), all factual claims align with the source material. No statistics, quotes, or specific names were mentioned in either version, so no verification issues arise in those areas."
-        }
+        },
+        "approved": true,
+        "_index": 19
       },
       {
         "originalTitle": "Scientists discover how to turn gut bacteria into anti-aging factories",
@@ -802,7 +857,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. It correctly states that small doses of an antibiotic can transform gut bacteria into producers of life-extending compounds, accurately reports the study results (worms lived longer, mice showed healthier cholesterol and insulin changes), and properly conveys that the drug stays safely in the gut to avoid toxic side effects. No fabricated quotes, statistics, or unsupported claims were found. The article uses accessible language and analogies while maintaining factual accuracy."
-        }
+        },
+        "approved": true,
+        "_index": 27
       },
       {
         "originalTitle": "Scientists finally explain statin muscle pain",
@@ -829,7 +886,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that scientists identified the molecular cause of statin muscle pain (jamming open a critical muscle protein causing toxic calcium leaks) and that this discovery could lead to safer statins. No statistics, quotes, or specific names were present in either text to verify. The article uses analogies and casual language but doesn't add any unsupported claims or contradict the source information."
-        }
+        },
+        "approved": true,
+        "_index": 28
       },
       {
         "originalTitle": "A quiet change in everyday foods could save thousands of lives",
@@ -857,7 +916,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that modest sodium reductions in bread, packaged foods, and takeout meals could reduce heart disease and stroke rates in France and the U.K. It accurately quotes that 'people wouldn't need to change their eating habits at all' and that 'small changes to the food supply could deliver large, long-term health benefits.' While the article expands with additional commentary and uses a more conversational tone, all factual claims are supported by and consistent with the original source."
-        }
+        },
+        "approved": true,
+        "_index": 29
       },
       {
         "originalTitle": "A simple blood test could spot Parkinson's years before symptoms",
@@ -891,7 +952,9 @@
           "confidence": "high",
           "summary": "While the core facts about Swedish/Norwegian scientists discovering early blood-based detection of Parkinson's through cellular stress and DNA repair signals are accurate, the article adds unsupported claims about clinical trials, treatment implications, and contains what appears to be a fabricated quote attribution."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 30
       },
       {
         "originalTitle": "The genetic advantage that helps some people stay sharp for life",
@@ -919,28 +982,31 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that super agers over 80 are less likely to carry Alzheimer's-associated genes and have higher levels of protective gene variants. No statistics, quotes, names, or specific claims were fabricated. The article uses more casual language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 32
       }
     ],
     "science": [
       {
-        "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
-        "headline": "X-Ray Vision for Concrete: New System Spots Hidden Dangers Before They Strike",
-        "excerpt": "Engineers have developed an ultrasonic imaging system that can detect structural defects inside concrete, overcoming the challenge posed by concrete's complex mix of materials like stone, clay, chalk, and slate. The technology offers a way to see what's gone wrong inside concrete structures, similar to how ultrasound scans work for the human body.",
+        "originalTitle": "Study Shows Vaporizing E-Waste Makes it Easy to Recover Precious Metals at 13-Times Lower Costs",
+        "headline": "Scientists Turn E-Waste Into Treasure with 3,000°C Vaporization Technique",
+        "excerpt": "Scientists have discovered that heating electronics to 3,000°C via electrical current can extract precious metals without creating hazardous waste. The method could make e-waste recycling 13 times cheaper than mining precious metals from the ground.",
         "category": "science",
-        "sourceUrl": "https://www.goodnewsnetwork.org/new-ultrasonic-imaging-system-can-detect-deadly-defects-in-all-types-of-concrete/",
+        "sourceUrl": "https://www.goodnewsnetwork.org/study-shows-vaporizing-e-waste-makes-it-easy-to-recover-precious-metals-at-13-times-lower-costs/",
         "sourceName": "Good News Network",
         "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "x-ray-vision-for-concrete-new-system-spots-hidden-dangers-be",
+        "slug": "scientists-turn-e-waste-into-treasure-with-3000c-vaporizatio",
         "author": "Al Gorithm",
-        "imageUrl": "https://images.pexels.com/photos/8879123/pexels-photo-8879123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "imageUrl": "https://images.pexels.com/photos/4031323/pexels-photo-4031323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "What if we could give concrete structures the same kind of health check-ups we get at the doctor's office? Engineers have cracked the code on that exact challenge, developing an ultrasonic imaging system that works like a medical ultrasound but for concrete buildings and bridges.",
+          "lead": "What if I told you that cranking up the heat to a whopping 3,000°C could turn your old phone into a treasure trove? Scientists have cracked the code on making e-waste recycling not just environmentally friendly, but incredibly cost-effective too.",
           "body": [
-            "The breakthrough addresses one of construction's trickiest problems: figuring out what's going wrong inside concrete without having to tear it apart first. Concrete might look uniform from the outside, but it's actually a complex mix of materials like stone, clay, chalk, and slate all jumbled together—which has made it nearly impossible to get a clear picture of internal damage until now.",
-            "According to the report, this new technology can detect structural defects inside concrete, offering engineers a way to see problems before they become disasters. Think of it as giving buildings and bridges their own internal X-ray vision, except using sound waves instead of radiation.",
-            "The system works similarly to the ultrasound scans expectant parents get to peek at their babies, but instead of revealing tiny fingers and toes, it's revealing cracks, voids, and other structural issues that could spell trouble down the road. For an industry that's been essentially flying blind when it comes to concrete's internal health, this could be a game-changer for keeping our infrastructure safe and sound."
+            "Here's the scoop: researchers discovered that by heating electronics to extreme temperatures using electrical current, they can extract precious metals without creating hazardous waste. We're talking about a complete game-changer for how we handle our growing mountain of discarded gadgets.",
+            "The numbers are pretty mind-blowing. According to the study, this vaporizing method could make e-waste recycling 13 times cheaper than the traditional approach of mining precious metals straight from the ground. That's not just good news for our wallets – it's fantastic news for the planet.",
+            "Think about all those old smartphones, tablets, and laptops gathering dust in drawers across the world. Instead of being environmental headaches, they could become valuable resources. This breakthrough turns what was once waste into something genuinely worth its weight in gold – sometimes literally.",
+            "The beauty of this discovery lies in its simplicity and safety. By using controlled electrical heating rather than harsh chemicals or dangerous processes, scientists have found a way to recover valuable materials while keeping harmful byproducts out of the equation. It's the kind of innovation that makes you optimistic about our ability to solve big problems with smart science."
           ],
           "pullQuote": null
         },
@@ -948,8 +1014,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source material. It correctly describes the ultrasonic imaging system, its purpose for detecting structural defects in concrete, the challenge posed by concrete's complex composition (stone, clay, chalk, slate), and the analogy to medical ultrasound. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses creative analogies and explanatory language while maintaining factual accuracy throughout."
-        }
+          "summary": "The generated article accurately reflects all key facts from the source: the 3,000°C temperature, use of electrical current, extraction of precious metals without hazardous waste, and the 13-times cost reduction compared to mining. No quotes were fabricated (none appear in either text), and no unsupported claims were made. The article expands with contextual commentary but maintains factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
@@ -978,27 +1046,28 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: the handprints are 67,800 years old, found in an Indonesian limestone cave, are stylized handprints, represent the world's oldest-known rock art, and provide evidence of intentional sea crossing nearly 70,000 years ago. No quotes were fabricated, and all specific claims align with the source material. The article adds creative flourishes and interpretive commentary but does not misrepresent any factual information."
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
-        "originalTitle": "Study Shows Vaporizing E-Waste Makes it Easy to Recover Precious Metals at 13-Times Lower Costs",
-        "headline": "Scientists Turn E-Waste Into Treasure with 3,000°C Vaporization Technique",
-        "excerpt": "Scientists have discovered that heating electronics to 3,000°C via electrical current can extract precious metals without creating hazardous waste. The method could make e-waste recycling 13 times cheaper than mining precious metals from the ground.",
+        "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
+        "headline": "X-Ray Vision for Concrete: New System Spots Hidden Dangers Before They Strike",
+        "excerpt": "Engineers have developed an ultrasonic imaging system that can detect structural defects inside concrete, overcoming the challenge posed by concrete's complex mix of materials like stone, clay, chalk, and slate. The technology offers a way to see what's gone wrong inside concrete structures, similar to how ultrasound scans work for the human body.",
         "category": "science",
-        "sourceUrl": "https://www.goodnewsnetwork.org/study-shows-vaporizing-e-waste-makes-it-easy-to-recover-precious-metals-at-13-times-lower-costs/",
+        "sourceUrl": "https://www.goodnewsnetwork.org/new-ultrasonic-imaging-system-can-detect-deadly-defects-in-all-types-of-concrete/",
         "sourceName": "Good News Network",
         "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "scientists-turn-e-waste-into-treasure-with-3000c-vaporizatio",
+        "slug": "x-ray-vision-for-concrete-new-system-spots-hidden-dangers-be",
         "author": "Al Gorithm",
-        "imageUrl": "https://images.pexels.com/photos/4031323/pexels-photo-4031323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "imageUrl": "https://images.pexels.com/photos/8879123/pexels-photo-8879123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "What if I told you that cranking up the heat to a whopping 3,000°C could turn your old phone into a treasure trove? Scientists have cracked the code on making e-waste recycling not just environmentally friendly, but incredibly cost-effective too.",
+          "lead": "What if we could give concrete structures the same kind of health check-ups we get at the doctor's office? Engineers have cracked the code on that exact challenge, developing an ultrasonic imaging system that works like a medical ultrasound but for concrete buildings and bridges.",
           "body": [
-            "Here's the scoop: researchers discovered that by heating electronics to extreme temperatures using electrical current, they can extract precious metals without creating hazardous waste. We're talking about a complete game-changer for how we handle our growing mountain of discarded gadgets.",
-            "The numbers are pretty mind-blowing. According to the study, this vaporizing method could make e-waste recycling 13 times cheaper than the traditional approach of mining precious metals straight from the ground. That's not just good news for our wallets – it's fantastic news for the planet.",
-            "Think about all those old smartphones, tablets, and laptops gathering dust in drawers across the world. Instead of being environmental headaches, they could become valuable resources. This breakthrough turns what was once waste into something genuinely worth its weight in gold – sometimes literally.",
-            "The beauty of this discovery lies in its simplicity and safety. By using controlled electrical heating rather than harsh chemicals or dangerous processes, scientists have found a way to recover valuable materials while keeping harmful byproducts out of the equation. It's the kind of innovation that makes you optimistic about our ability to solve big problems with smart science."
+            "The breakthrough addresses one of construction's trickiest problems: figuring out what's going wrong inside concrete without having to tear it apart first. Concrete might look uniform from the outside, but it's actually a complex mix of materials like stone, clay, chalk, and slate all jumbled together—which has made it nearly impossible to get a clear picture of internal damage until now.",
+            "According to the report, this new technology can detect structural defects inside concrete, offering engineers a way to see problems before they become disasters. Think of it as giving buildings and bridges their own internal X-ray vision, except using sound waves instead of radiation.",
+            "The system works similarly to the ultrasound scans expectant parents get to peek at their babies, but instead of revealing tiny fingers and toes, it's revealing cracks, voids, and other structural issues that could spell trouble down the road. For an industry that's been essentially flying blind when it comes to concrete's internal health, this could be a game-changer for keeping our infrastructure safe and sound."
           ],
           "pullQuote": null
         },
@@ -1006,8 +1075,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source: the 3,000°C temperature, use of electrical current, extraction of precious metals without hazardous waste, and the 13-times cost reduction compared to mining. No quotes were fabricated (none appear in either text), and no unsupported claims were made. The article expands with contextual commentary but maintains factual accuracy throughout."
-        }
+          "summary": "The generated article accurately reflects all key facts from the source material. It correctly describes the ultrasonic imaging system, its purpose for detecting structural defects in concrete, the challenge posed by concrete's complex composition (stone, clay, chalk, slate), and the analogy to medical ultrasound. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses creative analogies and explanatory language while maintaining factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 14
       },
       {
         "originalTitle": "NASA's Perseverance rover completes the first AI-planned drive on Mars",
@@ -1039,7 +1110,9 @@
           "confidence": "high",
           "summary": "While the core facts about the AI-planned drive, terrain analysis, hazard identification, and hundreds of feet distance are accurate, the article adds several specific claims about communication delays, Earth-Mars distance, and real-time decision capabilities that are not supported by the provided source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 18
       },
       {
         "originalTitle": "A century-old Stonehenge mystery may finally be solved",
@@ -1066,7 +1139,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: advanced mineral analysis was used, evidence points to human rather than glacial transport, researchers searched river sediments for glacial signatures and found none, and ice transport has been largely ruled out. The 150-mile distance from Wales is a reasonable inference for bluestone transport distance. No quotes were fabricated, and all factual claims are supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 22
       },
       {
         "originalTitle": "This AI app can tell which dinosaur made a footprint",
@@ -1093,7 +1168,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts from the original source are accurately represented in the generated article. The app name 'DinoTracker' is correct, the accuracy claim about rivaling human experts is accurate, and the specific discovery of bird-like footprints dating back more than 200 million years is correctly reported. No quotes were fabricated (the article doesn't claim any direct quotes), and no unsupported claims were made beyond reasonable extrapolation from the source material."
-        }
+        },
+        "approved": true,
+        "_index": 23
       },
       {
         "originalTitle": "Ancient tools in China are forcing scientists to rethink early humans",
@@ -1120,7 +1197,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: the Xigou site location in China, the 160,000-year dating, the significance as earliest known handled tools in East Asia, and the evidence of careful planning and adaptation to changing environments. No quotes are fabricated (the article uses indirect attribution with 'according to the report'), all numbers and place names are correct, and no unsupported claims are made. The article maintains factual accuracy while adopting a more casual, engaging tone."
-        }
+        },
+        "approved": true,
+        "_index": 25
       },
       {
         "originalTitle": "This brain discovery is forcing scientists to rethink how memory works",
@@ -1147,7 +1226,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that new brain imaging found nearly identical brain networks for both fact recall and life event memory, challenging decades of research expectations. The article properly conveys that scientists expected clear differences but found strong overlap, and accurately mentions the potential implications for understanding Alzheimer's and dementia. No quotes were fabricated (none exist in source), no statistics were misrepresented, and all claims are supported by the original excerpt."
-        }
+        },
+        "approved": true,
+        "_index": 31
       },
       {
         "originalTitle": "Researchers tested AI against 100,000 humans on creativity",
@@ -1175,7 +1256,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that AI models like GPT-4 can beat the average human on certain creativity tests, shows strong performance on original thinking and idea generation tasks, but that the top 10% of creative humans still outperform AI, especially on richer creative work like poetry and storytelling. The article properly attributes the information to Science Daily and doesn't fabricate any quotes or statistics. While the writing style is more casual and interpretive, all factual claims are supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 33
       },
       {
         "originalTitle": "Robots descend into lava tubes to prepare for future Moon bases",
@@ -1203,7 +1286,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies the European research team, the three-robot system and their functions (mapping entrances, deploying sensors, lowering scout rovers), the 3D mapping capability, the natural protection benefits of lava tubes (radiation and space debris), and the testing location in Lanzarote's volcanic caves. While the article uses a casual, humorous tone with added commentary about 'cosmic condos' and 'property taxes,' all factual claims are properly supported by the original source."
-        }
+        },
+        "approved": true,
+        "_index": 34
       },
       {
         "originalTitle": "A record breaking gravitational wave is helping test Einstein's theory of general relativity",
@@ -1230,7 +1315,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. The gravitational wave name (GW250114), its record-breaking status, exceptional clarity, ability to measure multiple 'tones', perfect match with Einstein's predictions, and the prospect of future deviating signals pointing to new physics are all correctly presented. While the article uses creative analogies and casual language not in the original, it doesn't fabricate quotes, statistics, or claims beyond the source material."
-        }
+        },
+        "approved": true,
+        "_index": 35
       },
       {
         "originalTitle": "Four astronauts enter quarantine as NASA's SpaceX Crew-12 launch nears",
@@ -1257,7 +1344,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts from the original source are accurately represented in the generated article: four astronauts from NASA, ESA, and Roscosmos entered two-week quarantine at Johnson Space Center for SpaceX Crew-12 mission, potential February 11 launch date, and post-quarantine travel to Florida for final preparations. The article adds editorial commentary and context but does not contradict or misrepresent any source information. No fabricated quotes or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 36
       },
       {
         "originalTitle": "Jupiter's clouds are hiding something big",
@@ -1284,38 +1373,12 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. It correctly states that Jupiter likely holds significantly more oxygen than the Sun, that this provides clues about solar system formation, and that gases move more slowly through Jupiter's atmosphere than previously thought. While the article uses more casual language and metaphors, it doesn't fabricate any quotes, statistics, or claims not supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 37
       }
     ],
     "wildlife": [
-      {
-        "originalTitle": "Polar Bears are in Better Physical Shape than 25 Years Ago, Despite Sea Ice Losses",
-        "headline": "Plot Twist: Polar Bears Are Thriving Despite Climate Challenges",
-        "excerpt": "Polar bears around the Norwegian island of Svalbard are in better physical health than they were 25 years ago, despite decreased sea ice. Scientists were surprised to find the iconic mammals' well-being has improved, likely due to better hunting opportunities.",
-        "category": "wildlife",
-        "sourceUrl": "https://www.goodnewsnetwork.org/polar-bears-are-in-better-physical-shape-than-25-years-ago-despite-sea-ice-losses/",
-        "sourceName": "Good News Network",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "plot-twist-polar-bears-are-thriving-despite-climate-challeng",
-        "author": "Dawn Chorus",
-        "imageUrl": "https://images.pexels.com/photos/19082892/pexels-photo-19082892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Here's a plot twist that would make even the most seasoned wildlife documentary narrator do a double-take: polar bears around Norway's Svalbard archipelago are actually thriving better now than they were 25 years ago. Yes, you read that right – despite all the headlines about melting sea ice, these Arctic giants are in superior physical shape.",
-          "body": [
-            "Scientists studying the iconic white bears were genuinely surprised by their findings. According to the report, the polar bears' overall well-being has improved significantly over the past quarter-century, even as their icy habitat has been shrinking.",
-            "The secret to their success? Better hunting opportunities. While it might seem counterintuitive that less sea ice could lead to improved hunting conditions, the researchers found that the bears around Svalbard have managed to adapt and are making the most of their changing environment.",
-            "This discovery offers a refreshing reminder that nature sometimes finds ways to surprise us – and that even in challenging circumstances, some stories can have unexpectedly positive chapters. The polar bears of Svalbard are living proof that adaptation and resilience can triumph in ways we don't always anticipate."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source material. It correctly states that polar bears around Svalbard are in better physical health than 25 years ago despite decreased sea ice, that scientists were surprised by the findings, and that the improvement is attributed to better hunting opportunities. The location (Norwegian island/archipelago of Svalbard) is accurately referenced, and no statistics, quotes, or unsupported claims were added beyond the source material."
-        }
-      },
       {
         "originalTitle": "Acupuncture for Rescued Elephants Provides Relief from Chronic Pain and Nerve Damage in India Care Center",
         "headline": "Rescued Elephants Get Relief Through Ancient Healing Arts",
@@ -1342,7 +1405,39 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. It correctly states that India's largest wildlife rescue organization is using acupuncture to help elephants with chronic pain and nerve damage from captivity/hard labor, and that combining acupuncture with conventional medicine boosted recovery rates. No quotes were fabricated (none existed in source), no statistics were misrepresented, and no unsupported claims were made. The article expands with appropriate emotional context and commentary while maintaining factual accuracy."
-        }
+        },
+        "approved": true,
+        "_index": 2
+      },
+      {
+        "originalTitle": "Polar Bears are in Better Physical Shape than 25 Years Ago, Despite Sea Ice Losses",
+        "headline": "Plot Twist: Polar Bears Are Thriving Despite Climate Challenges",
+        "excerpt": "Polar bears around the Norwegian island of Svalbard are in better physical health than they were 25 years ago, despite decreased sea ice. Scientists were surprised to find the iconic mammals' well-being has improved, likely due to better hunting opportunities.",
+        "category": "wildlife",
+        "sourceUrl": "https://www.goodnewsnetwork.org/polar-bears-are-in-better-physical-shape-than-25-years-ago-despite-sea-ice-losses/",
+        "sourceName": "Good News Network",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "plot-twist-polar-bears-are-thriving-despite-climate-challeng",
+        "author": "Dawn Chorus",
+        "imageUrl": "https://images.pexels.com/photos/19082892/pexels-photo-19082892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Here's a plot twist that would make even the most seasoned wildlife documentary narrator do a double-take: polar bears around Norway's Svalbard archipelago are actually thriving better now than they were 25 years ago. Yes, you read that right – despite all the headlines about melting sea ice, these Arctic giants are in superior physical shape.",
+          "body": [
+            "Scientists studying the iconic white bears were genuinely surprised by their findings. According to the report, the polar bears' overall well-being has improved significantly over the past quarter-century, even as their icy habitat has been shrinking.",
+            "The secret to their success? Better hunting opportunities. While it might seem counterintuitive that less sea ice could lead to improved hunting conditions, the researchers found that the bears around Svalbard have managed to adapt and are making the most of their changing environment.",
+            "This discovery offers a refreshing reminder that nature sometimes finds ways to surprise us – and that even in challenging circumstances, some stories can have unexpectedly positive chapters. The polar bears of Svalbard are living proof that adaptation and resilience can triumph in ways we don't always anticipate."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the source material. It correctly states that polar bears around Svalbard are in better physical health than 25 years ago despite decreased sea ice, that scientists were surprised by the findings, and that the improvement is attributed to better hunting opportunities. The location (Norwegian island/archipelago of Svalbard) is accurately referenced, and no statistics, quotes, or unsupported claims were added beyond the source material."
+        },
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "This spider's \"pearl necklace\" was living parasites",
@@ -1369,7 +1464,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: the pearl necklace appearance was parasitic mite larvae, it's a new species discovery, it marks the first record of this mite family in Brazil, the specimens were long-stored, and this suggests more species remain hidden in collections. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article expands on the implications with appropriate analogies but stays factually grounded in the source material."
-        }
+        },
+        "approved": true,
+        "_index": 16
       },
       {
         "originalTitle": "Hundreds of new species found in a hidden world beneath the Pacific",
@@ -1396,7 +1493,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all factual information from the source. Key facts are correctly stated: nearly 800 species documented, many previously unknown to science, five years duration, 160 days at sea, deep Pacific seabed location, and the characterization of the ecosystem as fragile and unexplored. No quotes were fabricated, and the additional descriptive language and analogies are clearly editorial embellishments rather than factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 21
       },
       {
         "originalTitle": "Scientists ranked monogamy across mammals and humans stand out",
@@ -1427,7 +1526,9 @@
           "confidence": "high",
           "summary": "The generated article contains a significant methodological misinterpretation about comparing sibling relationships rather than comparing siblings across species for monogamy research. While most facts align with the source, this fundamental misunderstanding of the study's approach represents a factual error about the research methodology."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 38
       },
       {
         "originalTitle": "Hen cages and pig farrowing crates face ban",
@@ -1454,39 +1555,12 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. The government quote about 'biggest animal welfare reforms in a generation' is correctly attributed, the potential bans on hen cages and pig farrowing crates are accurately reported, and the characterization as a significant shift toward more humane farming practices matches the source. While the article adds explanatory context and commentary not in the original source, it does not contradict or misrepresent any of the source information."
-        }
+        },
+        "approved": true,
+        "_index": 39
       }
     ],
     "people": [
-      {
-        "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
-        "headline": "From Nebraska to the Atlantic: Woman Makes Rowing History",
-        "excerpt": "Taryn Smith, a 25-year-old from Nebraska, became the first female to cross the Atlantic alone in a 3,000-mile race. Smith learned to row after being inspired by an article about an all-female rowing team that set a world record in the Great Pacific Race.",
-        "category": "people",
-        "sourceUrl": "https://www.goodnewsnetwork.org/nebraska-woman-learns-to-row-then-becomes-first-female-to-cross-the-atlantic-alone-in-3000-mile-race/",
-        "sourceName": "Good News Network",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "from-nebraska-to-the-atlantic-woman-makes-rowing-history",
-        "author": "Hope Rising",
-        "imageUrl": "https://images.pexels.com/photos/32665487/pexels-photo-32665487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the most extraordinary journeys begin with the simplest spark of inspiration. That's exactly what happened to Taryn Smith, a 25-year-old from Nebraska who went from never holding an oar to making history as the first female to cross the Atlantic alone in a 3,000-mile race.",
-          "body": [
-            "Smith's remarkable achievement didn't start with years of maritime experience or a lifelong dream of ocean rowing. Instead, it began when she read an article about an all-female rowing team that had set a world record in the Great Pacific Race. Something about their story struck a chord, and Smith decided she wanted to learn how to row.",
-            "What happened next is the kind of story that reminds us how far determination can take us. Smith didn't just learn to row – she mastered it well enough to take on one of the most grueling challenges in endurance sports: a solo Atlantic crossing spanning 3,000 miles of open ocean.",
-            "Her successful completion of the race marks a historic first, breaking new ground for women in solo ocean rowing. It's a testament to what's possible when inspiration meets action, and when someone decides that being a beginner isn't a reason not to dream big.",
-            "From landlocked Nebraska to the vast Atlantic, Smith's journey proves that sometimes the most unlikely paths lead to the most extraordinary destinations. Her story is a powerful reminder that every expert was once a beginner – they just refused to stay that way."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "All key facts from the original source are accurately represented: Taryn Smith's age (25), location (Nebraska), historic achievement (first female to cross Atlantic alone in 3,000-mile race), her lack of prior rowing experience, and her inspiration from reading about an all-female rowing team's world record in the Great Pacific Race. No quotes were fabricated, and all names and details match the source material. The generated article expands with appropriate context and commentary without contradicting any source facts."
-        }
-      },
       {
         "originalTitle": "13-year-old Ditches Lifejacket and Makes 'Superhuman' Swim to Save Family Swept out to Sea",
         "headline": "Teen Hero Makes 4-Hour 'Superhuman' Swim to Save Family at Sea",
@@ -1520,7 +1594,40 @@
           "confidence": "high",
           "summary": "The generated article adds fabricated details (ditching lifejacket) and speculative narrative elements not present in the source. While core facts like the 4-hour swim, rough seas, family separation, and Australia location are accurate, the article embellishes the story with unsupported claims and editorial commentary."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 4
+      },
+      {
+        "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
+        "headline": "From Nebraska to the Atlantic: Woman Makes Rowing History",
+        "excerpt": "Taryn Smith, a 25-year-old from Nebraska, became the first female to cross the Atlantic alone in a 3,000-mile race. Smith learned to row after being inspired by an article about an all-female rowing team that set a world record in the Great Pacific Race.",
+        "category": "people",
+        "sourceUrl": "https://www.goodnewsnetwork.org/nebraska-woman-learns-to-row-then-becomes-first-female-to-cross-the-atlantic-alone-in-3000-mile-race/",
+        "sourceName": "Good News Network",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "from-nebraska-to-the-atlantic-woman-makes-rowing-history",
+        "author": "Hope Rising",
+        "imageUrl": "https://images.pexels.com/photos/32665487/pexels-photo-32665487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the most extraordinary journeys begin with the simplest spark of inspiration. That's exactly what happened to Taryn Smith, a 25-year-old from Nebraska who went from never holding an oar to making history as the first female to cross the Atlantic alone in a 3,000-mile race.",
+          "body": [
+            "Smith's remarkable achievement didn't start with years of maritime experience or a lifelong dream of ocean rowing. Instead, it began when she read an article about an all-female rowing team that had set a world record in the Great Pacific Race. Something about their story struck a chord, and Smith decided she wanted to learn how to row.",
+            "What happened next is the kind of story that reminds us how far determination can take us. Smith didn't just learn to row – she mastered it well enough to take on one of the most grueling challenges in endurance sports: a solo Atlantic crossing spanning 3,000 miles of open ocean.",
+            "Her successful completion of the race marks a historic first, breaking new ground for women in solo ocean rowing. It's a testament to what's possible when inspiration meets action, and when someone decides that being a beginner isn't a reason not to dream big.",
+            "From landlocked Nebraska to the vast Atlantic, Smith's journey proves that sometimes the most unlikely paths lead to the most extraordinary destinations. Her story is a powerful reminder that every expert was once a beginner – they just refused to stay that way."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "All key facts from the original source are accurately represented: Taryn Smith's age (25), location (Nebraska), historic achievement (first female to cross Atlantic alone in 3,000-mile race), her lack of prior rowing experience, and her inspiration from reading about an all-female rowing team's world record in the Great Pacific Race. No quotes were fabricated, and all names and details match the source material. The generated article expands with appropriate context and commentary without contradicting any source facts."
+        },
+        "approved": true,
+        "_index": 6
       },
       {
         "originalTitle": "January 14th Marked the Longest Period Without a Nuclear Detonation Since the Atomic Age Began",
@@ -1548,7 +1655,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: the exact timespan (8 years, 4 months, and 29 days), the January 14th date, and that this represents the longest period without nuclear detonation since 1945. No quotes were fabricated, and all additional context provided (historical background about nuclear testing) represents reasonable general knowledge that doesn't contradict the source material."
-        }
+        },
+        "approved": true,
+        "_index": 15
       },
       {
         "originalTitle": "Farmers' Kids Cuddle Up with New Born Calf on the Couch After She Nearly Froze Outside",
@@ -1575,7 +1684,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: Kentucky farming family, Macey Sorrell as farmer and mother, weekend timing, single-digit temperatures, calf brought inside due to survival concerns, and children cuddling with calf on couch. No direct quotes were used, avoiding misattribution. All names, locations, and circumstances match the source material. The article expands with descriptive language and interpretation but does not contradict or fabricate any factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 17
       }
     ]
   },
@@ -1606,7 +1717,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states this was a world first for personalized CRISPR gene therapy in a baby, accurately describes the rare metabolic disorder (ammonia to urea conversion), mentions the risks of brain/liver damage, and reports that the baby is now thriving. The article adds contextual information about CRISPR technology and implications, but does not contradict or misrepresent any source facts. No quotes were fabricated, and no unsupported claims were made."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     {
       "originalTitle": "Study Shows Vaporizing E-Waste Makes it Easy to Recover Precious Metals at 13-Times Lower Costs",
@@ -1635,7 +1748,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: the 3,000°C temperature, use of electrical current, extraction of precious metals without hazardous waste, and the 13-times cost reduction compared to mining. No quotes were fabricated (none appear in either text), and no unsupported claims were made. The article expands with contextual commentary but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 1
     },
     {
       "originalTitle": "Acupuncture for Rescued Elephants Provides Relief from Chronic Pain and Nerve Damage in India Care Center",
@@ -1663,7 +1778,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the source. It correctly states that India's largest wildlife rescue organization is using acupuncture to help elephants with chronic pain and nerve damage from captivity/hard labor, and that combining acupuncture with conventional medicine boosted recovery rates. No quotes were fabricated (none existed in source), no statistics were misrepresented, and no unsupported claims were made. The article expands with appropriate emotional context and commentary while maintaining factual accuracy."
-      }
+      },
+      "approved": true,
+      "_index": 2
     },
     {
       "originalTitle": "A natural aging molecule may help restore memory in Alzheimer's",
@@ -1691,7 +1808,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that researchers found a natural aging-related molecule that can repair memory processes affected by Alzheimer's, improves brain cell communication, restores early memory abilities, and offers a potentially safer approach. No quotes were fabricated (the article doesn't claim direct quotes), no statistics were misrepresented, and all claims are supported by the source. The article uses analogies and casual language but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 3
     },
     {
       "originalTitle": "13-year-old Ditches Lifejacket and Makes 'Superhuman' Swim to Save Family Swept out to Sea",
@@ -1726,7 +1845,9 @@
         "confidence": "high",
         "summary": "The generated article adds fabricated details (ditching lifejacket) and speculative narrative elements not present in the source. While core facts like the 4-hour swim, rough seas, family separation, and Australia location are accurate, the article embellishes the story with unsupported claims and editorial commentary."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 4
     },
     {
       "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
@@ -1755,7 +1876,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: the handprints are 67,800 years old, found in an Indonesian limestone cave, are stylized handprints, represent the world's oldest-known rock art, and provide evidence of intentional sea crossing nearly 70,000 years ago. No quotes were fabricated, and all specific claims align with the source material. The article adds creative flourishes and interpretive commentary but does not misrepresent any factual information."
-      }
+      },
+      "approved": true,
+      "_index": 5
     },
     {
       "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
@@ -1784,7 +1907,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the original source are accurately represented: Taryn Smith's age (25), location (Nebraska), historic achievement (first female to cross Atlantic alone in 3,000-mile race), her lack of prior rowing experience, and her inspiration from reading about an all-female rowing team's world record in the Great Pacific Race. No quotes were fabricated, and all names and details match the source material. The generated article expands with appropriate context and commentary without contradicting any source facts."
-      }
+      },
+      "approved": true,
+      "_index": 6
     },
     {
       "originalTitle": "Revolutionary therapy treats 'untreatable' blood cancer",
@@ -1812,7 +1937,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly describes the gene therapy as revolutionary, mentions that it transforms white blood cells into a 'living drug' (using the exact phrase from the source), accurately states it treats previously untreatable blood cancers, and correctly notes it targets aggressive blood cancers. The article uses creative analogies and explanatory language but does not introduce any fabricated facts, statistics, quotes, or specific names not present in the source. All claims are supported by the original material."
-      }
+      },
+      "approved": true,
+      "_index": 7
     },
     {
       "originalTitle": "Helping with Grandkids May Protect Against Cognitive Decline, Shows New Research",
@@ -1841,7 +1968,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. The main claims about research showing grandparent caregiving as a buffer against cognitive decline and dementia, the brain benefits, and the support for families and society are all correctly stated. No statistics, quotes, or specific names were provided in the source to potentially misrepresent. The article expands with commentary and tone but doesn't make unsupported factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 8
     },
     {
       "originalTitle": "Polar Bears are in Better Physical Shape than 25 Years Ago, Despite Sea Ice Losses",
@@ -1869,7 +1998,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that polar bears around Svalbard are in better physical health than 25 years ago despite decreased sea ice, that scientists were surprised by the findings, and that the improvement is attributed to better hunting opportunities. The location (Norwegian island/archipelago of Svalbard) is accurately referenced, and no statistics, quotes, or unsupported claims were added beyond the source material."
-      }
+      },
+      "approved": true,
+      "_index": 9
     },
     {
       "originalTitle": "New catalyst turns carbon dioxide into clean fuel source",
@@ -1898,7 +2029,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that manganese is abundant and inexpensive, can efficiently convert CO2 into formate (a potential hydrogen source for fuel cells), lasts longer than similar low-cost materials, and outperforms many expensive precious-metal options. No quotes were fabricated or misattributed, and no unsupported claims were made. The article maintains factual accuracy while adding appropriate commentary and context."
-      }
+      },
+      "approved": true,
+      "_index": 10
     },
     {
       "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
@@ -1926,7 +2059,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. It correctly identifies Reelin as the protein, accurately describes its dual role in gut repair and brain health, properly states that chronic stress lowers Reelin levels, and correctly reports that a single injection restored levels and produced antidepressant-like effects in preclinical models. The article maintains scientific accuracy while translating the information into more accessible language. No fabricated quotes, inaccurate statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 11
     },
     {
       "originalTitle": "Scientists found the soil secret that doubles forest regrowth",
@@ -1954,7 +2089,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: tropical forests can recover twice as fast with sufficient soil nitrogen, scientists tracked regrowth across Central America for decades, and faster regrowth leads to more carbon capture. No fabricated quotes, statistics, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 12
     },
     {
       "originalTitle": "A fish that ages in months reveals how kidneys grow old",
@@ -1983,7 +2120,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the source. It correctly describes the fast-aging fish research, accurately details the effects of SGLT2 inhibitors (preserving kidney structure, blood vessels, energy production, and calming inflammation), and properly explains how this research helps understand the drugs' protective effects on kidneys and hearts in humans. No fabricated quotes, statistics, or unsupported claims were found. The article expands on the source material with contextual language and explanations but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 13
     },
     {
       "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
@@ -2011,7 +2150,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly describes the ultrasonic imaging system, its purpose for detecting structural defects in concrete, the challenge posed by concrete's complex composition (stone, clay, chalk, slate), and the analogy to medical ultrasound. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses creative analogies and explanatory language while maintaining factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 14
     },
     {
       "originalTitle": "January 14th Marked the Longest Period Without a Nuclear Detonation Since the Atomic Age Began",
@@ -2039,7 +2180,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: the exact timespan (8 years, 4 months, and 29 days), the January 14th date, and that this represents the longest period without nuclear detonation since 1945. No quotes were fabricated, and all additional context provided (historical background about nuclear testing) represents reasonable general knowledge that doesn't contradict the source material."
-      }
+      },
+      "approved": true,
+      "_index": 15
     },
     {
       "originalTitle": "This spider's \"pearl necklace\" was living parasites",
@@ -2066,7 +2209,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: the pearl necklace appearance was parasitic mite larvae, it's a new species discovery, it marks the first record of this mite family in Brazil, the specimens were long-stored, and this suggests more species remain hidden in collections. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article expands on the implications with appropriate analogies but stays factually grounded in the source material."
-      }
+      },
+      "approved": true,
+      "_index": 16
     },
     {
       "originalTitle": "Farmers' Kids Cuddle Up with New Born Calf on the Couch After She Nearly Froze Outside",
@@ -2093,7 +2238,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: Kentucky farming family, Macey Sorrell as farmer and mother, weekend timing, single-digit temperatures, calf brought inside due to survival concerns, and children cuddling with calf on couch. No direct quotes were used, avoiding misattribution. All names, locations, and circumstances match the source material. The article expands with descriptive language and interpretation but does not contradict or fabricate any factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 17
     },
     {
       "originalTitle": "NASA's Perseverance rover completes the first AI-planned drive on Mars",
@@ -2125,7 +2272,9 @@
         "confidence": "high",
         "summary": "While the core facts about the AI-planned drive, terrain analysis, hazard identification, and hundreds of feet distance are accurate, the article adds several specific claims about communication delays, Earth-Mars distance, and real-time decision capabilities that are not supported by the provided source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 18
     },
     {
       "originalTitle": "Brain waves could help paralyzed patients move again",
@@ -2153,7 +2302,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. It correctly describes the EEG-to-spinal stimulator system, accurately states that it can detect movement intentions in spinal cord injury patients, and properly conveys the hope this technology offers. While the article uses more engaging language and analogies (like 'biological bypass surgery'), all factual claims align with the source material. No statistics, quotes, or specific names were mentioned in either version, so no verification issues arise in those areas."
-      }
+      },
+      "approved": true,
+      "_index": 19
     },
     {
       "originalTitle": "A breakthrough that turns exhaust CO2 into useful materials",
@@ -2180,7 +2331,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that scientists created a device that captures CO2 from exhaust gases and transforms it into formic acid in a single step, works with realistic exhaust rather than purified CO2, and functions at CO2 levels found in normal air. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article adds interpretive language and context but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 20
     },
     {
       "originalTitle": "Hundreds of new species found in a hidden world beneath the Pacific",
@@ -2207,7 +2360,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all factual information from the source. Key facts are correctly stated: nearly 800 species documented, many previously unknown to science, five years duration, 160 days at sea, deep Pacific seabed location, and the characterization of the ecosystem as fragile and unexplored. No quotes were fabricated, and the additional descriptive language and analogies are clearly editorial embellishments rather than factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 21
     },
     {
       "originalTitle": "A century-old Stonehenge mystery may finally be solved",
@@ -2234,7 +2389,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: advanced mineral analysis was used, evidence points to human rather than glacial transport, researchers searched river sediments for glacial signatures and found none, and ice transport has been largely ruled out. The 150-mile distance from Wales is a reasonable inference for bluestone transport distance. No quotes were fabricated, and all factual claims are supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 22
     },
     {
       "originalTitle": "This AI app can tell which dinosaur made a footprint",
@@ -2261,7 +2418,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the original source are accurately represented in the generated article. The app name 'DinoTracker' is correct, the accuracy claim about rivaling human experts is accurate, and the specific discovery of bird-like footprints dating back more than 200 million years is correctly reported. No quotes were fabricated (the article doesn't claim any direct quotes), and no unsupported claims were made beyond reasonable extrapolation from the source material."
-      }
+      },
+      "approved": true,
+      "_index": 23
     },
     {
       "originalTitle": "750-year-old Indian poems reveal a landscape scientists got wrong",
@@ -2288,7 +2447,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. The timeframe (1200s/750 years), location (western India), landscape descriptions (thorny trees and open grasslands matching today's savannas), and main conclusion (these are ancient natural landscapes, not degraded forests, potentially reshaping conservation efforts) are all correctly conveyed. No quotes were fabricated, no statistics were misrepresented, and no unsupported claims were made. The article uses a more casual, engaging tone but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 24
     },
     {
       "originalTitle": "Ancient tools in China are forcing scientists to rethink early humans",
@@ -2315,7 +2476,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: the Xigou site location in China, the 160,000-year dating, the significance as earliest known handled tools in East Asia, and the evidence of careful planning and adaptation to changing environments. No quotes are fabricated (the article uses indirect attribution with 'according to the report'), all numbers and place names are correct, and no unsupported claims are made. The article maintains factual accuracy while adopting a more casual, engaging tone."
-      }
+      },
+      "approved": true,
+      "_index": 25
     },
     {
       "originalTitle": "This new building material pulls carbon out of the air",
@@ -2342,7 +2505,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the source. The institution name (Worcester Polytechnic Institute), the mechanism (enzymes converting CO2 to solid minerals), and all specific claims about the material's properties (cures in hours, strong, repairable, recyclable, locks away carbon instead of releasing it) are correctly stated. No fabricated quotes were added, and the environmental impact claims align with the source's assertion about 'potentially slashing emissions across the entire construction industry.' The article uses more colorful language and metaphors but does not distort any facts."
-      }
+      },
+      "approved": true,
+      "_index": 26
     },
     {
       "originalTitle": "Scientists discover how to turn gut bacteria into anti-aging factories",
@@ -2369,7 +2534,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. It correctly states that small doses of an antibiotic can transform gut bacteria into producers of life-extending compounds, accurately reports the study results (worms lived longer, mice showed healthier cholesterol and insulin changes), and properly conveys that the drug stays safely in the gut to avoid toxic side effects. No fabricated quotes, statistics, or unsupported claims were found. The article uses accessible language and analogies while maintaining factual accuracy."
-      }
+      },
+      "approved": true,
+      "_index": 27
     },
     {
       "originalTitle": "Scientists finally explain statin muscle pain",
@@ -2396,7 +2563,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that scientists identified the molecular cause of statin muscle pain (jamming open a critical muscle protein causing toxic calcium leaks) and that this discovery could lead to safer statins. No statistics, quotes, or specific names were present in either text to verify. The article uses analogies and casual language but doesn't add any unsupported claims or contradict the source information."
-      }
+      },
+      "approved": true,
+      "_index": 28
     },
     {
       "originalTitle": "A quiet change in everyday foods could save thousands of lives",
@@ -2424,7 +2593,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that modest sodium reductions in bread, packaged foods, and takeout meals could reduce heart disease and stroke rates in France and the U.K. It accurately quotes that 'people wouldn't need to change their eating habits at all' and that 'small changes to the food supply could deliver large, long-term health benefits.' While the article expands with additional commentary and uses a more conversational tone, all factual claims are supported by and consistent with the original source."
-      }
+      },
+      "approved": true,
+      "_index": 29
     },
     {
       "originalTitle": "A simple blood test could spot Parkinson's years before symptoms",
@@ -2458,7 +2629,9 @@
         "confidence": "high",
         "summary": "While the core facts about Swedish/Norwegian scientists discovering early blood-based detection of Parkinson's through cellular stress and DNA repair signals are accurate, the article adds unsupported claims about clinical trials, treatment implications, and contains what appears to be a fabricated quote attribution."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 30
     },
     {
       "originalTitle": "This brain discovery is forcing scientists to rethink how memory works",
@@ -2485,7 +2658,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that new brain imaging found nearly identical brain networks for both fact recall and life event memory, challenging decades of research expectations. The article properly conveys that scientists expected clear differences but found strong overlap, and accurately mentions the potential implications for understanding Alzheimer's and dementia. No quotes were fabricated (none exist in source), no statistics were misrepresented, and all claims are supported by the original excerpt."
-      }
+      },
+      "approved": true,
+      "_index": 31
     },
     {
       "originalTitle": "The genetic advantage that helps some people stay sharp for life",
@@ -2513,7 +2688,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that super agers over 80 are less likely to carry Alzheimer's-associated genes and have higher levels of protective gene variants. No statistics, quotes, names, or specific claims were fabricated. The article uses more casual language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 32
     },
     {
       "originalTitle": "Researchers tested AI against 100,000 humans on creativity",
@@ -2541,7 +2718,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that AI models like GPT-4 can beat the average human on certain creativity tests, shows strong performance on original thinking and idea generation tasks, but that the top 10% of creative humans still outperform AI, especially on richer creative work like poetry and storytelling. The article properly attributes the information to Science Daily and doesn't fabricate any quotes or statistics. While the writing style is more casual and interpretive, all factual claims are supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 33
     },
     {
       "originalTitle": "Robots descend into lava tubes to prepare for future Moon bases",
@@ -2569,7 +2748,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies the European research team, the three-robot system and their functions (mapping entrances, deploying sensors, lowering scout rovers), the 3D mapping capability, the natural protection benefits of lava tubes (radiation and space debris), and the testing location in Lanzarote's volcanic caves. While the article uses a casual, humorous tone with added commentary about 'cosmic condos' and 'property taxes,' all factual claims are properly supported by the original source."
-      }
+      },
+      "approved": true,
+      "_index": 34
     },
     {
       "originalTitle": "A record breaking gravitational wave is helping test Einstein's theory of general relativity",
@@ -2596,7 +2777,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. The gravitational wave name (GW250114), its record-breaking status, exceptional clarity, ability to measure multiple 'tones', perfect match with Einstein's predictions, and the prospect of future deviating signals pointing to new physics are all correctly presented. While the article uses creative analogies and casual language not in the original, it doesn't fabricate quotes, statistics, or claims beyond the source material."
-      }
+      },
+      "approved": true,
+      "_index": 35
     },
     {
       "originalTitle": "Four astronauts enter quarantine as NASA's SpaceX Crew-12 launch nears",
@@ -2623,7 +2806,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the original source are accurately represented in the generated article: four astronauts from NASA, ESA, and Roscosmos entered two-week quarantine at Johnson Space Center for SpaceX Crew-12 mission, potential February 11 launch date, and post-quarantine travel to Florida for final preparations. The article adds editorial commentary and context but does not contradict or misrepresent any source information. No fabricated quotes or unsupported claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 36
     },
     {
       "originalTitle": "Jupiter's clouds are hiding something big",
@@ -2650,7 +2835,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. It correctly states that Jupiter likely holds significantly more oxygen than the Sun, that this provides clues about solar system formation, and that gases move more slowly through Jupiter's atmosphere than previously thought. While the article uses more casual language and metaphors, it doesn't fabricate any quotes, statistics, or claims not supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 37
     },
     {
       "originalTitle": "Scientists ranked monogamy across mammals and humans stand out",
@@ -2681,7 +2868,9 @@
         "confidence": "high",
         "summary": "The generated article contains a significant methodological misinterpretation about comparing sibling relationships rather than comparing siblings across species for monogamy research. While most facts align with the source, this fundamental misunderstanding of the study's approach represents a factual error about the research methodology."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 38
     },
     {
       "originalTitle": "Hen cages and pig farrowing crates face ban",
@@ -2708,7 +2897,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. The government quote about 'biggest animal welfare reforms in a generation' is correctly attributed, the potential bans on hen cages and pig farrowing crates are accurately reported, and the characterization as a significant shift toward more humane farming practices matches the source. While the article adds explanatory context and commentary not in the original source, it does not contradict or misrepresent any of the source information."
-      }
+      },
+      "approved": true,
+      "_index": 39
     }
   ]
 }
