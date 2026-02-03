@@ -56,23 +56,27 @@ jobs:
               day: 'numeric'
             });
 
+            const body = [
+              '## Today\'s articles are ready!',
+              '',
+              'The daily news pipeline has finished curating positive news stories.',
+              '',
+              '### [Click here to review and approve articles](https://news-thats-not-crap.netlify.app/review.html)',
+              '',
+              'Once you\'ve reviewed:',
+              '1. **Approve** the articles you want to publish',
+              '2. **Deny** any you want to skip',
+              '3. Click **Publish** to make them live',
+              '',
+              '---',
+              '*This issue was automatically created by the daily news pipeline.*',
+              '*Close this issue after publishing.*'
+            ].join('\n');
+
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `📰 Articles Ready for Review - ${today}`,
-              body: `## Today's articles are ready!
-
-The daily news pipeline has finished curating positive news stories.
-
-### 👉 [Click here to review and approve articles](https://news-thats-not-crap.netlify.app/review.html)
-
-Once you've reviewed:
-1. **Approve** the articles you want to publish
-2. **Deny** any you want to skip
-3. Click **Publish** to make them live
-
----
-*This issue was automatically created by the daily news pipeline.*
-*Close this issue after publishing.*`,
+              title: '📰 Articles Ready for Review - ' + today,
+              body: body,
               labels: ['review-needed']
             });
