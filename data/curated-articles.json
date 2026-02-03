@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-02-03T22:21:09.919Z",
+  "generatedAt": "2026-02-03T22:29:27.462Z",
+  "publishedAt": "2026-02-03T22:29:27.462Z",
   "homepage": {
     "hero": {
       "originalTitle": "Successful World First: Baby Treated with Personalized CRISPR Gene Therapy for Rare Disease is Now 'Thriving'",
@@ -27,7 +28,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: the baby's location (Pennsylvania), name (KJ), medical condition (rare metabolic disorder preventing ammonia to urea conversion), health risks (brain/liver damage), dietary restrictions, the world-first nature of the personalized CRISPR treatment, and the positive outcome (thriving). No quotes were fabricated, and all claims are supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     "featured": [
       {
@@ -56,7 +59,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: the 3,000°C heating temperature, the 13-times cost reduction compared to traditional mining, the use of electrical current for heating, and the lack of hazardous waste creation. No quotes were fabricated, and no unsupported claims were made. The article uses more engaging language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "Acupuncture for Rescued Elephants Provides Relief from Chronic Pain and Nerve Damage in India Care Center",
@@ -85,7 +90,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that India's largest wildlife rescue organization is using acupuncture to treat rescued elephants for chronic pain, nerve damage, and mobility issues from captivity/hard labor. The article accurately reports that the veterinary team sought training in alternative medicine to complement conventional treatments and that the techniques boosted recovery rates. No statistics, quotes, or specific names were provided in the source to verify, and none were fabricated in the article. All claims are well-supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "A natural aging molecule may help restore memory in Alzheimer's",
@@ -114,7 +121,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that researchers discovered a natural aging-related molecule that can repair memory processes affected by Alzheimer's, improves brain cell communication, restores early memory abilities, exists naturally in the body but declines with age, and may offer a safer treatment approach. The article uses analogies and expanded explanations but does not introduce any factual inaccuracies or unsupported claims. No quotes were fabricated, and no specific names or statistics were mentioned that could be verified."
-        }
+        },
+        "approved": true,
+        "_index": 3
       },
       {
         "originalTitle": "13-year-old Ditches Lifejacket and Makes 'Superhuman' Swim to Save Family Swept out to Sea",
@@ -149,7 +158,9 @@
           "confidence": "high",
           "summary": "The generated article makes unsupported claims about the successful completion of the rescue and adds dramatic details not present in the source. Most critically, it states as fact that the boy successfully rescued his family, while the source only indicates he attempted the rescue by swimming for 4 hours."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 4
       },
       {
         "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
@@ -178,7 +189,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: the handprints are 67,800 years old, they are in a limestone cave in Indonesia, they represent the world's oldest known rock art, and they provide evidence of intentional sea crossing nearly 70,000 years ago. While the article uses a casual, conversational tone with modern analogies, all factual claims align with the source material. No quotes were fabricated, and all specific details match the original information."
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
         "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
@@ -207,7 +220,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts from the original source are accurately represented in the generated article. Taryn Smith's age (25), location (Nebraska/Omaha), inspiration source (all-female rowing team's 2022 Great Pacific Race world record), and achievement (first female to cross Atlantic alone in 3,000-mile race) are all correct. No quotes were fabricated - the article uses paraphrasing instead of direct quotes. While the generated article adds creative narrative elements and commentary, these additions don't contradict or misrepresent the source material."
-        }
+        },
+        "approved": true,
+        "_index": 6
       },
       {
         "originalTitle": "Polar Bears are in Better Physical Shape than 25 Years Ago, Despite Sea Ice Losses",
@@ -235,7 +250,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. The location (Svalbard island, Norway), timeframe (25 years ago vs now), main finding (polar bears in better physical health despite sea ice decrease), and explanation (better hunting opportunities) are all correctly represented. No statistics, quotes, or specific claims were fabricated, and the article appropriately acknowledges that this finding applies specifically to the Svalbard population while noting climate change remains a broader concern."
-        }
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "Helping with Grandkids May Protect Against Cognitive Decline, Shows New Research",
@@ -263,7 +280,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that new research shows caring for grandchildren may buffer against cognitive decline and dementia, and that grandparents provide regular care supporting families and society. The article expands on these core facts with reasonable interpretation and context without adding unsupported claims or fabricated quotes."
-        }
+        },
+        "approved": true,
+        "_index": 8
       },
       {
         "originalTitle": "New catalyst turns carbon dioxide into clean fuel source",
@@ -291,7 +310,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that manganese can efficiently convert CO2 into formate (a hydrogen source for fuel cells), that the catalyst lasts longer than similar low-cost materials, and that it outperformed expensive precious-metal options. No quotes were fabricated, no statistics were misrepresented, and all claims are supported by the original source. The article uses creative language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
@@ -319,7 +340,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that chronic stress damages gut lining by lowering Reelin levels, that Reelin plays roles in both gut repair and brain health, that a single injection in preclinical models restored Reelin levels and produced antidepressant-like effects, and that this suggests future treatments could target depression through the gut-brain connection. The article uses a more casual, engaging tone but maintains factual accuracy throughout. No quotes are fabricated, and all claims are supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 10
       },
       {
         "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
@@ -347,7 +370,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all facts from the original source. It correctly states that the ultrasonic imaging system can detect dangerous defects in concrete structures containing various materials (stone, clay, chalk, slate), gives engineers diagnostic power comparable to medical ultrasounds, and can potentially prevent deadly infrastructure failures. No statistics, quotes, or specific names were present in the source to verify. The article expands on the implications while staying true to the source material."
-        }
+        },
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
@@ -375,7 +400,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all factual information from the source. It correctly mentions the nationwide photography project preserving India's architectural heritage, specifically references Patwon Ki Haveli in Jaisalmer with its intricately carved balconies, and accurately describes the focus on courtyards with shadows dancing through latticed windows and rooms echoing with history. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands on the source material with appropriate descriptive language while maintaining factual accuracy."
-        }
+        },
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "The Whimsical Floating Schools of Kashmir",
@@ -403,7 +430,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all factual information from the source. Key details are correctly maintained: Dal Lake location in Kashmir, weekday morning timing, children in school uniforms, wooden boats, backpacks between oars and lunch pails, some rowing themselves while others are ferried by family, and the floating school system serving water-dwelling communities. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands with descriptive language and interpretation but stays faithful to the source facts."
-        }
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "The Affordable Daycare That Keeps Parents Close",
@@ -432,7 +461,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all factual information from the source. Names (Saja Khuder, Chase Mateusiak), publication (Reasons to be Cheerful), and key details about the childcare model are correct. No quotes were fabricated - the article properly attributes information to the source rather than creating false quotations. All claims about the affordable childcare model, its benefits, and the problems it solves are supported by the original source material."
-        }
+        },
+        "approved": true,
+        "_index": 14
       }
     ]
   },
@@ -464,34 +495,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that manganese can efficiently convert CO2 into formate (a hydrogen source for fuel cells), that the catalyst lasts longer than similar low-cost materials, and that it outperformed expensive precious-metal options. No quotes were fabricated, no statistics were misrepresented, and all claims are supported by the original source. The article uses creative language and analogies but maintains factual accuracy throughout."
-        }
-      },
-      {
-        "originalTitle": "Scientists found the soil secret that doubles forest regrowth",
-        "headline": "Soil Scientists Crack the Forest Comeback Code",
-        "excerpt": "New research shows tropical forests can recover twice as fast after deforestation when their soils contain enough nitrogen. Scientists followed forest regrowth across Central America for decades and found that nitrogen plays a decisive role in how quickly trees return, with faster regrowth also meaning more carbon captured from the atmosphere.",
-        "category": "climate",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/01/260115220612.htm",
-        "sourceName": "Science Daily Climate",
-        "readTime": 4,
-        "slug": "soil-scientists-crack-the-forest-comeback-code",
-        "author": "Gusty Winds",
-        "imageUrl": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=1200&q=80",
-        "fullContent": {
-          "lead": "What if I told you there's a soil ingredient that works like miracle grow for entire forests? New research has uncovered nature's not-so-secret weapon for forest recovery: nitrogen. And when tropical soils have enough of this essential nutrient, deforested areas can bounce back twice as fast as usual.",
-          "body": [
-            "Scientists spent decades following forest regrowth across Central America, watching cleared land slowly transform back into lush woodland. What they discovered was that nitrogen in the soil plays the starring role in determining whether a forest recovers at a snail's pace or speeds through its comeback tour like it's got somewhere important to be.",
-            "The implications go way beyond just having prettier landscapes to look at (though that's certainly a bonus). When forests regrow faster, they're also capturing carbon from the atmosphere at a much quicker rate. It's like nature's own carbon vacuum cleaner, but one that actually works better when it's well-fed with nitrogen.",
-            "This discovery could be a game-changer for restoration efforts around the world. Instead of waiting generations to see meaningful forest recovery, understanding soil nitrogen levels might help us identify the areas most likely to bounce back quickly – or figure out how to give slower-recovering areas the boost they need. Sometimes the best solutions really are right under our feet."
-          ],
-          "pullQuote": null
         },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source: tropical forests can recover twice as fast with sufficient nitrogen, scientists studied forest regrowth across Central America for decades, nitrogen plays a decisive role in recovery speed, and faster regrowth means more carbon capture. No quotes were used, so no attribution issues. The article uses a more casual, engaging tone but doesn't fabricate any claims or alter any factual information."
-        }
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "A breakthrough that turns exhaust CO2 into useful materials",
@@ -519,7 +525,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that scientists created a device that captures CO2 and transforms it into formic acid in a single step, that it works with realistic exhaust gases rather than requiring purified CO2, and that it functions at CO2 levels found in normal air. No quotes are fabricated (the article doesn't claim any direct quotes), and while the article uses more casual language and adds explanatory context about formic acid's uses, it doesn't make any claims that contradict or go beyond the source information."
-        }
+        },
+        "approved": true,
+        "_index": 27
       },
       {
         "originalTitle": "This new building material pulls carbon out of the air",
@@ -546,56 +554,30 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that engineers developed a building material using an enzyme that converts CO2 into solid minerals, that it cures in hours, locks away carbon, and has the properties of being strong, repairable, and recyclable. The article also accurately conveys that widespread adoption could significantly reduce construction industry emissions. While the writing style is more casual and engaging than the source, no facts were altered, no quotes were fabricated (none existed in source), and no unsupported claims were made."
-        }
+        },
+        "approved": true,
+        "_index": 28
       }
     ],
     "health": [
       {
-        "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
-        "headline": "Scientists Find the Missing Link Between Your Gut and Your Mood",
-        "excerpt": "New research reveals that chronic stress damages the gut's protective lining by lowering levels of a protein called Reelin, which plays a key role in both gut repair and brain health. In preclinical models, a single injection restored Reelin levels and produced antidepressant-like effects, suggesting future treatments could target depression through the gut-brain connection.",
+        "originalTitle": "Successful World First: Baby Treated with Personalized CRISPR Gene Therapy for Rare Disease is Now 'Thriving'",
+        "headline": "Tiny Patient, Giant Leap: Baby Makes History with Custom CRISPR Cure",
+        "excerpt": "A baby born in Pennsylvania with a rare metabolic disorder has become the world's first to receive personalized CRISPR gene therapy. Unable to convert ammonia to urea, newborn KJ was at serious risk of brain or liver damage and had to follow an extremely restrictive diet. The groundbreaking treatment has the child now thriving.",
         "category": "health",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260201231240.htm",
-        "sourceName": "Science Daily",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "scientists-find-the-missing-link-between-your-gut-and-your-m",
-        "author": "Joy Fuller",
-        "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&q=80",
-        "fullContent": {
-          "lead": "Here's something that might make your gut feelings literally feel better: scientists have discovered that a protein with the wonderfully musical name \"Reelin\" could be the key to healing both our stomachs and our spirits. Think of it as your body's own internal repair crew, working overtime to fix what stress breaks down.",
-          "body": [
-            "The research reveals that chronic stress doesn't just mess with our heads—it actually damages our gut's protective lining by lowering levels of Reelin, a protein that apparently moonlights as both a gut healer and brain booster. It's like having a handyman who can fix your plumbing and rewire your electrical system at the same time.",
-            "What makes this discovery particularly exciting is how it connects two things we've long suspected were related: gut health and mental health. The gut-brain connection isn't just new-age wellness speak—it's real biology, and Reelin seems to be one of the molecular messengers making it happen.",
-            "In preclinical models, researchers found that a single injection could restore Reelin levels and produce antidepressant-like effects. While we're still in the early stages of understanding how this might translate to human treatments, the possibility of addressing depression through gut health opens up fascinating new avenues for healing."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that chronic stress damages gut lining by lowering Reelin levels, that Reelin plays roles in both gut repair and brain health, that a single injection in preclinical models restored Reelin levels and produced antidepressant-like effects, and that this suggests future treatments could target depression through the gut-brain connection. The article uses a more casual, engaging tone but maintains factual accuracy throughout. No quotes are fabricated, and all claims are supported by the source material."
-        }
-      },
-      {
-        "originalTitle": "Helping with Grandkids May Protect Against Cognitive Decline, Shows New Research",
-        "headline": "Grandparent Power: Babysitting Duty Doubles as Brain Training",
-        "excerpt": "Being an involved grandparent is good for the brain, according to new research showing that caring for grandchildren may serve as a buffer against cognitive decline and dementia in older adults. The study reveals that many grandparents provide regular care that supports families and society more broadly.",
-        "category": "health",
-        "sourceUrl": "https://www.goodnewsnetwork.org/helping-with-grandkids-may-protect-against-cognitive-decline-new-research/",
+        "sourceUrl": "https://www.goodnewsnetwork.org/successful-world-first-baby-treated-with-personalized-crispr-gene-therapy-for-rare-disease-is-now-thriving/",
         "sourceName": "Good News Network",
         "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "grandparent-power-babysitting-duty-doubles-as-brain-training",
-        "author": "Joy Fuller",
-        "imageUrl": "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=1200&q=80",
+        "isHomepageHero": true,
+        "slug": "tiny-patient-giant-leap-baby-makes-history-with-custom-crisp",
+        "author": "Hope Springs",
+        "imageUrl": "https://images.unsplash.com/photo-1576671081837-49000212a370?w=1200&q=80",
         "fullContent": {
-          "lead": "Turns out all those afternoons spent chasing toddlers around the playground and reading bedtime stories for the hundredth time might be doing more than just giving parents a break. New research suggests that grandparents who actively care for their grandchildren may be protecting their brains from cognitive decline and dementia.",
+          "lead": "Sometimes the biggest breakthroughs come in the smallest packages. A baby in Pennsylvania has just made medical history by becoming the world's first person to receive personalized CRISPR gene therapy—and according to reports, little KJ is absolutely thriving.",
           "body": [
-            "According to the study, being an involved grandparent appears to serve as a buffer against the mental challenges that can come with aging. While we've long known that staying mentally and physically active is good for older adults, this research specifically highlights how caring for grandchildren creates a unique type of brain-boosting engagement.",
-            "The findings reveal something many families already suspected: grandparents aren't just babysitters – they're providing regular care that supports families and society more broadly. Whether it's helping with homework, teaching life skills, or simply being present for the countless small moments that make up childhood, these interactions create meaningful cognitive stimulation.",
-            "This news offers a fresh perspective on the often-discussed 'sandwich generation' dynamics, where middle-aged adults care for both aging parents and young children. Instead of viewing grandparent involvement as purely a logistical arrangement, we can now see it as potentially beneficial for everyone involved – the parents get support, the kids get wisdom and love, and the grandparents get a natural form of brain training that no app or puzzle can replicate."
+            "KJ was born with a rare metabolic disorder that prevented their body from converting ammonia to urea—a crucial process that most of us never think about but is essential for healthy development. Without this conversion, toxic ammonia builds up in the body, putting serious strain on the brain and liver. The condition also meant KJ had to follow an extremely restrictive diet from birth.",
+            "Enter CRISPR gene therapy, the revolutionary gene-editing technology that's been making headlines for its potential to treat previously incurable conditions. But this wasn't just any CRISPR treatment—it was personalized specifically for KJ's unique genetic makeup, representing a new frontier in precision medicine.",
+            "The groundbreaking treatment appears to have worked beautifully. According to the report, KJ is now thriving—a word that carries extra weight when you consider the serious health risks this little one was facing. It's a reminder that we're living through an incredible era of medical innovation, where treatments that seemed like science fiction just years ago are now helping real families write happier endings to their stories."
           ],
           "pullQuote": null
         },
@@ -603,8 +585,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that new research shows caring for grandchildren may buffer against cognitive decline and dementia, and that grandparents provide regular care supporting families and society. The article expands on these core facts with reasonable interpretation and context without adding unsupported claims or fabricated quotes."
-        }
+          "summary": "The generated article accurately represents all key facts from the source: the baby's location (Pennsylvania), name (KJ), medical condition (rare metabolic disorder preventing ammonia to urea conversion), health risks (brain/liver damage), dietary restrictions, the world-first nature of the personalized CRISPR treatment, and the positive outcome (thriving). No quotes were fabricated, and all claims are supported by the source material."
+        },
+        "approved": true,
+        "_index": 0
       },
       {
         "originalTitle": "A natural aging molecule may help restore memory in Alzheimer's",
@@ -633,26 +617,28 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that researchers discovered a natural aging-related molecule that can repair memory processes affected by Alzheimer's, improves brain cell communication, restores early memory abilities, exists naturally in the body but declines with age, and may offer a safer treatment approach. The article uses analogies and expanded explanations but does not introduce any factual inaccuracies or unsupported claims. No quotes were fabricated, and no specific names or statistics were mentioned that could be verified."
-        }
+        },
+        "approved": true,
+        "_index": 3
       },
       {
-        "originalTitle": "Successful World First: Baby Treated with Personalized CRISPR Gene Therapy for Rare Disease is Now 'Thriving'",
-        "headline": "Tiny Patient, Giant Leap: Baby Makes History with Custom CRISPR Cure",
-        "excerpt": "A baby born in Pennsylvania with a rare metabolic disorder has become the world's first to receive personalized CRISPR gene therapy. Unable to convert ammonia to urea, newborn KJ was at serious risk of brain or liver damage and had to follow an extremely restrictive diet. The groundbreaking treatment has the child now thriving.",
+        "originalTitle": "Helping with Grandkids May Protect Against Cognitive Decline, Shows New Research",
+        "headline": "Grandparent Power: Babysitting Duty Doubles as Brain Training",
+        "excerpt": "Being an involved grandparent is good for the brain, according to new research showing that caring for grandchildren may serve as a buffer against cognitive decline and dementia in older adults. The study reveals that many grandparents provide regular care that supports families and society more broadly.",
         "category": "health",
-        "sourceUrl": "https://www.goodnewsnetwork.org/successful-world-first-baby-treated-with-personalized-crispr-gene-therapy-for-rare-disease-is-now-thriving/",
+        "sourceUrl": "https://www.goodnewsnetwork.org/helping-with-grandkids-may-protect-against-cognitive-decline-new-research/",
         "sourceName": "Good News Network",
         "readTime": 4,
-        "isHomepageHero": true,
-        "slug": "tiny-patient-giant-leap-baby-makes-history-with-custom-crisp",
-        "author": "Hope Springs",
-        "imageUrl": "https://images.unsplash.com/photo-1576671081837-49000212a370?w=1200&q=80",
+        "isHomepageFeatured": true,
+        "slug": "grandparent-power-babysitting-duty-doubles-as-brain-training",
+        "author": "Joy Fuller",
+        "imageUrl": "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=1200&q=80",
         "fullContent": {
-          "lead": "Sometimes the biggest breakthroughs come in the smallest packages. A baby in Pennsylvania has just made medical history by becoming the world's first person to receive personalized CRISPR gene therapy—and according to reports, little KJ is absolutely thriving.",
+          "lead": "Turns out all those afternoons spent chasing toddlers around the playground and reading bedtime stories for the hundredth time might be doing more than just giving parents a break. New research suggests that grandparents who actively care for their grandchildren may be protecting their brains from cognitive decline and dementia.",
           "body": [
-            "KJ was born with a rare metabolic disorder that prevented their body from converting ammonia to urea—a crucial process that most of us never think about but is essential for healthy development. Without this conversion, toxic ammonia builds up in the body, putting serious strain on the brain and liver. The condition also meant KJ had to follow an extremely restrictive diet from birth.",
-            "Enter CRISPR gene therapy, the revolutionary gene-editing technology that's been making headlines for its potential to treat previously incurable conditions. But this wasn't just any CRISPR treatment—it was personalized specifically for KJ's unique genetic makeup, representing a new frontier in precision medicine.",
-            "The groundbreaking treatment appears to have worked beautifully. According to the report, KJ is now thriving—a word that carries extra weight when you consider the serious health risks this little one was facing. It's a reminder that we're living through an incredible era of medical innovation, where treatments that seemed like science fiction just years ago are now helping real families write happier endings to their stories."
+            "According to the study, being an involved grandparent appears to serve as a buffer against the mental challenges that can come with aging. While we've long known that staying mentally and physically active is good for older adults, this research specifically highlights how caring for grandchildren creates a unique type of brain-boosting engagement.",
+            "The findings reveal something many families already suspected: grandparents aren't just babysitters – they're providing regular care that supports families and society more broadly. Whether it's helping with homework, teaching life skills, or simply being present for the countless small moments that make up childhood, these interactions create meaningful cognitive stimulation.",
+            "This news offers a fresh perspective on the often-discussed 'sandwich generation' dynamics, where middle-aged adults care for both aging parents and young children. Instead of viewing grandparent involvement as purely a logistical arrangement, we can now see it as potentially beneficial for everyone involved – the parents get support, the kids get wisdom and love, and the grandparents get a natural form of brain training that no app or puzzle can replicate."
           ],
           "pullQuote": null
         },
@@ -660,8 +646,40 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source: the baby's location (Pennsylvania), name (KJ), medical condition (rare metabolic disorder preventing ammonia to urea conversion), health risks (brain/liver damage), dietary restrictions, the world-first nature of the personalized CRISPR treatment, and the positive outcome (thriving). No quotes were fabricated, and all claims are supported by the source material."
-        }
+          "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that new research shows caring for grandchildren may buffer against cognitive decline and dementia, and that grandparents provide regular care supporting families and society. The article expands on these core facts with reasonable interpretation and context without adding unsupported claims or fabricated quotes."
+        },
+        "approved": true,
+        "_index": 8
+      },
+      {
+        "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
+        "headline": "Scientists Find the Missing Link Between Your Gut and Your Mood",
+        "excerpt": "New research reveals that chronic stress damages the gut's protective lining by lowering levels of a protein called Reelin, which plays a key role in both gut repair and brain health. In preclinical models, a single injection restored Reelin levels and produced antidepressant-like effects, suggesting future treatments could target depression through the gut-brain connection.",
+        "category": "health",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260201231240.htm",
+        "sourceName": "Science Daily",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "scientists-find-the-missing-link-between-your-gut-and-your-m",
+        "author": "Joy Fuller",
+        "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&q=80",
+        "fullContent": {
+          "lead": "Here's something that might make your gut feelings literally feel better: scientists have discovered that a protein with the wonderfully musical name \"Reelin\" could be the key to healing both our stomachs and our spirits. Think of it as your body's own internal repair crew, working overtime to fix what stress breaks down.",
+          "body": [
+            "The research reveals that chronic stress doesn't just mess with our heads—it actually damages our gut's protective lining by lowering levels of Reelin, a protein that apparently moonlights as both a gut healer and brain booster. It's like having a handyman who can fix your plumbing and rewire your electrical system at the same time.",
+            "What makes this discovery particularly exciting is how it connects two things we've long suspected were related: gut health and mental health. The gut-brain connection isn't just new-age wellness speak—it's real biology, and Reelin seems to be one of the molecular messengers making it happen.",
+            "In preclinical models, researchers found that a single injection could restore Reelin levels and produce antidepressant-like effects. While we're still in the early stages of understanding how this might translate to human treatments, the possibility of addressing depression through gut health opens up fascinating new avenues for healing."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that chronic stress damages gut lining by lowering Reelin levels, that Reelin plays roles in both gut repair and brain health, that a single injection in preclinical models restored Reelin levels and produced antidepressant-like effects, and that this suggests future treatments could target depression through the gut-brain connection. The article uses a more casual, engaging tone but maintains factual accuracy throughout. No quotes are fabricated, and all claims are supported by the source material."
+        },
+        "approved": true,
+        "_index": 10
       },
       {
         "originalTitle": "A fish that ages in months reveals how kidneys grow old",
@@ -689,7 +707,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. It correctly identifies that researchers studied a fast-aging fish to understand kidney aging, that SGLT2 inhibitors (used for diabetes and heart disease) were tested, and that these drugs preserved kidney structure, blood vessels, energy production, and reduced inflammation. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 17
       },
       {
         "originalTitle": "Brain waves could help paralyzed patients move again",
@@ -717,7 +737,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that brains continue sending signals after spinal cord injury, that researchers tested EEG brain scans to capture these signals and reroute them to spinal stimulators, and that the system can detect movement intentions. The article uses analogies and explanatory language but doesn't fabricate quotes, statistics, or unsupported claims. All core scientific concepts align with the original source."
-        }
+        },
+        "approved": true,
+        "_index": 21
       },
       {
         "originalTitle": "Scientists discover how to turn gut bacteria into anti-aging factories",
@@ -744,7 +766,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that small doses of antibiotics can encourage gut bacteria to produce life-extending compounds, accurately reports the results in worms (longer lifespans) and mice (healthier cholesterol and insulin changes), and properly attributes the information to the original source. The article uses more casual, engaging language but maintains factual accuracy throughout. No fabricated quotes, statistics, or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 29
       },
       {
         "originalTitle": "Scientists finally explain statin muscle pain",
@@ -772,7 +796,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. The core scientific findings are correctly stated: statins jam open a critical muscle protein causing toxic calcium leak, leading to muscle pain and weakness. The article accurately conveys that this discovery could lead to safer statins. No quotes were fabricated (the article doesn't use direct quotes), no statistics were misrepresented, and no unsupported claims were made. The article appropriately expands on the implications while staying faithful to the source information."
-        }
+        },
+        "approved": true,
+        "_index": 30
       },
       {
         "originalTitle": "A quiet change in everyday foods could save thousands of lives",
@@ -799,7 +825,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies the three food categories (bread, packaged foods, takeout meals), accurately states the potential health benefits (reduced heart disease and stroke rates), and properly conveys the main advantage that people wouldn't need to change their eating habits. No statistics, quotes, or specific names were fabricated. The article expands on the concepts with additional explanatory language and analogies, but all core factual claims align with the source."
-        }
+        },
+        "approved": true,
+        "_index": 31
       },
       {
         "originalTitle": "A simple blood test could spot Parkinson's years before symptoms",
@@ -826,7 +854,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly identifies the researchers as being from Sweden and Norway, accurately states the timeline (years to decades before symptoms), properly describes the biological markers (stress handling and DNA repair), and correctly conveys the concept of Parkinson's leaving a 'measurable fingerprint' in blood. No fabricated quotes were found, and all claims are supported by the source. The article uses metaphorical language and explanatory analogies but does not misrepresent any factual information."
-        }
+        },
+        "approved": true,
+        "_index": 32
       },
       {
         "originalTitle": "The genetic advantage that helps some people stay sharp for life",
@@ -853,28 +883,30 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that super agers over 80 are less likely to carry the Alzheimer's risk gene compared to other healthy seniors, and that they have higher levels of a protective gene variant. No quotes were fabricated (none were present in either source or article), no statistics were misrepresented, and no unsupported claims were made. The article appropriately expands on the implications while staying faithful to the source facts."
-        }
+        },
+        "approved": true,
+        "_index": 34
       }
     ],
     "science": [
       {
-        "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
-        "headline": "Engineers Give Concrete the Ultrasound Treatment (And It's Life-Saving)",
-        "excerpt": "A new ultrasonic imaging system can detect dangerous defects inside concrete structures, regardless of the materials concrete contains like stone, clay, chalk, or slate. This breakthrough gives structural engineers the same diagnostic power that physicians have with medical ultrasounds, potentially preventing deadly infrastructure failures.",
+        "originalTitle": "Study Shows Vaporizing E-Waste Makes it Easy to Recover Precious Metals at 13-Times Lower Costs",
+        "headline": "From Digital Trash to Treasure: Scientists Zap E-Waste Into Gold (Literally)",
+        "excerpt": "Scientists have discovered a way to extract precious metals from electronic waste by instantly heating electronics to 3,000°C via electrical current. According to their analysis, relying on e-waste for precious metals supply could be 13-times cheaper than mining them from the ground, without creating hazardous waste.",
         "category": "science",
-        "sourceUrl": "https://www.goodnewsnetwork.org/new-ultrasonic-imaging-system-can-detect-deadly-defects-in-all-types-of-concrete/",
+        "sourceUrl": "https://www.goodnewsnetwork.org/study-shows-vaporizing-e-waste-makes-it-easy-to-recover-precious-metals-at-13-times-lower-costs/",
         "sourceName": "Good News Network",
         "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "engineers-give-concrete-the-ultrasound-treatment-and-its-lif",
-        "author": "Adam Atom",
-        "imageUrl": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=1200&q=80",
+        "slug": "from-digital-trash-to-treasure-scientists-zap-e-waste-into-g",
+        "author": "Flora Fauna",
+        "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1200&q=80",
         "fullContent": {
-          "lead": "What if we could give buildings the same kind of health checkup that doctors give us? Thanks to a breakthrough ultrasonic imaging system, that's exactly what's happening in the world of structural engineering.",
+          "lead": "What if we told you that your old smartphone could be worth more than you think? Scientists have figured out how to extract precious metals from electronic waste by heating gadgets to a scorching 3,000°C using electrical current – and it turns out this treasure hunt could be 13 times cheaper than traditional mining.",
           "body": [
-            "This new technology works like a medical ultrasound, but instead of checking on babies or organs, it's peering inside concrete structures to spot dangerous defects that could lead to catastrophic failures. The system represents a major leap forward because it can work on all types of concrete, whether it contains stone, clay, chalk, or slate.",
-            "According to the report, this breakthrough gives structural engineers the same diagnostic power that physicians have long enjoyed with medical ultrasounds. Think about it: doctors can look inside our bodies without making a single cut, and now engineers can do the same with bridges, buildings, and other concrete structures.",
-            "The implications are enormous for public safety. Infrastructure failures aren't just expensive—they can be deadly. With this new ultrasonic imaging system, engineers can catch problems early, before they become disasters. It's the kind of preventive care our aging infrastructure desperately needs, offering hope for safer bridges, buildings, and the communities that depend on them."
+            "This isn't some far-off fantasy either. According to their analysis, relying on electronic waste for our precious metals supply could dramatically slash costs compared to digging them out of the ground the old-fashioned way. We're talking about turning yesterday's tech into today's treasure trove.",
+            "The process works by instantly heating electronics to temperatures that would make the sun jealous – 3,000°C to be exact. At those temperatures, the precious metals hiding inside our discarded devices can be recovered efficiently. It's like electronic alchemy, but with actual science backing it up.",
+            "Here's the beautiful part: this method doesn't create hazardous waste in the process. So not only are we potentially saving money and reducing the need for environmentally damaging mining operations, but we're also giving our electronic waste a second life instead of letting it pile up in landfills. Sometimes the best solutions really do kill multiple birds with one very hot stone."
           ],
           "pullQuote": null
         },
@@ -882,8 +914,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all facts from the original source. It correctly states that the ultrasonic imaging system can detect dangerous defects in concrete structures containing various materials (stone, clay, chalk, slate), gives engineers diagnostic power comparable to medical ultrasounds, and can potentially prevent deadly infrastructure failures. No statistics, quotes, or specific names were present in the source to verify. The article expands on the implications while staying true to the source material."
-        }
+          "summary": "The generated article accurately presents all key facts from the source: the 3,000°C heating temperature, the 13-times cost reduction compared to traditional mining, the use of electrical current for heating, and the lack of hazardous waste creation. No quotes were fabricated, and no unsupported claims were made. The article uses more engaging language and analogies but maintains factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
@@ -912,26 +946,28 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: the handprints are 67,800 years old, they are in a limestone cave in Indonesia, they represent the world's oldest known rock art, and they provide evidence of intentional sea crossing nearly 70,000 years ago. While the article uses a casual, conversational tone with modern analogies, all factual claims align with the source material. No quotes were fabricated, and all specific details match the original information."
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
-        "originalTitle": "Study Shows Vaporizing E-Waste Makes it Easy to Recover Precious Metals at 13-Times Lower Costs",
-        "headline": "From Digital Trash to Treasure: Scientists Zap E-Waste Into Gold (Literally)",
-        "excerpt": "Scientists have discovered a way to extract precious metals from electronic waste by instantly heating electronics to 3,000°C via electrical current. According to their analysis, relying on e-waste for precious metals supply could be 13-times cheaper than mining them from the ground, without creating hazardous waste.",
+        "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
+        "headline": "Engineers Give Concrete the Ultrasound Treatment (And It's Life-Saving)",
+        "excerpt": "A new ultrasonic imaging system can detect dangerous defects inside concrete structures, regardless of the materials concrete contains like stone, clay, chalk, or slate. This breakthrough gives structural engineers the same diagnostic power that physicians have with medical ultrasounds, potentially preventing deadly infrastructure failures.",
         "category": "science",
-        "sourceUrl": "https://www.goodnewsnetwork.org/study-shows-vaporizing-e-waste-makes-it-easy-to-recover-precious-metals-at-13-times-lower-costs/",
+        "sourceUrl": "https://www.goodnewsnetwork.org/new-ultrasonic-imaging-system-can-detect-deadly-defects-in-all-types-of-concrete/",
         "sourceName": "Good News Network",
         "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "from-digital-trash-to-treasure-scientists-zap-e-waste-into-g",
-        "author": "Flora Fauna",
-        "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1200&q=80",
+        "slug": "engineers-give-concrete-the-ultrasound-treatment-and-its-lif",
+        "author": "Adam Atom",
+        "imageUrl": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=1200&q=80",
         "fullContent": {
-          "lead": "What if we told you that your old smartphone could be worth more than you think? Scientists have figured out how to extract precious metals from electronic waste by heating gadgets to a scorching 3,000°C using electrical current – and it turns out this treasure hunt could be 13 times cheaper than traditional mining.",
+          "lead": "What if we could give buildings the same kind of health checkup that doctors give us? Thanks to a breakthrough ultrasonic imaging system, that's exactly what's happening in the world of structural engineering.",
           "body": [
-            "This isn't some far-off fantasy either. According to their analysis, relying on electronic waste for our precious metals supply could dramatically slash costs compared to digging them out of the ground the old-fashioned way. We're talking about turning yesterday's tech into today's treasure trove.",
-            "The process works by instantly heating electronics to temperatures that would make the sun jealous – 3,000°C to be exact. At those temperatures, the precious metals hiding inside our discarded devices can be recovered efficiently. It's like electronic alchemy, but with actual science backing it up.",
-            "Here's the beautiful part: this method doesn't create hazardous waste in the process. So not only are we potentially saving money and reducing the need for environmentally damaging mining operations, but we're also giving our electronic waste a second life instead of letting it pile up in landfills. Sometimes the best solutions really do kill multiple birds with one very hot stone."
+            "This new technology works like a medical ultrasound, but instead of checking on babies or organs, it's peering inside concrete structures to spot dangerous defects that could lead to catastrophic failures. The system represents a major leap forward because it can work on all types of concrete, whether it contains stone, clay, chalk, or slate.",
+            "According to the report, this breakthrough gives structural engineers the same diagnostic power that physicians have long enjoyed with medical ultrasounds. Think about it: doctors can look inside our bodies without making a single cut, and now engineers can do the same with bridges, buildings, and other concrete structures.",
+            "The implications are enormous for public safety. Infrastructure failures aren't just expensive—they can be deadly. With this new ultrasonic imaging system, engineers can catch problems early, before they become disasters. It's the kind of preventive care our aging infrastructure desperately needs, offering hope for safer bridges, buildings, and the communities that depend on them."
           ],
           "pullQuote": null
         },
@@ -939,8 +975,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately presents all key facts from the source: the 3,000°C heating temperature, the 13-times cost reduction compared to traditional mining, the use of electrical current for heating, and the lack of hazardous waste creation. No quotes were fabricated, and no unsupported claims were made. The article uses more engaging language and analogies but maintains factual accuracy throughout."
-        }
+          "summary": "The generated article accurately represents all facts from the original source. It correctly states that the ultrasonic imaging system can detect dangerous defects in concrete structures containing various materials (stone, clay, chalk, slate), gives engineers diagnostic power comparable to medical ultrasounds, and can potentially prevent deadly infrastructure failures. No statistics, quotes, or specific names were present in the source to verify. The article expands on the implications while staying true to the source material."
+        },
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "750-year-old Indian poems reveal a landscape scientists got wrong",
@@ -967,7 +1005,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. The timeframe (750 years/1200s), location (western India), landscape descriptions (thorny trees and open grasslands matching today's savannas), and main conclusion (these are ancient natural ecosystems, not ruined forests) are all correctly stated. No quotes were fabricated, and no unsupported claims were made. The article expands with appropriate context and interpretation while maintaining factual accuracy."
-        }
+        },
+        "approved": true,
+        "_index": 18
       },
       {
         "originalTitle": "Ancient tools in China are forcing scientists to rethink early humans",
@@ -995,7 +1035,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: the 160,000-year timeline, the Xigou site location in central China, the discovery of the earliest known handled tools in East Asia, and the conclusion that early humans were more inventive than previously assumed. While the article uses a more casual, engaging tone with analogies like 'MacGyver of the Stone Age,' all factual claims are properly supported by the source material. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 19
       },
       {
         "originalTitle": "A century-old Stonehenge mystery may finally be solved",
@@ -1023,7 +1065,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: the century-old mystery, the use of advanced mineral analysis on river sediments, the finding of no glacial evidence, and the conclusion that humans likely moved the stones intentionally. While the article adds creative language and humor not in the source, it doesn't fabricate quotes, misstate facts, or make unsupported claims. All core information is faithful to the original."
-        }
+        },
+        "approved": true,
+        "_index": 20
       },
       {
         "originalTitle": "NASA's Perseverance rover completes the first AI-planned drive on Mars",
@@ -1050,7 +1094,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. Key facts are correctly stated: Perseverance made history with the first AI-planned drive on Mars, the AI analyzed terrain data and identified hazards like rocks and sand ripples, and the rover successfully followed AI-generated routes for hundreds of feet. No quotes were fabricated (none claimed), and NASA/Perseverance are correctly identified. The article adds context and explanation but doesn't contradict or misrepresent any source material."
-        }
+        },
+        "approved": true,
+        "_index": 22
       },
       {
         "originalTitle": "Scientists are hunting for a forbidden antimatter transformation",
@@ -1077,7 +1123,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies MACE as a next-generation experiment designed to detect muonium transforming into its antimatter twin, accurately states this would be a forbidden process that could rewrite particle physics rules, correctly mentions the use of cutting-edge beams/targets/detectors, and properly attributes the potential discovery to pointing toward new forces or particles. While the article uses creative analogies and engaging language, all factual claims align with the source material and no fabricated quotes or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 23
       },
       {
         "originalTitle": "This AI app can tell which dinosaur made a footprint",
@@ -1104,7 +1152,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. The app name 'DinoTracker' is correct, the core functionality (analyzing photos of fossil tracks to predict which dinosaur made them) is accurately described, the accuracy claim (rivaling human experts) is preserved, and the key discovery about bird-like footprints dating back more than 200 million years and its implications for bird origins is faithfully reported. While the article adds explanatory context and uses more engaging language, it does not introduce any factual inaccuracies or unsupported claims."
-        }
+        },
+        "approved": true,
+        "_index": 25
       },
       {
         "originalTitle": "This brain discovery is forcing scientists to rethink how memory works",
@@ -1132,7 +1182,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that a brain imaging study found nearly identical brain networks for factual and autobiographical memory (contrary to expectations), that this challenges decades of memory research, and that it may help understand Alzheimer's and dementia. No fabricated quotes, statistics, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 33
       },
       {
         "originalTitle": "Robots descend into lava tubes to prepare for future Moon bases",
@@ -1159,7 +1211,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source material. While written in a casual, humorous tone with creative analogies (like 'cosmic bunkers' and 'expensive Swiss cheese'), it correctly conveys that European researchers developed a three-robot system to explore lava tubes, tested it in Lanzarote's volcanic caves, and that the system maps entrances, deploys sensors, lowers scout rovers, and creates 3D maps autonomously. The purpose of exploring these tubes as potential shelters offering radiation and debris protection is also accurately stated. No quotes were fabricated or misattributed, and all core facts align with the source."
-        }
+        },
+        "approved": true,
+        "_index": 35
       },
       {
         "originalTitle": "A record breaking gravitational wave is helping test Einstein's theory of general relativity",
@@ -1186,7 +1240,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. The gravitational wave designation GW250114, the record-breaking clarity, the detection of multiple 'tones,' the confirmation of Einstein's predictions, and the excitement about future signals potentially not behaving neatly are all correctly presented. While the article uses more colorful and accessible language with analogies, it doesn't fabricate quotes, misstate facts, or make unsupported claims. All core information aligns with the original source."
-        }
+        },
+        "approved": true,
+        "_index": 36
       },
       {
         "originalTitle": "Four astronauts enter quarantine as NASA's SpaceX Crew-12 launch nears",
@@ -1213,7 +1269,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all factual information from the source. Key facts are correctly stated: four astronauts from NASA, ESA, and Roscosmos entered two-week quarantine at Johnson Space Center, heading to Florida for launch preparations, with potential February 11 launch date and multiple backup windows. No fabricated quotes, incorrect statistics, or unsupported claims were found. While the article adds commentary and analogies not in the source, these are clearly editorial additions rather than factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 37
       },
       {
         "originalTitle": "Jupiter's clouds are hiding something big",
@@ -1240,38 +1298,12 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: Jupiter's storms concealing its composition for centuries, the new model revealing significantly more oxygen than the Sun, the importance for understanding solar system formation, and gases moving more slowly than previously thought. No fabricated quotes, statistics, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 38
       }
     ],
     "wildlife": [
-      {
-        "originalTitle": "Polar Bears are in Better Physical Shape than 25 Years Ago, Despite Sea Ice Losses",
-        "headline": "Plot Twist: Polar Bears Are Actually Getting Healthier Despite Climate Challenges",
-        "excerpt": "Polar bears are in better physical health than they were 25 years ago, despite the decrease in sea ice, reveals new research. The well-being of the iconic white mammals living around the Norwegian island of Svalbard has improved in the face of climate change, likely due to better opportunities to hunt.",
-        "category": "wildlife",
-        "sourceUrl": "https://www.goodnewsnetwork.org/polar-bears-are-in-better-physical-shape-than-25-years-ago-despite-sea-ice-losses/",
-        "sourceName": "Good News Network",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "plot-twist-polar-bears-are-actually-getting-healthier-despit",
-        "author": "Dawn Chorus",
-        "imageUrl": "https://images.unsplash.com/photo-1480044965905-02098d419e96?w=1200&q=80",
-        "fullContent": {
-          "lead": "Here's some news that'll make you want to bear-hug the planet: polar bears living around Norway's Svalbard island are actually healthier now than they were 25 years ago. Yes, you read that right – despite all the headlines about melting ice caps, these Arctic giants are thriving.",
-          "body": [
-            "New research reveals that the well-being of these iconic white mammals has genuinely improved over the past quarter-century, even as sea ice continues to decrease in their habitat. It's like they've found a way to adapt and flourish despite the challenges climate change has thrown their way.",
-            "According to the report, the secret to their success likely lies in better hunting opportunities. While we might assume less ice equals fewer chances to catch seals, it seems these clever bears have figured out how to make the most of their changing environment.",
-            "This doesn't mean climate change isn't still a serious concern for polar bears globally – it absolutely is. But this particular population around Svalbard has shown remarkable resilience, proving that nature sometimes finds ways to surprise us in the best possible way. It's a reminder that while we should never stop working to protect these magnificent creatures, they're also incredibly adaptable survivors."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source material. The location (Svalbard island, Norway), timeframe (25 years ago vs now), main finding (polar bears in better physical health despite sea ice decrease), and explanation (better hunting opportunities) are all correctly represented. No statistics, quotes, or specific claims were fabricated, and the article appropriately acknowledges that this finding applies specifically to the Svalbard population while noting climate change remains a broader concern."
-        }
-      },
       {
         "originalTitle": "Acupuncture for Rescued Elephants Provides Relief from Chronic Pain and Nerve Damage in India Care Center",
         "headline": "Needle Point Precision: Ancient Healing Helps Rescued Elephants Find Relief",
@@ -1299,7 +1331,39 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that India's largest wildlife rescue organization is using acupuncture to treat rescued elephants for chronic pain, nerve damage, and mobility issues from captivity/hard labor. The article accurately reports that the veterinary team sought training in alternative medicine to complement conventional treatments and that the techniques boosted recovery rates. No statistics, quotes, or specific names were provided in the source to verify, and none were fabricated in the article. All claims are well-supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 2
+      },
+      {
+        "originalTitle": "Polar Bears are in Better Physical Shape than 25 Years Ago, Despite Sea Ice Losses",
+        "headline": "Plot Twist: Polar Bears Are Actually Getting Healthier Despite Climate Challenges",
+        "excerpt": "Polar bears are in better physical health than they were 25 years ago, despite the decrease in sea ice, reveals new research. The well-being of the iconic white mammals living around the Norwegian island of Svalbard has improved in the face of climate change, likely due to better opportunities to hunt.",
+        "category": "wildlife",
+        "sourceUrl": "https://www.goodnewsnetwork.org/polar-bears-are-in-better-physical-shape-than-25-years-ago-despite-sea-ice-losses/",
+        "sourceName": "Good News Network",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "plot-twist-polar-bears-are-actually-getting-healthier-despit",
+        "author": "Dawn Chorus",
+        "imageUrl": "https://images.unsplash.com/photo-1480044965905-02098d419e96?w=1200&q=80",
+        "fullContent": {
+          "lead": "Here's some news that'll make you want to bear-hug the planet: polar bears living around Norway's Svalbard island are actually healthier now than they were 25 years ago. Yes, you read that right – despite all the headlines about melting ice caps, these Arctic giants are thriving.",
+          "body": [
+            "New research reveals that the well-being of these iconic white mammals has genuinely improved over the past quarter-century, even as sea ice continues to decrease in their habitat. It's like they've found a way to adapt and flourish despite the challenges climate change has thrown their way.",
+            "According to the report, the secret to their success likely lies in better hunting opportunities. While we might assume less ice equals fewer chances to catch seals, it seems these clever bears have figured out how to make the most of their changing environment.",
+            "This doesn't mean climate change isn't still a serious concern for polar bears globally – it absolutely is. But this particular population around Svalbard has shown remarkable resilience, proving that nature sometimes finds ways to surprise us in the best possible way. It's a reminder that while we should never stop working to protect these magnificent creatures, they're also incredibly adaptable survivors."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all key facts from the source material. The location (Svalbard island, Norway), timeframe (25 years ago vs now), main finding (polar bears in better physical health despite sea ice decrease), and explanation (better hunting opportunities) are all correctly represented. No statistics, quotes, or specific claims were fabricated, and the article appropriately acknowledges that this finding applies specifically to the Svalbard population while noting climate change remains a broader concern."
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "Hundreds of new species found in a hidden world beneath the Pacific",
@@ -1326,7 +1390,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: nearly 800 species discovered, many previously unknown to science, 5 years and 160 days at sea research period, deep Pacific seabed location, and the context about critical metals demand and fragile ecosystems. No quotes were fabricated, and all claims are supported by the source material. The article uses a more casual, engaging tone but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 24
       },
       {
         "originalTitle": "Gray wolves are hunting sea otters and no one knows how",
@@ -1353,7 +1419,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that gray wolves on a remote Alaskan island are hunting sea otters, that this behavior was unexpected to scientists, that researchers are studying how the wolves adapted to marine hunting, and that it has implications for land-sea ecosystems. The article uses a more casual, engaging tone but maintains factual accuracy throughout. No statistics, quotes, or specific names were present in the source to verify, and no unsupported claims were made."
-        }
+        },
+        "approved": true,
+        "_index": 26
       },
       {
         "originalTitle": "Scientists ranked monogamy across mammals and humans stand out",
@@ -1380,7 +1448,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that humans rank in an elite 'league of monogamy' closer to beavers and meerkats than chimpanzees, accurately describes the research methodology of comparing full and half siblings across species and cultures, and properly notes that even polygamous societies show more monogamy than most mammals. No quotes were fabricated (the article uses paraphrasing), and no unsupported claims were made. The article maintains factual accuracy while adding stylistic elements and humor."
-        }
+        },
+        "approved": true,
+        "_index": 39
       },
       {
         "originalTitle": "Hen cages and pig farrowing crates face ban",
@@ -1407,124 +1477,12 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. The quote 'the biggest reforms in a generation' is correctly attributed to the government, the proposed bans on hen cages and pig farrowing crates are accurately stated, and the reference to comprehensive welfare improvements aligns with the source. The article adds explanatory context (like defining farrowing crates) and commentary, but does not misrepresent any factual claims from the original source."
-        }
+        },
+        "approved": true,
+        "_index": 40
       }
     ],
     "people": [
-      {
-        "originalTitle": "The Affordable Daycare That Keeps Parents Close",
-        "headline": "This Daycare Cracked the Code on Work-Life Balance",
-        "excerpt": "An innovative childcare solution is helping parents like Saja Khuder and Chase Mateusiak who faced expensive daycare options or last-minute care plan failures. The affordable model keeps children close to their working parents, reducing both costs and the stress that can leave young children exhausted and unhappy.",
-        "category": "people",
-        "sourceUrl": "https://reasonstobecheerful.world/little-break-coworking-space-on-site-child-care-michigan/",
-        "sourceName": "Reasons to be Cheerful",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "this-daycare-cracked-the-code-on-work-life-balance",
-        "author": "Joy Fuller",
-        "imageUrl": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=1200&q=80",
-        "fullContent": {
-          "lead": "Picture this: you're juggling a work deadline when your daycare calls with a sick teacher and suddenly you need backup childcare. Now. Or maybe you're staring at daycare bills that rival your mortgage payment. Sound familiar? Well, parents like Saja Khuder and Chase Mateusiak have found a solution that's changing the game entirely.",
-          "body": [
-            "An innovative childcare model is solving two of parents' biggest headaches at once: sky-high daycare costs and the constant stress of backup care plans falling through. Instead of shipping kids off to expensive facilities across town, this affordable approach keeps children close to their working parents.",
-            "The beauty of this solution lies in its simplicity. Rather than parents scrambling when their usual childcare arrangements collapse or draining their bank accounts for traditional daycare, this model offers a way for families to stay connected while still getting things done. It's addressing that all-too-common scenario where parents are stretched thin financially and logistically.",
-            "What's particularly exciting is how this approach tackles the ripple effects of childcare stress. When parents are constantly worried about care arrangements or watching their budgets get demolished by childcare costs, that anxiety trickles down to the kids, leaving them exhausted and unhappy. This model seems to break that cycle by creating a more sustainable, less stressful situation for everyone involved.",
-            "According to the report from Reasons to be Cheerful, this innovative childcare solution is proving that sometimes the best answers come from rethinking the whole setup rather than just tweaking the existing system. For families caught between expensive options and unreliable backup plans, it's offering a third way forward."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all factual information from the source. Names (Saja Khuder, Chase Mateusiak), publication (Reasons to be Cheerful), and key details about the childcare model are correct. No quotes were fabricated - the article properly attributes information to the source rather than creating false quotations. All claims about the affordable childcare model, its benefits, and the problems it solves are supported by the original source material."
-        }
-      },
-      {
-        "originalTitle": "The Whimsical Floating Schools of Kashmir",
-        "headline": "Where School Boats Set Sail Every Morning on Kashmir's Dal Lake",
-        "excerpt": "Each weekday morning on Dal Lake in Kashmir, children dressed in school uniforms set out in wooden boats from houseboats and island homes, carrying their backpacks between oars and lunch pails. Some row themselves while others are ferried by family, creating a unique floating school system that brings education directly to water-dwelling communities.",
-        "category": "people",
-        "sourceUrl": "https://reasonstobecheerful.world/floating-schools-of-kashmir-dal-lake/",
-        "sourceName": "Reasons to be Cheerful",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "where-school-boats-set-sail-every-morning-on-kashmirs-dal-la",
-        "author": "Hope Rising",
-        "imageUrl": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&q=80",
-        "fullContent": {
-          "lead": "Picture this: instead of racing to catch the school bus, kids in Kashmir are grabbing oars and setting sail across one of the world's most beautiful lakes to get to class. On Dal Lake, the morning commute involves wooden boats, backpacks tucked between lunch pails, and some of the most scenic routes to education you'll ever see.",
-          "body": [
-            "Every weekday morning, children dressed in crisp school uniforms emerge from houseboats and island homes scattered across Dal Lake. Some are confident enough to row themselves to school, their small hands working the oars with practiced ease, while others get a lift from family members who ferry them across the shimmering waters.",
-            "This isn't just a charming way to get around—it's a thoughtful solution to a real challenge. When your community lives on the water, traditional brick-and-mortar schools aren't exactly accessible. So Kashmir has created something better: a floating school system that brings education directly to where these water-dwelling families call home.",
-            "The sight of these young scholars navigating their way to learning, backpacks secure and spirits high, captures something beautiful about human adaptability. While most kids complain about their bus ride, these students get to start each day surrounded by the natural beauty of Kashmir's famous lake, proving that sometimes the best solutions are the most creative ones."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all factual information from the source. Key details are correctly maintained: Dal Lake location in Kashmir, weekday morning timing, children in school uniforms, wooden boats, backpacks between oars and lunch pails, some rowing themselves while others are ferried by family, and the floating school system serving water-dwelling communities. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands with descriptive language and interpretation but stays faithful to the source facts."
-        }
-      },
-      {
-        "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
-        "headline": "One Photographer's Mission to Capture India's Architectural Treasures",
-        "excerpt": "A nationwide photography project is preserving India's diverse architectural heritage, from the intricately carved balconies of Patwon Ki Haveli in Jaisalmer to historic structures across the country. The initiative documents buildings with courtyards where shadows dance through latticed windows and rooms that echo with centuries of history.",
-        "category": "people",
-        "sourceUrl": "https://reasonstobecheerful.world/india-amit-pasricha-photography-preserve-architecture/",
-        "sourceName": "Reasons to be Cheerful",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "one-photographers-mission-to-capture-indias-architectural-tr",
-        "author": "Joy Fuller",
-        "imageUrl": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&q=80",
-        "fullContent": {
-          "lead": "Picture this: shadows dancing through latticed windows, courtyards that have witnessed centuries of daily life, and balconies so intricately carved they look like stone poetry. Now imagine all of this architectural wonder being captured and preserved for future generations through the lens of a camera.",
-          "body": [
-            "A nationwide photography project is working to document India's incredibly diverse architectural heritage, creating a visual archive that spans from grand havelis to humble historic structures. This isn't just about snapping pretty pictures – it's about preserving the stories that buildings tell.",
-            "The initiative is capturing everything from the famous Patwon Ki Haveli in Jaisalmer, with its elaborate carved balconies, to countless other structures across the country. Each photograph becomes a time capsule, freezing moments where light plays through ancient stonework and preserving details that might otherwise be lost to time.",
-            "What makes this project particularly special is its focus on the lived-in quality of these spaces. These aren't sterile museum pieces – they're buildings with courtyards where real life happens, rooms that echo with centuries of conversation, laughter, and daily rhythms. By documenting these architectural treasures now, the project ensures that future generations will be able to see not just how buildings looked, but how they lived and breathed as part of India's cultural fabric."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all factual information from the source. It correctly mentions the nationwide photography project preserving India's architectural heritage, specifically references Patwon Ki Haveli in Jaisalmer with its intricately carved balconies, and accurately describes the focus on courtyards with shadows dancing through latticed windows and rooms echoing with history. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands on the source material with appropriate descriptive language while maintaining factual accuracy."
-        }
-      },
-      {
-        "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
-        "headline": "From Prairie Dreams to Ocean Triumph: Nebraska Woman Rows Into History",
-        "excerpt": "Taryn Smith, now 25, was living in landlocked Nebraska when ocean dreams took hold of her as a young adult in Omaha. After reading about an all-female rowing team that set a world record in the Great Pacific Race in 2022, Smith learned to row and has now become the first female to cross the Atlantic alone in a 3,000-mile race.",
-        "category": "people",
-        "sourceUrl": "https://www.goodnewsnetwork.org/nebraska-woman-learns-to-row-then-becomes-first-female-to-cross-the-atlantic-alone-in-3000-mile-race/",
-        "sourceName": "Good News Network",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "from-prairie-dreams-to-ocean-triumph-nebraska-woman-rows-int",
-        "author": "Pat Ontheback",
-        "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
-        "fullContent": {
-          "lead": "What do you do when the nearest ocean is roughly 1,000 miles away but your heart keeps pulling you toward the waves? If you're Taryn Smith from Nebraska, apparently you learn to row and then casually become the first woman to cross the Atlantic Ocean solo in a 3,000-mile race.",
-          "body": [
-            "Smith, now 25, was living her landlocked life in Omaha when ocean dreams started calling her name as a young adult. Most of us might have settled for watching Moana on repeat or buying a really good aquarium, but Smith had bigger plans brewing.",
-            "Her inspiration struck after reading about an all-female rowing team that set a world record in the Great Pacific Race in 2022. That story sparked something powerful enough to get a Nebraska woman to pick up oars and start training for one of the most grueling challenges on the planet.",
-            "The journey from prairie to Atlantic crossing wasn't exactly a quick hop, skip, and a row. Smith had to learn the entire sport from scratch, master ocean rowing techniques, and prepare for the mental and physical demands of spending weeks alone on the open water. But her determination paid off in the most spectacular way possible.",
-            "Now she's made history as the first female to complete this particular Atlantic crossing alone, proving that sometimes the biggest adventures start in the most unexpected places. Who knows? Maybe landlocked dreamers everywhere are already eyeing their own impossible goals, wondering what records they might be destined to break."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "All key facts from the original source are accurately represented in the generated article. Taryn Smith's age (25), location (Nebraska/Omaha), inspiration source (all-female rowing team's 2022 Great Pacific Race world record), and achievement (first female to cross Atlantic alone in 3,000-mile race) are all correct. No quotes were fabricated - the article uses paraphrasing instead of direct quotes. While the generated article adds creative narrative elements and commentary, these additions don't contradict or misrepresent the source material."
-        }
-      },
       {
         "originalTitle": "13-year-old Ditches Lifejacket and Makes 'Superhuman' Swim to Save Family Swept out to Sea",
         "headline": "Teen Hero Makes Epic 4-Hour Swim to Save Family from the Deep",
@@ -1558,7 +1516,131 @@
           "confidence": "high",
           "summary": "The generated article makes unsupported claims about the successful completion of the rescue and adds dramatic details not present in the source. Most critically, it states as fact that the boy successfully rescued his family, while the source only indicates he attempted the rescue by swimming for 4 hours."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 4
+      },
+      {
+        "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
+        "headline": "From Prairie Dreams to Ocean Triumph: Nebraska Woman Rows Into History",
+        "excerpt": "Taryn Smith, now 25, was living in landlocked Nebraska when ocean dreams took hold of her as a young adult in Omaha. After reading about an all-female rowing team that set a world record in the Great Pacific Race in 2022, Smith learned to row and has now become the first female to cross the Atlantic alone in a 3,000-mile race.",
+        "category": "people",
+        "sourceUrl": "https://www.goodnewsnetwork.org/nebraska-woman-learns-to-row-then-becomes-first-female-to-cross-the-atlantic-alone-in-3000-mile-race/",
+        "sourceName": "Good News Network",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "from-prairie-dreams-to-ocean-triumph-nebraska-woman-rows-int",
+        "author": "Pat Ontheback",
+        "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
+        "fullContent": {
+          "lead": "What do you do when the nearest ocean is roughly 1,000 miles away but your heart keeps pulling you toward the waves? If you're Taryn Smith from Nebraska, apparently you learn to row and then casually become the first woman to cross the Atlantic Ocean solo in a 3,000-mile race.",
+          "body": [
+            "Smith, now 25, was living her landlocked life in Omaha when ocean dreams started calling her name as a young adult. Most of us might have settled for watching Moana on repeat or buying a really good aquarium, but Smith had bigger plans brewing.",
+            "Her inspiration struck after reading about an all-female rowing team that set a world record in the Great Pacific Race in 2022. That story sparked something powerful enough to get a Nebraska woman to pick up oars and start training for one of the most grueling challenges on the planet.",
+            "The journey from prairie to Atlantic crossing wasn't exactly a quick hop, skip, and a row. Smith had to learn the entire sport from scratch, master ocean rowing techniques, and prepare for the mental and physical demands of spending weeks alone on the open water. But her determination paid off in the most spectacular way possible.",
+            "Now she's made history as the first female to complete this particular Atlantic crossing alone, proving that sometimes the biggest adventures start in the most unexpected places. Who knows? Maybe landlocked dreamers everywhere are already eyeing their own impossible goals, wondering what records they might be destined to break."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "All key facts from the original source are accurately represented in the generated article. Taryn Smith's age (25), location (Nebraska/Omaha), inspiration source (all-female rowing team's 2022 Great Pacific Race world record), and achievement (first female to cross Atlantic alone in 3,000-mile race) are all correct. No quotes were fabricated - the article uses paraphrasing instead of direct quotes. While the generated article adds creative narrative elements and commentary, these additions don't contradict or misrepresent the source material."
+        },
+        "approved": true,
+        "_index": 6
+      },
+      {
+        "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
+        "headline": "One Photographer's Mission to Capture India's Architectural Treasures",
+        "excerpt": "A nationwide photography project is preserving India's diverse architectural heritage, from the intricately carved balconies of Patwon Ki Haveli in Jaisalmer to historic structures across the country. The initiative documents buildings with courtyards where shadows dance through latticed windows and rooms that echo with centuries of history.",
+        "category": "people",
+        "sourceUrl": "https://reasonstobecheerful.world/india-amit-pasricha-photography-preserve-architecture/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "one-photographers-mission-to-capture-indias-architectural-tr",
+        "author": "Joy Fuller",
+        "imageUrl": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&q=80",
+        "fullContent": {
+          "lead": "Picture this: shadows dancing through latticed windows, courtyards that have witnessed centuries of daily life, and balconies so intricately carved they look like stone poetry. Now imagine all of this architectural wonder being captured and preserved for future generations through the lens of a camera.",
+          "body": [
+            "A nationwide photography project is working to document India's incredibly diverse architectural heritage, creating a visual archive that spans from grand havelis to humble historic structures. This isn't just about snapping pretty pictures – it's about preserving the stories that buildings tell.",
+            "The initiative is capturing everything from the famous Patwon Ki Haveli in Jaisalmer, with its elaborate carved balconies, to countless other structures across the country. Each photograph becomes a time capsule, freezing moments where light plays through ancient stonework and preserving details that might otherwise be lost to time.",
+            "What makes this project particularly special is its focus on the lived-in quality of these spaces. These aren't sterile museum pieces – they're buildings with courtyards where real life happens, rooms that echo with centuries of conversation, laughter, and daily rhythms. By documenting these architectural treasures now, the project ensures that future generations will be able to see not just how buildings looked, but how they lived and breathed as part of India's cultural fabric."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all factual information from the source. It correctly mentions the nationwide photography project preserving India's architectural heritage, specifically references Patwon Ki Haveli in Jaisalmer with its intricately carved balconies, and accurately describes the focus on courtyards with shadows dancing through latticed windows and rooms echoing with history. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands on the source material with appropriate descriptive language while maintaining factual accuracy."
+        },
+        "approved": true,
+        "_index": 12
+      },
+      {
+        "originalTitle": "The Whimsical Floating Schools of Kashmir",
+        "headline": "Where School Boats Set Sail Every Morning on Kashmir's Dal Lake",
+        "excerpt": "Each weekday morning on Dal Lake in Kashmir, children dressed in school uniforms set out in wooden boats from houseboats and island homes, carrying their backpacks between oars and lunch pails. Some row themselves while others are ferried by family, creating a unique floating school system that brings education directly to water-dwelling communities.",
+        "category": "people",
+        "sourceUrl": "https://reasonstobecheerful.world/floating-schools-of-kashmir-dal-lake/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "where-school-boats-set-sail-every-morning-on-kashmirs-dal-la",
+        "author": "Hope Rising",
+        "imageUrl": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&q=80",
+        "fullContent": {
+          "lead": "Picture this: instead of racing to catch the school bus, kids in Kashmir are grabbing oars and setting sail across one of the world's most beautiful lakes to get to class. On Dal Lake, the morning commute involves wooden boats, backpacks tucked between lunch pails, and some of the most scenic routes to education you'll ever see.",
+          "body": [
+            "Every weekday morning, children dressed in crisp school uniforms emerge from houseboats and island homes scattered across Dal Lake. Some are confident enough to row themselves to school, their small hands working the oars with practiced ease, while others get a lift from family members who ferry them across the shimmering waters.",
+            "This isn't just a charming way to get around—it's a thoughtful solution to a real challenge. When your community lives on the water, traditional brick-and-mortar schools aren't exactly accessible. So Kashmir has created something better: a floating school system that brings education directly to where these water-dwelling families call home.",
+            "The sight of these young scholars navigating their way to learning, backpacks secure and spirits high, captures something beautiful about human adaptability. While most kids complain about their bus ride, these students get to start each day surrounded by the natural beauty of Kashmir's famous lake, proving that sometimes the best solutions are the most creative ones."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all factual information from the source. Key details are correctly maintained: Dal Lake location in Kashmir, weekday morning timing, children in school uniforms, wooden boats, backpacks between oars and lunch pails, some rowing themselves while others are ferried by family, and the floating school system serving water-dwelling communities. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands with descriptive language and interpretation but stays faithful to the source facts."
+        },
+        "approved": true,
+        "_index": 13
+      },
+      {
+        "originalTitle": "The Affordable Daycare That Keeps Parents Close",
+        "headline": "This Daycare Cracked the Code on Work-Life Balance",
+        "excerpt": "An innovative childcare solution is helping parents like Saja Khuder and Chase Mateusiak who faced expensive daycare options or last-minute care plan failures. The affordable model keeps children close to their working parents, reducing both costs and the stress that can leave young children exhausted and unhappy.",
+        "category": "people",
+        "sourceUrl": "https://reasonstobecheerful.world/little-break-coworking-space-on-site-child-care-michigan/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "this-daycare-cracked-the-code-on-work-life-balance",
+        "author": "Joy Fuller",
+        "imageUrl": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=1200&q=80",
+        "fullContent": {
+          "lead": "Picture this: you're juggling a work deadline when your daycare calls with a sick teacher and suddenly you need backup childcare. Now. Or maybe you're staring at daycare bills that rival your mortgage payment. Sound familiar? Well, parents like Saja Khuder and Chase Mateusiak have found a solution that's changing the game entirely.",
+          "body": [
+            "An innovative childcare model is solving two of parents' biggest headaches at once: sky-high daycare costs and the constant stress of backup care plans falling through. Instead of shipping kids off to expensive facilities across town, this affordable approach keeps children close to their working parents.",
+            "The beauty of this solution lies in its simplicity. Rather than parents scrambling when their usual childcare arrangements collapse or draining their bank accounts for traditional daycare, this model offers a way for families to stay connected while still getting things done. It's addressing that all-too-common scenario where parents are stretched thin financially and logistically.",
+            "What's particularly exciting is how this approach tackles the ripple effects of childcare stress. When parents are constantly worried about care arrangements or watching their budgets get demolished by childcare costs, that anxiety trickles down to the kids, leaving them exhausted and unhappy. This model seems to break that cycle by creating a more sustainable, less stressful situation for everyone involved.",
+            "According to the report from Reasons to be Cheerful, this innovative childcare solution is proving that sometimes the best answers come from rethinking the whole setup rather than just tweaking the existing system. For families caught between expensive options and unreliable backup plans, it's offering a third way forward."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all factual information from the source. Names (Saja Khuder, Chase Mateusiak), publication (Reasons to be Cheerful), and key details about the childcare model are correct. No quotes were fabricated - the article properly attributes information to the source rather than creating false quotations. All claims about the affordable childcare model, its benefits, and the problems it solves are supported by the original source material."
+        },
+        "approved": true,
+        "_index": 14
       },
       {
         "originalTitle": "January 14th Marked the Longest Period Without a Nuclear Detonation Since the Atomic Age Began",
@@ -1586,7 +1668,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: the specific date (January 14th), the exact duration (8 years, 4 months, and 29 days), and the significance as the longest period without nuclear detonation since 1945. No quotes were fabricated, and all claims are supported by the source material. The article expands with contextual information and commentary while maintaining factual accuracy."
-        }
+        },
+        "approved": true,
+        "_index": 15
       },
       {
         "originalTitle": "The City Where Traffic Fatalities Vanished",
@@ -1613,7 +1697,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts from the source are accurately represented: Hoboken's population (60,000), zero traffic fatalities since January 17, 2017, the nine-year streak, typical fatality rate for similar cities (6-8 per year), and the three main safety measures (seatbelt campaigns, lower speed limits, sober driving initiatives). No quotes were fabricated, and all proper nouns are correct. The article adds contextual commentary and emotional framing but does not contradict or misrepresent any source information."
-        }
+        },
+        "approved": true,
+        "_index": 41
       }
     ]
   },
@@ -1644,7 +1730,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: the baby's location (Pennsylvania), name (KJ), medical condition (rare metabolic disorder preventing ammonia to urea conversion), health risks (brain/liver damage), dietary restrictions, the world-first nature of the personalized CRISPR treatment, and the positive outcome (thriving). No quotes were fabricated, and all claims are supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     {
       "originalTitle": "Study Shows Vaporizing E-Waste Makes it Easy to Recover Precious Metals at 13-Times Lower Costs",
@@ -1672,7 +1760,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: the 3,000°C heating temperature, the 13-times cost reduction compared to traditional mining, the use of electrical current for heating, and the lack of hazardous waste creation. No quotes were fabricated, and no unsupported claims were made. The article uses more engaging language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 1
     },
     {
       "originalTitle": "Acupuncture for Rescued Elephants Provides Relief from Chronic Pain and Nerve Damage in India Care Center",
@@ -1701,7 +1791,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that India's largest wildlife rescue organization is using acupuncture to treat rescued elephants for chronic pain, nerve damage, and mobility issues from captivity/hard labor. The article accurately reports that the veterinary team sought training in alternative medicine to complement conventional treatments and that the techniques boosted recovery rates. No statistics, quotes, or specific names were provided in the source to verify, and none were fabricated in the article. All claims are well-supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 2
     },
     {
       "originalTitle": "A natural aging molecule may help restore memory in Alzheimer's",
@@ -1730,7 +1822,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that researchers discovered a natural aging-related molecule that can repair memory processes affected by Alzheimer's, improves brain cell communication, restores early memory abilities, exists naturally in the body but declines with age, and may offer a safer treatment approach. The article uses analogies and expanded explanations but does not introduce any factual inaccuracies or unsupported claims. No quotes were fabricated, and no specific names or statistics were mentioned that could be verified."
-      }
+      },
+      "approved": true,
+      "_index": 3
     },
     {
       "originalTitle": "13-year-old Ditches Lifejacket and Makes 'Superhuman' Swim to Save Family Swept out to Sea",
@@ -1765,7 +1859,9 @@
         "confidence": "high",
         "summary": "The generated article makes unsupported claims about the successful completion of the rescue and adds dramatic details not present in the source. Most critically, it states as fact that the boy successfully rescued his family, while the source only indicates he attempted the rescue by swimming for 4 hours."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 4
     },
     {
       "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
@@ -1794,7 +1890,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: the handprints are 67,800 years old, they are in a limestone cave in Indonesia, they represent the world's oldest known rock art, and they provide evidence of intentional sea crossing nearly 70,000 years ago. While the article uses a casual, conversational tone with modern analogies, all factual claims align with the source material. No quotes were fabricated, and all specific details match the original information."
-      }
+      },
+      "approved": true,
+      "_index": 5
     },
     {
       "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
@@ -1823,7 +1921,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the original source are accurately represented in the generated article. Taryn Smith's age (25), location (Nebraska/Omaha), inspiration source (all-female rowing team's 2022 Great Pacific Race world record), and achievement (first female to cross Atlantic alone in 3,000-mile race) are all correct. No quotes were fabricated - the article uses paraphrasing instead of direct quotes. While the generated article adds creative narrative elements and commentary, these additions don't contradict or misrepresent the source material."
-      }
+      },
+      "approved": true,
+      "_index": 6
     },
     {
       "originalTitle": "Polar Bears are in Better Physical Shape than 25 Years Ago, Despite Sea Ice Losses",
@@ -1851,7 +1951,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. The location (Svalbard island, Norway), timeframe (25 years ago vs now), main finding (polar bears in better physical health despite sea ice decrease), and explanation (better hunting opportunities) are all correctly represented. No statistics, quotes, or specific claims were fabricated, and the article appropriately acknowledges that this finding applies specifically to the Svalbard population while noting climate change remains a broader concern."
-      }
+      },
+      "approved": true,
+      "_index": 7
     },
     {
       "originalTitle": "Helping with Grandkids May Protect Against Cognitive Decline, Shows New Research",
@@ -1879,7 +1981,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that new research shows caring for grandchildren may buffer against cognitive decline and dementia, and that grandparents provide regular care supporting families and society. The article expands on these core facts with reasonable interpretation and context without adding unsupported claims or fabricated quotes."
-      }
+      },
+      "approved": true,
+      "_index": 8
     },
     {
       "originalTitle": "New catalyst turns carbon dioxide into clean fuel source",
@@ -1907,7 +2011,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that manganese can efficiently convert CO2 into formate (a hydrogen source for fuel cells), that the catalyst lasts longer than similar low-cost materials, and that it outperformed expensive precious-metal options. No quotes were fabricated, no statistics were misrepresented, and all claims are supported by the original source. The article uses creative language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 9
     },
     {
       "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
@@ -1935,7 +2041,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that chronic stress damages gut lining by lowering Reelin levels, that Reelin plays roles in both gut repair and brain health, that a single injection in preclinical models restored Reelin levels and produced antidepressant-like effects, and that this suggests future treatments could target depression through the gut-brain connection. The article uses a more casual, engaging tone but maintains factual accuracy throughout. No quotes are fabricated, and all claims are supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 10
     },
     {
       "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
@@ -1963,7 +2071,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all facts from the original source. It correctly states that the ultrasonic imaging system can detect dangerous defects in concrete structures containing various materials (stone, clay, chalk, slate), gives engineers diagnostic power comparable to medical ultrasounds, and can potentially prevent deadly infrastructure failures. No statistics, quotes, or specific names were present in the source to verify. The article expands on the implications while staying true to the source material."
-      }
+      },
+      "approved": true,
+      "_index": 11
     },
     {
       "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
@@ -1991,7 +2101,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all factual information from the source. It correctly mentions the nationwide photography project preserving India's architectural heritage, specifically references Patwon Ki Haveli in Jaisalmer with its intricately carved balconies, and accurately describes the focus on courtyards with shadows dancing through latticed windows and rooms echoing with history. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands on the source material with appropriate descriptive language while maintaining factual accuracy."
-      }
+      },
+      "approved": true,
+      "_index": 12
     },
     {
       "originalTitle": "The Whimsical Floating Schools of Kashmir",
@@ -2019,7 +2131,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all factual information from the source. Key details are correctly maintained: Dal Lake location in Kashmir, weekday morning timing, children in school uniforms, wooden boats, backpacks between oars and lunch pails, some rowing themselves while others are ferried by family, and the floating school system serving water-dwelling communities. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands with descriptive language and interpretation but stays faithful to the source facts."
-      }
+      },
+      "approved": true,
+      "_index": 13
     },
     {
       "originalTitle": "The Affordable Daycare That Keeps Parents Close",
@@ -2048,7 +2162,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all factual information from the source. Names (Saja Khuder, Chase Mateusiak), publication (Reasons to be Cheerful), and key details about the childcare model are correct. No quotes were fabricated - the article properly attributes information to the source rather than creating false quotations. All claims about the affordable childcare model, its benefits, and the problems it solves are supported by the original source material."
-      }
+      },
+      "approved": true,
+      "_index": 14
     },
     {
       "originalTitle": "January 14th Marked the Longest Period Without a Nuclear Detonation Since the Atomic Age Began",
@@ -2076,34 +2192,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: the specific date (January 14th), the exact duration (8 years, 4 months, and 29 days), and the significance as the longest period without nuclear detonation since 1945. No quotes were fabricated, and all claims are supported by the source material. The article expands with contextual information and commentary while maintaining factual accuracy."
-      }
-    },
-    {
-      "originalTitle": "Scientists found the soil secret that doubles forest regrowth",
-      "headline": "Soil Scientists Crack the Forest Comeback Code",
-      "excerpt": "New research shows tropical forests can recover twice as fast after deforestation when their soils contain enough nitrogen. Scientists followed forest regrowth across Central America for decades and found that nitrogen plays a decisive role in how quickly trees return, with faster regrowth also meaning more carbon captured from the atmosphere.",
-      "category": "climate",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/01/260115220612.htm",
-      "sourceName": "Science Daily Climate",
-      "readTime": 4,
-      "slug": "soil-scientists-crack-the-forest-comeback-code",
-      "author": "Gusty Winds",
-      "imageUrl": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=1200&q=80",
-      "fullContent": {
-        "lead": "What if I told you there's a soil ingredient that works like miracle grow for entire forests? New research has uncovered nature's not-so-secret weapon for forest recovery: nitrogen. And when tropical soils have enough of this essential nutrient, deforested areas can bounce back twice as fast as usual.",
-        "body": [
-          "Scientists spent decades following forest regrowth across Central America, watching cleared land slowly transform back into lush woodland. What they discovered was that nitrogen in the soil plays the starring role in determining whether a forest recovers at a snail's pace or speeds through its comeback tour like it's got somewhere important to be.",
-          "The implications go way beyond just having prettier landscapes to look at (though that's certainly a bonus). When forests regrow faster, they're also capturing carbon from the atmosphere at a much quicker rate. It's like nature's own carbon vacuum cleaner, but one that actually works better when it's well-fed with nitrogen.",
-          "This discovery could be a game-changer for restoration efforts around the world. Instead of waiting generations to see meaningful forest recovery, understanding soil nitrogen levels might help us identify the areas most likely to bounce back quickly – or figure out how to give slower-recovering areas the boost they need. Sometimes the best solutions really are right under our feet."
-        ],
-        "pullQuote": null
       },
-      "factCheck": {
-        "passed": true,
-        "issues": [],
-        "confidence": "high",
-        "summary": "The generated article accurately represents all key facts from the source: tropical forests can recover twice as fast with sufficient nitrogen, scientists studied forest regrowth across Central America for decades, nitrogen plays a decisive role in recovery speed, and faster regrowth means more carbon capture. No quotes were used, so no attribution issues. The article uses a more casual, engaging tone but doesn't fabricate any claims or alter any factual information."
-      }
+      "approved": true,
+      "_index": 15
     },
     {
       "originalTitle": "A fish that ages in months reveals how kidneys grow old",
@@ -2131,7 +2222,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. It correctly identifies that researchers studied a fast-aging fish to understand kidney aging, that SGLT2 inhibitors (used for diabetes and heart disease) were tested, and that these drugs preserved kidney structure, blood vessels, energy production, and reduced inflammation. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 17
     },
     {
       "originalTitle": "750-year-old Indian poems reveal a landscape scientists got wrong",
@@ -2158,7 +2251,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. The timeframe (750 years/1200s), location (western India), landscape descriptions (thorny trees and open grasslands matching today's savannas), and main conclusion (these are ancient natural ecosystems, not ruined forests) are all correctly stated. No quotes were fabricated, and no unsupported claims were made. The article expands with appropriate context and interpretation while maintaining factual accuracy."
-      }
+      },
+      "approved": true,
+      "_index": 18
     },
     {
       "originalTitle": "Ancient tools in China are forcing scientists to rethink early humans",
@@ -2186,7 +2281,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: the 160,000-year timeline, the Xigou site location in central China, the discovery of the earliest known handled tools in East Asia, and the conclusion that early humans were more inventive than previously assumed. While the article uses a more casual, engaging tone with analogies like 'MacGyver of the Stone Age,' all factual claims are properly supported by the source material. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 19
     },
     {
       "originalTitle": "A century-old Stonehenge mystery may finally be solved",
@@ -2214,7 +2311,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: the century-old mystery, the use of advanced mineral analysis on river sediments, the finding of no glacial evidence, and the conclusion that humans likely moved the stones intentionally. While the article adds creative language and humor not in the source, it doesn't fabricate quotes, misstate facts, or make unsupported claims. All core information is faithful to the original."
-      }
+      },
+      "approved": true,
+      "_index": 20
     },
     {
       "originalTitle": "Brain waves could help paralyzed patients move again",
@@ -2242,7 +2341,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that brains continue sending signals after spinal cord injury, that researchers tested EEG brain scans to capture these signals and reroute them to spinal stimulators, and that the system can detect movement intentions. The article uses analogies and explanatory language but doesn't fabricate quotes, statistics, or unsupported claims. All core scientific concepts align with the original source."
-      }
+      },
+      "approved": true,
+      "_index": 21
     },
     {
       "originalTitle": "NASA's Perseverance rover completes the first AI-planned drive on Mars",
@@ -2269,7 +2370,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the source. Key facts are correctly stated: Perseverance made history with the first AI-planned drive on Mars, the AI analyzed terrain data and identified hazards like rocks and sand ripples, and the rover successfully followed AI-generated routes for hundreds of feet. No quotes were fabricated (none claimed), and NASA/Perseverance are correctly identified. The article adds context and explanation but doesn't contradict or misrepresent any source material."
-      }
+      },
+      "approved": true,
+      "_index": 22
     },
     {
       "originalTitle": "Scientists are hunting for a forbidden antimatter transformation",
@@ -2296,7 +2399,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies MACE as a next-generation experiment designed to detect muonium transforming into its antimatter twin, accurately states this would be a forbidden process that could rewrite particle physics rules, correctly mentions the use of cutting-edge beams/targets/detectors, and properly attributes the potential discovery to pointing toward new forces or particles. While the article uses creative analogies and engaging language, all factual claims align with the source material and no fabricated quotes or unsupported claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 23
     },
     {
       "originalTitle": "Hundreds of new species found in a hidden world beneath the Pacific",
@@ -2323,7 +2428,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: nearly 800 species discovered, many previously unknown to science, 5 years and 160 days at sea research period, deep Pacific seabed location, and the context about critical metals demand and fragile ecosystems. No quotes were fabricated, and all claims are supported by the source material. The article uses a more casual, engaging tone but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 24
     },
     {
       "originalTitle": "This AI app can tell which dinosaur made a footprint",
@@ -2350,7 +2457,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. The app name 'DinoTracker' is correct, the core functionality (analyzing photos of fossil tracks to predict which dinosaur made them) is accurately described, the accuracy claim (rivaling human experts) is preserved, and the key discovery about bird-like footprints dating back more than 200 million years and its implications for bird origins is faithfully reported. While the article adds explanatory context and uses more engaging language, it does not introduce any factual inaccuracies or unsupported claims."
-      }
+      },
+      "approved": true,
+      "_index": 25
     },
     {
       "originalTitle": "Gray wolves are hunting sea otters and no one knows how",
@@ -2377,7 +2486,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that gray wolves on a remote Alaskan island are hunting sea otters, that this behavior was unexpected to scientists, that researchers are studying how the wolves adapted to marine hunting, and that it has implications for land-sea ecosystems. The article uses a more casual, engaging tone but maintains factual accuracy throughout. No statistics, quotes, or specific names were present in the source to verify, and no unsupported claims were made."
-      }
+      },
+      "approved": true,
+      "_index": 26
     },
     {
       "originalTitle": "A breakthrough that turns exhaust CO2 into useful materials",
@@ -2405,7 +2516,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that scientists created a device that captures CO2 and transforms it into formic acid in a single step, that it works with realistic exhaust gases rather than requiring purified CO2, and that it functions at CO2 levels found in normal air. No quotes are fabricated (the article doesn't claim any direct quotes), and while the article uses more casual language and adds explanatory context about formic acid's uses, it doesn't make any claims that contradict or go beyond the source information."
-      }
+      },
+      "approved": true,
+      "_index": 27
     },
     {
       "originalTitle": "This new building material pulls carbon out of the air",
@@ -2432,7 +2545,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that engineers developed a building material using an enzyme that converts CO2 into solid minerals, that it cures in hours, locks away carbon, and has the properties of being strong, repairable, and recyclable. The article also accurately conveys that widespread adoption could significantly reduce construction industry emissions. While the writing style is more casual and engaging than the source, no facts were altered, no quotes were fabricated (none existed in source), and no unsupported claims were made."
-      }
+      },
+      "approved": true,
+      "_index": 28
     },
     {
       "originalTitle": "Scientists discover how to turn gut bacteria into anti-aging factories",
@@ -2459,7 +2574,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that small doses of antibiotics can encourage gut bacteria to produce life-extending compounds, accurately reports the results in worms (longer lifespans) and mice (healthier cholesterol and insulin changes), and properly attributes the information to the original source. The article uses more casual, engaging language but maintains factual accuracy throughout. No fabricated quotes, statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 29
     },
     {
       "originalTitle": "Scientists finally explain statin muscle pain",
@@ -2487,7 +2604,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. The core scientific findings are correctly stated: statins jam open a critical muscle protein causing toxic calcium leak, leading to muscle pain and weakness. The article accurately conveys that this discovery could lead to safer statins. No quotes were fabricated (the article doesn't use direct quotes), no statistics were misrepresented, and no unsupported claims were made. The article appropriately expands on the implications while staying faithful to the source information."
-      }
+      },
+      "approved": true,
+      "_index": 30
     },
     {
       "originalTitle": "A quiet change in everyday foods could save thousands of lives",
@@ -2514,7 +2633,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies the three food categories (bread, packaged foods, takeout meals), accurately states the potential health benefits (reduced heart disease and stroke rates), and properly conveys the main advantage that people wouldn't need to change their eating habits. No statistics, quotes, or specific names were fabricated. The article expands on the concepts with additional explanatory language and analogies, but all core factual claims align with the source."
-      }
+      },
+      "approved": true,
+      "_index": 31
     },
     {
       "originalTitle": "A simple blood test could spot Parkinson's years before symptoms",
@@ -2541,7 +2662,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly identifies the researchers as being from Sweden and Norway, accurately states the timeline (years to decades before symptoms), properly describes the biological markers (stress handling and DNA repair), and correctly conveys the concept of Parkinson's leaving a 'measurable fingerprint' in blood. No fabricated quotes were found, and all claims are supported by the source. The article uses metaphorical language and explanatory analogies but does not misrepresent any factual information."
-      }
+      },
+      "approved": true,
+      "_index": 32
     },
     {
       "originalTitle": "This brain discovery is forcing scientists to rethink how memory works",
@@ -2569,7 +2692,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that a brain imaging study found nearly identical brain networks for factual and autobiographical memory (contrary to expectations), that this challenges decades of memory research, and that it may help understand Alzheimer's and dementia. No fabricated quotes, statistics, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 33
     },
     {
       "originalTitle": "The genetic advantage that helps some people stay sharp for life",
@@ -2596,7 +2721,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that super agers over 80 are less likely to carry the Alzheimer's risk gene compared to other healthy seniors, and that they have higher levels of a protective gene variant. No quotes were fabricated (none were present in either source or article), no statistics were misrepresented, and no unsupported claims were made. The article appropriately expands on the implications while staying faithful to the source facts."
-      }
+      },
+      "approved": true,
+      "_index": 34
     },
     {
       "originalTitle": "Robots descend into lava tubes to prepare for future Moon bases",
@@ -2623,7 +2750,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the source material. While written in a casual, humorous tone with creative analogies (like 'cosmic bunkers' and 'expensive Swiss cheese'), it correctly conveys that European researchers developed a three-robot system to explore lava tubes, tested it in Lanzarote's volcanic caves, and that the system maps entrances, deploys sensors, lowers scout rovers, and creates 3D maps autonomously. The purpose of exploring these tubes as potential shelters offering radiation and debris protection is also accurately stated. No quotes were fabricated or misattributed, and all core facts align with the source."
-      }
+      },
+      "approved": true,
+      "_index": 35
     },
     {
       "originalTitle": "A record breaking gravitational wave is helping test Einstein's theory of general relativity",
@@ -2650,7 +2779,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. The gravitational wave designation GW250114, the record-breaking clarity, the detection of multiple 'tones,' the confirmation of Einstein's predictions, and the excitement about future signals potentially not behaving neatly are all correctly presented. While the article uses more colorful and accessible language with analogies, it doesn't fabricate quotes, misstate facts, or make unsupported claims. All core information aligns with the original source."
-      }
+      },
+      "approved": true,
+      "_index": 36
     },
     {
       "originalTitle": "Four astronauts enter quarantine as NASA's SpaceX Crew-12 launch nears",
@@ -2677,7 +2808,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all factual information from the source. Key facts are correctly stated: four astronauts from NASA, ESA, and Roscosmos entered two-week quarantine at Johnson Space Center, heading to Florida for launch preparations, with potential February 11 launch date and multiple backup windows. No fabricated quotes, incorrect statistics, or unsupported claims were found. While the article adds commentary and analogies not in the source, these are clearly editorial additions rather than factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 37
     },
     {
       "originalTitle": "Jupiter's clouds are hiding something big",
@@ -2704,7 +2837,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: Jupiter's storms concealing its composition for centuries, the new model revealing significantly more oxygen than the Sun, the importance for understanding solar system formation, and gases moving more slowly than previously thought. No fabricated quotes, statistics, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 38
     },
     {
       "originalTitle": "Scientists ranked monogamy across mammals and humans stand out",
@@ -2731,7 +2866,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that humans rank in an elite 'league of monogamy' closer to beavers and meerkats than chimpanzees, accurately describes the research methodology of comparing full and half siblings across species and cultures, and properly notes that even polygamous societies show more monogamy than most mammals. No quotes were fabricated (the article uses paraphrasing), and no unsupported claims were made. The article maintains factual accuracy while adding stylistic elements and humor."
-      }
+      },
+      "approved": true,
+      "_index": 39
     },
     {
       "originalTitle": "Hen cages and pig farrowing crates face ban",
@@ -2758,7 +2895,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. The quote 'the biggest reforms in a generation' is correctly attributed to the government, the proposed bans on hen cages and pig farrowing crates are accurately stated, and the reference to comprehensive welfare improvements aligns with the source. The article adds explanatory context (like defining farrowing crates) and commentary, but does not misrepresent any factual claims from the original source."
-      }
+      },
+      "approved": true,
+      "_index": 40
     },
     {
       "originalTitle": "The City Where Traffic Fatalities Vanished",
@@ -2785,7 +2924,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the source are accurately represented: Hoboken's population (60,000), zero traffic fatalities since January 17, 2017, the nine-year streak, typical fatality rate for similar cities (6-8 per year), and the three main safety measures (seatbelt campaigns, lower speed limits, sober driving initiatives). No quotes were fabricated, and all proper nouns are correct. The article adds contextual commentary and emotional framing but does not contradict or misrepresent any source information."
-      }
+      },
+      "approved": true,
+      "_index": 41
     }
   ]
 }
