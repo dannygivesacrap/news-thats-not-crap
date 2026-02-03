@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-03T18:37:09.447Z",
-  "articleCount": 0,
+  "updatedAt": "2026-02-03T21:16:51.308Z",
+  "articleCount": 43,
   "categoryCounts": {
-    "climate": 0,
-    "health": 0,
-    "science": 0,
-    "wildlife": 0,
-    "people": 0
+    "climate": 6,
+    "health": 13,
+    "science": 9,
+    "wildlife": 6,
+    "people": 9
   }
 }
