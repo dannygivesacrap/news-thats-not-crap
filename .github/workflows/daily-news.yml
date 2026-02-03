@@ -9,6 +9,10 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
+permissions:
+  contents: write
+  issues: write
+
 jobs:
   fetch-and-curate:
     runs-on: ubuntu-latest
