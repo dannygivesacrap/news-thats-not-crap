@@ -199,6 +199,22 @@ function formatUpdateTimestamp(date) {
   return `Updated at ${time} on ${dateStr}`;
 }
 
+function getTimezoneScript() {
+  return `
+    <script data-timestamp-script>
+      document.querySelectorAll('[data-timestamp]').forEach(function(el) {
+        var iso = el.getAttribute('data-timestamp');
+        if (iso) {
+          var d = new Date(iso);
+          var time = d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit', hour12: true });
+          var dateStr = d.toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' });
+          el.textContent = 'Updated at ' + time + ' on ' + dateStr;
+        }
+      });
+    </script>
+  `;
+}
+
 function escapeHtml(text) {
   if (!text) return '';
   return text
@@ -214,7 +230,9 @@ function generateArticleHTML(article) {
   const category = article.category || 'people';
   const categoryColor = CATEGORY_COLORS[category];
   const today = formatDate(new Date());
-  const updateTimestamp = formatUpdateTimestamp(new Date());
+  const now = new Date();
+  const isoTimestamp = now.toISOString();
+  const fallbackTimestamp = formatUpdateTimestamp(now);
   const imageUrl = getImage(article, 0).replace('w=800', 'w=1920');
 
   // Get related articles (we'll populate this later)
@@ -368,7 +386,7 @@ function generateArticleHTML(article) {
     <header class="site-header">
         <div class="header-top-bar">
             <span class="header-tagline">The antidote to doom-scrolling</span>
-            <span class="header-date">${updateTimestamp}</span>
+            <span class="header-date" data-timestamp="${isoTimestamp}">${fallbackTimestamp}</span>
         </div>
         <div class="header-main">
             <a href="../index.html" class="logo">
@@ -461,6 +479,17 @@ ${pullQuoteHtml}
             </a>
         </div>
     </footer>
+    <script data-timestamp-script>
+      document.querySelectorAll('[data-timestamp]').forEach(function(el) {
+        var iso = el.getAttribute('data-timestamp');
+        if (iso) {
+          var d = new Date(iso);
+          var time = d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit', hour12: true });
+          var dateStr = d.toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' });
+          el.textContent = 'Updated at ' + time + ' on ' + dateStr;
+        }
+      });
+    </script>
 </body>
 </html>`;
 }
@@ -598,12 +627,19 @@ function updateIndexHTML(curated) {
     return;
   }
 
-  // Update date in header with timestamp
-  const updateTimestamp = formatUpdateTimestamp(new Date());
+  // Update date in header with timestamp (stored as ISO for client-side timezone conversion)
+  const now = new Date();
+  const isoTimestamp = now.toISOString();
+  const fallbackTimestamp = formatUpdateTimestamp(now);
   html = html.replace(
-    /<span class="header-date">.*?<\/span>/,
-    `<span class="header-date">${updateTimestamp}</span>`
+    /<span class="header-date"[^>]*>.*?<\/span>/,
+    `<span class="header-date" data-timestamp="${isoTimestamp}">${fallbackTimestamp}</span>`
   );
+
+  // Add timezone conversion script if not already present
+  if (!html.includes('data-timestamp-script')) {
+    html = html.replace('</body>', `${getTimezoneScript()}</body>`);
+  }
 
   // Update ticker content
   const tickerArticles = [hero, ...featured, ...more].filter(Boolean);
@@ -704,12 +740,19 @@ function updateSectionPage(category, articles) {
 
   let html = fs.readFileSync(sectionPath, 'utf8');
 
-  // Update date with timestamp
-  const updateTimestamp = formatUpdateTimestamp(new Date());
+  // Update date with timestamp (stored as ISO for client-side timezone conversion)
+  const now = new Date();
+  const isoTimestamp = now.toISOString();
+  const fallbackTimestamp = formatUpdateTimestamp(now);
   html = html.replace(
-    /<span class="header-date">.*?<\/span>/,
-    `<span class="header-date">${updateTimestamp}</span>`
+    /<span class="header-date"[^>]*>.*?<\/span>/,
+    `<span class="header-date" data-timestamp="${isoTimestamp}">${fallbackTimestamp}</span>`
   );
+
+  // Add timezone conversion script if not already present
+  if (!html.includes('data-timestamp-script')) {
+    html = html.replace('</body>', `${getTimezoneScript()}</body>`);
+  }
 
   // Take first 20 articles for this section
   const sectionArticles = articles.slice(0, 20);
