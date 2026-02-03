@@ -493,11 +493,27 @@ function updateIndexHTML(curated) {
 
   const today = formatDate(new Date());
 
-  // Get articles for homepage (handle both old and new structure)
-  const allArticles = curated.allArticles || [];
+  // Build allArticles from various possible structures
+  let allArticles = curated.allArticles || [];
+  if (allArticles.length === 0 && curated.homepage) {
+    const h = curated.homepage.hero;
+    const f = curated.homepage.featured || [];
+    allArticles = [h, ...f].filter(Boolean);
+  }
+  if (allArticles.length === 0) {
+    allArticles = [curated.hero, ...(curated.featured || []), ...(curated.more || [])].filter(Boolean);
+  }
+
+  // Get articles for homepage
   const hero = curated.homepage?.hero || curated.hero || allArticles[0];
   const featured = curated.homepage?.featured || curated.featured || allArticles.slice(1, 15);
   const more = curated.more || allArticles.slice(featured.length + 1, featured.length + 10);
+
+  // If no hero, skip update
+  if (!hero) {
+    console.log('No hero article found, skipping homepage update');
+    return;
+  }
 
   // Update date in header
   html = html.replace(
@@ -650,9 +666,16 @@ function updateSectionPage(category, articles) {
 function updateSectionPages(curated) {
   console.log('\nUpdating section pages...\n');
 
-  // Build allArticles from old or new structure
-  const allArticles = curated.allArticles ||
-    [curated.hero, ...(curated.featured || []), ...(curated.more || [])].filter(Boolean);
+  // Build allArticles from various possible structures
+  let allArticles = curated.allArticles || [];
+  if (allArticles.length === 0 && curated.homepage) {
+    const h = curated.homepage.hero;
+    const f = curated.homepage.featured || [];
+    allArticles = [h, ...f].filter(Boolean);
+  }
+  if (allArticles.length === 0) {
+    allArticles = [curated.hero, ...(curated.featured || []), ...(curated.more || [])].filter(Boolean);
+  }
 
   for (const category of CATEGORIES) {
     // Get articles for this category from sections or filter from allArticles
@@ -678,9 +701,26 @@ export async function generateSite() {
 
   const curated = JSON.parse(fs.readFileSync(curatedPath, 'utf8'));
 
-  // Build allArticles from old or new structure
-  const allArticles = curated.allArticles ||
-    [curated.hero, ...(curated.featured || []), ...(curated.more || [])].filter(Boolean);
+  // Build allArticles from various possible structures
+  let allArticles = curated.allArticles || [];
+
+  // If no allArticles, try to build from homepage structure
+  if (allArticles.length === 0 && curated.homepage) {
+    const hero = curated.homepage.hero;
+    const featured = curated.homepage.featured || [];
+    allArticles = [hero, ...featured].filter(Boolean);
+  }
+
+  // Fall back to old root-level structure
+  if (allArticles.length === 0) {
+    allArticles = [curated.hero, ...(curated.featured || []), ...(curated.more || [])].filter(Boolean);
+  }
+
+  // If still no articles, exit gracefully
+  if (allArticles.length === 0) {
+    console.log('No articles found in curated-articles.json. Skipping generation.');
+    return { articlesGenerated: 0 };
+  }
 
   console.log(`Loaded ${allArticles.length} curated articles\n`);
 
