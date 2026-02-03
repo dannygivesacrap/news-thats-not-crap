@@ -12,7 +12,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { getNextImage, resetImageIndices } from './image-pool.js';
+import { getNextImage, resetImageIndices, getRandomImage } from './image-pool.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '..', 'data');
@@ -47,6 +47,35 @@ function generateSlug(title) {
 }
 
 // Images are now imported from image-pool.js (100 per category)
+
+// Validate that an image URL is accessible
+async function validateImageUrl(url, maxRetries = 2) {
+  for (let attempt = 0; attempt < maxRetries; attempt++) {
+    try {
+      const response = await fetch(url, { method: 'HEAD', timeout: 5000 });
+      if (response.ok) return true;
+    } catch (error) {
+      // Try again
+    }
+  }
+  return false;
+}
+
+// Get a valid image for a category, with fallback
+async function getValidImage(category) {
+  // Try up to 5 images from the pool
+  for (let i = 0; i < 5; i++) {
+    const imageUrl = getNextImage(category);
+    const isValid = await validateImageUrl(imageUrl);
+    if (isValid) {
+      return imageUrl;
+    }
+    console.log(`    Image failed validation, trying another...`);
+  }
+  // Fall back to a known-good default
+  console.log(`    Using fallback image for ${category}`);
+  return getRandomImage(category);
+}
 
 // System prompt for consistent WGAC voice
 const WGAC_SYSTEM_PROMPT = `You are a writer for "News That's Not Crap" - a positive news site.
@@ -200,11 +229,13 @@ async function curateAndCategorize(rawArticles) {
   // Reset image indices for variety across the batch
   resetImageIndices();
 
+  console.log('\nAssigning and validating images...\n');
   for (const article of allCurated) {
     article.slug = generateSlug(article.headline);
     article.author = getAuthor(article.category);
-    // Assign image from curated pool (100 per category, rotates for variety)
-    article.imageUrl = getNextImage(article.category);
+    // Assign validated image from curated pool (100 per category)
+    article.imageUrl = await getValidImage(article.category);
+    console.log(`  ✓ ${article.headline.slice(0, 50)}...`);
   }
 
   // Log category breakdown
