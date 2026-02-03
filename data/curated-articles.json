@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-02-03T05:29:04.296Z",
+  "generatedAt": "2026-02-03T05:55:45.706Z",
+  "publishedAt": "2026-02-03T05:55:45.706Z",
   "homepage": {
     "hero": {
       "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
@@ -21,7 +22,9 @@
           "There's something beautifully human about these handprints, isn't there? Tens of thousands of years ago, someone pressed their hand against a cave wall and thought, 'I was here.' It's the same impulse that makes us carve initials in trees or post vacation photos – that fundamental desire to leave a mark, to say we existed. Only their Instagram story lasted just a tiny bit longer than ours."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     "featured": [
       {
@@ -44,7 +47,9 @@
             "The treatment is being called a 'living drug,' which sounds like something straight out of science fiction but is apparently very real science fact. It's one of those moments that reminds us why we love sharing positive news—sometimes the world surprises us with solutions that seemed impossible just yesterday."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
@@ -66,7 +71,9 @@
             "We love everything about this story: the audacity of a Nebraskan deciding to conquer the Atlantic, the fact that she started from zero rowing experience, and most of all, that she turned reading about someone else's success into fuel for her own ocean dreams. Sometimes the best adventures start in the most unexpected places—even if that place is about as far from the ocean as you can get in America."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
@@ -88,7 +95,9 @@
             "Now, we'll be the first to admit that as a company that makes toilet paper, our scientific commentary should probably be taken with a grain of salt. But this research hints at something pretty fascinating – that the health of your gut and the health of your mind might be more connected than we previously thought. It's like your body has its own internal internet, and sometimes the connection gets a bit glitchy when stress enters the picture."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 3
       },
       {
         "originalTitle": "Acupuncture for Rescued Elephants Provides Relief from Chronic Pain and Nerve Damage in India Care Center",
@@ -111,7 +120,9 @@
             "It's a reminder that healing comes in many forms, and sometimes the most unexpected combinations – ancient techniques meets modern rescue work, toilet paper companies meets wildlife news – can create something pretty wonderful."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 4
       },
       {
         "originalTitle": "Astonishing 1,400-year-old Tomb Featuring Giant Owl Sculpture Discovered in Mexico",
@@ -133,7 +144,9 @@
             "The discovery is being hailed as remarkable not just for its age, but for the exceptional preservation of the artwork. Think about it – these murals and carvings have been sitting underground since before the fall of the Roman Empire, and they're still intact enough to make archaeologists do happy dances (we assume archaeologists do happy dances)."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
         "originalTitle": "What went right this week: Europe's energy 'tipping point', plus more",
@@ -155,7 +168,9 @@
             "Wildlife conservation also scored some wins this week, according to the report. As a company that's deeply committed to environmental causes (we've donated millions to build toilets and protect forests), we're always here for good conservation news. Even if we don't have all the specifics, the fact that multiple positive wildlife stories made it into a weekly roundup suggests some genuinely encouraging developments for our furry, feathered, and scaled friends."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 6
       },
       {
         "originalTitle": "A field of wheat becomes the world's largest living photograph",
@@ -177,7 +192,9 @@
             "The beauty of this project is in its simplicity and scale. Different wheat varieties naturally have different colors and textures, so by strategically planting them in patterns, farmers can essentially 'paint' with crops. It's agricultural pointillism, if you will – step back far enough, and those individual wheat pixels come together to form a larger image."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "Kentucky's Rural and Urban Communities Unite over Climate Change",
@@ -199,7 +216,9 @@
             "What's particularly encouraging is how these climate solutions are creating bridges between groups with shared interests. It's a reminder that environmental challenges don't stop at city limits or county lines – and neither do the solutions. Sometimes the best answers come from the most unexpected partnerships."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 8
       },
       {
         "originalTitle": "Math Teacher Becomes UK Scrabble Champ, Reveals the 2-Letter Words Experts Use to Win",
@@ -221,7 +240,9 @@
             "Now, we don't want to draw too many parallels between Scrabble mastery and our own business expertise – after all, we're still figuring out how to make toilet paper news sound sophisticated. But there's something beautifully poetic about a math teacher using her analytical skills to spell her way to the top. Numbers, letters, patterns – it all adds up, quite literally."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "January 14th Marked the Longest Period Without a Nuclear Detonation Since the Atomic Age Began",
@@ -243,7 +264,9 @@
             "It's one of those stories that reminds you that sometimes the best news is about what's NOT happening. In a world where dramatic headlines grab all the attention, there's something quietly powerful about a streak of restraint that's been building day by day, month by month, year by year. Sure, it might not make for the most explosive headline, but we'll take boring over booming any day of the week."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 10
       },
       {
         "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
@@ -265,7 +288,9 @@
             "The beauty of this approach is that it's not just about preserving the past – it's about ensuring future generations can learn from and appreciate these architectural marvels. Think of it as a time capsule, but instead of burying it underground, they're making it accessible to anyone curious about India's diverse building traditions. Now that's what we call building for the future (pun absolutely intended)."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "The Whimsical Floating Schools of Kashmir",
@@ -287,7 +312,9 @@
             "What strikes us most about this story is how beautifully it shows human adaptability in action. Instead of seeing water as a barrier to education, this community has embraced their aquatic environment and made it work for them. It's a refreshing reminder that sometimes the most creative solutions come from working with what you've got, rather than wishing you had something else."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "The Affordable Daycare That Keeps Parents Close",
@@ -309,7 +336,9 @@
             "The shared workspace element adds another layer of support, creating a community of working parents who understand the unique juggling act of balancing career and family. It's the kind of practical solution that makes you think, 'Why didn't anyone think of this sooner?' – though we're just grateful someone finally did."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
@@ -331,34 +360,14 @@
             "According to the report, the system uses ultrasonic imaging to peer inside concrete structures and spot defects that could be deadly if left undetected. It's the kind of technology that works quietly in the background, potentially preventing catastrophic failures before they happen – which, let's be honest, is exactly the kind of boring-but-crucial innovation that keeps our world standing upright."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 14
       }
     ]
   },
   "sections": {
     "climate": [
-      {
-        "originalTitle": "Kentucky's Rural and Urban Communities Unite over Climate Change",
-        "headline": "Bridge Building: Kentucky Towns Unite Across Rural-Urban Climate Divide",
-        "excerpt": "Rural and urban communities in Kentucky are working together on climate solutions, challenging common myths about the state's environmental stance. The collaboration demonstrates how climate action can bring together diverse communities with shared interests.",
-        "category": "climate",
-        "sourceUrl": "https://reasonstobecheerful.world/kentucky-communities-unite-over-climate-change/",
-        "sourceName": "Reasons to be Cheerful",
-        "readTime": 5,
-        "isHomepageHero": false,
-        "isHomepageFeatured": true,
-        "slug": "bridge-building-kentucky-towns-unite-across-rural-urban-clim",
-        "author": "Gusty Winds",
-        "fullContent": {
-          "lead": "Look, we're a toilet paper company, so we're not exactly environmental policy experts. But we do know good news when we see it, and this story from Kentucky is warming our hearts faster than a coal stove (sorry, had to). Turns out rural and urban communities across the Bluegrass State are joining forces on climate solutions, proving that when it comes to protecting our planet, geography doesn't have to be destiny.",
-          "body": [
-            "According to the report, Kentucky's diverse communities are working together on climate action, which might surprise folks who think they know how this story goes. We've all heard the narrative about rural-urban divides, especially when it comes to environmental issues. But apparently, Kentucky didn't get that memo.",
-            "The collaboration is challenging some pretty persistent myths about Kentucky's environmental stance. The report shows that these partnerships demonstrate how climate action can actually bring together communities that might seem worlds apart but share more common ground than anyone expected.",
-            "What's particularly encouraging is how these climate solutions are creating bridges between groups with shared interests. It's a reminder that environmental challenges don't stop at city limits or county lines – and neither do the solutions. Sometimes the best answers come from the most unexpected partnerships."
-          ],
-          "pullQuote": null
-        }
-      },
       {
         "originalTitle": "What went right this week: Europe's energy 'tipping point', plus more",
         "headline": "Green Energy Hits the Sweet Spot: Europe Reaches Climate Tipping Point",
@@ -379,7 +388,33 @@
             "Wildlife conservation also scored some wins this week, according to the report. As a company that's deeply committed to environmental causes (we've donated millions to build toilets and protect forests), we're always here for good conservation news. Even if we don't have all the specifics, the fact that multiple positive wildlife stories made it into a weekly roundup suggests some genuinely encouraging developments for our furry, feathered, and scaled friends."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 6
+      },
+      {
+        "originalTitle": "Kentucky's Rural and Urban Communities Unite over Climate Change",
+        "headline": "Bridge Building: Kentucky Towns Unite Across Rural-Urban Climate Divide",
+        "excerpt": "Rural and urban communities in Kentucky are working together on climate solutions, challenging common myths about the state's environmental stance. The collaboration demonstrates how climate action can bring together diverse communities with shared interests.",
+        "category": "climate",
+        "sourceUrl": "https://reasonstobecheerful.world/kentucky-communities-unite-over-climate-change/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 5,
+        "isHomepageHero": false,
+        "isHomepageFeatured": true,
+        "slug": "bridge-building-kentucky-towns-unite-across-rural-urban-clim",
+        "author": "Gusty Winds",
+        "fullContent": {
+          "lead": "Look, we're a toilet paper company, so we're not exactly environmental policy experts. But we do know good news when we see it, and this story from Kentucky is warming our hearts faster than a coal stove (sorry, had to). Turns out rural and urban communities across the Bluegrass State are joining forces on climate solutions, proving that when it comes to protecting our planet, geography doesn't have to be destiny.",
+          "body": [
+            "According to the report, Kentucky's diverse communities are working together on climate action, which might surprise folks who think they know how this story goes. We've all heard the narrative about rural-urban divides, especially when it comes to environmental issues. But apparently, Kentucky didn't get that memo.",
+            "The collaboration is challenging some pretty persistent myths about Kentucky's environmental stance. The report shows that these partnerships demonstrate how climate action can actually bring together communities that might seem worlds apart but share more common ground than anyone expected.",
+            "What's particularly encouraging is how these climate solutions are creating bridges between groups with shared interests. It's a reminder that environmental challenges don't stop at city limits or county lines – and neither do the solutions. Sometimes the best answers come from the most unexpected partnerships."
+          ],
+          "pullQuote": null
+        },
+        "approved": true,
+        "_index": 8
       },
       {
         "originalTitle": "750-year-old Indian poems reveal a landscape scientists got wrong",
@@ -402,7 +437,9 @@
             "This discovery is reshaping conservation understanding in a big way. Instead of trying to 'fix' these landscapes by turning them into forests, conservationists now have solid evidence that protecting these savannas as they are might be the right approach. Sometimes the best science comes from listening to the voices that have been there all along - even if those voices happen to be singing 750-year-old songs."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 18
       },
       {
         "originalTitle": "UK to join major wind farm project with nine European countries",
@@ -424,7 +461,9 @@
             "When countries work together on renewable energy infrastructure, it's like creating a safety net made of wind. If one country's having a particularly calm day, their neighbors can help keep the lights on. And honestly, in a world where international headlines often make us want to hide under our (sustainable, bamboo) covers, seeing ten countries collaborate on something this forward-thinking? That's the kind of partnership that gives us hope."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 27
       },
       {
         "originalTitle": "Mexico moves to combat pollution following Guardian investigations",
@@ -446,7 +485,9 @@
             "Now, we'll be the first to admit we know more about two-ply than policy, but there's something encouraging about seeing a government respond to environmental reporting with actual financial commitments and monitoring infrastructure. The cynic in us has learned not to get too excited about government announcements, but $4.8 million in fines suggests they're not just blowing hot air – they're putting money where their environmental policy is."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 28
       },
       {
         "originalTitle": "The energy inside: three people powering the green transition",
@@ -469,32 +510,12 @@
             "We may not know the nitty-gritty details of their work, but we love that someone is telling these stories. Because let's face it, saving the planet is a team sport, and it's nice to know who's on our side. Even if our contribution is just making sure everyone has eco-friendly bathroom essentials while the real heroes figure out how to power the world with sunshine and wind."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 29
       }
     ],
     "health": [
-      {
-        "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
-        "headline": "Gut Feeling: Protein Discovery Links Tummy Troubles to Mental Health",
-        "excerpt": "Scientists have identified a protein called Reelin that plays a key role in both gut repair and brain health. When chronic stress damages the gut's protective lining, it lowers Reelin levels, potentially worsening depression through the gut-brain connection.",
-        "category": "health",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260201231240.htm",
-        "sourceName": "Science Daily",
-        "readTime": 5,
-        "isHomepageHero": false,
-        "isHomepageFeatured": true,
-        "slug": "gut-feeling-protein-discovery-links-tummy-troubles-to-mental",
-        "author": "Hope Springs",
-        "fullContent": {
-          "lead": "Look, we're a toilet paper company, so when we say we're interested in gut health, that probably makes sense. But here's some news that goes way beyond our usual territory (though still involves your insides): scientists have discovered a protein that might be the missing link between your gut and your mood.",
-          "body": [
-            "According to a report from Science Daily, researchers have identified a protein called Reelin that plays a key role in both gut repair and brain health. Think of it as your body's little maintenance crew, working overtime to keep things running smoothly in two very important places.",
-            "Here's where it gets interesting (and a bit concerning): when you're dealing with chronic stress, it actually damages your gut's protective lining. We're talking about that crucial barrier that keeps the good stuff in and the bad stuff out. When this lining takes a hit, your Reelin levels drop, which could potentially make depression worse through something called the gut-brain connection.",
-            "Now, we'll be the first to admit that as a company that makes toilet paper, our scientific commentary should probably be taken with a grain of salt. But this research hints at something pretty fascinating – that the health of your gut and the health of your mind might be more connected than we previously thought. It's like your body has its own internal internet, and sometimes the connection gets a bit glitchy when stress enters the picture."
-          ],
-          "pullQuote": null
-        }
-      },
       {
         "originalTitle": "Revolutionary therapy treats 'untreatable' blood cancer",
         "headline": "Living Drug Revolution: Gene Therapy Beats 'Untreatable' Blood Cancer",
@@ -515,7 +536,33 @@
             "The treatment is being called a 'living drug,' which sounds like something straight out of science fiction but is apparently very real science fact. It's one of those moments that reminds us why we love sharing positive news—sometimes the world surprises us with solutions that seemed impossible just yesterday."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 1
+      },
+      {
+        "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
+        "headline": "Gut Feeling: Protein Discovery Links Tummy Troubles to Mental Health",
+        "excerpt": "Scientists have identified a protein called Reelin that plays a key role in both gut repair and brain health. When chronic stress damages the gut's protective lining, it lowers Reelin levels, potentially worsening depression through the gut-brain connection.",
+        "category": "health",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260201231240.htm",
+        "sourceName": "Science Daily",
+        "readTime": 5,
+        "isHomepageHero": false,
+        "isHomepageFeatured": true,
+        "slug": "gut-feeling-protein-discovery-links-tummy-troubles-to-mental",
+        "author": "Hope Springs",
+        "fullContent": {
+          "lead": "Look, we're a toilet paper company, so when we say we're interested in gut health, that probably makes sense. But here's some news that goes way beyond our usual territory (though still involves your insides): scientists have discovered a protein that might be the missing link between your gut and your mood.",
+          "body": [
+            "According to a report from Science Daily, researchers have identified a protein called Reelin that plays a key role in both gut repair and brain health. Think of it as your body's little maintenance crew, working overtime to keep things running smoothly in two very important places.",
+            "Here's where it gets interesting (and a bit concerning): when you're dealing with chronic stress, it actually damages your gut's protective lining. We're talking about that crucial barrier that keeps the good stuff in and the bad stuff out. When this lining takes a hit, your Reelin levels drop, which could potentially make depression worse through something called the gut-brain connection.",
+            "Now, we'll be the first to admit that as a company that makes toilet paper, our scientific commentary should probably be taken with a grain of salt. But this research hints at something pretty fascinating – that the health of your gut and the health of your mind might be more connected than we previously thought. It's like your body has its own internal internet, and sometimes the connection gets a bit glitchy when stress enters the picture."
+          ],
+          "pullQuote": null
+        },
+        "approved": true,
+        "_index": 3
       },
       {
         "originalTitle": "A fish that ages in months reveals how kidneys grow old",
@@ -537,7 +584,9 @@
             "What makes this fishy friend so special for research is its accelerated aging process, which allows scientists to observe changes that would normally take years to develop. It's like having a time-lapse camera for kidney health, giving researchers a clearer picture of how aging affects these crucial organs and how certain treatments might help keep them swimming along smoothly for longer."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 16
       },
       {
         "originalTitle": "Scientists discover how to turn gut bacteria into anti-aging factories",
@@ -559,7 +608,9 @@
             "Now, before anyone starts raiding their medicine cabinet, remember this is still early research in animals. But it's pretty amazing to think that the same tiny organisms we're always trying to balance with probiotics might actually be capable of producing their own life-extending compounds – they just needed a little chemical nudge to get the factory running."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 24
       },
       {
         "originalTitle": "Scientists finally explain statin muscle pain",
@@ -582,7 +633,9 @@
             "We may know more about bathroom tissue than biochemistry, but we do know that solving medical puzzles like this one means better treatments for everyone. And that's something worth celebrating – even if we're not entirely sure what a calcium channel actually looks like."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 25
       },
       {
         "originalTitle": "A quiet change in everyday foods could save thousands of lives",
@@ -604,53 +657,35 @@
             "It's one of those solutions that makes you think 'why didn't we do this sooner?' - kind of like when we realized we could make toilet paper from sustainable bamboo instead of cutting down forests. Sometimes the biggest impact comes from the smallest changes to things we use every day. Who knew that tweaking the salt content in your sandwich bread could be a public health game-changer?"
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 26
       }
     ],
     "science": [
       {
-        "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
-        "headline": "Sound Solution: Ultrasonic System Spots Hidden Flaws in Concrete",
-        "excerpt": "Engineers have developed an ultrasonic imaging system that can detect dangerous defects inside concrete structures. Unlike previous methods with limited effectiveness, this system works on all types of concrete despite the range of materials they contain.",
+        "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
+        "headline": "Ancient Artists Left Their Mark 67,800 Years Ago (And We're Still Impressed)",
+        "excerpt": "Stylized handprints discovered in a limestone cave in Indonesia have broken the world record for oldest-known rock art at 67,800 years old. The discovery provides direct evidence that humans have been crossing seas intentionally for nearly 70,000 years.",
         "category": "science",
-        "sourceUrl": "https://www.goodnewsnetwork.org/new-ultrasonic-imaging-system-can-detect-deadly-defects-in-all-types-of-concrete/",
+        "sourceUrl": "https://www.goodnewsnetwork.org/at-67800-years-old-these-handprints-just-discovered-in-indonesia-are-oldest-example-of-rock-art/",
         "sourceName": "Good News Network",
         "readTime": 4,
-        "isHomepageHero": false,
-        "isHomepageFeatured": true,
-        "slug": "sound-solution-ultrasonic-system-spots-hidden-flaws-in-concr",
-        "author": "Crystal Clear",
+        "isHomepageHero": true,
+        "isHomepageFeatured": false,
+        "slug": "ancient-artists-left-their-mark-67800-years-ago-and-were-sti",
+        "author": "Flora Fauna",
         "fullContent": {
-          "lead": "Look, we're a toilet paper company writing about concrete technology, so we'll be the first to admit this isn't exactly our area of expertise. But when engineers crack the code on keeping buildings from literally cracking, we figure that's worth sharing – even if our usual beat involves different kinds of structural integrity.",
+          "lead": "Look, we're a toilet paper company writing about ancient cave art, so we're definitely outside our wheelhouse here. But sometimes the best news comes from the most unexpected places – like a limestone cave in Indonesia where researchers just discovered handprints that are making archaeologists do a happy dance.",
           "body": [
-            "Engineers have developed a new ultrasonic imaging system that can detect dangerous defects hiding inside concrete structures. Think of it like giving buildings an X-ray, but instead of looking for broken bones, it's hunting for the kinds of flaws that could turn a perfectly good bridge or building into tomorrow's engineering disaster.",
-            "Here's what makes this breakthrough particularly solid (sorry, couldn't resist): unlike previous methods that had limited effectiveness, this system works on all types of concrete, regardless of what materials they contain. That's a big deal because concrete isn't just concrete – it's mixed with all sorts of different materials depending on what it's being used for.",
-            "According to the report, the system uses ultrasonic imaging to peer inside concrete structures and spot defects that could be deadly if left undetected. It's the kind of technology that works quietly in the background, potentially preventing catastrophic failures before they happen – which, let's be honest, is exactly the kind of boring-but-crucial innovation that keeps our world standing upright."
+            "These aren't just any handprints, mind you. We're talking about stylized handprints that clock in at a whopping 67,800 years old, officially breaking the world record for oldest-known rock art. That's so old it makes your great-great-great... (insert about 2,700 more 'greats') grandmother look practically modern.",
+            "But here's where it gets really fascinating: this discovery isn't just about ancient humans having an artistic moment. According to the report, these handprints provide direct evidence that humans have been intentionally crossing seas for nearly 70,000 years. Think about that for a second – while we stress about booking the right airline seat, our ancestors were confidently island-hopping across open water with Stone Age technology.",
+            "There's something beautifully human about these handprints, isn't there? Tens of thousands of years ago, someone pressed their hand against a cave wall and thought, 'I was here.' It's the same impulse that makes us carve initials in trees or post vacation photos – that fundamental desire to leave a mark, to say we existed. Only their Instagram story lasted just a tiny bit longer than ours."
           ],
           "pullQuote": null
-        }
-      },
-      {
-        "originalTitle": "A field of wheat becomes the world's largest living photograph",
-        "headline": "Picture This: Wheat Field Grows Into World's Largest Living Photo",
-        "excerpt": "The Farming Photographs project is creating a photographic-style artwork by dividing a field into 'pixels' of different wheat varieties. The ambitious project aims to create the world's largest living photograph using agricultural crops.",
-        "category": "science",
-        "sourceUrl": "https://www.positive.news/environment/a-field-of-wheat-becomes-the-worlds-largest-living-photograph/",
-        "sourceName": "Positive News",
-        "readTime": 4,
-        "isHomepageHero": false,
-        "isHomepageFeatured": true,
-        "slug": "picture-this-wheat-field-grows-into-worlds-largest-living-ph",
-        "author": "Adam Atom",
-        "fullContent": {
-          "lead": "Look, we're a toilet paper company writing about art, so maybe take our commentary with a grain of salt (pun intended). But when we heard about farmers turning a wheat field into what they're calling the world's largest living photograph, we had to share it. Because honestly, that's just brilliant.",
-          "body": [
-            "The Farming Photographs project is doing something pretty extraordinary – they're creating photographic-style artwork by dividing a field into 'pixels' made of different wheat varieties. Think of it like a massive, living version of those pixel art pieces you might make in Photoshop, except instead of digital squares, each 'pixel' is an actual patch of wheat.",
-            "According to the report, this ambitious project aims to create the world's largest living photograph using agricultural crops. We're talking about turning farmland into functional art that grows, changes with the seasons, and presumably feeds people too. It's like the ultimate multitasking – feeding bodies and feeding souls at the same time.",
-            "The beauty of this project is in its simplicity and scale. Different wheat varieties naturally have different colors and textures, so by strategically planting them in patterns, farmers can essentially 'paint' with crops. It's agricultural pointillism, if you will – step back far enough, and those individual wheat pixels come together to form a larger image."
-          ],
-          "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 0
       },
       {
         "originalTitle": "Astonishing 1,400-year-old Tomb Featuring Giant Owl Sculpture Discovered in Mexico",
@@ -672,29 +707,57 @@
             "The discovery is being hailed as remarkable not just for its age, but for the exceptional preservation of the artwork. Think about it – these murals and carvings have been sitting underground since before the fall of the Roman Empire, and they're still intact enough to make archaeologists do happy dances (we assume archaeologists do happy dances)."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
-        "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
-        "headline": "Ancient Artists Left Their Mark 67,800 Years Ago (And We're Still Impressed)",
-        "excerpt": "Stylized handprints discovered in a limestone cave in Indonesia have broken the world record for oldest-known rock art at 67,800 years old. The discovery provides direct evidence that humans have been crossing seas intentionally for nearly 70,000 years.",
+        "originalTitle": "A field of wheat becomes the world's largest living photograph",
+        "headline": "Picture This: Wheat Field Grows Into World's Largest Living Photo",
+        "excerpt": "The Farming Photographs project is creating a photographic-style artwork by dividing a field into 'pixels' of different wheat varieties. The ambitious project aims to create the world's largest living photograph using agricultural crops.",
         "category": "science",
-        "sourceUrl": "https://www.goodnewsnetwork.org/at-67800-years-old-these-handprints-just-discovered-in-indonesia-are-oldest-example-of-rock-art/",
-        "sourceName": "Good News Network",
+        "sourceUrl": "https://www.positive.news/environment/a-field-of-wheat-becomes-the-worlds-largest-living-photograph/",
+        "sourceName": "Positive News",
         "readTime": 4,
-        "isHomepageHero": true,
-        "isHomepageFeatured": false,
-        "slug": "ancient-artists-left-their-mark-67800-years-ago-and-were-sti",
-        "author": "Flora Fauna",
+        "isHomepageHero": false,
+        "isHomepageFeatured": true,
+        "slug": "picture-this-wheat-field-grows-into-worlds-largest-living-ph",
+        "author": "Adam Atom",
         "fullContent": {
-          "lead": "Look, we're a toilet paper company writing about ancient cave art, so we're definitely outside our wheelhouse here. But sometimes the best news comes from the most unexpected places – like a limestone cave in Indonesia where researchers just discovered handprints that are making archaeologists do a happy dance.",
+          "lead": "Look, we're a toilet paper company writing about art, so maybe take our commentary with a grain of salt (pun intended). But when we heard about farmers turning a wheat field into what they're calling the world's largest living photograph, we had to share it. Because honestly, that's just brilliant.",
           "body": [
-            "These aren't just any handprints, mind you. We're talking about stylized handprints that clock in at a whopping 67,800 years old, officially breaking the world record for oldest-known rock art. That's so old it makes your great-great-great... (insert about 2,700 more 'greats') grandmother look practically modern.",
-            "But here's where it gets really fascinating: this discovery isn't just about ancient humans having an artistic moment. According to the report, these handprints provide direct evidence that humans have been intentionally crossing seas for nearly 70,000 years. Think about that for a second – while we stress about booking the right airline seat, our ancestors were confidently island-hopping across open water with Stone Age technology.",
-            "There's something beautifully human about these handprints, isn't there? Tens of thousands of years ago, someone pressed their hand against a cave wall and thought, 'I was here.' It's the same impulse that makes us carve initials in trees or post vacation photos – that fundamental desire to leave a mark, to say we existed. Only their Instagram story lasted just a tiny bit longer than ours."
+            "The Farming Photographs project is doing something pretty extraordinary – they're creating photographic-style artwork by dividing a field into 'pixels' made of different wheat varieties. Think of it like a massive, living version of those pixel art pieces you might make in Photoshop, except instead of digital squares, each 'pixel' is an actual patch of wheat.",
+            "According to the report, this ambitious project aims to create the world's largest living photograph using agricultural crops. We're talking about turning farmland into functional art that grows, changes with the seasons, and presumably feeds people too. It's like the ultimate multitasking – feeding bodies and feeding souls at the same time.",
+            "The beauty of this project is in its simplicity and scale. Different wheat varieties naturally have different colors and textures, so by strategically planting them in patterns, farmers can essentially 'paint' with crops. It's agricultural pointillism, if you will – step back far enough, and those individual wheat pixels come together to form a larger image."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 7
+      },
+      {
+        "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
+        "headline": "Sound Solution: Ultrasonic System Spots Hidden Flaws in Concrete",
+        "excerpt": "Engineers have developed an ultrasonic imaging system that can detect dangerous defects inside concrete structures. Unlike previous methods with limited effectiveness, this system works on all types of concrete despite the range of materials they contain.",
+        "category": "science",
+        "sourceUrl": "https://www.goodnewsnetwork.org/new-ultrasonic-imaging-system-can-detect-deadly-defects-in-all-types-of-concrete/",
+        "sourceName": "Good News Network",
+        "readTime": 4,
+        "isHomepageHero": false,
+        "isHomepageFeatured": true,
+        "slug": "sound-solution-ultrasonic-system-spots-hidden-flaws-in-concr",
+        "author": "Crystal Clear",
+        "fullContent": {
+          "lead": "Look, we're a toilet paper company writing about concrete technology, so we'll be the first to admit this isn't exactly our area of expertise. But when engineers crack the code on keeping buildings from literally cracking, we figure that's worth sharing – even if our usual beat involves different kinds of structural integrity.",
+          "body": [
+            "Engineers have developed a new ultrasonic imaging system that can detect dangerous defects hiding inside concrete structures. Think of it like giving buildings an X-ray, but instead of looking for broken bones, it's hunting for the kinds of flaws that could turn a perfectly good bridge or building into tomorrow's engineering disaster.",
+            "Here's what makes this breakthrough particularly solid (sorry, couldn't resist): unlike previous methods that had limited effectiveness, this system works on all types of concrete, regardless of what materials they contain. That's a big deal because concrete isn't just concrete – it's mixed with all sorts of different materials depending on what it's being used for.",
+            "According to the report, the system uses ultrasonic imaging to peer inside concrete structures and spot defects that could be deadly if left undetected. It's the kind of technology that works quietly in the background, potentially preventing catastrophic failures before they happen – which, let's be honest, is exactly the kind of boring-but-crucial innovation that keeps our world standing upright."
+          ],
+          "pullQuote": null
+        },
+        "approved": true,
+        "_index": 14
       },
       {
         "originalTitle": "This AI app can tell which dinosaur made a footprint",
@@ -717,7 +780,9 @@
             "Sure, we might know more about paper trails than dinosaur trails, but there's something beautifully hopeful about technology helping us connect with creatures that walked the Earth millions of years ago. Who knows? Maybe one day there'll be an app to identify the tracks we leave today—though honestly, some footprints are better left unanalyzed."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 17
       },
       {
         "originalTitle": "Ancient tools in China are forcing scientists to rethink early humans",
@@ -739,7 +804,9 @@
             "The discovery is particularly significant because it challenges our understanding of technological development in early human societies. These weren't just people chipping rocks together – they were creating sophisticated tools with handles, showing a level of planning and innovation that pushes back the timeline of human ingenuity. It's a reminder that creativity and problem-solving have been part of the human story for far longer than we realized."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 19
       },
       {
         "originalTitle": "Baby dinosaurs were the backbone of the Jurassic food chain",
@@ -761,7 +828,9 @@
             "But here's the surprisingly uplifting angle - these baby dinosaurs weren't just victims, they were actually the backbone of their entire food web. By providing a steady food source, they helped early predators thrive and maintain the delicate balance that kept Jurassic ecosystems functioning. It's a reminder that even in nature's most challenging moments, there's often a bigger picture of interconnected survival at work."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 23
       }
     ],
     "wildlife": [
@@ -786,7 +855,9 @@
             "It's a reminder that healing comes in many forms, and sometimes the most unexpected combinations – ancient techniques meets modern rescue work, toilet paper companies meets wildlife news – can create something pretty wonderful."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 4
       },
       {
         "originalTitle": "Hundreds of new species found in a hidden world beneath the Pacific",
@@ -808,7 +879,9 @@
             "The study offers what researchers call 'vital insights' into this underwater realm, which honestly sounds like the kind of homework we should have done ages ago. But hey, better late than never when it comes to understanding the incredible diversity hiding in our planet's deepest corners. Sometimes the best discoveries happen when you're willing to dive deep – literally, in this case."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 20
       },
       {
         "originalTitle": "Gray wolves are hunting sea otters and no one knows how",
@@ -830,7 +903,9 @@
             "Scientists are now investigating how these coastal wolves made the leap (literally?) to marine hunting, and what this surprising behavior might mean for the connections between land and sea ecosystems. The researchers are trying to understand this adaptation, which could give us new insights into how flexible these predators can be when it comes to finding food sources."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 21
       },
       {
         "originalTitle": "It's nesting season for Olive Ridley turtles' across Maharashtra coastline: 407 nests recorded so far; previously tagged Olive Ridleys return",
@@ -852,97 +927,35 @@
             "For a species that's considered vulnerable, seeing this kind of consistent nesting behavior is genuinely hopeful. These turtles are doing what they've done for millions of years, finding their way back to the beaches where they were born to lay their own eggs. It's nature's version of coming full circle – and thankfully, the Maharashtra coastline seems to be providing a safe space for them to do just that."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 22
       }
     ],
     "people": [
       {
-        "originalTitle": "The Affordable Daycare That Keeps Parents Close",
-        "headline": "Work-Life Balance Win: Coworking Spaces Add On-Site Childcare",
-        "excerpt": "A coworking space model that includes affordable on-site childcare is helping parents stay close to their children while working. The innovative approach addresses childcare challenges by keeping families together in shared work environments.",
+        "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
+        "headline": "From Nebraska Landlubber to Atlantic Ocean Champion in Record Time",
+        "excerpt": "Taryn Smith, 25, learned to row after reading about an all-female rowing team's world record. She has now become the first female to cross the Atlantic alone in a 3,000-mile race, fulfilling her ocean dreams despite starting from landlocked Nebraska.",
         "category": "people",
-        "sourceUrl": "https://reasonstobecheerful.world/little-break-coworking-space-on-site-child-care-michigan/",
-        "sourceName": "Reasons to be Cheerful",
-        "readTime": 5,
-        "isHomepageHero": false,
-        "isHomepageFeatured": true,
-        "slug": "work-life-balance-win-coworking-spaces-add-on-site-childcare",
-        "author": "Charity Case",
-        "fullContent": {
-          "lead": "Look, we're a toilet paper company writing about childcare solutions, so we're definitely out of our usual territory here. But when we heard about a coworking space that's cracking the code on keeping parents close to their kids while actually getting work done, we had to share the good news.",
-          "body": [
-            "The concept is beautifully simple: instead of forcing parents to choose between being present for their children and earning a living, why not create spaces where both can happen under the same roof? According to the report, this coworking space model combines affordable on-site childcare with shared work environments, letting families stay together while adults tackle their professional responsibilities.",
-            "What makes this approach particularly clever is how it addresses one of the biggest challenges facing working parents today. Traditional childcare can be expensive and often means being separated from your little ones for long stretches. This innovative model flips that script entirely, creating an environment where parents can be productive while their children are cared for just steps away.",
-            "The shared workspace element adds another layer of support, creating a community of working parents who understand the unique juggling act of balancing career and family. It's the kind of practical solution that makes you think, 'Why didn't anyone think of this sooner?' – though we're just grateful someone finally did."
-          ],
-          "pullQuote": null
-        }
-      },
-      {
-        "originalTitle": "The Whimsical Floating Schools of Kashmir",
-        "headline": "School of Fish: Kashmir's Students Row Their Way to Education",
-        "excerpt": "Children in Kashmir's Dal Lake region travel to school by boat each morning, rowing themselves or being ferried by family from houseboats and island homes. These floating schools represent a unique educational system adapted to the region's watery landscape.",
-        "category": "people",
-        "sourceUrl": "https://reasonstobecheerful.world/floating-schools-of-kashmir-dal-lake/",
-        "sourceName": "Reasons to be Cheerful",
-        "readTime": 5,
-        "isHomepageHero": false,
-        "isHomepageFeatured": true,
-        "slug": "school-of-fish-kashmirs-students-row-their-way-to-education",
-        "author": "Sol Idarity",
-        "fullContent": {
-          "lead": "Look, we know what you're thinking: a toilet paper company writing about education? Fair point. But sometimes the best stories float right to the surface, and this one from Kashmir's Dal Lake region is absolutely buoyant with good vibes.",
-          "body": [
-            "Picture this: instead of rushing to catch a school bus, kids in Kashmir's Dal Lake region start their morning by hopping into boats. According to the report, children in this watery wonderland travel to school by boat each morning, either rowing themselves or getting ferried by family members from their houseboats and island homes. Talk about making a splash on the way to class!",
-            "These aren't just any schools we're talking about – they're floating schools that represent a unique educational system perfectly adapted to the region's watery landscape. While most of us complain about traffic jams and missed buses, these students have turned geography into an adventure, proving that where there's a will (and a waterway), there's definitely a way.",
-            "What strikes us most about this story is how beautifully it shows human adaptability in action. Instead of seeing water as a barrier to education, this community has embraced their aquatic environment and made it work for them. It's a refreshing reminder that sometimes the most creative solutions come from working with what you've got, rather than wishing you had something else."
-          ],
-          "pullQuote": null
-        }
-      },
-      {
-        "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
-        "headline": "Snap Shot: Photographer Documents India's Architectural Heritage One Building at a Time",
-        "excerpt": "A nationwide photography project is working to preserve India's diverse architectural heritage through comprehensive documentation. The initiative captures intricate details of historical buildings, from desert palaces to courtyard homes, creating a visual archive for future generations.",
-        "category": "people",
-        "sourceUrl": "https://reasonstobecheerful.world/india-amit-pasricha-photography-preserve-architecture/",
-        "sourceName": "Reasons to be Cheerful",
-        "readTime": 5,
-        "isHomepageHero": false,
-        "isHomepageFeatured": true,
-        "slug": "snap-shot-photographer-documents-indias-architectural-herita",
-        "author": "Charity Case",
-        "fullContent": {
-          "lead": "Look, we know a thing or two about preservation – we've been keeping toilet paper rolls intact since 2012. But when it comes to preserving centuries-old architectural masterpieces? That's a whole different kind of roll... er, role. Thankfully, there are people much more qualified than us handling India's stunning buildings.",
-          "body": [
-            "A nationwide photography project is quietly working to save India's incredible architectural heritage, one snapshot at a time. Instead of letting these historical treasures fade into memory (or worse, crumble into dust), this initiative is creating a comprehensive visual archive that captures everything from grand desert palaces to intimate courtyard homes.",
-            "What makes this project special isn't just its scope – it's the attention to detail. We're talking about documenting the intricate elements that make Indian architecture so breathtaking: the carved stonework, the geometric patterns, the way light plays through ancient archways. It's like creating a visual love letter to buildings that have stood for generations.",
-            "The beauty of this approach is that it's not just about preserving the past – it's about ensuring future generations can learn from and appreciate these architectural marvels. Think of it as a time capsule, but instead of burying it underground, they're making it accessible to anyone curious about India's diverse building traditions. Now that's what we call building for the future (pun absolutely intended)."
-          ],
-          "pullQuote": null
-        }
-      },
-      {
-        "originalTitle": "January 14th Marked the Longest Period Without a Nuclear Detonation Since the Atomic Age Began",
-        "headline": "Nuclear Peace Milestone: 8 Years Without Any Detonation Worldwide",
-        "excerpt": "As of January 14th, it has been 8 years, 4 months, and 29 days since the last nuclear weapon was detonated on Earth. This marks the longest period without nuclear detonation since the atomic age began in 1945.",
-        "category": "people",
-        "sourceUrl": "https://www.goodnewsnetwork.org/january-14th-marked-the-longest-period-without-a-nuclear-detonation-since-the-atomic-age-began/",
+        "sourceUrl": "https://www.goodnewsnetwork.org/nebraska-woman-learns-to-row-then-becomes-first-female-to-cross-the-atlantic-alone-in-3000-mile-race/",
         "sourceName": "Good News Network",
         "readTime": 4,
         "isHomepageHero": false,
         "isHomepageFeatured": true,
-        "slug": "nuclear-peace-milestone-8-years-without-any-detonation-world",
-        "author": "Sol Idarity",
+        "slug": "from-nebraska-landlubber-to-atlantic-ocean-champion-in-recor",
+        "author": "Pat Ontheback",
         "fullContent": {
-          "lead": "Well, here's some news that won't blow you away – literally. Look, we're a toilet paper company venturing into journalism, so maybe take our geopolitical commentary with a grain of salt. But we've got some genuinely good news about things NOT exploding, which frankly feels like the kind of positive vibe we could all use right now.",
+          "lead": "Look, we're a toilet paper company, so what do we know about rowing? But we do know a thing or two about determination (it takes grit to make sustainable TP), and Taryn Smith's story has us absolutely hooked. This 25-year-old from landlocked Nebraska just became the first woman to cross the Atlantic alone in a 3,000-mile race—despite learning to row only after reading about someone else's achievement.",
           "body": [
-            "According to the Good News Network, January 14th marked a pretty remarkable milestone: it had been 8 years, 4 months, and 29 days since the last nuclear weapon was detonated anywhere on Earth. That's not just a random streak – it's officially the longest period without nuclear detonation since the atomic age kicked off back in 1945.",
-            "Now, we'll be honest – when you're in the business of making toilet paper, you don't exactly have your finger on the pulse of global nuclear policy. But even we can appreciate the significance of nearly eight and a half years without anyone pressing the big red button (or whatever color button it actually is – again, toilet paper company here).",
-            "It's one of those stories that reminds you that sometimes the best news is about what's NOT happening. In a world where dramatic headlines grab all the attention, there's something quietly powerful about a streak of restraint that's been building day by day, month by month, year by year. Sure, it might not make for the most explosive headline, but we'll take boring over booming any day of the week."
+            "Let's break this down: Smith didn't grow up around water (Nebraska isn't exactly known for its oceanfront property), but something about reading about an all-female rowing team's world record sparked something in her. So she decided to learn to row. You know, as one does when living hundreds of miles from the nearest ocean.",
+            "But here's where it gets really good—Smith didn't just learn to paddle around a lake for fun. She went full send and tackled a 3,000-mile Atlantic crossing race. Alone. And not only did she complete it, she made history by becoming the first female to do it solo in this particular race.",
+            "We love everything about this story: the audacity of a Nebraskan deciding to conquer the Atlantic, the fact that she started from zero rowing experience, and most of all, that she turned reading about someone else's success into fuel for her own ocean dreams. Sometimes the best adventures start in the most unexpected places—even if that place is about as far from the ocean as you can get in America."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "Math Teacher Becomes UK Scrabble Champ, Reveals the 2-Letter Words Experts Use to Win",
@@ -964,29 +977,105 @@
             "Now, we don't want to draw too many parallels between Scrabble mastery and our own business expertise – after all, we're still figuring out how to make toilet paper news sound sophisticated. But there's something beautifully poetic about a math teacher using her analytical skills to spell her way to the top. Numbers, letters, patterns – it all adds up, quite literally."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 9
       },
       {
-        "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
-        "headline": "From Nebraska Landlubber to Atlantic Ocean Champion in Record Time",
-        "excerpt": "Taryn Smith, 25, learned to row after reading about an all-female rowing team's world record. She has now become the first female to cross the Atlantic alone in a 3,000-mile race, fulfilling her ocean dreams despite starting from landlocked Nebraska.",
+        "originalTitle": "January 14th Marked the Longest Period Without a Nuclear Detonation Since the Atomic Age Began",
+        "headline": "Nuclear Peace Milestone: 8 Years Without Any Detonation Worldwide",
+        "excerpt": "As of January 14th, it has been 8 years, 4 months, and 29 days since the last nuclear weapon was detonated on Earth. This marks the longest period without nuclear detonation since the atomic age began in 1945.",
         "category": "people",
-        "sourceUrl": "https://www.goodnewsnetwork.org/nebraska-woman-learns-to-row-then-becomes-first-female-to-cross-the-atlantic-alone-in-3000-mile-race/",
+        "sourceUrl": "https://www.goodnewsnetwork.org/january-14th-marked-the-longest-period-without-a-nuclear-detonation-since-the-atomic-age-began/",
         "sourceName": "Good News Network",
         "readTime": 4,
         "isHomepageHero": false,
         "isHomepageFeatured": true,
-        "slug": "from-nebraska-landlubber-to-atlantic-ocean-champion-in-recor",
-        "author": "Pat Ontheback",
+        "slug": "nuclear-peace-milestone-8-years-without-any-detonation-world",
+        "author": "Sol Idarity",
         "fullContent": {
-          "lead": "Look, we're a toilet paper company, so what do we know about rowing? But we do know a thing or two about determination (it takes grit to make sustainable TP), and Taryn Smith's story has us absolutely hooked. This 25-year-old from landlocked Nebraska just became the first woman to cross the Atlantic alone in a 3,000-mile race—despite learning to row only after reading about someone else's achievement.",
+          "lead": "Well, here's some news that won't blow you away – literally. Look, we're a toilet paper company venturing into journalism, so maybe take our geopolitical commentary with a grain of salt. But we've got some genuinely good news about things NOT exploding, which frankly feels like the kind of positive vibe we could all use right now.",
           "body": [
-            "Let's break this down: Smith didn't grow up around water (Nebraska isn't exactly known for its oceanfront property), but something about reading about an all-female rowing team's world record sparked something in her. So she decided to learn to row. You know, as one does when living hundreds of miles from the nearest ocean.",
-            "But here's where it gets really good—Smith didn't just learn to paddle around a lake for fun. She went full send and tackled a 3,000-mile Atlantic crossing race. Alone. And not only did she complete it, she made history by becoming the first female to do it solo in this particular race.",
-            "We love everything about this story: the audacity of a Nebraskan deciding to conquer the Atlantic, the fact that she started from zero rowing experience, and most of all, that she turned reading about someone else's success into fuel for her own ocean dreams. Sometimes the best adventures start in the most unexpected places—even if that place is about as far from the ocean as you can get in America."
+            "According to the Good News Network, January 14th marked a pretty remarkable milestone: it had been 8 years, 4 months, and 29 days since the last nuclear weapon was detonated anywhere on Earth. That's not just a random streak – it's officially the longest period without nuclear detonation since the atomic age kicked off back in 1945.",
+            "Now, we'll be honest – when you're in the business of making toilet paper, you don't exactly have your finger on the pulse of global nuclear policy. But even we can appreciate the significance of nearly eight and a half years without anyone pressing the big red button (or whatever color button it actually is – again, toilet paper company here).",
+            "It's one of those stories that reminds you that sometimes the best news is about what's NOT happening. In a world where dramatic headlines grab all the attention, there's something quietly powerful about a streak of restraint that's been building day by day, month by month, year by year. Sure, it might not make for the most explosive headline, but we'll take boring over booming any day of the week."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 10
+      },
+      {
+        "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
+        "headline": "Snap Shot: Photographer Documents India's Architectural Heritage One Building at a Time",
+        "excerpt": "A nationwide photography project is working to preserve India's diverse architectural heritage through comprehensive documentation. The initiative captures intricate details of historical buildings, from desert palaces to courtyard homes, creating a visual archive for future generations.",
+        "category": "people",
+        "sourceUrl": "https://reasonstobecheerful.world/india-amit-pasricha-photography-preserve-architecture/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 5,
+        "isHomepageHero": false,
+        "isHomepageFeatured": true,
+        "slug": "snap-shot-photographer-documents-indias-architectural-herita",
+        "author": "Charity Case",
+        "fullContent": {
+          "lead": "Look, we know a thing or two about preservation – we've been keeping toilet paper rolls intact since 2012. But when it comes to preserving centuries-old architectural masterpieces? That's a whole different kind of roll... er, role. Thankfully, there are people much more qualified than us handling India's stunning buildings.",
+          "body": [
+            "A nationwide photography project is quietly working to save India's incredible architectural heritage, one snapshot at a time. Instead of letting these historical treasures fade into memory (or worse, crumble into dust), this initiative is creating a comprehensive visual archive that captures everything from grand desert palaces to intimate courtyard homes.",
+            "What makes this project special isn't just its scope – it's the attention to detail. We're talking about documenting the intricate elements that make Indian architecture so breathtaking: the carved stonework, the geometric patterns, the way light plays through ancient archways. It's like creating a visual love letter to buildings that have stood for generations.",
+            "The beauty of this approach is that it's not just about preserving the past – it's about ensuring future generations can learn from and appreciate these architectural marvels. Think of it as a time capsule, but instead of burying it underground, they're making it accessible to anyone curious about India's diverse building traditions. Now that's what we call building for the future (pun absolutely intended)."
+          ],
+          "pullQuote": null
+        },
+        "approved": true,
+        "_index": 11
+      },
+      {
+        "originalTitle": "The Whimsical Floating Schools of Kashmir",
+        "headline": "School of Fish: Kashmir's Students Row Their Way to Education",
+        "excerpt": "Children in Kashmir's Dal Lake region travel to school by boat each morning, rowing themselves or being ferried by family from houseboats and island homes. These floating schools represent a unique educational system adapted to the region's watery landscape.",
+        "category": "people",
+        "sourceUrl": "https://reasonstobecheerful.world/floating-schools-of-kashmir-dal-lake/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 5,
+        "isHomepageHero": false,
+        "isHomepageFeatured": true,
+        "slug": "school-of-fish-kashmirs-students-row-their-way-to-education",
+        "author": "Sol Idarity",
+        "fullContent": {
+          "lead": "Look, we know what you're thinking: a toilet paper company writing about education? Fair point. But sometimes the best stories float right to the surface, and this one from Kashmir's Dal Lake region is absolutely buoyant with good vibes.",
+          "body": [
+            "Picture this: instead of rushing to catch a school bus, kids in Kashmir's Dal Lake region start their morning by hopping into boats. According to the report, children in this watery wonderland travel to school by boat each morning, either rowing themselves or getting ferried by family members from their houseboats and island homes. Talk about making a splash on the way to class!",
+            "These aren't just any schools we're talking about – they're floating schools that represent a unique educational system perfectly adapted to the region's watery landscape. While most of us complain about traffic jams and missed buses, these students have turned geography into an adventure, proving that where there's a will (and a waterway), there's definitely a way.",
+            "What strikes us most about this story is how beautifully it shows human adaptability in action. Instead of seeing water as a barrier to education, this community has embraced their aquatic environment and made it work for them. It's a refreshing reminder that sometimes the most creative solutions come from working with what you've got, rather than wishing you had something else."
+          ],
+          "pullQuote": null
+        },
+        "approved": true,
+        "_index": 12
+      },
+      {
+        "originalTitle": "The Affordable Daycare That Keeps Parents Close",
+        "headline": "Work-Life Balance Win: Coworking Spaces Add On-Site Childcare",
+        "excerpt": "A coworking space model that includes affordable on-site childcare is helping parents stay close to their children while working. The innovative approach addresses childcare challenges by keeping families together in shared work environments.",
+        "category": "people",
+        "sourceUrl": "https://reasonstobecheerful.world/little-break-coworking-space-on-site-child-care-michigan/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 5,
+        "isHomepageHero": false,
+        "isHomepageFeatured": true,
+        "slug": "work-life-balance-win-coworking-spaces-add-on-site-childcare",
+        "author": "Charity Case",
+        "fullContent": {
+          "lead": "Look, we're a toilet paper company writing about childcare solutions, so we're definitely out of our usual territory here. But when we heard about a coworking space that's cracking the code on keeping parents close to their kids while actually getting work done, we had to share the good news.",
+          "body": [
+            "The concept is beautifully simple: instead of forcing parents to choose between being present for their children and earning a living, why not create spaces where both can happen under the same roof? According to the report, this coworking space model combines affordable on-site childcare with shared work environments, letting families stay together while adults tackle their professional responsibilities.",
+            "What makes this approach particularly clever is how it addresses one of the biggest challenges facing working parents today. Traditional childcare can be expensive and often means being separated from your little ones for long stretches. This innovative model flips that script entirely, creating an environment where parents can be productive while their children are cared for just steps away.",
+            "The shared workspace element adds another layer of support, creating a community of working parents who understand the unique juggling act of balancing career and family. It's the kind of practical solution that makes you think, 'Why didn't anyone think of this sooner?' – though we're just grateful someone finally did."
+          ],
+          "pullQuote": null
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "Teens Build Igloo That Brings Together the Neighborhood After Difficult Ice Storm – LOOK",
@@ -1009,7 +1098,9 @@
             "We may know more about bathroom breaks than breaking news, but we recognize good community building when we see it. Sometimes the most powerful acts of hope come in the most unexpected packages—or in this case, frozen packages that bring people together one ice block at a time."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 15
       },
       {
         "originalTitle": "Life after: a terminal diagnosis",
@@ -1031,7 +1122,9 @@
             "We'll be honest – we don't know all the details of Turner's journey or diagnosis, and we're definitely not qualified to offer medical or sailing advice (again, toilet paper company here). But there's something profoundly moving about someone choosing to chase the horizon when the world feels like it's closing in. Her story demonstrates that sometimes the most powerful response to life's curveballs isn't to duck – it's to set sail."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 30
       },
       {
         "originalTitle": "The researchers reshaping the future of women-led business in Yorkshire",
@@ -1054,7 +1147,9 @@
             "Sometimes the best stories are the ones just getting started. And while we can't tell you exactly what groundbreaking discoveries these researchers will make, we can tell you that having people actively working to level the playing field for women entrepreneurs? That's definitely not crap."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 31
       },
       {
         "originalTitle": "New anthology rewrites the story of homelessness",
@@ -1076,7 +1171,9 @@
             "It's one of those beautifully simple ideas that makes you wonder why it took so long to happen. When people have lived through something, they tend to understand it in ways that outsiders – however well-meaning – simply can't. This anthology is giving those insights the platform they deserve, one story at a time."
           ],
           "pullQuote": null
-        }
+        },
+        "approved": true,
+        "_index": 32
       }
     ]
   },
@@ -1101,7 +1198,9 @@
           "There's something beautifully human about these handprints, isn't there? Tens of thousands of years ago, someone pressed their hand against a cave wall and thought, 'I was here.' It's the same impulse that makes us carve initials in trees or post vacation photos – that fundamental desire to leave a mark, to say we existed. Only their Instagram story lasted just a tiny bit longer than ours."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     {
       "originalTitle": "Revolutionary therapy treats 'untreatable' blood cancer",
@@ -1123,7 +1222,9 @@
           "The treatment is being called a 'living drug,' which sounds like something straight out of science fiction but is apparently very real science fact. It's one of those moments that reminds us why we love sharing positive news—sometimes the world surprises us with solutions that seemed impossible just yesterday."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 1
     },
     {
       "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
@@ -1145,7 +1246,9 @@
           "We love everything about this story: the audacity of a Nebraskan deciding to conquer the Atlantic, the fact that she started from zero rowing experience, and most of all, that she turned reading about someone else's success into fuel for her own ocean dreams. Sometimes the best adventures start in the most unexpected places—even if that place is about as far from the ocean as you can get in America."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 2
     },
     {
       "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
@@ -1167,7 +1270,9 @@
           "Now, we'll be the first to admit that as a company that makes toilet paper, our scientific commentary should probably be taken with a grain of salt. But this research hints at something pretty fascinating – that the health of your gut and the health of your mind might be more connected than we previously thought. It's like your body has its own internal internet, and sometimes the connection gets a bit glitchy when stress enters the picture."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 3
     },
     {
       "originalTitle": "Acupuncture for Rescued Elephants Provides Relief from Chronic Pain and Nerve Damage in India Care Center",
@@ -1190,7 +1295,9 @@
           "It's a reminder that healing comes in many forms, and sometimes the most unexpected combinations – ancient techniques meets modern rescue work, toilet paper companies meets wildlife news – can create something pretty wonderful."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 4
     },
     {
       "originalTitle": "Astonishing 1,400-year-old Tomb Featuring Giant Owl Sculpture Discovered in Mexico",
@@ -1212,7 +1319,9 @@
           "The discovery is being hailed as remarkable not just for its age, but for the exceptional preservation of the artwork. Think about it – these murals and carvings have been sitting underground since before the fall of the Roman Empire, and they're still intact enough to make archaeologists do happy dances (we assume archaeologists do happy dances)."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 5
     },
     {
       "originalTitle": "What went right this week: Europe's energy 'tipping point', plus more",
@@ -1234,7 +1343,9 @@
           "Wildlife conservation also scored some wins this week, according to the report. As a company that's deeply committed to environmental causes (we've donated millions to build toilets and protect forests), we're always here for good conservation news. Even if we don't have all the specifics, the fact that multiple positive wildlife stories made it into a weekly roundup suggests some genuinely encouraging developments for our furry, feathered, and scaled friends."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 6
     },
     {
       "originalTitle": "A field of wheat becomes the world's largest living photograph",
@@ -1256,7 +1367,9 @@
           "The beauty of this project is in its simplicity and scale. Different wheat varieties naturally have different colors and textures, so by strategically planting them in patterns, farmers can essentially 'paint' with crops. It's agricultural pointillism, if you will – step back far enough, and those individual wheat pixels come together to form a larger image."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 7
     },
     {
       "originalTitle": "Kentucky's Rural and Urban Communities Unite over Climate Change",
@@ -1278,7 +1391,9 @@
           "What's particularly encouraging is how these climate solutions are creating bridges between groups with shared interests. It's a reminder that environmental challenges don't stop at city limits or county lines – and neither do the solutions. Sometimes the best answers come from the most unexpected partnerships."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 8
     },
     {
       "originalTitle": "Math Teacher Becomes UK Scrabble Champ, Reveals the 2-Letter Words Experts Use to Win",
@@ -1300,7 +1415,9 @@
           "Now, we don't want to draw too many parallels between Scrabble mastery and our own business expertise – after all, we're still figuring out how to make toilet paper news sound sophisticated. But there's something beautifully poetic about a math teacher using her analytical skills to spell her way to the top. Numbers, letters, patterns – it all adds up, quite literally."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 9
     },
     {
       "originalTitle": "January 14th Marked the Longest Period Without a Nuclear Detonation Since the Atomic Age Began",
@@ -1322,7 +1439,9 @@
           "It's one of those stories that reminds you that sometimes the best news is about what's NOT happening. In a world where dramatic headlines grab all the attention, there's something quietly powerful about a streak of restraint that's been building day by day, month by month, year by year. Sure, it might not make for the most explosive headline, but we'll take boring over booming any day of the week."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 10
     },
     {
       "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
@@ -1344,7 +1463,9 @@
           "The beauty of this approach is that it's not just about preserving the past – it's about ensuring future generations can learn from and appreciate these architectural marvels. Think of it as a time capsule, but instead of burying it underground, they're making it accessible to anyone curious about India's diverse building traditions. Now that's what we call building for the future (pun absolutely intended)."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 11
     },
     {
       "originalTitle": "The Whimsical Floating Schools of Kashmir",
@@ -1366,7 +1487,9 @@
           "What strikes us most about this story is how beautifully it shows human adaptability in action. Instead of seeing water as a barrier to education, this community has embraced their aquatic environment and made it work for them. It's a refreshing reminder that sometimes the most creative solutions come from working with what you've got, rather than wishing you had something else."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 12
     },
     {
       "originalTitle": "The Affordable Daycare That Keeps Parents Close",
@@ -1388,7 +1511,9 @@
           "The shared workspace element adds another layer of support, creating a community of working parents who understand the unique juggling act of balancing career and family. It's the kind of practical solution that makes you think, 'Why didn't anyone think of this sooner?' – though we're just grateful someone finally did."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 13
     },
     {
       "originalTitle": "New Ultrasonic Imaging System Can Detect Deadly Defects in All Types of Concrete",
@@ -1410,7 +1535,9 @@
           "According to the report, the system uses ultrasonic imaging to peer inside concrete structures and spot defects that could be deadly if left undetected. It's the kind of technology that works quietly in the background, potentially preventing catastrophic failures before they happen – which, let's be honest, is exactly the kind of boring-but-crucial innovation that keeps our world standing upright."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 14
     },
     {
       "originalTitle": "Teens Build Igloo That Brings Together the Neighborhood After Difficult Ice Storm – LOOK",
@@ -1433,7 +1560,9 @@
           "We may know more about bathroom breaks than breaking news, but we recognize good community building when we see it. Sometimes the most powerful acts of hope come in the most unexpected packages—or in this case, frozen packages that bring people together one ice block at a time."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 15
     },
     {
       "originalTitle": "A fish that ages in months reveals how kidneys grow old",
@@ -1455,7 +1584,9 @@
           "What makes this fishy friend so special for research is its accelerated aging process, which allows scientists to observe changes that would normally take years to develop. It's like having a time-lapse camera for kidney health, giving researchers a clearer picture of how aging affects these crucial organs and how certain treatments might help keep them swimming along smoothly for longer."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 16
     },
     {
       "originalTitle": "This AI app can tell which dinosaur made a footprint",
@@ -1478,7 +1609,9 @@
           "Sure, we might know more about paper trails than dinosaur trails, but there's something beautifully hopeful about technology helping us connect with creatures that walked the Earth millions of years ago. Who knows? Maybe one day there'll be an app to identify the tracks we leave today—though honestly, some footprints are better left unanalyzed."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 17
     },
     {
       "originalTitle": "750-year-old Indian poems reveal a landscape scientists got wrong",
@@ -1501,7 +1634,9 @@
           "This discovery is reshaping conservation understanding in a big way. Instead of trying to 'fix' these landscapes by turning them into forests, conservationists now have solid evidence that protecting these savannas as they are might be the right approach. Sometimes the best science comes from listening to the voices that have been there all along - even if those voices happen to be singing 750-year-old songs."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 18
     },
     {
       "originalTitle": "Ancient tools in China are forcing scientists to rethink early humans",
@@ -1523,7 +1658,9 @@
           "The discovery is particularly significant because it challenges our understanding of technological development in early human societies. These weren't just people chipping rocks together – they were creating sophisticated tools with handles, showing a level of planning and innovation that pushes back the timeline of human ingenuity. It's a reminder that creativity and problem-solving have been part of the human story for far longer than we realized."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 19
     },
     {
       "originalTitle": "Hundreds of new species found in a hidden world beneath the Pacific",
@@ -1545,7 +1682,9 @@
           "The study offers what researchers call 'vital insights' into this underwater realm, which honestly sounds like the kind of homework we should have done ages ago. But hey, better late than never when it comes to understanding the incredible diversity hiding in our planet's deepest corners. Sometimes the best discoveries happen when you're willing to dive deep – literally, in this case."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 20
     },
     {
       "originalTitle": "Gray wolves are hunting sea otters and no one knows how",
@@ -1567,7 +1706,9 @@
           "Scientists are now investigating how these coastal wolves made the leap (literally?) to marine hunting, and what this surprising behavior might mean for the connections between land and sea ecosystems. The researchers are trying to understand this adaptation, which could give us new insights into how flexible these predators can be when it comes to finding food sources."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 21
     },
     {
       "originalTitle": "It's nesting season for Olive Ridley turtles' across Maharashtra coastline: 407 nests recorded so far; previously tagged Olive Ridleys return",
@@ -1589,7 +1730,9 @@
           "For a species that's considered vulnerable, seeing this kind of consistent nesting behavior is genuinely hopeful. These turtles are doing what they've done for millions of years, finding their way back to the beaches where they were born to lay their own eggs. It's nature's version of coming full circle – and thankfully, the Maharashtra coastline seems to be providing a safe space for them to do just that."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 22
     },
     {
       "originalTitle": "Baby dinosaurs were the backbone of the Jurassic food chain",
@@ -1611,7 +1754,9 @@
           "But here's the surprisingly uplifting angle - these baby dinosaurs weren't just victims, they were actually the backbone of their entire food web. By providing a steady food source, they helped early predators thrive and maintain the delicate balance that kept Jurassic ecosystems functioning. It's a reminder that even in nature's most challenging moments, there's often a bigger picture of interconnected survival at work."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 23
     },
     {
       "originalTitle": "Scientists discover how to turn gut bacteria into anti-aging factories",
@@ -1633,7 +1778,9 @@
           "Now, before anyone starts raiding their medicine cabinet, remember this is still early research in animals. But it's pretty amazing to think that the same tiny organisms we're always trying to balance with probiotics might actually be capable of producing their own life-extending compounds – they just needed a little chemical nudge to get the factory running."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 24
     },
     {
       "originalTitle": "Scientists finally explain statin muscle pain",
@@ -1656,7 +1803,9 @@
           "We may know more about bathroom tissue than biochemistry, but we do know that solving medical puzzles like this one means better treatments for everyone. And that's something worth celebrating – even if we're not entirely sure what a calcium channel actually looks like."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 25
     },
     {
       "originalTitle": "A quiet change in everyday foods could save thousands of lives",
@@ -1678,7 +1827,9 @@
           "It's one of those solutions that makes you think 'why didn't we do this sooner?' - kind of like when we realized we could make toilet paper from sustainable bamboo instead of cutting down forests. Sometimes the biggest impact comes from the smallest changes to things we use every day. Who knew that tweaking the salt content in your sandwich bread could be a public health game-changer?"
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 26
     },
     {
       "originalTitle": "UK to join major wind farm project with nine European countries",
@@ -1700,7 +1851,9 @@
           "When countries work together on renewable energy infrastructure, it's like creating a safety net made of wind. If one country's having a particularly calm day, their neighbors can help keep the lights on. And honestly, in a world where international headlines often make us want to hide under our (sustainable, bamboo) covers, seeing ten countries collaborate on something this forward-thinking? That's the kind of partnership that gives us hope."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 27
     },
     {
       "originalTitle": "Mexico moves to combat pollution following Guardian investigations",
@@ -1722,7 +1875,9 @@
           "Now, we'll be the first to admit we know more about two-ply than policy, but there's something encouraging about seeing a government respond to environmental reporting with actual financial commitments and monitoring infrastructure. The cynic in us has learned not to get too excited about government announcements, but $4.8 million in fines suggests they're not just blowing hot air – they're putting money where their environmental policy is."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 28
     },
     {
       "originalTitle": "The energy inside: three people powering the green transition",
@@ -1745,7 +1900,9 @@
           "We may not know the nitty-gritty details of their work, but we love that someone is telling these stories. Because let's face it, saving the planet is a team sport, and it's nice to know who's on our side. Even if our contribution is just making sure everyone has eco-friendly bathroom essentials while the real heroes figure out how to power the world with sunshine and wind."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 29
     },
     {
       "originalTitle": "Life after: a terminal diagnosis",
@@ -1767,7 +1924,9 @@
           "We'll be honest – we don't know all the details of Turner's journey or diagnosis, and we're definitely not qualified to offer medical or sailing advice (again, toilet paper company here). But there's something profoundly moving about someone choosing to chase the horizon when the world feels like it's closing in. Her story demonstrates that sometimes the most powerful response to life's curveballs isn't to duck – it's to set sail."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 30
     },
     {
       "originalTitle": "The researchers reshaping the future of women-led business in Yorkshire",
@@ -1790,7 +1949,9 @@
           "Sometimes the best stories are the ones just getting started. And while we can't tell you exactly what groundbreaking discoveries these researchers will make, we can tell you that having people actively working to level the playing field for women entrepreneurs? That's definitely not crap."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 31
     },
     {
       "originalTitle": "New anthology rewrites the story of homelessness",
@@ -1812,7 +1973,9 @@
           "It's one of those beautifully simple ideas that makes you wonder why it took so long to happen. When people have lived through something, they tend to understand it in ways that outsiders – however well-meaning – simply can't. This anthology is giving those insights the platform they deserve, one story at a time."
         ],
         "pullQuote": null
-      }
+      },
+      "approved": true,
+      "_index": 32
     }
   ]
 }
