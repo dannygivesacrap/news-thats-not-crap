@@ -177,19 +177,20 @@ This document describes exactly how the automated news curation system works, fr
 
 **GitHub Actions Workflow:** `.github/workflows/daily-news.yml`
 
-**Schedule:** Every day at 7 AM UTC
+**Schedule:** Every day at 6 AM Pacific Time (2 PM UTC)
 
 **What runs:**
 1. `npm install` - Install dependencies
 2. `node scripts/fetch-news.js` - Fetch raw articles
 3. `node scripts/curate-with-ai.js` - AI curation
 4. Git commit and push
-5. Send email notification with review link
+5. Create GitHub Issue with link to review page
 
-**Email contains:**
-- Notification that articles are ready
-- Direct link to review page
-- Instructions to approve and publish
+**Notification:**
+- A GitHub Issue is created titled "Articles Ready for Review"
+- You'll get a GitHub notification (email/app based on your settings)
+- Issue contains direct link to review page
+- Close the issue after publishing
 
 ---
 
@@ -200,9 +201,6 @@ This document describes exactly how the automated news curation system works, fr
 | `ANTHROPIC_API_KEY` | Claude API key | console.anthropic.com |
 | `NEWS_API_KEY` | NewsAPI key | newsapi.org |
 | `UNSPLASH_ACCESS_KEY` | Unsplash API key (optional) | unsplash.com/developers |
-| `EMAIL_USERNAME` | Gmail address for sending | Your Gmail |
-| `EMAIL_PASSWORD` | Gmail app password | Google Account → Security → App Passwords |
-| `NOTIFY_EMAIL` | Email to receive notifications | Your email |
 
 ---
 

@@ -2,11 +2,9 @@ name: Daily News Pipeline
 
 on:
   schedule:
-    # Runs at 7 AM UTC (adjust for your timezone)
-    # For US Pacific: 7 AM UTC = 11 PM PST / 12 AM PDT (night before)
-    # For US Eastern: 7 AM UTC = 2 AM EST / 3 AM EDT
-    # For Australia AEDT: 7 AM UTC = 6 PM AEDT
-    - cron: '0 7 * * *'
+    # 6 AM Pacific Time = 2 PM UTC (during PST) / 1 PM UTC (during PDT)
+    # Using 2 PM UTC - will be 6 AM PST or 7 AM PDT
+    - cron: '0 14 * * *'
 
   # Allow manual trigger
   workflow_dispatch:
@@ -47,39 +45,34 @@ jobs:
           git diff --staged --quiet || git commit -m "Daily news curation - $(date +'%Y-%m-%d')"
           git push
 
-      - name: Send notification email
-        uses: dawidd6/action-send-mail@v3
+      - name: Create notification issue
+        uses: actions/github-script@v7
         with:
-          server_address: smtp.gmail.com
-          server_port: 587
-          username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: "News That's Not Crap - Articles Ready for Review"
-          to: ${{ secrets.NOTIFY_EMAIL }}
-          from: "News Pipeline <${{ secrets.EMAIL_USERNAME }}>"
-          html_body: |
-            <div style="font-family: -apple-system, sans-serif; max-width: 600px; margin: 0 auto;">
-              <div style="background: #4368ff; color: white; padding: 24px; text-align: center;">
-                <h1 style="margin: 0; font-size: 24px;">Today's Articles Are Ready!</h1>
-              </div>
-              <div style="padding: 24px; background: #f5f4f2;">
-                <p style="font-size: 16px; color: #333;">
-                  The daily news pipeline has finished curating today's positive news stories.
-                </p>
-                <p style="font-size: 16px; color: #333;">
-                  <strong>Click below to review and approve articles:</strong>
-                </p>
-                <div style="text-align: center; margin: 24px 0;">
-                  <a href="https://news-thats-not-crap.netlify.app/review.html"
-                     style="background: #1B873F; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
-                    Review Articles →
-                  </a>
-                </div>
-                <p style="font-size: 14px; color: #666;">
-                  Once you approve articles, click "Publish" to make them live on the site.
-                </p>
-              </div>
-              <div style="padding: 16px; text-align: center; color: #999; font-size: 12px;">
-                News That's Not Crap • Powered by Who Gives A Crap
-              </div>
-            </div>
+          script: |
+            const today = new Date().toLocaleDateString('en-US', {
+              weekday: 'long',
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            });
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📰 Articles Ready for Review - ${today}`,
+              body: `## Today's articles are ready!
+
+The daily news pipeline has finished curating positive news stories.
+
+### 👉 [Click here to review and approve articles](https://news-thats-not-crap.netlify.app/review.html)
+
+Once you've reviewed:
+1. **Approve** the articles you want to publish
+2. **Deny** any you want to skip
+3. Click **Publish** to make them live
+
+---
+*This issue was automatically created by the daily news pipeline.*
+*Close this issue after publishing.*`,
+              labels: ['review-needed']
+            });
