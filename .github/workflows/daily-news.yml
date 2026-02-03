@@ -1,0 +1,85 @@
+name: Daily News Pipeline
+
+on:
+  schedule:
+    # Runs at 7 AM UTC (adjust for your timezone)
+    # For US Pacific: 7 AM UTC = 11 PM PST / 12 AM PDT (night before)
+    # For US Eastern: 7 AM UTC = 2 AM EST / 3 AM EDT
+    # For Australia AEDT: 7 AM UTC = 6 PM AEDT
+    - cron: '0 7 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  fetch-and-curate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch news articles
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        run: node scripts/fetch-news.js
+
+      - name: Curate articles with AI
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: node scripts/curate-with-ai.js
+
+      - name: Commit curated articles
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --staged --quiet || git commit -m "Daily news curation - $(date +'%Y-%m-%d')"
+          git push
+
+      - name: Send notification email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "News That's Not Crap - Articles Ready for Review"
+          to: ${{ secrets.NOTIFY_EMAIL }}
+          from: "News Pipeline <${{ secrets.EMAIL_USERNAME }}>"
+          html_body: |
+            <div style="font-family: -apple-system, sans-serif; max-width: 600px; margin: 0 auto;">
+              <div style="background: #4368ff; color: white; padding: 24px; text-align: center;">
+                <h1 style="margin: 0; font-size: 24px;">Today's Articles Are Ready!</h1>
+              </div>
+              <div style="padding: 24px; background: #f5f4f2;">
+                <p style="font-size: 16px; color: #333;">
+                  The daily news pipeline has finished curating today's positive news stories.
+                </p>
+                <p style="font-size: 16px; color: #333;">
+                  <strong>Click below to review and approve articles:</strong>
+                </p>
+                <div style="text-align: center; margin: 24px 0;">
+                  <a href="https://news-thats-not-crap.netlify.app/review.html"
+                     style="background: #1B873F; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;">
+                    Review Articles →
+                  </a>
+                </div>
+                <p style="font-size: 14px; color: #666;">
+                  Once you approve articles, click "Publish" to make them live on the site.
+                </p>
+              </div>
+              <div style="padding: 16px; text-align: center; color: #999; font-size: 12px;">
+                News That's Not Crap • Powered by Who Gives A Crap
+              </div>
+            </div>
