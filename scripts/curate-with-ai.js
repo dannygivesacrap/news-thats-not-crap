@@ -14,6 +14,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { getNextImage, resetImageIndices, getRandomImage } from './image-pool.js';
 
+const PEXELS_API_KEY = process.env.PEXELS_API_KEY;
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
@@ -61,19 +63,114 @@ async function validateImageUrl(url, maxRetries = 2) {
   return false;
 }
 
-// Get a valid image for a category, with fallback
-async function getValidImage(category) {
-  // Try up to 5 images from the pool
+// Extract search keywords from an article
+function extractKeywords(article) {
+  // Start with the headline, remove common words
+  const stopWords = ['the', 'a', 'an', 'is', 'are', 'was', 'were', 'be', 'been', 'being',
+    'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could', 'should',
+    'may', 'might', 'must', 'shall', 'can', 'need', 'dare', 'ought', 'used',
+    'to', 'of', 'in', 'for', 'on', 'with', 'at', 'by', 'from', 'as', 'into',
+    'through', 'during', 'before', 'after', 'above', 'below', 'between',
+    'and', 'but', 'or', 'nor', 'so', 'yet', 'both', 'either', 'neither',
+    'not', 'only', 'own', 'same', 'than', 'too', 'very', 'just', 'how', 'why',
+    'new', 'now', 'way', 'ways', 'get', 'got', 'gets', 'make', 'makes', 'made',
+    'first', 'good', 'great', 'big', 'small', 'old', 'young', 'long', 'little',
+    'world', 'year', 'years', 'day', 'days', 'time', 'life', 'people', 'thing'];
+
+  const headline = article.headline || article.originalTitle || '';
+  const words = headline
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, '')
+    .split(/\s+/)
+    .filter(word => word.length > 2 && !stopWords.includes(word));
+
+  // Take top 3-4 meaningful words + category
+  const keywords = words.slice(0, 4);
+
+  // Add category-specific context
+  const categoryContext = {
+    climate: 'nature environment',
+    health: 'wellness medical',
+    science: 'research discovery',
+    wildlife: 'animals nature',
+    people: 'community helping'
+  };
+
+  if (categoryContext[article.category]) {
+    keywords.push(...categoryContext[article.category].split(' '));
+  }
+
+  return keywords.slice(0, 5).join(' ');
+}
+
+// Search Pexels for a relevant image
+async function searchPexelsImage(article) {
+  if (!PEXELS_API_KEY) {
+    return null;
+  }
+
+  const query = extractKeywords(article);
+  console.log(`    Searching Pexels for: "${query}"`);
+
+  try {
+    const url = `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=5&orientation=landscape`;
+    const response = await fetch(url, {
+      headers: {
+        'Authorization': PEXELS_API_KEY
+      }
+    });
+
+    if (!response.ok) {
+      console.log(`    Pexels API error: ${response.status}`);
+      return null;
+    }
+
+    const data = await response.json();
+
+    if (data.photos && data.photos.length > 0) {
+      // Pick a random photo from top results for variety
+      const photo = data.photos[Math.floor(Math.random() * Math.min(3, data.photos.length))];
+      // Use the large2x size (1920px wide)
+      const imageUrl = photo.src.large2x || photo.src.large || photo.src.original;
+      console.log(`    ✓ Found Pexels image by ${photo.photographer}`);
+      return imageUrl;
+    }
+
+    console.log(`    No Pexels results for "${query}"`);
+    return null;
+
+  } catch (error) {
+    console.log(`    Pexels search failed: ${error.message}`);
+    return null;
+  }
+}
+
+// Get a valid image for an article - tries Pexels first, falls back to curated pool
+async function getValidImage(article) {
+  const category = article.category || 'people';
+
+  // Try Pexels search first for content-relevant images
+  const pexelsImage = await searchPexelsImage(article);
+  if (pexelsImage) {
+    const isValid = await validateImageUrl(pexelsImage);
+    if (isValid) {
+      return pexelsImage;
+    }
+    console.log(`    Pexels image failed validation, trying pool...`);
+  }
+
+  // Fall back to curated pool
   for (let i = 0; i < 5; i++) {
     const imageUrl = getNextImage(category);
     const isValid = await validateImageUrl(imageUrl);
     if (isValid) {
       return imageUrl;
     }
-    console.log(`    Image failed validation, trying another...`);
+    console.log(`    Pool image failed validation, trying another...`);
   }
-  // Fall back to a known-good default
-  console.log(`    Using fallback image for ${category}`);
+
+  // Last resort fallback
+  console.log(`    Using random fallback for ${category}`);
   return getRandomImage(category);
 }
 
@@ -233,8 +330,8 @@ async function curateAndCategorize(rawArticles) {
   for (const article of allCurated) {
     article.slug = generateSlug(article.headline);
     article.author = getAuthor(article.category);
-    // Assign validated image from curated pool (100 per category)
-    article.imageUrl = await getValidImage(article.category);
+    // Search for content-relevant image (Pexels first, then curated pool fallback)
+    article.imageUrl = await getValidImage(article);
     console.log(`  ✓ ${article.headline.slice(0, 50)}...`);
   }
 
