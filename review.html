@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Articles | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #f5f4f2;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        .header {
+            background: #4368ff;
+            color: white;
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 { font-size: 1.5rem; font-weight: 800; }
+        .header-stats {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+        .stat { font-size: 0.9rem; opacity: 0.9; }
+        .stat strong { font-size: 1.2rem; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+
+        .auth-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .auth-section h2 { margin-bottom: 1rem; font-size: 1.2rem; }
+        .auth-section p { color: #666; margin-bottom: 1rem; font-size: 0.9rem; }
+        .auth-section input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: inherit;
+            margin-bottom: 1rem;
+        }
+        .auth-section input:focus { outline: none; border-color: #4368ff; }
+        .auth-section button {
+            background: #4368ff;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .auth-section button:hover { background: #3357ee; }
+        .auth-section.hidden { display: none; }
+
+        .publish-bar {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .publish-info { color: #666; }
+        .btn-publish {
+            background: #1B873F;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn-publish:hover { background: #156b32; transform: translateY(-2px); }
+        .btn-publish:disabled { background: #ccc; cursor: not-allowed; transform: none; }
+
+        .article-item {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-left: 4px solid #1B873F;
+            transition: all 0.2s;
+        }
+        .article-item.denied { border-left-color: #e85d4c; opacity: 0.7; }
+        .article-header {
+            padding: 1rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            cursor: pointer;
+        }
+        .article-header:hover { background: #f9f9f9; }
+        .article-status { width: 24px; flex-shrink: 0; }
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: block;
+            background: #1B873F;
+        }
+        .denied .status-indicator { background: #e85d4c; }
+        .article-info { flex: 1; min-width: 0; }
+        .category-tag {
+            display: inline-block;
+            color: white;
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            margin-bottom: 0.25rem;
+        }
+        .article-info h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .article-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+        .btn {
+            border: 2px solid #ddd;
+            background: white;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn:hover { background: #f5f5f5; }
+        .btn-approve.active { background: #1B873F; color: white; border-color: #1B873F; }
+        .btn-deny.active { background: #e85d4c; color: white; border-color: #e85d4c; }
+        .expand-icon {
+            color: #999;
+            transition: transform 0.2s;
+            flex-shrink: 0;
+        }
+        .article-item.expanded .expand-icon { transform: rotate(180deg); }
+        .article-content {
+            display: none;
+            padding: 0 1.5rem 1.5rem 3.5rem;
+            border-top: 1px solid #eee;
+        }
+        .article-item.expanded .article-content { display: block; }
+        .article-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            color: #888;
+            font-size: 0.85rem;
+            margin: 1rem 0;
+        }
+        .excerpt {
+            font-size: 0.95rem;
+            color: #444;
+            margin-bottom: 1rem;
+        }
+        .full-content {
+            background: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .full-content h4 { font-size: 0.8rem; color: #666; text-transform: uppercase; margin: 0.5rem 0; }
+        .full-content p { font-size: 0.9rem; margin-bottom: 0.75rem; }
+        .source-link { color: #4368ff; font-weight: 600; text-decoration: none; }
+        .source-link:hover { text-decoration: underline; }
+        .loading { text-align: center; padding: 3rem; color: #666; }
+        .message {
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+        .message.success { background: #d4edda; color: #155724; }
+        .message.error { background: #f8d7da; color: #721c24; }
+        .message.info { background: #cce5ff; color: #004085; }
+
+        .bulk-actions {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .bulk-actions button {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .bulk-actions button:hover { background: #eee; }
+
+        @media (max-width: 768px) {
+            .header { flex-direction: column; gap: 1rem; text-align: center; }
+            .publish-bar { flex-direction: column; gap: 1rem; text-align: center; }
+            .article-header { flex-wrap: wrap; }
+            .article-actions { width: 100%; justify-content: flex-end; margin-top: 0.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Review Today's Articles</h1>
+        <div class="header-stats">
+            <div class="stat"><strong id="approved-count">0</strong> approved</div>
+            <div class="stat"><strong id="total-count">0</strong> total</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="message"></div>
+
+        <div id="auth-section" class="auth-section">
+            <h2>Authentication Required</h2>
+            <p>To publish articles, enter your GitHub Personal Access Token. This is stored only in your browser.</p>
+            <p><a href="https://github.com/settings/tokens/new?description=News%20Review%20CMS&scopes=repo" target="_blank">Create a token here</a> (needs 'repo' scope)</p>
+            <input type="password" id="github-token" placeholder="ghp_xxxxxxxxxxxx">
+            <button onclick="saveToken()">Save Token</button>
+        </div>
+
+        <div id="main-content" style="display: none;">
+            <div class="publish-bar">
+                <div class="publish-info">
+                    Review articles below, then publish when ready.
+                </div>
+                <button class="btn-publish" onclick="publish()" id="publish-btn">
+                    Publish Approved Articles
+                </button>
+            </div>
+
+            <div class="bulk-actions">
+                <button onclick="approveAll()">Approve All</button>
+                <button onclick="denyAll()">Deny All</button>
+            </div>
+
+            <div id="articles-list">
+                <div class="loading">Loading articles...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let articles = [];
+        let originalData = null;
+        const GITHUB_REPO = 'dannygivesacrap/news-thats-not-crap';
+        const GITHUB_BRANCH = 'main';
+        const DATA_PATH = 'data/curated-articles.json';
+
+        const categoryColors = {
+            climate: '#2dcb98',
+            health: '#e85d4c',
+            science: '#4368ff',
+            wildlife: '#e84393',
+            people: '#7b68ee'
+        };
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text || '';
+            return div.innerHTML;
+        }
+
+        function getToken() {
+            return localStorage.getItem('github_token');
+        }
+
+        function saveToken() {
+            const token = document.getElementById('github-token').value.trim();
+            if (token) {
+                localStorage.setItem('github_token', token);
+                document.getElementById('auth-section').classList.add('hidden');
+                document.getElementById('main-content').style.display = 'block';
+                loadArticles();
+            }
+        }
+
+        async function loadArticles() {
+            try {
+                // Load from the live site's data file
+                const response = await fetch('data/curated-articles.json?' + Date.now());
+                if (!response.ok) throw new Error('Could not load articles');
+
+                originalData = await response.json();
+
+                // Handle both old and new data structures
+                if (originalData.allArticles) {
+                    articles = originalData.allArticles;
+                } else {
+                    articles = [
+                        originalData.hero,
+                        ...(originalData.featured || []),
+                        ...(originalData.more || [])
+                    ].filter(Boolean);
+                }
+
+                // Initialize approval status
+                articles.forEach((article, i) => {
+                    if (article.approved === undefined) {
+                        article.approved = true;
+                    }
+                    article._index = i;
+                });
+
+                renderArticles();
+                updateCounts();
+            } catch (error) {
+                document.getElementById('articles-list').innerHTML =
+                    `<div class="message error">Error loading articles: ${escapeHtml(error.message)}</div>`;
+            }
+        }
+
+        function renderArticles() {
+            const html = articles.map((article, index) => {
+                const statusClass = article.approved ? 'approved' : 'denied';
+                const categoryColor = categoryColors[article.category] || '#666';
+
+                return `
+                    <div class="article-item ${statusClass}" data-index="${index}">
+                        <div class="article-header" onclick="toggleArticle(${index})">
+                            <div class="article-status">
+                                <span class="status-indicator"></span>
+                            </div>
+                            <div class="article-info">
+                                <span class="category-tag" style="background: ${categoryColor}">${article.category || 'general'}</span>
+                                <h3>${escapeHtml(article.headline)}</h3>
+                            </div>
+                            <div class="article-actions">
+                                <button class="btn btn-approve ${article.approved ? 'active' : ''}" onclick="event.stopPropagation(); setApproval(${index}, true)">Approve</button>
+                                <button class="btn btn-deny ${!article.approved ? 'active' : ''}" onclick="event.stopPropagation(); setApproval(${index}, false)">Deny</button>
+                            </div>
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="article-content" id="content-${index}">
+                            <div class="article-meta">
+                                <span>By ${escapeHtml(article.author)}</span>
+                                <span>${article.readTime || 4} min read</span>
+                                <span>Source: ${escapeHtml(article.sourceName)}</span>
+                            </div>
+                            <p class="excerpt">${escapeHtml(article.excerpt)}</p>
+                            ${article.fullContent ? `
+                                <div class="full-content">
+                                    <h4>Lead</h4>
+                                    <p>${escapeHtml(article.fullContent.lead)}</p>
+                                    <h4>Body</h4>
+                                    ${(article.fullContent.body || []).map(p => `<p>${escapeHtml(p)}</p>`).join('')}
+                                </div>
+                            ` : ''}
+                            <a href="${article.sourceUrl}" target="_blank" class="source-link">View Original Source →</a>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            document.getElementById('articles-list').innerHTML = html;
+        }
+
+        function toggleArticle(index) {
+            const item = document.querySelector(`.article-item[data-index="${index}"]`);
+            item.classList.toggle('expanded');
+        }
+
+        function setApproval(index, approved) {
+            articles[index].approved = approved;
+
+            const item = document.querySelector(`.article-item[data-index="${index}"]`);
+            item.classList.toggle('denied', !approved);
+            item.classList.toggle('approved', approved);
+            item.querySelector('.btn-approve').classList.toggle('active', approved);
+            item.querySelector('.btn-deny').classList.toggle('active', !approved);
+
+            updateCounts();
+        }
+
+        function approveAll() {
+            articles.forEach((_, i) => setApproval(i, true));
+        }
+
+        function denyAll() {
+            articles.forEach((_, i) => setApproval(i, false));
+        }
+
+        function updateCounts() {
+            const approvedCount = articles.filter(a => a.approved).length;
+            document.getElementById('approved-count').textContent = approvedCount;
+            document.getElementById('total-count').textContent = articles.length;
+        }
+
+        async function publish() {
+            const token = getToken();
+            if (!token) {
+                showMessage('Please enter your GitHub token first.', 'error');
+                return;
+            }
+
+            const btn = document.getElementById('publish-btn');
+            btn.disabled = true;
+            btn.textContent = 'Publishing...';
+
+            try {
+                // Filter to approved articles
+                const approvedArticles = articles.filter(a => a.approved);
+
+                if (approvedArticles.length === 0) {
+                    throw new Error('No articles approved. Approve at least one article to publish.');
+                }
+
+                // Build new data structure
+                const newData = {
+                    generatedAt: new Date().toISOString(),
+                    publishedAt: new Date().toISOString(),
+                    homepage: {
+                        hero: approvedArticles.find(a => a.isHomepageHero) || approvedArticles[0],
+                        featured: approvedArticles.filter(a => a.isHomepageFeatured).slice(0, 14)
+                    },
+                    sections: {
+                        climate: approvedArticles.filter(a => a.category === 'climate'),
+                        health: approvedArticles.filter(a => a.category === 'health'),
+                        science: approvedArticles.filter(a => a.category === 'science'),
+                        wildlife: approvedArticles.filter(a => a.category === 'wildlife'),
+                        people: approvedArticles.filter(a => a.category === 'people')
+                    },
+                    allArticles: approvedArticles
+                };
+
+                // Get current file SHA
+                const fileResponse = await fetch(
+                    `https://api.github.com/repos/${GITHUB_REPO}/contents/${DATA_PATH}?ref=${GITHUB_BRANCH}`,
+                    { headers: { 'Authorization': `token ${token}` } }
+                );
+
+                if (!fileResponse.ok) {
+                    throw new Error('Could not access GitHub repository. Check your token.');
+                }
+
+                const fileData = await fileResponse.json();
+                const sha = fileData.sha;
+
+                // Update file
+                const updateResponse = await fetch(
+                    `https://api.github.com/repos/${GITHUB_REPO}/contents/${DATA_PATH}`,
+                    {
+                        method: 'PUT',
+                        headers: {
+                            'Authorization': `token ${token}`,
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            message: `Publish ${approvedArticles.length} approved articles`,
+                            content: btoa(unescape(encodeURIComponent(JSON.stringify(newData, null, 2)))),
+                            sha: sha,
+                            branch: GITHUB_BRANCH
+                        })
+                    }
+                );
+
+                if (!updateResponse.ok) {
+                    const errorData = await updateResponse.json();
+                    throw new Error(errorData.message || 'Failed to update GitHub');
+                }
+
+                showMessage(`Published ${approvedArticles.length} articles! Netlify will rebuild the site shortly.`, 'success');
+
+            } catch (error) {
+                showMessage('Error: ' + error.message, 'error');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = 'Publish Approved Articles';
+            }
+        }
+
+        function showMessage(text, type) {
+            document.getElementById('message').innerHTML =
+                `<div class="message ${type}">${escapeHtml(text)}</div>`;
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            if (getToken()) {
+                document.getElementById('auth-section').classList.add('hidden');
+                document.getElementById('main-content').style.display = 'block';
+                loadArticles();
+            }
+        });
+    </script>
+</body>
+</html>

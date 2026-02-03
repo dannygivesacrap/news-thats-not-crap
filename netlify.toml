@@ -1,3 +1,6 @@
 [build]
-  # No build command needed - it's a static site
+  command = "npm install && node scripts/generate-site.js"
   publish = "."
+
+[build.environment]
+  NODE_VERSION = "20"
