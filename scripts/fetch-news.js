@@ -3,6 +3,7 @@
  * Outputs raw articles to data/raw-articles.json
  */
 
+import 'dotenv/config';
 import Parser from 'rss-parser';
 import fs from 'fs';
 import path from 'path';

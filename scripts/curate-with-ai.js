@@ -3,6 +3,7 @@
  * CRITICAL: Only uses facts from the original source - no fabrication
  */
 
+import 'dotenv/config';
 import Anthropic from '@anthropic-ai/sdk';
 import fs from 'fs';
 import path from 'path';
@@ -52,23 +53,28 @@ function getAuthor(category) {
 async function curateArticles(rawArticles) {
   console.log('Curating articles with Claude...\n');
 
-  const prompt = `You are a news curator for "News That's Not Crap" - a positive news site.
+  const systemPrompt = `You are a fact-obsessed news curator. Your #1 rule: NEVER invent, fabricate, or embellish ANY details. You can only use information explicitly stated in the source material. If in doubt, leave it out. This is non-negotiable.`;
+
+  const prompt = `You are a news curator for "News That's Not Crap" - a positive news site by Who Gives A Crap.
 
 From the following articles, select the 12 best stories that are:
 1. Genuinely positive/constructive (not just "less bad" news)
 2. Significant and newsworthy
 3. Diverse across categories (aim for mix of climate, health, science, wildlife, people stories)
 
-CRITICAL RULES FOR FACTUAL ACCURACY:
-- ONLY use facts that are explicitly stated in the source article
-- Do NOT invent statistics, quotes, or details
-- Do NOT fabricate expert names or organizations
-- If the source doesn't provide specific numbers, don't make them up
-- Keep the source URL - it will be linked prominently
+⚠️ ABSOLUTE RULES FOR FACTUAL ACCURACY - VIOLATION IS UNACCEPTABLE:
+- ONLY use facts EXPLICITLY stated in the source article text provided
+- Do NOT invent statistics, percentages, numbers, or figures
+- Do NOT fabricate quotes from anyone
+- Do NOT make up expert names, researcher names, or organization names
+- Do NOT add details that "seem likely" but aren't stated
+- If the source doesn't provide specific numbers, DO NOT guess or estimate
+- When uncertain, use phrases like "according to the report"
+- The sourceUrl MUST be copied exactly from the source - it will be the primary link
 
 For each selected article, provide:
-1. A rewritten headline (punchy, engaging, WGAC voice - slightly irreverent but factual)
-2. A short excerpt (2-3 sentences summarizing the key point - ONLY facts from the source)
+1. A rewritten headline (punchy, engaging, WGAC voice - slightly irreverent but FACTUALLY GROUNDED)
+2. A short excerpt (2-3 sentences summarizing ONLY facts from the source)
 3. The category (climate/health/science/wildlife/people)
 4. Estimated read time (3-6 min)
 
@@ -99,6 +105,7 @@ Respond in JSON format:
     const response = await anthropic.messages.create({
       model: 'claude-sonnet-4-20250514',
       max_tokens: 4000,
+      system: systemPrompt,
       messages: [{ role: 'user', content: prompt }]
     });
 
@@ -128,7 +135,9 @@ Respond in JSON format:
 async function generateArticleContent(article) {
   console.log(`Generating full article: ${article.headline}`);
 
-  const prompt = `Write a full article for "News That's Not Crap" based on this story.
+  const systemPrompt = `You are a writer who is obsessively committed to factual accuracy. You NEVER invent details, statistics, quotes, names, or any information not explicitly provided in the source. If information isn't in the source, you don't include it - no exceptions. Your writing is engaging and warm, but every single fact must come directly from the source material.`;
+
+  const prompt = `Write a full article for "News That's Not Crap" (by Who Gives A Crap) based on this story.
 
 ORIGINAL SOURCE:
 Title: ${article.originalTitle}
@@ -136,33 +145,36 @@ Excerpt: ${article.excerpt}
 Source: ${article.sourceName}
 URL: ${article.sourceUrl}
 
-CRITICAL RULES - YOU MUST FOLLOW THESE:
-1. ONLY use facts from the source article - do not invent ANY details
-2. Do NOT make up statistics, percentages, or numbers not in the source
-3. Do NOT fabricate quotes or expert names
-4. Do NOT create fictional research studies or organizations
-5. If you need more context, say "according to the report" rather than inventing specifics
-6. The tone should be optimistic and slightly irreverent (WGAC style) but FACTUALLY ACCURATE
+⚠️ ABSOLUTE RULES - THESE ARE NON-NEGOTIABLE:
+1. ONLY use facts from the source excerpt above - do not invent ANY details
+2. Do NOT make up statistics, percentages, or numbers - if they're not in the source, don't include them
+3. Do NOT fabricate quotes - if there's no quote in the source, don't create one
+4. Do NOT invent researcher names, expert names, or organization names
+5. Do NOT add "likely" or "probably" details that aren't stated
+6. Use phrases like "according to the report" or "the source states" when summarizing
+7. If the source is light on details, write a shorter article rather than padding with invented info
+8. The tone should be warm, optimistic, and slightly cheeky (WGAC brand voice) but EVERY FACT must be verifiable from the source
 
 STRUCTURE:
 - Lead paragraph (2-3 sentences, hook the reader)
-- Body (3-4 paragraphs explaining the story using ONLY source facts)
-- Keep it concise - this is a summary article, not investigative journalism
+- Body (2-3 paragraphs explaining the story using ONLY source facts)
+- Keep it concise - better to be short and accurate than long and fabricated
 - End on an optimistic but grounded note
 
-Write in a warm, accessible, slightly cheeky tone - like a smart friend telling you good news.
+Write in a warm, accessible, slightly self-deprecating tone - like a smart friend sharing good news.
 
 Return as JSON:
 {
   "lead": "...",
   "body": ["paragraph1", "paragraph2", "paragraph3"],
-  "pullQuote": "A key quote or striking fact from the article (ONLY if in source, otherwise null)"
+  "pullQuote": "A key quote or striking fact from the article (ONLY if explicitly in source, otherwise null)"
 }`;
 
   try {
     const response = await anthropic.messages.create({
       model: 'claude-sonnet-4-20250514',
       max_tokens: 2000,
+      system: systemPrompt,
       messages: [{ role: 'user', content: prompt }]
     });
 
