@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Clash: AI Challenges 100,000 Humans in Battle of Ideas | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-green: #1B873F;
+            --wgac-green-light: #d7f6a4;
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --wgac-yellow: #f0c808;
+            --wgac-purple: #7b68ee;
+            --wgac-pink: #e84393;
+            --wgac-brown: #a1512e;
+            --white: #ffffff;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Nunito', -apple-system, sans-serif;
+            --font-body: 'Nunito', -apple-system, sans-serif;
+            --font-serif: 'Instrument Serif', Georgia, serif;
+            --radius-sm: 0.5rem;
+            --radius-md: 1rem;
+            --radius-lg: 1.5rem;
+            --radius-pill: 100px;
+            --category-color: #4368ff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--cream);
+            color: var(--dark);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { color: inherit; text-decoration: none; }
+
+        /* Header */
+        .site-header { position: sticky; top: 0; z-index: 1000; }
+        .header-top-bar { background: var(--dark); display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 2rem; }
+        .header-tagline, .header-date { font-size: 0.7rem; font-weight: 700; color: rgba(255,255,255,0.5); }
+        .header-main { background: var(--wgac-blue); display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem; }
+        .logo { display: flex; align-items: center; gap: 0.5rem; text-decoration: none; }
+        .logo-text { font-size: 1.4rem; font-weight: 900; color: var(--white); text-transform: uppercase; letter-spacing: -0.03em; }
+        .crap-box { background: var(--white); padding: 0.4rem 0.6rem; border-radius: 0.3rem; }
+        .crap-box img { height: 1.3rem; display: block; filter: brightness(0) saturate(100%) invert(29%) sepia(98%) saturate(1654%) hue-rotate(221deg) brightness(101%) contrast(102%); }
+        .main-nav { display: flex; gap: 0.35rem; }
+        .nav-link { color: var(--white); font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; padding: 0.5rem 1rem; border-radius: var(--radius-pill); background: rgba(255,255,255,0.15); transition: all 0.2s ease; }
+        .nav-link:hover { background: rgba(255,255,255,0.3); }
+        .nav-link.active { background: var(--white); color: var(--wgac-blue); }
+
+        /* Article Hero */
+        .article-hero { position: relative; height: 70vh; min-height: 500px; max-height: 700px; overflow: hidden; }
+        .article-hero img { width: 100%; height: 100%; object-fit: cover; }
+        .article-hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%); }
+        .article-hero-content { position: absolute; bottom: 0; left: 0; right: 0; padding: 4rem; max-width: 900px; margin: 0 auto; text-align: center; }
+        .article-tag { display: inline-block; background: var(--category-color); color: white; padding: 0.4rem 1rem; font-weight: 800; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1.5rem; border-radius: var(--radius-pill); }
+        .article-hero h1 { font-family: var(--font-serif); font-size: clamp(2.5rem, 5vw, 3.5rem); font-weight: 400; line-height: 1.15; color: white; margin-bottom: 1.5rem; }
+        .article-meta { color: rgba(255,255,255,0.7); font-size: 0.9rem; font-weight: 600; }
+        .article-meta span { margin: 0 0.75rem; }
+
+        /* Article Content */
+        .article-content { max-width: 700px; margin: 0 auto; padding: 4rem 2rem; }
+        .article-lead { font-size: 1.35rem; line-height: 1.7; color: var(--dark); margin-bottom: 2rem; font-weight: 500; }
+        .article-body p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; color: var(--gray-600); }
+        .article-body h2 { font-family: var(--font-display); font-size: 1.75rem; font-weight: 900; margin: 3rem 0 1.5rem; color: var(--dark); }
+        .article-body blockquote { border-left: 4px solid var(--category-color); padding-left: 1.5rem; margin: 2rem 0; font-family: var(--font-serif); font-size: 1.4rem; font-style: italic; color: var(--dark); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+
+        .sources-box { margin-top: 3rem; padding: 2rem; background: var(--gray-100); border-left: 4px solid var(--category-color); border-radius: 0 var(--radius-md) var(--radius-md) 0; }
+        .sources-box h3 { font-family: var(--font-body); font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: var(--gray-600); margin-bottom: 1rem; }
+        .sources-box ul { list-style: none; }
+        .sources-box li { margin-bottom: 0.5rem; }
+        .sources-box a { color: var(--category-color); font-size: 0.9rem; font-weight: 600; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s ease; }
+        .sources-box a:hover { border-bottom-color: var(--category-color); }
+
+        /* Related Articles */
+        .related-section { background: var(--gray-100); padding: 4rem 2rem; margin-top: 4rem; }
+        .related-inner { max-width: 1200px; margin: 0 auto; }
+        .related-title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 900; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--dark); }
+        .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        .related-card { background: white; border-radius: var(--radius-lg); overflow: hidden; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .related-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
+        .related-card:hover h4 { color: var(--wgac-blue); }
+        .related-card img { width: 100%; height: 180px; object-fit: cover; display: block; }
+        .related-card-content { padding: 1.25rem; }
+        .related-card h4 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; line-height: 1.35; transition: color 0.2s ease; }
+
+        /* Footer */
+        .site-footer { background: var(--dark); color: var(--white); padding: 4rem 2rem; }
+        .footer-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; }
+        .footer-brand { max-width: 320px; }
+        .footer-logo { display: flex; align-items: center; gap: 0.4rem; margin-bottom: 1rem; }
+        .footer-logo .logo-text { font-size: 1rem; font-weight: 900; color: var(--white); text-transform: uppercase; letter-spacing: -0.03em; }
+        .footer-logo .crap-box { background: var(--white); padding: 0.3rem 0.5rem; border-radius: 0.25rem; }
+        .footer-logo .crap-box img { height: 0.9rem; filter: brightness(0) saturate(100%) invert(29%) sepia(98%) saturate(1654%) hue-rotate(221deg) brightness(101%) contrast(102%); }
+        .footer-tagline { font-size: 0.9rem; color: var(--gray-400); }
+        .footer-nav { display: flex; gap: 4rem; }
+        .footer-col h4 { font-size: 0.7rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; color: var(--gray-400); margin-bottom: 1rem; }
+        .footer-col ul { list-style: none; }
+        .footer-col li { margin-bottom: 0.5rem; }
+        .footer-col a { font-size: 0.9rem; color: var(--white); opacity: 0.7; transition: opacity 0.2s; }
+        .footer-col a:hover { opacity: 1; }
+        .footer-attribution { max-width: 1400px; margin: 2rem auto 0; text-align: center; font-size: 0.85rem; color: var(--gray-400); display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+        .wgac-footer-logo { height: 1.5rem; filter: brightness(0) invert(1); opacity: 0.7; transition: opacity 0.2s; }
+        .wgac-footer-logo:hover { opacity: 1; }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .related-grid { grid-template-columns: 1fr; }
+            .footer-content { flex-direction: column; gap: 3rem; }
+        }
+        @media (max-width: 768px) {
+            .header-top-bar { padding: 0.5rem 1rem; }
+            .header-main { padding: 1rem; flex-direction: column; gap: 1rem; }
+            .main-nav { flex-wrap: wrap; justify-content: center; }
+            .article-hero-content { padding: 2rem 1.5rem; }
+            .article-content { padding: 2rem 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-top-bar">
+            <span class="header-tagline">The antidote to doom-scrolling</span>
+            <span class="header-date">February 3, 2026</span>
+        </div>
+        <div class="header-main">
+            <a href="../index.html" class="logo">
+                <span class="logo-text">News That's Not</span>
+                <div class="crap-box"><img src="../crap-logo-white.png" alt="crap"></div>
+            </a>
+            <nav class="main-nav">
+                <a href="../index.html" class="nav-link">Today</a>
+                <a href="../climate.html" class="nav-link">Climate</a>
+                <a href="../health.html" class="nav-link">Health</a>
+                <a href="../science.html" class="nav-link active">Science</a>
+                <a href="../people.html" class="nav-link">People</a>
+                <a href="../wildlife.html" class="nav-link">Wildlife</a>
+                <a href="../cats.html" class="nav-link">Cats</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Article Hero -->
+    <div class="article-hero">
+        <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1200&q=80" alt="Creative Clash: AI Challenges 100,000 Humans in Battle of Ideas">
+        <div class="article-hero-overlay"></div>
+        <div class="article-hero-content">
+            <span class="article-tag">Science</span>
+            <h1>Creative Clash: AI Challenges 100,000 Humans in Battle of Ideas</h1>
+            <div class="article-meta">
+                <span>By Al Gorithm</span>
+                <span>·</span>
+                <span>February 3, 2026</span>
+                <span>·</span>
+                <span>4 min read</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Article Content -->
+    <article class="article-content">
+        <p class="article-lead">
+            What happens when you pit 100,000 humans against some of the world&#039;s most advanced AI in a creativity showdown? The results might surprise you—and give you reason to feel pretty good about that poem you scribbled in your notebook last week.
+        </p>
+
+        <div class="article-body">
+            <p>A massive new study threw down the creative gauntlet, testing generative AI systems against over 100,000 people on various creativity challenges. The verdict? AI has officially crossed into territory where it can outperform the average human on certain creativity tests. That&#039;s right—our artificial friends are getting pretty darn creative.</p>
+
+            <p>But before you start worrying that robots are about to out-Shakespeare Shakespeare, here&#039;s the plot twist that&#039;ll restore your faith in human imagination: the most creative people—especially those talented folks in the top 10%—are still leaving AI in the creative dust. When it comes to rich, complex creative work like poetry and storytelling, humans are holding their own and then some.</p>
+
+            <p>This study essentially confirms what many of us suspected: creativity isn&#039;t just one skill, but a whole spectrum of abilities. Sure, AI might be able to churn out decent creative content that beats what most of us could produce on our lunch break. But when it comes to the deep, nuanced, soul-stirring stuff that makes us truly human? We&#039;re still the champions of our own creative destiny.</p>
+
+            <div class="sources-box">
+                <h3>Original Source</h3>
+                <ul>
+                    <li><a href="https://www.sciencedaily.com/releases/2026/01/260125083356.htm" target="_blank">Science Daily Mind: Researchers tested AI against 100,000 humans on creativity</a></li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <span class="logo-text">News That's Not</span>
+                    <div class="crap-box"><img src="../crap-logo-white.png" alt="crap"></div>
+                </div>
+                <p class="footer-tagline">The antidote to doom scrolling.</p>
+            </div>
+            <nav class="footer-nav">
+                <div class="footer-col">
+                    <h4>Sections</h4>
+                    <ul>
+                        <li><a href="../climate.html">Climate</a></li>
+                        <li><a href="../health.html">Health</a></li>
+                        <li><a href="../science.html">Science</a></li>
+                        <li><a href="../people.html">People</a></li>
+                        <li><a href="../wildlife.html">Wildlife</a></li>
+                        <li><a href="../cats.html">Cats</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="../mission.html">Our Mission</a></li>
+                        <li><a href="../team.html">Team</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="footer-attribution">
+            <span>Proudly produced by the very handsome people at</span>
+            <a href="https://whogivesacrap.org" target="_blank">
+                <img src="../WGAC-Logo-White.png" alt="Who Gives A Crap" class="wgac-footer-logo">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

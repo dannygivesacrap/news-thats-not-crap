@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-02-03T05:29:04.301Z",
-  "articleCount": 33,
+  "updatedAt": "2026-02-03T10:55:20.826Z",
+  "articleCount": 48,
   "categoryCounts": {
     "climate": 6,
-    "health": 6,
-    "science": 7,
-    "wildlife": 4,
-    "people": 10
+    "health": 11,
+    "science": 16,
+    "wildlife": 6,
+    "people": 9
   },
-  "siteGeneratedAt": "2026-02-03T05:29:09.264Z",
-  "articlePagesGenerated": 33
+  "siteGeneratedAt": "2026-02-03T10:55:20.926Z",
+  "articlePagesGenerated": 48
 }
