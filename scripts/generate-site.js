@@ -1,5 +1,6 @@
 /**
  * Generate/update site HTML with curated articles
+ * Updated to match the new WGAC-inspired design
  */
 
 import fs from 'fs';
@@ -10,13 +11,22 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.join(__dirname, '..');
 const DATA_DIR = path.join(ROOT_DIR, 'data');
 
-// Category tag colors
+// Category tag classes
 const TAG_CLASSES = {
   climate: 'tag-climate',
   health: 'tag-health',
   science: 'tag-science',
   wildlife: 'tag-wildlife',
   people: 'tag-people'
+};
+
+// Category emojis for ticker
+const CATEGORY_EMOJIS = {
+  climate: ['🌍', '🌱', '⚡', '🌊', '☀️', '💨'],
+  health: ['🔬', '💊', '🩺', '🧬', '💉', '❤️'],
+  science: ['🔭', '🧪', '🚀', '🔬', '🕷️', '⚛️'],
+  wildlife: ['🐦', '🦁', '🐋', '🦋', '🐘', '🐢'],
+  people: ['👥', '🏠', '❄️', '🎓', '🤝', '💪']
 };
 
 // Unsplash images by category (fallbacks)
@@ -28,7 +38,7 @@ const CATEGORY_IMAGES = {
   ],
   health: [
     'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&q=80',
-    'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80',
+    'https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&q=80',
     'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80'
   ],
   science: [
@@ -38,7 +48,7 @@ const CATEGORY_IMAGES = {
   ],
   wildlife: [
     'https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=800&q=80',
-    'https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=800&q=80',
+    'https://images.unsplash.com/photo-1552727131-5fc6af16796d?w=800&q=80',
     'https://images.unsplash.com/photo-1534759926787-89fa60f35b87?w=800&q=80'
   ],
   people: [
@@ -53,9 +63,17 @@ function getImage(category, index = 0) {
   return images[index % images.length];
 }
 
+function getEmoji(category) {
+  const emojis = CATEGORY_EMOJIS[category] || CATEGORY_EMOJIS.people;
+  return emojis[Math.floor(Math.random() * emojis.length)];
+}
+
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 function formatDate(date) {
   return new Date(date).toLocaleDateString('en-US', {
-    weekday: 'long',
     year: 'numeric',
     month: 'long',
     day: 'numeric'
@@ -63,25 +81,28 @@ function formatDate(date) {
 }
 
 function generateTickerContent(articles) {
-  const items = articles.slice(0, 8).map(a => a.headline);
-  const ticker = items.map(item =>
-    `${item} <span class="ticker-divider"></span>`
-  ).join('\n            ');
+  // Generate ticker items with emojis and spacing
+  const items = articles.slice(0, 8).map(a => {
+    const emoji = getEmoji(a.category);
+    return `${emoji} ${a.headline}`;
+  });
+
+  // Join with spacing and duplicate for seamless loop
+  const spacing = ' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ';
+  const tickerText = items.join(spacing);
 
   // Duplicate for seamless loop
-  return ticker + '\n            ' + ticker;
+  return tickerText + spacing + tickerText;
 }
 
 function generateHeroHTML(article) {
-  const tagClass = TAG_CLASSES[article.category] || 'tag-people';
-
-  return `    <a href="${article.sourceUrl}" target="_blank" class="hero">
+  return `        <a href="${article.sourceUrl}" target="_blank" class="hero">
         <div class="hero-image">
             <img src="${getImage(article.category, 0)}" alt="${article.headline}">
         </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <span class="hero-tag">${article.category.charAt(0).toUpperCase() + article.category.slice(1)}</span>
+            <span class="hero-tag">${capitalize(article.category)}</span>
             <h1 class="hero-title">${article.headline}</h1>
             <p class="hero-excerpt">${article.excerpt}</p>
             <div class="hero-meta">
@@ -93,9 +114,9 @@ function generateHeroHTML(article) {
     </a>`;
 }
 
-function generateFeaturedCardHTML(article, index, isFeatured = false) {
+function generateFeaturedCardHTML(article, index) {
   const tagClass = TAG_CLASSES[article.category] || 'tag-people';
-  const cardClass = isFeatured ? 'article-card featured' : 'article-card regular';
+  const cardClass = index === 0 ? 'article-card featured' : 'article-card regular';
 
   return `            <a href="${article.sourceUrl}" target="_blank" class="${cardClass}">
                 <div class="card-inner">
@@ -103,7 +124,7 @@ function generateFeaturedCardHTML(article, index, isFeatured = false) {
                         <img src="${getImage(article.category, index)}" alt="${article.headline}">
                     </div>
                     <div class="card-content">
-                        <div class="card-tag ${tagClass}">${article.category.charAt(0).toUpperCase() + article.category.slice(1)}</div>
+                        <div class="card-tag ${tagClass}">${capitalize(article.category)}</div>
                         <h3 class="card-title">${article.headline}</h3>
                         <p class="card-excerpt">${article.excerpt}</p>
                         <div class="card-meta">By ${article.author} · ${article.readTime} min read · ${article.sourceName}</div>
@@ -120,7 +141,7 @@ function generateVerticalCardHTML(article, index) {
                     <img src="${getImage(article.category, index)}" alt="${article.headline}">
                 </div>
                 <div class="card-content">
-                    <div class="card-tag ${tagClass}">${article.category.charAt(0).toUpperCase() + article.category.slice(1)}</div>
+                    <div class="card-tag ${tagClass}">${capitalize(article.category)}</div>
                     <h3 class="card-title">${article.headline}</h3>
                     <p class="card-excerpt">${article.excerpt}</p>
                     <div class="card-meta">By ${article.author} · ${article.readTime} min read</div>
@@ -132,7 +153,7 @@ function generateListItemHTML(article, number) {
   return `                <a href="${article.sourceUrl}" target="_blank" class="list-item">
                     <div class="list-number">${String(number).padStart(2, '0')}</div>
                     <div class="list-content">
-                        <div class="list-tag">${article.category.charAt(0).toUpperCase() + article.category.slice(1)}</div>
+                        <div class="list-tag">${capitalize(article.category)}</div>
                         <h4 class="list-title">${article.headline}</h4>
                     </div>
                 </a>`;
@@ -144,13 +165,13 @@ function updateIndexHTML(curated) {
 
   const today = formatDate(new Date());
 
-  // Update date
+  // Update date in header
   html = html.replace(
-    /<div class="header-date">.*?<\/div>/,
-    `<div class="header-date">${today}</div>`
+    /<span class="header-date">.*?<\/span>/,
+    `<span class="header-date">${today}</span>`
   );
 
-  // Update ticker
+  // Update ticker content
   const allArticles = [curated.hero, ...curated.featured, ...curated.more];
   const tickerContent = generateTickerContent(allArticles);
   html = html.replace(
@@ -158,20 +179,20 @@ function updateIndexHTML(curated) {
     `<div class="ticker-content">\n            ${tickerContent}\n        </div>`
   );
 
-  // Update hero
+  // Update hero section
   const heroHTML = generateHeroHTML(curated.hero);
   html = html.replace(
-    /<a href="articles\/.*?" class="hero">[\s\S]*?<\/a>\s*(?=\s*<!-- Stats -->|<\!-- Stats)|<a href="[^"]*" target="_blank" class="hero">[\s\S]*?<\/a>\s*(?=\s*<!-- Stats -->)/,
-    heroHTML + '\n\n    '
+    /<!-- Hero -->\s*<a href="[^"]*"[^>]*class="hero">[\s\S]*?<\/a>/,
+    `<!-- Hero -->\n    ${heroHTML}`
   );
 
   // Update featured grid
   const featuredHTML = curated.featured.map((a, i) =>
-    generateFeaturedCardHTML(a, i, i === 0)
+    generateFeaturedCardHTML(a, i)
   ).join('\n\n');
 
   html = html.replace(
-    /<div class="featured-grid">[\s\S]*?<\/div>\s*(?=\s*<!-- Three Column Grid -->|<\!-- Three|<div class="section-header">)/,
+    /<div class="featured-grid">[\s\S]*?<\/div>\s*(?=\s*<!-- Three Column Grid -->)/,
     `<div class="featured-grid">\n${featuredHTML}\n        </div>\n\n        `
   );
 
@@ -181,25 +202,26 @@ function updateIndexHTML(curated) {
   ).join('\n\n');
 
   html = html.replace(
-    /<div class="three-col-grid">[\s\S]*?<\/div>\s*(?=\s*<!-- Data Section -->|<\!-- Data)/,
+    /<div class="three-col-grid">[\s\S]*?<\/div>\s*(?=\s*<!-- Data Section -->)/,
     `<div class="three-col-grid">\n${threeColHTML}\n        </div>\n\n        `
   );
 
-  // Update list section (remaining articles)
-  const listHTML = curated.more.slice(3, 9).map((a, i) =>
+  // Update list section (next 5 articles)
+  const listHTML = curated.more.slice(3, 8).map((a, i) =>
     generateListItemHTML(a, i + 1)
   ).join('\n\n');
 
   html = html.replace(
-    /<div class="list-grid">[\s\S]*?<\/div>\s*(?=\s*<\/div>\s*<!-- Newsletter -->|<\!-- Newsletter)/,
+    /<div class="list-grid">[\s\S]*?<\/div>\s*(?=\s*<\/div>\s*(?:<!-- Newsletter -->|<section class="newsletter"))/,
     `<div class="list-grid">\n${listHTML}\n            </div>\n        `
   );
 
   fs.writeFileSync(indexPath, html);
-  console.log('Updated index.html');
+  console.log('✅ Updated index.html');
 }
 
-async function main() {
+// Export for use as module
+export async function generateSite() {
   console.log('=== Generating site HTML ===\n');
 
   // Load curated articles
@@ -215,7 +237,11 @@ async function main() {
   // Update main index page
   updateIndexHTML(curated);
 
-  console.log('\nSite generation complete!');
+  console.log('\n🎉 Site generation complete!');
 }
 
-main().catch(console.error);
+// Run if called directly
+const isMainModule = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+if (isMainModule) {
+  generateSite().catch(console.error);
+}

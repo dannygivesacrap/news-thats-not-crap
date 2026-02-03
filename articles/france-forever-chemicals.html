@@ -6,10 +6,10 @@
     <title>France Bans "Forever Chemicals" in Historic Consumer Protection Law | News That's Not Crap</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
     <style>
         :root {
-            --wgac-brown: #a1512e;
+            --wgac-green: #1B873F;
             --wgac-green-light: #d7f6a4;
             --wgac-blue: #4368ff;
             --wgac-teal: #2dcb98;
@@ -17,14 +17,21 @@
             --wgac-yellow: #f0c808;
             --wgac-purple: #7b68ee;
             --wgac-pink: #e84393;
+            --wgac-brown: #a1512e;
+            --white: #ffffff;
             --cream: #faf9f6;
             --dark: #1a1a1a;
             --gray-100: #f5f4f2;
             --gray-200: #e8e6e3;
             --gray-400: #a09d98;
             --gray-600: #6b6761;
-            --font-display: 'Instrument Serif', Georgia, serif;
-            --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-display: 'Nunito', -apple-system, sans-serif;
+            --font-body: 'Nunito', -apple-system, sans-serif;
+            --font-serif: 'Instrument Serif', Georgia, serif;
+            --radius-sm: 0.5rem;
+            --radius-md: 1rem;
+            --radius-lg: 1.5rem;
+            --radius-pill: 100px;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -41,84 +48,84 @@
 
         /* Header */
         .site-header {
-            background: var(--dark);
-            padding: 0;
             position: sticky;
             top: 0;
             z-index: 1000;
         }
 
-        .header-top {
+        .header-top-bar {
+            background: var(--dark);
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1.25rem 3rem;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding: 0.5rem 2rem;
+        }
+
+        .header-tagline, .header-date {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: rgba(255,255,255,0.5);
+        }
+
+        .header-main {
+            background: var(--wgac-blue);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
         }
 
         .logo {
             display: flex;
-            align-items: stretch;
-            font-family: var(--font-body);
-            font-size: 1rem;
-            font-weight: 800;
+            align-items: center;
+            gap: 0.5rem;
             text-decoration: none;
         }
 
-        .logo-left {
-            background: white;
-            color: var(--dark);
-            padding: 0.5rem 0.75rem;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.5px;
-        }
-
-        .logo-right {
-            background: var(--wgac-blue);
-            color: white;
-            padding: 0.5rem 0.75rem;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.5px;
-        }
-
-        .header-date {
-            color: var(--gray-400);
-            font-size: 0.8rem;
-            font-weight: 500;
-            letter-spacing: 0.5px;
+        .logo-text {
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: var(--white);
             text-transform: uppercase;
+            letter-spacing: -0.03em;
         }
 
-        /* Navigation */
+        .crap-box {
+            background: var(--white);
+            padding: 0.4rem 0.6rem;
+            border-radius: 0.3rem;
+        }
+
+        .crap-box img {
+            height: 1.3rem;
+            display: block;
+            filter: brightness(0) saturate(100%) invert(29%) sepia(98%) saturate(1654%) hue-rotate(221deg) brightness(101%) contrast(102%);
+        }
+
         .main-nav {
             display: flex;
-            justify-content: center;
-            gap: 2px;
-            padding: 0.75rem 0;
-            background: var(--dark);
+            gap: 0.35rem;
         }
 
         .nav-link {
+            color: var(--white);
             font-size: 0.7rem;
-            font-weight: 700;
-            letter-spacing: 0.5px;
+            font-weight: 800;
             text-transform: uppercase;
+            letter-spacing: 0.5px;
             padding: 0.5rem 1rem;
-            transition: all 0.15s ease;
-            background: rgba(255,255,255,0.1);
-            color: white;
+            border-radius: var(--radius-pill);
+            background: rgba(255,255,255,0.15);
+            transition: all 0.2s ease;
         }
 
         .nav-link:hover {
-            background: white;
-            color: var(--dark);
+            background: rgba(255,255,255,0.3);
         }
 
         .nav-link.active {
-            background: var(--wgac-blue);
-            color: white;
+            background: var(--white);
+            color: var(--wgac-blue);
         }
 
         /* Article Hero */
@@ -157,16 +164,17 @@
             display: inline-block;
             background: var(--wgac-purple);
             color: white;
-            padding: 0.35rem 0.75rem;
-            font-weight: 700;
-            font-size: 0.65rem;
+            padding: 0.4rem 1rem;
+            font-weight: 800;
+            font-size: 0.7rem;
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 1.5rem;
+            border-radius: var(--radius-pill);
         }
 
         .article-hero h1 {
-            font-family: var(--font-display);
+            font-family: var(--font-serif);
             font-size: clamp(2.5rem, 5vw, 3.5rem);
             font-weight: 400;
             line-height: 1.15;
@@ -177,6 +185,7 @@
         .article-meta {
             color: rgba(255,255,255,0.7);
             font-size: 0.9rem;
+            font-weight: 600;
         }
 
         .article-meta span { margin: 0 0.75rem; }
@@ -193,7 +202,7 @@
             line-height: 1.7;
             color: var(--dark);
             margin-bottom: 2rem;
-            font-weight: 400;
+            font-weight: 500;
         }
 
         .article-body p {
@@ -206,18 +215,20 @@
         .article-body h2 {
             font-family: var(--font-display);
             font-size: 1.75rem;
+            font-weight: 900;
             margin: 3rem 0 1.5rem;
             color: var(--dark);
         }
 
         .article-body blockquote {
-            border-left: 3px solid var(--wgac-purple);
+            border-left: 4px solid var(--wgac-purple);
             padding-left: 1.5rem;
             margin: 2rem 0;
-            font-family: var(--font-display);
+            font-family: var(--font-serif);
             font-size: 1.4rem;
             font-style: italic;
             color: var(--dark);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
         }
 
         /* Stats Box */
@@ -226,11 +237,13 @@
             color: white;
             padding: 2.5rem;
             margin: 3rem 0;
+            border-radius: var(--radius-lg);
         }
 
         .stats-box h3 {
             font-family: var(--font-display);
             font-size: 1.25rem;
+            font-weight: 800;
             margin-bottom: 1.5rem;
         }
 
@@ -245,12 +258,14 @@
         .stat-number {
             font-family: var(--font-display);
             font-size: 3rem;
+            font-weight: 900;
             line-height: 1;
             margin-bottom: 0.5rem;
         }
 
         .stat-label {
             font-size: 0.8rem;
+            font-weight: 600;
             opacity: 0.9;
         }
 
@@ -262,6 +277,7 @@
         .article-figure img {
             width: 100%;
             display: block;
+            border-radius: var(--radius-md);
         }
 
         .article-figure figcaption {
@@ -276,12 +292,13 @@
             padding: 2rem;
             background: var(--gray-100);
             border-left: 4px solid var(--wgac-purple);
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
         }
 
         .sources-box h3 {
             font-family: var(--font-body);
             font-size: 0.8rem;
-            font-weight: 700;
+            font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 1px;
             color: var(--gray-600);
@@ -299,6 +316,7 @@
         .sources-box a {
             color: var(--wgac-purple);
             font-size: 0.9rem;
+            font-weight: 600;
             text-decoration: none;
             border-bottom: 1px solid transparent;
             transition: border-color 0.2s ease;
@@ -323,25 +341,32 @@
         .related-title {
             font-family: var(--font-display);
             font-size: 1.5rem;
+            font-weight: 900;
             margin-bottom: 2rem;
             padding-bottom: 1rem;
-            border-bottom: 2px solid var(--dark);
+            border-bottom: 3px solid var(--dark);
         }
 
         .related-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
+            gap: 1.5rem;
         }
 
         .related-card {
             background: white;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
             cursor: pointer;
-            transition: background 0.2s ease;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
 
-        .related-card:hover { background: var(--cream); }
-        .related-card:hover h4 { color: var(--wgac-brown); }
+        .related-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+
+        .related-card:hover h4 { color: var(--wgac-blue); }
 
         .related-card img {
             width: 100%;
@@ -357,6 +382,7 @@
         .related-card h4 {
             font-family: var(--font-display);
             font-size: 1.1rem;
+            font-weight: 800;
             line-height: 1.35;
             transition: color 0.2s ease;
         }
@@ -364,8 +390,8 @@
         /* Footer */
         .site-footer {
             background: var(--dark);
-            color: white;
-            padding: 4rem 3rem;
+            color: var(--white);
+            padding: 4rem 2rem;
         }
 
         .footer-content {
@@ -377,35 +403,38 @@
         }
 
         .footer-brand {
-            max-width: 350px;
+            max-width: 320px;
         }
 
         .footer-logo {
             display: flex;
-            align-items: stretch;
-            font-family: var(--font-body);
-            font-size: 0.85rem;
-            font-weight: 800;
+            align-items: center;
+            gap: 0.4rem;
             margin-bottom: 1rem;
-            width: fit-content;
         }
 
-        .footer-logo .logo-left {
-            background: white;
-            color: var(--dark);
-            padding: 0.4rem 0.6rem;
+        .footer-logo .logo-text {
+            font-size: 1rem;
+            font-weight: 900;
+            color: var(--white);
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
         }
 
-        .footer-logo .logo-right {
-            background: var(--wgac-blue);
-            color: white;
-            padding: 0.4rem 0.6rem;
+        .footer-logo .crap-box {
+            background: var(--white);
+            padding: 0.3rem 0.5rem;
+            border-radius: 0.25rem;
+        }
+
+        .footer-logo .crap-box img {
+            height: 0.9rem;
+            filter: brightness(0) saturate(100%) invert(29%) sepia(98%) saturate(1654%) hue-rotate(221deg) brightness(101%) contrast(102%);
         }
 
         .footer-tagline {
             font-size: 0.9rem;
             color: var(--gray-400);
-            line-height: 1.6;
         }
 
         .footer-nav {
@@ -415,7 +444,7 @@
 
         .footer-col h4 {
             font-size: 0.7rem;
-            font-weight: 700;
+            font-weight: 800;
             letter-spacing: 1px;
             text-transform: uppercase;
             color: var(--gray-400);
@@ -432,31 +461,36 @@
 
         .footer-col a {
             font-size: 0.9rem;
-            color: white;
-            opacity: 0.8;
-            transition: opacity 0.2s ease;
+            color: var(--white);
+            opacity: 0.7;
+            transition: opacity 0.2s;
         }
 
         .footer-col a:hover {
             opacity: 1;
         }
 
-        .footer-bottom {
+        .footer-attribution {
             max-width: 1400px;
-            margin: 3rem auto 0;
-            padding-top: 2rem;
-            border-top: 1px solid rgba(255,255,255,0.1);
-            font-size: 0.8rem;
+            margin: 2rem auto 0;
+            text-align: center;
+            font-size: 0.85rem;
             color: var(--gray-400);
             display: flex;
-            justify-content: space-between;
             align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
         }
 
-        .footer-update {
-            font-size: 0.7rem;
-            opacity: 0.6;
-            letter-spacing: 0.5px;
+        .wgac-footer-logo {
+            height: 1.5rem;
+            filter: brightness(0) invert(1);
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+
+        .wgac-footer-logo:hover {
+            opacity: 1;
         }
 
         /* Responsive */
@@ -471,12 +505,13 @@
         }
 
         @media (max-width: 768px) {
-            .header-top { padding: 1rem 1.5rem; }
-            .main-nav { flex-wrap: wrap; }
-            .nav-link { padding: 0.75rem 1rem; font-size: 0.7rem; }
+            .header-top-bar { padding: 0.5rem 1rem; }
+            .header-main { padding: 1rem; flex-direction: column; gap: 1rem; }
+            .main-nav { flex-wrap: wrap; justify-content: center; }
             .article-hero-content { padding: 2rem 1.5rem; }
             .article-content { padding: 2rem 1.5rem; }
             .article-figure { margin: 2rem -1.5rem; }
+            .article-figure img { border-radius: 0; }
             .article-figure figcaption { padding: 1rem 1.5rem; }
             .stats-grid { grid-template-columns: 1fr; gap: 1.5rem; }
         }
@@ -485,19 +520,25 @@
 <body>
     <!-- Header -->
     <header class="site-header">
-        <div class="header-top">
-            <a href="../index.html" class="logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></a>
-            <div class="header-date">Wednesday, January 29, 2026</div>
+        <div class="header-top-bar">
+            <span class="header-tagline">The antidote to doom-scrolling</span>
+            <span class="header-date">January 29, 2026</span>
         </div>
-        <nav class="main-nav">
-            <a href="../index.html" class="nav-link">Today</a>
-            <a href="../climate.html" class="nav-link">Climate</a>
-            <a href="../health.html" class="nav-link">Health</a>
-            <a href="../science.html" class="nav-link">Science</a>
-            <a href="../people.html" class="nav-link active">People</a>
-            <a href="../wildlife.html" class="nav-link">Wildlife</a>
-            <a href="../cats.html" class="nav-link">Cats</a>
-        </nav>
+        <div class="header-main">
+            <a href="../index.html" class="logo">
+                <span class="logo-text">News That's Not</span>
+                <div class="crap-box"><img src="../crap-logo-white.png" alt="crap"></div>
+            </a>
+            <nav class="main-nav">
+                <a href="../index.html" class="nav-link">Today</a>
+                <a href="../climate.html" class="nav-link">Climate</a>
+                <a href="../health.html" class="nav-link">Health</a>
+                <a href="../science.html" class="nav-link">Science</a>
+                <a href="../people.html" class="nav-link active">People</a>
+                <a href="../wildlife.html" class="nav-link">Wildlife</a>
+                <a href="../cats.html" class="nav-link">Cats</a>
+            </nav>
+        </div>
     </header>
 
     <!-- Article Hero -->
@@ -648,8 +689,11 @@
     <footer class="site-footer">
         <div class="footer-content">
             <div class="footer-brand">
-                <div class="footer-logo"><span class="logo-left">NEWS THAT'S NOT</span><span class="logo-right">CRAP</span></div>
-                <p class="footer-tagline">Doom-scrolling is so last decade. We bring you the breakthroughs, the victories, and the genuinely good stuff happening in the world.</p>
+                <div class="footer-logo">
+                    <span class="logo-text">News That's Not</span>
+                    <div class="crap-box"><img src="../crap-logo-white.png" alt="crap"></div>
+                </div>
+                <p class="footer-tagline">The antidote to doom scrolling.</p>
             </div>
             <nav class="footer-nav">
                 <div class="footer-col">
@@ -673,9 +717,11 @@
                 </div>
             </nav>
         </div>
-        <div class="footer-bottom">
-            <span>© 2026 News That's Not Crap. All the good vibes reserved.</span>
-            <span class="footer-update">Updated daily at 6am Eastern</span>
+        <div class="footer-attribution">
+            <span>Proudly produced by the very handsome people at</span>
+            <a href="https://whogivesacrap.org" target="_blank">
+                <img src="../WGAC-Logo-White.png" alt="Who Gives A Crap" class="wgac-footer-logo">
+            </a>
         </div>
     </footer>
 </body>

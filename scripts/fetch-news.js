@@ -158,7 +158,8 @@ function scorePositivity(article) {
   return score;
 }
 
-async function main() {
+// Export for use as module
+export async function fetchAllNews() {
   console.log('=== Fetching positive news ===\n');
 
   // Ensure data directory exists
@@ -186,12 +187,18 @@ async function main() {
   // Take top 50
   const topArticles = uniqueArticles.slice(0, 50);
 
-  console.log(`\nFound ${topArticles.length} positive articles\n`);
+  console.log(`\n✅ Found ${topArticles.length} positive articles\n`);
 
   // Save to file
   const outputPath = path.join(DATA_DIR, 'raw-articles.json');
   fs.writeFileSync(outputPath, JSON.stringify(topArticles, null, 2));
   console.log(`Saved to ${outputPath}`);
+
+  return topArticles;
 }
 
-main().catch(console.error);
+// Run if called directly
+const isMainModule = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+if (isMainModule) {
+  fetchAllNews().catch(console.error);
+}

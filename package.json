@@ -1,15 +1,18 @@
 {
   "name": "news-thats-not-crap",
   "version": "1.0.0",
+  "type": "module",
   "description": "Daily auto-updating positive news site",
   "scripts": {
     "fetch": "node scripts/fetch-news.js",
     "curate": "node scripts/curate-with-ai.js",
     "generate": "node scripts/generate-site.js",
-    "update": "npm run fetch && npm run curate && npm run generate"
+    "update": "npm run fetch && npm run curate && npm run generate",
+    "daily": "node scripts/run-daily.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.52.0",
+    "dotenv": "^16.4.0",
     "rss-parser": "^3.13.0",
     "node-fetch": "^3.3.2"
   }

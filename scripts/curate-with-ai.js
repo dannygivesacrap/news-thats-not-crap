@@ -180,7 +180,8 @@ Return as JSON:
   }
 }
 
-async function main() {
+// Export for use as module
+export async function runCuration() {
   console.log('=== Curating positive news with AI ===\n');
 
   // Load raw articles
@@ -210,7 +211,7 @@ async function main() {
   // Save curated articles
   const outputPath = path.join(DATA_DIR, 'curated-articles.json');
   fs.writeFileSync(outputPath, JSON.stringify(curated, null, 2));
-  console.log(`\nSaved curated articles to ${outputPath}`);
+  console.log(`\n✅ Saved curated articles to ${outputPath}`);
 
   // Also save timestamp
   const metaPath = path.join(DATA_DIR, 'last-update.json');
@@ -218,9 +219,15 @@ async function main() {
     updatedAt: new Date().toISOString(),
     articleCount: allArticles.length
   }, null, 2));
+
+  return curated;
 }
 
-main().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+// Run if called directly
+const isMainModule = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+if (isMainModule) {
+  runCuration().catch(err => {
+    console.error(err);
+    process.exit(1);
+  });
+}
