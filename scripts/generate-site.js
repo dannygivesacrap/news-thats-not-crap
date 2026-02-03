@@ -90,7 +90,13 @@ const CATEGORY_IMAGES = {
   ]
 };
 
-function getImage(category, index = 0) {
+function getImage(article, index = 0) {
+  // Use article-specific image if available
+  if (article && article.imageUrl) {
+    return article.imageUrl;
+  }
+  // Fall back to category-based images
+  const category = article?.category || 'people';
   const images = CATEGORY_IMAGES[category] || CATEGORY_IMAGES.people;
   return images[index % images.length];
 }
@@ -127,7 +133,7 @@ function generateArticleHTML(article) {
   const category = article.category || 'people';
   const categoryColor = CATEGORY_COLORS[category];
   const today = formatDate(new Date());
-  const imageUrl = getImage(category, 0).replace('w=800', 'w=1920');
+  const imageUrl = getImage(article, 0).replace('w=800', 'w=1920');
 
   // Get related articles (we'll populate this later)
   const fullContent = article.fullContent || { lead: article.excerpt, body: [], pullQuote: null };
@@ -416,7 +422,7 @@ function generateHeroHTML(article) {
   const tagClass = TAG_CLASSES[article.category] || 'tag-people';
   return `        <a href="articles/${article.slug}.html" class="hero">
         <div class="hero-image">
-            <img src="${getImage(article.category, 0)}" alt="${escapeHtml(article.headline)}">
+            <img src="${getImage(article, 0)}" alt="${escapeHtml(article.headline)}">
         </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
@@ -440,7 +446,7 @@ function generateFeaturedCardHTML(article, index) {
   return `            <a href="articles/${article.slug}.html" class="${cardClass}">
                 <div class="card-inner">
                     <div class="card-image">
-                        <img src="${getImage(article.category, index)}" alt="${escapeHtml(article.headline)}">
+                        <img src="${getImage(article, index)}" alt="${escapeHtml(article.headline)}">
                     </div>
                     <div class="card-content">
                         <div class="card-tag ${tagClass}">${capitalize(article.category)}</div>
@@ -458,7 +464,7 @@ function generateVerticalCardHTML(article, index) {
 
   return `            <a href="articles/${article.slug}.html" class="vertical-card">
                 <div class="card-image">
-                    <img src="${getImage(article.category, index)}" alt="${escapeHtml(article.headline)}">
+                    <img src="${getImage(article, index)}" alt="${escapeHtml(article.headline)}">
                 </div>
                 <div class="card-content">
                     <div class="card-tag ${tagClass}">${capitalize(article.category)}</div>
@@ -558,7 +564,7 @@ function generateSectionFeaturedCardHTML(article, index, isFirst = false) {
   return `            <a href="articles/${article.slug}.html" class="${cardClass}">
                 <div class="card-inner">
                     <div class="card-image">
-                        <img src="${getImage(article.category, index)}" alt="${escapeHtml(article.headline)}">
+                        <img src="${getImage(article, index)}" alt="${escapeHtml(article.headline)}">
                     </div>
                     <div class="card-content">
                         <div class="card-tag">${capitalize(article.category)}</div>
@@ -576,7 +582,7 @@ function generateSectionVerticalCardHTML(article, index) {
 
   return `            <a href="articles/${article.slug}.html" class="vertical-card">
                 <div class="card-image">
-                    <img src="${getImage(article.category, index)}" alt="${escapeHtml(article.headline)}">
+                    <img src="${getImage(article, index)}" alt="${escapeHtml(article.headline)}">
                 </div>
                 <div class="card-content">
                     <div class="card-tag">${capitalize(article.category)}</div>

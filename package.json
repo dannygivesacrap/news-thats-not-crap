@@ -7,8 +7,8 @@
     "fetch": "node scripts/fetch-news.js",
     "curate": "node scripts/curate-with-ai.js",
     "generate": "node scripts/generate-site.js",
-    "update": "npm run fetch && npm run curate && npm run generate",
-    "daily": "node scripts/run-daily.js"
+    "review": "node scripts/review-server.js",
+    "daily": "node scripts/daily-pipeline.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.52.0",

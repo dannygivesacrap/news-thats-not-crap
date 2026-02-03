@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headline Font Options</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --wgac-pink: #e84393;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: var(--cream);
+            padding: 3rem;
+            color: var(--dark);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+            color: var(--dark);
+            font-weight: 800;
+        }
+
+        .option {
+            background: white;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+        }
+
+        .option-label {
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: white;
+            background: var(--dark);
+            padding: 0.5rem 1rem;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            border-radius: 2rem;
+        }
+
+        .option-label.recommended {
+            background: var(--wgac-teal);
+        }
+
+        .description {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        /* Option 1: Nunito */
+        .headline-nunito {
+            font-family: 'Nunito', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 900;
+            line-height: 1.2;
+            color: var(--dark);
+        }
+
+        /* Option 2: Fredoka */
+        .headline-fredoka {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            line-height: 1.2;
+            color: var(--dark);
+        }
+
+        /* Option 3: Instrument Serif with color accents */
+        .headline-hybrid {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: 2.5rem;
+            font-weight: 400;
+            line-height: 1.2;
+            color: var(--dark);
+        }
+
+        .headline-hybrid .accent-blue { color: var(--wgac-blue); }
+        .headline-hybrid .accent-teal { color: var(--wgac-teal); }
+        .headline-hybrid .accent-coral { color: var(--wgac-coral); }
+        .headline-hybrid .accent-pink { color: var(--wgac-pink); }
+
+        /* Sample cards to show in context */
+        .card-preview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+        }
+
+        .mini-card {
+            background: var(--cream);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+        }
+
+        .mini-card .category {
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--wgac-teal);
+            margin-bottom: 0.5rem;
+        }
+
+        .mini-card h3 {
+            font-size: 1.25rem;
+            line-height: 1.3;
+            margin-bottom: 0.5rem;
+        }
+
+        .mini-card h3.nunito {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 800;
+        }
+
+        .mini-card h3.fredoka {
+            font-family: 'Fredoka', sans-serif;
+            font-weight: 600;
+        }
+
+        .mini-card h3.hybrid {
+            font-family: 'Instrument Serif', serif;
+        }
+
+        .mini-card p {
+            font-size: 0.85rem;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .current {
+            border: 3px dashed #ccc;
+            background: #f9f9f9;
+        }
+
+        .current .option-label {
+            background: #999;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎨 Headline Font Options for "News That's Not Crap"</h1>
+
+    <!-- Current -->
+    <div class="option current">
+        <span class="option-label">Current Design</span>
+        <p class="description">Instrument Serif — elegant and traditional newspaper feel, but doesn't match WGAC's playful brand.</p>
+        <div class="headline-hybrid">
+            Scientists Turn Blood Cells Into Cancer-Fighting 'Living Drugs'
+        </div>
+        <div class="card-preview">
+            <div class="mini-card">
+                <div class="category">Climate</div>
+                <h3 class="hybrid">Australia Just Crossed the 50% Clean Energy Line</h3>
+                <p>The country hit a major renewable milestone while actually using more power than ever.</p>
+            </div>
+            <div class="mini-card">
+                <div class="category">Wildlife</div>
+                <h3 class="hybrid">Guatemala Says 'No Thanks' to Oil Money, Chooses Jaguars</h3>
+                <p>A landmark decision protects one of Central America's last wild corridors.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: Nunito -->
+    <div class="option">
+        <span class="option-label">Option 1: Nunito Black</span>
+        <p class="description">Rounded, friendly, modern. Uses the same font family as body text but at maximum weight. Very cohesive with WGAC brand.</p>
+        <div class="headline-nunito">
+            Scientists Turn Blood Cells Into Cancer-Fighting 'Living Drugs'
+        </div>
+        <div class="card-preview">
+            <div class="mini-card">
+                <div class="category">Climate</div>
+                <h3 class="nunito">Australia Just Crossed the 50% Clean Energy Line</h3>
+                <p>The country hit a major renewable milestone while actually using more power than ever.</p>
+            </div>
+            <div class="mini-card">
+                <div class="category">Wildlife</div>
+                <h3 class="nunito">Guatemala Says 'No Thanks' to Oil Money, Chooses Jaguars</h3>
+                <p>A landmark decision protects one of Central America's last wild corridors.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 2: Fredoka -->
+    <div class="option">
+        <span class="option-label">Option 2: Fredoka</span>
+        <p class="description">Ultra-rounded, bubbly, very playful. Closest to WGAC's Sauna font. Might be too casual for news credibility.</p>
+        <div class="headline-fredoka">
+            Scientists Turn Blood Cells Into Cancer-Fighting 'Living Drugs'
+        </div>
+        <div class="card-preview">
+            <div class="mini-card">
+                <div class="category">Climate</div>
+                <h3 class="fredoka">Australia Just Crossed the 50% Clean Energy Line</h3>
+                <p>The country hit a major renewable milestone while actually using more power than ever.</p>
+            </div>
+            <div class="mini-card">
+                <div class="category">Wildlife</div>
+                <h3 class="fredoka">Guatemala Says 'No Thanks' to Oil Money, Chooses Jaguars</h3>
+                <p>A landmark decision protects one of Central America's last wild corridors.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 3: Hybrid -->
+    <div class="option">
+        <span class="option-label recommended">Option 3: Hybrid (Recommended)</span>
+        <p class="description">Keep Instrument Serif for credibility, but add WGAC-style color accents on key words. Best of both worlds.</p>
+        <div class="headline-hybrid">
+            Scientists Turn Blood Cells Into <span class="accent-teal">Cancer-Fighting</span> 'Living Drugs'
+        </div>
+        <div class="card-preview">
+            <div class="mini-card">
+                <div class="category">Climate</div>
+                <h3 class="hybrid">Australia Just Crossed the <span class="accent-teal">50% Clean Energy</span> Line</h3>
+                <p>The country hit a major renewable milestone while actually using more power than ever.</p>
+            </div>
+            <div class="mini-card">
+                <div class="category">Wildlife</div>
+                <h3 class="hybrid">Guatemala Says 'No Thanks' to Oil Money, <span class="accent-coral">Chooses Jaguars</span></h3>
+                <p>A landmark decision protects one of Central America's last wild corridors.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

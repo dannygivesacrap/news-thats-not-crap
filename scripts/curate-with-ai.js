@@ -45,16 +45,63 @@ function generateSlug(title) {
     .replace(/-$/, '');
 }
 
+// Fallback images by category
+const FALLBACK_IMAGES = {
+  climate: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80',
+  health: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=1200&q=80',
+  science: 'https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1200&q=80',
+  wildlife: 'https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=1200&q=80',
+  people: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80'
+};
+
+async function fetchUnsplashImage(searchTerm, category) {
+  const accessKey = process.env.UNSPLASH_ACCESS_KEY;
+
+  if (!accessKey) {
+    console.log('  (No UNSPLASH_ACCESS_KEY, using fallback image)');
+    return FALLBACK_IMAGES[category] || FALLBACK_IMAGES.people;
+  }
+
+  try {
+    const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(searchTerm)}&per_page=1&orientation=landscape`;
+    const response = await fetch(url, {
+      headers: { 'Authorization': `Client-ID ${accessKey}` }
+    });
+
+    if (!response.ok) {
+      throw new Error(`Unsplash API error: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    if (data.results && data.results.length > 0) {
+      const photo = data.results[0];
+      return `${photo.urls.regular}&w=1200&q=80`;
+    }
+
+    return FALLBACK_IMAGES[category] || FALLBACK_IMAGES.people;
+  } catch (error) {
+    console.log(`  (Image search failed: ${error.message}, using fallback)`);
+    return FALLBACK_IMAGES[category] || FALLBACK_IMAGES.people;
+  }
+}
+
 // System prompt for consistent WGAC voice
-const WGAC_SYSTEM_PROMPT = `You are a writer for "News That's Not Crap" - a positive news site created by Who Gives A Crap, the toilet paper company.
+const WGAC_SYSTEM_PROMPT = `You are a writer for "News That's Not Crap" - a positive news site.
 
 YOUR VOICE:
 - Warm and conversational, like a smart friend sharing good news
-- Self-deprecating and humble ("we're a toilet paper company doing news, what do we know?")
 - Playful with puns and wordplay when natural
 - Optimistic without being naive or preachy
 - Accessible - explain complex topics simply
-- Personal - use "we" and speak directly to readers
+- Light self-deprecation is fine occasionally, but NOT in every article
+
+CRITICAL - VARIETY IN OPENINGS:
+- Every article should start differently
+- DO NOT reference toilet paper, TP, or being a toilet paper company
+- DO NOT start every article with self-deprecating humor
+- Mix up your approaches: sometimes start with the key fact, sometimes with a question, sometimes with a surprising angle, sometimes with humor
+- Each article should feel fresh and unique while maintaining consistent warmth
 
 ABSOLUTE RULES FOR FACTS:
 - ONLY use facts explicitly stated in the source material provided
@@ -87,6 +134,7 @@ For EACH selected article, provide:
 - readTime: estimated minutes (3-6)
 - isHomepageHero: true for the single BEST story (1 only)
 - isHomepageFeatured: true for the next 14 best stories across categories
+- imageSearch: 2-3 word Unsplash search term for a relevant photo (e.g. "ocean research", "solar panels", "elephant sanctuary")
 
 SOURCE ARTICLES:
 ${JSON.stringify(rawArticles, null, 2)}
@@ -103,7 +151,8 @@ Return valid JSON:
       "sourceName": "...",
       "readTime": 4,
       "isHomepageHero": false,
-      "isHomepageFeatured": false
+      "isHomepageFeatured": false,
+      "imageSearch": "relevant search term"
     }
   ]
 }`;
@@ -125,10 +174,17 @@ Return valid JSON:
     const result = JSON.parse(jsonMatch[0]);
 
     // Add slugs and authors
-    result.articles.forEach(article => {
+    for (const article of result.articles) {
       article.slug = generateSlug(article.headline);
       article.author = getAuthor(article.category);
-    });
+
+      // Fetch relevant image from Unsplash
+      if (article.imageSearch) {
+        article.imageUrl = await fetchUnsplashImage(article.imageSearch, article.category);
+      } else {
+        article.imageUrl = FALLBACK_IMAGES[article.category] || FALLBACK_IMAGES.people;
+      }
+    }
 
     console.log(`✅ Curated ${result.articles.length} articles`);
 
@@ -159,12 +215,17 @@ Source: ${article.sourceName}
 URL: ${article.sourceUrl}
 
 WRITE IN WGAC VOICE:
-- Open with a hook that's warm and slightly cheeky
+- Open with a hook that's warm and engaging
 - Explain the story like you're telling a friend
-- It's OK to be self-deprecating ("Look, we sell toilet paper, so take our science commentary with a grain of salt...")
 - Use puns or wordplay if they fit naturally
 - Be optimistic but grounded
 - Keep it accessible - no jargon without explanation
+
+IMPORTANT - VARIETY:
+- DO NOT start with self-deprecating humor about toilet paper or being a TP company
+- DO NOT use the same opening structure for every article
+- Mix it up: lead with the key fact, a question, a surprising angle, or gentle humor
+- Each article should feel fresh and unique
 
 STRICT FACT RULES:
 - ONLY use facts from the source excerpt above
