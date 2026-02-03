@@ -56,37 +56,103 @@ const CATEGORY_EMOJIS = {
   people: ['👥', '🏠', '❄️', '🎓', '🤝', '💪']
 };
 
-// Unsplash images by category (verified working URLs)
+// Large pool of curated Unsplash images by category (verified working URLs)
+// Using stable, high-quality images that won't break
 const CATEGORY_IMAGES = {
   climate: [
-    'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80',
+    // Solar/renewable energy
     'https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80',
-    'https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&q=80',
-    'https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=800&q=80'
+    'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&q=80',
+    'https://images.unsplash.com/photo-1497440001374-f26997328c1b?w=800&q=80',
+    // Wind energy
+    'https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=800&q=80',
+    'https://images.unsplash.com/photo-1548337138-e87d889cc369?w=800&q=80',
+    // Nature/forests
+    'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80',
+    'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=800&q=80',
+    'https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?w=800&q=80',
+    // Ocean/water
+    'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&q=80',
+    'https://images.unsplash.com/photo-1484291470158-b8f8d608850d?w=800&q=80',
+    // Green landscapes
+    'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80',
+    'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80'
   ],
   health: [
-    'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80',
-    'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&q=80',
-    'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80',
-    'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80'
+    // Medical/research
+    'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
+    'https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800&q=80',
+    'https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80',
+    // Wellness/fitness
+    'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80',
+    'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80',
+    'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80',
+    // Mental health/nature
+    'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&q=80',
+    'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800&q=80',
+    // Healthcare
+    'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800&q=80',
+    'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80',
+    // Healthy food
+    'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80',
+    'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80'
   ],
   science: [
-    'https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80',
-    'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80',
+    // Space/astronomy
     'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80',
-    'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&q=80'
+    'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&q=80',
+    'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80',
+    // Lab/research
+    'https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80',
+    'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80',
+    'https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=800&q=80',
+    // Technology
+    'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80',
+    'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80',
+    // Innovation
+    'https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80',
+    'https://images.unsplash.com/photo-1517976487492-5750f3195933?w=800&q=80',
+    // Nature science
+    'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80',
+    'https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=800&q=80'
   ],
   wildlife: [
+    // Birds
     'https://images.unsplash.com/photo-1444464666168-49d633b86797?w=800&q=80',
+    'https://images.unsplash.com/photo-1452570053594-1b985d6ea890?w=800&q=80',
+    'https://images.unsplash.com/photo-1480044965905-02098d419e96?w=800&q=80',
+    // Marine life
+    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80',
+    'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=800&q=80',
+    'https://images.unsplash.com/photo-1590673846749-e2fb8f655df8?w=800&q=80',
+    // Large mammals
     'https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=800&q=80',
-    'https://images.unsplash.com/photo-1534759926787-89fa60f35b87?w=800&q=80',
-    'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=800&q=80'
+    'https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800&q=80',
+    'https://images.unsplash.com/photo-1549366021-9f761d450615?w=800&q=80',
+    // Insects/butterflies
+    'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    'https://images.unsplash.com/photo-1470165301023-58dab8118cc9?w=800&q=80',
+    // Forest animals
+    'https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=800&q=80'
   ],
   people: [
+    // Community/teamwork
     'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
     'https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=800&q=80',
     'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=800&q=80',
-    'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80'
+    // Volunteering/helping
+    'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80',
+    'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=800&q=80',
+    'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80',
+    // Celebration/joy
+    'https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&q=80',
+    'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80',
+    // Education
+    'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80',
+    'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&q=80',
+    // Family/connection
+    'https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80',
+    'https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80'
   ]
 };
 
@@ -118,6 +184,21 @@ function formatDate(date) {
   });
 }
 
+function formatUpdateTimestamp(date) {
+  const d = new Date(date);
+  const time = d.toLocaleTimeString('en-US', {
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true
+  });
+  const dateStr = d.toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric'
+  });
+  return `Updated at ${time} on ${dateStr}`;
+}
+
 function escapeHtml(text) {
   if (!text) return '';
   return text
@@ -133,6 +214,7 @@ function generateArticleHTML(article) {
   const category = article.category || 'people';
   const categoryColor = CATEGORY_COLORS[category];
   const today = formatDate(new Date());
+  const updateTimestamp = formatUpdateTimestamp(new Date());
   const imageUrl = getImage(article, 0).replace('w=800', 'w=1920');
 
   // Get related articles (we'll populate this later)
@@ -153,6 +235,7 @@ function generateArticleHTML(article) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
     <title>${escapeHtml(article.headline)} | News That's Not Crap</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -285,7 +368,7 @@ function generateArticleHTML(article) {
     <header class="site-header">
         <div class="header-top-bar">
             <span class="header-tagline">The antidote to doom-scrolling</span>
-            <span class="header-date">${today}</span>
+            <span class="header-date">${updateTimestamp}</span>
         </div>
         <div class="header-main">
             <a href="../index.html" class="logo">
@@ -515,10 +598,11 @@ function updateIndexHTML(curated) {
     return;
   }
 
-  // Update date in header
+  // Update date in header with timestamp
+  const updateTimestamp = formatUpdateTimestamp(new Date());
   html = html.replace(
     /<span class="header-date">.*?<\/span>/,
-    `<span class="header-date">${today}</span>`
+    `<span class="header-date">${updateTimestamp}</span>`
   );
 
   // Update ticker content
@@ -619,12 +703,12 @@ function updateSectionPage(category, articles) {
   }
 
   let html = fs.readFileSync(sectionPath, 'utf8');
-  const today = formatDate(new Date());
 
-  // Update date
+  // Update date with timestamp
+  const updateTimestamp = formatUpdateTimestamp(new Date());
   html = html.replace(
     /<span class="header-date">.*?<\/span>/,
-    `<span class="header-date">${today}</span>`
+    `<span class="header-date">${updateTimestamp}</span>`
   );
 
   // Take first 20 articles for this section
@@ -688,6 +772,62 @@ function updateSectionPages(curated) {
   console.log('\n✅ Updated all section pages');
 }
 
+// Maintain article archive - NEVER delete old articles
+function updateArticleArchive(articles) {
+  const archivePath = path.join(DATA_DIR, 'article-archive.json');
+
+  // Load existing archive or create new one
+  let archive = { articles: [], lastUpdated: null };
+  if (fs.existsSync(archivePath)) {
+    try {
+      archive = JSON.parse(fs.readFileSync(archivePath, 'utf8'));
+    } catch (e) {
+      console.log('  Creating new archive...');
+    }
+  }
+
+  // Get existing slugs to avoid duplicates
+  const existingSlugs = new Set(archive.articles.map(a => a.slug));
+  const today = new Date().toISOString().split('T')[0];
+
+  // Add new articles to archive
+  let addedCount = 0;
+  for (const article of articles) {
+    if (!article.slug) continue;
+    if (existingSlugs.has(article.slug)) continue;
+
+    // Add to archive with metadata
+    archive.articles.push({
+      slug: article.slug,
+      headline: article.headline,
+      excerpt: article.excerpt,
+      category: article.category,
+      author: article.author,
+      readTime: article.readTime,
+      imageUrl: article.imageUrl,
+      sourceUrl: article.sourceUrl,
+      sourceName: article.sourceName,
+      publishedDate: today,
+      archivedAt: new Date().toISOString()
+    });
+    addedCount++;
+  }
+
+  // Sort by date descending
+  archive.articles.sort((a, b) =>
+    new Date(b.archivedAt || b.publishedDate) - new Date(a.archivedAt || a.publishedDate)
+  );
+
+  archive.lastUpdated = new Date().toISOString();
+  archive.totalArticles = archive.articles.length;
+
+  // Save archive
+  fs.writeFileSync(archivePath, JSON.stringify(archive, null, 2));
+  console.log(`\n✅ Archive updated: ${addedCount} new articles added (${archive.totalArticles} total)`);
+
+  return archive;
+}
+
 // Main function
 export async function generateSite() {
   console.log('=== Generating site HTML ===\n');
@@ -700,6 +840,16 @@ export async function generateSite() {
   }
 
   const curated = JSON.parse(fs.readFileSync(curatedPath, 'utf8'));
+
+  // Check if articles have been published (reviewed and approved)
+  // Skip generation if articles are still pending review
+  if (!curated.publishedAt && !curated.autoPublished && !process.env.FORCE_GENERATE) {
+    console.log('Articles pending review - skipping site generation.');
+    console.log('Use review.html to approve articles, or set FORCE_GENERATE=1 to override.');
+    return { articlesGenerated: 0, skipped: true };
+  }
+
+  console.log(curated.autoPublished ? '(Auto-published)' : `(Published at ${curated.publishedAt})`);
 
   // Build allArticles from various possible structures
   let allArticles = curated.allArticles || [];
@@ -724,17 +874,20 @@ export async function generateSite() {
 
   console.log(`Loaded ${allArticles.length} curated articles\n`);
 
-  // Step 1: Generate article pages
+  // Step 1: Generate article pages (NEVER deletes old files)
   generateArticlePages(allArticles);
 
-  // Step 2: Update main index page
+  // Step 2: Add to article archive (preserves all historical articles)
+  updateArticleArchive(allArticles);
+
+  // Step 3: Update main index page
   console.log('\nUpdating homepage...\n');
   updateIndexHTML(curated);
 
-  // Step 3: Update section pages
+  // Step 4: Update section pages
   updateSectionPages(curated);
 
-  // Step 4: Save generation metadata
+  // Step 5: Save generation metadata
   const metaPath = path.join(DATA_DIR, 'last-update.json');
   const existingMeta = fs.existsSync(metaPath)
     ? JSON.parse(fs.readFileSync(metaPath, 'utf8'))

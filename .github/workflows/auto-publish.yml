@@ -1,0 +1,87 @@
+name: Auto-Publish at 9 AM
+
+on:
+  schedule:
+    # 9 AM Pacific Time = 5 PM UTC (during PST) / 4 PM UTC (during PDT)
+    # Using 5 PM UTC - will be 9 AM PST or 10 AM PDT
+    - cron: '0 17 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  auto-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check if articles need publishing
+        id: check
+        run: |
+          if [ -f "data/curated-articles.json" ]; then
+            # Check if there are unapproved articles from today
+            GENERATED_DATE=$(node -e "const d = require('./data/curated-articles.json'); console.log(d.generatedAt ? d.generatedAt.split('T')[0] : '')")
+            TODAY=$(date -u +%Y-%m-%d)
+
+            # Check if any articles exist and weren't manually published
+            ARTICLE_COUNT=$(node -e "const d = require('./data/curated-articles.json'); console.log((d.allArticles || []).length)")
+            PUBLISHED=$(node -e "const d = require('./data/curated-articles.json'); console.log(d.publishedAt || d.autoPublished || false)")
+
+            if [ "$ARTICLE_COUNT" -gt "0" ] && [ "$PUBLISHED" != "true" ]; then
+              echo "needs_publish=true" >> $GITHUB_OUTPUT
+              echo "Found $ARTICLE_COUNT articles ready for auto-publish"
+            else
+              echo "needs_publish=false" >> $GITHUB_OUTPUT
+              echo "No articles need publishing (count: $ARTICLE_COUNT, already published: $PUBLISHED)"
+            fi
+          else
+            echo "needs_publish=false" >> $GITHUB_OUTPUT
+            echo "No curated-articles.json found"
+          fi
+
+      - name: Mark as auto-published
+        if: steps.check.outputs.needs_publish == 'true'
+        run: |
+          node -e "
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('data/curated-articles.json', 'utf8'));
+            data.autoPublished = true;
+            data.publishedAt = new Date().toISOString();
+
+            // Mark all articles as approved for auto-publish
+            if (data.allArticles) {
+              data.allArticles.forEach(a => {
+                if (a.approved === undefined) a.approved = true;
+              });
+            }
+
+            fs.writeFileSync('data/curated-articles.json', JSON.stringify(data, null, 2));
+            console.log('Marked articles as auto-published');
+          "
+
+      - name: Generate site
+        if: steps.check.outputs.needs_publish == 'true'
+        run: node scripts/generate-site.js
+
+      - name: Commit auto-published articles
+        if: steps.check.outputs.needs_publish == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --staged --quiet || git commit -m "Auto-publish articles - $(date +'%Y-%m-%d %H:%M')"
+          git push

@@ -12,6 +12,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { getNextImage, resetImageIndices } from './image-pool.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '..', 'data');
@@ -45,46 +46,7 @@ function generateSlug(title) {
     .replace(/-$/, '');
 }
 
-// Fallback images by category
-const FALLBACK_IMAGES = {
-  climate: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80',
-  health: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=1200&q=80',
-  science: 'https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1200&q=80',
-  wildlife: 'https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=1200&q=80',
-  people: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80'
-};
-
-async function fetchUnsplashImage(searchTerm, category) {
-  const accessKey = process.env.UNSPLASH_ACCESS_KEY;
-
-  if (!accessKey) {
-    console.log('  (No UNSPLASH_ACCESS_KEY, using fallback image)');
-    return FALLBACK_IMAGES[category] || FALLBACK_IMAGES.people;
-  }
-
-  try {
-    const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(searchTerm)}&per_page=1&orientation=landscape`;
-    const response = await fetch(url, {
-      headers: { 'Authorization': `Client-ID ${accessKey}` }
-    });
-
-    if (!response.ok) {
-      throw new Error(`Unsplash API error: ${response.status}`);
-    }
-
-    const data = await response.json();
-
-    if (data.results && data.results.length > 0) {
-      const photo = data.results[0];
-      return `${photo.urls.regular}&w=1200&q=80`;
-    }
-
-    return FALLBACK_IMAGES[category] || FALLBACK_IMAGES.people;
-  } catch (error) {
-    console.log(`  (Image search failed: ${error.message}, using fallback)`);
-    return FALLBACK_IMAGES[category] || FALLBACK_IMAGES.people;
-  }
-}
+// Images are now imported from image-pool.js (100 per category)
 
 // System prompt for consistent WGAC voice
 const WGAC_SYSTEM_PROMPT = `You are a writer for "News That's Not Crap" - a positive news site.
@@ -156,7 +118,6 @@ For EACH good article, provide:
 - sourceUrl: exact URL from source
 - sourceName: publication name
 - readTime: estimated minutes (3-6)
-- imageSearch: 2-3 word Unsplash search term for a relevant photo
 
 SOURCE ARTICLES:
 ${JSON.stringify(articles, null, 2)}
@@ -171,8 +132,7 @@ Return valid JSON:
       "category": "climate|health|science|wildlife|people",
       "sourceUrl": "...",
       "sourceName": "...",
-      "readTime": 4,
-      "imageSearch": "relevant search term"
+      "readTime": 4
     }
   ]
 }`;
@@ -237,16 +197,14 @@ async function curateAndCategorize(rawArticles) {
   }
 
   // Add slugs, authors, and images
+  // Reset image indices for variety across the batch
+  resetImageIndices();
+
   for (const article of allCurated) {
     article.slug = generateSlug(article.headline);
     article.author = getAuthor(article.category);
-
-    // Fetch relevant image from Unsplash
-    if (article.imageSearch) {
-      article.imageUrl = await fetchUnsplashImage(article.imageSearch, article.category);
-    } else {
-      article.imageUrl = FALLBACK_IMAGES[article.category] || FALLBACK_IMAGES.people;
-    }
+    // Assign image from curated pool (100 per category, rotates for variety)
+    article.imageUrl = getNextImage(article.category);
   }
 
   // Log category breakdown
@@ -327,6 +285,70 @@ Return JSON:
   }
 }
 
+// Fact-check an article against its source
+async function factCheckArticle(article) {
+  console.log(`  Fact-checking: ${article.headline}`);
+
+  const generatedContent = article.fullContent;
+  const allGeneratedText = [
+    generatedContent.lead,
+    ...(generatedContent.body || []),
+    generatedContent.pullQuote
+  ].filter(Boolean).join('\n\n');
+
+  const prompt = `You are a fact-checker. Compare the generated article against the original source information.
+
+ORIGINAL SOURCE:
+Title: ${article.originalTitle}
+Source: ${article.sourceName}
+Original excerpt: ${article.excerpt}
+
+GENERATED ARTICLE:
+${allGeneratedText}
+
+VERIFY:
+1. Are all facts, statistics, and numbers accurate to the source?
+2. Are all quotes attributed correctly (or not fabricated)?
+3. Are there any claims not supported by the source material?
+4. Are names of people, organizations, or places accurate?
+
+Respond with JSON:
+{
+  "passed": true/false,
+  "issues": ["list of specific factual issues found, if any"],
+  "confidence": "high/medium/low",
+  "summary": "brief explanation"
+}`;
+
+  try {
+    const response = await callWithRetry(() =>
+      anthropic.messages.create({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 1000,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    );
+
+    const content = response.content[0].text;
+    const jsonMatch = content.match(/\{[\s\S]*\}/);
+    if (!jsonMatch) {
+      return { passed: true, issues: [], confidence: 'low', summary: 'Could not parse fact-check response' };
+    }
+
+    const result = JSON.parse(jsonMatch[0]);
+    if (!result.passed) {
+      console.log(`    ⚠️ Fact-check issues: ${result.issues.join(', ')}`);
+    } else {
+      console.log(`    ✓ Fact-check passed (${result.confidence} confidence)`);
+    }
+    return result;
+
+  } catch (error) {
+    console.error(`  Error fact-checking: ${error.message}`);
+    return { passed: true, issues: [], confidence: 'low', summary: 'Fact-check failed, defaulting to pass' };
+  }
+}
+
 // Export for use as module
 export async function runCuration() {
   console.log('=== Curating positive news with AI ===\n');
@@ -357,6 +379,31 @@ export async function runCuration() {
       await sleep(15000); // 15 seconds between articles
     }
   }
+
+  // Step 3: Fact-check all articles
+  console.log('\nFact-checking articles...\n');
+
+  for (let i = 0; i < curatedArticles.length; i++) {
+    const article = curatedArticles[i];
+    const factCheck = await factCheckArticle(article);
+    article.factCheck = factCheck;
+
+    // Flag articles that failed fact-check
+    if (!factCheck.passed) {
+      article.factCheckFailed = true;
+      console.log(`    Article "${article.headline}" flagged for review`);
+    }
+
+    // Delay between fact-checks
+    if (i < curatedArticles.length - 1) {
+      await sleep(5000); // 5 seconds between fact-checks
+    }
+  }
+
+  // Log fact-check summary
+  const passedCount = curatedArticles.filter(a => a.factCheck?.passed).length;
+  const failedCount = curatedArticles.filter(a => a.factCheckFailed).length;
+  console.log(`\n✅ Fact-check complete: ${passedCount} passed, ${failedCount} flagged for review`);
 
   // Step 3: Organize output
   const output = {

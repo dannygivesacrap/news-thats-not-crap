@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive | News That's Not Crap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --wgac-blue: #4368ff;
+            --wgac-teal: #2dcb98;
+            --wgac-coral: #e85d4c;
+            --wgac-purple: #7b68ee;
+            --wgac-pink: #e84393;
+            --white: #ffffff;
+            --cream: #faf9f6;
+            --dark: #1a1a1a;
+            --gray-100: #f5f4f2;
+            --gray-200: #e8e6e3;
+            --gray-400: #a09d98;
+            --gray-600: #6b6761;
+            --font-display: 'Nunito', -apple-system, sans-serif;
+            --font-body: 'Nunito', -apple-system, sans-serif;
+            --radius-sm: 0.5rem;
+            --radius-md: 1rem;
+            --radius-lg: 1.5rem;
+            --radius-pill: 100px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--cream); color: var(--dark); line-height: 1.6; }
+        a { color: inherit; text-decoration: none; }
+
+        /* Header */
+        .site-header { position: sticky; top: 0; z-index: 1000; }
+        .header-top-bar { background: var(--dark); display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 2rem; }
+        .header-tagline, .header-date { font-size: 0.7rem; font-weight: 700; color: rgba(255,255,255,0.5); }
+        .header-main { background: var(--wgac-blue); display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem; }
+        .logo { display: flex; align-items: center; gap: 0.5rem; }
+        .logo-text { font-size: 1.4rem; font-weight: 900; color: var(--white); text-transform: uppercase; letter-spacing: -0.03em; }
+        .crap-box { background: var(--white); padding: 0.4rem 0.6rem; border-radius: 0.3rem; }
+        .crap-box img { height: 1.3rem; display: block; filter: brightness(0) saturate(100%) invert(29%) sepia(98%) saturate(1654%) hue-rotate(221deg) brightness(101%) contrast(102%); }
+        .main-nav { display: flex; gap: 0.35rem; }
+        .nav-link { color: var(--white); font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; padding: 0.5rem 1rem; border-radius: var(--radius-pill); background: rgba(255,255,255,0.15); transition: all 0.2s ease; }
+        .nav-link:hover { background: rgba(255,255,255,0.3); }
+        .nav-link.active { background: var(--white); color: var(--wgac-blue); }
+
+        /* Page Header */
+        .page-header { background: var(--white); padding: 3rem 2rem; border-bottom: 1px solid var(--gray-200); }
+        .page-header h1 { font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem; }
+        .page-header p { color: var(--gray-600); max-width: 600px; }
+
+        /* Main Content */
+        .main-content { max-width: 1000px; margin: 0 auto; padding: 3rem 2rem; }
+
+        /* Date Group */
+        .date-group { margin-bottom: 3rem; }
+        .date-header { font-size: 1.25rem; font-weight: 900; color: var(--dark); padding-bottom: 0.75rem; margin-bottom: 1.5rem; border-bottom: 3px solid var(--dark); }
+
+        /* Archive Article */
+        .archive-article { display: flex; gap: 1.5rem; padding: 1.25rem; background: var(--white); border-radius: var(--radius-md); margin-bottom: 1rem; transition: transform 0.2s, box-shadow 0.2s; }
+        .archive-article:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+        .archive-article:hover .archive-title { color: var(--wgac-blue); }
+        .archive-image { width: 120px; height: 80px; flex-shrink: 0; border-radius: var(--radius-sm); overflow: hidden; }
+        .archive-image img { width: 100%; height: 100%; object-fit: cover; }
+        .archive-content { flex: 1; }
+        .archive-tag { display: inline-block; font-size: 0.6rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; padding: 0.2rem 0.5rem; border-radius: var(--radius-pill); margin-bottom: 0.5rem; color: white; }
+        .tag-climate { background: var(--wgac-teal); }
+        .tag-health { background: var(--wgac-coral); }
+        .tag-science { background: var(--wgac-blue); }
+        .tag-wildlife { background: var(--wgac-pink); }
+        .tag-people { background: var(--wgac-purple); }
+        .archive-title { font-size: 1rem; font-weight: 800; line-height: 1.3; transition: color 0.2s; }
+        .archive-meta { font-size: 0.75rem; color: var(--gray-400); margin-top: 0.5rem; }
+
+        /* Footer */
+        .site-footer { background: var(--dark); color: var(--white); padding: 3rem 2rem; margin-top: 4rem; }
+        .footer-content { max-width: 1000px; margin: 0 auto; text-align: center; }
+        .footer-logo { display: inline-flex; align-items: center; gap: 0.4rem; margin-bottom: 1rem; }
+        .footer-logo .logo-text { font-size: 1rem; }
+        .footer-logo .crap-box { padding: 0.3rem 0.5rem; }
+        .footer-logo .crap-box img { height: 0.9rem; }
+        .footer-tagline { color: var(--gray-400); font-size: 0.9rem; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-main { flex-direction: column; gap: 1rem; }
+            .main-nav { flex-wrap: wrap; justify-content: center; }
+            .archive-article { flex-direction: column; }
+            .archive-image { width: 100%; height: 150px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top-bar">
+            <span class="header-tagline">The antidote to doom-scrolling</span>
+            <span class="header-date">February 3, 2026</span>
+        </div>
+        <div class="header-main">
+            <a href="index.html" class="logo">
+                <span class="logo-text">News That's Not</span>
+                <div class="crap-box"><img src="crap-logo-white.png" alt="crap"></div>
+            </a>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Today</a>
+                <a href="climate.html" class="nav-link">Climate</a>
+                <a href="health.html" class="nav-link">Health</a>
+                <a href="science.html" class="nav-link">Science</a>
+                <a href="people.html" class="nav-link">People</a>
+                <a href="wildlife.html" class="nav-link">Wildlife</a>
+                <a href="archive.html" class="nav-link active">Archive</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <h1>Archive</h1>
+        <p>Every positive story we've shared, organized by date. Because good news doesn't expire.</p>
+    </div>
+
+    <main class="main-content">
+        <!-- Archive content will be generated here -->
+        <div id="archive-content">
+            <p style="text-align: center; color: var(--gray-400); padding: 3rem;">Loading archive...</p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">News That's Not</span>
+                <div class="crap-box"><img src="crap-logo-white.png" alt="crap"></div>
+            </div>
+            <p class="footer-tagline">The antidote to doom scrolling.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Load and display archive
+        async function loadArchive() {
+            try {
+                const response = await fetch('data/article-archive.json');
+                if (!response.ok) throw new Error('Archive not found');
+                const archive = await response.json();
+
+                const container = document.getElementById('archive-content');
+
+                if (!archive.articles || archive.articles.length === 0) {
+                    container.innerHTML = '<p style="text-align: center; color: var(--gray-400); padding: 3rem;">No archived articles yet.</p>';
+                    return;
+                }
+
+                // Group articles by date
+                const byDate = {};
+                archive.articles.forEach(article => {
+                    const date = article.publishedDate || article.archivedAt?.split('T')[0] || 'Unknown';
+                    if (!byDate[date]) byDate[date] = [];
+                    byDate[date].push(article);
+                });
+
+                // Sort dates descending
+                const sortedDates = Object.keys(byDate).sort((a, b) => new Date(b) - new Date(a));
+
+                let html = '';
+                sortedDates.forEach(date => {
+                    const displayDate = new Date(date).toLocaleDateString('en-US', {
+                        weekday: 'long',
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    });
+
+                    html += `<div class="date-group">
+                        <h2 class="date-header">${displayDate}</h2>`;
+
+                    byDate[date].forEach(article => {
+                        const tagClass = 'tag-' + (article.category || 'people');
+                        html += `
+                            <a href="articles/${article.slug}.html" class="archive-article">
+                                <div class="archive-image">
+                                    <img src="${article.imageUrl || ''}" alt="${article.headline}" onerror="this.style.display='none'">
+                                </div>
+                                <div class="archive-content">
+                                    <span class="archive-tag ${tagClass}">${article.category || 'Story'}</span>
+                                    <h3 class="archive-title">${article.headline}</h3>
+                                    <div class="archive-meta">By ${article.author || 'Staff'} · ${article.readTime || 4} min read</div>
+                                </div>
+                            </a>`;
+                    });
+
+                    html += '</div>';
+                });
+
+                container.innerHTML = html;
+
+            } catch (error) {
+                document.getElementById('archive-content').innerHTML =
+                    '<p style="text-align: center; color: var(--gray-400); padding: 3rem;">Archive coming soon.</p>';
+            }
+        }
+
+        loadArchive();
+    </script>
+</body>
+</html>
