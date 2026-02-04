@@ -145,6 +145,21 @@
             transform: scale(1.05);
         }
 
+        /* Hamburger Menu */
+        .hamburger { display: none; flex-direction: column; justify-content: center; gap: 5px; width: 32px; height: 32px; background: none; border: none; cursor: pointer; padding: 4px; z-index: 1001; }
+        .hamburger span { display: block; width: 100%; height: 3px; background: var(--white); border-radius: 2px; transition: all 0.3s ease; }
+        .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
+        .hamburger.active span:nth-child(2) { opacity: 0; }
+        .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
+        .mobile-menu { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: var(--dark); z-index: 999; padding: 70px 2rem 2rem; flex-direction: column; overflow-y: auto; }
+        .mobile-menu.active { display: flex; }
+        .mobile-menu-footer { margin-top: auto; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.15); }
+        .mobile-menu-tagline { font-size: 0.8rem; font-weight: 700; color: rgba(255,255,255,0.5); margin-bottom: 0.25rem; }
+        .mobile-menu-date { font-size: 0.75rem; font-weight: 600; color: rgba(255,255,255,0.4); }
+        .mobile-nav { display: flex; flex-direction: column; gap: 0.25rem; }
+        .mobile-nav-link { color: var(--white); font-size: 1.25rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; padding: 0.9rem 0; border-radius: 0; background: transparent; transition: all 0.2s ease; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .mobile-nav-link:hover, .mobile-nav-link.active { color: var(--wgac-teal); background: transparent; }
+
         /* Hero */
         .mission-hero {
             background: var(--dark);
@@ -466,12 +481,26 @@
             .footer-content { flex-direction: column; gap: 3rem; }
         }
         @media (max-width: 768px) {
-            .header-top { padding: 1rem 1.5rem; }
-            .main-nav { flex-wrap: wrap; }
-            .nav-link { padding: 0.4rem 0.8rem; font-size: 0.65rem; }
+            .header-top-bar { display: none; }
+            .main-nav { display: none; }
+            .hamburger { display: flex; }
+            .header-main { padding: 0.75rem 1rem; }
+            .logo-text { font-size: 1.1rem; }
+            .crap-box { padding: 0.3rem 0.5rem; }
+            .crap-box img { height: 1rem; }
             .mission-hero { padding: 4rem 1.5rem; }
+            .mission-hero h1 { font-size: clamp(2rem, 8vw, 4rem); }
             .mission-section { padding: 3rem 1.5rem; }
-            .manifesto-list li { font-size: 1.3rem; }
+            .mission-text h2 { font-size: 1.75rem; }
+            .mission-visual { font-size: 5rem; }
+            .stats-strip { padding: 2rem 1.5rem; }
+            .stat-block h3 { font-size: 2.5rem; }
+            .manifesto { padding: 3rem 1.5rem; }
+            .manifesto-list li { font-size: 1.1rem; padding: 1rem 0; }
+            .site-footer { padding: 2.5rem 1rem; }
+            .footer-nav { flex-direction: column; gap: 2rem; }
+            .footer-bottom { flex-direction: column; gap: 1rem; text-align: center; }
+            .footer-attribution { flex-direction: column; gap: 0.5rem; }
         }
     </style>
 </head>
@@ -495,8 +524,30 @@
                 <a href="wildlife.html" class="nav-link">Wildlife</a>
                 <a href="cats.html" class="nav-link">Cats</a>
             </nav>
+            <button class="hamburger" aria-label="Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <nav class="mobile-nav">
+            <a href="index.html" class="mobile-nav-link">Today</a>
+            <a href="climate.html" class="mobile-nav-link">Climate</a>
+            <a href="health.html" class="mobile-nav-link">Health</a>
+            <a href="science.html" class="mobile-nav-link">Science</a>
+            <a href="people.html" class="mobile-nav-link">People</a>
+            <a href="wildlife.html" class="mobile-nav-link">Wildlife</a>
+            <a href="cats.html" class="mobile-nav-link">Cats</a>
+        </nav>
+        <div class="mobile-menu-footer">
+            <div class="mobile-menu-tagline">The antidote to doom-scrolling</div>
+            <div class="mobile-menu-date">February 3, 2026</div>
+        </div>
+    </div>
 
     <section class="mission-hero">
         <h1>Good news exists.<br>We find it.</h1>
@@ -603,5 +654,25 @@
             </a>
         </div>
     </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        if (hamburger && mobileMenu) {
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                mobileMenu.classList.toggle('active');
+                hamburger.setAttribute('aria-expanded', hamburger.classList.contains('active'));
+                document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+            });
+            document.querySelectorAll('.mobile-nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.classList.remove('active');
+                    mobileMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+        }
+    </script>
 </body>
 </html>
