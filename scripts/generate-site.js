@@ -318,14 +318,14 @@ function generateArticleHTML(article) {
         .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
         .hamburger.active span:nth-child(2) { opacity: 0; }
         .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
-        .mobile-menu { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: var(--wgac-blue); z-index: 999; padding: 80px 2rem 2rem; flex-direction: column; overflow-y: auto; }
+        .mobile-menu { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: var(--dark); z-index: 999; padding: 70px 2rem 2rem; flex-direction: column; overflow-y: auto; }
         .mobile-menu.active { display: flex; }
-        .mobile-menu-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.2); }
-        .mobile-menu-tagline { font-size: 0.8rem; font-weight: 700; color: rgba(255,255,255,0.6); margin-bottom: 0.5rem; }
-        .mobile-menu-date { font-size: 0.75rem; font-weight: 600; color: rgba(255,255,255,0.5); }
-        .mobile-nav { display: flex; flex-direction: column; gap: 0.5rem; }
-        .mobile-nav-link { color: var(--white); font-size: 1.1rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; padding: 1rem 1.25rem; border-radius: var(--radius-md); background: rgba(255,255,255,0.1); transition: all 0.2s ease; }
-        .mobile-nav-link:hover, .mobile-nav-link.active { background: var(--white); color: var(--wgac-blue); }
+        .mobile-menu-footer { margin-top: auto; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.15); }
+        .mobile-menu-tagline { font-size: 0.8rem; font-weight: 700; color: rgba(255,255,255,0.5); margin-bottom: 0.25rem; }
+        .mobile-menu-date { font-size: 0.75rem; font-weight: 600; color: rgba(255,255,255,0.4); }
+        .mobile-nav { display: flex; flex-direction: column; gap: 0.25rem; }
+        .mobile-nav-link { color: var(--white); font-size: 1.25rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; padding: 0.9rem 0; border-radius: 0; background: transparent; transition: all 0.2s ease; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .mobile-nav-link:hover, .mobile-nav-link.active { color: var(--wgac-teal); background: transparent; }
 
         /* Article Hero */
         .article-hero { position: relative; height: 70vh; min-height: 500px; max-height: 700px; overflow: hidden; }
@@ -441,10 +441,6 @@ function generateArticleHTML(article) {
 
     <!-- Mobile Menu -->
     <div class="mobile-menu" id="mobileMenu">
-        <div class="mobile-menu-header">
-            <div class="mobile-menu-tagline">The antidote to doom-scrolling</div>
-            <div class="mobile-menu-date">${fallbackTimestamp}</div>
-        </div>
         <nav class="mobile-nav">
             <a href="../index.html" class="mobile-nav-link">Today</a>
             <a href="../climate.html" class="mobile-nav-link${category === 'climate' ? ' active' : ''}">Climate</a>
@@ -454,6 +450,10 @@ function generateArticleHTML(article) {
             <a href="../wildlife.html" class="mobile-nav-link${category === 'wildlife' ? ' active' : ''}">Wildlife</a>
             <a href="../cats.html" class="mobile-nav-link">Cats</a>
         </nav>
+        <div class="mobile-menu-footer">
+            <div class="mobile-menu-tagline">The antidote to doom-scrolling</div>
+            <div class="mobile-menu-date">${fallbackTimestamp}</div>
+        </div>
     </div>
 
     <!-- Article Hero -->
