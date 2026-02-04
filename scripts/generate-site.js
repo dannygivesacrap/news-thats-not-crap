@@ -815,6 +815,43 @@ function updateSectionPages(curated) {
   console.log('\n✅ Updated all section pages');
 }
 
+// Update timestamps on all static pages (cats, archive, mission, team, contact)
+function updateAllPageTimestamps() {
+  console.log('\nUpdating timestamps on all pages...\n');
+
+  const staticPages = ['cats.html', 'archive.html', 'mission.html', 'team.html', 'contact.html'];
+  const now = new Date();
+  const isoTimestamp = now.toISOString();
+  const fallbackTimestamp = formatUpdateTimestamp(now);
+
+  for (const pageName of staticPages) {
+    const pagePath = path.join(ROOT_DIR, pageName);
+
+    if (!fs.existsSync(pagePath)) {
+      continue;
+    }
+
+    let html = fs.readFileSync(pagePath, 'utf8');
+
+    // Update the header-date span with timestamp
+    const hasHeaderDate = html.includes('header-date');
+    if (hasHeaderDate) {
+      html = html.replace(
+        /<span class="header-date"[^>]*>.*?<\/span>/,
+        `<span class="header-date" data-timestamp="${isoTimestamp}">${fallbackTimestamp}</span>`
+      );
+
+      // Add timezone conversion script if not already present
+      if (!html.includes('data-timestamp-script')) {
+        html = html.replace('</body>', `${getTimezoneScript()}</body>`);
+      }
+
+      fs.writeFileSync(pagePath, html);
+      console.log(`  ✓ Updated ${pageName}`);
+    }
+  }
+}
+
 // Maintain article archive - NEVER delete old articles
 function updateArticleArchive(articles) {
   const archivePath = path.join(DATA_DIR, 'article-archive.json');
@@ -930,7 +967,10 @@ export async function generateSite() {
   // Step 4: Update section pages
   updateSectionPages(curated);
 
-  // Step 5: Save generation metadata
+  // Step 5: Update timestamps on all other pages
+  updateAllPageTimestamps();
+
+  // Step 6: Save generation metadata
   const metaPath = path.join(DATA_DIR, 'last-update.json');
   const existingMeta = fs.existsSync(metaPath)
     ? JSON.parse(fs.readFileSync(metaPath, 'utf8'))
