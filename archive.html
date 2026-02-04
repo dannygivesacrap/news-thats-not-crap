@@ -71,6 +71,17 @@
         /* Main Content */
         .main-content { max-width: 1000px; margin: 0 auto; padding: 3rem 2rem; }
 
+        /* Date Navigation */
+        .date-nav { display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+        .date-nav-btn { padding: 0.6rem 1.25rem; font-size: 0.85rem; font-weight: 700; border: 2px solid var(--gray-200); background: var(--white); border-radius: var(--radius-pill); cursor: pointer; transition: all 0.2s ease; color: var(--dark); }
+        .date-nav-btn:hover { border-color: var(--wgac-blue); color: var(--wgac-blue); }
+        .date-nav-btn.active { background: var(--wgac-blue); border-color: var(--wgac-blue); color: white; }
+        .date-nav-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+        .date-nav-arrows { display: flex; gap: 0.5rem; }
+        .date-nav-arrow { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; border: 2px solid var(--gray-200); background: var(--white); border-radius: 50%; cursor: pointer; transition: all 0.2s ease; }
+        .date-nav-arrow:hover:not(:disabled) { border-color: var(--wgac-blue); color: var(--wgac-blue); }
+        .date-nav-arrow:disabled { opacity: 0.3; cursor: not-allowed; }
+
         /* Date Group */
         .date-group { margin-bottom: 3rem; }
         .date-header { font-size: 1.25rem; font-weight: 900; color: var(--dark); padding-bottom: 0.75rem; margin-bottom: 1.5rem; border-bottom: 3px solid var(--dark); }
@@ -187,67 +198,206 @@
     </footer>
 
     <script>
+        // Archive state
+        let archiveData = null;
+        let sortedDates = [];
+        let currentDateIndex = 0;
+
         // Load and display archive
         async function loadArchive() {
             try {
                 const response = await fetch('data/article-archive.json');
                 if (!response.ok) throw new Error('Archive not found');
-                const archive = await response.json();
+                archiveData = await response.json();
 
                 const container = document.getElementById('archive-content');
 
-                if (!archive.articles || archive.articles.length === 0) {
+                if (!archiveData.articles || archiveData.articles.length === 0) {
                     container.innerHTML = '<p style="text-align: center; color: var(--gray-400); padding: 3rem;">No archived articles yet.</p>';
                     return;
                 }
 
                 // Group articles by date
                 const byDate = {};
-                archive.articles.forEach(article => {
+                archiveData.articles.forEach(article => {
                     const date = article.publishedDate || article.archivedAt?.split('T')[0] || 'Unknown';
                     if (!byDate[date]) byDate[date] = [];
                     byDate[date].push(article);
                 });
+                archiveData.byDate = byDate;
 
-                // Sort dates descending
-                const sortedDates = Object.keys(byDate).sort((a, b) => new Date(b) - new Date(a));
+                // Sort dates descending (newest first)
+                sortedDates = Object.keys(byDate).sort((a, b) => new Date(b) - new Date(a));
 
-                let html = '';
-                sortedDates.forEach(date => {
-                    const displayDate = new Date(date).toLocaleDateString('en-US', {
-                        weekday: 'long',
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric'
-                    });
+                // Build and display navigation
+                renderDateNav();
 
-                    html += `<div class="date-group">
-                        <h2 class="date-header">${displayDate}</h2>`;
-
-                    byDate[date].forEach(article => {
-                        const tagClass = 'tag-' + (article.category || 'people');
-                        html += `
-                            <a href="articles/${article.slug}.html" class="archive-article">
-                                <div class="archive-image">
-                                    <img src="${article.imageUrl || ''}" alt="${article.headline}" onerror="this.style.display='none'">
-                                </div>
-                                <div class="archive-content">
-                                    <span class="archive-tag ${tagClass}">${article.category || 'Story'}</span>
-                                    <h3 class="archive-title">${article.headline}</h3>
-                                    <div class="archive-meta">By ${article.author || 'Staff'} · ${article.readTime || 4} min read</div>
-                                </div>
-                            </a>`;
-                    });
-
-                    html += '</div>';
-                });
-
-                container.innerHTML = html;
+                // Show all dates by default, or just the current one if there are many
+                if (sortedDates.length <= 3) {
+                    renderAllDates();
+                } else {
+                    renderCurrentDate();
+                }
 
             } catch (error) {
                 document.getElementById('archive-content').innerHTML =
                     '<p style="text-align: center; color: var(--gray-400); padding: 3rem;">Archive coming soon.</p>';
             }
+        }
+
+        function formatDateDisplay(dateStr) {
+            return new Date(dateStr + 'T12:00:00').toLocaleDateString('en-US', {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        }
+
+        function formatDateShort(dateStr) {
+            return new Date(dateStr + 'T12:00:00').toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric'
+            });
+        }
+
+        function renderDateNav() {
+            // Always show navigation (even with 1 date, so users see the structure)
+
+            const navHtml = `
+                <div class="date-nav">
+                    <div class="date-nav-arrows">
+                        <button class="date-nav-arrow" id="prevDate" title="Previous day">←</button>
+                    </div>
+                    <div id="dateButtons" style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center;"></div>
+                    <div class="date-nav-arrows">
+                        <button class="date-nav-arrow" id="nextDate" title="Next day">→</button>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('archive-content').insertAdjacentHTML('beforebegin', navHtml);
+
+            // Render date buttons (show last 7 days max, or all if fewer)
+            const dateButtonsContainer = document.getElementById('dateButtons');
+            const datesToShow = sortedDates.slice(0, 7);
+
+            datesToShow.forEach((date, index) => {
+                const btn = document.createElement('button');
+                btn.className = 'date-nav-btn' + (index === 0 ? ' active' : '');
+                btn.textContent = formatDateShort(date);
+                btn.dataset.index = index;
+                btn.addEventListener('click', () => {
+                    currentDateIndex = index;
+                    renderCurrentDate();
+                    updateNavButtons();
+                });
+                dateButtonsContainer.appendChild(btn);
+            });
+
+            // Add "View All" button if there are many dates
+            if (sortedDates.length > 1) {
+                const allBtn = document.createElement('button');
+                allBtn.className = 'date-nav-btn';
+                allBtn.textContent = 'View All';
+                allBtn.addEventListener('click', () => {
+                    renderAllDates();
+                    document.querySelectorAll('.date-nav-btn').forEach(b => b.classList.remove('active'));
+                    allBtn.classList.add('active');
+                });
+                dateButtonsContainer.appendChild(allBtn);
+            }
+
+            // Arrow navigation
+            document.getElementById('prevDate').addEventListener('click', () => {
+                if (currentDateIndex < sortedDates.length - 1) {
+                    currentDateIndex++;
+                    renderCurrentDate();
+                    updateNavButtons();
+                }
+            });
+
+            document.getElementById('nextDate').addEventListener('click', () => {
+                if (currentDateIndex > 0) {
+                    currentDateIndex--;
+                    renderCurrentDate();
+                    updateNavButtons();
+                }
+            });
+
+            updateNavButtons();
+        }
+
+        function updateNavButtons() {
+            const prevBtn = document.getElementById('prevDate');
+            const nextBtn = document.getElementById('nextDate');
+
+            if (prevBtn) prevBtn.disabled = currentDateIndex >= sortedDates.length - 1;
+            if (nextBtn) nextBtn.disabled = currentDateIndex <= 0;
+
+            // Update active state on date buttons
+            document.querySelectorAll('.date-nav-btn').forEach((btn, i) => {
+                if (btn.dataset.index !== undefined) {
+                    btn.classList.toggle('active', parseInt(btn.dataset.index) === currentDateIndex);
+                }
+            });
+        }
+
+        function renderArticlesForDate(date) {
+            const articles = archiveData.byDate[date] || [];
+            let html = '';
+
+            articles.forEach(article => {
+                const tagClass = 'tag-' + (article.category || 'people');
+                html += `
+                    <a href="articles/${article.slug}.html" class="archive-article">
+                        <div class="archive-image">
+                            <img src="${article.imageUrl || ''}" alt="${escapeHtml(article.headline)}" onerror="this.style.display='none'">
+                        </div>
+                        <div class="archive-content">
+                            <span class="archive-tag ${tagClass}">${article.category || 'Story'}</span>
+                            <h3 class="archive-title">${escapeHtml(article.headline)}</h3>
+                            <div class="archive-meta">By ${escapeHtml(article.author || 'Staff')} · ${article.readTime || 4} min read</div>
+                        </div>
+                    </a>`;
+            });
+
+            return html;
+        }
+
+        function renderCurrentDate() {
+            const container = document.getElementById('archive-content');
+            const date = sortedDates[currentDateIndex];
+
+            container.innerHTML = `
+                <div class="date-group">
+                    <h2 class="date-header">${formatDateDisplay(date)}</h2>
+                    ${renderArticlesForDate(date)}
+                </div>
+            `;
+        }
+
+        function renderAllDates() {
+            const container = document.getElementById('archive-content');
+            let html = '';
+
+            sortedDates.forEach(date => {
+                html += `
+                    <div class="date-group" id="date-${date}">
+                        <h2 class="date-header">${formatDateDisplay(date)}</h2>
+                        ${renderArticlesForDate(date)}
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
         }
 
         loadArchive();
