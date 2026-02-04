@@ -13,6 +13,74 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
+// Load previously published articles to avoid duplicates
+function loadPublishedArticles() {
+  const archivePath = path.join(DATA_DIR, 'article-archive.json');
+  const publishedTitles = new Set();
+  const publishedUrls = new Set();
+
+  if (fs.existsSync(archivePath)) {
+    try {
+      const archive = JSON.parse(fs.readFileSync(archivePath, 'utf8'));
+      for (const article of archive.articles || []) {
+        // Normalize and store titles for comparison
+        if (article.headline) {
+          publishedTitles.add(normalizeTitle(article.headline));
+        }
+        // Also track source URLs
+        if (article.sourceUrl) {
+          publishedUrls.add(article.sourceUrl);
+        }
+      }
+      console.log(`Loaded ${publishedTitles.size} previously published articles for deduplication\n`);
+    } catch (e) {
+      console.log('Could not load article archive, skipping deduplication');
+    }
+  }
+
+  return { publishedTitles, publishedUrls };
+}
+
+// Normalize a title for comparison (lowercase, remove punctuation, collapse spaces)
+function normalizeTitle(title) {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 80); // Compare first 80 chars to catch slight variations
+}
+
+// Check if an article was previously published
+function wasPublished(article, publishedTitles, publishedUrls) {
+  // Check by URL first (most reliable)
+  if (article.link && publishedUrls.has(article.link)) {
+    return true;
+  }
+
+  // Check by normalized title
+  const normalizedTitle = normalizeTitle(article.title);
+  if (publishedTitles.has(normalizedTitle)) {
+    return true;
+  }
+
+  // Check for partial title match (catches rephrased headlines)
+  // If 70% of words match, consider it a duplicate
+  const titleWords = normalizedTitle.split(' ').filter(w => w.length > 3);
+  for (const pubTitle of publishedTitles) {
+    const pubWords = pubTitle.split(' ').filter(w => w.length > 3);
+    if (titleWords.length >= 4 && pubWords.length >= 4) {
+      const matchingWords = titleWords.filter(w => pubWords.includes(w));
+      const matchRatio = matchingWords.length / Math.min(titleWords.length, pubWords.length);
+      if (matchRatio >= 0.7) {
+        return true;
+      }
+    }
+  }
+
+  return false;
+}
+
 // Positive news RSS feeds - expanded for better coverage
 const RSS_FEEDS = [
   // Dedicated positive news sources (high trust)
@@ -207,12 +275,17 @@ export async function fetchAllNews() {
     fs.mkdirSync(DATA_DIR, { recursive: true });
   }
 
+  // Load previously published articles for deduplication
+  const { publishedTitles, publishedUrls } = loadPublishedArticles();
+
   // Fetch from all sources
   const rssArticles = await fetchRSSFeeds();
   const newsApiArticles = await fetchNewsAPI();
 
-  // Combine and deduplicate
+  // Combine all articles
   const allArticles = [...rssArticles, ...newsApiArticles];
+
+  // Deduplicate within current batch
   const seen = new Set();
   const uniqueArticles = allArticles.filter(article => {
     const key = article.title.toLowerCase().slice(0, 50);
@@ -221,13 +294,27 @@ export async function fetchAllNews() {
     return true;
   });
 
+  // Filter out previously published articles
+  const freshArticles = uniqueArticles.filter(article => {
+    const isDuplicate = wasPublished(article, publishedTitles, publishedUrls);
+    if (isDuplicate) {
+      console.log(`  Skipping duplicate: ${article.title.slice(0, 50)}...`);
+    }
+    return !isDuplicate;
+  });
+
+  const skippedCount = uniqueArticles.length - freshArticles.length;
+  if (skippedCount > 0) {
+    console.log(`\n📋 Filtered out ${skippedCount} previously published articles`);
+  }
+
   // Sort by positivity score
-  uniqueArticles.sort((a, b) => b.positivityScore - a.positivityScore);
+  freshArticles.sort((a, b) => b.positivityScore - a.positivityScore);
 
   // Take top 100 articles
-  const topArticles = uniqueArticles.slice(0, 100);
+  const topArticles = freshArticles.slice(0, 100);
 
-  console.log(`\n✅ Found ${topArticles.length} positive articles (from ${allArticles.length} total)\n`);
+  console.log(`\n✅ Found ${topArticles.length} fresh positive articles (from ${allArticles.length} total fetched)\n`);
 
   // Save to file
   const outputPath = path.join(DATA_DIR, 'raw-articles.json');
