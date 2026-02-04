@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-04T15:27:05.129Z",
-  "publishedAt": "2026-02-04T15:27:05.129Z",
+  "publishedAt": "2026-02-04T17:45:01.940Z",
   "homepage": {
     "hero": {
       "originalTitle": "Successful World First: Baby Treated with Personalized CRISPR Gene Therapy for Rare Disease is Now 'Thriving'",
@@ -2882,5 +2882,6 @@
       "approved": true,
       "_index": 39
     }
-  ]
+  ],
+  "autoPublished": true
 }

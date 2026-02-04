@@ -347,7 +347,7 @@
     <header class="site-header">
         <div class="header-top-bar">
             <span class="header-tagline">The antidote to doom-scrolling</span>
-            <span class="header-date">January 30, 2026</span>
+            <span class="header-date" data-timestamp="2026-02-04T17:45:02.267Z">Updated at 5:45 PM on February 4, 2026</span>
         </div>
         <div class="header-main">
             <a href="index.html" class="logo">
@@ -751,5 +751,17 @@
             });
         }
     </script>
-</body>
+
+    <script data-timestamp-script>
+      document.querySelectorAll('[data-timestamp]').forEach(function(el) {
+        var iso = el.getAttribute('data-timestamp');
+        if (iso) {
+          var d = new Date(iso);
+          var time = d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit', hour12: true });
+          var dateStr = d.toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' });
+          el.textContent = 'Updated at ' + time + ' on ' + dateStr;
+        }
+      });
+    </script>
+  </body>
 </html>
