@@ -312,6 +312,21 @@ function generateArticleHTML(article) {
         .nav-link:hover { background: rgba(255,255,255,0.3); }
         .nav-link.active { background: var(--white); color: var(--wgac-blue); }
 
+        /* Hamburger Menu */
+        .hamburger { display: none; flex-direction: column; justify-content: center; gap: 5px; width: 32px; height: 32px; background: none; border: none; cursor: pointer; padding: 4px; z-index: 1001; }
+        .hamburger span { display: block; width: 100%; height: 3px; background: var(--white); border-radius: 2px; transition: all 0.3s ease; }
+        .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
+        .hamburger.active span:nth-child(2) { opacity: 0; }
+        .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
+        .mobile-menu { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: var(--wgac-blue); z-index: 999; padding: 80px 2rem 2rem; flex-direction: column; overflow-y: auto; }
+        .mobile-menu.active { display: flex; }
+        .mobile-menu-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.2); }
+        .mobile-menu-tagline { font-size: 0.8rem; font-weight: 700; color: rgba(255,255,255,0.6); margin-bottom: 0.5rem; }
+        .mobile-menu-date { font-size: 0.75rem; font-weight: 600; color: rgba(255,255,255,0.5); }
+        .mobile-nav { display: flex; flex-direction: column; gap: 0.5rem; }
+        .mobile-nav-link { color: var(--white); font-size: 1.1rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; padding: 1rem 1.25rem; border-radius: var(--radius-md); background: rgba(255,255,255,0.1); transition: all 0.2s ease; }
+        .mobile-nav-link:hover, .mobile-nav-link.active { background: var(--white); color: var(--wgac-blue); }
+
         /* Article Hero */
         .article-hero { position: relative; height: 70vh; min-height: 500px; max-height: 700px; overflow: hidden; }
         .article-hero img { width: 100%; height: 100%; object-fit: cover; }
@@ -373,11 +388,25 @@ function generateArticleHTML(article) {
             .footer-content { flex-direction: column; gap: 3rem; }
         }
         @media (max-width: 768px) {
-            .header-top-bar { padding: 0.5rem 1rem; }
-            .header-main { padding: 1rem; flex-direction: column; gap: 1rem; }
-            .main-nav { flex-wrap: wrap; justify-content: center; }
-            .article-hero-content { padding: 2rem 1.5rem; }
+            .header-top-bar { display: none; }
+            .main-nav { display: none; }
+            .hamburger { display: flex; }
+            .header-main { padding: 0.75rem 1rem; }
+            .logo-text { font-size: 1.1rem; }
+            .crap-box { padding: 0.3rem 0.5rem; }
+            .crap-box img { height: 1rem; }
+            .article-hero { height: 50vh; min-height: 350px; }
+            .article-hero-content { padding: 1.5rem 1rem; text-align: left; }
+            .article-hero h1 { font-size: clamp(1.5rem, 6vw, 2rem); }
+            .article-meta { display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; font-size: 0.8rem; }
+            .article-meta span { margin: 0; }
+            .article-meta span:nth-child(2), .article-meta span:nth-child(4) { display: none; }
             .article-content { padding: 2rem 1.5rem; }
+            .article-lead { font-size: 1.15rem; }
+            .article-body p { font-size: 1rem; }
+            .article-body blockquote { font-size: 1.15rem; padding-left: 1rem; }
+            .site-footer { padding: 2.5rem 1rem; }
+            .footer-nav { flex-direction: column; gap: 2rem; }
         }
     </style>
 </head>
@@ -402,8 +431,30 @@ function generateArticleHTML(article) {
                 <a href="../wildlife.html" class="nav-link${category === 'wildlife' ? ' active' : ''}">Wildlife</a>
                 <a href="../cats.html" class="nav-link">Cats</a>
             </nav>
+            <button class="hamburger" aria-label="Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="mobile-menu-tagline">The antidote to doom-scrolling</div>
+            <div class="mobile-menu-date">${fallbackTimestamp}</div>
+        </div>
+        <nav class="mobile-nav">
+            <a href="../index.html" class="mobile-nav-link">Today</a>
+            <a href="../climate.html" class="mobile-nav-link${category === 'climate' ? ' active' : ''}">Climate</a>
+            <a href="../health.html" class="mobile-nav-link${category === 'health' ? ' active' : ''}">Health</a>
+            <a href="../science.html" class="mobile-nav-link${category === 'science' ? ' active' : ''}">Science</a>
+            <a href="../people.html" class="mobile-nav-link${category === 'people' ? ' active' : ''}">People</a>
+            <a href="../wildlife.html" class="mobile-nav-link${category === 'wildlife' ? ' active' : ''}">Wildlife</a>
+            <a href="../cats.html" class="mobile-nav-link">Cats</a>
+        </nav>
+    </div>
 
     <!-- Article Hero -->
     <div class="article-hero">
@@ -489,6 +540,26 @@ ${pullQuoteHtml}
           el.textContent = 'Updated at ' + time + ' on ' + dateStr;
         }
       });
+    </script>
+    <script>
+      // Hamburger menu toggle
+      var hamburger = document.querySelector('.hamburger');
+      var mobileMenu = document.getElementById('mobileMenu');
+      if (hamburger && mobileMenu) {
+        hamburger.addEventListener('click', function() {
+          hamburger.classList.toggle('active');
+          mobileMenu.classList.toggle('active');
+          hamburger.setAttribute('aria-expanded', hamburger.classList.contains('active'));
+          document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+        });
+        document.querySelectorAll('.mobile-nav-link').forEach(function(link) {
+          link.addEventListener('click', function() {
+            hamburger.classList.remove('active');
+            mobileMenu.classList.remove('active');
+            document.body.style.overflow = '';
+          });
+        });
+      }
     </script>
 </body>
 </html>`;
