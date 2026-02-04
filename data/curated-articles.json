@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-02-04T15:12:14.672Z",
+  "generatedAt": "2026-02-04T15:27:05.129Z",
+  "publishedAt": "2026-02-04T15:27:05.129Z",
   "homepage": {
     "hero": {
       "originalTitle": "Successful World First: Baby Treated with Personalized CRISPR Gene Therapy for Rare Disease is Now 'Thriving'",
@@ -28,7 +29,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: the Pennsylvania baby KJ with a rare metabolic disorder preventing ammonia-to-urea conversion, the successful personalized CRISPR gene therapy treatment, the previous risks of brain/liver damage, the restrictive diet and medications required before treatment, and the current thriving status. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article adds appropriate context and explanation while staying faithful to the source material."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     "featured": [
       {
@@ -57,7 +60,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts from the source are accurately represented: 3,000°C heating temperature, use of electrical current, 13 times cheaper cost comparison, recovery of decent grades of precious metals, and no hazardous waste creation. No fabricated quotes, all statistics match, and no unsupported claims were found. The article uses more colorful language but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "Acupuncture for Rescued Elephants Provides Relief from Chronic Pain and Nerve Damage in India Care Center",
@@ -86,7 +91,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual claims from the source material. It correctly states that India's largest wildlife rescue organization is using acupuncture for rescued elephants with chronic pain, nerve damage, and mobility issues from captivity/hard labor. The article accurately notes that the veterinary team sought alternative medicine training to use alongside conventional medicine, and that this approach boosted recovery rates. No statistics, quotes, or specific names were provided in the source to verify, and the article doesn't fabricate any. The writing style is more elaborate and narrative than the source, but all factual content remains faithful to the original."
-        }
+        },
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "A natural aging molecule may help restore memory in Alzheimer's",
@@ -115,7 +122,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that researchers found a natural aging-related molecule that can repair memory processes affected by Alzheimer's, improves communication between brain cells, restores early memory abilities that fade first, and offers a potentially safer approach since it already exists in the body but declines with age. No fabricated quotes, statistics, or unsupported claims were found. The article uses more conversational language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 3
       },
       {
         "originalTitle": "Revolutionary therapy treats 'untreatable' blood cancer",
@@ -143,7 +152,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly describes the gene therapy as transforming white blood cells into a 'living drug' that has reversed previously untreatable blood cancers by turning patients' own immune cells into cancer fighters. No statistics, quotes, names, or specific claims were fabricated. The article uses appropriate analogies and explanations while staying faithful to the core facts presented in the original source."
-        }
+        },
+        "approved": true,
+        "_index": 4
       },
       {
         "originalTitle": "13-year-old Ditches Lifejacket and Makes 'Superhuman' Swim to Save Family Swept out to Sea",
@@ -178,7 +189,9 @@
           "confidence": "high",
           "summary": "While the core facts (13-year-old, 4-hour swim, rough seas, family rescue near Quindalup, hero status) are accurate, the generated article adds unsupported details like ditching the lifejacket and includes fabricated quotes and excessive editorial commentary not found in the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 5
       },
       {
         "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
@@ -206,7 +219,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: the 67,800-year age, Indonesian limestone cave location, world's oldest rock art status, breaking Indonesia's own record, and evidence of intentional sea crossing from Asia nearly 70,000 years ago. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 6
       },
       {
         "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
@@ -234,7 +249,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts from the source are accurately represented in the generated article. Taryn Smith's age (25), location (Nebraska), historic achievement (first female solo Atlantic crossing in 3,000-mile race), her self-taught rowing skills, residence in Omaha, and inspiration from the 2022 Great Pacific Race all-female team are correctly stated. The article expands on the source with additional context and commentary but does not introduce any factual inaccuracies or unsupported claims."
-        }
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "Helping with Grandkids May Protect Against Cognitive Decline, Shows New Research",
@@ -262,7 +279,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that research shows caring for grandchildren may protect against cognitive decline and dementia, that being an involved grandparent is good for the brain, and that grandparents support families and society broadly. No statistics, quotes, or specific names were mentioned in either piece, so there are no attribution issues. The article adds explanatory context and engaging language but doesn't introduce any unsupported claims."
-        }
+        },
+        "approved": true,
+        "_index": 8
       },
       {
         "originalTitle": "New catalyst turns carbon dioxide into clean fuel source",
@@ -290,7 +309,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that manganese is abundant and inexpensive, can efficiently convert CO2 into formate (a hydrogen source for fuel cells), that the catalyst was cleverly redesigned to last longer than similar low-cost materials, and that it outperforms many expensive precious-metal options. No quotes were fabricated or misattributed, and no unsupported claims were made. The article uses creative analogies and engaging language but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
@@ -319,7 +340,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that chronic stress damages the gut's protective lining by lowering Reelin levels, that Reelin plays a role in both gut repair and brain health, and that a single injection restored Reelin levels with antidepressant-like effects in preclinical models. The article expands on these facts with explanatory context and implications but does not introduce any inaccurate information or unsupported claims. No quotes were fabricated, and the scientific findings are presented faithfully."
-        }
+        },
+        "approved": true,
+        "_index": 10
       },
       {
         "originalTitle": "NASAs IMAP Begins Primary Science Mission",
@@ -347,7 +370,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All core facts from the original source are accurately represented in the generated article. The mission start date (February 1), duration (two years), spacecraft name and acronym, and mission objective (exploring and mapping heliosphere boundaries) are all correct. While the article uses more creative and accessible language, it doesn't misrepresent any factual information from the source material."
-        }
+        },
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "As rooftop solar overtakes coal, more batteries are powering the night shift",
@@ -375,7 +400,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. The core claims about rooftop solar overtaking coal, battery boom driving grid transformation, and homeowners investing in storage for nighttime use are all supported. While the article uses more casual language and expands on implications, it doesn't fabricate any facts, statistics, quotes, or specific details not found in the original source."
-        }
+        },
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "China's Solar Power Capacity on Course to Surpass Coal This Year",
@@ -403,7 +430,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents the key facts from the source material. It correctly states that China's solar generating capacity is expected to surpass coal for the first time this year, according to the country's top electricity industry group. No fabricated quotes were used, and the additional commentary and analysis, while extensive, does not contradict or misrepresent the source information. All factual claims align with the original excerpt."
-        }
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
@@ -432,30 +461,32 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all factual information from the source. It correctly describes the nationwide photography project, its purpose of preserving India's architectural heritage through detailed documentation, and specifically mentions Patwon Ki Haveli in Jaisalmer with its carved balconies and latticed windows. No quotes were fabricated, all place names are accurate, and while the article expands with additional context and commentary, all core claims are supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 14
       }
     ]
   },
   "sections": {
     "climate": [
       {
-        "originalTitle": "China's Solar Power Capacity on Course to Surpass Coal This Year",
-        "headline": "China's Solar Revolution: Clean Energy Set to Eclipse Coal",
-        "excerpt": "China's solar generating capacity is expected to surpass coal for the first time this year, according to the country's top electricity industry group. This marks a major milestone in the country's long-standing effort to build a cleaner power system.",
+        "originalTitle": "New catalyst turns carbon dioxide into clean fuel source",
+        "headline": "Scientists Turn CO2 Into Fuel Using Dirt-Cheap Metal",
+        "excerpt": "Researchers have discovered that manganese, an abundant and inexpensive metal, can efficiently convert carbon dioxide into formate, a potential hydrogen source for fuel cells. The clever redesign makes the catalyst last far longer than similar low-cost materials and even beats many expensive precious-metal options.",
         "category": "climate",
-        "sourceUrl": "https://financialpost.com/pmn/business-pmn/chinas-solar-power-capacity-on-course-to-surpass-coal-this-year",
-        "sourceName": "Financial Post",
-        "readTime": 3,
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260203030548.htm",
+        "sourceName": "Science Daily Environment",
+        "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "chinas-solar-revolution-clean-energy-set-to-eclipse-coal",
+        "slug": "scientists-turn-co2-into-fuel-using-dirt-cheap-metal",
         "author": "Marina Waters",
-        "imageUrl": "https://images.pexels.com/photos/14096753/pexels-photo-14096753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "imageUrl": "https://images.pexels.com/photos/3796993/pexels-photo-3796993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Here's a sentence that would have sounded like science fiction just a decade ago: China's solar power capacity is about to outshine its coal capacity for the first time ever. According to the country's top electricity industry group, this solar milestone could happen before the year is out.",
+          "lead": "What if we could take the carbon dioxide that's heating up our planet and turn it into clean fuel instead? Sounds like science fiction, but researchers have just figured out how to do exactly that using one of Earth's most common metals.",
           "body": [
-            "Let's put this in perspective for a moment. We're talking about China here – the country that has historically been synonymous with coal-fired power plants and industrial smokestacks. For solar to overtake coal in generating capacity represents a seismic shift in how the world's second-largest economy powers itself.",
-            "This isn't just about one country switching energy sources, either. China is a global manufacturing powerhouse, so when they pivot toward cleaner energy, it sends ripples across the entire planet. The fact that solar is becoming their dominant power source suggests we might be witnessing a genuine turning point in the global energy landscape.",
-            "The timing couldn't be more encouraging. While climate conversations often focus on what we need to do or should do, this milestone represents something we're actually doing – and doing successfully. It's the kind of tangible progress that proves large-scale renewable energy transitions aren't just possible, they're happening right now, even in the world's most energy-hungry economies."
+            "The breakthrough involves manganese, a metal that's both abundant and cheap – think of it as the reliable workhorse of the periodic table. Scientists have discovered that this unassuming element can efficiently convert carbon dioxide into formate, which can serve as a hydrogen source for fuel cells. It's like turning pollution into power.",
+            "Here's where it gets really exciting: the researchers didn't just stumble upon this discovery. They cleverly redesigned the catalyst to make it last far longer than other low-cost materials. We're talking about a solution that's not only environmentally friendly but also economically practical – a rare and beautiful combination in the world of clean energy.",
+            "Perhaps most impressively, this manganese-based catalyst doesn't just compete with other budget options – it actually outperforms many expensive precious-metal catalysts. That's like your trusty bicycle beating a Ferrari in a race. When an affordable, abundant material can outshine the fancy stuff, you know we might be looking at a real game-changer for clean fuel technology."
           ],
           "pullQuote": null
         },
@@ -463,8 +494,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents the key facts from the source material. It correctly states that China's solar generating capacity is expected to surpass coal for the first time this year, according to the country's top electricity industry group. No fabricated quotes were used, and the additional commentary and analysis, while extensive, does not contradict or misrepresent the source information. All factual claims align with the original excerpt."
-        }
+          "summary": "The generated article accurately represents all key facts from the source material. It correctly states that manganese is abundant and inexpensive, can efficiently convert CO2 into formate (a hydrogen source for fuel cells), that the catalyst was cleverly redesigned to last longer than similar low-cost materials, and that it outperforms many expensive precious-metal options. No quotes were fabricated or misattributed, and no unsupported claims were made. The article uses creative analogies and engaging language but maintains factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "As rooftop solar overtakes coal, more batteries are powering the night shift",
@@ -492,26 +525,28 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. The core claims about rooftop solar overtaking coal, battery boom driving grid transformation, and homeowners investing in storage for nighttime use are all supported. While the article uses more casual language and expands on implications, it doesn't fabricate any facts, statistics, quotes, or specific details not found in the original source."
-        }
+        },
+        "approved": true,
+        "_index": 12
       },
       {
-        "originalTitle": "New catalyst turns carbon dioxide into clean fuel source",
-        "headline": "Scientists Turn CO2 Into Fuel Using Dirt-Cheap Metal",
-        "excerpt": "Researchers have discovered that manganese, an abundant and inexpensive metal, can efficiently convert carbon dioxide into formate, a potential hydrogen source for fuel cells. The clever redesign makes the catalyst last far longer than similar low-cost materials and even beats many expensive precious-metal options.",
+        "originalTitle": "China's Solar Power Capacity on Course to Surpass Coal This Year",
+        "headline": "China's Solar Revolution: Clean Energy Set to Eclipse Coal",
+        "excerpt": "China's solar generating capacity is expected to surpass coal for the first time this year, according to the country's top electricity industry group. This marks a major milestone in the country's long-standing effort to build a cleaner power system.",
         "category": "climate",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260203030548.htm",
-        "sourceName": "Science Daily Environment",
-        "readTime": 4,
+        "sourceUrl": "https://financialpost.com/pmn/business-pmn/chinas-solar-power-capacity-on-course-to-surpass-coal-this-year",
+        "sourceName": "Financial Post",
+        "readTime": 3,
         "isHomepageFeatured": true,
-        "slug": "scientists-turn-co2-into-fuel-using-dirt-cheap-metal",
+        "slug": "chinas-solar-revolution-clean-energy-set-to-eclipse-coal",
         "author": "Marina Waters",
-        "imageUrl": "https://images.pexels.com/photos/3796993/pexels-photo-3796993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "imageUrl": "https://images.pexels.com/photos/14096753/pexels-photo-14096753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "What if we could take the carbon dioxide that's heating up our planet and turn it into clean fuel instead? Sounds like science fiction, but researchers have just figured out how to do exactly that using one of Earth's most common metals.",
+          "lead": "Here's a sentence that would have sounded like science fiction just a decade ago: China's solar power capacity is about to outshine its coal capacity for the first time ever. According to the country's top electricity industry group, this solar milestone could happen before the year is out.",
           "body": [
-            "The breakthrough involves manganese, a metal that's both abundant and cheap – think of it as the reliable workhorse of the periodic table. Scientists have discovered that this unassuming element can efficiently convert carbon dioxide into formate, which can serve as a hydrogen source for fuel cells. It's like turning pollution into power.",
-            "Here's where it gets really exciting: the researchers didn't just stumble upon this discovery. They cleverly redesigned the catalyst to make it last far longer than other low-cost materials. We're talking about a solution that's not only environmentally friendly but also economically practical – a rare and beautiful combination in the world of clean energy.",
-            "Perhaps most impressively, this manganese-based catalyst doesn't just compete with other budget options – it actually outperforms many expensive precious-metal catalysts. That's like your trusty bicycle beating a Ferrari in a race. When an affordable, abundant material can outshine the fancy stuff, you know we might be looking at a real game-changer for clean fuel technology."
+            "Let's put this in perspective for a moment. We're talking about China here – the country that has historically been synonymous with coal-fired power plants and industrial smokestacks. For solar to overtake coal in generating capacity represents a seismic shift in how the world's second-largest economy powers itself.",
+            "This isn't just about one country switching energy sources, either. China is a global manufacturing powerhouse, so when they pivot toward cleaner energy, it sends ripples across the entire planet. The fact that solar is becoming their dominant power source suggests we might be witnessing a genuine turning point in the global energy landscape.",
+            "The timing couldn't be more encouraging. While climate conversations often focus on what we need to do or should do, this milestone represents something we're actually doing – and doing successfully. It's the kind of tangible progress that proves large-scale renewable energy transitions aren't just possible, they're happening right now, even in the world's most energy-hungry economies."
           ],
           "pullQuote": null
         },
@@ -519,8 +554,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source material. It correctly states that manganese is abundant and inexpensive, can efficiently convert CO2 into formate (a hydrogen source for fuel cells), that the catalyst was cleverly redesigned to last longer than similar low-cost materials, and that it outperforms many expensive precious-metal options. No quotes were fabricated or misattributed, and no unsupported claims were made. The article uses creative analogies and engaging language but maintains factual accuracy throughout."
-        }
+          "summary": "The generated article accurately represents the key facts from the source material. It correctly states that China's solar generating capacity is expected to surpass coal for the first time this year, according to the country's top electricity industry group. No fabricated quotes were used, and the additional commentary and analysis, while extensive, does not contradict or misrepresent the source information. All factual claims align with the original excerpt."
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "Scientists found the soil secret that doubles forest regrowth",
@@ -548,7 +585,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source: tropical forests recover twice as fast with adequate soil nitrogen, the research followed forest regrowth across Central America for decades, faster regrowth leads to more carbon capture, and this points to smarter reforestation strategies. No statistics, quotes, names, or specific claims were fabricated or misrepresented. The article adds interpretive language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 19
       },
       {
         "originalTitle": "China to See Solar Capacity Outstrip Coal Capacity This Year",
@@ -575,7 +614,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: China's solar capacity will outstrip coal capacity this year for the first time, this information comes from an industry group, it's a historic milestone, and China is the world's largest energy market. No quotes were fabricated, all names and places are accurate, and while the article adds context and analysis not in the source, it doesn't contradict or misrepresent any source information."
-        }
+        },
+        "approved": true,
+        "_index": 27
       },
       {
         "originalTitle": "METLEN secures financing for new solar project in Italy",
@@ -602,7 +643,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All factual information in the generated article accurately matches the source material. The financing amount (€16.6 million), project capacity (20.75 MWp), location (Bicinicco solar park in Friuli Venezia Giulia region), company name (METLEN), and context about Italy's renewable energy sector growth are all correctly reported. No quotes were fabricated, and all names and places are accurate. The article expands with commentary and context but does not make any unsupported factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 30
       },
       {
         "originalTitle": "A breakthrough that turns exhaust CO2 into useful materials",
@@ -629,7 +672,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the original source: the device captures CO2 and transforms it into formic acid in a single step, works with realistic exhaust gases, and functions at CO2 levels found in normal air. No quotes were fabricated (the article references 'the report' rather than creating false quotes), and all technical claims align with the source material. The additional context about formic acid's uses and the article's conversational tone are appropriate editorial additions that don't contradict the source."
-        }
+        },
+        "approved": true,
+        "_index": 34
       },
       {
         "originalTitle": "This new building material pulls carbon out of the air",
@@ -656,57 +701,31 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. All technical details about the enzyme-based material, its properties (cures in hours, strong, repairable, recyclable), and its carbon-capturing function are correctly stated. The quote about 'a cleaner alternative to concrete' is properly attributed to the researchers. No fabricated statistics, names, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 35
       }
     ],
     "health": [
       {
-        "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
-        "headline": "The Gut-Brain Fix: New Protein Could Tackle Depression From the Inside Out",
-        "excerpt": "Scientists have found that chronic stress damages the gut's protective lining by lowering levels of a protein called Reelin, which plays a key role in both gut repair and brain health. Remarkably, a single injection restored Reelin levels and produced antidepressant-like effects in preclinical models.",
+        "originalTitle": "Successful World First: Baby Treated with Personalized CRISPR Gene Therapy for Rare Disease is Now 'Thriving'",
+        "headline": "Gene-ius Move: Baby's Life Saved with World-First Personalized CRISPR Therapy",
+        "excerpt": "A Pennsylvania baby born with a rare metabolic disorder that prevents converting ammonia to urea has been successfully treated with personalized CRISPR gene therapy. The child, known as KJ, was at serious risk of brain or liver damage and had to be kept on medications and an extremely restrictive diet to avoid protein metabolism. The groundbreaking treatment has the child now thriving.",
         "category": "health",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260201231240.htm",
-        "sourceName": "Science Daily Health",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "the-gut-brain-fix-new-protein-could-tackle-depression-from-t",
-        "author": "Joy Fuller",
-        "imageUrl": "https://images.pexels.com/photos/3641367/pexels-photo-3641367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "What if the secret to healing both your gut and your mood was hiding in a single protein? Scientists have discovered that chronic stress doesn't just mess with your head – it literally damages your gut's protective barrier by depleting a crucial protein called Reelin. But here's the exciting part: they've found a way to restore it.",
-          "body": [
-            "The research reveals that when we're chronically stressed, our bodies produce less Reelin, a protein that serves double duty as both a gut repair specialist and a brain health guardian. Think of it as your body's maintenance crew that keeps both your digestive system's protective lining intact and your mental health balanced.",
-            "Here's where things get really interesting: Reelin isn't just important for gut health – it plays a key role in brain function too. This discovery helps explain why gut problems and depression so often go hand in hand. When stress knocks down your Reelin levels, both your gut barrier and your mood can take a hit.",
-            "The most promising finding? In preclinical studies, scientists were able to restore Reelin levels with just a single injection, and the results included antidepressant-like effects. While this research is still in early stages, it opens up fascinating possibilities for treating both gut issues and depression by targeting this one crucial protein.",
-            "This gut-brain connection research could eventually lead to new treatments that address both digestive problems and mood disorders simultaneously – a true win-win for anyone who's ever felt their stomach and their spirits sink together during stressful times."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that chronic stress damages the gut's protective lining by lowering Reelin levels, that Reelin plays a role in both gut repair and brain health, and that a single injection restored Reelin levels with antidepressant-like effects in preclinical models. The article expands on these facts with explanatory context and implications but does not introduce any inaccurate information or unsupported claims. No quotes were fabricated, and the scientific findings are presented faithfully."
-        }
-      },
-      {
-        "originalTitle": "Helping with Grandkids May Protect Against Cognitive Decline, Shows New Research",
-        "headline": "Grandparent Brain Boost: Caring for Grandkids Fights Cognitive Decline",
-        "excerpt": "A new study shows that caring for grandchildren may serve as a buffer against cognitive decline and dementia in older adults. Research indicates that being an involved grandparent is good for the brain. Many grandparents provide regular care for their grandchildren, supporting families and society more broadly.",
-        "category": "health",
-        "sourceUrl": "https://www.goodnewsnetwork.org/helping-with-grandkids-may-protect-against-cognitive-decline-new-research/",
+        "sourceUrl": "https://www.goodnewsnetwork.org/successful-world-first-baby-treated-with-personalized-crispr-gene-therapy-for-rare-disease-is-now-thriving/",
         "sourceName": "Good News Network",
         "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "grandparent-brain-boost-caring-for-grandkids-fights-cognitiv",
-        "author": "Liv Long",
-        "imageUrl": "https://images.pexels.com/photos/8940738/pexels-photo-8940738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "isHomepageHero": true,
+        "slug": "gene-ius-move-babys-life-saved-with-world-first-personalized",
+        "author": "Faith Healer",
+        "imageUrl": "https://images.pexels.com/photos/4886900/pexels-photo-4886900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Here's some news that'll make grandparents everywhere do a little happy dance: all those hours spent reading bedtime stories, pushing swings, and explaining why the sky is blue might be doing more than creating precious memories. New research suggests that caring for grandchildren could actually help protect against cognitive decline and dementia.",
+          "lead": "Sometimes science fiction becomes science fact in the most beautiful way possible. A baby in Pennsylvania has become the first person ever successfully treated with personalized CRISPR gene therapy for a rare metabolic disorder, and the results are nothing short of remarkable.",
           "body": [
-            "According to the study, being an involved grandparent isn't just good for the grandkids—it's genuinely good for the brain. While we've long known that staying mentally and socially active can benefit cognitive health, this research specifically highlights the unique brain-boosting potential of grandparent duties.",
-            "The findings make a lot of sense when you think about it. Caring for grandchildren is like a mental gymnasium: you're constantly problem-solving, staying socially engaged, learning new things (hello, TikTok dances and Pokemon names), and keeping up with energy levels that would make marathon runners weep. It's the kind of meaningful mental stimulation that apparently keeps our brains firing on all cylinders.",
-            "What makes this research particularly heartwarming is how it recognizes something many families already know: grandparents aren't just babysitters—they're essential pillars supporting families and society more broadly. The fact that this vital role might also be protecting their own cognitive health? That's what we call a beautiful full-circle moment."
+            "Little KJ was born with a condition that prevented their body from converting ammonia to urea – a process most of us never think about but is absolutely crucial for staying healthy. Without this conversion working properly, KJ faced serious risks of brain or liver damage, a scary prospect for any new parent.",
+            "The treatment required an incredibly restrictive approach before the gene therapy: medications and an extremely limited diet to avoid protein metabolism. Imagine trying to navigate that with a newborn – it's the kind of challenge that would test any family's strength and resolve.",
+            "But here's where the story gets genuinely exciting: the personalized CRISPR gene therapy worked. According to the report, KJ is now thriving after receiving this groundbreaking treatment. This isn't just good news for one family – it's a proof of concept that could open doors for treating other rare metabolic disorders.",
+            "What makes this particularly special is the word 'personalized' in personalized gene therapy. This wasn't a one-size-fits-all approach, but treatment specifically designed for KJ's unique genetic situation. It's like having a key made specifically for one very important lock, and in this case, that key has helped unlock a healthier future for a child who needed it most."
           ],
           "pullQuote": null
         },
@@ -714,36 +733,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that research shows caring for grandchildren may protect against cognitive decline and dementia, that being an involved grandparent is good for the brain, and that grandparents support families and society broadly. No statistics, quotes, or specific names were mentioned in either piece, so there are no attribution issues. The article adds explanatory context and engaging language but doesn't introduce any unsupported claims."
-        }
-      },
-      {
-        "originalTitle": "Revolutionary therapy treats 'untreatable' blood cancer",
-        "headline": "Living Drug Victory: Gene Therapy Conquers 'Untreatable' Blood Cancers",
-        "excerpt": "Gene therapy that turns white blood cells into a disease-busting 'living drug' has reversed previously untreatable blood cancers. The revolutionary treatment transforms patients' own immune cells into powerful cancer fighters.",
-        "category": "health",
-        "sourceUrl": "https://www.positive.news/society/revolutionary-therapy-treats-untreatable-blood-cancer/",
-        "sourceName": "Positive News",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "living-drug-victory-gene-therapy-conquers-untreatable-blood",
-        "author": "Hope Springs",
-        "imageUrl": "https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "What if your own immune system could be turned into a precision-guided missile against cancer? That's exactly what's happening with a revolutionary gene therapy that's giving hope to patients with previously untreatable blood cancers.",
-          "body": [
-            "This breakthrough treatment works by taking patients' white blood cells and transforming them into what researchers are calling a 'living drug.' Think of it as giving your immune system a complete upgrade – turning ordinary white blood cells into supercharged cancer-fighting machines that know exactly what they're hunting for.",
-            "The gene therapy has achieved something remarkable: reversing blood cancers that were previously considered untreatable. Instead of relying on external medications that eventually leave the body, this approach creates a lasting army of cancer fighters from the patient's own immune cells.",
-            "What makes this particularly exciting is that it uses the body's natural defense system as the foundation. Rather than introducing foreign substances, the therapy essentially teaches existing immune cells to become more effective at their job – like giving a security team better training and equipment to protect what they're already guarding."
-          ],
-          "pullQuote": null
+          "summary": "The generated article accurately represents all key facts from the source: the Pennsylvania baby KJ with a rare metabolic disorder preventing ammonia-to-urea conversion, the successful personalized CRISPR gene therapy treatment, the previous risks of brain/liver damage, the restrictive diet and medications required before treatment, and the current thriving status. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article adds appropriate context and explanation while staying faithful to the source material."
         },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source material. It correctly describes the gene therapy as transforming white blood cells into a 'living drug' that has reversed previously untreatable blood cancers by turning patients' own immune cells into cancer fighters. No statistics, quotes, names, or specific claims were fabricated. The article uses appropriate analogies and explanations while staying faithful to the core facts presented in the original source."
-        }
+        "approved": true,
+        "_index": 0
       },
       {
         "originalTitle": "A natural aging molecule may help restore memory in Alzheimer's",
@@ -772,27 +765,28 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that researchers found a natural aging-related molecule that can repair memory processes affected by Alzheimer's, improves communication between brain cells, restores early memory abilities that fade first, and offers a potentially safer approach since it already exists in the body but declines with age. No fabricated quotes, statistics, or unsupported claims were found. The article uses more conversational language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 3
       },
       {
-        "originalTitle": "Successful World First: Baby Treated with Personalized CRISPR Gene Therapy for Rare Disease is Now 'Thriving'",
-        "headline": "Gene-ius Move: Baby's Life Saved with World-First Personalized CRISPR Therapy",
-        "excerpt": "A Pennsylvania baby born with a rare metabolic disorder that prevents converting ammonia to urea has been successfully treated with personalized CRISPR gene therapy. The child, known as KJ, was at serious risk of brain or liver damage and had to be kept on medications and an extremely restrictive diet to avoid protein metabolism. The groundbreaking treatment has the child now thriving.",
+        "originalTitle": "Revolutionary therapy treats 'untreatable' blood cancer",
+        "headline": "Living Drug Victory: Gene Therapy Conquers 'Untreatable' Blood Cancers",
+        "excerpt": "Gene therapy that turns white blood cells into a disease-busting 'living drug' has reversed previously untreatable blood cancers. The revolutionary treatment transforms patients' own immune cells into powerful cancer fighters.",
         "category": "health",
-        "sourceUrl": "https://www.goodnewsnetwork.org/successful-world-first-baby-treated-with-personalized-crispr-gene-therapy-for-rare-disease-is-now-thriving/",
-        "sourceName": "Good News Network",
+        "sourceUrl": "https://www.positive.news/society/revolutionary-therapy-treats-untreatable-blood-cancer/",
+        "sourceName": "Positive News",
         "readTime": 4,
-        "isHomepageHero": true,
-        "slug": "gene-ius-move-babys-life-saved-with-world-first-personalized",
-        "author": "Faith Healer",
-        "imageUrl": "https://images.pexels.com/photos/4886900/pexels-photo-4886900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "isHomepageFeatured": true,
+        "slug": "living-drug-victory-gene-therapy-conquers-untreatable-blood",
+        "author": "Hope Springs",
+        "imageUrl": "https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Sometimes science fiction becomes science fact in the most beautiful way possible. A baby in Pennsylvania has become the first person ever successfully treated with personalized CRISPR gene therapy for a rare metabolic disorder, and the results are nothing short of remarkable.",
+          "lead": "What if your own immune system could be turned into a precision-guided missile against cancer? That's exactly what's happening with a revolutionary gene therapy that's giving hope to patients with previously untreatable blood cancers.",
           "body": [
-            "Little KJ was born with a condition that prevented their body from converting ammonia to urea – a process most of us never think about but is absolutely crucial for staying healthy. Without this conversion working properly, KJ faced serious risks of brain or liver damage, a scary prospect for any new parent.",
-            "The treatment required an incredibly restrictive approach before the gene therapy: medications and an extremely limited diet to avoid protein metabolism. Imagine trying to navigate that with a newborn – it's the kind of challenge that would test any family's strength and resolve.",
-            "But here's where the story gets genuinely exciting: the personalized CRISPR gene therapy worked. According to the report, KJ is now thriving after receiving this groundbreaking treatment. This isn't just good news for one family – it's a proof of concept that could open doors for treating other rare metabolic disorders.",
-            "What makes this particularly special is the word 'personalized' in personalized gene therapy. This wasn't a one-size-fits-all approach, but treatment specifically designed for KJ's unique genetic situation. It's like having a key made specifically for one very important lock, and in this case, that key has helped unlock a healthier future for a child who needed it most."
+            "This breakthrough treatment works by taking patients' white blood cells and transforming them into what researchers are calling a 'living drug.' Think of it as giving your immune system a complete upgrade – turning ordinary white blood cells into supercharged cancer-fighting machines that know exactly what they're hunting for.",
+            "The gene therapy has achieved something remarkable: reversing blood cancers that were previously considered untreatable. Instead of relying on external medications that eventually leave the body, this approach creates a lasting army of cancer fighters from the patient's own immune cells.",
+            "What makes this particularly exciting is that it uses the body's natural defense system as the foundation. Rather than introducing foreign substances, the therapy essentially teaches existing immune cells to become more effective at their job – like giving a security team better training and equipment to protect what they're already guarding."
           ],
           "pullQuote": null
         },
@@ -800,8 +794,71 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source: the Pennsylvania baby KJ with a rare metabolic disorder preventing ammonia-to-urea conversion, the successful personalized CRISPR gene therapy treatment, the previous risks of brain/liver damage, the restrictive diet and medications required before treatment, and the current thriving status. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article adds appropriate context and explanation while staying faithful to the source material."
-        }
+          "summary": "The generated article accurately reflects all key facts from the source material. It correctly describes the gene therapy as transforming white blood cells into a 'living drug' that has reversed previously untreatable blood cancers by turning patients' own immune cells into cancer fighters. No statistics, quotes, names, or specific claims were fabricated. The article uses appropriate analogies and explanations while staying faithful to the core facts presented in the original source."
+        },
+        "approved": true,
+        "_index": 4
+      },
+      {
+        "originalTitle": "Helping with Grandkids May Protect Against Cognitive Decline, Shows New Research",
+        "headline": "Grandparent Brain Boost: Caring for Grandkids Fights Cognitive Decline",
+        "excerpt": "A new study shows that caring for grandchildren may serve as a buffer against cognitive decline and dementia in older adults. Research indicates that being an involved grandparent is good for the brain. Many grandparents provide regular care for their grandchildren, supporting families and society more broadly.",
+        "category": "health",
+        "sourceUrl": "https://www.goodnewsnetwork.org/helping-with-grandkids-may-protect-against-cognitive-decline-new-research/",
+        "sourceName": "Good News Network",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "grandparent-brain-boost-caring-for-grandkids-fights-cognitiv",
+        "author": "Liv Long",
+        "imageUrl": "https://images.pexels.com/photos/8940738/pexels-photo-8940738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Here's some news that'll make grandparents everywhere do a little happy dance: all those hours spent reading bedtime stories, pushing swings, and explaining why the sky is blue might be doing more than creating precious memories. New research suggests that caring for grandchildren could actually help protect against cognitive decline and dementia.",
+          "body": [
+            "According to the study, being an involved grandparent isn't just good for the grandkids—it's genuinely good for the brain. While we've long known that staying mentally and socially active can benefit cognitive health, this research specifically highlights the unique brain-boosting potential of grandparent duties.",
+            "The findings make a lot of sense when you think about it. Caring for grandchildren is like a mental gymnasium: you're constantly problem-solving, staying socially engaged, learning new things (hello, TikTok dances and Pokemon names), and keeping up with energy levels that would make marathon runners weep. It's the kind of meaningful mental stimulation that apparently keeps our brains firing on all cylinders.",
+            "What makes this research particularly heartwarming is how it recognizes something many families already know: grandparents aren't just babysitters—they're essential pillars supporting families and society more broadly. The fact that this vital role might also be protecting their own cognitive health? That's what we call a beautiful full-circle moment."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that research shows caring for grandchildren may protect against cognitive decline and dementia, that being an involved grandparent is good for the brain, and that grandparents support families and society broadly. No statistics, quotes, or specific names were mentioned in either piece, so there are no attribution issues. The article adds explanatory context and engaging language but doesn't introduce any unsupported claims."
+        },
+        "approved": true,
+        "_index": 8
+      },
+      {
+        "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
+        "headline": "The Gut-Brain Fix: New Protein Could Tackle Depression From the Inside Out",
+        "excerpt": "Scientists have found that chronic stress damages the gut's protective lining by lowering levels of a protein called Reelin, which plays a key role in both gut repair and brain health. Remarkably, a single injection restored Reelin levels and produced antidepressant-like effects in preclinical models.",
+        "category": "health",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260201231240.htm",
+        "sourceName": "Science Daily Health",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "the-gut-brain-fix-new-protein-could-tackle-depression-from-t",
+        "author": "Joy Fuller",
+        "imageUrl": "https://images.pexels.com/photos/3641367/pexels-photo-3641367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "What if the secret to healing both your gut and your mood was hiding in a single protein? Scientists have discovered that chronic stress doesn't just mess with your head – it literally damages your gut's protective barrier by depleting a crucial protein called Reelin. But here's the exciting part: they've found a way to restore it.",
+          "body": [
+            "The research reveals that when we're chronically stressed, our bodies produce less Reelin, a protein that serves double duty as both a gut repair specialist and a brain health guardian. Think of it as your body's maintenance crew that keeps both your digestive system's protective lining intact and your mental health balanced.",
+            "Here's where things get really interesting: Reelin isn't just important for gut health – it plays a key role in brain function too. This discovery helps explain why gut problems and depression so often go hand in hand. When stress knocks down your Reelin levels, both your gut barrier and your mood can take a hit.",
+            "The most promising finding? In preclinical studies, scientists were able to restore Reelin levels with just a single injection, and the results included antidepressant-like effects. While this research is still in early stages, it opens up fascinating possibilities for treating both gut issues and depression by targeting this one crucial protein.",
+            "This gut-brain connection research could eventually lead to new treatments that address both digestive problems and mood disorders simultaneously – a true win-win for anyone who's ever felt their stomach and their spirits sink together during stressful times."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that chronic stress damages the gut's protective lining by lowering Reelin levels, that Reelin plays a role in both gut repair and brain health, and that a single injection restored Reelin levels with antidepressant-like effects in preclinical models. The article expands on these facts with explanatory context and implications but does not introduce any inaccurate information or unsupported claims. No quotes were fabricated, and the scientific findings are presented faithfully."
+        },
+        "approved": true,
+        "_index": 10
       },
       {
         "originalTitle": "A fish that ages in months reveals how kidneys grow old",
@@ -829,7 +886,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. The key scientific findings about SGLT2 inhibitors preserving kidney structure, blood vessels, energy production, and reducing inflammation are correctly stated. While the article uses creative language and metaphors, it does not fabricate quotes, statistics, or claims beyond what the source supports. All core facts align with the original research findings."
-        }
+        },
+        "approved": true,
+        "_index": 20
       },
       {
         "originalTitle": "Brain waves could help paralyzed patients move again",
@@ -857,7 +916,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that researchers tested EEG brain scans to capture signals from people with spinal cord injuries and reroute them to spinal stimulators, that the system can detect when patients try to move, and that finer control remains a challenge. No statistics, quotes, or specific names were mentioned in either piece, so there are no attribution issues. The article uses analogies and explanatory language but does not make any unsupported claims beyond the source material."
-        }
+        },
+        "approved": true,
+        "_index": 24
       },
       {
         "originalTitle": "Scientists find hidden pathways pancreatic cancer uses to spread",
@@ -884,7 +945,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies periostin as the protein involved, accurately describes how pancreatic cancer reprograms surrounding tissue and invades nerves to spread, and properly conveys that this enables cancer cell travel and metastasis formation. While the article uses more accessible language and analogies than the original source, it maintains factual accuracy throughout and doesn't fabricate any quotes, statistics, or unsupported claims."
-        }
+        },
+        "approved": true,
+        "_index": 25
       },
       {
         "originalTitle": "Scientists discover how to turn gut bacteria into anti-aging factories",
@@ -912,7 +975,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that small doses of antibiotic can coax gut bacteria into producing life-extending compounds, that worms showed longer lifespans, that mice showed healthier cholesterol and insulin changes, and that this points to a new health approach. The article adds interpretive language and context but does not misrepresent any facts or add unsupported claims. No quotes were fabricated or misattributed."
-        }
+        },
+        "approved": true,
+        "_index": 36
       },
       {
         "originalTitle": "Scientists finally explain statin muscle pain",
@@ -940,7 +1005,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. It correctly states that scientists identified the precise molecular trigger for statin muscle pain, that statins jam open a critical muscle protein causing toxic calcium leak, and that this discovery could lead to safer statins. The article uses no fabricated quotes, presents no unsupported statistics, and while it uses analogies and explanatory language not in the original, these serve to explain rather than distort the core scientific findings."
-        }
+        },
+        "approved": true,
+        "_index": 37
       },
       {
         "originalTitle": "A quiet change in everyday foods could save thousands of lives",
@@ -967,28 +1034,30 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that modest sodium reductions in bread, packaged foods, and takeout meals could significantly reduce heart disease and stroke rates, and that people wouldn't need to alter their eating habits while small changes to the food supply could deliver large health benefits. The article paraphrases rather than fabricates quotes, and all claims are supported by the original source. No specific statistics, names, or organizations were mentioned in either piece to verify."
-        }
+        },
+        "approved": true,
+        "_index": 38
       }
     ],
     "science": [
       {
-        "originalTitle": "NASAs IMAP Begins Primary Science Mission",
-        "headline": "NASA's New Space Explorer Starts Mapping Our Cosmic Bubble",
-        "excerpt": "NASA's IMAP (Interstellar Mapping and Acceleration Probe) began its two-year primary science mission on February 1. The mission will explore and map the boundaries of our heliosphere - the protective bubble created by the solar wind that surrounds our solar system.",
+        "originalTitle": "Study Shows Vaporizing E-Waste Makes it Easy to Recover Precious Metals at 13-Times Lower Costs",
+        "headline": "Turning Trash Into Treasure: Scientists Vaporize E-Waste for 13x Cheaper Metal Recovery",
+        "excerpt": "Scientists have discovered a way to extract precious metals from electronic waste by heating electronics to 3,000°C via electrical current. The method recovers decent grades of precious metals without creating hazardous waste. According to their analysis, relying on e-waste for precious metals supply could be 13 times cheaper than mining them from the ground.",
         "category": "science",
-        "sourceUrl": "https://www.spacedaily.com/reports/NASAs_IMAP_Begins_Primary_Science_Mission_999.html",
-        "sourceName": "Space Daily",
-        "readTime": 3,
+        "sourceUrl": "https://www.goodnewsnetwork.org/study-shows-vaporizing-e-waste-makes-it-easy-to-recover-precious-metals-at-13-times-lower-costs/",
+        "sourceName": "Good News Network",
+        "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "nasas-new-space-explorer-starts-mapping-our-cosmic-bubble",
-        "author": "Al Gorithm",
-        "imageUrl": "https://images.pexels.com/photos/31164069/pexels-photo-31164069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "turning-trash-into-treasure-scientists-vaporize-e-waste-for",
+        "author": "Adam Atom",
+        "imageUrl": "https://images.pexels.com/photos/8539820/pexels-photo-8539820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Picture our entire solar system wrapped in a giant, invisible protective bubble—and now NASA has a spacecraft dedicated to mapping every inch of it. On February 1st, NASA's IMAP (Interstellar Mapping and Acceleration Probe) officially kicked off its two-year primary science mission with one ambitious goal: to explore and chart the boundaries of our heliosphere.",
+          "lead": "What if I told you that old smartphones and laptops could be treasure chests hiding billions in precious metals? Scientists have just figured out how to crack them open in the most spectacular way possible – by cranking up the heat to a mind-melting 3,000°C.",
           "body": [
-            "Think of the heliosphere as our solar system's ultimate home security system. This massive bubble is created by solar wind—streams of charged particles flowing out from our Sun—and it acts as a shield surrounding our entire solar system. It's basically our cosmic neighborhood's force field, protecting us from who-knows-what lurking in the depths of interstellar space.",
-            "IMAP isn't just taking a casual peek at this protective barrier; it's creating the most detailed map we've ever attempted of where our solar system ends and the great unknown of interstellar space begins. For the next two years, this dedicated space detective will be studying these boundaries with the kind of precision that would make a cartographer weep with joy.",
-            "According to the report, this mission represents a major step forward in understanding our place in the cosmic neighborhood. While we've known about the heliosphere's existence, IMAP promises to fill in the gaps about how this invisible shield actually works and where exactly it draws the line between 'home' and 'everywhere else.'"
+            "Here's where it gets really exciting: this superhot approach isn't just flashy science theater. According to their analysis, extracting precious metals from electronic waste could be 13 times cheaper than traditional mining. That's the kind of math that makes both accountants and environmentalists do a little happy dance.",
+            "The process works by using electrical current to heat old electronics to temperatures that would make the sun jealous. At 3,000°C, the materials essentially vaporize, making it surprisingly easy to separate out the good stuff – the precious metals we actually want. Think of it as the ultimate recycling upgrade, turning yesterday's gadgets into tomorrow's resources.",
+            "But here's the real kicker: this method recovers decent grades of precious metals without creating hazardous waste. That means we're not just finding a cheaper way to get these valuable materials – we're finding a cleaner way too. It's like hitting the environmental jackpot while also saving money, which frankly doesn't happen often enough in this world."
           ],
           "pullQuote": null
         },
@@ -996,8 +1065,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "All core facts from the original source are accurately represented in the generated article. The mission start date (February 1), duration (two years), spacecraft name and acronym, and mission objective (exploring and mapping heliosphere boundaries) are all correct. While the article uses more creative and accessible language, it doesn't misrepresent any factual information from the source material."
-        }
+          "summary": "All key facts from the source are accurately represented: 3,000°C heating temperature, use of electrical current, 13 times cheaper cost comparison, recovery of decent grades of precious metals, and no hazardous waste creation. No fabricated quotes, all statistics match, and no unsupported claims were found. The article uses more colorful language but maintains factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
@@ -1025,26 +1096,28 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: the 67,800-year age, Indonesian limestone cave location, world's oldest rock art status, breaking Indonesia's own record, and evidence of intentional sea crossing from Asia nearly 70,000 years ago. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 6
       },
       {
-        "originalTitle": "Study Shows Vaporizing E-Waste Makes it Easy to Recover Precious Metals at 13-Times Lower Costs",
-        "headline": "Turning Trash Into Treasure: Scientists Vaporize E-Waste for 13x Cheaper Metal Recovery",
-        "excerpt": "Scientists have discovered a way to extract precious metals from electronic waste by heating electronics to 3,000°C via electrical current. The method recovers decent grades of precious metals without creating hazardous waste. According to their analysis, relying on e-waste for precious metals supply could be 13 times cheaper than mining them from the ground.",
+        "originalTitle": "NASAs IMAP Begins Primary Science Mission",
+        "headline": "NASA's New Space Explorer Starts Mapping Our Cosmic Bubble",
+        "excerpt": "NASA's IMAP (Interstellar Mapping and Acceleration Probe) began its two-year primary science mission on February 1. The mission will explore and map the boundaries of our heliosphere - the protective bubble created by the solar wind that surrounds our solar system.",
         "category": "science",
-        "sourceUrl": "https://www.goodnewsnetwork.org/study-shows-vaporizing-e-waste-makes-it-easy-to-recover-precious-metals-at-13-times-lower-costs/",
-        "sourceName": "Good News Network",
-        "readTime": 4,
+        "sourceUrl": "https://www.spacedaily.com/reports/NASAs_IMAP_Begins_Primary_Science_Mission_999.html",
+        "sourceName": "Space Daily",
+        "readTime": 3,
         "isHomepageFeatured": true,
-        "slug": "turning-trash-into-treasure-scientists-vaporize-e-waste-for",
-        "author": "Adam Atom",
-        "imageUrl": "https://images.pexels.com/photos/8539820/pexels-photo-8539820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "nasas-new-space-explorer-starts-mapping-our-cosmic-bubble",
+        "author": "Al Gorithm",
+        "imageUrl": "https://images.pexels.com/photos/31164069/pexels-photo-31164069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "What if I told you that old smartphones and laptops could be treasure chests hiding billions in precious metals? Scientists have just figured out how to crack them open in the most spectacular way possible – by cranking up the heat to a mind-melting 3,000°C.",
+          "lead": "Picture our entire solar system wrapped in a giant, invisible protective bubble—and now NASA has a spacecraft dedicated to mapping every inch of it. On February 1st, NASA's IMAP (Interstellar Mapping and Acceleration Probe) officially kicked off its two-year primary science mission with one ambitious goal: to explore and chart the boundaries of our heliosphere.",
           "body": [
-            "Here's where it gets really exciting: this superhot approach isn't just flashy science theater. According to their analysis, extracting precious metals from electronic waste could be 13 times cheaper than traditional mining. That's the kind of math that makes both accountants and environmentalists do a little happy dance.",
-            "The process works by using electrical current to heat old electronics to temperatures that would make the sun jealous. At 3,000°C, the materials essentially vaporize, making it surprisingly easy to separate out the good stuff – the precious metals we actually want. Think of it as the ultimate recycling upgrade, turning yesterday's gadgets into tomorrow's resources.",
-            "But here's the real kicker: this method recovers decent grades of precious metals without creating hazardous waste. That means we're not just finding a cheaper way to get these valuable materials – we're finding a cleaner way too. It's like hitting the environmental jackpot while also saving money, which frankly doesn't happen often enough in this world."
+            "Think of the heliosphere as our solar system's ultimate home security system. This massive bubble is created by solar wind—streams of charged particles flowing out from our Sun—and it acts as a shield surrounding our entire solar system. It's basically our cosmic neighborhood's force field, protecting us from who-knows-what lurking in the depths of interstellar space.",
+            "IMAP isn't just taking a casual peek at this protective barrier; it's creating the most detailed map we've ever attempted of where our solar system ends and the great unknown of interstellar space begins. For the next two years, this dedicated space detective will be studying these boundaries with the kind of precision that would make a cartographer weep with joy.",
+            "According to the report, this mission represents a major step forward in understanding our place in the cosmic neighborhood. While we've known about the heliosphere's existence, IMAP promises to fill in the gaps about how this invisible shield actually works and where exactly it draws the line between 'home' and 'everywhere else.'"
           ],
           "pullQuote": null
         },
@@ -1052,8 +1125,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "All key facts from the source are accurately represented: 3,000°C heating temperature, use of electrical current, 13 times cheaper cost comparison, recovery of decent grades of precious metals, and no hazardous waste creation. No fabricated quotes, all statistics match, and no unsupported claims were found. The article uses more colorful language but maintains factual accuracy throughout."
-        }
+          "summary": "All core facts from the original source are accurately represented in the generated article. The mission start date (February 1), duration (two years), spacecraft name and acronym, and mission objective (exploring and mapping heliosphere boundaries) are all correct. While the article uses more creative and accessible language, it doesn't misrepresent any factual information from the source material."
+        },
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "This unexpected plant discovery could change how drugs are made",
@@ -1081,7 +1156,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. While written in a more conversational tone with analogies and speculation about implications, it correctly conveys that plants make defensive compounds that become medicines, that researchers discovered one compound is produced using a bacterial-like gene, and that this suggests plants reuse microbial tools for new chemistry. No fabricated quotes, inaccurate statistics, or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 21
       },
       {
         "originalTitle": "750-year-old Indian poems reveal a landscape scientists got wrong",
@@ -1108,7 +1185,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: the 750-year timeline, the 1200s dating, the focus on western India, the description of thorny trees and open grasslands, the comparison with modern savannas, and the core finding that these landscapes are ancient and natural rather than degraded forests. No quotes were fabricated, all claims are supported by the source material, and no specific names were mentioned to verify. The article maintains factual accuracy while expanding on the implications of the research."
-        }
+        },
+        "approved": true,
+        "_index": 22
       },
       {
         "originalTitle": "Scientists are hunting for a forbidden antimatter transformation",
@@ -1136,7 +1215,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. MACE is correctly described as a next-generation experiment hunting for muonium-to-antimatter transformation, the 20+ year gap since the last search is accurately stated, and the use of cutting-edge technology is properly attributed. While the article uses creative analogies and explanatory language not in the source, all factual claims are supported and no information is fabricated or misrepresented."
-        }
+        },
+        "approved": true,
+        "_index": 26
       },
       {
         "originalTitle": "This AI app can tell which dinosaur made a footprint",
@@ -1163,7 +1244,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: DinoTracker analyzes photos of fossil tracks, predicts which dinosaur made them with accuracy rivaling human experts, and discovered bird-like footprints dating back more than 200 million years that could push bird origins deeper into prehistory. No quotes were fabricated, all names are accurate, and no unsupported claims were made. The article adds contextual commentary and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 32
       },
       {
         "originalTitle": "This brain discovery is forcing scientists to rethink how memory works",
@@ -1191,7 +1274,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that brain imaging shows factual and experiential memory activate nearly identical brain networks, that this challenges decades of previous research assumptions, and that the findings may help with understanding Alzheimer's and dementia. No statistics, quotes, or specific names were fabricated. The article adds explanatory content and analogies but doesn't misrepresent any source information."
-        }
+        },
+        "approved": true,
+        "_index": 39
       }
     ],
     "wildlife": [
@@ -1222,7 +1307,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual claims from the source material. It correctly states that India's largest wildlife rescue organization is using acupuncture for rescued elephants with chronic pain, nerve damage, and mobility issues from captivity/hard labor. The article accurately notes that the veterinary team sought alternative medicine training to use alongside conventional medicine, and that this approach boosted recovery rates. No statistics, quotes, or specific names were provided in the source to verify, and the article doesn't fabricate any. The writing style is more elaborate and narrative than the source, but all factual content remains faithful to the original."
-        }
+        },
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "This spider's \"pearl necklace\" was living parasites",
@@ -1250,7 +1337,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. It correctly states that the 'pearl necklace' was parasitic mite larvae, that it's a new species discovery, that it marks the first record of this mite family in Brazil, and that the discovery came from long-stored specimens. While the article expands with creative language and broader implications about scientific collections, all core facts align with the source material and no unsupported claims are made."
-        }
+        },
+        "approved": true,
+        "_index": 23
       },
       {
         "originalTitle": "How an Austrian Bison is Helping Restore a Lost Ecosystem",
@@ -1278,7 +1367,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all factual information from the source. The bison's name (Ina), origin location (Innsbruck's mountains), destination (mountains of Azerbaijan), and the project description (one of Europe's most ambitious rewilding projects to restore lost ecosystems across continental boundaries) are all correct. No statistics, quotes, or specific claims are fabricated. The article appropriately acknowledges limitations by stating 'we don't have all the details' rather than inventing information."
-        }
+        },
+        "approved": true,
+        "_index": 28
       },
       {
         "originalTitle": "Wales: Volunteers wanted to live on a remote island for 3 months counting Puffins",
@@ -1305,7 +1396,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all factual information from the source. It correctly states the 3-month duration, remote Welsh island location, puffin counting purpose, wildlife protection program context, and compensation details (free accommodation, travel expenses, small stipend). No quotes were fabricated, and the article appropriately notes when information isn't specified in the source (which island). The creative writing style and elaborative descriptions don't contradict any source facts."
-        }
+        },
+        "approved": true,
+        "_index": 29
       },
       {
         "originalTitle": "Hundreds of new species found in a hidden world beneath the Pacific",
@@ -1333,7 +1426,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: nearly 800 species documented, many previously unknown, five years of research on deep Pacific seabed, insights into fragile ecosystems, and connection to growing demand for critical metals. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses an engaging, conversational tone while maintaining factual accuracy."
-        }
+        },
+        "approved": true,
+        "_index": 31
       },
       {
         "originalTitle": "Gray wolves are hunting sea otters and no one knows how",
@@ -1360,67 +1455,12 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that gray wolves on a remote Alaskan island have adapted to hunt sea otters, that this behavior was unexpected to scientists, that researchers are studying how these wolves developed marine hunting skills, and that this has implications for land-sea ecosystem understanding. No fabricated quotes, inaccurate statistics, or unsupported claims were found. The article maintains factual accuracy while presenting the information in an engaging narrative style."
-        }
+        },
+        "approved": true,
+        "_index": 33
       }
     ],
     "people": [
-      {
-        "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
-        "headline": "Photographer's Mission: Saving India's Architectural Treasures One Click at a Time",
-        "excerpt": "A nationwide photography project is working to preserve India's rich architectural heritage through detailed documentation. The initiative focuses on capturing intricate details of historic buildings like Patwon Ki Haveli in Jaisalmer, with its carved balconies and latticed windows that echo with history.",
-        "category": "people",
-        "sourceUrl": "https://reasonstobecheerful.world/india-amit-pasricha-photography-preserve-architecture/",
-        "sourceName": "Reasons to be Cheerful",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "photographers-mission-saving-indias-architectural-treasures",
-        "author": "Will Prosper",
-        "imageUrl": "https://images.pexels.com/photos/6519898/pexels-photo-6519898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Picture this: someone's racing against time to capture every carved stone flower, every intricate lattice window, and every weathered archway that tells India's architectural story. It's not just about pretty pictures – it's about preserving a heritage that's been centuries in the making.",
-          "body": [
-            "A nationwide photography project is taking on the monumental task of documenting India's rich architectural heritage, one detailed shot at a time. The initiative recognizes that buildings aren't just structures – they're storytellers, and someone needs to make sure their tales don't fade away with the mortar.",
-            "The project focuses on capturing the intricate details that make each historic building special. Take Patwon Ki Haveli in Jaisalmer, for example – its carved balconies and latticed windows aren't just decorative elements, they're pieces of history that echo with the voices of generations past.",
-            "What makes this effort particularly special is its scope and attention to detail. Rather than just snapping wide shots of famous monuments, the photographers are getting up close and personal with the craftsmanship. Every carved detail, every architectural flourish that a master craftsman once spent days perfecting, gets its moment in the spotlight.",
-            "In a world where historic buildings face constant threats from development, weather, and time itself, this documentation project serves as both a celebration and a safeguard. It's creating a visual archive that future generations can turn to, ensuring that even if a building changes or disappears, its architectural DNA lives on through these detailed photographs."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all factual information from the source. It correctly describes the nationwide photography project, its purpose of preserving India's architectural heritage through detailed documentation, and specifically mentions Patwon Ki Haveli in Jaisalmer with its carved balconies and latticed windows. No quotes were fabricated, all place names are accurate, and while the article expands with additional context and commentary, all core claims are supported by the source material."
-        }
-      },
-      {
-        "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
-        "headline": "From Prairie to Ocean: Nebraska Woman Rows Into Record Books",
-        "excerpt": "Taryn Smith, 25, from landlocked Nebraska became the first female to cross the Atlantic alone in a 3,000-mile race. Smith's ocean dreams took hold while living in Omaha, inspired by an article about an all-female rowing team that set a world record in the Great Pacific Race in 2022. She taught herself to row and completed the epic solo Atlantic crossing.",
-        "category": "people",
-        "sourceUrl": "https://www.goodnewsnetwork.org/nebraska-woman-learns-to-row-then-becomes-first-female-to-cross-the-atlantic-alone-in-3000-mile-race/",
-        "sourceName": "Good News Network",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "from-prairie-to-ocean-nebraska-woman-rows-into-record-books",
-        "author": "Charity Case",
-        "imageUrl": "https://images.pexels.com/photos/17239679/pexels-photo-17239679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the most landlocked dreams lead to the biggest waves. Taryn Smith, a 25-year-old from Nebraska, just made history by becoming the first woman to complete a solo Atlantic crossing in a grueling 3,000-mile race – and here's the kicker: she taught herself how to row.",
-          "body": [
-            "Let's pause for a moment to appreciate the geography here. Nebraska sits smack in the middle of the United States, about as far from ocean swells as you can get. But distance didn't deter Smith, whose maritime dreams began taking shape while she was living in Omaha.",
-            "The spark came from reading about an all-female rowing team that set a world record in the Great Pacific Race back in 2022. Something about their achievement resonated with Smith, planting a seed that would eventually grow into an epic solo adventure across the Atlantic.",
-            "What makes this story even more remarkable is that Smith didn't just decide to tackle the ocean – she decided to learn an entirely new skill first. Teaching herself to row from scratch, she transformed from a Nebraska landlubber into a history-making ocean athlete. Her epic solo Atlantic crossing proves that sometimes the best adventures start with the simple decision to learn something new, even if you're starting from square one in the middle of the prairie."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "All key facts from the source are accurately represented in the generated article. Taryn Smith's age (25), location (Nebraska), historic achievement (first female solo Atlantic crossing in 3,000-mile race), her self-taught rowing skills, residence in Omaha, and inspiration from the 2022 Great Pacific Race all-female team are correctly stated. The article expands on the source with additional context and commentary but does not introduce any factual inaccuracies or unsupported claims."
-        }
-      },
       {
         "originalTitle": "13-year-old Ditches Lifejacket and Makes 'Superhuman' Swim to Save Family Swept out to Sea",
         "headline": "Teen Hero Makes 4-Hour Ocean Rescue After Family Swept to Sea",
@@ -1454,7 +1494,70 @@
           "confidence": "high",
           "summary": "While the core facts (13-year-old, 4-hour swim, rough seas, family rescue near Quindalup, hero status) are accurate, the generated article adds unsupported details like ditching the lifejacket and includes fabricated quotes and excessive editorial commentary not found in the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 5
+      },
+      {
+        "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
+        "headline": "From Prairie to Ocean: Nebraska Woman Rows Into Record Books",
+        "excerpt": "Taryn Smith, 25, from landlocked Nebraska became the first female to cross the Atlantic alone in a 3,000-mile race. Smith's ocean dreams took hold while living in Omaha, inspired by an article about an all-female rowing team that set a world record in the Great Pacific Race in 2022. She taught herself to row and completed the epic solo Atlantic crossing.",
+        "category": "people",
+        "sourceUrl": "https://www.goodnewsnetwork.org/nebraska-woman-learns-to-row-then-becomes-first-female-to-cross-the-atlantic-alone-in-3000-mile-race/",
+        "sourceName": "Good News Network",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "from-prairie-to-ocean-nebraska-woman-rows-into-record-books",
+        "author": "Charity Case",
+        "imageUrl": "https://images.pexels.com/photos/17239679/pexels-photo-17239679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the most landlocked dreams lead to the biggest waves. Taryn Smith, a 25-year-old from Nebraska, just made history by becoming the first woman to complete a solo Atlantic crossing in a grueling 3,000-mile race – and here's the kicker: she taught herself how to row.",
+          "body": [
+            "Let's pause for a moment to appreciate the geography here. Nebraska sits smack in the middle of the United States, about as far from ocean swells as you can get. But distance didn't deter Smith, whose maritime dreams began taking shape while she was living in Omaha.",
+            "The spark came from reading about an all-female rowing team that set a world record in the Great Pacific Race back in 2022. Something about their achievement resonated with Smith, planting a seed that would eventually grow into an epic solo adventure across the Atlantic.",
+            "What makes this story even more remarkable is that Smith didn't just decide to tackle the ocean – she decided to learn an entirely new skill first. Teaching herself to row from scratch, she transformed from a Nebraska landlubber into a history-making ocean athlete. Her epic solo Atlantic crossing proves that sometimes the best adventures start with the simple decision to learn something new, even if you're starting from square one in the middle of the prairie."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "All key facts from the source are accurately represented in the generated article. Taryn Smith's age (25), location (Nebraska), historic achievement (first female solo Atlantic crossing in 3,000-mile race), her self-taught rowing skills, residence in Omaha, and inspiration from the 2022 Great Pacific Race all-female team are correctly stated. The article expands on the source with additional context and commentary but does not introduce any factual inaccuracies or unsupported claims."
+        },
+        "approved": true,
+        "_index": 7
+      },
+      {
+        "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
+        "headline": "Photographer's Mission: Saving India's Architectural Treasures One Click at a Time",
+        "excerpt": "A nationwide photography project is working to preserve India's rich architectural heritage through detailed documentation. The initiative focuses on capturing intricate details of historic buildings like Patwon Ki Haveli in Jaisalmer, with its carved balconies and latticed windows that echo with history.",
+        "category": "people",
+        "sourceUrl": "https://reasonstobecheerful.world/india-amit-pasricha-photography-preserve-architecture/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "photographers-mission-saving-indias-architectural-treasures",
+        "author": "Will Prosper",
+        "imageUrl": "https://images.pexels.com/photos/6519898/pexels-photo-6519898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Picture this: someone's racing against time to capture every carved stone flower, every intricate lattice window, and every weathered archway that tells India's architectural story. It's not just about pretty pictures – it's about preserving a heritage that's been centuries in the making.",
+          "body": [
+            "A nationwide photography project is taking on the monumental task of documenting India's rich architectural heritage, one detailed shot at a time. The initiative recognizes that buildings aren't just structures – they're storytellers, and someone needs to make sure their tales don't fade away with the mortar.",
+            "The project focuses on capturing the intricate details that make each historic building special. Take Patwon Ki Haveli in Jaisalmer, for example – its carved balconies and latticed windows aren't just decorative elements, they're pieces of history that echo with the voices of generations past.",
+            "What makes this effort particularly special is its scope and attention to detail. Rather than just snapping wide shots of famous monuments, the photographers are getting up close and personal with the craftsmanship. Every carved detail, every architectural flourish that a master craftsman once spent days perfecting, gets its moment in the spotlight.",
+            "In a world where historic buildings face constant threats from development, weather, and time itself, this documentation project serves as both a celebration and a safeguard. It's creating a visual archive that future generations can turn to, ensuring that even if a building changes or disappears, its architectural DNA lives on through these detailed photographs."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all factual information from the source. It correctly describes the nationwide photography project, its purpose of preserving India's architectural heritage through detailed documentation, and specifically mentions Patwon Ki Haveli in Jaisalmer with its carved balconies and latticed windows. No quotes were fabricated, all place names are accurate, and while the article expands with additional context and commentary, all core claims are supported by the source material."
+        },
+        "approved": true,
+        "_index": 14
       },
       {
         "originalTitle": "Police Officers Use Google Translate to Help Woman Deliver Baby in Backseat of a Car",
@@ -1482,7 +1585,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states that a non-English speaking man rushed into a New Jersey police station, two officers used Google Translate to understand the emergency, and they helped deliver a baby in the backseat of a car. No quotes were fabricated (none existed in the source), no statistics were misrepresented, and all location details match. The article adds stylistic flourishes and commentary but does not contradict or misstate any factual information from the original source."
-        }
+        },
+        "approved": true,
+        "_index": 15
       },
       {
         "originalTitle": "January 14th Marked the Longest Period Without a Nuclear Detonation Since the Atomic Age Began",
@@ -1510,7 +1615,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: the specific time period (8 years, 4 months, and 29 days as of January 14th), correctly attributes the information to Good News Network, and accurately states this represents the longest period without nuclear testing since 1945. The additional context and commentary, while not from the source, does not contradict any factual claims and is clearly presented as interpretation rather than sourced information."
-        }
+        },
+        "approved": true,
+        "_index": 16
       },
       {
         "originalTitle": "The Whimsical Floating Schools of Kashmir",
@@ -1537,7 +1644,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the original source. It correctly identifies the location (Kashmir's Dal Lake), timing (weekday mornings), participants (children in school uniforms), transportation method (wooden boats), departure points (houseboats and island homes), items carried (backpacks and lunch pails), and transportation arrangements (some row themselves, others are ferried by family). The source attribution to 'Reasons to be Cheerful' is accurate. While the article uses creative language and adds descriptive elements, all factual claims are properly supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 17
       },
       {
         "originalTitle": "What We're Reading: The Payphone Experiment Bridging Political Divides",
@@ -1565,7 +1674,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that the experiment uses two payphones, aims to bridge political division and boost happiness, and describes it as simple but innovative. No fabricated quotes, statistics, or unsupported claims were found. The article expands appropriately with commentary and context while maintaining factual accuracy to the source."
-        }
+        },
+        "approved": true,
+        "_index": 18
       }
     ]
   },
@@ -1597,7 +1708,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: the Pennsylvania baby KJ with a rare metabolic disorder preventing ammonia-to-urea conversion, the successful personalized CRISPR gene therapy treatment, the previous risks of brain/liver damage, the restrictive diet and medications required before treatment, and the current thriving status. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article adds appropriate context and explanation while staying faithful to the source material."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     {
       "originalTitle": "Study Shows Vaporizing E-Waste Makes it Easy to Recover Precious Metals at 13-Times Lower Costs",
@@ -1625,7 +1738,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the source are accurately represented: 3,000°C heating temperature, use of electrical current, 13 times cheaper cost comparison, recovery of decent grades of precious metals, and no hazardous waste creation. No fabricated quotes, all statistics match, and no unsupported claims were found. The article uses more colorful language but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 1
     },
     {
       "originalTitle": "Acupuncture for Rescued Elephants Provides Relief from Chronic Pain and Nerve Damage in India Care Center",
@@ -1654,7 +1769,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual claims from the source material. It correctly states that India's largest wildlife rescue organization is using acupuncture for rescued elephants with chronic pain, nerve damage, and mobility issues from captivity/hard labor. The article accurately notes that the veterinary team sought alternative medicine training to use alongside conventional medicine, and that this approach boosted recovery rates. No statistics, quotes, or specific names were provided in the source to verify, and the article doesn't fabricate any. The writing style is more elaborate and narrative than the source, but all factual content remains faithful to the original."
-      }
+      },
+      "approved": true,
+      "_index": 2
     },
     {
       "originalTitle": "A natural aging molecule may help restore memory in Alzheimer's",
@@ -1683,7 +1800,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that researchers found a natural aging-related molecule that can repair memory processes affected by Alzheimer's, improves communication between brain cells, restores early memory abilities that fade first, and offers a potentially safer approach since it already exists in the body but declines with age. No fabricated quotes, statistics, or unsupported claims were found. The article uses more conversational language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 3
     },
     {
       "originalTitle": "Revolutionary therapy treats 'untreatable' blood cancer",
@@ -1711,7 +1830,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly describes the gene therapy as transforming white blood cells into a 'living drug' that has reversed previously untreatable blood cancers by turning patients' own immune cells into cancer fighters. No statistics, quotes, names, or specific claims were fabricated. The article uses appropriate analogies and explanations while staying faithful to the core facts presented in the original source."
-      }
+      },
+      "approved": true,
+      "_index": 4
     },
     {
       "originalTitle": "13-year-old Ditches Lifejacket and Makes 'Superhuman' Swim to Save Family Swept out to Sea",
@@ -1746,7 +1867,9 @@
         "confidence": "high",
         "summary": "While the core facts (13-year-old, 4-hour swim, rough seas, family rescue near Quindalup, hero status) are accurate, the generated article adds unsupported details like ditching the lifejacket and includes fabricated quotes and excessive editorial commentary not found in the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 5
     },
     {
       "originalTitle": "At 67,800-years-old, These Handprints Just Discovered in Indonesia Are Oldest Example of Rock Art",
@@ -1774,7 +1897,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: the 67,800-year age, Indonesian limestone cave location, world's oldest rock art status, breaking Indonesia's own record, and evidence of intentional sea crossing from Asia nearly 70,000 years ago. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 6
     },
     {
       "originalTitle": "Nebraska Woman Learns to Row, Then Becomes First Female to Cross the Atlantic Alone in 3,000 Mile Race",
@@ -1802,7 +1927,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the source are accurately represented in the generated article. Taryn Smith's age (25), location (Nebraska), historic achievement (first female solo Atlantic crossing in 3,000-mile race), her self-taught rowing skills, residence in Omaha, and inspiration from the 2022 Great Pacific Race all-female team are correctly stated. The article expands on the source with additional context and commentary but does not introduce any factual inaccuracies or unsupported claims."
-      }
+      },
+      "approved": true,
+      "_index": 7
     },
     {
       "originalTitle": "Helping with Grandkids May Protect Against Cognitive Decline, Shows New Research",
@@ -1830,7 +1957,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the original source. It correctly states that research shows caring for grandchildren may protect against cognitive decline and dementia, that being an involved grandparent is good for the brain, and that grandparents support families and society broadly. No statistics, quotes, or specific names were mentioned in either piece, so there are no attribution issues. The article adds explanatory context and engaging language but doesn't introduce any unsupported claims."
-      }
+      },
+      "approved": true,
+      "_index": 8
     },
     {
       "originalTitle": "New catalyst turns carbon dioxide into clean fuel source",
@@ -1858,7 +1987,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that manganese is abundant and inexpensive, can efficiently convert CO2 into formate (a hydrogen source for fuel cells), that the catalyst was cleverly redesigned to last longer than similar low-cost materials, and that it outperforms many expensive precious-metal options. No quotes were fabricated or misattributed, and no unsupported claims were made. The article uses creative analogies and engaging language but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 9
     },
     {
       "originalTitle": "Scientists discover protein that could heal leaky gut and ease depression",
@@ -1887,7 +2018,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that chronic stress damages the gut's protective lining by lowering Reelin levels, that Reelin plays a role in both gut repair and brain health, and that a single injection restored Reelin levels with antidepressant-like effects in preclinical models. The article expands on these facts with explanatory context and implications but does not introduce any inaccurate information or unsupported claims. No quotes were fabricated, and the scientific findings are presented faithfully."
-      }
+      },
+      "approved": true,
+      "_index": 10
     },
     {
       "originalTitle": "NASAs IMAP Begins Primary Science Mission",
@@ -1915,7 +2048,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All core facts from the original source are accurately represented in the generated article. The mission start date (February 1), duration (two years), spacecraft name and acronym, and mission objective (exploring and mapping heliosphere boundaries) are all correct. While the article uses more creative and accessible language, it doesn't misrepresent any factual information from the source material."
-      }
+      },
+      "approved": true,
+      "_index": 11
     },
     {
       "originalTitle": "As rooftop solar overtakes coal, more batteries are powering the night shift",
@@ -1943,7 +2078,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. The core claims about rooftop solar overtaking coal, battery boom driving grid transformation, and homeowners investing in storage for nighttime use are all supported. While the article uses more casual language and expands on implications, it doesn't fabricate any facts, statistics, quotes, or specific details not found in the original source."
-      }
+      },
+      "approved": true,
+      "_index": 12
     },
     {
       "originalTitle": "China's Solar Power Capacity on Course to Surpass Coal This Year",
@@ -1971,7 +2108,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents the key facts from the source material. It correctly states that China's solar generating capacity is expected to surpass coal for the first time this year, according to the country's top electricity industry group. No fabricated quotes were used, and the additional commentary and analysis, while extensive, does not contradict or misrepresent the source information. All factual claims align with the original excerpt."
-      }
+      },
+      "approved": true,
+      "_index": 13
     },
     {
       "originalTitle": "The Nationwide Photo Project Preserving India's Architecture",
@@ -2000,7 +2139,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all factual information from the source. It correctly describes the nationwide photography project, its purpose of preserving India's architectural heritage through detailed documentation, and specifically mentions Patwon Ki Haveli in Jaisalmer with its carved balconies and latticed windows. No quotes were fabricated, all place names are accurate, and while the article expands with additional context and commentary, all core claims are supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 14
     },
     {
       "originalTitle": "Police Officers Use Google Translate to Help Woman Deliver Baby in Backseat of a Car",
@@ -2028,7 +2169,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that a non-English speaking man rushed into a New Jersey police station, two officers used Google Translate to understand the emergency, and they helped deliver a baby in the backseat of a car. No quotes were fabricated (none existed in the source), no statistics were misrepresented, and all location details match. The article adds stylistic flourishes and commentary but does not contradict or misstate any factual information from the original source."
-      }
+      },
+      "approved": true,
+      "_index": 15
     },
     {
       "originalTitle": "January 14th Marked the Longest Period Without a Nuclear Detonation Since the Atomic Age Began",
@@ -2056,7 +2199,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: the specific time period (8 years, 4 months, and 29 days as of January 14th), correctly attributes the information to Good News Network, and accurately states this represents the longest period without nuclear testing since 1945. The additional context and commentary, while not from the source, does not contradict any factual claims and is clearly presented as interpretation rather than sourced information."
-      }
+      },
+      "approved": true,
+      "_index": 16
     },
     {
       "originalTitle": "The Whimsical Floating Schools of Kashmir",
@@ -2083,7 +2228,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the original source. It correctly identifies the location (Kashmir's Dal Lake), timing (weekday mornings), participants (children in school uniforms), transportation method (wooden boats), departure points (houseboats and island homes), items carried (backpacks and lunch pails), and transportation arrangements (some row themselves, others are ferried by family). The source attribution to 'Reasons to be Cheerful' is accurate. While the article uses creative language and adds descriptive elements, all factual claims are properly supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 17
     },
     {
       "originalTitle": "What We're Reading: The Payphone Experiment Bridging Political Divides",
@@ -2111,7 +2258,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that the experiment uses two payphones, aims to bridge political division and boost happiness, and describes it as simple but innovative. No fabricated quotes, statistics, or unsupported claims were found. The article expands appropriately with commentary and context while maintaining factual accuracy to the source."
-      }
+      },
+      "approved": true,
+      "_index": 18
     },
     {
       "originalTitle": "Scientists found the soil secret that doubles forest regrowth",
@@ -2139,7 +2288,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source: tropical forests recover twice as fast with adequate soil nitrogen, the research followed forest regrowth across Central America for decades, faster regrowth leads to more carbon capture, and this points to smarter reforestation strategies. No statistics, quotes, names, or specific claims were fabricated or misrepresented. The article adds interpretive language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 19
     },
     {
       "originalTitle": "A fish that ages in months reveals how kidneys grow old",
@@ -2167,7 +2318,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the source. The key scientific findings about SGLT2 inhibitors preserving kidney structure, blood vessels, energy production, and reducing inflammation are correctly stated. While the article uses creative language and metaphors, it does not fabricate quotes, statistics, or claims beyond what the source supports. All core facts align with the original research findings."
-      }
+      },
+      "approved": true,
+      "_index": 20
     },
     {
       "originalTitle": "This unexpected plant discovery could change how drugs are made",
@@ -2195,7 +2348,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. While written in a more conversational tone with analogies and speculation about implications, it correctly conveys that plants make defensive compounds that become medicines, that researchers discovered one compound is produced using a bacterial-like gene, and that this suggests plants reuse microbial tools for new chemistry. No fabricated quotes, inaccurate statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 21
     },
     {
       "originalTitle": "750-year-old Indian poems reveal a landscape scientists got wrong",
@@ -2222,7 +2377,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: the 750-year timeline, the 1200s dating, the focus on western India, the description of thorny trees and open grasslands, the comparison with modern savannas, and the core finding that these landscapes are ancient and natural rather than degraded forests. No quotes were fabricated, all claims are supported by the source material, and no specific names were mentioned to verify. The article maintains factual accuracy while expanding on the implications of the research."
-      }
+      },
+      "approved": true,
+      "_index": 22
     },
     {
       "originalTitle": "This spider's \"pearl necklace\" was living parasites",
@@ -2250,7 +2407,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the source. It correctly states that the 'pearl necklace' was parasitic mite larvae, that it's a new species discovery, that it marks the first record of this mite family in Brazil, and that the discovery came from long-stored specimens. While the article expands with creative language and broader implications about scientific collections, all core facts align with the source material and no unsupported claims are made."
-      }
+      },
+      "approved": true,
+      "_index": 23
     },
     {
       "originalTitle": "Brain waves could help paralyzed patients move again",
@@ -2278,7 +2437,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states that researchers tested EEG brain scans to capture signals from people with spinal cord injuries and reroute them to spinal stimulators, that the system can detect when patients try to move, and that finer control remains a challenge. No statistics, quotes, or specific names were mentioned in either piece, so there are no attribution issues. The article uses analogies and explanatory language but does not make any unsupported claims beyond the source material."
-      }
+      },
+      "approved": true,
+      "_index": 24
     },
     {
       "originalTitle": "Scientists find hidden pathways pancreatic cancer uses to spread",
@@ -2305,7 +2466,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies periostin as the protein involved, accurately describes how pancreatic cancer reprograms surrounding tissue and invades nerves to spread, and properly conveys that this enables cancer cell travel and metastasis formation. While the article uses more accessible language and analogies than the original source, it maintains factual accuracy throughout and doesn't fabricate any quotes, statistics, or unsupported claims."
-      }
+      },
+      "approved": true,
+      "_index": 25
     },
     {
       "originalTitle": "Scientists are hunting for a forbidden antimatter transformation",
@@ -2333,7 +2496,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. MACE is correctly described as a next-generation experiment hunting for muonium-to-antimatter transformation, the 20+ year gap since the last search is accurately stated, and the use of cutting-edge technology is properly attributed. While the article uses creative analogies and explanatory language not in the source, all factual claims are supported and no information is fabricated or misrepresented."
-      }
+      },
+      "approved": true,
+      "_index": 26
     },
     {
       "originalTitle": "China to See Solar Capacity Outstrip Coal Capacity This Year",
@@ -2360,7 +2525,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: China's solar capacity will outstrip coal capacity this year for the first time, this information comes from an industry group, it's a historic milestone, and China is the world's largest energy market. No quotes were fabricated, all names and places are accurate, and while the article adds context and analysis not in the source, it doesn't contradict or misrepresent any source information."
-      }
+      },
+      "approved": true,
+      "_index": 27
     },
     {
       "originalTitle": "How an Austrian Bison is Helping Restore a Lost Ecosystem",
@@ -2388,7 +2555,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all factual information from the source. The bison's name (Ina), origin location (Innsbruck's mountains), destination (mountains of Azerbaijan), and the project description (one of Europe's most ambitious rewilding projects to restore lost ecosystems across continental boundaries) are all correct. No statistics, quotes, or specific claims are fabricated. The article appropriately acknowledges limitations by stating 'we don't have all the details' rather than inventing information."
-      }
+      },
+      "approved": true,
+      "_index": 28
     },
     {
       "originalTitle": "Wales: Volunteers wanted to live on a remote island for 3 months counting Puffins",
@@ -2415,7 +2584,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all factual information from the source. It correctly states the 3-month duration, remote Welsh island location, puffin counting purpose, wildlife protection program context, and compensation details (free accommodation, travel expenses, small stipend). No quotes were fabricated, and the article appropriately notes when information isn't specified in the source (which island). The creative writing style and elaborative descriptions don't contradict any source facts."
-      }
+      },
+      "approved": true,
+      "_index": 29
     },
     {
       "originalTitle": "METLEN secures financing for new solar project in Italy",
@@ -2442,7 +2613,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual information in the generated article accurately matches the source material. The financing amount (€16.6 million), project capacity (20.75 MWp), location (Bicinicco solar park in Friuli Venezia Giulia region), company name (METLEN), and context about Italy's renewable energy sector growth are all correctly reported. No quotes were fabricated, and all names and places are accurate. The article expands with commentary and context but does not make any unsupported factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 30
     },
     {
       "originalTitle": "Hundreds of new species found in a hidden world beneath the Pacific",
@@ -2470,7 +2643,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: nearly 800 species documented, many previously unknown, five years of research on deep Pacific seabed, insights into fragile ecosystems, and connection to growing demand for critical metals. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses an engaging, conversational tone while maintaining factual accuracy."
-      }
+      },
+      "approved": true,
+      "_index": 31
     },
     {
       "originalTitle": "This AI app can tell which dinosaur made a footprint",
@@ -2497,7 +2672,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: DinoTracker analyzes photos of fossil tracks, predicts which dinosaur made them with accuracy rivaling human experts, and discovered bird-like footprints dating back more than 200 million years that could push bird origins deeper into prehistory. No quotes were fabricated, all names are accurate, and no unsupported claims were made. The article adds contextual commentary and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 32
     },
     {
       "originalTitle": "Gray wolves are hunting sea otters and no one knows how",
@@ -2524,7 +2701,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that gray wolves on a remote Alaskan island have adapted to hunt sea otters, that this behavior was unexpected to scientists, that researchers are studying how these wolves developed marine hunting skills, and that this has implications for land-sea ecosystem understanding. No fabricated quotes, inaccurate statistics, or unsupported claims were found. The article maintains factual accuracy while presenting the information in an engaging narrative style."
-      }
+      },
+      "approved": true,
+      "_index": 33
     },
     {
       "originalTitle": "A breakthrough that turns exhaust CO2 into useful materials",
@@ -2551,7 +2730,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the original source: the device captures CO2 and transforms it into formic acid in a single step, works with realistic exhaust gases, and functions at CO2 levels found in normal air. No quotes were fabricated (the article references 'the report' rather than creating false quotes), and all technical claims align with the source material. The additional context about formic acid's uses and the article's conversational tone are appropriate editorial additions that don't contradict the source."
-      }
+      },
+      "approved": true,
+      "_index": 34
     },
     {
       "originalTitle": "This new building material pulls carbon out of the air",
@@ -2578,7 +2759,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. All technical details about the enzyme-based material, its properties (cures in hours, strong, repairable, recyclable), and its carbon-capturing function are correctly stated. The quote about 'a cleaner alternative to concrete' is properly attributed to the researchers. No fabricated statistics, names, or unsupported claims were found. The article uses creative language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 35
     },
     {
       "originalTitle": "Scientists discover how to turn gut bacteria into anti-aging factories",
@@ -2606,7 +2789,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that small doses of antibiotic can coax gut bacteria into producing life-extending compounds, that worms showed longer lifespans, that mice showed healthier cholesterol and insulin changes, and that this points to a new health approach. The article adds interpretive language and context but does not misrepresent any facts or add unsupported claims. No quotes were fabricated or misattributed."
-      }
+      },
+      "approved": true,
+      "_index": 36
     },
     {
       "originalTitle": "Scientists finally explain statin muscle pain",
@@ -2634,7 +2819,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. It correctly states that scientists identified the precise molecular trigger for statin muscle pain, that statins jam open a critical muscle protein causing toxic calcium leak, and that this discovery could lead to safer statins. The article uses no fabricated quotes, presents no unsupported statistics, and while it uses analogies and explanatory language not in the original, these serve to explain rather than distort the core scientific findings."
-      }
+      },
+      "approved": true,
+      "_index": 37
     },
     {
       "originalTitle": "A quiet change in everyday foods could save thousands of lives",
@@ -2661,7 +2848,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that modest sodium reductions in bread, packaged foods, and takeout meals could significantly reduce heart disease and stroke rates, and that people wouldn't need to alter their eating habits while small changes to the food supply could deliver large health benefits. The article paraphrases rather than fabricates quotes, and all claims are supported by the original source. No specific statistics, names, or organizations were mentioned in either piece to verify."
-      }
+      },
+      "approved": true,
+      "_index": 38
     },
     {
       "originalTitle": "This brain discovery is forcing scientists to rethink how memory works",
@@ -2689,7 +2878,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that brain imaging shows factual and experiential memory activate nearly identical brain networks, that this challenges decades of previous research assumptions, and that the findings may help with understanding Alzheimer's and dementia. No statistics, quotes, or specific names were fabricated. The article adds explanatory content and analogies but doesn't misrepresent any source information."
-      }
+      },
+      "approved": true,
+      "_index": 39
     }
   ]
 }
