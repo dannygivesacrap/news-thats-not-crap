@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-02-05T15:11:31.776Z",
+  "generatedAt": "2026-02-05T16:04:18.930Z",
+  "publishedAt": "2026-02-05T16:04:18.930Z",
   "homepage": {
     "hero": {
       "originalTitle": "Green energy sector drove more than 90% of China's investment growth last year, analysis finds",
@@ -27,7 +28,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts and statistics from the original source are accurately represented in the generated article. The 90% investment growth figure, the comparison to world economies, and the statistic about accounting for more than a third of economic growth for the second time in three years are all correctly stated. No quotes were fabricated, and no unsupported claims were made. The article appropriately expands on the implications while staying factually grounded in the source material."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     "featured": [
       {
@@ -61,7 +64,9 @@
           "confidence": "high",
           "summary": "The core statistics (one-third electricity from wind, price drops from €136.99 to €108.48) are accurate, but the article makes unsupported claims about it being the 'windiest year on record' and loosely references the waste statistic without proper context from the source."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "NASA Webb Pushes Boundaries of Observable Universe Closer to Big Bang",
@@ -90,7 +95,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts are accurate: the galaxy was confirmed 280 million years after the Big Bang, it's record-breaking, the previous record was 300 million years, and it was discovered by NASA's James Webb Space Telescope. The article uses creative analogies and casual language but maintains factual accuracy throughout. No quotes were fabricated (none were used), and all organization names are correct."
-        }
+        },
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "Jaguars Recorded Meowing for the First Time Ever (LISTEN)",
@@ -124,7 +131,9 @@
           "confidence": "high",
           "summary": "While the core facts about jaguars meowing, their weight (300+ pounds), being the world's third-largest feline, and the camera trap footage are accurate, the generated article includes significant additional information and claims not present in the original source, particularly about domestic cat communication patterns and additional jaguar behavioral details."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 3
       },
       {
         "originalTitle": "Billionaire Tom Kaplan Auctions Rare Rembrandt Lion Drawing for $18M to Help Save the Animal it Depicts",
@@ -153,7 +162,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: the $18 million sale price, the record-breaking nature at Sotheby's, proceeds going to lion conservation, it being one of only six Rembrandt lion drafts and the only one in private hands, and the Kaplans being prominent Rembrandt collectors dedicated to wildlife conservation. The article contains no fabricated quotes and all names and details are correct. While the writing style is more casual and expansive, all factual claims are properly supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 4
       },
       {
         "originalTitle": "Record Harvest Dubbed the 'Potato Flood' and Prompts Mass Spud Giveaways Across Berlin",
@@ -181,7 +192,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly reports the 'potato flood' nickname, record-breaking harvest, mountains of potatoes, massive surplus, free giveaways across Berlin and nearby towns, and the goal of feeding anyone in need. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands on the source with appropriate descriptive language and commentary while maintaining factual accuracy."
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
         "originalTitle": "Shear comfort, the sheep helping people unload their worries",
@@ -210,7 +223,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly identifies the Yorkshire location, the therapist's discovery about her sheep flock's intuitive abilities, and their effectiveness in animal-assisted therapy for emotional healing. No statistics, quotes, or specific names were provided in the source to verify, and none were fabricated in the article. The article expands appropriately on the concept while staying true to the source information."
-        }
+        },
+        "approved": true,
+        "_index": 6
       },
       {
         "originalTitle": "Astonishing 1,400-year-old Tomb Featuring Giant Owl Sculpture Discovered in Mexico",
@@ -238,7 +253,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: the 1,400-year age, Zapotec origin, description as 'most significant archaeological discovery in a decade', the exquisite preservation of murals and carvings, and the specific description of the owl frieze with a man's face in its beak. The article expands with contextual information and interpretation but does not contradict or misrepresent any facts from the original source. No quotes were fabricated - the article uses descriptive language that aligns with the source's characterizations."
-        }
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "Moss Spores Riding on the Outside of the Space Station Survive For 9 Months",
@@ -266,7 +283,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: the correct species name (Physcomitrella patens), the 9-month survival duration, the location (outside the International Space Station), and the characterization as a hardy pioneer moss species. The article expands with additional context about space conditions and implications, but does not contradict or misrepresent any information from the original source. No fabricated quotes or inaccurate claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 8
       },
       {
         "originalTitle": "Teens Build Igloo That Brings Together the Neighborhood After Difficult Ice Storm – LOOK",
@@ -294,7 +313,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: the teens' names (Adeline Sutich and Maeve Ritchotte), the ice storm location (mid-Atlantic region), their construction of an igloo using carved ice blocks, the placement in front of a fire-damaged house, and the community impact. No quotes were fabricated, no statistics were misrepresented, and all factual claims are supported by the source material. The article expands with commentary and interpretation but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "A Coal Town Reborn",
@@ -322,7 +343,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. The location (Loos-en-Gohelle), status as one of Europe's largest coal mining regions, transformation to sustainable community, and the symbolic evolution of slag heaps from pollution symbols to renewal monuments are all correctly presented. No fabricated quotes, statistics, or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 10
       },
       {
         "originalTitle": "The Affordable Daycare That Keeps Parents Close",
@@ -351,7 +374,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all factual information from the source. It correctly identifies Saja Khuder and Chase Mateusiak, accurately describes their situations (Khuder's childcare plans falling through, Mateusiak's son being exhausted by expensive daycare), and properly explains the solution they discovered (affordable on-site childcare combined with coworking spaces). The article contains no fabricated quotes, incorrect statistics, or unsupported claims - it expands on the source information with commentary and interpretation while maintaining factual accuracy."
-        }
+        },
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "Scientists discover hidden deep-Earth structures shaping the magnetic field",
@@ -379,7 +404,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. It correctly states there are two massive hot rock structures that have been shaping Earth's magnetic field for millions of years, mentions the use of ancient magnetic records and advanced simulations in the discovery, describes how these structures influence liquid iron movement in Earth's core, and notes that some parts of the magnetic field have remained stable over vast time periods. The article uses creative analogies and accessible language but does not introduce any factual inaccuracies or unsupported claims. No quotes were fabricated, and the core scientific findings are faithfully represented."
-        }
+        },
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "Air ambulance teams are changing who survives critical injuries",
@@ -408,7 +435,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all factual information from the original source. It correctly states that air ambulance teams led to higher survival rates than predicted by standard models, that younger and more responsive patients benefited most, and that traumatic cardiac arrest outcomes improved over the study period. No quotes were fabricated, no statistics were misrepresented, and no unsupported claims were made. The article expanded on the source material with commentary and context but maintained factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "Saudi Arabia's $2 Billion Solar Plan Lifts Turkish Energy Stocks",
@@ -436,30 +465,32 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source: the $2 billion investment amount, Saudi Arabia as the investor, Turkey as the location, solar power plants as the project type, this being the first stage of a broader partnership, and the positive impact on Turkish energy stocks. No quotes were fabricated, all numerical data matches, and no unsupported claims were made. The article expands with reasonable commentary while staying faithful to the source material."
-        }
+        },
+        "approved": true,
+        "_index": 14
       }
     ]
   },
   "sections": {
     "climate": [
       {
-        "originalTitle": "Saudi Arabia's $2 Billion Solar Plan Lifts Turkish Energy Stocks",
-        "headline": "Saudi-Turkish Solar Partnership Sparks $2 Billion Green Investment",
-        "excerpt": "Saudi Arabia will invest approximately $2 billion to build solar power plants in Turkey as the first stage of a broader renewable-energy partnership between the two countries. The announcement has already boosted Turkish energy stocks as investors respond positively to the clean energy initiative.",
+        "originalTitle": "Green energy sector drove more than 90% of China's investment growth last year, analysis finds",
+        "headline": "China's Green Machine: Clean Energy Powers Economic Growth Like Never Before",
+        "excerpt": "China's clean energy industries drove more than 90% of the country's investment growth last year, making the sectors bigger than all but seven of the world's economies. For the second time in three years, the manufacture, installation and export of batteries, electric cars, solar, wind and related technologies accounted for more than a third of China's economic growth.",
         "category": "climate",
-        "sourceUrl": "https://financialpost.com/pmn/business-pmn/saudi-arabias-2-billion-solar-plan-lifts-turkish-energy-stocks",
-        "sourceName": "Financial Post",
-        "readTime": 3,
-        "isHomepageFeatured": true,
-        "slug": "saudi-turkish-solar-partnership-sparks-2-billion-green-inves",
-        "author": "Sunny Bright",
-        "imageUrl": "https://images.pexels.com/photos/2800845/pexels-photo-2800845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "sourceUrl": "https://www.theguardian.com/world/2026/feb/05/china-green-energy-sector-investment-growth",
+        "sourceName": "The Guardian Environment",
+        "readTime": 4,
+        "isHomepageHero": true,
+        "slug": "chinas-green-machine-clean-energy-powers-economic-growth-lik",
+        "author": "Gusty Winds",
+        "imageUrl": "https://images.pexels.com/photos/30455544/pexels-photo-30455544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "When two countries decide to team up on clean energy, good things tend to happen – and the financial markets are taking notice. Saudi Arabia just announced a $2 billion investment to build solar power plants in Turkey, marking the first phase of what promises to be a much larger renewable energy partnership between the nations.",
+          "lead": "What happens when a country decides to go all-in on the future? China just gave us a pretty spectacular answer, with their green energy sector powering more than 90% of the nation's investment growth last year.",
           "body": [
-            "The announcement has already sent Turkish energy stocks climbing as investors respond enthusiastically to this massive clean energy initiative. It's not every day you see a $2 billion commitment to solar power, and the market's positive reaction suggests this could be the beginning of something significant for Turkey's renewable energy sector.",
-            "What makes this particularly interesting is that this solar investment is being described as just the opening act – the first stage of a broader renewable energy partnership between Saudi Arabia and Turkey. While the details of future phases haven't been revealed, the scale of this initial commitment suggests both countries are serious about building a substantial clean energy collaboration.",
-            "For Turkey's energy landscape, this represents a major vote of confidence from one of the world's energy powerhouses. Solar power development at this scale could significantly boost Turkey's renewable energy capacity while creating jobs and attracting further investment in the clean energy sector. Sometimes the best partnerships are the ones that benefit everyone involved – and this solar alliance appears to be shining bright from the start."
+            "Let's put this in perspective: China's clean energy industries have grown so massive that they're now bigger than all but seven of the world's entire economies. We're talking about a sector that encompasses everything from batteries and electric cars to solar panels and wind turbines – and it's absolutely booming.",
+            "This green revolution isn't just a one-hit wonder either. For the second time in three years, the manufacture, installation, and export of these clean technologies accounted for more than a third of China's total economic growth. That's like having your renewable energy sector become the main character in your country's economic story.",
+            "What makes this particularly exciting is the ripple effect. When one of the world's largest economies makes this kind of commitment to clean technology, it doesn't just benefit them – it drives innovation, brings costs down globally, and creates momentum for the entire planet's transition to cleaner energy. It's the kind of economic shift that could power positive change far beyond China's borders."
           ],
           "pullQuote": null
         },
@@ -467,36 +498,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the original source: the $2 billion investment amount, Saudi Arabia as the investor, Turkey as the location, solar power plants as the project type, this being the first stage of a broader partnership, and the positive impact on Turkish energy stocks. No quotes were fabricated, all numerical data matches, and no unsupported claims were made. The article expands with reasonable commentary while staying faithful to the source material."
-        }
-      },
-      {
-        "originalTitle": "A Coal Town Reborn",
-        "headline": "From Coal to Cool: How One French Town Reinvented Itself",
-        "excerpt": "The former mining town of Loos-en-Gohelle has transformed from one of Europe's largest coal mining regions into a sustainable community. The town's great slag heaps, once symbols of industrial pollution, now stand as monuments to successful environmental and economic renewal.",
-        "category": "climate",
-        "sourceUrl": "https://reasonstobecheerful.world/france-coal-town-reborn-loos-en-gohelle/",
-        "sourceName": "Reasons to be Cheerful",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "from-coal-to-cool-how-one-french-town-reinvented-itself",
-        "author": "Ray Solar",
-        "imageUrl": "https://images.pexels.com/photos/46801/coal-briquette-black-46801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the most beautiful transformations happen in the most unlikely places. The French town of Loos-en-Gohelle has pulled off something remarkable – turning one of Europe's largest coal mining regions into a thriving example of sustainable living.",
-          "body": [
-            "Not too long ago, this place was all about digging deep and burning dirty. Coal mining defined everything about Loos-en-Gohelle, from the economy to the landscape. The industry left behind massive slag heaps – those towering piles of mining waste that once stood as stark reminders of heavy industry and environmental damage.",
-            "But here's where the story gets good: instead of viewing those slag heaps as eyesores or obstacles, the community saw opportunity. Today, those same monuments that once symbolized industrial pollution have been transformed into symbols of something entirely different – successful environmental and economic renewal.",
-            "The transformation didn't happen overnight, but it shows what's possible when a community decides to write a new chapter. Loos-en-Gohelle has evolved from a town defined by extraction to one leading the way in sustainability. It's proof that even places with the heaviest industrial pasts can become laboratories for a cleaner, greener future."
-          ],
-          "pullQuote": null
+          "summary": "All key facts and statistics from the original source are accurately represented in the generated article. The 90% investment growth figure, the comparison to world economies, and the statistic about accounting for more than a third of economic growth for the second time in three years are all correctly stated. No quotes were fabricated, and no unsupported claims were made. The article appropriately expands on the implications while staying factually grounded in the source material."
         },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source material. The location (Loos-en-Gohelle), status as one of Europe's largest coal mining regions, transformation to sustainable community, and the symbolic evolution of slag heaps from pollution symbols to renewal monuments are all correctly presented. No fabricated quotes, statistics, or unsupported claims were found."
-        }
+        "approved": true,
+        "_index": 0
       },
       {
         "originalTitle": "Wind farms provided a third of Ireland's electricity in record 2025 but 13pc went to waste",
@@ -529,26 +534,28 @@
           "confidence": "high",
           "summary": "The core statistics (one-third electricity from wind, price drops from €136.99 to €108.48) are accurate, but the article makes unsupported claims about it being the 'windiest year on record' and loosely references the waste statistic without proper context from the source."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 1
       },
       {
-        "originalTitle": "Green energy sector drove more than 90% of China's investment growth last year, analysis finds",
-        "headline": "China's Green Machine: Clean Energy Powers Economic Growth Like Never Before",
-        "excerpt": "China's clean energy industries drove more than 90% of the country's investment growth last year, making the sectors bigger than all but seven of the world's economies. For the second time in three years, the manufacture, installation and export of batteries, electric cars, solar, wind and related technologies accounted for more than a third of China's economic growth.",
+        "originalTitle": "A Coal Town Reborn",
+        "headline": "From Coal to Cool: How One French Town Reinvented Itself",
+        "excerpt": "The former mining town of Loos-en-Gohelle has transformed from one of Europe's largest coal mining regions into a sustainable community. The town's great slag heaps, once symbols of industrial pollution, now stand as monuments to successful environmental and economic renewal.",
         "category": "climate",
-        "sourceUrl": "https://www.theguardian.com/world/2026/feb/05/china-green-energy-sector-investment-growth",
-        "sourceName": "The Guardian Environment",
-        "readTime": 4,
-        "isHomepageHero": true,
-        "slug": "chinas-green-machine-clean-energy-powers-economic-growth-lik",
-        "author": "Gusty Winds",
-        "imageUrl": "https://images.pexels.com/photos/30455544/pexels-photo-30455544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "sourceUrl": "https://reasonstobecheerful.world/france-coal-town-reborn-loos-en-gohelle/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "from-coal-to-cool-how-one-french-town-reinvented-itself",
+        "author": "Ray Solar",
+        "imageUrl": "https://images.pexels.com/photos/46801/coal-briquette-black-46801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "What happens when a country decides to go all-in on the future? China just gave us a pretty spectacular answer, with their green energy sector powering more than 90% of the nation's investment growth last year.",
+          "lead": "Sometimes the most beautiful transformations happen in the most unlikely places. The French town of Loos-en-Gohelle has pulled off something remarkable – turning one of Europe's largest coal mining regions into a thriving example of sustainable living.",
           "body": [
-            "Let's put this in perspective: China's clean energy industries have grown so massive that they're now bigger than all but seven of the world's entire economies. We're talking about a sector that encompasses everything from batteries and electric cars to solar panels and wind turbines – and it's absolutely booming.",
-            "This green revolution isn't just a one-hit wonder either. For the second time in three years, the manufacture, installation, and export of these clean technologies accounted for more than a third of China's total economic growth. That's like having your renewable energy sector become the main character in your country's economic story.",
-            "What makes this particularly exciting is the ripple effect. When one of the world's largest economies makes this kind of commitment to clean technology, it doesn't just benefit them – it drives innovation, brings costs down globally, and creates momentum for the entire planet's transition to cleaner energy. It's the kind of economic shift that could power positive change far beyond China's borders."
+            "Not too long ago, this place was all about digging deep and burning dirty. Coal mining defined everything about Loos-en-Gohelle, from the economy to the landscape. The industry left behind massive slag heaps – those towering piles of mining waste that once stood as stark reminders of heavy industry and environmental damage.",
+            "But here's where the story gets good: instead of viewing those slag heaps as eyesores or obstacles, the community saw opportunity. Today, those same monuments that once symbolized industrial pollution have been transformed into symbols of something entirely different – successful environmental and economic renewal.",
+            "The transformation didn't happen overnight, but it shows what's possible when a community decides to write a new chapter. Loos-en-Gohelle has evolved from a town defined by extraction to one leading the way in sustainability. It's proof that even places with the heaviest industrial pasts can become laboratories for a cleaner, greener future."
           ],
           "pullQuote": null
         },
@@ -556,8 +563,40 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "All key facts and statistics from the original source are accurately represented in the generated article. The 90% investment growth figure, the comparison to world economies, and the statistic about accounting for more than a third of economic growth for the second time in three years are all correctly stated. No quotes were fabricated, and no unsupported claims were made. The article appropriately expands on the implications while staying factually grounded in the source material."
-        }
+          "summary": "The generated article accurately reflects all key facts from the source material. The location (Loos-en-Gohelle), status as one of Europe's largest coal mining regions, transformation to sustainable community, and the symbolic evolution of slag heaps from pollution symbols to renewal monuments are all correctly presented. No fabricated quotes, statistics, or unsupported claims were found."
+        },
+        "approved": true,
+        "_index": 10
+      },
+      {
+        "originalTitle": "Saudi Arabia's $2 Billion Solar Plan Lifts Turkish Energy Stocks",
+        "headline": "Saudi-Turkish Solar Partnership Sparks $2 Billion Green Investment",
+        "excerpt": "Saudi Arabia will invest approximately $2 billion to build solar power plants in Turkey as the first stage of a broader renewable-energy partnership between the two countries. The announcement has already boosted Turkish energy stocks as investors respond positively to the clean energy initiative.",
+        "category": "climate",
+        "sourceUrl": "https://financialpost.com/pmn/business-pmn/saudi-arabias-2-billion-solar-plan-lifts-turkish-energy-stocks",
+        "sourceName": "Financial Post",
+        "readTime": 3,
+        "isHomepageFeatured": true,
+        "slug": "saudi-turkish-solar-partnership-sparks-2-billion-green-inves",
+        "author": "Sunny Bright",
+        "imageUrl": "https://images.pexels.com/photos/2800845/pexels-photo-2800845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "When two countries decide to team up on clean energy, good things tend to happen – and the financial markets are taking notice. Saudi Arabia just announced a $2 billion investment to build solar power plants in Turkey, marking the first phase of what promises to be a much larger renewable energy partnership between the nations.",
+          "body": [
+            "The announcement has already sent Turkish energy stocks climbing as investors respond enthusiastically to this massive clean energy initiative. It's not every day you see a $2 billion commitment to solar power, and the market's positive reaction suggests this could be the beginning of something significant for Turkey's renewable energy sector.",
+            "What makes this particularly interesting is that this solar investment is being described as just the opening act – the first stage of a broader renewable energy partnership between Saudi Arabia and Turkey. While the details of future phases haven't been revealed, the scale of this initial commitment suggests both countries are serious about building a substantial clean energy collaboration.",
+            "For Turkey's energy landscape, this represents a major vote of confidence from one of the world's energy powerhouses. Solar power development at this scale could significantly boost Turkey's renewable energy capacity while creating jobs and attracting further investment in the clean energy sector. Sometimes the best partnerships are the ones that benefit everyone involved – and this solar alliance appears to be shining bright from the start."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the original source: the $2 billion investment amount, Saudi Arabia as the investor, Turkey as the location, solar power plants as the project type, this being the first stage of a broader partnership, and the positive impact on Turkish energy stocks. No quotes were fabricated, all numerical data matches, and no unsupported claims were made. The article expands with reasonable commentary while staying faithful to the source material."
+        },
+        "approved": true,
+        "_index": 14
       },
       {
         "originalTitle": "Clean energy funding to be tied to stronger workers' rights",
@@ -584,7 +623,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. The core information about the UK government's Fair Work Charter requirement for offshore wind firms participating in renewables auctions is correctly presented. While the article uses a more casual, conversational tone with wordplay and metaphors, it maintains factual accuracy throughout and doesn't introduce any unsupported claims or fabricated quotes."
-        }
+        },
+        "approved": true,
+        "_index": 15
       },
       {
         "originalTitle": "Mexico factory that imports US toxic waste to relocate after Guardian report",
@@ -611,7 +652,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source: the factory processes US hazardous waste in Mexico, is located in the Monterrey metropolitan area, recycles toxic steel dust from the US steel industry, and promised to relocate its most polluting operations following a Guardian investigation that revealed heavy-metals pollution in surrounding neighborhoods. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 16
       },
       {
         "originalTitle": "Wind farms provided a third of country's power in 2025",
@@ -639,7 +682,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. The core statistics (wind farms provided a third of Ireland's electricity in 2025), attribution (RTÉ report), and key claims (milestone achievement in renewable energy transition) are correctly stated. While the article adds commentary and creative language, it does not fabricate quotes, misstate numbers, or make unsupported claims beyond the source material."
-        }
+        },
+        "approved": true,
+        "_index": 19
       },
       {
         "originalTitle": "Norwegian skier hands IOC a petition to 'ski fossil free' ahead of the Olympics",
@@ -667,7 +712,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All core facts are accurate: Norwegian skier Nikolai Schirmer delivered a petition signed by more than 21,000 people to the IOC, calling for ending fossil fuel company sponsorships of winter sports to clean up the industry's environmental image. No direct quotes were fabricated - the article uses paraphrasing and commentary. Names, numbers, and organizations are correctly stated."
-        }
+        },
+        "approved": true,
+        "_index": 27
       },
       {
         "originalTitle": "Tata Power Q3 profit flat at ₹1,194 crore despite revenue dip",
@@ -694,7 +741,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts and figures in the generated article accurately match the source material. The article correctly states Tata Power's overall profit of ₹1,194 crore remained flat, renewable energy profits surged 156% to ₹547 crore, and revenue dipped. No quotes were fabricated, and all numerical data is precise. While the article adds commentary and analysis beyond the source excerpt, it does not make any factual claims that contradict or misrepresent the original information."
-        }
+        },
+        "approved": true,
+        "_index": 28
       },
       {
         "originalTitle": "Copenhagen Infrastructure Partners acquires Ørsted's European onshore business",
@@ -721,39 +770,12 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: Copenhagen Infrastructure Partners acquired Ørsted's European onshore renewable energy business, the acquisition strengthens CI V's European portfolio, and reinforces CIP's position as a leading player in energy infrastructure and onshore renewables. All company names are correct, no statistics or quotes are fabricated, and while the article uses casual language and adds context/commentary, it doesn't make any unsupported factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 29
       }
     ],
     "health": [
-      {
-        "originalTitle": "Air ambulance teams are changing who survives critical injuries",
-        "headline": "Air Ambulance Heroes Are Beating the Survival Odds",
-        "excerpt": "Advanced care provided by air ambulance teams has led to higher survival rates in major trauma patients, with more people surviving than predicted by standard models. Younger patients and those more responsive at first assessment benefited most, while outcomes for traumatic cardiac arrest improved steadily over the study period.",
-        "category": "health",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260205025026.htm",
-        "sourceName": "Science Daily",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "air-ambulance-heroes-are-beating-the-survival-odds",
-        "author": "Vi Tality",
-        "imageUrl": "https://images.pexels.com/photos/8942630/pexels-photo-8942630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the difference between life and death comes down to who shows up to help. Air ambulance teams are proving that having the right medical expertise in the right place at the right time can literally change everything for trauma patients.",
-          "body": [
-            "According to new research, advanced care provided by air ambulance teams has led to higher survival rates in major trauma patients, with more people surviving than predicted by standard models. It's the kind of breakthrough that reminds us how far emergency medicine has come – and how much hope there is for people facing their worst moments.",
-            "The findings show that younger patients and those who were more responsive during their first assessment benefited the most from this specialized care. There's something deeply encouraging about knowing that when someone's fighting for their life, having skilled medical professionals who can provide advanced treatment right from the start makes such a measurable difference.",
-            "Perhaps most remarkably, the study found that outcomes for patients experiencing traumatic cardiac arrest – one of the most challenging emergency situations – improved steadily over the study period. This suggests that air ambulance teams aren't just maintaining high standards; they're getting even better at saving lives that might have been lost in the past.",
-            "While we don't often think about the complex medical choreography happening during emergency rescues, this research highlights how specialized teams are quietly revolutionizing trauma care. For families facing unthinkable situations, these air ambulance crews represent something powerful: the knowledge that every possible advantage is being brought to bear when it matters most."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all factual information from the original source. It correctly states that air ambulance teams led to higher survival rates than predicted by standard models, that younger and more responsive patients benefited most, and that traumatic cardiac arrest outcomes improved over the study period. No quotes were fabricated, no statistics were misrepresented, and no unsupported claims were made. The article expanded on the source material with commentary and context but maintained factual accuracy throughout."
-        }
-      },
       {
         "originalTitle": "Shear comfort, the sheep helping people unload their worries",
         "headline": "Ewe Won't Believe It: Therapy Sheep Help People Process Their Problems",
@@ -781,7 +803,40 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly identifies the Yorkshire location, the therapist's discovery about her sheep flock's intuitive abilities, and their effectiveness in animal-assisted therapy for emotional healing. No statistics, quotes, or specific names were provided in the source to verify, and none were fabricated in the article. The article expands appropriately on the concept while staying true to the source information."
-        }
+        },
+        "approved": true,
+        "_index": 6
+      },
+      {
+        "originalTitle": "Air ambulance teams are changing who survives critical injuries",
+        "headline": "Air Ambulance Heroes Are Beating the Survival Odds",
+        "excerpt": "Advanced care provided by air ambulance teams has led to higher survival rates in major trauma patients, with more people surviving than predicted by standard models. Younger patients and those more responsive at first assessment benefited most, while outcomes for traumatic cardiac arrest improved steadily over the study period.",
+        "category": "health",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260205025026.htm",
+        "sourceName": "Science Daily",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "air-ambulance-heroes-are-beating-the-survival-odds",
+        "author": "Vi Tality",
+        "imageUrl": "https://images.pexels.com/photos/8942630/pexels-photo-8942630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the difference between life and death comes down to who shows up to help. Air ambulance teams are proving that having the right medical expertise in the right place at the right time can literally change everything for trauma patients.",
+          "body": [
+            "According to new research, advanced care provided by air ambulance teams has led to higher survival rates in major trauma patients, with more people surviving than predicted by standard models. It's the kind of breakthrough that reminds us how far emergency medicine has come – and how much hope there is for people facing their worst moments.",
+            "The findings show that younger patients and those who were more responsive during their first assessment benefited the most from this specialized care. There's something deeply encouraging about knowing that when someone's fighting for their life, having skilled medical professionals who can provide advanced treatment right from the start makes such a measurable difference.",
+            "Perhaps most remarkably, the study found that outcomes for patients experiencing traumatic cardiac arrest – one of the most challenging emergency situations – improved steadily over the study period. This suggests that air ambulance teams aren't just maintaining high standards; they're getting even better at saving lives that might have been lost in the past.",
+            "While we don't often think about the complex medical choreography happening during emergency rescues, this research highlights how specialized teams are quietly revolutionizing trauma care. For families facing unthinkable situations, these air ambulance crews represent something powerful: the knowledge that every possible advantage is being brought to bear when it matters most."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all factual information from the original source. It correctly states that air ambulance teams led to higher survival rates than predicted by standard models, that younger and more responsive patients benefited most, and that traumatic cardiac arrest outcomes improved over the study period. No quotes were fabricated, no statistics were misrepresented, and no unsupported claims were made. The article expanded on the source material with commentary and context but maintained factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "New nasal vaccine shows strong protection against H5N1 bird flu",
@@ -808,7 +863,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that the nasal vaccine showed strong protection against H5N1 in animal tests, outperformed traditional flu shots, targets the nose and lungs, may prevent infection at the earliest stage, and addresses the timing concern about researchers racing to stop bird flu before it adapts. No fabricated quotes, inaccurate statistics, or unsupported claims were found. The article appropriately attributes information to 'the report' rather than creating false citations."
-        }
+        },
+        "approved": true,
+        "_index": 17
       },
       {
         "originalTitle": "Investigating the effect of augmented reality-based virtual patient training on occupational therapy students' clinical decision-making: A quasi-experimental study",
@@ -843,7 +900,9 @@
           "confidence": "high",
           "summary": "While the basic facts about the study's existence, publication in PLOS ONE, and general purpose are accurate, the article significantly expands beyond the source material with unsupported claims about methodology, results, and implications. The source only provides a brief description of the study's design and aims, but the article presents detailed explanations and outcomes as if they were established facts from the research."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 25
       },
       {
         "originalTitle": "Balt's Squid™ Liquid Embolic Receives FDA Approval for Adjunctive Treatment for Patients with Chronic Subdural Hematomas",
@@ -870,94 +929,12 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: FDA Premarket Approval for Balt's Squid™ liquid embolic agent, its use for chronic subdural hematomas as adjunctive treatment, and the mechanism of embolizing the middle meningeal artery. No quotes were fabricated, all names and organizations are correct, and no unsupported claims were made. The article adds explanatory context but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 26
       }
     ],
     "science": [
-      {
-        "originalTitle": "Scientists discover hidden deep-Earth structures shaping the magnetic field",
-        "headline": "Deep Earth's Secret Architects Finally Revealed",
-        "excerpt": "Two massive hot rock structures deep inside Earth have been quietly shaping the planet's magnetic field for millions of years. Using ancient magnetic records and advanced simulations, scientists discovered these formations influence liquid iron movement in Earth's core, with some parts of the magnetic field remaining stable over vast time periods.",
-        "category": "science",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260205050039.htm",
-        "sourceName": "Science Daily",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "deep-earths-secret-architects-finally-revealed",
-        "author": "Crystal Clear",
-        "imageUrl": "https://images.pexels.com/photos/586073/pexels-photo-586073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Deep beneath our feet, two massive hot rock structures have been working the night shift for millions of years, quietly choreographing one of Earth's most vital features. These hidden giants have been shaping our planet's magnetic field—the invisible shield that protects us from harmful solar radiation—and scientists just figured out how they've been pulling it off.",
-          "body": [
-            "Using a combination of ancient magnetic records and advanced computer simulations, researchers discovered that these deep-Earth formations have been influencing the movement of liquid iron in our planet's core. Think of it like having two enormous underwater currents that guide how rivers flow above—except these 'currents' are made of hot rock and they're steering molten metal thousands of miles below the surface.",
-            "What makes this discovery particularly fascinating is that some parts of Earth's magnetic field have remained remarkably stable over vast stretches of time, according to the report. While we often think of our planet as constantly changing, these findings suggest there are some deep, fundamental structures that have been keeping things steady for eons.",
-            "This isn't just academic curiosity—understanding how our magnetic field works and what influences it helps scientists better predict its future behavior. Our magnetic field is what keeps us from getting fried by solar particles, so having these ancient guardians working behind the scenes is definitely something worth celebrating. Sometimes the most important work happens where no one can see it, and apparently that includes the very center of our planet."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all factual information from the source. It correctly states there are two massive hot rock structures that have been shaping Earth's magnetic field for millions of years, mentions the use of ancient magnetic records and advanced simulations in the discovery, describes how these structures influence liquid iron movement in Earth's core, and notes that some parts of the magnetic field have remained stable over vast time periods. The article uses creative analogies and accessible language but does not introduce any factual inaccuracies or unsupported claims. No quotes were fabricated, and the core scientific findings are faithfully represented."
-        }
-      },
-      {
-        "originalTitle": "Moss Spores Riding on the Outside of the Space Station Survive For 9 Months",
-        "headline": "Space Moss: The Ultimate Survivors That Make Jeff Goldblum Proud",
-        "excerpt": "The reproductive spores of Physcomitrella patens, a hardy pioneer moss species, managed to survive nine months in the vacuum of space while attached to the outside of the International Space Station. This remarkable discovery demonstrates the incredible resilience of life in the most extreme conditions imaginable.",
-        "category": "science",
-        "sourceUrl": "https://www.goodnewsnetwork.org/moss-spores-riding-on-the-outside-of-the-space-station-survive-for-9-months/",
-        "sourceName": "Good News Network",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "space-moss-the-ultimate-survivors-that-make-jeff-goldblum-pr",
-        "author": "Adam Atom",
-        "imageUrl": "https://images.pexels.com/photos/8385217/pexels-photo-8385217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Space has a reputation for being hostile to life – and rightfully so. It's a vacuum with deadly radiation, extreme temperatures, and zero protection from cosmic rays. Yet somehow, tiny moss spores managed to hitch a ride on the outside of the International Space Station and live to tell the tale.",
-          "body": [
-            "The reproductive spores of Physcomitrella patens, a hardy pioneer moss species, survived nine months clinging to the exterior of the space station. That's three-quarters of a year exposed to the absolute worst conditions the universe can throw at you – and these microscopic hitchhikers just shrugged it off.",
-            "This remarkable discovery demonstrates the incredible resilience of life in the most extreme conditions imaginable. We're talking about a vacuum that would instantly kill most living things, yet these spores held on like the ultimate cosmic survivors they apparently are.",
-            "The fact that such simple organisms can endure the harshest environment known to science gives us a fascinating glimpse into life's tenacity. It also raises intriguing questions about how life might travel between planets – though that's getting ahead of ourselves. For now, let's just appreciate that nature continues to amaze us, even in the depths of space."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source: the correct species name (Physcomitrella patens), the 9-month survival duration, the location (outside the International Space Station), and the characterization as a hardy pioneer moss species. The article expands with additional context about space conditions and implications, but does not contradict or misrepresent any information from the original source. No fabricated quotes or inaccurate claims were found."
-        }
-      },
-      {
-        "originalTitle": "Astonishing 1,400-year-old Tomb Featuring Giant Owl Sculpture Discovered in Mexico",
-        "headline": "Owl Be Amazed: 1,400-Year-Old Zapotec Tomb Reveals Stunning Ancient Artistry",
-        "excerpt": "Archaeologists have uncovered what's being called the most significant archaeological discovery in a decade: a 1,400-year-old Zapotec tomb decorated with murals and carvings in exquisite preservation. The tomb's most striking feature is a frieze of an enormous owl head with a man's face trapped in its beak, belonging to one of Mexico's non-Mayan native cultures.",
-        "category": "science",
-        "sourceUrl": "https://www.goodnewsnetwork.org/astonishing-1400-year-old-tomb-featuring-giant-owl-sculpture-discovered-in-mexico/",
-        "sourceName": "Good News Network",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "owl-be-amazed-1400-year-old-zapotec-tomb-reveals-stunning-an",
-        "author": "Nova Star",
-        "imageUrl": "https://images.pexels.com/photos/14538616/pexels-photo-14538616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the most incredible treasures have been patiently waiting right beneath our feet. Archaeologists in Mexico have just uncovered what experts are calling the most significant archaeological discovery in a decade: a breathtakingly preserved 1,400-year-old Zapotec tomb that's rewriting what we know about this ancient civilization.",
-          "body": [
-            "The tomb itself is a masterpiece of ancient artistry, decorated with murals and carvings that have survived in what researchers describe as exquisite preservation. After nearly one and a half millennia underground, the colors and details remain vivid enough to transport viewers back to a time when the Zapotec civilization flourished in what is now Mexico.",
-            "But it's the tomb's most striking feature that has archaeologists absolutely spellbound: a massive frieze depicting an enormous owl head with a human face trapped in its beak. The haunting and powerful image offers a rare glimpse into the spiritual beliefs and artistic sophistication of one of Mexico's major non-Mayan native cultures.",
-            "This discovery is particularly exciting because it sheds new light on the Zapotec people, whose rich cultural heritage often gets overshadowed by their more famous Mayan neighbors. The tomb's remarkable preservation means researchers will have an unprecedented opportunity to learn about Zapotec burial practices, artistic techniques, and religious symbolism—knowledge that could reshape our understanding of pre-Columbian Mexico."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source: the 1,400-year age, Zapotec origin, description as 'most significant archaeological discovery in a decade', the exquisite preservation of murals and carvings, and the specific description of the owl frieze with a man's face in its beak. The article expands with contextual information and interpretation but does not contradict or misrepresent any facts from the original source. No quotes were fabricated - the article uses descriptive language that aligns with the source's characterizations."
-        }
-      },
       {
         "originalTitle": "NASA Webb Pushes Boundaries of Observable Universe Closer to Big Bang",
         "headline": "Webb Telescope Peers Deeper Into Cosmic History Than Ever Before",
@@ -985,7 +962,99 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts are accurate: the galaxy was confirmed 280 million years after the Big Bang, it's record-breaking, the previous record was 300 million years, and it was discovered by NASA's James Webb Space Telescope. The article uses creative analogies and casual language but maintains factual accuracy throughout. No quotes were fabricated (none were used), and all organization names are correct."
-        }
+        },
+        "approved": true,
+        "_index": 2
+      },
+      {
+        "originalTitle": "Astonishing 1,400-year-old Tomb Featuring Giant Owl Sculpture Discovered in Mexico",
+        "headline": "Owl Be Amazed: 1,400-Year-Old Zapotec Tomb Reveals Stunning Ancient Artistry",
+        "excerpt": "Archaeologists have uncovered what's being called the most significant archaeological discovery in a decade: a 1,400-year-old Zapotec tomb decorated with murals and carvings in exquisite preservation. The tomb's most striking feature is a frieze of an enormous owl head with a man's face trapped in its beak, belonging to one of Mexico's non-Mayan native cultures.",
+        "category": "science",
+        "sourceUrl": "https://www.goodnewsnetwork.org/astonishing-1400-year-old-tomb-featuring-giant-owl-sculpture-discovered-in-mexico/",
+        "sourceName": "Good News Network",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "owl-be-amazed-1400-year-old-zapotec-tomb-reveals-stunning-an",
+        "author": "Nova Star",
+        "imageUrl": "https://images.pexels.com/photos/14538616/pexels-photo-14538616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the most incredible treasures have been patiently waiting right beneath our feet. Archaeologists in Mexico have just uncovered what experts are calling the most significant archaeological discovery in a decade: a breathtakingly preserved 1,400-year-old Zapotec tomb that's rewriting what we know about this ancient civilization.",
+          "body": [
+            "The tomb itself is a masterpiece of ancient artistry, decorated with murals and carvings that have survived in what researchers describe as exquisite preservation. After nearly one and a half millennia underground, the colors and details remain vivid enough to transport viewers back to a time when the Zapotec civilization flourished in what is now Mexico.",
+            "But it's the tomb's most striking feature that has archaeologists absolutely spellbound: a massive frieze depicting an enormous owl head with a human face trapped in its beak. The haunting and powerful image offers a rare glimpse into the spiritual beliefs and artistic sophistication of one of Mexico's major non-Mayan native cultures.",
+            "This discovery is particularly exciting because it sheds new light on the Zapotec people, whose rich cultural heritage often gets overshadowed by their more famous Mayan neighbors. The tomb's remarkable preservation means researchers will have an unprecedented opportunity to learn about Zapotec burial practices, artistic techniques, and religious symbolism—knowledge that could reshape our understanding of pre-Columbian Mexico."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the source: the 1,400-year age, Zapotec origin, description as 'most significant archaeological discovery in a decade', the exquisite preservation of murals and carvings, and the specific description of the owl frieze with a man's face in its beak. The article expands with contextual information and interpretation but does not contradict or misrepresent any facts from the original source. No quotes were fabricated - the article uses descriptive language that aligns with the source's characterizations."
+        },
+        "approved": true,
+        "_index": 7
+      },
+      {
+        "originalTitle": "Moss Spores Riding on the Outside of the Space Station Survive For 9 Months",
+        "headline": "Space Moss: The Ultimate Survivors That Make Jeff Goldblum Proud",
+        "excerpt": "The reproductive spores of Physcomitrella patens, a hardy pioneer moss species, managed to survive nine months in the vacuum of space while attached to the outside of the International Space Station. This remarkable discovery demonstrates the incredible resilience of life in the most extreme conditions imaginable.",
+        "category": "science",
+        "sourceUrl": "https://www.goodnewsnetwork.org/moss-spores-riding-on-the-outside-of-the-space-station-survive-for-9-months/",
+        "sourceName": "Good News Network",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "space-moss-the-ultimate-survivors-that-make-jeff-goldblum-pr",
+        "author": "Adam Atom",
+        "imageUrl": "https://images.pexels.com/photos/8385217/pexels-photo-8385217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Space has a reputation for being hostile to life – and rightfully so. It's a vacuum with deadly radiation, extreme temperatures, and zero protection from cosmic rays. Yet somehow, tiny moss spores managed to hitch a ride on the outside of the International Space Station and live to tell the tale.",
+          "body": [
+            "The reproductive spores of Physcomitrella patens, a hardy pioneer moss species, survived nine months clinging to the exterior of the space station. That's three-quarters of a year exposed to the absolute worst conditions the universe can throw at you – and these microscopic hitchhikers just shrugged it off.",
+            "This remarkable discovery demonstrates the incredible resilience of life in the most extreme conditions imaginable. We're talking about a vacuum that would instantly kill most living things, yet these spores held on like the ultimate cosmic survivors they apparently are.",
+            "The fact that such simple organisms can endure the harshest environment known to science gives us a fascinating glimpse into life's tenacity. It also raises intriguing questions about how life might travel between planets – though that's getting ahead of ourselves. For now, let's just appreciate that nature continues to amaze us, even in the depths of space."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the source: the correct species name (Physcomitrella patens), the 9-month survival duration, the location (outside the International Space Station), and the characterization as a hardy pioneer moss species. The article expands with additional context about space conditions and implications, but does not contradict or misrepresent any information from the original source. No fabricated quotes or inaccurate claims were found."
+        },
+        "approved": true,
+        "_index": 8
+      },
+      {
+        "originalTitle": "Scientists discover hidden deep-Earth structures shaping the magnetic field",
+        "headline": "Deep Earth's Secret Architects Finally Revealed",
+        "excerpt": "Two massive hot rock structures deep inside Earth have been quietly shaping the planet's magnetic field for millions of years. Using ancient magnetic records and advanced simulations, scientists discovered these formations influence liquid iron movement in Earth's core, with some parts of the magnetic field remaining stable over vast time periods.",
+        "category": "science",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260205050039.htm",
+        "sourceName": "Science Daily",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "deep-earths-secret-architects-finally-revealed",
+        "author": "Crystal Clear",
+        "imageUrl": "https://images.pexels.com/photos/586073/pexels-photo-586073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Deep beneath our feet, two massive hot rock structures have been working the night shift for millions of years, quietly choreographing one of Earth's most vital features. These hidden giants have been shaping our planet's magnetic field—the invisible shield that protects us from harmful solar radiation—and scientists just figured out how they've been pulling it off.",
+          "body": [
+            "Using a combination of ancient magnetic records and advanced computer simulations, researchers discovered that these deep-Earth formations have been influencing the movement of liquid iron in our planet's core. Think of it like having two enormous underwater currents that guide how rivers flow above—except these 'currents' are made of hot rock and they're steering molten metal thousands of miles below the surface.",
+            "What makes this discovery particularly fascinating is that some parts of Earth's magnetic field have remained remarkably stable over vast stretches of time, according to the report. While we often think of our planet as constantly changing, these findings suggest there are some deep, fundamental structures that have been keeping things steady for eons.",
+            "This isn't just academic curiosity—understanding how our magnetic field works and what influences it helps scientists better predict its future behavior. Our magnetic field is what keeps us from getting fried by solar particles, so having these ancient guardians working behind the scenes is definitely something worth celebrating. Sometimes the most important work happens where no one can see it, and apparently that includes the very center of our planet."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all factual information from the source. It correctly states there are two massive hot rock structures that have been shaping Earth's magnetic field for millions of years, mentions the use of ancient magnetic records and advanced simulations in the discovery, describes how these structures influence liquid iron movement in Earth's core, and notes that some parts of the magnetic field have remained stable over vast time periods. The article uses creative analogies and accessible language but does not introduce any factual inaccuracies or unsupported claims. No quotes were fabricated, and the core scientific findings are faithfully represented."
+        },
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "Rare rocks beneath Australia reveal the origins of a critical metal",
@@ -1012,7 +1081,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. The timeframe (800+ million years ago), location (central Australia), the connection to ancient supercontinent breakup, and niobium's applications (high-strength steel, electric vehicles, emerging energy technologies) are all correctly stated. No quotes were fabricated - the article properly attributes information to 'the report' rather than creating false quotations. While the article uses more engaging language and elaborates on the significance, all factual claims are supported by the original source."
-        }
+        },
+        "approved": true,
+        "_index": 18
       },
       {
         "originalTitle": "Baby dinosaurs were the backbone of the Jurassic food chain",
@@ -1039,7 +1110,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately conveys all the key facts from the original source, including that sauropods grew into the largest land animals, started life small and alone, were frequently eaten by multiple predators, served as a key part of the Jurassic food chain, and explain why early predators thrived without extreme hunting adaptations. While the article uses casual, humorous language and analogies not present in the source, it does not fabricate any facts, quotes, statistics, or specific claims beyond what the source supports."
-        }
+        },
+        "approved": true,
+        "_index": 20
       },
       {
         "originalTitle": "Two-month-old babies are already making sense of the world",
@@ -1066,7 +1139,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly states the babies' age (two months), the research method (brain scans), the categories tested (animals, toys, everyday objects), the use of AI to decode patterns, and the main finding about early categorization abilities. While the article uses more casual, engaging language and metaphors (like 'tiniest librarians'), it doesn't misrepresent any factual information. No quotes are present to verify, and no specific names, organizations, or places are mentioned in either source."
-        }
+        },
+        "approved": true,
+        "_index": 21
       },
       {
         "originalTitle": "A common parasite in the brain is far more active than we thought",
@@ -1098,7 +1173,9 @@
           "confidence": "high",
           "summary": "The core scientific facts about Toxoplasma gondii are accurately represented (parasite being more active/complex than thought, containing multiple subtypes, implications for drug development). However, there are attribution errors regarding the publication source and misleading references to quotes that don't exist in the provided source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 22
       },
       {
         "originalTitle": "Biodegradation of polyethylene terephthalate microplastics by Paenibacillus naphthalenovorans PETKKU2: Response surface optimization and genomic evidence for an alternative degradation mechanism",
@@ -1125,7 +1202,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the original source: the bacterial species name (Paenibacillus naphthalenovorans PETKKU2), its origin (landfill soil in Thailand), its ability to degrade PET microplastics, its status as the first reported member of this species with this capability, and the publication source (PLOS ONE). No quotes were fabricated, and all claims are supported by the source material. The article adds explanatory context and accessible language but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 23
       },
       {
         "originalTitle": "Dassault and Nvidia partner to build industrial AI platform",
@@ -1153,7 +1232,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. Company names are correct (Dassault Systèmes and Nvidia), the partnership description matches (long-term strategic partnership to create shared industrial AI platform), and the technical details align (science-based virtual twins combined with large-scale AI infrastructure for various applications). No direct quotes were used, avoiding attribution issues. The article expands with context and explanation but doesn't introduce any unsupported claims or inaccurate information."
-        }
+        },
+        "approved": true,
+        "_index": 24
       },
       {
         "originalTitle": "An Underground World Built to Make Mountains Disappear for Travel and Power",
@@ -1180,7 +1261,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all information from the original source. It correctly mentions engineers building underground infrastructure, the use of advanced physics and machinery, the bypass of mountains for travel and energy storage routes, the Gotthard Base Tunnel as an example, and modern underground construction techniques. While the article uses more casual and engaging language, it does not add any unsupported factual claims or inaccurate information beyond what was provided in the source material."
-        }
+        },
+        "approved": true,
+        "_index": 30
       }
     ],
     "wildlife": [
@@ -1216,95 +1299,12 @@
           "confidence": "high",
           "summary": "While the core facts about jaguars meowing, their weight (300+ pounds), being the world's third-largest feline, and the camera trap footage are accurate, the generated article includes significant additional information and claims not present in the original source, particularly about domestic cat communication patterns and additional jaguar behavioral details."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 3
       }
     ],
     "people": [
-      {
-        "originalTitle": "The Affordable Daycare That Keeps Parents Close",
-        "headline": "Working Parents Win With This Brilliant Childcare Solution",
-        "excerpt": "When Saja Khuder's childcare plans fell through and Chase Mateusiak's son was left exhausted by expensive daycare, they discovered an innovative solution. A new model combines affordable on-site childcare with coworking spaces, allowing parents to stay close while working.",
-        "category": "people",
-        "sourceUrl": "https://reasonstobecheerful.world/little-break-coworking-space-on-site-child-care-michigan/",
-        "sourceName": "Reasons to be Cheerful",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "working-parents-win-with-this-brilliant-childcare-solution",
-        "author": "Sol Idarity",
-        "imageUrl": "https://images.pexels.com/photos/5725567/pexels-photo-5725567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Picture this: You're trying to focus on that important presentation, but your mind keeps wandering to whether your toddler is having a meltdown at daycare across town. What if there was a way to keep your little one close while still getting actual work done?",
-          "body": [
-            "That's exactly the dilemma that led Saja Khuder and Chase Mateusiak to stumble upon something pretty brilliant. When Khuder's childcare plans completely fell apart and Mateusiak watched his son come home exhausted from an expensive daycare that wasn't quite the right fit, they both found themselves in that familiar parent predicament: needing to work while wanting to be present for their kids.",
-            "Enter the game-changing solution they discovered: a new model that combines affordable on-site childcare with coworking spaces. It's like someone finally figured out that parents don't actually want to choose between being good employees and being present parents – they just want both to be possible in the same place.",
-            "This innovative approach lets parents stay close to their children while still having a proper workspace to tackle their professional responsibilities. No more racing across town for pickup, no more wondering if that crying you hear in the background of your video call is your own kid, and no more paying premium prices for childcare that leaves everyone drained.",
-            "It's one of those ideas that makes you think, 'Why didn't someone think of this sooner?' Sometimes the best solutions are the ones that acknowledge what parents actually need: proximity, affordability, and the peace of mind that comes from knowing your little one is just a few steps away."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all factual information from the source. It correctly identifies Saja Khuder and Chase Mateusiak, accurately describes their situations (Khuder's childcare plans falling through, Mateusiak's son being exhausted by expensive daycare), and properly explains the solution they discovered (affordable on-site childcare combined with coworking spaces). The article contains no fabricated quotes, incorrect statistics, or unsupported claims - it expands on the source information with commentary and interpretation while maintaining factual accuracy."
-        }
-      },
-      {
-        "originalTitle": "Teens Build Igloo That Brings Together the Neighborhood After Difficult Ice Storm – LOOK",
-        "headline": "Ice Storm Inspires Teen Architects to Build Community Spirit",
-        "excerpt": "After ice storms hit the mid-Atlantic region, teens Adeline Sutich and Maeve Ritchotte carved dozens of ice blocks to construct an igloo in front of a house destroyed by fire months earlier. Their creative project brought the entire neighborhood together during a challenging time.",
-        "category": "people",
-        "sourceUrl": "https://www.goodnewsnetwork.org/teens-build-igloo-that-brings-the-community-together-after-ice-storm/",
-        "sourceName": "Good News Network",
-        "readTime": 3,
-        "isHomepageFeatured": true,
-        "slug": "ice-storm-inspires-teen-architects-to-build-community-spirit",
-        "author": "Hope Rising",
-        "imageUrl": "https://images.pexels.com/photos/28304722/pexels-photo-28304722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the coolest community projects start with the worst weather. When ice storms battered the mid-Atlantic region, most people probably stayed inside waiting for things to thaw. But teens Adeline Sutich and Maeve Ritchotte saw those ice-covered streets as raw material for something amazing.",
-          "body": [
-            "The two friends didn't just build any old snowman – they carved dozens of ice blocks and constructed a full-sized igloo. But here's the part that melts your heart: they chose to build it in front of a house that had been destroyed by fire months earlier. Talk about turning a painful reminder into something beautiful.",
-            "What started as a creative winter project became something much bigger. Their igloo didn't just bring structure to an empty lot – it brought the entire neighborhood together during what was already a challenging time for everyone.",
-            "There's something magical about how disasters can sometimes create the exact conditions for unexpected joy. These teens took ice that was probably making everyone's commute miserable and turned it into a gathering place that reminded their community what they're made of. Sometimes the best neighborhood improvements come not from city planning, but from teenagers with shovels and big hearts."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source: the teens' names (Adeline Sutich and Maeve Ritchotte), the ice storm location (mid-Atlantic region), their construction of an igloo using carved ice blocks, the placement in front of a fire-damaged house, and the community impact. No quotes were fabricated, no statistics were misrepresented, and all factual claims are supported by the source material. The article expands with commentary and interpretation but maintains factual accuracy throughout."
-        }
-      },
-      {
-        "originalTitle": "Record Harvest Dubbed the 'Potato Flood' and Prompts Mass Spud Giveaways Across Berlin",
-        "headline": "Berlin's Beautiful Potato Problem: Bumper Harvest Feeds Everyone for Free",
-        "excerpt": "German potato farmers are experiencing what's being called a 'potato flood' - a record-breaking harvest that has created mountains of potatoes as far as the eye can see. The massive surplus has prompted widespread free potato giveaways across Berlin and nearby towns, ensuring the bumper crop feeds anyone and everyone in need.",
-        "category": "people",
-        "sourceUrl": "https://www.goodnewsnetwork.org/record-harvest-dubbed-the-potato-flood-and-prompts-mass-spud-giveaways-across-berlin/",
-        "sourceName": "Good News Network",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "berlins-beautiful-potato-problem-bumper-harvest-feeds-everyo",
-        "author": "Sol Idarity",
-        "imageUrl": "https://images.pexels.com/photos/4101805/pexels-photo-4101805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes nature decides to show off, and German potato farmers are the lucky recipients of Mother Earth's generosity. This year's harvest has been so abundant that it's earned the delightful nickname 'potato flood' – and thankfully, this is the kind of flood everyone wants to experience.",
-          "body": [
-            "According to the report, German potato farmers are dealing with what can only be described as a magnificent problem: mountains of potatoes stretching as far as the eye can see. This record-breaking harvest has created such a massive surplus that farmers are literally running out of places to store their golden bounty.",
-            "But here's where the story gets even better – instead of letting these perfectly good spuds go to waste, communities across Berlin and nearby towns have organized widespread free potato giveaways. It's like nature's own version of a community potluck, except everyone gets to take home the star ingredient.",
-            "The timing couldn't be more perfect, as these mass spud giveaways are ensuring that the bumper crop reaches anyone and everyone in need. It's a beautiful example of how agricultural abundance can become community abundance, turning what could have been a logistical headache into a heartwarming story of shared prosperity."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source material. It correctly reports the 'potato flood' nickname, record-breaking harvest, mountains of potatoes, massive surplus, free giveaways across Berlin and nearby towns, and the goal of feeding anyone in need. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands on the source with appropriate descriptive language and commentary while maintaining factual accuracy."
-        }
-      },
       {
         "originalTitle": "Billionaire Tom Kaplan Auctions Rare Rembrandt Lion Drawing for $18M to Help Save the Animal it Depicts",
         "headline": "Art Meets Conservation: Rare Rembrandt Drawing Sells for $18M to Save Real Lions",
@@ -1332,7 +1332,100 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: the $18 million sale price, the record-breaking nature at Sotheby's, proceeds going to lion conservation, it being one of only six Rembrandt lion drafts and the only one in private hands, and the Kaplans being prominent Rembrandt collectors dedicated to wildlife conservation. The article contains no fabricated quotes and all names and details are correct. While the writing style is more casual and expansive, all factual claims are properly supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 4
+      },
+      {
+        "originalTitle": "Record Harvest Dubbed the 'Potato Flood' and Prompts Mass Spud Giveaways Across Berlin",
+        "headline": "Berlin's Beautiful Potato Problem: Bumper Harvest Feeds Everyone for Free",
+        "excerpt": "German potato farmers are experiencing what's being called a 'potato flood' - a record-breaking harvest that has created mountains of potatoes as far as the eye can see. The massive surplus has prompted widespread free potato giveaways across Berlin and nearby towns, ensuring the bumper crop feeds anyone and everyone in need.",
+        "category": "people",
+        "sourceUrl": "https://www.goodnewsnetwork.org/record-harvest-dubbed-the-potato-flood-and-prompts-mass-spud-giveaways-across-berlin/",
+        "sourceName": "Good News Network",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "berlins-beautiful-potato-problem-bumper-harvest-feeds-everyo",
+        "author": "Sol Idarity",
+        "imageUrl": "https://images.pexels.com/photos/4101805/pexels-photo-4101805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes nature decides to show off, and German potato farmers are the lucky recipients of Mother Earth's generosity. This year's harvest has been so abundant that it's earned the delightful nickname 'potato flood' – and thankfully, this is the kind of flood everyone wants to experience.",
+          "body": [
+            "According to the report, German potato farmers are dealing with what can only be described as a magnificent problem: mountains of potatoes stretching as far as the eye can see. This record-breaking harvest has created such a massive surplus that farmers are literally running out of places to store their golden bounty.",
+            "But here's where the story gets even better – instead of letting these perfectly good spuds go to waste, communities across Berlin and nearby towns have organized widespread free potato giveaways. It's like nature's own version of a community potluck, except everyone gets to take home the star ingredient.",
+            "The timing couldn't be more perfect, as these mass spud giveaways are ensuring that the bumper crop reaches anyone and everyone in need. It's a beautiful example of how agricultural abundance can become community abundance, turning what could have been a logistical headache into a heartwarming story of shared prosperity."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all key facts from the source material. It correctly reports the 'potato flood' nickname, record-breaking harvest, mountains of potatoes, massive surplus, free giveaways across Berlin and nearby towns, and the goal of feeding anyone in need. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands on the source with appropriate descriptive language and commentary while maintaining factual accuracy."
+        },
+        "approved": true,
+        "_index": 5
+      },
+      {
+        "originalTitle": "Teens Build Igloo That Brings Together the Neighborhood After Difficult Ice Storm – LOOK",
+        "headline": "Ice Storm Inspires Teen Architects to Build Community Spirit",
+        "excerpt": "After ice storms hit the mid-Atlantic region, teens Adeline Sutich and Maeve Ritchotte carved dozens of ice blocks to construct an igloo in front of a house destroyed by fire months earlier. Their creative project brought the entire neighborhood together during a challenging time.",
+        "category": "people",
+        "sourceUrl": "https://www.goodnewsnetwork.org/teens-build-igloo-that-brings-the-community-together-after-ice-storm/",
+        "sourceName": "Good News Network",
+        "readTime": 3,
+        "isHomepageFeatured": true,
+        "slug": "ice-storm-inspires-teen-architects-to-build-community-spirit",
+        "author": "Hope Rising",
+        "imageUrl": "https://images.pexels.com/photos/28304722/pexels-photo-28304722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the coolest community projects start with the worst weather. When ice storms battered the mid-Atlantic region, most people probably stayed inside waiting for things to thaw. But teens Adeline Sutich and Maeve Ritchotte saw those ice-covered streets as raw material for something amazing.",
+          "body": [
+            "The two friends didn't just build any old snowman – they carved dozens of ice blocks and constructed a full-sized igloo. But here's the part that melts your heart: they chose to build it in front of a house that had been destroyed by fire months earlier. Talk about turning a painful reminder into something beautiful.",
+            "What started as a creative winter project became something much bigger. Their igloo didn't just bring structure to an empty lot – it brought the entire neighborhood together during what was already a challenging time for everyone.",
+            "There's something magical about how disasters can sometimes create the exact conditions for unexpected joy. These teens took ice that was probably making everyone's commute miserable and turned it into a gathering place that reminded their community what they're made of. Sometimes the best neighborhood improvements come not from city planning, but from teenagers with shovels and big hearts."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all key facts from the source: the teens' names (Adeline Sutich and Maeve Ritchotte), the ice storm location (mid-Atlantic region), their construction of an igloo using carved ice blocks, the placement in front of a fire-damaged house, and the community impact. No quotes were fabricated, no statistics were misrepresented, and all factual claims are supported by the source material. The article expands with commentary and interpretation but maintains factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 9
+      },
+      {
+        "originalTitle": "The Affordable Daycare That Keeps Parents Close",
+        "headline": "Working Parents Win With This Brilliant Childcare Solution",
+        "excerpt": "When Saja Khuder's childcare plans fell through and Chase Mateusiak's son was left exhausted by expensive daycare, they discovered an innovative solution. A new model combines affordable on-site childcare with coworking spaces, allowing parents to stay close while working.",
+        "category": "people",
+        "sourceUrl": "https://reasonstobecheerful.world/little-break-coworking-space-on-site-child-care-michigan/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "working-parents-win-with-this-brilliant-childcare-solution",
+        "author": "Sol Idarity",
+        "imageUrl": "https://images.pexels.com/photos/5725567/pexels-photo-5725567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Picture this: You're trying to focus on that important presentation, but your mind keeps wandering to whether your toddler is having a meltdown at daycare across town. What if there was a way to keep your little one close while still getting actual work done?",
+          "body": [
+            "That's exactly the dilemma that led Saja Khuder and Chase Mateusiak to stumble upon something pretty brilliant. When Khuder's childcare plans completely fell apart and Mateusiak watched his son come home exhausted from an expensive daycare that wasn't quite the right fit, they both found themselves in that familiar parent predicament: needing to work while wanting to be present for their kids.",
+            "Enter the game-changing solution they discovered: a new model that combines affordable on-site childcare with coworking spaces. It's like someone finally figured out that parents don't actually want to choose between being good employees and being present parents – they just want both to be possible in the same place.",
+            "This innovative approach lets parents stay close to their children while still having a proper workspace to tackle their professional responsibilities. No more racing across town for pickup, no more wondering if that crying you hear in the background of your video call is your own kid, and no more paying premium prices for childcare that leaves everyone drained.",
+            "It's one of those ideas that makes you think, 'Why didn't someone think of this sooner?' Sometimes the best solutions are the ones that acknowledge what parents actually need: proximity, affordability, and the peace of mind that comes from knowing your little one is just a few steps away."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all factual information from the source. It correctly identifies Saja Khuder and Chase Mateusiak, accurately describes their situations (Khuder's childcare plans falling through, Mateusiak's son being exhausted by expensive daycare), and properly explains the solution they discovered (affordable on-site childcare combined with coworking spaces). The article contains no fabricated quotes, incorrect statistics, or unsupported claims - it expands on the source information with commentary and interpretation while maintaining factual accuracy."
+        },
+        "approved": true,
+        "_index": 11
       }
     ]
   },
@@ -1363,7 +1456,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts and statistics from the original source are accurately represented in the generated article. The 90% investment growth figure, the comparison to world economies, and the statistic about accounting for more than a third of economic growth for the second time in three years are all correctly stated. No quotes were fabricated, and no unsupported claims were made. The article appropriately expands on the implications while staying factually grounded in the source material."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     {
       "originalTitle": "Wind farms provided a third of Ireland's electricity in record 2025 but 13pc went to waste",
@@ -1396,7 +1491,9 @@
         "confidence": "high",
         "summary": "The core statistics (one-third electricity from wind, price drops from €136.99 to €108.48) are accurate, but the article makes unsupported claims about it being the 'windiest year on record' and loosely references the waste statistic without proper context from the source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 1
     },
     {
       "originalTitle": "NASA Webb Pushes Boundaries of Observable Universe Closer to Big Bang",
@@ -1425,7 +1522,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts are accurate: the galaxy was confirmed 280 million years after the Big Bang, it's record-breaking, the previous record was 300 million years, and it was discovered by NASA's James Webb Space Telescope. The article uses creative analogies and casual language but maintains factual accuracy throughout. No quotes were fabricated (none were used), and all organization names are correct."
-      }
+      },
+      "approved": true,
+      "_index": 2
     },
     {
       "originalTitle": "Jaguars Recorded Meowing for the First Time Ever (LISTEN)",
@@ -1459,7 +1558,9 @@
         "confidence": "high",
         "summary": "While the core facts about jaguars meowing, their weight (300+ pounds), being the world's third-largest feline, and the camera trap footage are accurate, the generated article includes significant additional information and claims not present in the original source, particularly about domestic cat communication patterns and additional jaguar behavioral details."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 3
     },
     {
       "originalTitle": "Billionaire Tom Kaplan Auctions Rare Rembrandt Lion Drawing for $18M to Help Save the Animal it Depicts",
@@ -1488,7 +1589,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: the $18 million sale price, the record-breaking nature at Sotheby's, proceeds going to lion conservation, it being one of only six Rembrandt lion drafts and the only one in private hands, and the Kaplans being prominent Rembrandt collectors dedicated to wildlife conservation. The article contains no fabricated quotes and all names and details are correct. While the writing style is more casual and expansive, all factual claims are properly supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 4
     },
     {
       "originalTitle": "Record Harvest Dubbed the 'Potato Flood' and Prompts Mass Spud Giveaways Across Berlin",
@@ -1516,7 +1619,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly reports the 'potato flood' nickname, record-breaking harvest, mountains of potatoes, massive surplus, free giveaways across Berlin and nearby towns, and the goal of feeding anyone in need. No quotes were fabricated, all place names are accurate, and no unsupported claims were made. The article expands on the source with appropriate descriptive language and commentary while maintaining factual accuracy."
-      }
+      },
+      "approved": true,
+      "_index": 5
     },
     {
       "originalTitle": "Shear comfort, the sheep helping people unload their worries",
@@ -1545,7 +1650,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly identifies the Yorkshire location, the therapist's discovery about her sheep flock's intuitive abilities, and their effectiveness in animal-assisted therapy for emotional healing. No statistics, quotes, or specific names were provided in the source to verify, and none were fabricated in the article. The article expands appropriately on the concept while staying true to the source information."
-      }
+      },
+      "approved": true,
+      "_index": 6
     },
     {
       "originalTitle": "Astonishing 1,400-year-old Tomb Featuring Giant Owl Sculpture Discovered in Mexico",
@@ -1573,7 +1680,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: the 1,400-year age, Zapotec origin, description as 'most significant archaeological discovery in a decade', the exquisite preservation of murals and carvings, and the specific description of the owl frieze with a man's face in its beak. The article expands with contextual information and interpretation but does not contradict or misrepresent any facts from the original source. No quotes were fabricated - the article uses descriptive language that aligns with the source's characterizations."
-      }
+      },
+      "approved": true,
+      "_index": 7
     },
     {
       "originalTitle": "Moss Spores Riding on the Outside of the Space Station Survive For 9 Months",
@@ -1601,7 +1710,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: the correct species name (Physcomitrella patens), the 9-month survival duration, the location (outside the International Space Station), and the characterization as a hardy pioneer moss species. The article expands with additional context about space conditions and implications, but does not contradict or misrepresent any information from the original source. No fabricated quotes or inaccurate claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 8
     },
     {
       "originalTitle": "Teens Build Igloo That Brings Together the Neighborhood After Difficult Ice Storm – LOOK",
@@ -1629,7 +1740,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: the teens' names (Adeline Sutich and Maeve Ritchotte), the ice storm location (mid-Atlantic region), their construction of an igloo using carved ice blocks, the placement in front of a fire-damaged house, and the community impact. No quotes were fabricated, no statistics were misrepresented, and all factual claims are supported by the source material. The article expands with commentary and interpretation but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 9
     },
     {
       "originalTitle": "A Coal Town Reborn",
@@ -1657,7 +1770,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. The location (Loos-en-Gohelle), status as one of Europe's largest coal mining regions, transformation to sustainable community, and the symbolic evolution of slag heaps from pollution symbols to renewal monuments are all correctly presented. No fabricated quotes, statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 10
     },
     {
       "originalTitle": "The Affordable Daycare That Keeps Parents Close",
@@ -1686,7 +1801,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all factual information from the source. It correctly identifies Saja Khuder and Chase Mateusiak, accurately describes their situations (Khuder's childcare plans falling through, Mateusiak's son being exhausted by expensive daycare), and properly explains the solution they discovered (affordable on-site childcare combined with coworking spaces). The article contains no fabricated quotes, incorrect statistics, or unsupported claims - it expands on the source information with commentary and interpretation while maintaining factual accuracy."
-      }
+      },
+      "approved": true,
+      "_index": 11
     },
     {
       "originalTitle": "Scientists discover hidden deep-Earth structures shaping the magnetic field",
@@ -1714,7 +1831,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the source. It correctly states there are two massive hot rock structures that have been shaping Earth's magnetic field for millions of years, mentions the use of ancient magnetic records and advanced simulations in the discovery, describes how these structures influence liquid iron movement in Earth's core, and notes that some parts of the magnetic field have remained stable over vast time periods. The article uses creative analogies and accessible language but does not introduce any factual inaccuracies or unsupported claims. No quotes were fabricated, and the core scientific findings are faithfully represented."
-      }
+      },
+      "approved": true,
+      "_index": 12
     },
     {
       "originalTitle": "Air ambulance teams are changing who survives critical injuries",
@@ -1743,7 +1862,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all factual information from the original source. It correctly states that air ambulance teams led to higher survival rates than predicted by standard models, that younger and more responsive patients benefited most, and that traumatic cardiac arrest outcomes improved over the study period. No quotes were fabricated, no statistics were misrepresented, and no unsupported claims were made. The article expanded on the source material with commentary and context but maintained factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 13
     },
     {
       "originalTitle": "Saudi Arabia's $2 Billion Solar Plan Lifts Turkish Energy Stocks",
@@ -1771,7 +1892,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source: the $2 billion investment amount, Saudi Arabia as the investor, Turkey as the location, solar power plants as the project type, this being the first stage of a broader partnership, and the positive impact on Turkish energy stocks. No quotes were fabricated, all numerical data matches, and no unsupported claims were made. The article expands with reasonable commentary while staying faithful to the source material."
-      }
+      },
+      "approved": true,
+      "_index": 14
     },
     {
       "originalTitle": "Clean energy funding to be tied to stronger workers' rights",
@@ -1798,7 +1921,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. The core information about the UK government's Fair Work Charter requirement for offshore wind firms participating in renewables auctions is correctly presented. While the article uses a more casual, conversational tone with wordplay and metaphors, it maintains factual accuracy throughout and doesn't introduce any unsupported claims or fabricated quotes."
-      }
+      },
+      "approved": true,
+      "_index": 15
     },
     {
       "originalTitle": "Mexico factory that imports US toxic waste to relocate after Guardian report",
@@ -1825,7 +1950,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source: the factory processes US hazardous waste in Mexico, is located in the Monterrey metropolitan area, recycles toxic steel dust from the US steel industry, and promised to relocate its most polluting operations following a Guardian investigation that revealed heavy-metals pollution in surrounding neighborhoods. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 16
     },
     {
       "originalTitle": "New nasal vaccine shows strong protection against H5N1 bird flu",
@@ -1852,7 +1979,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that the nasal vaccine showed strong protection against H5N1 in animal tests, outperformed traditional flu shots, targets the nose and lungs, may prevent infection at the earliest stage, and addresses the timing concern about researchers racing to stop bird flu before it adapts. No fabricated quotes, inaccurate statistics, or unsupported claims were found. The article appropriately attributes information to 'the report' rather than creating false citations."
-      }
+      },
+      "approved": true,
+      "_index": 17
     },
     {
       "originalTitle": "Rare rocks beneath Australia reveal the origins of a critical metal",
@@ -1879,7 +2008,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. The timeframe (800+ million years ago), location (central Australia), the connection to ancient supercontinent breakup, and niobium's applications (high-strength steel, electric vehicles, emerging energy technologies) are all correctly stated. No quotes were fabricated - the article properly attributes information to 'the report' rather than creating false quotations. While the article uses more engaging language and elaborates on the significance, all factual claims are supported by the original source."
-      }
+      },
+      "approved": true,
+      "_index": 18
     },
     {
       "originalTitle": "Wind farms provided a third of country's power in 2025",
@@ -1907,7 +2038,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the source. The core statistics (wind farms provided a third of Ireland's electricity in 2025), attribution (RTÉ report), and key claims (milestone achievement in renewable energy transition) are correctly stated. While the article adds commentary and creative language, it does not fabricate quotes, misstate numbers, or make unsupported claims beyond the source material."
-      }
+      },
+      "approved": true,
+      "_index": 19
     },
     {
       "originalTitle": "Baby dinosaurs were the backbone of the Jurassic food chain",
@@ -1934,7 +2067,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately conveys all the key facts from the original source, including that sauropods grew into the largest land animals, started life small and alone, were frequently eaten by multiple predators, served as a key part of the Jurassic food chain, and explain why early predators thrived without extreme hunting adaptations. While the article uses casual, humorous language and analogies not present in the source, it does not fabricate any facts, quotes, statistics, or specific claims beyond what the source supports."
-      }
+      },
+      "approved": true,
+      "_index": 20
     },
     {
       "originalTitle": "Two-month-old babies are already making sense of the world",
@@ -1961,7 +2096,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly states the babies' age (two months), the research method (brain scans), the categories tested (animals, toys, everyday objects), the use of AI to decode patterns, and the main finding about early categorization abilities. While the article uses more casual, engaging language and metaphors (like 'tiniest librarians'), it doesn't misrepresent any factual information. No quotes are present to verify, and no specific names, organizations, or places are mentioned in either source."
-      }
+      },
+      "approved": true,
+      "_index": 21
     },
     {
       "originalTitle": "A common parasite in the brain is far more active than we thought",
@@ -1993,7 +2130,9 @@
         "confidence": "high",
         "summary": "The core scientific facts about Toxoplasma gondii are accurately represented (parasite being more active/complex than thought, containing multiple subtypes, implications for drug development). However, there are attribution errors regarding the publication source and misleading references to quotes that don't exist in the provided source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 22
     },
     {
       "originalTitle": "Biodegradation of polyethylene terephthalate microplastics by Paenibacillus naphthalenovorans PETKKU2: Response surface optimization and genomic evidence for an alternative degradation mechanism",
@@ -2020,7 +2159,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the original source: the bacterial species name (Paenibacillus naphthalenovorans PETKKU2), its origin (landfill soil in Thailand), its ability to degrade PET microplastics, its status as the first reported member of this species with this capability, and the publication source (PLOS ONE). No quotes were fabricated, and all claims are supported by the source material. The article adds explanatory context and accessible language but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 23
     },
     {
       "originalTitle": "Dassault and Nvidia partner to build industrial AI platform",
@@ -2048,7 +2189,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. Company names are correct (Dassault Systèmes and Nvidia), the partnership description matches (long-term strategic partnership to create shared industrial AI platform), and the technical details align (science-based virtual twins combined with large-scale AI infrastructure for various applications). No direct quotes were used, avoiding attribution issues. The article expands with context and explanation but doesn't introduce any unsupported claims or inaccurate information."
-      }
+      },
+      "approved": true,
+      "_index": 24
     },
     {
       "originalTitle": "Investigating the effect of augmented reality-based virtual patient training on occupational therapy students' clinical decision-making: A quasi-experimental study",
@@ -2083,7 +2226,9 @@
         "confidence": "high",
         "summary": "While the basic facts about the study's existence, publication in PLOS ONE, and general purpose are accurate, the article significantly expands beyond the source material with unsupported claims about methodology, results, and implications. The source only provides a brief description of the study's design and aims, but the article presents detailed explanations and outcomes as if they were established facts from the research."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 25
     },
     {
       "originalTitle": "Balt's Squid™ Liquid Embolic Receives FDA Approval for Adjunctive Treatment for Patients with Chronic Subdural Hematomas",
@@ -2110,7 +2255,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: FDA Premarket Approval for Balt's Squid™ liquid embolic agent, its use for chronic subdural hematomas as adjunctive treatment, and the mechanism of embolizing the middle meningeal artery. No quotes were fabricated, all names and organizations are correct, and no unsupported claims were made. The article adds explanatory context but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 26
     },
     {
       "originalTitle": "Norwegian skier hands IOC a petition to 'ski fossil free' ahead of the Olympics",
@@ -2138,7 +2285,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All core facts are accurate: Norwegian skier Nikolai Schirmer delivered a petition signed by more than 21,000 people to the IOC, calling for ending fossil fuel company sponsorships of winter sports to clean up the industry's environmental image. No direct quotes were fabricated - the article uses paraphrasing and commentary. Names, numbers, and organizations are correctly stated."
-      }
+      },
+      "approved": true,
+      "_index": 27
     },
     {
       "originalTitle": "Tata Power Q3 profit flat at ₹1,194 crore despite revenue dip",
@@ -2165,7 +2314,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts and figures in the generated article accurately match the source material. The article correctly states Tata Power's overall profit of ₹1,194 crore remained flat, renewable energy profits surged 156% to ₹547 crore, and revenue dipped. No quotes were fabricated, and all numerical data is precise. While the article adds commentary and analysis beyond the source excerpt, it does not make any factual claims that contradict or misrepresent the original information."
-      }
+      },
+      "approved": true,
+      "_index": 28
     },
     {
       "originalTitle": "Copenhagen Infrastructure Partners acquires Ørsted's European onshore business",
@@ -2192,7 +2343,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: Copenhagen Infrastructure Partners acquired Ørsted's European onshore renewable energy business, the acquisition strengthens CI V's European portfolio, and reinforces CIP's position as a leading player in energy infrastructure and onshore renewables. All company names are correct, no statistics or quotes are fabricated, and while the article uses casual language and adds context/commentary, it doesn't make any unsupported factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 29
     },
     {
       "originalTitle": "An Underground World Built to Make Mountains Disappear for Travel and Power",
@@ -2219,7 +2372,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all information from the original source. It correctly mentions engineers building underground infrastructure, the use of advanced physics and machinery, the bypass of mountains for travel and energy storage routes, the Gotthard Base Tunnel as an example, and modern underground construction techniques. While the article uses more casual and engaging language, it does not add any unsupported factual claims or inaccurate information beyond what was provided in the source material."
-      }
+      },
+      "approved": true,
+      "_index": 30
     }
   ]
 }
