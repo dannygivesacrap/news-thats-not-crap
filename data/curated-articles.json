@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-05T16:04:18.930Z",
-  "publishedAt": "2026-02-05T16:04:18.930Z",
+  "publishedAt": "2026-02-05T17:47:19.400Z",
   "homepage": {
     "hero": {
       "originalTitle": "Green energy sector drove more than 90% of China's investment growth last year, analysis finds",
@@ -2376,5 +2376,6 @@
       "approved": true,
       "_index": 30
     }
-  ]
+  ],
+  "autoPublished": true
 }
