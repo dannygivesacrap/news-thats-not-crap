@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-02-06T15:03:58.157Z",
+  "generatedAt": "2026-02-06T17:13:03.158Z",
+  "publishedAt": "2026-02-06T17:13:03.158Z",
   "homepage": {
     "hero": {
       "originalTitle": "Right to Build Offshore Wind Power Upheld by US Judge for 5th Time Since Attempted White House Ban",
@@ -27,7 +28,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: a district court judge struck down a stop-work order on the Sunrise Wind project, this marks the fifth time courts have overturned Department of Interior orders halting offshore wind projects, and five major offshore wind projects along America's eastern seaboard can continue construction. No quotes were fabricated (none existed in source), all names and organizations are accurate, and no unsupported claims were made. The article adds commentary and puns but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     "featured": [
       {
@@ -56,7 +59,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts and statistics from the original source are accurately represented in the generated article. The fertility rate (0.77), childbirth increase (6.2%, fastest in 18 years), total babies (233,708 between January and November), and divorce decrease (9.8% year-on-year) all match exactly. No quotes were fabricated, and South Korea is correctly identified. While the article uses creative language and interpretation, it remains factually grounded in the source material."
-        }
+        },
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "Suzlon posts 45% jump in Q3 FY26 profit on record wind turbine deliveries",
@@ -84,7 +89,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts and figures from the original source are accurately represented in the generated article. The 45% profit jump, 617 MW record quarterly deliveries, 48% EBITDA growth, and 17.5% margin expansion are all correctly stated. The company name (Suzlon) and time period (Q3 FY26) are accurate. While the article includes additional context and commentary not present in the original source, no fabricated quotes are attributed and no unsupported claims contradict the source material."
-        }
+        },
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "A field of wheat becomes the world's largest living photograph",
@@ -112,7 +119,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. The core information about Farming Photographs creating the world's largest living photograph using wheat field 'pixels' is correctly presented. While the article expands with additional context and interpretation not in the source, it doesn't contradict any original facts or fabricate quotes. The creative writing style enhances the content without compromising factual accuracy."
-        }
+        },
+        "approved": true,
+        "_index": 3
       },
       {
         "originalTitle": "Woman Discovers Childhood Pen Pal Became Doctor Who Delivered Her 2 Kids: 'My Mouth Dropped'",
@@ -145,7 +154,9 @@
           "confidence": "high",
           "summary": "The core facts are accurate (names, relationship, doctor delivered both children), but the generated article incorrectly attributes a quote and adds unsupported narrative details about the discovery timing and specifics of their childhood correspondence."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 4
       },
       {
         "originalTitle": "Kentucky's Rural and Urban Communities Unite over Climate Change",
@@ -174,7 +185,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all information from the original source. It correctly attributes the report to 'Reasons to be Cheerful,' accurately describes the collaboration between Kentucky's rural and urban communities on climate initiatives, properly references the myths about Kentucky being a 'climate haven' or 'fossil fuel-dependent region,' and faithfully conveys the main point about environmental concerns bridging traditional community divides. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
         "originalTitle": "Minneapolis Moms Have Each Other's Backs",
@@ -202,7 +215,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects the source material. All key facts are correct: Minneapolis mothers have created a mutual support system, it helps with challenging times including urgent needs like feeding newborns, and it demonstrates community organization for practical help. No statistics, quotes, names, or specific claims were fabricated. The article expands on the concept with hypothetical scenarios (like the 2 AM formula example) but clearly presents these as illustrations rather than factual claims from the source."
-        }
+        },
+        "approved": true,
+        "_index": 6
       },
       {
         "originalTitle": "What We're Reading: The Country Legalizing Half a Million Undocumented Migrants",
@@ -231,7 +246,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All core facts match the source material accurately. The generated article correctly states that Spain's socialist-led coalition government announced a plan to legalize undocumented migrants affecting around half a million people. No fabricated quotes were added, and all key details align with the original source. The article adds commentary and analysis but does not misrepresent any factual information from the source."
-        }
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "Scientists just mapped the mutations that power cancer growth",
@@ -260,7 +277,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. It correctly states that researchers created the first complete map of mutations in a key cancer gene, tested every possible mutation in a critical hotspot, found varying effects on cancer signals (some barely boost while others supercharge), and that the map accurately predicted cancer behavior when matched against real patient data across tissues. The article uses accessible language and analogies but maintains factual accuracy throughout. No statistics, quotes, names, or specific claims were fabricated or misrepresented."
-        }
+        },
+        "approved": true,
+        "_index": 8
       },
       {
         "originalTitle": "UK launches plan to tackle 'forever chemicals' amid growing concerns",
@@ -288,7 +307,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. It correctly states this is the UK's first national plan for tackling PFAS/'forever chemicals', accurately describes the focus on increased testing, and properly attributes the information to BBC Science. While the article uses a more casual, explanatory tone with analogies, it does not introduce any factual inaccuracies or unsupported claims. All core information aligns with the source material."
-        }
+        },
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "Wind turbine maker Vestas sees record revenue in 2025",
@@ -316,7 +337,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: Vestas is correctly identified as Denmark's leading European wind turbine manufacturer, the record revenue for 2025 is accurately reported, and the regulatory challenges in the US market are properly mentioned. No quotes are fabricated (none claimed), all names and organizations are correct, and while the article uses more colorful language and analysis, all factual claims are supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 10
       },
       {
         "originalTitle": "A new scan lets scientists see inside the human body in 3D color",
@@ -351,7 +374,9 @@
           "confidence": "high",
           "summary": "While the core facts about the Caltech/USC imaging system are accurate (combines ultrasound and light techniques, creates 3D color images, works without radiation/contrast dyes, successfully tested on human body parts), the article adds unsupported speculation about timelines and contains misleading attribution language. The factual foundation is solid but the presentation includes editorial embellishments not supported by the source."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "Jatayu vulture restaurant emerges as hub for vulture protection in Nepal",
@@ -385,7 +410,9 @@
           "confidence": "high",
           "summary": "While the core facts about the Jatayu Vulture Restaurant's location (Kawasoti), its role as a hub for vulture protection, and its collaborative operation between local communities, national organizations, and international partners are accurate, the article adds significant unsupported claims and interpretations not found in the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "Gstar's Solar Module Series First to Achieve India's New BIS Certification",
@@ -414,7 +441,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Gstar as the company, accurately describes their solar module series as the first to achieve India's new BIS certification, properly expands the BIS acronym as Bureau of Indian Standards, and correctly characterizes this as establishing higher quality standards in one of the world's largest renewable energy markets. While the article adds explanatory context and commentary not present in the source, it does not contradict or misrepresent any of the original factual information."
-        }
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "That's a wrasse! Rare fish spotted for first time since 2009 in kelp forest in Western Australia",
@@ -447,31 +476,62 @@
           "confidence": "high",
           "summary": "While core facts about Océane Attlan, the Braun's wrasse sighting, location (Western Australia's kelp forest), and last sighting in 2009 are accurate, the article adds unsupported speculative content and interpretations not found in the original source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 14
       }
     ]
   },
   "sections": {
     "climate": [
       {
-        "originalTitle": "Gstar's Solar Module Series First to Achieve India's New BIS Certification",
-        "headline": "Solar Power Milestone: Indian Company First to Meet New Quality Standards",
-        "excerpt": "Gstar's solar module series has become the first to achieve India's new BIS (Bureau of Indian Standards) certification. This milestone represents an important step forward in establishing higher quality standards for solar technology in one of the world's largest renewable energy markets.",
+        "originalTitle": "Right to Build Offshore Wind Power Upheld by US Judge for 5th Time Since Attempted White House Ban",
+        "headline": "Courts Keep Saying 'Yes' to Offshore Wind Power (That's 5 in a Row!)",
+        "excerpt": "A district court judge struck down the stop-work order on the Sunrise Wind project, marking the fifth time courts have overturned the Department of Interior's order halting work on offshore wind projects. Five major offshore wind projects along America's eastern seaboard can now continue construction.",
         "category": "climate",
-        "sourceUrl": "https://www.thehindubusinessline.com/brandhub/pr-release/gstars-solar-module-series-first-to-achieve-indias-new-bis-certification/article70591628.ece",
+        "sourceUrl": "https://www.goodnewsnetwork.org/right-to-build-offshore-wind-power-upheld-by-us-judge-for-5th-time-since-attempted-white-house-ban/",
+        "sourceName": "Good News Network",
+        "readTime": 4,
+        "isHomepageHero": true,
+        "slug": "courts-keep-saying-yes-to-offshore-wind-power-thats-5-in-a-r",
+        "author": "River Stone",
+        "imageUrl": "https://images.pexels.com/photos/8850874/pexels-photo-8850874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes persistence really does pay off. A federal judge has struck down yet another attempt to halt offshore wind development, marking the fifth consecutive court victory for renewable energy projects along America's eastern seaboard.",
+          "body": [
+            "The latest legal wind (pun absolutely intended) came when a district court judge overturned a stop-work order on the Sunrise Wind project. This decision doesn't just affect one project—it clears the way for five major offshore wind developments to continue construction along the East Coast.",
+            "What makes this particularly noteworthy is the pattern here: this marks the fifth time courts have rejected the Department of Interior's orders to halt work on these offshore wind projects. That's a pretty impressive legal winning streak for clean energy advocates.",
+            "The ruling means these coastal wind farms can keep building those towering turbines that will eventually harness ocean breezes to power American homes. While the legal challenges have created some choppy waters for these projects, the consistent court decisions suggest the wind is definitely blowing in favor of renewable energy development."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately presents all key facts from the source: a district court judge struck down a stop-work order on the Sunrise Wind project, this marks the fifth time courts have overturned Department of Interior orders halting offshore wind projects, and five major offshore wind projects along America's eastern seaboard can continue construction. No quotes were fabricated (none existed in source), all names and organizations are accurate, and no unsupported claims were made. The article adds commentary and puns but maintains factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 0
+      },
+      {
+        "originalTitle": "Suzlon posts 45% jump in Q3 FY26 profit on record wind turbine deliveries",
+        "headline": "Wind Power Company Hits Record High with 45% Profit Jump",
+        "excerpt": "Suzlon achieved its highest-ever quarterly deliveries of 617 MW of wind turbines, driving EBITDA growth of 48 percent and margin expansion to 17.5 percent. The company posted a 45% jump in Q3 FY26 profit on these record deliveries.",
+        "category": "climate",
+        "sourceUrl": "https://www.thehindubusinessline.com/companies/suzlon-posts-45-jump-in-q3-fy26-profit-on-record-wind-turbine-deliveries/article70595975.ece",
         "sourceName": "BusinessLine",
         "readTime": 3,
         "isHomepageFeatured": true,
-        "slug": "solar-power-milestone-indian-company-first-to-meet-new-quali",
+        "slug": "wind-power-company-hits-record-high-with-45-profit-jump",
         "author": "Sunny Bright",
-        "imageUrl": "https://images.pexels.com/photos/9875448/pexels-photo-9875448.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "imageUrl": "https://images.pexels.com/photos/18314438/pexels-photo-18314438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "India's solar industry just got a major quality upgrade, and it's coming courtesy of a company called Gstar. Their solar module series has earned the distinction of being the very first to achieve India's brand-new BIS certification – think of it as a gold star for solar panels, but with way more significance for the country's renewable energy future.",
+          "lead": "When it comes to renewable energy, sometimes the wind really is at your back. Indian wind energy company Suzlon just rode a powerful gust to record-breaking quarterly results, posting a 45% jump in profit for Q3 FY26.",
           "body": [
-            "The Bureau of Indian Standards (BIS) certification isn't just another piece of paper to hang on the office wall. This milestone represents something much bigger: India's commitment to establishing higher quality standards for solar technology in what happens to be one of the world's largest renewable energy markets.",
-            "For a country that's been rapidly expanding its solar capacity, having robust quality standards isn't just nice to have – it's essential. When you're dealing with technology that needs to perform reliably for decades under intense sun and varying weather conditions, quality certification becomes your best friend.",
-            "Gstar's achievement is particularly noteworthy because they're blazing the trail here. Being first to meet new certification standards often means navigating uncharted territory, working closely with regulators, and setting the bar for everyone else who follows. It's the kind of pioneering work that helps entire industries level up.",
-            "This development signals good things ahead for India's renewable energy sector. With clearer quality standards in place and companies like Gstar showing it's achievable, we're likely to see more reliable, efficient solar technology rolling out across the country – which is exactly the kind of progress the world needs more of."
+            "The company didn't just catch a lucky breeze – they delivered their highest-ever quarterly wind turbine capacity at 617 MW. That's enough clean energy potential to power hundreds of thousands of homes, all spinning away thanks to nature's most reliable renewable resource.",
+            "Those record deliveries translated into serious financial tailwinds for Suzlon. According to the report, the company saw their EBITDA (that's earnings before interest, taxes, depreciation, and amortization – basically, a measure of operating performance) grow by 48 percent. Even better, their margins expanded to 17.5 percent, showing they're not just selling more turbines, but doing so more efficiently.",
+            "This surge comes at a perfect time as countries worldwide are doubling down on clean energy commitments. Wind power has become one of the most cost-effective ways to generate electricity, and companies like Suzlon are proving that going green can also mean seeing green on the bottom line. It's the kind of win-win that makes you want to do a little happy dance – preferably somewhere with a nice breeze."
           ],
           "pullQuote": null
         },
@@ -479,36 +539,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Gstar as the company, accurately describes their solar module series as the first to achieve India's new BIS certification, properly expands the BIS acronym as Bureau of Indian Standards, and correctly characterizes this as establishing higher quality standards in one of the world's largest renewable energy markets. While the article adds explanatory context and commentary not present in the source, it does not contradict or misrepresent any of the original factual information."
-        }
-      },
-      {
-        "originalTitle": "Wind turbine maker Vestas sees record revenue in 2025",
-        "headline": "Wind Power Wins Big: Europe's Top Turbine Maker Hits All-Time Revenue High",
-        "excerpt": "Denmark's Vestas, Europe's leading wind turbine manufacturer, posted an all-time high revenue for 2025. The record-breaking performance demonstrates the continued growth and demand for renewable energy infrastructure despite some regulatory challenges in the US market.",
-        "category": "climate",
-        "sourceUrl": "https://www.rte.ie/news/business/2026/0205/1556937-vestas-annual-results/",
-        "sourceName": "RTE",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "wind-power-wins-big-europes-top-turbine-maker-hits-all-time",
-        "author": "Coral Reef",
-        "imageUrl": "https://images.pexels.com/photos/29049892/pexels-photo-29049892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the wind just blows your way. Denmark's Vestas, Europe's heavyweight champion of wind turbines, just posted record-breaking revenue for 2025 – proving that when it comes to renewable energy, business is absolutely booming.",
-          "body": [
-            "As Europe's leading wind turbine manufacturer, Vestas has been spinning success stories for years, but this latest achievement really takes things to the next level. The all-time high revenue marks a significant milestone for the Danish company, showing that the appetite for clean energy infrastructure isn't just holding steady – it's growing stronger.",
-            "What makes this achievement particularly noteworthy is that it happened despite some regulatory headwinds in the US market. According to the report, there have been regulatory challenges across the pond, but Vestas managed to weather those storms while still reaching unprecedented heights. It's a testament to both the company's resilience and the global hunger for renewable energy solutions.",
-            "The record-breaking performance tells a bigger story about where the world is headed. When a wind turbine manufacturer can post their best year ever, it's a pretty clear signal that the transition to clean energy isn't just a nice idea – it's a driving economic force. The continued growth and demand for renewable energy infrastructure suggests we're not just changing how we power our world; we're building an entirely new energy economy, one turbine at a time."
-          ],
-          "pullQuote": null
+          "summary": "All key facts and figures from the original source are accurately represented in the generated article. The 45% profit jump, 617 MW record quarterly deliveries, 48% EBITDA growth, and 17.5% margin expansion are all correctly stated. The company name (Suzlon) and time period (Q3 FY26) are accurate. While the article includes additional context and commentary not present in the original source, no fabricated quotes are attributed and no unsupported claims contradict the source material."
         },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source: Vestas is correctly identified as Denmark's leading European wind turbine manufacturer, the record revenue for 2025 is accurately reported, and the regulatory challenges in the US market are properly mentioned. No quotes are fabricated (none claimed), all names and organizations are correct, and while the article uses more colorful language and analysis, all factual claims are supported by the source material."
-        }
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "Kentucky's Rural and Urban Communities Unite over Climate Change",
@@ -537,26 +571,59 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all information from the original source. It correctly attributes the report to 'Reasons to be Cheerful,' accurately describes the collaboration between Kentucky's rural and urban communities on climate initiatives, properly references the myths about Kentucky being a 'climate haven' or 'fossil fuel-dependent region,' and faithfully conveys the main point about environmental concerns bridging traditional community divides. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
-        "originalTitle": "Suzlon posts 45% jump in Q3 FY26 profit on record wind turbine deliveries",
-        "headline": "Wind Power Company Hits Record High with 45% Profit Jump",
-        "excerpt": "Suzlon achieved its highest-ever quarterly deliveries of 617 MW of wind turbines, driving EBITDA growth of 48 percent and margin expansion to 17.5 percent. The company posted a 45% jump in Q3 FY26 profit on these record deliveries.",
+        "originalTitle": "Wind turbine maker Vestas sees record revenue in 2025",
+        "headline": "Wind Power Wins Big: Europe's Top Turbine Maker Hits All-Time Revenue High",
+        "excerpt": "Denmark's Vestas, Europe's leading wind turbine manufacturer, posted an all-time high revenue for 2025. The record-breaking performance demonstrates the continued growth and demand for renewable energy infrastructure despite some regulatory challenges in the US market.",
         "category": "climate",
-        "sourceUrl": "https://www.thehindubusinessline.com/companies/suzlon-posts-45-jump-in-q3-fy26-profit-on-record-wind-turbine-deliveries/article70595975.ece",
+        "sourceUrl": "https://www.rte.ie/news/business/2026/0205/1556937-vestas-annual-results/",
+        "sourceName": "RTE",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "wind-power-wins-big-europes-top-turbine-maker-hits-all-time",
+        "author": "Coral Reef",
+        "imageUrl": "https://images.pexels.com/photos/29049892/pexels-photo-29049892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the wind just blows your way. Denmark's Vestas, Europe's heavyweight champion of wind turbines, just posted record-breaking revenue for 2025 – proving that when it comes to renewable energy, business is absolutely booming.",
+          "body": [
+            "As Europe's leading wind turbine manufacturer, Vestas has been spinning success stories for years, but this latest achievement really takes things to the next level. The all-time high revenue marks a significant milestone for the Danish company, showing that the appetite for clean energy infrastructure isn't just holding steady – it's growing stronger.",
+            "What makes this achievement particularly noteworthy is that it happened despite some regulatory headwinds in the US market. According to the report, there have been regulatory challenges across the pond, but Vestas managed to weather those storms while still reaching unprecedented heights. It's a testament to both the company's resilience and the global hunger for renewable energy solutions.",
+            "The record-breaking performance tells a bigger story about where the world is headed. When a wind turbine manufacturer can post their best year ever, it's a pretty clear signal that the transition to clean energy isn't just a nice idea – it's a driving economic force. The continued growth and demand for renewable energy infrastructure suggests we're not just changing how we power our world; we're building an entirely new energy economy, one turbine at a time."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the source: Vestas is correctly identified as Denmark's leading European wind turbine manufacturer, the record revenue for 2025 is accurately reported, and the regulatory challenges in the US market are properly mentioned. No quotes are fabricated (none claimed), all names and organizations are correct, and while the article uses more colorful language and analysis, all factual claims are supported by the source material."
+        },
+        "approved": true,
+        "_index": 10
+      },
+      {
+        "originalTitle": "Gstar's Solar Module Series First to Achieve India's New BIS Certification",
+        "headline": "Solar Power Milestone: Indian Company First to Meet New Quality Standards",
+        "excerpt": "Gstar's solar module series has become the first to achieve India's new BIS (Bureau of Indian Standards) certification. This milestone represents an important step forward in establishing higher quality standards for solar technology in one of the world's largest renewable energy markets.",
+        "category": "climate",
+        "sourceUrl": "https://www.thehindubusinessline.com/brandhub/pr-release/gstars-solar-module-series-first-to-achieve-indias-new-bis-certification/article70591628.ece",
         "sourceName": "BusinessLine",
         "readTime": 3,
         "isHomepageFeatured": true,
-        "slug": "wind-power-company-hits-record-high-with-45-profit-jump",
+        "slug": "solar-power-milestone-indian-company-first-to-meet-new-quali",
         "author": "Sunny Bright",
-        "imageUrl": "https://images.pexels.com/photos/18314438/pexels-photo-18314438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "imageUrl": "https://images.pexels.com/photos/9875448/pexels-photo-9875448.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "When it comes to renewable energy, sometimes the wind really is at your back. Indian wind energy company Suzlon just rode a powerful gust to record-breaking quarterly results, posting a 45% jump in profit for Q3 FY26.",
+          "lead": "India's solar industry just got a major quality upgrade, and it's coming courtesy of a company called Gstar. Their solar module series has earned the distinction of being the very first to achieve India's brand-new BIS certification – think of it as a gold star for solar panels, but with way more significance for the country's renewable energy future.",
           "body": [
-            "The company didn't just catch a lucky breeze – they delivered their highest-ever quarterly wind turbine capacity at 617 MW. That's enough clean energy potential to power hundreds of thousands of homes, all spinning away thanks to nature's most reliable renewable resource.",
-            "Those record deliveries translated into serious financial tailwinds for Suzlon. According to the report, the company saw their EBITDA (that's earnings before interest, taxes, depreciation, and amortization – basically, a measure of operating performance) grow by 48 percent. Even better, their margins expanded to 17.5 percent, showing they're not just selling more turbines, but doing so more efficiently.",
-            "This surge comes at a perfect time as countries worldwide are doubling down on clean energy commitments. Wind power has become one of the most cost-effective ways to generate electricity, and companies like Suzlon are proving that going green can also mean seeing green on the bottom line. It's the kind of win-win that makes you want to do a little happy dance – preferably somewhere with a nice breeze."
+            "The Bureau of Indian Standards (BIS) certification isn't just another piece of paper to hang on the office wall. This milestone represents something much bigger: India's commitment to establishing higher quality standards for solar technology in what happens to be one of the world's largest renewable energy markets.",
+            "For a country that's been rapidly expanding its solar capacity, having robust quality standards isn't just nice to have – it's essential. When you're dealing with technology that needs to perform reliably for decades under intense sun and varying weather conditions, quality certification becomes your best friend.",
+            "Gstar's achievement is particularly noteworthy because they're blazing the trail here. Being first to meet new certification standards often means navigating uncharted territory, working closely with regulators, and setting the bar for everyone else who follows. It's the kind of pioneering work that helps entire industries level up.",
+            "This development signals good things ahead for India's renewable energy sector. With clearer quality standards in place and companies like Gstar showing it's achievable, we're likely to see more reliable, efficient solar technology rolling out across the country – which is exactly the kind of progress the world needs more of."
           ],
           "pullQuote": null
         },
@@ -564,36 +631,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "All key facts and figures from the original source are accurately represented in the generated article. The 45% profit jump, 617 MW record quarterly deliveries, 48% EBITDA growth, and 17.5% margin expansion are all correctly stated. The company name (Suzlon) and time period (Q3 FY26) are accurate. While the article includes additional context and commentary not present in the original source, no fabricated quotes are attributed and no unsupported claims contradict the source material."
-        }
-      },
-      {
-        "originalTitle": "Right to Build Offshore Wind Power Upheld by US Judge for 5th Time Since Attempted White House Ban",
-        "headline": "Courts Keep Saying 'Yes' to Offshore Wind Power (That's 5 in a Row!)",
-        "excerpt": "A district court judge struck down the stop-work order on the Sunrise Wind project, marking the fifth time courts have overturned the Department of Interior's order halting work on offshore wind projects. Five major offshore wind projects along America's eastern seaboard can now continue construction.",
-        "category": "climate",
-        "sourceUrl": "https://www.goodnewsnetwork.org/right-to-build-offshore-wind-power-upheld-by-us-judge-for-5th-time-since-attempted-white-house-ban/",
-        "sourceName": "Good News Network",
-        "readTime": 4,
-        "isHomepageHero": true,
-        "slug": "courts-keep-saying-yes-to-offshore-wind-power-thats-5-in-a-r",
-        "author": "River Stone",
-        "imageUrl": "https://images.pexels.com/photos/8850874/pexels-photo-8850874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes persistence really does pay off. A federal judge has struck down yet another attempt to halt offshore wind development, marking the fifth consecutive court victory for renewable energy projects along America's eastern seaboard.",
-          "body": [
-            "The latest legal wind (pun absolutely intended) came when a district court judge overturned a stop-work order on the Sunrise Wind project. This decision doesn't just affect one project—it clears the way for five major offshore wind developments to continue construction along the East Coast.",
-            "What makes this particularly noteworthy is the pattern here: this marks the fifth time courts have rejected the Department of Interior's orders to halt work on these offshore wind projects. That's a pretty impressive legal winning streak for clean energy advocates.",
-            "The ruling means these coastal wind farms can keep building those towering turbines that will eventually harness ocean breezes to power American homes. While the legal challenges have created some choppy waters for these projects, the consistent court decisions suggest the wind is definitely blowing in favor of renewable energy development."
-          ],
-          "pullQuote": null
+          "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Gstar as the company, accurately describes their solar module series as the first to achieve India's new BIS certification, properly expands the BIS acronym as Bureau of Indian Standards, and correctly characterizes this as establishing higher quality standards in one of the world's largest renewable energy markets. While the article adds explanatory context and commentary not present in the source, it does not contradict or misrepresent any of the original factual information."
         },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately presents all key facts from the source: a district court judge struck down a stop-work order on the Sunrise Wind project, this marks the fifth time courts have overturned Department of Interior orders halting offshore wind projects, and five major offshore wind projects along America's eastern seaboard can continue construction. No quotes were fabricated (none existed in source), all names and organizations are accurate, and no unsupported claims were made. The article adds commentary and puns but maintains factual accuracy throughout."
-        }
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "Fight Against Galamsey: Gov't Reclaims 800 Acres Of Mined Areas At Manso Nyankumase",
@@ -620,7 +661,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts from the original source are accurately represented in the generated article. The 800 acres figure, location (Nyankumase, Ashanti Region), 4-month timeframe, connection to illegal mining (galamsey), and attribution to the Mahama government's restoration efforts are all correct. No quotes were fabricated, and all place names and organizations are accurate. The article adds contextual information (like the football field comparison) but doesn't make any unsupported factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 18
       },
       {
         "originalTitle": "PCR Plastic Packaging Market Set to Reach US$ 58.27 Billion by 2035 as Global Fiscal Penalties Accelerate Adoption of Recycled Packaging Solutions | Astute Analytica",
@@ -647,7 +690,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts from the source are accurately represented: the $58.27 billion projection by 2035, the driving factors (global fiscal penalties and increased adoption), the specific industries mentioned (personal care, cleaning products, retail), the trend toward higher PCR blends, and extended producer responsibility laws in multiple states. The article uses a more casual, engaging tone but maintains factual accuracy. No quotes were fabricated, and the source (Astute Analytica) is correctly attributed."
-        }
+        },
+        "approved": true,
+        "_index": 19
       },
       {
         "originalTitle": "Suzlon Energy Q3 profit rises nearly 15% to ₹445 cr",
@@ -674,10 +719,43 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts from the original source are accurately represented: the ~15% profit rise, the ₹445 crore figure, Q3 timeframe, drivers (increased revenue and strong order book), and the context about growing renewable energy demand. No quotes are fabricated - the article uses proper attribution ('according to the report', 'the report notes'). Company name and financial figures are correct. The article appropriately acknowledges limitations by stating 'we don't have all the nitty-gritty details', staying within the bounds of the source material."
-        }
+        },
+        "approved": true,
+        "_index": 20
       }
     ],
     "health": [
+      {
+        "originalTitle": "Scientists just mapped the mutations that power cancer growth",
+        "headline": "Cancer's Playbook Decoded: Scientists Map Every Mutation That Fuels Tumor Growth",
+        "excerpt": "Researchers have created the first complete map showing how hundreds of mutations in a key cancer gene affect tumor growth. By testing every possible mutation in a critical hotspot, they found that some changes barely boost cancer signals, while others supercharge them. When matched against real patient data, the map accurately predicted cancer behavior across tissues.",
+        "category": "health",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260204121540.htm",
+        "sourceName": "Science Daily Health",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "cancers-playbook-decoded-scientists-map-every-mutation-that",
+        "author": "Joy Fuller",
+        "imageUrl": "https://images.pexels.com/photos/7723631/pexels-photo-7723631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "What if we could peek inside cancer's playbook and see exactly which moves make it most dangerous? Scientists just did exactly that, creating the first complete map of how hundreds of different mutations in a key cancer gene affect tumor growth.",
+          "body": [
+            "Think of it like having a cheat sheet for one of biology's most complex puzzles. Researchers tested every possible mutation in a critical hotspot of an important cancer gene, essentially running hundreds of experiments to see which genetic changes barely nudge cancer signals and which ones hit the accelerator hard.",
+            "The results were eye-opening: not all mutations are created equal. Some changes barely boost cancer signals, while others supercharge them into overdrive. It's like the difference between tapping the gas pedal and flooring it – same basic action, wildly different outcomes.",
+            "Here's where it gets really exciting: when the scientists compared their mutation map against real patient data, it accurately predicted cancer behavior across different types of tissues. This means doctors might soon have a much clearer picture of what they're dealing with when they spot these mutations in patients.",
+            "While we're still in the early stages of turning this research into treatments, having a complete roadmap of how these mutations work is like finally getting GPS for a journey we've been navigating in the dark. It's the kind of foundational work that could change how we understand and fight cancer in the years ahead."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the original source. It correctly states that researchers created the first complete map of mutations in a key cancer gene, tested every possible mutation in a critical hotspot, found varying effects on cancer signals (some barely boost while others supercharge), and that the map accurately predicted cancer behavior when matched against real patient data across tissues. The article uses accessible language and analogies but maintains factual accuracy throughout. No statistics, quotes, names, or specific claims were fabricated or misrepresented."
+        },
+        "approved": true,
+        "_index": 8
+      },
       {
         "originalTitle": "A new scan lets scientists see inside the human body in 3D color",
         "headline": "Rainbow Vision: Revolutionary 3D Color Scan Reveals Body's Inner Workings",
@@ -711,36 +789,9 @@
           "confidence": "high",
           "summary": "While the core facts about the Caltech/USC imaging system are accurate (combines ultrasound and light techniques, creates 3D color images, works without radiation/contrast dyes, successfully tested on human body parts), the article adds unsupported speculation about timelines and contains misleading attribution language. The factual foundation is solid but the presentation includes editorial embellishments not supported by the source."
         },
-        "factCheckFailed": true
-      },
-      {
-        "originalTitle": "Scientists just mapped the mutations that power cancer growth",
-        "headline": "Cancer's Playbook Decoded: Scientists Map Every Mutation That Fuels Tumor Growth",
-        "excerpt": "Researchers have created the first complete map showing how hundreds of mutations in a key cancer gene affect tumor growth. By testing every possible mutation in a critical hotspot, they found that some changes barely boost cancer signals, while others supercharge them. When matched against real patient data, the map accurately predicted cancer behavior across tissues.",
-        "category": "health",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260204121540.htm",
-        "sourceName": "Science Daily Health",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "cancers-playbook-decoded-scientists-map-every-mutation-that",
-        "author": "Joy Fuller",
-        "imageUrl": "https://images.pexels.com/photos/7723631/pexels-photo-7723631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "What if we could peek inside cancer's playbook and see exactly which moves make it most dangerous? Scientists just did exactly that, creating the first complete map of how hundreds of different mutations in a key cancer gene affect tumor growth.",
-          "body": [
-            "Think of it like having a cheat sheet for one of biology's most complex puzzles. Researchers tested every possible mutation in a critical hotspot of an important cancer gene, essentially running hundreds of experiments to see which genetic changes barely nudge cancer signals and which ones hit the accelerator hard.",
-            "The results were eye-opening: not all mutations are created equal. Some changes barely boost cancer signals, while others supercharge them into overdrive. It's like the difference between tapping the gas pedal and flooring it – same basic action, wildly different outcomes.",
-            "Here's where it gets really exciting: when the scientists compared their mutation map against real patient data, it accurately predicted cancer behavior across different types of tissues. This means doctors might soon have a much clearer picture of what they're dealing with when they spot these mutations in patients.",
-            "While we're still in the early stages of turning this research into treatments, having a complete roadmap of how these mutations work is like finally getting GPS for a journey we've been navigating in the dark. It's the kind of foundational work that could change how we understand and fight cancer in the years ahead."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the original source. It correctly states that researchers created the first complete map of mutations in a key cancer gene, tested every possible mutation in a critical hotspot, found varying effects on cancer signals (some barely boost while others supercharge), and that the map accurately predicted cancer behavior when matched against real patient data across tissues. The article uses accessible language and analogies but maintains factual accuracy throughout. No statistics, quotes, names, or specific claims were fabricated or misrepresented."
-        }
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "Evogene and Shanghai Lishan Biopharmaceuticals Co. Announce Exclusive Licensing Agreement for BMC128, a Microbiome-Based Therapeutic for Renal and Lung Cancer",
@@ -773,7 +824,9 @@
           "confidence": "high",
           "summary": "While the core facts (company names, BMC128, licensing agreement, cancer types, Phase 1 study, Biomica subsidiary) are accurate, the article contains several unsupported interpretations and assumptions about the study status, business reasoning, and geographical characterizations not present in the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 16
       },
       {
         "originalTitle": "TGF-β1 relieves burn injury induced pain by alleviating inflammation in mouse",
@@ -801,7 +854,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies TGF-β1 as the protein studied, accurately states it reduces inflammation and relieves burn-induced pain in mice, properly attributes the research to PLOS ONE, and correctly describes it as a multifunctional cytokine. The article's characterization of burn pain as 'one of the most common and challenging symptoms burn patients face' directly matches the source language. While the article uses a more conversational tone and adds explanatory context (like describing cytokines as messaging systems), it does not make any unsupported claims or misrepresent the research findings."
-        }
+        },
+        "approved": true,
+        "_index": 21
       },
       {
         "originalTitle": "Inside the Teen-Run Hotline Meeting America's Mental Health Crisis",
@@ -829,38 +884,12 @@
           "issues": [],
           "confidence": "high",
           "summary": "All factual information in the generated article accurately matches the source material. The key facts are correctly stated: high school students in Century City, California operate a mental health hotline on weekday evenings from 6 p.m. to 10 p.m. PST, they work in cubicles with headsets, and they handle calls, texts, and emails from peers. No quotes were fabricated (none appear in either text), and no unsupported claims were made. The article adds commentary and context but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 25
       }
     ],
     "science": [
-      {
-        "originalTitle": "UK launches plan to tackle 'forever chemicals' amid growing concerns",
-        "headline": "Britain Takes on 'Forever Chemicals' with First-Ever National Action Plan",
-        "excerpt": "The UK has launched its first ever national plan for tackling PFAS substances, commonly known as 'forever chemicals.' The plan includes increasing testing for these persistent substances that have been raising growing environmental and health concerns.",
-        "category": "science",
-        "sourceUrl": "https://www.bbc.com/news/articles/cz9vz249keno?at_medium=RSS&at_campaign=rss",
-        "sourceName": "BBC Science",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "britain-takes-on-forever-chemicals-with-first-ever-national",
-        "author": "Al Gorithm",
-        "imageUrl": "https://images.pexels.com/photos/8326305/pexels-photo-8326305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the best news isn't about a breakthrough discovery, but about someone finally deciding to tackle a problem that's been lurking in the shadows. The UK just launched its first-ever national plan to address PFAS substances—those pesky 'forever chemicals' that have been raising environmental and health concerns.",
-          "body": [
-            "If you're wondering what makes these chemicals so 'forever,' it's their stubborn persistence. PFAS substances don't break down naturally, which means they stick around in our environment (and potentially our bodies) much longer than we'd like. Think of them as that friend who overstays their welcome, except instead of eating all your snacks, they might be affecting our health and ecosystems.",
-            "The new UK plan focuses on ramping up testing for these persistent substances. It's like finally deciding to check under the couch cushions for loose change, except instead of finding coins, scientists will be looking for chemicals that could impact our wellbeing. The increased testing should give researchers and policymakers a clearer picture of where these substances are showing up and in what quantities.",
-            "While 'forever chemicals' might sound ominous, having a coordinated national response is genuinely encouraging. It signals that the UK is taking these concerns seriously and moving from awareness to action. According to the BBC Science report, this represents the country's first comprehensive approach to tackling PFAS substances, which suggests we're moving in the right direction—even if it took a while to get here."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the original source. It correctly states this is the UK's first national plan for tackling PFAS/'forever chemicals', accurately describes the focus on increased testing, and properly attributes the information to BBC Science. While the article uses a more casual, explanatory tone with analogies, it does not introduce any factual inaccuracies or unsupported claims. All core information aligns with the source material."
-        }
-      },
       {
         "originalTitle": "A field of wheat becomes the world's largest living photograph",
         "headline": "Say Cheese! This Wheat Field is Actually the World's Largest Living Photo",
@@ -887,43 +916,42 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. The core information about Farming Photographs creating the world's largest living photograph using wheat field 'pixels' is correctly presented. While the article expands with additional context and interpretation not in the source, it doesn't contradict any original facts or fabricate quotes. The creative writing style enhances the content without compromising factual accuracy."
-        }
-      }
-    ],
-    "wildlife": [
+        },
+        "approved": true,
+        "_index": 3
+      },
       {
-        "originalTitle": "That's a wrasse! Rare fish spotted for first time since 2009 in kelp forest in Western Australia",
-        "headline": "That's a Wrasse-ome Discovery! Rare Fish Makes Comeback After 15-Year Hide-and-Seek",
-        "excerpt": "Marine biologist Océane Attlan experienced a moment of recognition when she spotted a tiny Braun's wrasse in Western Australia's kelp forest - the first sighting since 2009. The encounter felt like recognizing a familiar face but being unable to place the name, highlighting just how rare these reef fish truly are.",
-        "category": "wildlife",
-        "sourceUrl": "https://www.theguardian.com/environment/2026/feb/06/braun-wrasse-rare-fish-kelp-forest-western-australia",
-        "sourceName": "The Guardian",
+        "originalTitle": "UK launches plan to tackle 'forever chemicals' amid growing concerns",
+        "headline": "Britain Takes on 'Forever Chemicals' with First-Ever National Action Plan",
+        "excerpt": "The UK has launched its first ever national plan for tackling PFAS substances, commonly known as 'forever chemicals.' The plan includes increasing testing for these persistent substances that have been raising growing environmental and health concerns.",
+        "category": "science",
+        "sourceUrl": "https://www.bbc.com/news/articles/cz9vz249keno?at_medium=RSS&at_campaign=rss",
+        "sourceName": "BBC Science",
         "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "thats-a-wrasse-ome-discovery-rare-fish-makes-comeback-after",
-        "author": "Robin Nest",
-        "imageUrl": "https://images.pexels.com/photos/7101144/pexels-photo-7101144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "britain-takes-on-forever-chemicals-with-first-ever-national",
+        "author": "Al Gorithm",
+        "imageUrl": "https://images.pexels.com/photos/8326305/pexels-photo-8326305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Picture this: you're exploring an underwater kelp forest when suddenly you spot something that makes you do a double-take. It's like seeing someone you're sure you recognize but can't quite place – except in this case, that 'someone' is a fish that hasn't been seen in 15 years.",
+          "lead": "Sometimes the best news isn't about a breakthrough discovery, but about someone finally deciding to tackle a problem that's been lurking in the shadows. The UK just launched its first-ever national plan to address PFAS substances—those pesky 'forever chemicals' that have been raising environmental and health concerns.",
           "body": [
-            "Marine biologist Océane Attlan had exactly that moment of recognition when she encountered a tiny Braun's wrasse in Western Australia's kelp forest – the first confirmed sighting of this elusive reef fish since 2009. Talk about a rare catch!",
-            "The encounter perfectly captures just how extraordinary these little swimmers are. When a species is so uncommon that spotting one feels like bumping into a long-lost acquaintance whose name is on the tip of your tongue, you know you're dealing with something truly special.",
-            "This rediscovery in Western Australia's kelp forests offers a glimmer of hope for marine biodiversity. While we don't know much about why Braun's wrasse are so rare or where they've been hiding all these years, the fact that they're still out there – quietly going about their fishy business in the kelp – suggests these underwater ecosystems are still providing sanctuary for even the most elusive species."
+            "If you're wondering what makes these chemicals so 'forever,' it's their stubborn persistence. PFAS substances don't break down naturally, which means they stick around in our environment (and potentially our bodies) much longer than we'd like. Think of them as that friend who overstays their welcome, except instead of eating all your snacks, they might be affecting our health and ecosystems.",
+            "The new UK plan focuses on ramping up testing for these persistent substances. It's like finally deciding to check under the couch cushions for loose change, except instead of finding coins, scientists will be looking for chemicals that could impact our wellbeing. The increased testing should give researchers and policymakers a clearer picture of where these substances are showing up and in what quantities.",
+            "While 'forever chemicals' might sound ominous, having a coordinated national response is genuinely encouraging. It signals that the UK is taking these concerns seriously and moving from awareness to action. According to the BBC Science report, this represents the country's first comprehensive approach to tackling PFAS substances, which suggests we're moving in the right direction—even if it took a while to get here."
           ],
           "pullQuote": null
         },
         "factCheck": {
-          "passed": false,
-          "issues": [
-            "The article states the fish hasn't been seen 'in 15 years' but the source indicates the last sighting was in 2009, which would be approximately 14-15 years depending on when this was written - this discrepancy needs clarification",
-            "The article adds speculative content not present in the source, including interpretations about 'hope for marine biodiversity', 'underwater ecosystems providing sanctuary', and speculation about why the fish are rare or 'where they've been hiding'",
-            "The article embellishes the original description with additional narrative elements like 'Talk about a rare catch!' and extended metaphors not present in the source"
-          ],
+          "passed": true,
+          "issues": [],
           "confidence": "high",
-          "summary": "While core facts about Océane Attlan, the Braun's wrasse sighting, location (Western Australia's kelp forest), and last sighting in 2009 are accurate, the article adds unsupported speculative content and interpretations not found in the original source material."
+          "summary": "The generated article accurately represents all key facts from the original source. It correctly states this is the UK's first national plan for tackling PFAS/'forever chemicals', accurately describes the focus on increased testing, and properly attributes the information to BBC Science. While the article uses a more casual, explanatory tone with analogies, it does not introduce any factual inaccuracies or unsupported claims. All core information aligns with the source material."
         },
-        "factCheckFailed": true
-      },
+        "approved": true,
+        "_index": 9
+      }
+    ],
+    "wildlife": [
       {
         "originalTitle": "Jatayu vulture restaurant emerges as hub for vulture protection in Nepal",
         "headline": "Dinner is Served: Nepal's 'Vulture Restaurant' Becomes Conservation Success Story",
@@ -956,7 +984,44 @@
           "confidence": "high",
           "summary": "While the core facts about the Jatayu Vulture Restaurant's location (Kawasoti), its role as a hub for vulture protection, and its collaborative operation between local communities, national organizations, and international partners are accurate, the article adds significant unsupported claims and interpretations not found in the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 12
+      },
+      {
+        "originalTitle": "That's a wrasse! Rare fish spotted for first time since 2009 in kelp forest in Western Australia",
+        "headline": "That's a Wrasse-ome Discovery! Rare Fish Makes Comeback After 15-Year Hide-and-Seek",
+        "excerpt": "Marine biologist Océane Attlan experienced a moment of recognition when she spotted a tiny Braun's wrasse in Western Australia's kelp forest - the first sighting since 2009. The encounter felt like recognizing a familiar face but being unable to place the name, highlighting just how rare these reef fish truly are.",
+        "category": "wildlife",
+        "sourceUrl": "https://www.theguardian.com/environment/2026/feb/06/braun-wrasse-rare-fish-kelp-forest-western-australia",
+        "sourceName": "The Guardian",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "thats-a-wrasse-ome-discovery-rare-fish-makes-comeback-after",
+        "author": "Robin Nest",
+        "imageUrl": "https://images.pexels.com/photos/7101144/pexels-photo-7101144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Picture this: you're exploring an underwater kelp forest when suddenly you spot something that makes you do a double-take. It's like seeing someone you're sure you recognize but can't quite place – except in this case, that 'someone' is a fish that hasn't been seen in 15 years.",
+          "body": [
+            "Marine biologist Océane Attlan had exactly that moment of recognition when she encountered a tiny Braun's wrasse in Western Australia's kelp forest – the first confirmed sighting of this elusive reef fish since 2009. Talk about a rare catch!",
+            "The encounter perfectly captures just how extraordinary these little swimmers are. When a species is so uncommon that spotting one feels like bumping into a long-lost acquaintance whose name is on the tip of your tongue, you know you're dealing with something truly special.",
+            "This rediscovery in Western Australia's kelp forests offers a glimmer of hope for marine biodiversity. While we don't know much about why Braun's wrasse are so rare or where they've been hiding all these years, the fact that they're still out there – quietly going about their fishy business in the kelp – suggests these underwater ecosystems are still providing sanctuary for even the most elusive species."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": false,
+          "issues": [
+            "The article states the fish hasn't been seen 'in 15 years' but the source indicates the last sighting was in 2009, which would be approximately 14-15 years depending on when this was written - this discrepancy needs clarification",
+            "The article adds speculative content not present in the source, including interpretations about 'hope for marine biodiversity', 'underwater ecosystems providing sanctuary', and speculation about why the fish are rare or 'where they've been hiding'",
+            "The article embellishes the original description with additional narrative elements like 'Talk about a rare catch!' and extended metaphors not present in the source"
+          ],
+          "confidence": "high",
+          "summary": "While core facts about Océane Attlan, the Braun's wrasse sighting, location (Western Australia's kelp forest), and last sighting in 2009 are accurate, the article adds unsupported speculative content and interpretations not found in the original source material."
+        },
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 14
       },
       {
         "originalTitle": "This bonobo had a pretend tea party — showing make believe isn't just for humans",
@@ -989,7 +1054,9 @@
           "confidence": "high",
           "summary": "While the core facts about a bonobo engaging in pretend tea party behavior and the scientific implications are accurate to the source, the article contains several unsupported claims and fabricated details. Most significantly, it states the observation was made 'in the wild' without source support, and adds colorful but unverified descriptive elements."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 15
       },
       {
         "originalTitle": "Integrated environmental DNA analysis and population assessment revealed a biannual breeding season of the Korean clawed salamander (Onychodactylus koreanus)",
@@ -1017,29 +1084,30 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. The core findings (biannual breeding season discovery, use of environmental DNA analysis, publication in PLOS ONE, species name Onychodactylus koreanus, subterranean nature, combination with population assessment, and solving a long-standing mystery) are all correctly reported. While the article uses a more casual, humorous tone with creative analogies, it does not introduce any factual inaccuracies or unsupported claims. No quotes are fabricated, and all verifiable details match the source."
-        }
+        },
+        "approved": true,
+        "_index": 22
       }
     ],
     "people": [
       {
-        "originalTitle": "What We're Reading: The Country Legalizing Half a Million Undocumented Migrants",
-        "headline": "Spain Opens Its Doors: Half a Million Undocumented Migrants to Get Legal Status",
-        "excerpt": "Spain's socialist-led coalition government has announced a plan to legalize the status of undocumented migrants. The measure is expected to affect around half a million people currently living without legal documentation in the country.",
+        "originalTitle": "Childbirths and Marriages Are Up and Divorces Are Down in World's Least Fertile Country",
+        "headline": "South Korea's Baby Boom: Births Up 6.2% in World's Least Fertile Country",
+        "excerpt": "South Korea, with the world's lowest fertility rate at 0.77 children per woman, saw childbirths grow at the fastest pace in 18 years with a 6.2% increase totaling 233,708 babies between January and November. Meanwhile, divorces decreased by 9.8% year-on-year.",
         "category": "people",
-        "sourceUrl": "https://reasonstobecheerful.world/what-were-reading-spain-legalizes-undocumented-migrants/",
-        "sourceName": "Reasons to be Cheerful",
+        "sourceUrl": "https://www.goodnewsnetwork.org/childbirths-and-marriages-are-up-and-divorces-are-down-in-worlds-least-fertile-country/",
+        "sourceName": "Good News Network",
         "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "spain-opens-its-doors-half-a-million-undocumented-migrants-t",
-        "author": "Charity Case",
-        "imageUrl": "https://images.pexels.com/photos/17628099/pexels-photo-17628099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "south-koreas-baby-boom-births-up-62-in-worlds-least-fertile",
+        "author": "Hope Rising",
+        "imageUrl": "https://images.pexels.com/photos/233129/pexels-photo-233129.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Sometimes the best news comes with the biggest numbers attached. Spain's socialist-led coalition government just announced a plan that could change everything for around half a million people living in legal limbo.",
+          "lead": "Sometimes the best surprises come from the most unexpected places. South Korea, a country that's been wrestling with the world's lowest fertility rate, just delivered some genuinely heartwarming news that has demographers doing double-takes at their calculators.",
           "body": [
-            "The Spanish government has unveiled a comprehensive plan to legalize the status of undocumented migrants currently living in the country. It's the kind of sweeping policy change that doesn't happen every day – or even every decade.",
-            "According to the report, this measure is expected to affect approximately half a million people who are currently living without legal documentation in Spain. That's half a million individuals and families who could soon have the security and peace of mind that comes with legal status.",
-            "While the details of how this legalization process will work aren't spelled out in the announcement, the sheer scope of Spain's commitment is remarkable. For a country to take such a comprehensive approach to addressing undocumented migration shows both political courage and practical recognition of the reality on the ground.",
-            "It's a reminder that sometimes governments can surprise us – in the very best way possible. Half a million people are about to have significantly brighter futures, and that's news worth celebrating."
+            "The numbers tell a story that's been years in the making, and frankly, it's about time for some good plot twists. South Korea saw childbirths grow at their fastest pace in 18 years, with a 6.2% increase that brought 233,708 babies into the world between January and November. For a country with a fertility rate of just 0.77 children per woman—the lowest globally—this uptick feels like a small miracle wrapped in tiny booties.",
+            "But wait, there's more good news brewing in the Land of the Morning Calm. Divorces took a notable dive, decreasing by 9.8% year-on-year. It seems that while South Koreans are saying 'yes' to having babies, they're also finding more reasons to stick together through thick and thin.",
+            "Now, let's be clear—South Korea isn't about to become the world's baby boom capital overnight. A fertility rate of 0.77 still means the country faces long-term demographic challenges. But sometimes progress isn't about solving everything at once; it's about moving in the right direction. And right now, more South Korean families are choosing to grow, both in size and in commitment to each other. In a world that often feels like it's falling apart, watching people choose to build families and stick together feels pretty revolutionary."
           ],
           "pullQuote": null
         },
@@ -1047,36 +1115,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "All core facts match the source material accurately. The generated article correctly states that Spain's socialist-led coalition government announced a plan to legalize undocumented migrants affecting around half a million people. No fabricated quotes were added, and all key details align with the original source. The article adds commentary and analysis but does not misrepresent any factual information from the source."
-        }
-      },
-      {
-        "originalTitle": "Minneapolis Moms Have Each Other's Backs",
-        "headline": "Minneapolis Mothers Create Support Network That Actually Works",
-        "excerpt": "Minneapolis mothers have created a mutual support system to help each other through challenging times, including situations where basic needs like feeding newborns become urgent. The network demonstrates how communities can organize to provide practical help when families need it most.",
-        "category": "people",
-        "sourceUrl": "https://reasonstobecheerful.world/minneapolis-moms-have-each-others-backs/",
-        "sourceName": "Reasons to be Cheerful",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "minneapolis-mothers-create-support-network-that-actually-wor",
-        "author": "Sol Idarity",
-        "imageUrl": "https://images.pexels.com/photos/8550084/pexels-photo-8550084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "What happens when a new mom runs out of formula at 2 AM and the stores are closed? In Minneapolis, she doesn't panic—she reaches out to her network of fellow mothers who've got her covered.",
-          "body": [
-            "Minneapolis mothers have built something beautiful: a mutual support system that kicks in exactly when families need it most. According to the report, this network has organized itself to help each other through challenging times, including those urgent moments when basic needs like feeding newborns become critical.",
-            "The system demonstrates how communities can step up to provide practical help during life's curveballs. When a family hits a rough patch—whether it's running low on baby supplies, needing a helping hand, or just facing one of those overwhelming parenting moments—these moms have created a safety net that actually works.",
-            "It's the kind of grassroots organizing that makes you believe in people again. Instead of waiting for someone else to solve problems, these Minneapolis mothers decided to be the solution for each other. They've proven that sometimes the most powerful support systems aren't institutional programs or government initiatives—they're neighbors looking out for neighbors, parents helping parents, and communities that refuse to let anyone struggle alone."
-          ],
-          "pullQuote": null
+          "summary": "All key facts and statistics from the original source are accurately represented in the generated article. The fertility rate (0.77), childbirth increase (6.2%, fastest in 18 years), total babies (233,708 between January and November), and divorce decrease (9.8% year-on-year) all match exactly. No quotes were fabricated, and South Korea is correctly identified. While the article uses creative language and interpretation, it remains factually grounded in the source material."
         },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects the source material. All key facts are correct: Minneapolis mothers have created a mutual support system, it helps with challenging times including urgent needs like feeding newborns, and it demonstrates community organization for practical help. No statistics, quotes, names, or specific claims were fabricated. The article expands on the concept with hypothetical scenarios (like the 2 AM formula example) but clearly presents these as illustrations rather than factual claims from the source."
-        }
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "Woman Discovers Childhood Pen Pal Became Doctor Who Delivered Her 2 Kids: 'My Mouth Dropped'",
@@ -1109,26 +1151,28 @@
           "confidence": "high",
           "summary": "The core facts are accurate (names, relationship, doctor delivered both children), but the generated article incorrectly attributes a quote and adds unsupported narrative details about the discovery timing and specifics of their childhood correspondence."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 4
       },
       {
-        "originalTitle": "Childbirths and Marriages Are Up and Divorces Are Down in World's Least Fertile Country",
-        "headline": "South Korea's Baby Boom: Births Up 6.2% in World's Least Fertile Country",
-        "excerpt": "South Korea, with the world's lowest fertility rate at 0.77 children per woman, saw childbirths grow at the fastest pace in 18 years with a 6.2% increase totaling 233,708 babies between January and November. Meanwhile, divorces decreased by 9.8% year-on-year.",
+        "originalTitle": "Minneapolis Moms Have Each Other's Backs",
+        "headline": "Minneapolis Mothers Create Support Network That Actually Works",
+        "excerpt": "Minneapolis mothers have created a mutual support system to help each other through challenging times, including situations where basic needs like feeding newborns become urgent. The network demonstrates how communities can organize to provide practical help when families need it most.",
         "category": "people",
-        "sourceUrl": "https://www.goodnewsnetwork.org/childbirths-and-marriages-are-up-and-divorces-are-down-in-worlds-least-fertile-country/",
-        "sourceName": "Good News Network",
-        "readTime": 4,
+        "sourceUrl": "https://reasonstobecheerful.world/minneapolis-moms-have-each-others-backs/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 5,
         "isHomepageFeatured": true,
-        "slug": "south-koreas-baby-boom-births-up-62-in-worlds-least-fertile",
-        "author": "Hope Rising",
-        "imageUrl": "https://images.pexels.com/photos/233129/pexels-photo-233129.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "minneapolis-mothers-create-support-network-that-actually-wor",
+        "author": "Sol Idarity",
+        "imageUrl": "https://images.pexels.com/photos/8550084/pexels-photo-8550084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Sometimes the best surprises come from the most unexpected places. South Korea, a country that's been wrestling with the world's lowest fertility rate, just delivered some genuinely heartwarming news that has demographers doing double-takes at their calculators.",
+          "lead": "What happens when a new mom runs out of formula at 2 AM and the stores are closed? In Minneapolis, she doesn't panic—she reaches out to her network of fellow mothers who've got her covered.",
           "body": [
-            "The numbers tell a story that's been years in the making, and frankly, it's about time for some good plot twists. South Korea saw childbirths grow at their fastest pace in 18 years, with a 6.2% increase that brought 233,708 babies into the world between January and November. For a country with a fertility rate of just 0.77 children per woman—the lowest globally—this uptick feels like a small miracle wrapped in tiny booties.",
-            "But wait, there's more good news brewing in the Land of the Morning Calm. Divorces took a notable dive, decreasing by 9.8% year-on-year. It seems that while South Koreans are saying 'yes' to having babies, they're also finding more reasons to stick together through thick and thin.",
-            "Now, let's be clear—South Korea isn't about to become the world's baby boom capital overnight. A fertility rate of 0.77 still means the country faces long-term demographic challenges. But sometimes progress isn't about solving everything at once; it's about moving in the right direction. And right now, more South Korean families are choosing to grow, both in size and in commitment to each other. In a world that often feels like it's falling apart, watching people choose to build families and stick together feels pretty revolutionary."
+            "Minneapolis mothers have built something beautiful: a mutual support system that kicks in exactly when families need it most. According to the report, this network has organized itself to help each other through challenging times, including those urgent moments when basic needs like feeding newborns become critical.",
+            "The system demonstrates how communities can step up to provide practical help during life's curveballs. When a family hits a rough patch—whether it's running low on baby supplies, needing a helping hand, or just facing one of those overwhelming parenting moments—these moms have created a safety net that actually works.",
+            "It's the kind of grassroots organizing that makes you believe in people again. Instead of waiting for someone else to solve problems, these Minneapolis mothers decided to be the solution for each other. They've proven that sometimes the most powerful support systems aren't institutional programs or government initiatives—they're neighbors looking out for neighbors, parents helping parents, and communities that refuse to let anyone struggle alone."
           ],
           "pullQuote": null
         },
@@ -1136,8 +1180,41 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "All key facts and statistics from the original source are accurately represented in the generated article. The fertility rate (0.77), childbirth increase (6.2%, fastest in 18 years), total babies (233,708 between January and November), and divorce decrease (9.8% year-on-year) all match exactly. No quotes were fabricated, and South Korea is correctly identified. While the article uses creative language and interpretation, it remains factually grounded in the source material."
-        }
+          "summary": "The generated article accurately reflects the source material. All key facts are correct: Minneapolis mothers have created a mutual support system, it helps with challenging times including urgent needs like feeding newborns, and it demonstrates community organization for practical help. No statistics, quotes, names, or specific claims were fabricated. The article expands on the concept with hypothetical scenarios (like the 2 AM formula example) but clearly presents these as illustrations rather than factual claims from the source."
+        },
+        "approved": true,
+        "_index": 6
+      },
+      {
+        "originalTitle": "What We're Reading: The Country Legalizing Half a Million Undocumented Migrants",
+        "headline": "Spain Opens Its Doors: Half a Million Undocumented Migrants to Get Legal Status",
+        "excerpt": "Spain's socialist-led coalition government has announced a plan to legalize the status of undocumented migrants. The measure is expected to affect around half a million people currently living without legal documentation in the country.",
+        "category": "people",
+        "sourceUrl": "https://reasonstobecheerful.world/what-were-reading-spain-legalizes-undocumented-migrants/",
+        "sourceName": "Reasons to be Cheerful",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "spain-opens-its-doors-half-a-million-undocumented-migrants-t",
+        "author": "Charity Case",
+        "imageUrl": "https://images.pexels.com/photos/17628099/pexels-photo-17628099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the best news comes with the biggest numbers attached. Spain's socialist-led coalition government just announced a plan that could change everything for around half a million people living in legal limbo.",
+          "body": [
+            "The Spanish government has unveiled a comprehensive plan to legalize the status of undocumented migrants currently living in the country. It's the kind of sweeping policy change that doesn't happen every day – or even every decade.",
+            "According to the report, this measure is expected to affect approximately half a million people who are currently living without legal documentation in Spain. That's half a million individuals and families who could soon have the security and peace of mind that comes with legal status.",
+            "While the details of how this legalization process will work aren't spelled out in the announcement, the sheer scope of Spain's commitment is remarkable. For a country to take such a comprehensive approach to addressing undocumented migration shows both political courage and practical recognition of the reality on the ground.",
+            "It's a reminder that sometimes governments can surprise us – in the very best way possible. Half a million people are about to have significantly brighter futures, and that's news worth celebrating."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "All core facts match the source material accurately. The generated article correctly states that Spain's socialist-led coalition government announced a plan to legalize undocumented migrants affecting around half a million people. No fabricated quotes were added, and all key details align with the original source. The article adds commentary and analysis but does not misrepresent any factual information from the source."
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "An exorcist couldn't cure Jadin O'Brien but now she's an Olympic bobsledder",
@@ -1169,7 +1246,9 @@
           "confidence": "high",
           "summary": "The generated article incorporates unverified information from the source title (exorcist consultation) as established fact, and makes assumptions about Olympic participation status that aren't clearly supported by the source excerpt."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 17
       },
       {
         "originalTitle": "Opening of Rafah crossing heralds second phase of Gaza ceasefire plan",
@@ -1196,7 +1275,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the original source: the Rafah crossing opening as part of the second phase of the Gaza ceasefire plan, more than 20,000 Gaza residents needing medical treatment abroad, and the 150 people per day exit allowance in the early stage. No quotes are fabricated, all statistics match the source, and no unsupported claims are made. The article adds interpretive language and context but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 23
       },
       {
         "originalTitle": "The City Where Traffic Fatalities Vanished",
@@ -1223,7 +1304,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts are accurately represented: Hoboken, NJ has 60,000 people, hasn't had a fatal crash since January 17, 2017, achieved nine consecutive years without traffic deaths, and typical US cities of this size see 6-8 traffic fatalities annually. No quotes were fabricated or misattributed. The article stays faithful to the source material while adding appropriate contextual commentary."
-        }
+        },
+        "approved": true,
+        "_index": 24
       },
       {
         "originalTitle": "The Most Chess-Obsessed Country in the World",
@@ -1250,7 +1333,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that hundreds of children go to Marina Beach in Chennai on Sunday mornings despite temperatures toward the 90s, that India has become the most chess-obsessed country in the world, and that this is driven by a massive youth movement transforming the ancient game. While the article expands with additional commentary and context, all core factual claims are supported by the source material and no quotes are fabricated or misattributed."
-        }
+        },
+        "approved": true,
+        "_index": 26
       }
     ]
   },
@@ -1281,7 +1366,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: a district court judge struck down a stop-work order on the Sunrise Wind project, this marks the fifth time courts have overturned Department of Interior orders halting offshore wind projects, and five major offshore wind projects along America's eastern seaboard can continue construction. No quotes were fabricated (none existed in source), all names and organizations are accurate, and no unsupported claims were made. The article adds commentary and puns but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     {
       "originalTitle": "Childbirths and Marriages Are Up and Divorces Are Down in World's Least Fertile Country",
@@ -1309,7 +1396,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts and statistics from the original source are accurately represented in the generated article. The fertility rate (0.77), childbirth increase (6.2%, fastest in 18 years), total babies (233,708 between January and November), and divorce decrease (9.8% year-on-year) all match exactly. No quotes were fabricated, and South Korea is correctly identified. While the article uses creative language and interpretation, it remains factually grounded in the source material."
-      }
+      },
+      "approved": true,
+      "_index": 1
     },
     {
       "originalTitle": "Suzlon posts 45% jump in Q3 FY26 profit on record wind turbine deliveries",
@@ -1337,7 +1426,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts and figures from the original source are accurately represented in the generated article. The 45% profit jump, 617 MW record quarterly deliveries, 48% EBITDA growth, and 17.5% margin expansion are all correctly stated. The company name (Suzlon) and time period (Q3 FY26) are accurate. While the article includes additional context and commentary not present in the original source, no fabricated quotes are attributed and no unsupported claims contradict the source material."
-      }
+      },
+      "approved": true,
+      "_index": 2
     },
     {
       "originalTitle": "A field of wheat becomes the world's largest living photograph",
@@ -1365,7 +1456,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. The core information about Farming Photographs creating the world's largest living photograph using wheat field 'pixels' is correctly presented. While the article expands with additional context and interpretation not in the source, it doesn't contradict any original facts or fabricate quotes. The creative writing style enhances the content without compromising factual accuracy."
-      }
+      },
+      "approved": true,
+      "_index": 3
     },
     {
       "originalTitle": "Woman Discovers Childhood Pen Pal Became Doctor Who Delivered Her 2 Kids: 'My Mouth Dropped'",
@@ -1398,7 +1491,9 @@
         "confidence": "high",
         "summary": "The core facts are accurate (names, relationship, doctor delivered both children), but the generated article incorrectly attributes a quote and adds unsupported narrative details about the discovery timing and specifics of their childhood correspondence."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 4
     },
     {
       "originalTitle": "Kentucky's Rural and Urban Communities Unite over Climate Change",
@@ -1427,7 +1522,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all information from the original source. It correctly attributes the report to 'Reasons to be Cheerful,' accurately describes the collaboration between Kentucky's rural and urban communities on climate initiatives, properly references the myths about Kentucky being a 'climate haven' or 'fossil fuel-dependent region,' and faithfully conveys the main point about environmental concerns bridging traditional community divides. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 5
     },
     {
       "originalTitle": "Minneapolis Moms Have Each Other's Backs",
@@ -1455,7 +1552,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the source material. All key facts are correct: Minneapolis mothers have created a mutual support system, it helps with challenging times including urgent needs like feeding newborns, and it demonstrates community organization for practical help. No statistics, quotes, names, or specific claims were fabricated. The article expands on the concept with hypothetical scenarios (like the 2 AM formula example) but clearly presents these as illustrations rather than factual claims from the source."
-      }
+      },
+      "approved": true,
+      "_index": 6
     },
     {
       "originalTitle": "What We're Reading: The Country Legalizing Half a Million Undocumented Migrants",
@@ -1484,7 +1583,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All core facts match the source material accurately. The generated article correctly states that Spain's socialist-led coalition government announced a plan to legalize undocumented migrants affecting around half a million people. No fabricated quotes were added, and all key details align with the original source. The article adds commentary and analysis but does not misrepresent any factual information from the source."
-      }
+      },
+      "approved": true,
+      "_index": 7
     },
     {
       "originalTitle": "Scientists just mapped the mutations that power cancer growth",
@@ -1513,7 +1614,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. It correctly states that researchers created the first complete map of mutations in a key cancer gene, tested every possible mutation in a critical hotspot, found varying effects on cancer signals (some barely boost while others supercharge), and that the map accurately predicted cancer behavior when matched against real patient data across tissues. The article uses accessible language and analogies but maintains factual accuracy throughout. No statistics, quotes, names, or specific claims were fabricated or misrepresented."
-      }
+      },
+      "approved": true,
+      "_index": 8
     },
     {
       "originalTitle": "UK launches plan to tackle 'forever chemicals' amid growing concerns",
@@ -1541,7 +1644,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. It correctly states this is the UK's first national plan for tackling PFAS/'forever chemicals', accurately describes the focus on increased testing, and properly attributes the information to BBC Science. While the article uses a more casual, explanatory tone with analogies, it does not introduce any factual inaccuracies or unsupported claims. All core information aligns with the source material."
-      }
+      },
+      "approved": true,
+      "_index": 9
     },
     {
       "originalTitle": "Wind turbine maker Vestas sees record revenue in 2025",
@@ -1569,7 +1674,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: Vestas is correctly identified as Denmark's leading European wind turbine manufacturer, the record revenue for 2025 is accurately reported, and the regulatory challenges in the US market are properly mentioned. No quotes are fabricated (none claimed), all names and organizations are correct, and while the article uses more colorful language and analysis, all factual claims are supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 10
     },
     {
       "originalTitle": "A new scan lets scientists see inside the human body in 3D color",
@@ -1604,7 +1711,9 @@
         "confidence": "high",
         "summary": "While the core facts about the Caltech/USC imaging system are accurate (combines ultrasound and light techniques, creates 3D color images, works without radiation/contrast dyes, successfully tested on human body parts), the article adds unsupported speculation about timelines and contains misleading attribution language. The factual foundation is solid but the presentation includes editorial embellishments not supported by the source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 11
     },
     {
       "originalTitle": "Jatayu vulture restaurant emerges as hub for vulture protection in Nepal",
@@ -1638,7 +1747,9 @@
         "confidence": "high",
         "summary": "While the core facts about the Jatayu Vulture Restaurant's location (Kawasoti), its role as a hub for vulture protection, and its collaborative operation between local communities, national organizations, and international partners are accurate, the article adds significant unsupported claims and interpretations not found in the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 12
     },
     {
       "originalTitle": "Gstar's Solar Module Series First to Achieve India's New BIS Certification",
@@ -1667,7 +1778,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Gstar as the company, accurately describes their solar module series as the first to achieve India's new BIS certification, properly expands the BIS acronym as Bureau of Indian Standards, and correctly characterizes this as establishing higher quality standards in one of the world's largest renewable energy markets. While the article adds explanatory context and commentary not present in the source, it does not contradict or misrepresent any of the original factual information."
-      }
+      },
+      "approved": true,
+      "_index": 13
     },
     {
       "originalTitle": "That's a wrasse! Rare fish spotted for first time since 2009 in kelp forest in Western Australia",
@@ -1700,7 +1813,9 @@
         "confidence": "high",
         "summary": "While core facts about Océane Attlan, the Braun's wrasse sighting, location (Western Australia's kelp forest), and last sighting in 2009 are accurate, the article adds unsupported speculative content and interpretations not found in the original source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 14
     },
     {
       "originalTitle": "This bonobo had a pretend tea party — showing make believe isn't just for humans",
@@ -1733,7 +1848,9 @@
         "confidence": "high",
         "summary": "While the core facts about a bonobo engaging in pretend tea party behavior and the scientific implications are accurate to the source, the article contains several unsupported claims and fabricated details. Most significantly, it states the observation was made 'in the wild' without source support, and adds colorful but unverified descriptive elements."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 15
     },
     {
       "originalTitle": "Evogene and Shanghai Lishan Biopharmaceuticals Co. Announce Exclusive Licensing Agreement for BMC128, a Microbiome-Based Therapeutic for Renal and Lung Cancer",
@@ -1766,7 +1883,9 @@
         "confidence": "high",
         "summary": "While the core facts (company names, BMC128, licensing agreement, cancer types, Phase 1 study, Biomica subsidiary) are accurate, the article contains several unsupported interpretations and assumptions about the study status, business reasoning, and geographical characterizations not present in the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 16
     },
     {
       "originalTitle": "An exorcist couldn't cure Jadin O'Brien but now she's an Olympic bobsledder",
@@ -1798,7 +1917,9 @@
         "confidence": "high",
         "summary": "The generated article incorporates unverified information from the source title (exorcist consultation) as established fact, and makes assumptions about Olympic participation status that aren't clearly supported by the source excerpt."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 17
     },
     {
       "originalTitle": "Fight Against Galamsey: Gov't Reclaims 800 Acres Of Mined Areas At Manso Nyankumase",
@@ -1825,7 +1946,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the original source are accurately represented in the generated article. The 800 acres figure, location (Nyankumase, Ashanti Region), 4-month timeframe, connection to illegal mining (galamsey), and attribution to the Mahama government's restoration efforts are all correct. No quotes were fabricated, and all place names and organizations are accurate. The article adds contextual information (like the football field comparison) but doesn't make any unsupported factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 18
     },
     {
       "originalTitle": "PCR Plastic Packaging Market Set to Reach US$ 58.27 Billion by 2035 as Global Fiscal Penalties Accelerate Adoption of Recycled Packaging Solutions | Astute Analytica",
@@ -1852,7 +1975,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the source are accurately represented: the $58.27 billion projection by 2035, the driving factors (global fiscal penalties and increased adoption), the specific industries mentioned (personal care, cleaning products, retail), the trend toward higher PCR blends, and extended producer responsibility laws in multiple states. The article uses a more casual, engaging tone but maintains factual accuracy. No quotes were fabricated, and the source (Astute Analytica) is correctly attributed."
-      }
+      },
+      "approved": true,
+      "_index": 19
     },
     {
       "originalTitle": "Suzlon Energy Q3 profit rises nearly 15% to ₹445 cr",
@@ -1879,7 +2004,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the original source are accurately represented: the ~15% profit rise, the ₹445 crore figure, Q3 timeframe, drivers (increased revenue and strong order book), and the context about growing renewable energy demand. No quotes are fabricated - the article uses proper attribution ('according to the report', 'the report notes'). Company name and financial figures are correct. The article appropriately acknowledges limitations by stating 'we don't have all the nitty-gritty details', staying within the bounds of the source material."
-      }
+      },
+      "approved": true,
+      "_index": 20
     },
     {
       "originalTitle": "TGF-β1 relieves burn injury induced pain by alleviating inflammation in mouse",
@@ -1907,7 +2034,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies TGF-β1 as the protein studied, accurately states it reduces inflammation and relieves burn-induced pain in mice, properly attributes the research to PLOS ONE, and correctly describes it as a multifunctional cytokine. The article's characterization of burn pain as 'one of the most common and challenging symptoms burn patients face' directly matches the source language. While the article uses a more conversational tone and adds explanatory context (like describing cytokines as messaging systems), it does not make any unsupported claims or misrepresent the research findings."
-      }
+      },
+      "approved": true,
+      "_index": 21
     },
     {
       "originalTitle": "Integrated environmental DNA analysis and population assessment revealed a biannual breeding season of the Korean clawed salamander (Onychodactylus koreanus)",
@@ -1935,7 +2064,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. The core findings (biannual breeding season discovery, use of environmental DNA analysis, publication in PLOS ONE, species name Onychodactylus koreanus, subterranean nature, combination with population assessment, and solving a long-standing mystery) are all correctly reported. While the article uses a more casual, humorous tone with creative analogies, it does not introduce any factual inaccuracies or unsupported claims. No quotes are fabricated, and all verifiable details match the source."
-      }
+      },
+      "approved": true,
+      "_index": 22
     },
     {
       "originalTitle": "Opening of Rafah crossing heralds second phase of Gaza ceasefire plan",
@@ -1962,7 +2093,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the original source: the Rafah crossing opening as part of the second phase of the Gaza ceasefire plan, more than 20,000 Gaza residents needing medical treatment abroad, and the 150 people per day exit allowance in the early stage. No quotes are fabricated, all statistics match the source, and no unsupported claims are made. The article adds interpretive language and context but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 23
     },
     {
       "originalTitle": "The City Where Traffic Fatalities Vanished",
@@ -1989,7 +2122,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts are accurately represented: Hoboken, NJ has 60,000 people, hasn't had a fatal crash since January 17, 2017, achieved nine consecutive years without traffic deaths, and typical US cities of this size see 6-8 traffic fatalities annually. No quotes were fabricated or misattributed. The article stays faithful to the source material while adding appropriate contextual commentary."
-      }
+      },
+      "approved": true,
+      "_index": 24
     },
     {
       "originalTitle": "Inside the Teen-Run Hotline Meeting America's Mental Health Crisis",
@@ -2017,7 +2152,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual information in the generated article accurately matches the source material. The key facts are correctly stated: high school students in Century City, California operate a mental health hotline on weekday evenings from 6 p.m. to 10 p.m. PST, they work in cubicles with headsets, and they handle calls, texts, and emails from peers. No quotes were fabricated (none appear in either text), and no unsupported claims were made. The article adds commentary and context but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 25
     },
     {
       "originalTitle": "The Most Chess-Obsessed Country in the World",
@@ -2044,7 +2181,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that hundreds of children go to Marina Beach in Chennai on Sunday mornings despite temperatures toward the 90s, that India has become the most chess-obsessed country in the world, and that this is driven by a massive youth movement transforming the ancient game. While the article expands with additional commentary and context, all core factual claims are supported by the source material and no quotes are fabricated or misattributed."
-      }
+      },
+      "approved": true,
+      "_index": 26
     }
   ]
 }
