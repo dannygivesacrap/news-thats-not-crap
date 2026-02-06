@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-06T17:13:03.158Z",
-  "publishedAt": "2026-02-06T17:13:03.158Z",
+  "publishedAt": "2026-02-06T17:40:53.236Z",
   "homepage": {
     "hero": {
       "originalTitle": "Right to Build Offshore Wind Power Upheld by US Judge for 5th Time Since Attempted White House Ban",
@@ -2185,5 +2185,6 @@
       "approved": true,
       "_index": 26
     }
-  ]
+  ],
+  "autoPublished": true
 }
