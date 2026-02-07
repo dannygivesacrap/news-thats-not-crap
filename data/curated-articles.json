@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-07T15:37:16.548Z",
-  "publishedAt": "2026-02-07T15:37:16.548Z",
+  "publishedAt": "2026-02-07T17:25:49.978Z",
   "homepage": {
     "hero": {
       "originalTitle": "Doctors test brain cell implants to restore movement in Parkinson's",
@@ -1468,5 +1468,6 @@
       "approved": true,
       "_index": 15
     }
-  ]
+  ],
+  "autoPublished": true
 }
