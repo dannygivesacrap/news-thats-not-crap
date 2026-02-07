@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-02-07T14:44:53.268Z",
+  "generatedAt": "2026-02-07T15:37:16.548Z",
+  "publishedAt": "2026-02-07T15:37:16.548Z",
   "homepage": {
     "hero": {
       "originalTitle": "Doctors test brain cell implants to restore movement in Parkinson's",
@@ -28,7 +29,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Keck Medicine of USC as the institution, accurately describes the experimental stem cell therapy involving lab-grown dopamine-producing cells, properly explains that these cells are implanted into the brain's movement-control region, and correctly states the goals of improving motor function and slowing disease progression. The article uses creative analogies and engaging language but does not introduce any factual inaccuracies or unsupported claims. No fabricated quotes were found, and all institutional names are accurate."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     "featured": [
       {
@@ -58,7 +61,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts and statistics in the generated article accurately match the source material. The market valuation ($234.13 billion in 2023), projection ($376.75 billion by 2029), and growth rate (8.51% annually) are correctly stated. The three driving forces mentioned (renewable energy expansion, EV adoption, and grid investment) align with the source information. No fabricated quotes were found, and all claims are supported by the original source material."
-        }
+        },
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "How many babies do California condors have?",
@@ -86,7 +91,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all factual information from the source. The key facts are correctly stated: California condors lay one egg per breeding season, this makes population recovery slow, and the species has made remarkable progress from near extinction through conservation efforts. The article uses informal, engaging language but maintains factual accuracy throughout. No quotes are fabricated - the article appropriately references 'the report' when citing information. All claims are supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "'Green-Thumb' Miracles Gave These Monks an Eco-Authority in Medieval Italy New Research Shows",
@@ -114,7 +121,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. Dr. Krisztina Ilko's name is spelled correctly, the specific miracles (scorched cherry twig sprouting, diseased swamp restoration, cabbage multiplication) are accurately described, the Augustinian Order is correctly identified, and the 800-year timeframe and medieval Italy location are preserved. No quotes are fabricated, and while the article adds commentary and modern perspective, it does not make any unsupported factual claims about the research findings."
-        }
+        },
+        "approved": true,
+        "_index": 3
       },
       {
         "originalTitle": "How communities are stepping up to revive our tired towns and cities",
@@ -143,7 +152,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key information from the source material. It correctly states that communities are purchasing local assets like ferry companies and pubs, that this represents a grassroots movement to revive struggling towns and cities, that the community ownership model is gaining momentum, and that people are taking direct control of local infrastructure and economy. The article expands on these themes with appropriate commentary and analysis without introducing any factual inaccuracies or unsupported claims. No quotes were fabricated, and no specific names, statistics, or numbers were mentioned that could be verified against the source."
-        }
+        },
+        "approved": true,
+        "_index": 4
       },
       {
         "originalTitle": "Tata Power shares in focus as revenue declines 4% YoY to Rs 14,485 crore",
@@ -171,7 +182,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reports all key facts from the source: the 4% YoY revenue decline to Rs 14,485 crore, the milestone of exceeding 10 GW in cumulative renewable EPC execution, mixed quarterly results, and strong growth in the renewables business. No fabricated quotes are present, and all organization names are correct. The article adds contextual interpretation and commentary but does not make any factual claims that contradict or go beyond the source material."
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
         "originalTitle": "Suzlon Energy shares in focus after Q3 profit rises 15% YoY to Rs 445 crore",
@@ -199,7 +212,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All factual information in the generated article accurately reflects the original source. The key statistics (15% YoY profit increase, Rs 445 crore figure), company name, and supporting details (strong revenue growth, higher volumes, margin expansion, record deliveries, robust order book, net cash position) are all correctly represented. No quotes were fabricated - the article paraphrases rather than quotes directly. While the writing style is more casual and interpretive than the source, all factual claims are properly supported."
-        }
+        },
+        "approved": true,
+        "_index": 6
       },
       {
         "originalTitle": "Clean Power Alliance Expands Renewable Energy Resources Serving Disadvantaged Communities Across Southern California",
@@ -227,7 +242,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source material. Clean Power Alliance, the solar projects, the target areas (Los Angeles and Ventura Counties), the focus on disadvantaged communities, and the goal of serving thousands of lower-income customers are all correctly reported. While the article includes editorial commentary and context not in the original source, no factual claims contradict or misrepresent the source information. No quotes were fabricated, and all organizational and geographic names are accurate."
-        }
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "Vertical Farming Market Growing at 19.66% CAGR to 2031 Driven by Automation and Climate Volatility, according to Mordor Intelligence's 2026 Report",
@@ -256,7 +273,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts are accurately represented: the 19.66% CAGR figure is correct, the 2031 timeframe is accurate, Mordor Intelligence is properly credited, and all the driving factors mentioned (urban food demand, climate resilience, improving technology economics, focus on efficiency/energy optimization/partnerships) align with the source material. The article uses creative language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 8
       },
       {
         "originalTitle": "Is there a bird faster than a plane?",
@@ -285,7 +304,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all information from the original source. It correctly states that birds cannot sustain speeds comparable to commercial airplanes' cruising speeds, highlights the peregrine falcon's diving speed capabilities, and discusses avian speed records and aerodynamic capabilities. No specific numbers, quotes, or fabricated claims were found. The article appropriately acknowledges that exact speed numbers weren't specified in the research."
-        }
+        },
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "Move Your Eyes, Change Your Life",
@@ -318,7 +339,9 @@
           "confidence": "high",
           "summary": "While the core facts about EMDR treating PTSD, its effectiveness, popularity among patients, and ongoing expert debate about mechanisms are accurate to the source, the generated article contains significant elaboration beyond what the source provides and includes a misleading attribution reference."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 10
       },
       {
         "originalTitle": "Hundreds of Ponds Restored Across Iowa Bring This Endangered Fish Back, Along with 100s of Species",
@@ -350,7 +373,9 @@
           "confidence": "high",
           "summary": "The article is mostly accurate regarding the Topeka shiner conservation program, pond restoration, and nutrient runoff benefits. However, it makes an unsupported claim about hundreds of species benefiting and presents this as coming from 'the report' when this specific detail is not found in the provided source excerpt."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "Lead Pollution Has Dropped 100-Fold in the U.S. Over the Last Century",
@@ -378,7 +403,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts from the original source are accurately represented: the 100-fold decline in lead pollution over the last century, the phasing out beginning in the 1970s due to health risks, lead being a neurotoxin that accumulates in human tissues, and its link to developmental deficits in children. The generated article expands with additional context and commentary but does not contradict or misrepresent any information from the source. No fabricated quotes or inaccurate attributions were found."
-        }
+        },
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "Forgotten Centuries-Old Ball Game Making a Surprise Comeback After 50 years",
@@ -406,7 +433,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: knurr-and-spell is a centuries-old ball game from South Yorkshire pubs, it involves hitting clay balls and is similar to golf, it vanished by the 1970s, and is now making a comeback in its original villages after 50 years. No quotes were fabricated, all locations and timeframes match, and while the article uses creative language and elaboration, it doesn't make any unsupported factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "Giant 5-ton eVTOL just aced a tricky flight test",
@@ -434,125 +463,14 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: AutoFlight's Matrix aircraft being the first 5-ton eVTOL, completing a full-transition flight demonstration at the Kunshan Civil UAV Flight Test & Operation Base in China, and AutoFlight being described as a multinational aviation company. No quotes were fabricated (none exist in source), and while the article includes additional context and explanations not in the source excerpt, these are clearly editorial additions rather than unsupported factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 14
       }
     ]
   },
   "sections": {
     "climate": [
-      {
-        "originalTitle": "Vertical Farming Market Growing at 19.66% CAGR to 2031 Driven by Automation and Climate Volatility, according to Mordor Intelligence's 2026 Report",
-        "headline": "Sky-High Growth: Vertical Farming Shoots Up Nearly 20% as Cities Go Green",
-        "excerpt": "The vertical farming market is evolving into a more disciplined growth phase, driven by urban food demand, climate resilience needs, and improving technology economics. The market is growing at 19.66% CAGR to 2031, with operators prioritizing efficiency, energy optimization, and stable partnerships.",
-        "category": "climate",
-        "sourceUrl": "https://www.globenewswire.com/news-release/2026/02/06/3233743/0/en/Vertical-Farming-Market-Growing-at-19-66-CAGR-to-2031-Driven-by-Automation-and-Climate-Volatility-according-to-Mordor-Intelligence-s-2026-Report.html",
-        "sourceName": "GlobeNewswire",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "sky-high-growth-vertical-farming-shoots-up-nearly-20-as-citi",
-        "author": "Marina Waters",
-        "imageUrl": "https://images.pexels.com/photos/29294526/pexels-photo-29294526.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Picture this: skyscrapers growing lettuce instead of housing hedge funds, warehouses sprouting herbs where boxes used to stack, and cities feeding themselves from buildings that reach toward the sky. It sounds like science fiction, but vertical farming is growing up fast—literally and figuratively.",
-          "body": [
-            "According to Mordor Intelligence's latest report, the vertical farming market is climbing at a robust 19.66% compound annual growth rate, and it's expected to keep that momentum through 2031. That's the kind of growth that would make any plant jealous.",
-            "What's driving this agricultural revolution upward? The report points to a perfect storm of positive factors: cities are hungry for fresh food grown close to home, our climate is getting more unpredictable (making indoor growing more appealing), and the technology is finally becoming economically viable. It's like all the pieces of a green puzzle are finally clicking into place.",
-            "The industry is maturing beyond the early experimental phase, with operators now focusing on the nuts and bolts that matter: efficiency, energy optimization, and building stable partnerships. It's less 'let's see if this works' and more 'let's make this work really, really well.' When an industry starts prioritizing partnerships and energy efficiency, you know it's getting serious about sticking around.",
-            "The beauty of vertical farming lies in its promise of climate resilience—growing food indoors means weather tantrums can't ruin the harvest, and urban food demand can be met without trucking produce across continents. As cities continue to grow and climate patterns continue to surprise us, farming that literally rises to the occasion might just be what we need."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "All key facts are accurately represented: the 19.66% CAGR figure is correct, the 2031 timeframe is accurate, Mordor Intelligence is properly credited, and all the driving factors mentioned (urban food demand, climate resilience, improving technology economics, focus on efficiency/energy optimization/partnerships) align with the source material. The article uses creative language and analogies but maintains factual accuracy throughout."
-        }
-      },
-      {
-        "originalTitle": "Clean Power Alliance Expands Renewable Energy Resources Serving Disadvantaged Communities Across Southern California",
-        "headline": "Solar Power for All: Clean Energy Expansion Lights Up Underserved Communities",
-        "excerpt": "Clean Power Alliance is expanding renewable energy resources with new solar projects specifically designed to serve thousands of lower income customers in Los Angeles and Ventura Counties. The initiative focuses on bringing clean energy benefits directly to disadvantaged communities across Southern California.",
-        "category": "climate",
-        "sourceUrl": "https://www.globenewswire.com/news-release/2026/02/05/3233247/0/en/Clean-Power-Alliance-Expands-Renewable-Energy-Resources-Serving-Disadvantaged-Communities-Across-Southern-California.html",
-        "sourceName": "GlobeNewswire",
-        "readTime": 3,
-        "isHomepageFeatured": true,
-        "slug": "solar-power-for-all-clean-energy-expansion-lights-up-underse",
-        "author": "River Stone",
-        "imageUrl": "https://images.pexels.com/photos/9875423/pexels-photo-9875423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the best news comes with a side of solar power and social justice. Clean Power Alliance is rolling out new solar projects across Southern California that aren't just good for the planet—they're specifically designed to benefit thousands of lower-income customers who've historically been left out of the clean energy revolution.",
-          "body": [
-            "The initiative is targeting disadvantaged communities in Los Angeles and Ventura Counties, bringing renewable energy resources directly to neighborhoods that need them most. It's a refreshing approach that recognizes clean energy shouldn't be a luxury item available only to those who can afford rooftop panels and Tesla batteries.",
-            "Clean Power Alliance is focusing on making sure the benefits of renewable energy reach the communities that have often borne the brunt of pollution from traditional power sources. By expanding these solar projects with disadvantaged communities specifically in mind, they're working to flip the script on who gets to participate in the clean energy transition.",
-            "The timing couldn't be better, as communities across Southern California continue to grapple with air quality issues and rising energy costs. These new solar resources represent more than just clean electricity—they're a step toward energy equity that could help level the playing field for families who've been priced out of the green energy boom."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source material. Clean Power Alliance, the solar projects, the target areas (Los Angeles and Ventura Counties), the focus on disadvantaged communities, and the goal of serving thousands of lower-income customers are all correctly reported. While the article includes editorial commentary and context not in the original source, no factual claims contradict or misrepresent the source information. No quotes were fabricated, and all organizational and geographic names are accurate."
-        }
-      },
-      {
-        "originalTitle": "Suzlon Energy shares in focus after Q3 profit rises 15% YoY to Rs 445 crore",
-        "headline": "Wind Power Wonder: Suzlon Energy Soars with 15% Profit Jump and Record Deliveries",
-        "excerpt": "Suzlon Energy reported a 15% year-on-year rise in Q3FY26 profit to Rs 445 crore, supported by strong revenue growth, higher volumes, and margin expansion. The company posted record deliveries, a robust order book, and a net cash position.",
-        "category": "climate",
-        "sourceUrl": "https://economictimes.indiatimes.com/markets/stocks/news/suzlon-energy-shares-in-focus-after-q3-profit-rises-15-yoy-to-rs-445-crore/articleshow/127965826.cms",
-        "sourceName": "The Times of India",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "wind-power-wonder-suzlon-energy-soars-with-15-profit-jump-an",
-        "author": "Ray Solar",
-        "imageUrl": "https://images.pexels.com/photos/29049892/pexels-photo-29049892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the wind really does blow in your favor. Suzlon Energy just posted some seriously impressive quarterly results that would make any renewable energy enthusiast do a little happy dance.",
-          "body": [
-            "The Indian wind energy company saw its Q3 profit spin up by 15% year-over-year, landing at Rs 445 crore. That's the kind of upward trend that makes both investors and planet-conscious folks smile at the same time.",
-            "What's driving this green success story? According to the report, it's a perfect storm of good things: strong revenue growth, higher volumes, and expanding margins. Suzlon also hit record deliveries during the quarter, which means more clean energy infrastructure is getting built and more communities are getting access to renewable power.",
-            "The company is also sitting pretty with a robust order book and a net cash position, which in business speak means they've got plenty of work lined up and money in the bank. It's the kind of financial health that suggests this wind energy momentum isn't just a passing breeze – it's looking more like a sustained gust in the right direction for both the company and the clean energy sector."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "All factual information in the generated article accurately reflects the original source. The key statistics (15% YoY profit increase, Rs 445 crore figure), company name, and supporting details (strong revenue growth, higher volumes, margin expansion, record deliveries, robust order book, net cash position) are all correctly represented. No quotes were fabricated - the article paraphrases rather than quotes directly. While the writing style is more casual and interpretive than the source, all factual claims are properly supported."
-        }
-      },
-      {
-        "originalTitle": "Tata Power shares in focus as revenue declines 4% YoY to Rs 14,485 crore",
-        "headline": "Tata Power Hits Major Green Milestone: 10 GW of Renewable Energy Magic Achieved",
-        "excerpt": "Despite mixed quarterly results, Tata Power achieved a significant milestone by exceeding 10 GW in cumulative renewable EPC execution. The company's renewables business continues to demonstrate strong growth in clean energy infrastructure development.",
-        "category": "climate",
-        "sourceUrl": "https://economictimes.indiatimes.com/markets/stocks/news/tata-power-shares-in-focus-as-revenue-declines-4-to-rs-14485-crore/articleshow/127923028.cms",
-        "sourceName": "The Times of India",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "tata-power-hits-major-green-milestone-10-gw-of-renewable-ene",
-        "author": "Coral Reef",
-        "imageUrl": "https://images.pexels.com/photos/7977144/pexels-photo-7977144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the best news comes wrapped in numbers that don't immediately sparkle. While Tata Power's latest quarterly revenue dipped 4% to Rs 14,485 crore, the Indian energy giant just quietly crossed a milestone that's lighting up the clean energy world.",
-          "body": [
-            "The company has officially surpassed 10 gigawatts in cumulative renewable energy project execution—think of it as enough clean power capacity to keep millions of homes humming along without a single puff of coal smoke. That's the kind of achievement that might not make flashy headlines, but it's exactly the sort of steady progress our planet desperately needs.",
-            "What makes this particularly encouraging is that Tata Power's renewables division continues showing robust growth even as the overall quarterly numbers present a mixed picture. It's a reminder that sometimes the most important transformations happen gradually, project by project, turbine by turbine.",
-            "The milestone represents more than just impressive engineering—it's a tangible sign that India's clean energy infrastructure is scaling up in real, measurable ways. While revenue fluctuations grab investor attention, this 10 GW threshold signals the kind of long-term momentum that could reshape how an entire nation powers itself."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reports all key facts from the source: the 4% YoY revenue decline to Rs 14,485 crore, the milestone of exceeding 10 GW in cumulative renewable EPC execution, mixed quarterly results, and strong growth in the renewables business. No fabricated quotes are present, and all organization names are correct. The article adds contextual interpretation and commentary but does not make any factual claims that contradict or go beyond the source material."
-        }
-      },
       {
         "originalTitle": "Energy Storage System (ESS) Research Report 2025: A $376.75 Billion Market by 2029, Driven by Renewable Expansion, EV Adoption, and Rising Energy Investment Accelerate Demand",
         "headline": "Energy Storage Market Explodes to $376 Billion as Clean Power Demand Surges",
@@ -580,28 +498,28 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts and statistics in the generated article accurately match the source material. The market valuation ($234.13 billion in 2023), projection ($376.75 billion by 2029), and growth rate (8.51% annually) are correctly stated. The three driving forces mentioned (renewable energy expansion, EV adoption, and grid investment) align with the source information. No fabricated quotes were found, and all claims are supported by the original source material."
-        }
-      }
-    ],
-    "health": [
+        },
+        "approved": true,
+        "_index": 1
+      },
       {
-        "originalTitle": "Lead Pollution Has Dropped 100-Fold in the U.S. Over the Last Century",
-        "headline": "America's Lead Pollution Plummets 100-Fold in Century of Progress",
-        "excerpt": "Lead pollution in the United States has dramatically declined by 100-fold over the last century, according to new research. The dangerous neurotoxin, which accumulates in human tissues and is linked to developmental deficits in children, began being phased out in the 1970s due to health risks.",
-        "category": "health",
-        "sourceUrl": "https://www.goodnewsnetwork.org/lead-pollution-has-dropped-100-fold-in-the-u-s-over-the-last-century/",
-        "sourceName": "Good News Network",
+        "originalTitle": "Tata Power shares in focus as revenue declines 4% YoY to Rs 14,485 crore",
+        "headline": "Tata Power Hits Major Green Milestone: 10 GW of Renewable Energy Magic Achieved",
+        "excerpt": "Despite mixed quarterly results, Tata Power achieved a significant milestone by exceeding 10 GW in cumulative renewable EPC execution. The company's renewables business continues to demonstrate strong growth in clean energy infrastructure development.",
+        "category": "climate",
+        "sourceUrl": "https://economictimes.indiatimes.com/markets/stocks/news/tata-power-shares-in-focus-as-revenue-declines-4-to-rs-14485-crore/articleshow/127923028.cms",
+        "sourceName": "The Times of India",
         "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "americas-lead-pollution-plummets-100-fold-in-century-of-prog",
-        "author": "Hope Springs",
-        "imageUrl": "https://images.pexels.com/photos/15471911/pexels-photo-15471911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "tata-power-hits-major-green-milestone-10-gw-of-renewable-ene",
+        "author": "Coral Reef",
+        "imageUrl": "https://images.pexels.com/photos/7977144/pexels-photo-7977144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Here's a number that might just restore your faith in environmental progress: lead pollution in the United States has plummeted by 100-fold over the past century. That's not a typo – we're talking about a 99% reduction in one of the most dangerous pollutants ever to contaminate our air, water, and soil.",
+          "lead": "Sometimes the best news comes wrapped in numbers that don't immediately sparkle. While Tata Power's latest quarterly revenue dipped 4% to Rs 14,485 crore, the Indian energy giant just quietly crossed a milestone that's lighting up the clean energy world.",
           "body": [
-            "According to new research, this dramatic decline represents one of the most successful environmental cleanup efforts in modern history. Lead, a neurotoxin that accumulates in human tissues like an unwelcome houseguest who never leaves, has been steadily retreating from our environment for decades.",
-            "The turning point came in the 1970s when health officials finally said 'enough is enough' and began phasing out lead due to mounting evidence of its health risks. This wasn't just about making the air a little cleaner – lead exposure is particularly devastating for children, where it's linked to developmental deficits that can last a lifetime.",
-            "While we still have work to do (looking at you, aging water pipes and old paint), this 100-fold reduction shows that when we commit to tackling environmental problems, we can achieve results that seemed impossible just a few generations ago. Sometimes the best news is simply that the air our kids breathe today is exponentially safer than what previous generations had to endure."
+            "The company has officially surpassed 10 gigawatts in cumulative renewable energy project execution—think of it as enough clean power capacity to keep millions of homes humming along without a single puff of coal smoke. That's the kind of achievement that might not make flashy headlines, but it's exactly the sort of steady progress our planet desperately needs.",
+            "What makes this particularly encouraging is that Tata Power's renewables division continues showing robust growth even as the overall quarterly numbers present a mixed picture. It's a reminder that sometimes the most important transformations happen gradually, project by project, turbine by turbine.",
+            "The milestone represents more than just impressive engineering—it's a tangible sign that India's clean energy infrastructure is scaling up in real, measurable ways. While revenue fluctuations grab investor attention, this 10 GW threshold signals the kind of long-term momentum that could reshape how an entire nation powers itself."
           ],
           "pullQuote": null
         },
@@ -609,8 +527,134 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "All key facts from the original source are accurately represented: the 100-fold decline in lead pollution over the last century, the phasing out beginning in the 1970s due to health risks, lead being a neurotoxin that accumulates in human tissues, and its link to developmental deficits in children. The generated article expands with additional context and commentary but does not contradict or misrepresent any information from the source. No fabricated quotes or inaccurate attributions were found."
-        }
+          "summary": "The generated article accurately reports all key facts from the source: the 4% YoY revenue decline to Rs 14,485 crore, the milestone of exceeding 10 GW in cumulative renewable EPC execution, mixed quarterly results, and strong growth in the renewables business. No fabricated quotes are present, and all organization names are correct. The article adds contextual interpretation and commentary but does not make any factual claims that contradict or go beyond the source material."
+        },
+        "approved": true,
+        "_index": 5
+      },
+      {
+        "originalTitle": "Suzlon Energy shares in focus after Q3 profit rises 15% YoY to Rs 445 crore",
+        "headline": "Wind Power Wonder: Suzlon Energy Soars with 15% Profit Jump and Record Deliveries",
+        "excerpt": "Suzlon Energy reported a 15% year-on-year rise in Q3FY26 profit to Rs 445 crore, supported by strong revenue growth, higher volumes, and margin expansion. The company posted record deliveries, a robust order book, and a net cash position.",
+        "category": "climate",
+        "sourceUrl": "https://economictimes.indiatimes.com/markets/stocks/news/suzlon-energy-shares-in-focus-after-q3-profit-rises-15-yoy-to-rs-445-crore/articleshow/127965826.cms",
+        "sourceName": "The Times of India",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "wind-power-wonder-suzlon-energy-soars-with-15-profit-jump-an",
+        "author": "Ray Solar",
+        "imageUrl": "https://images.pexels.com/photos/29049892/pexels-photo-29049892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the wind really does blow in your favor. Suzlon Energy just posted some seriously impressive quarterly results that would make any renewable energy enthusiast do a little happy dance.",
+          "body": [
+            "The Indian wind energy company saw its Q3 profit spin up by 15% year-over-year, landing at Rs 445 crore. That's the kind of upward trend that makes both investors and planet-conscious folks smile at the same time.",
+            "What's driving this green success story? According to the report, it's a perfect storm of good things: strong revenue growth, higher volumes, and expanding margins. Suzlon also hit record deliveries during the quarter, which means more clean energy infrastructure is getting built and more communities are getting access to renewable power.",
+            "The company is also sitting pretty with a robust order book and a net cash position, which in business speak means they've got plenty of work lined up and money in the bank. It's the kind of financial health that suggests this wind energy momentum isn't just a passing breeze – it's looking more like a sustained gust in the right direction for both the company and the clean energy sector."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "All factual information in the generated article accurately reflects the original source. The key statistics (15% YoY profit increase, Rs 445 crore figure), company name, and supporting details (strong revenue growth, higher volumes, margin expansion, record deliveries, robust order book, net cash position) are all correctly represented. No quotes were fabricated - the article paraphrases rather than quotes directly. While the writing style is more casual and interpretive than the source, all factual claims are properly supported."
+        },
+        "approved": true,
+        "_index": 6
+      },
+      {
+        "originalTitle": "Clean Power Alliance Expands Renewable Energy Resources Serving Disadvantaged Communities Across Southern California",
+        "headline": "Solar Power for All: Clean Energy Expansion Lights Up Underserved Communities",
+        "excerpt": "Clean Power Alliance is expanding renewable energy resources with new solar projects specifically designed to serve thousands of lower income customers in Los Angeles and Ventura Counties. The initiative focuses on bringing clean energy benefits directly to disadvantaged communities across Southern California.",
+        "category": "climate",
+        "sourceUrl": "https://www.globenewswire.com/news-release/2026/02/05/3233247/0/en/Clean-Power-Alliance-Expands-Renewable-Energy-Resources-Serving-Disadvantaged-Communities-Across-Southern-California.html",
+        "sourceName": "GlobeNewswire",
+        "readTime": 3,
+        "isHomepageFeatured": true,
+        "slug": "solar-power-for-all-clean-energy-expansion-lights-up-underse",
+        "author": "River Stone",
+        "imageUrl": "https://images.pexels.com/photos/9875423/pexels-photo-9875423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the best news comes with a side of solar power and social justice. Clean Power Alliance is rolling out new solar projects across Southern California that aren't just good for the planet—they're specifically designed to benefit thousands of lower-income customers who've historically been left out of the clean energy revolution.",
+          "body": [
+            "The initiative is targeting disadvantaged communities in Los Angeles and Ventura Counties, bringing renewable energy resources directly to neighborhoods that need them most. It's a refreshing approach that recognizes clean energy shouldn't be a luxury item available only to those who can afford rooftop panels and Tesla batteries.",
+            "Clean Power Alliance is focusing on making sure the benefits of renewable energy reach the communities that have often borne the brunt of pollution from traditional power sources. By expanding these solar projects with disadvantaged communities specifically in mind, they're working to flip the script on who gets to participate in the clean energy transition.",
+            "The timing couldn't be better, as communities across Southern California continue to grapple with air quality issues and rising energy costs. These new solar resources represent more than just clean electricity—they're a step toward energy equity that could help level the playing field for families who've been priced out of the green energy boom."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all key facts from the source material. Clean Power Alliance, the solar projects, the target areas (Los Angeles and Ventura Counties), the focus on disadvantaged communities, and the goal of serving thousands of lower-income customers are all correctly reported. While the article includes editorial commentary and context not in the original source, no factual claims contradict or misrepresent the source information. No quotes were fabricated, and all organizational and geographic names are accurate."
+        },
+        "approved": true,
+        "_index": 7
+      },
+      {
+        "originalTitle": "Vertical Farming Market Growing at 19.66% CAGR to 2031 Driven by Automation and Climate Volatility, according to Mordor Intelligence's 2026 Report",
+        "headline": "Sky-High Growth: Vertical Farming Shoots Up Nearly 20% as Cities Go Green",
+        "excerpt": "The vertical farming market is evolving into a more disciplined growth phase, driven by urban food demand, climate resilience needs, and improving technology economics. The market is growing at 19.66% CAGR to 2031, with operators prioritizing efficiency, energy optimization, and stable partnerships.",
+        "category": "climate",
+        "sourceUrl": "https://www.globenewswire.com/news-release/2026/02/06/3233743/0/en/Vertical-Farming-Market-Growing-at-19-66-CAGR-to-2031-Driven-by-Automation-and-Climate-Volatility-according-to-Mordor-Intelligence-s-2026-Report.html",
+        "sourceName": "GlobeNewswire",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "sky-high-growth-vertical-farming-shoots-up-nearly-20-as-citi",
+        "author": "Marina Waters",
+        "imageUrl": "https://images.pexels.com/photos/29294526/pexels-photo-29294526.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Picture this: skyscrapers growing lettuce instead of housing hedge funds, warehouses sprouting herbs where boxes used to stack, and cities feeding themselves from buildings that reach toward the sky. It sounds like science fiction, but vertical farming is growing up fast—literally and figuratively.",
+          "body": [
+            "According to Mordor Intelligence's latest report, the vertical farming market is climbing at a robust 19.66% compound annual growth rate, and it's expected to keep that momentum through 2031. That's the kind of growth that would make any plant jealous.",
+            "What's driving this agricultural revolution upward? The report points to a perfect storm of positive factors: cities are hungry for fresh food grown close to home, our climate is getting more unpredictable (making indoor growing more appealing), and the technology is finally becoming economically viable. It's like all the pieces of a green puzzle are finally clicking into place.",
+            "The industry is maturing beyond the early experimental phase, with operators now focusing on the nuts and bolts that matter: efficiency, energy optimization, and building stable partnerships. It's less 'let's see if this works' and more 'let's make this work really, really well.' When an industry starts prioritizing partnerships and energy efficiency, you know it's getting serious about sticking around.",
+            "The beauty of vertical farming lies in its promise of climate resilience—growing food indoors means weather tantrums can't ruin the harvest, and urban food demand can be met without trucking produce across continents. As cities continue to grow and climate patterns continue to surprise us, farming that literally rises to the occasion might just be what we need."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "All key facts are accurately represented: the 19.66% CAGR figure is correct, the 2031 timeframe is accurate, Mordor Intelligence is properly credited, and all the driving factors mentioned (urban food demand, climate resilience, improving technology economics, focus on efficiency/energy optimization/partnerships) align with the source material. The article uses creative language and analogies but maintains factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 8
+      }
+    ],
+    "health": [
+      {
+        "originalTitle": "Doctors test brain cell implants to restore movement in Parkinson's",
+        "headline": "Brain Cell Implants Could Give Parkinson's Patients Their Movement Back",
+        "excerpt": "Scientists at Keck Medicine of USC are testing an experimental stem cell therapy that aims to restore the brain's ability to produce dopamine, the chemical whose loss drives Parkinson's disease. The early-stage clinical trial involves implanting lab-grown dopamine-producing cells directly into a key movement-control region of the brain, with the hope of slowing disease progression and improving motor function.",
+        "category": "health",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260206012203.htm",
+        "sourceName": "Science Daily Health",
+        "readTime": 4,
+        "isHomepageHero": true,
+        "slug": "brain-cell-implants-could-give-parkinsons-patients-their-mov",
+        "author": "Grace Recovery",
+        "imageUrl": "https://images.pexels.com/photos/7269596/pexels-photo-7269596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "What if we could give the brain a helping hand by literally giving it new cells? That's exactly what scientists at Keck Medicine of USC are testing with an experimental therapy that sounds like it's straight out of science fiction – but it's very real, and it could be a game-changer for people living with Parkinson's disease.",
+          "body": [
+            "Here's the deal: Parkinson's disease happens when the brain loses its ability to produce dopamine, a crucial chemical that helps control movement. Without enough dopamine, people experience tremors, stiffness, and difficulty with coordination. It's like trying to conduct an orchestra when half the musicians have left the stage.",
+            "The USC team is taking a bold approach to solve this problem. They're growing dopamine-producing cells in the lab – yes, actually growing brain cells – and then implanting them directly into the brain region that controls movement. Think of it as biological reinforcements arriving just when they're needed most.",
+            "This early-stage clinical trial represents a fascinating shift in how we might treat Parkinson's. Instead of just managing symptoms with medications, scientists are exploring whether we can actually restore the brain's natural dopamine factory. The hope is that these new cells will not only improve motor function but potentially slow down the disease's progression.",
+            "While it's still early days for this research, the very fact that we're testing ways to rebuild what Parkinson's takes away feels like a reason for optimism. According to the report, this stem cell therapy could represent a whole new frontier in treating a disease that affects millions of people worldwide."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Keck Medicine of USC as the institution, accurately describes the experimental stem cell therapy involving lab-grown dopamine-producing cells, properly explains that these cells are implanted into the brain's movement-control region, and correctly states the goals of improving motor function and slowing disease progression. The article uses creative analogies and engaging language but does not introduce any factual inaccuracies or unsupported claims. No fabricated quotes were found, and all institutional names are accurate."
+        },
+        "approved": true,
+        "_index": 0
       },
       {
         "originalTitle": "Move Your Eyes, Change Your Life",
@@ -643,27 +687,28 @@
           "confidence": "high",
           "summary": "While the core facts about EMDR treating PTSD, its effectiveness, popularity among patients, and ongoing expert debate about mechanisms are accurate to the source, the generated article contains significant elaboration beyond what the source provides and includes a misleading attribution reference."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 10
       },
       {
-        "originalTitle": "Doctors test brain cell implants to restore movement in Parkinson's",
-        "headline": "Brain Cell Implants Could Give Parkinson's Patients Their Movement Back",
-        "excerpt": "Scientists at Keck Medicine of USC are testing an experimental stem cell therapy that aims to restore the brain's ability to produce dopamine, the chemical whose loss drives Parkinson's disease. The early-stage clinical trial involves implanting lab-grown dopamine-producing cells directly into a key movement-control region of the brain, with the hope of slowing disease progression and improving motor function.",
+        "originalTitle": "Lead Pollution Has Dropped 100-Fold in the U.S. Over the Last Century",
+        "headline": "America's Lead Pollution Plummets 100-Fold in Century of Progress",
+        "excerpt": "Lead pollution in the United States has dramatically declined by 100-fold over the last century, according to new research. The dangerous neurotoxin, which accumulates in human tissues and is linked to developmental deficits in children, began being phased out in the 1970s due to health risks.",
         "category": "health",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260206012203.htm",
-        "sourceName": "Science Daily Health",
+        "sourceUrl": "https://www.goodnewsnetwork.org/lead-pollution-has-dropped-100-fold-in-the-u-s-over-the-last-century/",
+        "sourceName": "Good News Network",
         "readTime": 4,
-        "isHomepageHero": true,
-        "slug": "brain-cell-implants-could-give-parkinsons-patients-their-mov",
-        "author": "Grace Recovery",
-        "imageUrl": "https://images.pexels.com/photos/7269596/pexels-photo-7269596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "isHomepageFeatured": true,
+        "slug": "americas-lead-pollution-plummets-100-fold-in-century-of-prog",
+        "author": "Hope Springs",
+        "imageUrl": "https://images.pexels.com/photos/15471911/pexels-photo-15471911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "What if we could give the brain a helping hand by literally giving it new cells? That's exactly what scientists at Keck Medicine of USC are testing with an experimental therapy that sounds like it's straight out of science fiction – but it's very real, and it could be a game-changer for people living with Parkinson's disease.",
+          "lead": "Here's a number that might just restore your faith in environmental progress: lead pollution in the United States has plummeted by 100-fold over the past century. That's not a typo – we're talking about a 99% reduction in one of the most dangerous pollutants ever to contaminate our air, water, and soil.",
           "body": [
-            "Here's the deal: Parkinson's disease happens when the brain loses its ability to produce dopamine, a crucial chemical that helps control movement. Without enough dopamine, people experience tremors, stiffness, and difficulty with coordination. It's like trying to conduct an orchestra when half the musicians have left the stage.",
-            "The USC team is taking a bold approach to solve this problem. They're growing dopamine-producing cells in the lab – yes, actually growing brain cells – and then implanting them directly into the brain region that controls movement. Think of it as biological reinforcements arriving just when they're needed most.",
-            "This early-stage clinical trial represents a fascinating shift in how we might treat Parkinson's. Instead of just managing symptoms with medications, scientists are exploring whether we can actually restore the brain's natural dopamine factory. The hope is that these new cells will not only improve motor function but potentially slow down the disease's progression.",
-            "While it's still early days for this research, the very fact that we're testing ways to rebuild what Parkinson's takes away feels like a reason for optimism. According to the report, this stem cell therapy could represent a whole new frontier in treating a disease that affects millions of people worldwide."
+            "According to new research, this dramatic decline represents one of the most successful environmental cleanup efforts in modern history. Lead, a neurotoxin that accumulates in human tissues like an unwelcome houseguest who never leaves, has been steadily retreating from our environment for decades.",
+            "The turning point came in the 1970s when health officials finally said 'enough is enough' and began phasing out lead due to mounting evidence of its health risks. This wasn't just about making the air a little cleaner – lead exposure is particularly devastating for children, where it's linked to developmental deficits that can last a lifetime.",
+            "While we still have work to do (looking at you, aging water pipes and old paint), this 100-fold reduction shows that when we commit to tackling environmental problems, we can achieve results that seemed impossible just a few generations ago. Sometimes the best news is simply that the air our kids breathe today is exponentially safer than what previous generations had to endure."
           ],
           "pullQuote": null
         },
@@ -671,39 +716,13 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Keck Medicine of USC as the institution, accurately describes the experimental stem cell therapy involving lab-grown dopamine-producing cells, properly explains that these cells are implanted into the brain's movement-control region, and correctly states the goals of improving motor function and slowing disease progression. The article uses creative analogies and engaging language but does not introduce any factual inaccuracies or unsupported claims. No fabricated quotes were found, and all institutional names are accurate."
-        }
+          "summary": "All key facts from the original source are accurately represented: the 100-fold decline in lead pollution over the last century, the phasing out beginning in the 1970s due to health risks, lead being a neurotoxin that accumulates in human tissues, and its link to developmental deficits in children. The generated article expands with additional context and commentary but does not contradict or misrepresent any information from the source. No fabricated quotes or inaccurate attributions were found."
+        },
+        "approved": true,
+        "_index": 12
       }
     ],
     "science": [
-      {
-        "originalTitle": "Giant 5-ton eVTOL just aced a tricky flight test",
-        "headline": "Sky High Success: World's Heaviest Electric Aircraft Aces Flight Test",
-        "excerpt": "Multinational aviation company AutoFlight says its Matrix aircraft is the first 5-ton eVTOL on the planet. The massive electric vertical takeoff and landing aircraft just completed a public full-transition flight demo at the Kunshan Civil UAV Flight Test & Operation Base in China.",
-        "category": "science",
-        "sourceUrl": "https://newatlas.com/aircraft/autoflight-matrix-5ton-evtol-transition-flight/",
-        "sourceName": "New Atlas",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "sky-high-success-worlds-heaviest-electric-aircraft-aces-flig",
-        "author": "Ella Ment",
-        "imageUrl": "https://images.pexels.com/photos/6958557/pexels-photo-6958557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Remember when flying cars seemed like pure science fiction? Well, the future just got a little heavier – and a lot more real.",
-          "body": [
-            "AutoFlight's Matrix aircraft just made aviation history by becoming the first 5-ton electric vertical takeoff and landing (eVTOL) vehicle to complete a full-transition flight demonstration. For those keeping track, that's roughly the weight of an elephant gracefully lifting off, transitioning to forward flight, and landing again – all powered by electricity.",
-            "The multinational aviation company pulled off this impressive feat at the Kunshan Civil UAV Flight Test & Operation Base in China, where their massive aircraft proved that size doesn't have to be a barrier to electric flight. The Matrix represents a significant leap forward in eVTOL technology, pushing the boundaries of what these vertical-takeoff vehicles can achieve in terms of payload and capability.",
-            "What makes this particularly exciting is that eVTOLs are being developed for everything from air taxis to cargo delivery, and proving that a 5-ton electric aircraft can handle the complex maneuver of transitioning from vertical to horizontal flight opens up possibilities for larger, more practical applications. It's one thing to get a small drone to hover and fly forward – it's quite another to do it with something weighing as much as a small truck."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source: AutoFlight's Matrix aircraft being the first 5-ton eVTOL, completing a full-transition flight demonstration at the Kunshan Civil UAV Flight Test & Operation Base in China, and AutoFlight being described as a multinational aviation company. No quotes were fabricated (none exist in source), and while the article includes additional context and explanations not in the source excerpt, these are clearly editorial additions rather than unsupported factual claims."
-        }
-      },
       {
         "originalTitle": "'Green-Thumb' Miracles Gave These Monks an Eco-Authority in Medieval Italy New Research Shows",
         "headline": "Medieval Monks Were the Original Eco-Warriors, New Research Reveals",
@@ -730,10 +749,103 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. Dr. Krisztina Ilko's name is spelled correctly, the specific miracles (scorched cherry twig sprouting, diseased swamp restoration, cabbage multiplication) are accurately described, the Augustinian Order is correctly identified, and the 800-year timeframe and medieval Italy location are preserved. No quotes are fabricated, and while the article adds commentary and modern perspective, it does not make any unsupported factual claims about the research findings."
-        }
+        },
+        "approved": true,
+        "_index": 3
+      },
+      {
+        "originalTitle": "Giant 5-ton eVTOL just aced a tricky flight test",
+        "headline": "Sky High Success: World's Heaviest Electric Aircraft Aces Flight Test",
+        "excerpt": "Multinational aviation company AutoFlight says its Matrix aircraft is the first 5-ton eVTOL on the planet. The massive electric vertical takeoff and landing aircraft just completed a public full-transition flight demo at the Kunshan Civil UAV Flight Test & Operation Base in China.",
+        "category": "science",
+        "sourceUrl": "https://newatlas.com/aircraft/autoflight-matrix-5ton-evtol-transition-flight/",
+        "sourceName": "New Atlas",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "sky-high-success-worlds-heaviest-electric-aircraft-aces-flig",
+        "author": "Ella Ment",
+        "imageUrl": "https://images.pexels.com/photos/6958557/pexels-photo-6958557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Remember when flying cars seemed like pure science fiction? Well, the future just got a little heavier – and a lot more real.",
+          "body": [
+            "AutoFlight's Matrix aircraft just made aviation history by becoming the first 5-ton electric vertical takeoff and landing (eVTOL) vehicle to complete a full-transition flight demonstration. For those keeping track, that's roughly the weight of an elephant gracefully lifting off, transitioning to forward flight, and landing again – all powered by electricity.",
+            "The multinational aviation company pulled off this impressive feat at the Kunshan Civil UAV Flight Test & Operation Base in China, where their massive aircraft proved that size doesn't have to be a barrier to electric flight. The Matrix represents a significant leap forward in eVTOL technology, pushing the boundaries of what these vertical-takeoff vehicles can achieve in terms of payload and capability.",
+            "What makes this particularly exciting is that eVTOLs are being developed for everything from air taxis to cargo delivery, and proving that a 5-ton electric aircraft can handle the complex maneuver of transitioning from vertical to horizontal flight opens up possibilities for larger, more practical applications. It's one thing to get a small drone to hover and fly forward – it's quite another to do it with something weighing as much as a small truck."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the source: AutoFlight's Matrix aircraft being the first 5-ton eVTOL, completing a full-transition flight demonstration at the Kunshan Civil UAV Flight Test & Operation Base in China, and AutoFlight being described as a multinational aviation company. No quotes were fabricated (none exist in source), and while the article includes additional context and explanations not in the source excerpt, these are clearly editorial additions rather than unsupported factual claims."
+        },
+        "approved": true,
+        "_index": 14
       }
     ],
     "wildlife": [
+      {
+        "originalTitle": "How many babies do California condors have?",
+        "headline": "California Condors: One Egg at a Time, One Victory at a Time",
+        "excerpt": "California condors typically lay just one egg per breeding season, making their population recovery a slow but inspiring conservation success story. Despite this reproductive challenge, the species has made remarkable progress from near extinction through dedicated conservation efforts.",
+        "category": "wildlife",
+        "sourceUrl": "https://www.lifesciencesworld.com/how-many-babies-do-california-condors-have/",
+        "sourceName": "Lifesciencesworld.com",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "california-condors-one-egg-at-a-time-one-victory-at-a-time",
+        "author": "Robin Nest",
+        "imageUrl": "https://images.pexels.com/photos/31155165/pexels-photo-31155165.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "When it comes to baby-making strategies, California condors have chosen the \"quality over quantity\" approach. These magnificent birds lay just one egg per breeding season, which might sound like they're making life harder for themselves – but it turns out this seemingly slow approach is part of an incredible comeback story.",
+          "body": [
+            "According to the report, California condors typically produce only one egg during each breeding season. While this might seem like a recipe for disaster when you're trying to save a species, it's actually just how these giant birds roll. Think of it as the avian equivalent of putting all your eggs in one basket – literally.",
+            "This reproductive challenge has made the condors' population recovery a slow process, but here's where the story gets inspiring. Despite having what amounts to nature's most conservative family planning strategy, California condors have made remarkable progress from the brink of extinction.",
+            "The species' recovery stands as a testament to what dedicated conservation efforts can accomplish, even when working with birds that aren't exactly speed-demons in the baby department. Sometimes the most meaningful progress happens one precious egg at a time – and in the case of California condors, that patient approach is writing one of conservation's most hopeful chapters."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all factual information from the source. The key facts are correctly stated: California condors lay one egg per breeding season, this makes population recovery slow, and the species has made remarkable progress from near extinction through conservation efforts. The article uses informal, engaging language but maintains factual accuracy throughout. No quotes are fabricated - the article appropriately references 'the report' when citing information. All claims are supported by the source material."
+        },
+        "approved": true,
+        "_index": 2
+      },
+      {
+        "originalTitle": "Is there a bird faster than a plane?",
+        "headline": "Nature's Speed Demons: When Birds Give Airplanes a Run for Their Money",
+        "excerpt": "While birds cannot sustain flight speeds comparable to commercial airplanes' cruising speeds, certain species like the peregrine falcon can achieve astonishing speeds during dives. The article explores fascinating avian speed records and the remarkable aerodynamic capabilities of these natural fliers.",
+        "category": "wildlife",
+        "sourceUrl": "https://www.lifesciencesworld.com/is-there-a-bird-faster-than-a-plane/",
+        "sourceName": "Lifesciencesworld.com",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "natures-speed-demons-when-birds-give-airplanes-a-run-for-the",
+        "author": "Coral Bay",
+        "imageUrl": "https://images.pexels.com/photos/2127012/pexels-photo-2127012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Ever watched a bird soar overhead and wondered if those feathered friends could give a Boeing 737 a run for its money? Turns out, the answer is more complicated—and way cooler—than you might think.",
+          "body": [
+            "While our avian neighbors can't quite keep pace with commercial airplanes during their leisurely cruise at 30,000 feet, they've got some pretty impressive tricks up their... well, wings. According to the report, certain bird species have developed remarkable aerodynamic capabilities that put them in a league of their own.",
+            "The real showstopper here is the peregrine falcon, nature's own speed demon. These incredible hunters can achieve absolutely astonishing speeds when they dive—though the exact numbers weren't specified in the research, the fact that they're even being compared to aircraft tells you everything you need to know about their aerial prowess.",
+            "What makes this whole topic so fascinating isn't just the raw speed these birds can achieve, but the incredible engineering that evolution has packed into their bodies. We're talking about natural fliers that have spent millions of years perfecting their aerodynamic design, creating some truly remarkable speed records in the animal kingdom.",
+            "So while your morning commuter flight might still be the fastest way to get from point A to point B, it's pretty amazing to know that somewhere out there, a peregrine falcon is putting on an air show that would make any pilot take notes. Nature's got some serious skills when it comes to defying gravity."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all information from the original source. It correctly states that birds cannot sustain speeds comparable to commercial airplanes' cruising speeds, highlights the peregrine falcon's diving speed capabilities, and discusses avian speed records and aerodynamic capabilities. No specific numbers, quotes, or fabricated claims were found. The article appropriately acknowledges that exact speed numbers weren't specified in the research."
+        },
+        "approved": true,
+        "_index": 9
+      },
       {
         "originalTitle": "Hundreds of Ponds Restored Across Iowa Bring This Endangered Fish Back, Along with 100s of Species",
         "headline": "Small Fish, Big Impact: Iowa's Pond Restoration Brings Back Hundreds of Species",
@@ -764,95 +876,12 @@
           "confidence": "high",
           "summary": "The article is mostly accurate regarding the Topeka shiner conservation program, pond restoration, and nutrient runoff benefits. However, it makes an unsupported claim about hundreds of species benefiting and presents this as coming from 'the report' when this specific detail is not found in the provided source excerpt."
         },
-        "factCheckFailed": true
-      },
-      {
-        "originalTitle": "Is there a bird faster than a plane?",
-        "headline": "Nature's Speed Demons: When Birds Give Airplanes a Run for Their Money",
-        "excerpt": "While birds cannot sustain flight speeds comparable to commercial airplanes' cruising speeds, certain species like the peregrine falcon can achieve astonishing speeds during dives. The article explores fascinating avian speed records and the remarkable aerodynamic capabilities of these natural fliers.",
-        "category": "wildlife",
-        "sourceUrl": "https://www.lifesciencesworld.com/is-there-a-bird-faster-than-a-plane/",
-        "sourceName": "Lifesciencesworld.com",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "natures-speed-demons-when-birds-give-airplanes-a-run-for-the",
-        "author": "Coral Bay",
-        "imageUrl": "https://images.pexels.com/photos/2127012/pexels-photo-2127012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Ever watched a bird soar overhead and wondered if those feathered friends could give a Boeing 737 a run for its money? Turns out, the answer is more complicated—and way cooler—than you might think.",
-          "body": [
-            "While our avian neighbors can't quite keep pace with commercial airplanes during their leisurely cruise at 30,000 feet, they've got some pretty impressive tricks up their... well, wings. According to the report, certain bird species have developed remarkable aerodynamic capabilities that put them in a league of their own.",
-            "The real showstopper here is the peregrine falcon, nature's own speed demon. These incredible hunters can achieve absolutely astonishing speeds when they dive—though the exact numbers weren't specified in the research, the fact that they're even being compared to aircraft tells you everything you need to know about their aerial prowess.",
-            "What makes this whole topic so fascinating isn't just the raw speed these birds can achieve, but the incredible engineering that evolution has packed into their bodies. We're talking about natural fliers that have spent millions of years perfecting their aerodynamic design, creating some truly remarkable speed records in the animal kingdom.",
-            "So while your morning commuter flight might still be the fastest way to get from point A to point B, it's pretty amazing to know that somewhere out there, a peregrine falcon is putting on an air show that would make any pilot take notes. Nature's got some serious skills when it comes to defying gravity."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all information from the original source. It correctly states that birds cannot sustain speeds comparable to commercial airplanes' cruising speeds, highlights the peregrine falcon's diving speed capabilities, and discusses avian speed records and aerodynamic capabilities. No specific numbers, quotes, or fabricated claims were found. The article appropriately acknowledges that exact speed numbers weren't specified in the research."
-        }
-      },
-      {
-        "originalTitle": "How many babies do California condors have?",
-        "headline": "California Condors: One Egg at a Time, One Victory at a Time",
-        "excerpt": "California condors typically lay just one egg per breeding season, making their population recovery a slow but inspiring conservation success story. Despite this reproductive challenge, the species has made remarkable progress from near extinction through dedicated conservation efforts.",
-        "category": "wildlife",
-        "sourceUrl": "https://www.lifesciencesworld.com/how-many-babies-do-california-condors-have/",
-        "sourceName": "Lifesciencesworld.com",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "california-condors-one-egg-at-a-time-one-victory-at-a-time",
-        "author": "Robin Nest",
-        "imageUrl": "https://images.pexels.com/photos/31155165/pexels-photo-31155165.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "When it comes to baby-making strategies, California condors have chosen the \"quality over quantity\" approach. These magnificent birds lay just one egg per breeding season, which might sound like they're making life harder for themselves – but it turns out this seemingly slow approach is part of an incredible comeback story.",
-          "body": [
-            "According to the report, California condors typically produce only one egg during each breeding season. While this might seem like a recipe for disaster when you're trying to save a species, it's actually just how these giant birds roll. Think of it as the avian equivalent of putting all your eggs in one basket – literally.",
-            "This reproductive challenge has made the condors' population recovery a slow process, but here's where the story gets inspiring. Despite having what amounts to nature's most conservative family planning strategy, California condors have made remarkable progress from the brink of extinction.",
-            "The species' recovery stands as a testament to what dedicated conservation efforts can accomplish, even when working with birds that aren't exactly speed-demons in the baby department. Sometimes the most meaningful progress happens one precious egg at a time – and in the case of California condors, that patient approach is writing one of conservation's most hopeful chapters."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all factual information from the source. The key facts are correctly stated: California condors lay one egg per breeding season, this makes population recovery slow, and the species has made remarkable progress from near extinction through conservation efforts. The article uses informal, engaging language but maintains factual accuracy throughout. No quotes are fabricated - the article appropriately references 'the report' when citing information. All claims are supported by the source material."
-        }
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 11
       }
     ],
     "people": [
-      {
-        "originalTitle": "Forgotten Centuries-Old Ball Game Making a Surprise Comeback After 50 years",
-        "headline": "Game, Set, Match: Ancient English Sport Knurr-and-Spell Bounces Back",
-        "excerpt": "A long-lost sport once feared dead is being dusted off and played again in the villages where it was born. \"Knurr-and-spell\" was once played widely in pubs across England's South Yorkshire, but had all but vanished by the 1970s. The quirky ball game, which bears a similarity to golf and sees players hit a clay ball, is making a surprising comeback.",
-        "category": "people",
-        "sourceUrl": "https://www.goodnewsnetwork.org/forgotten-centuries-old-ball-game-making-a-surprise-comeback-after-50-years/",
-        "sourceName": "Good News Network",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "game-set-match-ancient-english-sport-knurr-and-spell-bounces",
-        "author": "Joy Fuller",
-        "imageUrl": "https://images.pexels.com/photos/899317/pexels-photo-899317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the best stories are hiding right under our noses—or in this case, gathering dust in old pub corners. A centuries-old English ball game that nearly vanished into history is bouncing back to life in the very villages where it was born.",
-          "body": [
-            "Meet knurr-and-spell, a quirky sport that once had players across South Yorkshire's pubs swinging away at clay balls with the kind of enthusiasm usually reserved for darts night. Think golf's scrappy ancestor who preferred a pint to a country club membership. This delightfully odd game bears similarities to golf, but with its own distinctly English pub-culture twist.",
-            "The sport had been thriving for centuries before quietly fading away, with its last regular players hanging up their... well, whatever equipment knurr-and-spell players use... by the 1970s. For fifty years, it seemed like this piece of Yorkshire heritage had been relegated to the 'remember when' category of local history.",
-            "But here's where the story gets good: the game is making a genuine comeback in its original stomping grounds. Players are once again gathering to hit clay balls and keep alive a tradition that connects them directly to centuries of English sporting heritage. It's a reminder that sometimes the most authentic entertainment doesn't need flashy marketing or corporate sponsorship—just people who care enough to dust off something wonderful and give it another swing."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source: knurr-and-spell is a centuries-old ball game from South Yorkshire pubs, it involves hitting clay balls and is similar to golf, it vanished by the 1970s, and is now making a comeback in its original villages after 50 years. No quotes were fabricated, all locations and timeframes match, and while the article uses creative language and elaboration, it doesn't make any unsupported factual claims."
-        }
-      },
       {
         "originalTitle": "How communities are stepping up to revive our tired towns and cities",
         "headline": "Communities Buy Back Their Future, One Local Asset at a Time",
@@ -880,7 +909,39 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key information from the source material. It correctly states that communities are purchasing local assets like ferry companies and pubs, that this represents a grassroots movement to revive struggling towns and cities, that the community ownership model is gaining momentum, and that people are taking direct control of local infrastructure and economy. The article expands on these themes with appropriate commentary and analysis without introducing any factual inaccuracies or unsupported claims. No quotes were fabricated, and no specific names, statistics, or numbers were mentioned that could be verified against the source."
-        }
+        },
+        "approved": true,
+        "_index": 4
+      },
+      {
+        "originalTitle": "Forgotten Centuries-Old Ball Game Making a Surprise Comeback After 50 years",
+        "headline": "Game, Set, Match: Ancient English Sport Knurr-and-Spell Bounces Back",
+        "excerpt": "A long-lost sport once feared dead is being dusted off and played again in the villages where it was born. \"Knurr-and-spell\" was once played widely in pubs across England's South Yorkshire, but had all but vanished by the 1970s. The quirky ball game, which bears a similarity to golf and sees players hit a clay ball, is making a surprising comeback.",
+        "category": "people",
+        "sourceUrl": "https://www.goodnewsnetwork.org/forgotten-centuries-old-ball-game-making-a-surprise-comeback-after-50-years/",
+        "sourceName": "Good News Network",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "game-set-match-ancient-english-sport-knurr-and-spell-bounces",
+        "author": "Joy Fuller",
+        "imageUrl": "https://images.pexels.com/photos/899317/pexels-photo-899317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the best stories are hiding right under our noses—or in this case, gathering dust in old pub corners. A centuries-old English ball game that nearly vanished into history is bouncing back to life in the very villages where it was born.",
+          "body": [
+            "Meet knurr-and-spell, a quirky sport that once had players across South Yorkshire's pubs swinging away at clay balls with the kind of enthusiasm usually reserved for darts night. Think golf's scrappy ancestor who preferred a pint to a country club membership. This delightfully odd game bears similarities to golf, but with its own distinctly English pub-culture twist.",
+            "The sport had been thriving for centuries before quietly fading away, with its last regular players hanging up their... well, whatever equipment knurr-and-spell players use... by the 1970s. For fifty years, it seemed like this piece of Yorkshire heritage had been relegated to the 'remember when' category of local history.",
+            "But here's where the story gets good: the game is making a genuine comeback in its original stomping grounds. Players are once again gathering to hit clay balls and keep alive a tradition that connects them directly to centuries of English sporting heritage. It's a reminder that sometimes the most authentic entertainment doesn't need flashy marketing or corporate sponsorship—just people who care enough to dust off something wonderful and give it another swing."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the source: knurr-and-spell is a centuries-old ball game from South Yorkshire pubs, it involves hitting clay balls and is similar to golf, it vanished by the 1970s, and is now making a comeback in its original villages after 50 years. No quotes were fabricated, all locations and timeframes match, and while the article uses creative language and elaboration, it doesn't make any unsupported factual claims."
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "BMW ART MAKERS programme 2026 announces artist Lara Tabet and curator Yasmine Chemali as winners. A research-led artistic collaboration offering new perspectives on contemporary imagery, marking the bicentenary of photography from its invention by Nicéphore Niépce to its ongoing influence on contemporary artistic practice.",
@@ -907,7 +968,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. The €33,000 amount, project name 'Le corps vitré' (The Glass Body), winners' names (Lara Tabet and Yasmine Chemali), BMW Group France as the funding source, the bicentenary of photography, and Nicéphore Niépce as photography's inventor are all correctly stated. The article contains no fabricated quotes and appropriately acknowledges limitations in available information about the project details."
-        }
+        },
+        "approved": true,
+        "_index": 15
       }
     ]
   },
@@ -939,7 +1002,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Keck Medicine of USC as the institution, accurately describes the experimental stem cell therapy involving lab-grown dopamine-producing cells, properly explains that these cells are implanted into the brain's movement-control region, and correctly states the goals of improving motor function and slowing disease progression. The article uses creative analogies and engaging language but does not introduce any factual inaccuracies or unsupported claims. No fabricated quotes were found, and all institutional names are accurate."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     {
       "originalTitle": "Energy Storage System (ESS) Research Report 2025: A $376.75 Billion Market by 2029, Driven by Renewable Expansion, EV Adoption, and Rising Energy Investment Accelerate Demand",
@@ -968,7 +1033,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts and statistics in the generated article accurately match the source material. The market valuation ($234.13 billion in 2023), projection ($376.75 billion by 2029), and growth rate (8.51% annually) are correctly stated. The three driving forces mentioned (renewable energy expansion, EV adoption, and grid investment) align with the source information. No fabricated quotes were found, and all claims are supported by the original source material."
-      }
+      },
+      "approved": true,
+      "_index": 1
     },
     {
       "originalTitle": "How many babies do California condors have?",
@@ -996,7 +1063,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all factual information from the source. The key facts are correctly stated: California condors lay one egg per breeding season, this makes population recovery slow, and the species has made remarkable progress from near extinction through conservation efforts. The article uses informal, engaging language but maintains factual accuracy throughout. No quotes are fabricated - the article appropriately references 'the report' when citing information. All claims are supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 2
     },
     {
       "originalTitle": "'Green-Thumb' Miracles Gave These Monks an Eco-Authority in Medieval Italy New Research Shows",
@@ -1024,7 +1093,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the source. Dr. Krisztina Ilko's name is spelled correctly, the specific miracles (scorched cherry twig sprouting, diseased swamp restoration, cabbage multiplication) are accurately described, the Augustinian Order is correctly identified, and the 800-year timeframe and medieval Italy location are preserved. No quotes are fabricated, and while the article adds commentary and modern perspective, it does not make any unsupported factual claims about the research findings."
-      }
+      },
+      "approved": true,
+      "_index": 3
     },
     {
       "originalTitle": "How communities are stepping up to revive our tired towns and cities",
@@ -1053,7 +1124,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key information from the source material. It correctly states that communities are purchasing local assets like ferry companies and pubs, that this represents a grassroots movement to revive struggling towns and cities, that the community ownership model is gaining momentum, and that people are taking direct control of local infrastructure and economy. The article expands on these themes with appropriate commentary and analysis without introducing any factual inaccuracies or unsupported claims. No quotes were fabricated, and no specific names, statistics, or numbers were mentioned that could be verified against the source."
-      }
+      },
+      "approved": true,
+      "_index": 4
     },
     {
       "originalTitle": "Tata Power shares in focus as revenue declines 4% YoY to Rs 14,485 crore",
@@ -1081,7 +1154,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reports all key facts from the source: the 4% YoY revenue decline to Rs 14,485 crore, the milestone of exceeding 10 GW in cumulative renewable EPC execution, mixed quarterly results, and strong growth in the renewables business. No fabricated quotes are present, and all organization names are correct. The article adds contextual interpretation and commentary but does not make any factual claims that contradict or go beyond the source material."
-      }
+      },
+      "approved": true,
+      "_index": 5
     },
     {
       "originalTitle": "Suzlon Energy shares in focus after Q3 profit rises 15% YoY to Rs 445 crore",
@@ -1109,7 +1184,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual information in the generated article accurately reflects the original source. The key statistics (15% YoY profit increase, Rs 445 crore figure), company name, and supporting details (strong revenue growth, higher volumes, margin expansion, record deliveries, robust order book, net cash position) are all correctly represented. No quotes were fabricated - the article paraphrases rather than quotes directly. While the writing style is more casual and interpretive than the source, all factual claims are properly supported."
-      }
+      },
+      "approved": true,
+      "_index": 6
     },
     {
       "originalTitle": "Clean Power Alliance Expands Renewable Energy Resources Serving Disadvantaged Communities Across Southern California",
@@ -1137,7 +1214,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. Clean Power Alliance, the solar projects, the target areas (Los Angeles and Ventura Counties), the focus on disadvantaged communities, and the goal of serving thousands of lower-income customers are all correctly reported. While the article includes editorial commentary and context not in the original source, no factual claims contradict or misrepresent the source information. No quotes were fabricated, and all organizational and geographic names are accurate."
-      }
+      },
+      "approved": true,
+      "_index": 7
     },
     {
       "originalTitle": "Vertical Farming Market Growing at 19.66% CAGR to 2031 Driven by Automation and Climate Volatility, according to Mordor Intelligence's 2026 Report",
@@ -1166,7 +1245,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts are accurately represented: the 19.66% CAGR figure is correct, the 2031 timeframe is accurate, Mordor Intelligence is properly credited, and all the driving factors mentioned (urban food demand, climate resilience, improving technology economics, focus on efficiency/energy optimization/partnerships) align with the source material. The article uses creative language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 8
     },
     {
       "originalTitle": "Is there a bird faster than a plane?",
@@ -1195,7 +1276,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all information from the original source. It correctly states that birds cannot sustain speeds comparable to commercial airplanes' cruising speeds, highlights the peregrine falcon's diving speed capabilities, and discusses avian speed records and aerodynamic capabilities. No specific numbers, quotes, or fabricated claims were found. The article appropriately acknowledges that exact speed numbers weren't specified in the research."
-      }
+      },
+      "approved": true,
+      "_index": 9
     },
     {
       "originalTitle": "Move Your Eyes, Change Your Life",
@@ -1228,7 +1311,9 @@
         "confidence": "high",
         "summary": "While the core facts about EMDR treating PTSD, its effectiveness, popularity among patients, and ongoing expert debate about mechanisms are accurate to the source, the generated article contains significant elaboration beyond what the source provides and includes a misleading attribution reference."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 10
     },
     {
       "originalTitle": "Hundreds of Ponds Restored Across Iowa Bring This Endangered Fish Back, Along with 100s of Species",
@@ -1260,7 +1345,9 @@
         "confidence": "high",
         "summary": "The article is mostly accurate regarding the Topeka shiner conservation program, pond restoration, and nutrient runoff benefits. However, it makes an unsupported claim about hundreds of species benefiting and presents this as coming from 'the report' when this specific detail is not found in the provided source excerpt."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 11
     },
     {
       "originalTitle": "Lead Pollution Has Dropped 100-Fold in the U.S. Over the Last Century",
@@ -1288,7 +1375,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the original source are accurately represented: the 100-fold decline in lead pollution over the last century, the phasing out beginning in the 1970s due to health risks, lead being a neurotoxin that accumulates in human tissues, and its link to developmental deficits in children. The generated article expands with additional context and commentary but does not contradict or misrepresent any information from the source. No fabricated quotes or inaccurate attributions were found."
-      }
+      },
+      "approved": true,
+      "_index": 12
     },
     {
       "originalTitle": "Forgotten Centuries-Old Ball Game Making a Surprise Comeback After 50 years",
@@ -1316,7 +1405,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: knurr-and-spell is a centuries-old ball game from South Yorkshire pubs, it involves hitting clay balls and is similar to golf, it vanished by the 1970s, and is now making a comeback in its original villages after 50 years. No quotes were fabricated, all locations and timeframes match, and while the article uses creative language and elaboration, it doesn't make any unsupported factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 13
     },
     {
       "originalTitle": "Giant 5-ton eVTOL just aced a tricky flight test",
@@ -1344,7 +1435,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: AutoFlight's Matrix aircraft being the first 5-ton eVTOL, completing a full-transition flight demonstration at the Kunshan Civil UAV Flight Test & Operation Base in China, and AutoFlight being described as a multinational aviation company. No quotes were fabricated (none exist in source), and while the article includes additional context and explanations not in the source excerpt, these are clearly editorial additions rather than unsupported factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 14
     },
     {
       "originalTitle": "BMW ART MAKERS programme 2026 announces artist Lara Tabet and curator Yasmine Chemali as winners. A research-led artistic collaboration offering new perspectives on contemporary imagery, marking the bicentenary of photography from its invention by Nicéphore Niépce to its ongoing influence on contemporary artistic practice.",
@@ -1371,7 +1464,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. The €33,000 amount, project name 'Le corps vitré' (The Glass Body), winners' names (Lara Tabet and Yasmine Chemali), BMW Group France as the funding source, the bicentenary of photography, and Nicéphore Niépce as photography's inventor are all correctly stated. The article contains no fabricated quotes and appropriately acknowledges limitations in available information about the project details."
-      }
+      },
+      "approved": true,
+      "_index": 15
     }
   ]
 }
