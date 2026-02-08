@@ -231,6 +231,8 @@ async function curateBatch(articles, batchNum, totalBatches) {
 
   const prompt = `Review these ${articles.length} articles and select the BEST stories for a positive news site.
 
+IMPORTANT: Select at least 8-10 articles from this batch. We need a minimum of 30 articles total across all batches, so be generous in your selections while maintaining quality.
+
 SELECTION CRITERIA:
 1. Genuinely positive/constructive (not just "less bad" news)
 2. Significant and newsworthy
@@ -356,36 +358,42 @@ Excerpt: ${article.excerpt}
 Source: ${article.sourceName}
 URL: ${article.sourceUrl}
 
-WRITE IN WGAC VOICE:
-- Open with a hook that's warm and engaging
-- Explain the story like you're telling a friend
-- Use puns or wordplay if they fit naturally
-- Be optimistic but grounded
-- Keep it accessible - no jargon without explanation
+VOICE & TONE (This is crucial!):
+- Playful, warm, and conversational - like a witty friend sharing exciting news
+- Use puns and wordplay naturally (but don't force them)
+- Explain complex topics simply - "for those of us who snoozed through [subject]..."
+- Light humor and personality throughout
+- Optimistic without being naive
+- Accessible to everyone - no unexplained jargon
 
-IMPORTANT - VARIETY:
-- DO NOT start with self-deprecating humor about toilet paper or being a TP company
+IMPORTANT - VARIETY IN OPENINGS:
+- DO NOT reference toilet paper or being a TP company
 - DO NOT use the same opening structure for every article
-- Mix it up: lead with the key fact, a question, a surprising angle, or gentle humor
+- Mix it up: surprising angles, playful observations, intriguing questions
 - Each article should feel fresh and unique
 
 STRICT FACT RULES:
 - ONLY use facts from the source excerpt above
-- Do NOT invent statistics or numbers
-- Do NOT fabricate quotes
-- Do NOT make up names of researchers/experts
-- If the source is light on details, write shorter rather than padding with made-up info
-- Use "according to the report" when summarizing
+- Do NOT invent statistics, numbers, or percentages
+- Do NOT fabricate quotes or attribute words to anyone
+- Do NOT make up names of researchers/experts/organizations
+- If the source is light on details, keep it shorter rather than padding
+- Use "according to the report" when summarizing uncertain details
 
-STRUCTURE:
-- Lead: 2-3 sentences, hook the reader with personality
-- Body: 3-4 paragraphs, explain the story with warmth
-- Keep total length reasonable (matches ${article.readTime} min read time)
+STRUCTURE (aim for ~550 words total):
+1. Opening hook (1-2 paragraphs): Grab attention with personality. Can be playful, surprising, or intriguing.
+2. Subheading + explanation (2-3 paragraphs): What happened and why it matters. Use a punny or engaging subheading.
+3. Subheading + "Why this matters" (1-2 paragraphs): The bigger picture, why readers should care.
+4. Closing (1 paragraph): Wrap up with warmth, maybe a light callback or optimistic note.
 
 Return JSON:
 {
-  "lead": "Opening paragraph...",
-  "body": ["Paragraph 1...", "Paragraph 2...", "Paragraph 3..."],
+  "lead": "Opening 1-2 paragraphs with personality and hook...",
+  "body": [
+    {"subheading": "Punny or Engaging Subheading", "content": "2-3 paragraphs explaining the story..."},
+    {"subheading": "Why This Matters (or similar)", "content": "1-2 paragraphs on the bigger picture..."},
+    {"subheading": "The Bottom Line (or similar)", "content": "Warm closing paragraph..."}
+  ],
   "pullQuote": "A striking quote or fact from the source (ONLY if actually in source, otherwise null)"
 }`;
 

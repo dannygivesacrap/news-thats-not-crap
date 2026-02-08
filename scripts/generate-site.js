@@ -238,9 +238,24 @@ function generateArticleHTML(article) {
   // Get related articles (we'll populate this later)
   const fullContent = article.fullContent || { lead: article.excerpt, body: [], pullQuote: null };
 
-  // Build body paragraphs
+  // Build body paragraphs - handle both new format (objects with subheading/content) and old format (plain strings)
   const bodyParagraphs = (fullContent.body || [])
-    .map(p => `            <p>${escapeHtml(p)}</p>`)
+    .map(p => {
+      if (typeof p === 'string') {
+        // Old format: plain string paragraph
+        return `            <p>${escapeHtml(p)}</p>`;
+      } else if (p && typeof p === 'object') {
+        // New format: object with subheading and content
+        const subheading = p.subheading ? `            <h3>${escapeHtml(p.subheading)}</h3>\n` : '';
+        const content = (p.content || '')
+          .split('\n\n')
+          .filter(para => para.trim())
+          .map(para => `            <p>${escapeHtml(para.trim())}</p>`)
+          .join('\n\n');
+        return subheading + content;
+      }
+      return '';
+    })
     .join('\n\n');
 
   // Build pull quote if exists
@@ -342,6 +357,7 @@ function generateArticleHTML(article) {
         .article-lead { font-size: 1.35rem; line-height: 1.7; color: var(--dark); margin-bottom: 2rem; font-weight: 500; }
         .article-body p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; color: var(--gray-600); }
         .article-body h2 { font-family: var(--font-display); font-size: 1.75rem; font-weight: 900; margin: 3rem 0 1.5rem; color: var(--dark); }
+        .article-body h3 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; margin: 2.5rem 0 1rem; color: var(--dark); }
         .article-body blockquote { border-left: 4px solid var(--category-color); padding-left: 1.5rem; margin: 2rem 0; font-family: var(--font-serif); font-size: 1.4rem; font-style: italic; color: var(--dark); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
 
         .sources-box { margin-top: 3rem; padding: 2rem; background: var(--gray-100); border-left: 4px solid var(--category-color); border-radius: 0 var(--radius-md) var(--radius-md) 0; }
