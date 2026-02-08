@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-02-08T14:50:03.226Z",
+  "generatedAt": "2026-02-08T15:09:34.654Z",
+  "publishedAt": "2026-02-08T15:09:34.654Z",
   "homepage": {
     "hero": {
       "originalTitle": "Numbers of Rare Butterfly Eggs are Best on Record After Hedges are Allowed to Grow Wild",
@@ -27,7 +28,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: Brown Hairstreak butterfly eggs reached record numbers in Carmarthenshire, South Wales, after landowners let hedgerows grow wild, with volunteers from UK nonprofit Butterfly Conservation conducting the winter egg counts. No quotes were fabricated, all names and locations are correct, and while the article adds interpretive language and context, it doesn't make any unsupported factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     "featured": [
       {
@@ -57,7 +60,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. The 3,500-year timeframe, bio-molecular archaeology field, concept of 'molecular fingerprints,' and the ability for ancient objects to retain aromatic traces are all correctly stated. While the article expands with additional context and uses a more casual tone, no factual inaccuracies, fabricated quotes, or unsupported claims were found."
-        }
+        },
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "Something supercharged Uranus when Voyager 2 flew past",
@@ -85,7 +90,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source: Voyager 2's 1986 Uranus flyby, the extreme radiation levels that puzzled scientists for nearly 40 years, and the new research conclusion that this occurred during a rare solar wind event that flooded the planet's radiation belts with extra energy. While the article uses casual, conversational language and analogies not present in the source, it does not fabricate quotes, misstate facts, or make unsupported claims. All core information aligns with the original source material."
-        }
+        },
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "Office buzz: UK employers turn to beehives to boost workplace wellbeing",
@@ -113,7 +120,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the original source. It correctly cites The Guardian, accurately describes the geographic scope (Manchester to Milton Keynes), installation locations (rooftops, courtyards, car parks), the partnership with professional beekeepers, rising demand from providers, and the reported benefits (mental health, stress relief, community building, nature reconnection). No quotes were fabricated - the article paraphrases rather than quotes directly. The article adds commentary and creative language but does not introduce any unsupported factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 3
       },
       {
         "originalTitle": "This weird deep-sea creature was named by thousands of people online",
@@ -142,7 +151,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: the deep-sea creature discovery nearly three miles beneath the ocean surface, its appearance in a popular YouTube video, the global naming effort with over 8,000 suggestions, and the final name 'Ferreiraella populi' meaning 'of the people.' No quotes were fabricated, all statistics match, and no unsupported claims were made. The article adds contextual information about chitons and editorial commentary, but these additions don't contradict or misrepresent the source material."
-        }
+        },
+        "approved": true,
+        "_index": 4
       },
       {
         "originalTitle": "Solar Set to Surpass Coal in China, But There's a Catch",
@@ -171,7 +182,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: China's solar capacity surpassing coal for the first time this year, the China Electricity Council as the source, and the 50% figure for combined solar and wind capacity. The article appropriately distinguishes between installed capacity and actual generation, and no quotes were fabricated. All organization names and claims are properly supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
         "originalTitle": "A hidden Aloe vera compound takes aim at Alzheimer's",
@@ -200,7 +213,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies beta-sitosterol as the compound found in aloe vera, accurately describes the computer modeling methodology, and properly states that the compound interacts with two key enzymes involved in memory loss and cognitive decline. While the article uses more casual, engaging language and adds contextual information about aloe vera's common uses, it does not make any factual claims that contradict or go beyond what's supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 6
       },
       {
         "originalTitle": "Scientists found a gut compound that helps protect the liver",
@@ -228,7 +243,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies indole as a natural compound produced by gut bacteria, accurately describes the study involving mice whose mothers ate high-fat, high-sugar diets during pregnancy, and properly reports all the beneficial effects found: dramatic reduction in fatty liver disease, liver protection, improved blood sugar, limited weight gain, and lasting gut microbiome changes. While the article uses a more casual, engaging tone with creative analogies, it maintains factual accuracy throughout and does not make any unsupported claims or misattribute information."
-        }
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "LT3001 DEMONSTRATES FUNCTIONAL IMPROVEMENTS IN PATIENTS WITH DISABLING ACUTE ISCHEMIC STROKE",
@@ -256,7 +273,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the source. It correctly states that LT3001 underwent a Phase 2 trial, demonstrated meaningful functional improvements in patients with disabling acute ischemic stroke, and showed particular promise for patients ineligible for standard reperfusion therapies. No quotes were fabricated, all key claims are supported by the source material, and the medical terminology and drug name are accurate. The article adds contextual explanation about stroke types and reperfusion therapies that is medically accurate and helps reader understanding without contradicting the source."
-        }
+        },
+        "approved": true,
+        "_index": 8
       },
       {
         "originalTitle": "Novartis breaks ground on new global Biomedical Research center in San Diego to accelerate drug discovery",
@@ -284,7 +303,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All core facts in the generated article are accurate to the source material. The article correctly reports that Novartis broke ground on a new global Biomedical Research center in San Diego, California, that it's described as 'state-of-the-art,' features world-class scientific infrastructure, has drug-discovery capabilities, and is designed to advance research efforts. No quotes are fabricated (the article uses 'state-of-the-art' as a description rather than claiming it as a direct quote). While the article adds editorial commentary and context about San Diego's biotech scene, it doesn't make any unsupported factual claims about the facility itself."
-        }
+        },
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "This tiny molecular trick makes spider silk almost unbreakable",
@@ -313,7 +334,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual claims from the original source. Key facts are correctly stated: spider silk's strength comes from tiny molecular interactions acting like natural glue, these hold silk proteins together during liquid-to-fiber transformation, and spider silk is stronger than steel by weight and tougher than Kevlar. No quotes were fabricated, no statistics were misrepresented, and no unsupported claims were made. The article adds creative language and context but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 10
       },
       {
         "originalTitle": "Do eagles stay active during winter?",
@@ -341,7 +364,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key information from the original source. It correctly states that eagles remain actively hunting throughout winter, adapt their behavior and strategies to cold temperatures and altered food availability, and have evolved remarkable adaptations to stay successful predators in harsh conditions. The source is properly attributed to Lifesciencesworld.com, no quotes are fabricated, and all claims are supported by the original material."
-        }
+        },
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "Thiruvananthapuram airport achieves milestone of handling 4.5 lakh passengers in Jan 2026",
@@ -369,7 +394,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: the 4.5 lakh passenger figure, January 2026 timeframe, historic milestone nature, and that both international and domestic traffic crossed significant marks. The airport name and location details are correct. No direct quotes were claimed, and all information can be traced back to the original source."
-        }
+        },
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "Scientists find a missing link between Epstein-Barr virus and multiple sclerosis",
@@ -397,7 +424,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. It correctly states that Epstein-Barr virus may actively provoke the immune system in MS patients, mentions the large buildups of virus-targeting immune cells in MS patients' nervous systems, accurately reports that one viral gene was active only in people with MS, and properly notes that findings could guide new treatment approaches. No statistics, quotes, names, or organizations were mentioned in either text to verify. The article uses informal language and analogies but maintains factual accuracy throughout."
-        }
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "Physicists solve a quantum mystery that stumped scientists for decades",
@@ -425,7 +454,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Heidelberg University as the institution, accurately describes the breakthrough as uniting two incompatible views of exotic particle behavior in quantum matter, and properly explains the discovery about heavy particles making tiny movements that allow quasiparticles to emerge. While the article uses more casual language and analogies than the original, all factual claims are supported by the source material and no information is fabricated or misrepresented."
-        }
+        },
+        "approved": true,
+        "_index": 14
       }
     ]
   },
@@ -458,7 +489,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: China's solar capacity surpassing coal for the first time this year, the China Electricity Council as the source, and the 50% figure for combined solar and wind capacity. The article appropriately distinguishes between installed capacity and actual generation, and no quotes were fabricated. All organization names and claims are properly supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
         "originalTitle": "Peak Coal Expectations Return with 2025 Import Dip",
@@ -491,7 +524,9 @@
           "confidence": "high",
           "summary": "While the core facts about Asian coal import decline and peak coal speculation are accurate to the source, the article contains a significant temporal inconsistency and makes several interpretive claims that go well beyond what the source material supports."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 18
       },
       {
         "originalTitle": "New minister names forest protection as top 100-day KPI",
@@ -518,94 +553,12 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts are accurately represented: Minister's name and title are correct, forest protection as 100-day KPI is accurate, and the urgency emphasis matches the source. The article adds commentary and interpretation but doesn't fabricate quotes or misstate facts from the original source."
-        }
+        },
+        "approved": true,
+        "_index": 20
       }
     ],
     "health": [
-      {
-        "originalTitle": "Scientists find a missing link between Epstein-Barr virus and multiple sclerosis",
-        "headline": "Scientists Crack the Code: Missing Link Between Virus and MS Could Guide New Treatments",
-        "excerpt": "New research suggests that Epstein-Barr virus may actively provoke the immune system in people with multiple sclerosis. Scientists found large buildups of virus-targeting immune cells in the nervous systems of MS patients, with one viral gene active only in people with MS. The findings could help guide new approaches to treatment.",
-        "category": "health",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260206232245.htm",
-        "sourceName": "Science Daily",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "scientists-crack-the-code-missing-link-between-virus-and-ms",
-        "author": "Hope Springs",
-        "imageUrl": "https://images.pexels.com/photos/262488/pexels-photo-262488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the biggest breakthroughs come from connecting dots that were hiding in plain sight. Scientists have discovered what might be a crucial missing piece in understanding multiple sclerosis—and it involves a virus that's been lurking in most of our bodies all along.",
-          "body": [
-            "The culprit? Epstein-Barr virus, that sneaky little bug that causes mono and then typically goes dormant in our systems. New research suggests this virus might not be as quiet as we thought, especially in people with multiple sclerosis. According to the report, scientists found large buildups of virus-targeting immune cells in the nervous systems of MS patients—like the body's security team clustering around a suspicious character.",
-            "But here's where it gets really interesting: researchers discovered that one particular viral gene was active only in people with MS. Think of it as the virus raising its hand and saying 'present' specifically in MS patients, while staying silent in everyone else. This suggests the Epstein-Barr virus may be actively provoking the immune system in people with multiple sclerosis, rather than just being an innocent bystander.",
-            "The best part? These findings aren't just satisfying scientific curiosity—they could help guide new approaches to treatment. When you understand what's actually happening at the cellular level, you can start figuring out how to interrupt the troublemaking. It's like finally identifying the office gossip who's been stirring up drama; once you know who's causing the problem, you can start working on solutions."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the original source. It correctly states that Epstein-Barr virus may actively provoke the immune system in MS patients, mentions the large buildups of virus-targeting immune cells in MS patients' nervous systems, accurately reports that one viral gene was active only in people with MS, and properly notes that findings could guide new treatment approaches. No statistics, quotes, names, or organizations were mentioned in either text to verify. The article uses informal language and analogies but maintains factual accuracy throughout."
-        }
-      },
-      {
-        "originalTitle": "LT3001 DEMONSTRATES FUNCTIONAL IMPROVEMENTS IN PATIENTS WITH DISABLING ACUTE ISCHEMIC STROKE",
-        "headline": "Breakthrough Drug Shows Promise for Stroke Patients Left Behind by Standard Treatments",
-        "excerpt": "A Phase 2 trial of LT3001 demonstrated meaningful functional improvements in patients suffering from disabling acute ischemic stroke. The treatment showed particular promise for patients who are ineligible for standard reperfusion therapies, potentially offering hope where few options previously existed.",
-        "category": "health",
-        "sourceUrl": "https://www.prnewswire.co.uk/news-releases/lt3001-demonstrates-functional-improvements-in-patients-with-disabling-acute-ischemic-stroke-302681220.html",
-        "sourceName": "PR Newswire UK",
-        "readTime": 3,
-        "isHomepageFeatured": true,
-        "slug": "breakthrough-drug-shows-promise-for-stroke-patients-left-beh",
-        "author": "Vi Tality",
-        "imageUrl": "https://images.pexels.com/photos/12052485/pexels-photo-12052485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the most important breakthroughs happen when researchers refuse to give up on patients that others might write off. That's exactly what's happening with a new stroke treatment called LT3001, which just showed promising results for people who previously had very limited options.",
-          "body": [
-            "A Phase 2 trial of LT3001 has demonstrated meaningful functional improvements in patients suffering from disabling acute ischemic stroke. This type of stroke occurs when blood flow to part of the brain gets blocked, and it can leave people with significant disabilities that affect their daily lives.",
-            "What makes this particularly exciting is that the treatment showed special promise for patients who aren't eligible for standard reperfusion therapies – essentially, people who currently have few treatment options available to them. Reperfusion therapies work by restoring blood flow to affected brain areas, but they're not suitable or effective for everyone.",
-            "According to the report, this development could offer hope in situations where few options previously existed. For stroke patients and their families, having another potential tool in the medical toolkit represents a meaningful step forward in what can be a challenging journey toward recovery."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all factual information from the source. It correctly states that LT3001 underwent a Phase 2 trial, demonstrated meaningful functional improvements in patients with disabling acute ischemic stroke, and showed particular promise for patients ineligible for standard reperfusion therapies. No quotes were fabricated, all key claims are supported by the source material, and the medical terminology and drug name are accurate. The article adds contextual explanation about stroke types and reperfusion therapies that is medically accurate and helps reader understanding without contradicting the source."
-        }
-      },
-      {
-        "originalTitle": "Scientists found a gut compound that helps protect the liver",
-        "headline": "Gut Bacteria's Secret Weapon Could Shield Kids from Fatty Liver Disease",
-        "excerpt": "Scientists discovered that a natural compound called indole, produced by healthy gut bacteria, dramatically reduced fatty liver disease in mice whose mothers ate high-fat, high-sugar diets during pregnancy. The compound appeared to protect the liver, improve blood sugar, limit weight gain, and reshape the gut microbiome in lasting ways.",
-        "category": "health",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260208011028.htm",
-        "sourceName": "Science Daily Health",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "gut-bacterias-secret-weapon-could-shield-kids-from-fatty-liv",
-        "author": "Liv Long",
-        "imageUrl": "https://images.pexels.com/photos/7230408/pexels-photo-7230408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Here's a sentence we never thought we'd write: your gut bacteria might just be the unsung heroes of liver health. Scientists have discovered that a natural compound called indole, produced by our friendly gut microbes, could be a game-changer in protecting against fatty liver disease.",
-          "body": [
-            "The breakthrough came from research on mice whose mothers ate high-fat, high-sugar diets during pregnancy – basically the dietary equivalent of a never-ending holiday season. When these mice were given indole, the results were pretty remarkable: the compound dramatically reduced fatty liver disease and appeared to protect their livers in ways that could reshape how we think about gut-liver health.",
-            "But indole didn't stop at liver protection. According to the report, this gut-produced compound also improved blood sugar levels and helped limit weight gain in the mice. It's like having a tiny internal wellness coach, courtesy of your microbiome.",
-            "Perhaps most intriguingly, the compound seemed to reshape the gut microbiome itself in lasting ways. This suggests that indole might be creating a positive feedback loop – good bacteria produce indole, which then helps create conditions for even more beneficial gut health. It's the kind of biological teamwork that makes you want to high-five your microbes."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies indole as a natural compound produced by gut bacteria, accurately describes the study involving mice whose mothers ate high-fat, high-sugar diets during pregnancy, and properly reports all the beneficial effects found: dramatic reduction in fatty liver disease, liver protection, improved blood sugar, limited weight gain, and lasting gut microbiome changes. While the article uses a more casual, engaging tone with creative analogies, it maintains factual accuracy throughout and does not make any unsupported claims or misattribute information."
-        }
-      },
       {
         "originalTitle": "A hidden Aloe vera compound takes aim at Alzheimer's",
         "headline": "Aloe There, Alzheimer's: Plant Compound Shows Promise Against Memory Loss",
@@ -633,7 +586,99 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies beta-sitosterol as the compound found in aloe vera, accurately describes the computer modeling methodology, and properly states that the compound interacts with two key enzymes involved in memory loss and cognitive decline. While the article uses more casual, engaging language and adds contextual information about aloe vera's common uses, it does not make any factual claims that contradict or go beyond what's supported by the source material."
-        }
+        },
+        "approved": true,
+        "_index": 6
+      },
+      {
+        "originalTitle": "Scientists found a gut compound that helps protect the liver",
+        "headline": "Gut Bacteria's Secret Weapon Could Shield Kids from Fatty Liver Disease",
+        "excerpt": "Scientists discovered that a natural compound called indole, produced by healthy gut bacteria, dramatically reduced fatty liver disease in mice whose mothers ate high-fat, high-sugar diets during pregnancy. The compound appeared to protect the liver, improve blood sugar, limit weight gain, and reshape the gut microbiome in lasting ways.",
+        "category": "health",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260208011028.htm",
+        "sourceName": "Science Daily Health",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "gut-bacterias-secret-weapon-could-shield-kids-from-fatty-liv",
+        "author": "Liv Long",
+        "imageUrl": "https://images.pexels.com/photos/7230408/pexels-photo-7230408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Here's a sentence we never thought we'd write: your gut bacteria might just be the unsung heroes of liver health. Scientists have discovered that a natural compound called indole, produced by our friendly gut microbes, could be a game-changer in protecting against fatty liver disease.",
+          "body": [
+            "The breakthrough came from research on mice whose mothers ate high-fat, high-sugar diets during pregnancy – basically the dietary equivalent of a never-ending holiday season. When these mice were given indole, the results were pretty remarkable: the compound dramatically reduced fatty liver disease and appeared to protect their livers in ways that could reshape how we think about gut-liver health.",
+            "But indole didn't stop at liver protection. According to the report, this gut-produced compound also improved blood sugar levels and helped limit weight gain in the mice. It's like having a tiny internal wellness coach, courtesy of your microbiome.",
+            "Perhaps most intriguingly, the compound seemed to reshape the gut microbiome itself in lasting ways. This suggests that indole might be creating a positive feedback loop – good bacteria produce indole, which then helps create conditions for even more beneficial gut health. It's the kind of biological teamwork that makes you want to high-five your microbes."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies indole as a natural compound produced by gut bacteria, accurately describes the study involving mice whose mothers ate high-fat, high-sugar diets during pregnancy, and properly reports all the beneficial effects found: dramatic reduction in fatty liver disease, liver protection, improved blood sugar, limited weight gain, and lasting gut microbiome changes. While the article uses a more casual, engaging tone with creative analogies, it maintains factual accuracy throughout and does not make any unsupported claims or misattribute information."
+        },
+        "approved": true,
+        "_index": 7
+      },
+      {
+        "originalTitle": "LT3001 DEMONSTRATES FUNCTIONAL IMPROVEMENTS IN PATIENTS WITH DISABLING ACUTE ISCHEMIC STROKE",
+        "headline": "Breakthrough Drug Shows Promise for Stroke Patients Left Behind by Standard Treatments",
+        "excerpt": "A Phase 2 trial of LT3001 demonstrated meaningful functional improvements in patients suffering from disabling acute ischemic stroke. The treatment showed particular promise for patients who are ineligible for standard reperfusion therapies, potentially offering hope where few options previously existed.",
+        "category": "health",
+        "sourceUrl": "https://www.prnewswire.co.uk/news-releases/lt3001-demonstrates-functional-improvements-in-patients-with-disabling-acute-ischemic-stroke-302681220.html",
+        "sourceName": "PR Newswire UK",
+        "readTime": 3,
+        "isHomepageFeatured": true,
+        "slug": "breakthrough-drug-shows-promise-for-stroke-patients-left-beh",
+        "author": "Vi Tality",
+        "imageUrl": "https://images.pexels.com/photos/12052485/pexels-photo-12052485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the most important breakthroughs happen when researchers refuse to give up on patients that others might write off. That's exactly what's happening with a new stroke treatment called LT3001, which just showed promising results for people who previously had very limited options.",
+          "body": [
+            "A Phase 2 trial of LT3001 has demonstrated meaningful functional improvements in patients suffering from disabling acute ischemic stroke. This type of stroke occurs when blood flow to part of the brain gets blocked, and it can leave people with significant disabilities that affect their daily lives.",
+            "What makes this particularly exciting is that the treatment showed special promise for patients who aren't eligible for standard reperfusion therapies – essentially, people who currently have few treatment options available to them. Reperfusion therapies work by restoring blood flow to affected brain areas, but they're not suitable or effective for everyone.",
+            "According to the report, this development could offer hope in situations where few options previously existed. For stroke patients and their families, having another potential tool in the medical toolkit represents a meaningful step forward in what can be a challenging journey toward recovery."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all factual information from the source. It correctly states that LT3001 underwent a Phase 2 trial, demonstrated meaningful functional improvements in patients with disabling acute ischemic stroke, and showed particular promise for patients ineligible for standard reperfusion therapies. No quotes were fabricated, all key claims are supported by the source material, and the medical terminology and drug name are accurate. The article adds contextual explanation about stroke types and reperfusion therapies that is medically accurate and helps reader understanding without contradicting the source."
+        },
+        "approved": true,
+        "_index": 8
+      },
+      {
+        "originalTitle": "Scientists find a missing link between Epstein-Barr virus and multiple sclerosis",
+        "headline": "Scientists Crack the Code: Missing Link Between Virus and MS Could Guide New Treatments",
+        "excerpt": "New research suggests that Epstein-Barr virus may actively provoke the immune system in people with multiple sclerosis. Scientists found large buildups of virus-targeting immune cells in the nervous systems of MS patients, with one viral gene active only in people with MS. The findings could help guide new approaches to treatment.",
+        "category": "health",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260206232245.htm",
+        "sourceName": "Science Daily",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "scientists-crack-the-code-missing-link-between-virus-and-ms",
+        "author": "Hope Springs",
+        "imageUrl": "https://images.pexels.com/photos/262488/pexels-photo-262488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the biggest breakthroughs come from connecting dots that were hiding in plain sight. Scientists have discovered what might be a crucial missing piece in understanding multiple sclerosis—and it involves a virus that's been lurking in most of our bodies all along.",
+          "body": [
+            "The culprit? Epstein-Barr virus, that sneaky little bug that causes mono and then typically goes dormant in our systems. New research suggests this virus might not be as quiet as we thought, especially in people with multiple sclerosis. According to the report, scientists found large buildups of virus-targeting immune cells in the nervous systems of MS patients—like the body's security team clustering around a suspicious character.",
+            "But here's where it gets really interesting: researchers discovered that one particular viral gene was active only in people with MS. Think of it as the virus raising its hand and saying 'present' specifically in MS patients, while staying silent in everyone else. This suggests the Epstein-Barr virus may be actively provoking the immune system in people with multiple sclerosis, rather than just being an innocent bystander.",
+            "The best part? These findings aren't just satisfying scientific curiosity—they could help guide new approaches to treatment. When you understand what's actually happening at the cellular level, you can start figuring out how to interrupt the troublemaking. It's like finally identifying the office gossip who's been stirring up drama; once you know who's causing the problem, you can start working on solutions."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the original source. It correctly states that Epstein-Barr virus may actively provoke the immune system in MS patients, mentions the large buildups of virus-targeting immune cells in MS patients' nervous systems, accurately reports that one viral gene was active only in people with MS, and properly notes that findings could guide new treatment approaches. No statistics, quotes, names, or organizations were mentioned in either text to verify. The article uses informal language and analogies but maintains factual accuracy throughout."
+        },
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "Hemex Health Receives FDA Breakthrough Device Designation for Gazelle® Hb Variant Test",
@@ -665,7 +710,9 @@
           "confidence": "high",
           "summary": "While the core facts (company name, device name, FDA designation, and general purpose) are accurate, the article contains several unsupported claims including statistics about sickle cell disease prevalence and detailed explanations of FDA processes not present in the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 15
       },
       {
         "originalTitle": "Why colorectal cancer breaks the immune system's rules",
@@ -693,28 +740,31 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all key facts from the original source. It correctly explains that colorectal cancer patients do better when their tumors contain regulatory T cells (unlike other cancers), that scientists have been puzzled by this phenomenon, and that new research reveals these T cells 'aren't always what they seem.' The article properly attributes the research to Science Daily and doesn't fabricate any quotes, statistics, or specific details not present in the source. The casual, accessible writing style doesn't compromise factual accuracy."
-        }
+        },
+        "approved": true,
+        "_index": 17
       }
     ],
     "science": [
       {
-        "originalTitle": "Physicists solve a quantum mystery that stumped scientists for decades",
-        "headline": "Quantum Mystery Finally Solved After Decades of Head-Scratching",
-        "excerpt": "Physicists at Heidelberg University have developed a new theory that finally unites two long-standing and seemingly incompatible views of how exotic particles behave inside quantum matter. The new framework shows these are not opposing realities after all, revealing how even very heavy particles can make tiny movements that allow quasiparticles to emerge.",
+        "originalTitle": "Scents From 3,500 Years Ago Recreated to Give Museum Visitors a Whiff of History",
+        "headline": "Making Scents of History: Scientists Bring 3,500-Year-Old Aromas Back to Life",
+        "excerpt": "Bio-molecular archaeology can bring ancient odors to life and allow people to breathe in the past. Advances in the field have shown that ancient objects can retain the 'molecular fingerprints' of past aromatic practices, giving museum visitors a whiff of history.",
         "category": "science",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260208011010.htm",
-        "sourceName": "Science Daily",
+        "sourceUrl": "https://www.goodnewsnetwork.org/scents-from-3500-years-ago-recreated-to-give-museum-visitors-a-whiff-of-history/",
+        "sourceName": "Good News Network",
         "readTime": 5,
         "isHomepageFeatured": true,
-        "slug": "quantum-mystery-finally-solved-after-decades-of-head-scratch",
+        "slug": "making-scents-of-history-scientists-bring-3500-year-old-arom",
         "author": "Al Gorithm",
-        "imageUrl": "https://images.pexels.com/photos/18498316/pexels-photo-18498316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "imageUrl": "https://images.pexels.com/photos/3735715/pexels-photo-3735715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Sometimes the biggest breakthroughs come from realizing that two things you thought were fighting were actually best friends all along. That's exactly what happened when physicists at Heidelberg University cracked a quantum puzzle that had been stumping scientists for decades.",
+          "lead": "What if you could literally smell history? Thanks to some seriously clever scientists, museum visitors can now catch a whiff of scents from 3,500 years ago – and trust us, this is way cooler than it sounds.",
           "body": [
-            "For years, researchers have been scratching their heads over two completely different explanations for how exotic particles behave inside quantum matter. It was like having two expert witnesses giving totally contradictory testimony about the same event – both seemed right, but they couldn't possibly both be true. Or so everyone thought.",
-            "The Heidelberg team developed a brilliant new theoretical framework that shows these aren't competing explanations at all. According to the report, their theory reveals how even very heavy particles can make tiny movements that allow something called quasiparticles to emerge. Think of it like discovering that what looked like a heated argument between two people was actually an intricate dance they'd been performing together the whole time.",
-            "What makes this discovery so exciting isn't just that it solves a long-standing mystery – it's that it opens up new ways of understanding the quantum world. When scientists can finally see how seemingly opposite ideas actually work together, it usually means we're about to learn a whole lot more about how the universe really ticks."
+            "Bio-molecular archaeology is making the impossible possible, bringing ancient odors back to life so people can actually breathe in the past. It's like time travel, but for your nose.",
+            "The science behind this aromatic archaeology is fascinating: advances in the field have revealed that ancient objects can retain what researchers call 'molecular fingerprints' of past aromatic practices. Basically, old stuff remembers how it used to smell, and we've figured out how to unlock those memories.",
+            "This breakthrough means museum visitors don't just have to imagine what ancient civilizations were like – they can actually experience one of the most powerful senses that connects us to memory and place. Whether it's incense from ancient temples or perfumes from long-lost cultures, these recreated scents are giving us a whole new way to connect with our ancestors.",
+            "It's pretty amazing to think that something as fleeting as a smell can survive thousands of years, just waiting for the right technology to bring it back. Who knows? Maybe the next time you visit a museum, you'll walk away not just with new knowledge, but with the actual scent of history lingering in your memory."
           ],
           "pullQuote": null
         },
@@ -722,8 +772,70 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Heidelberg University as the institution, accurately describes the breakthrough as uniting two incompatible views of exotic particle behavior in quantum matter, and properly explains the discovery about heavy particles making tiny movements that allow quasiparticles to emerge. While the article uses more casual language and analogies than the original, all factual claims are supported by the source material and no information is fabricated or misrepresented."
-        }
+          "summary": "The generated article accurately represents all key facts from the source material. The 3,500-year timeframe, bio-molecular archaeology field, concept of 'molecular fingerprints,' and the ability for ancient objects to retain aromatic traces are all correctly stated. While the article expands with additional context and uses a more casual tone, no factual inaccuracies, fabricated quotes, or unsupported claims were found."
+        },
+        "approved": true,
+        "_index": 1
+      },
+      {
+        "originalTitle": "Something supercharged Uranus when Voyager 2 flew past",
+        "headline": "Mystery Solved: Why Uranus Looked So Strange When Voyager 2 Dropped By",
+        "excerpt": "Voyager 2's flyby of Uranus in 1986 recorded radiation levels so extreme they baffled scientists for nearly 40 years. New research suggests the spacecraft caught Uranus during a rare solar wind event that flooded the planet's radiation belts with extra energy.",
+        "category": "science",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260206012217.htm",
+        "sourceName": "Science Daily",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "mystery-solved-why-uranus-looked-so-strange-when-voyager-2-d",
+        "author": "Flora Fauna",
+        "imageUrl": "https://images.pexels.com/photos/8369518/pexels-photo-8369518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Sometimes the universe serves up mysteries that take decades to solve, and Voyager 2's puzzling encounter with Uranus is a perfect example. When the spacecraft zipped past the ice giant in 1986, it recorded radiation levels so bonkers that scientists have been scratching their heads for nearly 40 years.",
+          "body": [
+            "Picture this: you're cruising through the solar system on humanity's most ambitious road trip, and suddenly your instruments start going haywire around one particular planet. That's essentially what happened when Voyager 2 made its historic flyby of Uranus, detecting radiation readings that seemed way too extreme for what scientists expected from the chilly, distant world.",
+            "For almost four decades, researchers have been trying to figure out what the heck was going on. Was there something fundamentally wrong with our understanding of Uranus? Did the spacecraft's instruments malfunction? Turns out, according to new research, Voyager 2 just happened to show up at exactly the wrong (or right, depending on your perspective) time.",
+            "The latest findings suggest that our robotic explorer caught Uranus during a rare solar wind event that absolutely flooded the planet's radiation belts with extra energy. It's like walking into a normally quiet library during the one day they're hosting a rock concert – the timing was spectacularly unusual, which explains why the readings seemed so out of whack with what we thought we knew about the seventh planet from the sun."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately represents all key facts from the source: Voyager 2's 1986 Uranus flyby, the extreme radiation levels that puzzled scientists for nearly 40 years, and the new research conclusion that this occurred during a rare solar wind event that flooded the planet's radiation belts with extra energy. While the article uses casual, conversational language and analogies not present in the source, it does not fabricate quotes, misstate facts, or make unsupported claims. All core information aligns with the original source material."
+        },
+        "approved": true,
+        "_index": 2
+      },
+      {
+        "originalTitle": "Novartis breaks ground on new global Biomedical Research center in San Diego to accelerate drug discovery",
+        "headline": "Pharma Giant Plants Seeds for Next Generation of Life-Saving Drugs",
+        "excerpt": "Novartis broke ground on a new, state-of-the-art global Biomedical Research center in San Diego, California. The facility is designed to provide world-class scientific infrastructure and drug-discovery capabilities to advance the company's research efforts.",
+        "category": "science",
+        "sourceUrl": "https://www.globenewswire.com/news-release/2026/02/06/3234004/0/en/Novartis-breaks-ground-on-new-global-Biomedical-Research-center-in-San-Diego-to-accelerate-drug-discovery.html",
+        "sourceName": "GlobeNewswire",
+        "readTime": 3,
+        "isHomepageFeatured": true,
+        "slug": "pharma-giant-plants-seeds-for-next-generation-of-life-saving",
+        "author": "Flora Fauna",
+        "imageUrl": "https://images.pexels.com/photos/8851255/pexels-photo-8851255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "When it comes to discovering the next breakthrough medicine, location matters almost as much as innovation. Novartis just made a big bet on sunny San Diego, breaking ground on a brand-new global Biomedical Research center that's designed to turbocharge their drug discovery efforts.",
+          "body": [
+            "The pharmaceutical giant is building what they're calling a \"state-of-the-art\" facility in California, complete with world-class scientific infrastructure that sounds like something straight out of a sci-fi movie (but hopefully with better outcomes than most sci-fi labs tend to deliver).",
+            "This isn't just another corporate office building with fancy coffee machines – this is a purpose-built drug-discovery powerhouse. The new center is specifically designed to advance Novartis's research efforts, meaning scientists will have access to cutting-edge tools and technology that could help them develop the medicines of tomorrow.",
+            "San Diego has become something of a biotech hotspot in recent years, so Novartis is planting their flag in fertile ground. With this new facility, they're not just expanding their footprint – they're investing in the kind of infrastructure that could lead to genuine medical breakthroughs. And in a world where we're all hoping for better treatments and cures, that's exactly the kind of construction project we love to see breaking ground."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "All core facts in the generated article are accurate to the source material. The article correctly reports that Novartis broke ground on a new global Biomedical Research center in San Diego, California, that it's described as 'state-of-the-art,' features world-class scientific infrastructure, has drug-discovery capabilities, and is designed to advance research efforts. No quotes are fabricated (the article uses 'state-of-the-art' as a description rather than claiming it as a direct quote). While the article adds editorial commentary and context about San Diego's biotech scene, it doesn't make any unsupported factual claims about the facility itself."
+        },
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "This tiny molecular trick makes spider silk almost unbreakable",
@@ -752,83 +864,28 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual claims from the original source. Key facts are correctly stated: spider silk's strength comes from tiny molecular interactions acting like natural glue, these hold silk proteins together during liquid-to-fiber transformation, and spider silk is stronger than steel by weight and tougher than Kevlar. No quotes were fabricated, no statistics were misrepresented, and no unsupported claims were made. The article adds creative language and context but maintains factual accuracy throughout."
-        }
-      },
-      {
-        "originalTitle": "Novartis breaks ground on new global Biomedical Research center in San Diego to accelerate drug discovery",
-        "headline": "Pharma Giant Plants Seeds for Next Generation of Life-Saving Drugs",
-        "excerpt": "Novartis broke ground on a new, state-of-the-art global Biomedical Research center in San Diego, California. The facility is designed to provide world-class scientific infrastructure and drug-discovery capabilities to advance the company's research efforts.",
-        "category": "science",
-        "sourceUrl": "https://www.globenewswire.com/news-release/2026/02/06/3234004/0/en/Novartis-breaks-ground-on-new-global-Biomedical-Research-center-in-San-Diego-to-accelerate-drug-discovery.html",
-        "sourceName": "GlobeNewswire",
-        "readTime": 3,
-        "isHomepageFeatured": true,
-        "slug": "pharma-giant-plants-seeds-for-next-generation-of-life-saving",
-        "author": "Flora Fauna",
-        "imageUrl": "https://images.pexels.com/photos/8851255/pexels-photo-8851255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "When it comes to discovering the next breakthrough medicine, location matters almost as much as innovation. Novartis just made a big bet on sunny San Diego, breaking ground on a brand-new global Biomedical Research center that's designed to turbocharge their drug discovery efforts.",
-          "body": [
-            "The pharmaceutical giant is building what they're calling a \"state-of-the-art\" facility in California, complete with world-class scientific infrastructure that sounds like something straight out of a sci-fi movie (but hopefully with better outcomes than most sci-fi labs tend to deliver).",
-            "This isn't just another corporate office building with fancy coffee machines – this is a purpose-built drug-discovery powerhouse. The new center is specifically designed to advance Novartis's research efforts, meaning scientists will have access to cutting-edge tools and technology that could help them develop the medicines of tomorrow.",
-            "San Diego has become something of a biotech hotspot in recent years, so Novartis is planting their flag in fertile ground. With this new facility, they're not just expanding their footprint – they're investing in the kind of infrastructure that could lead to genuine medical breakthroughs. And in a world where we're all hoping for better treatments and cures, that's exactly the kind of construction project we love to see breaking ground."
-          ],
-          "pullQuote": null
         },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "All core facts in the generated article are accurate to the source material. The article correctly reports that Novartis broke ground on a new global Biomedical Research center in San Diego, California, that it's described as 'state-of-the-art,' features world-class scientific infrastructure, has drug-discovery capabilities, and is designed to advance research efforts. No quotes are fabricated (the article uses 'state-of-the-art' as a description rather than claiming it as a direct quote). While the article adds editorial commentary and context about San Diego's biotech scene, it doesn't make any unsupported factual claims about the facility itself."
-        }
+        "approved": true,
+        "_index": 10
       },
       {
-        "originalTitle": "Something supercharged Uranus when Voyager 2 flew past",
-        "headline": "Mystery Solved: Why Uranus Looked So Strange When Voyager 2 Dropped By",
-        "excerpt": "Voyager 2's flyby of Uranus in 1986 recorded radiation levels so extreme they baffled scientists for nearly 40 years. New research suggests the spacecraft caught Uranus during a rare solar wind event that flooded the planet's radiation belts with extra energy.",
+        "originalTitle": "Physicists solve a quantum mystery that stumped scientists for decades",
+        "headline": "Quantum Mystery Finally Solved After Decades of Head-Scratching",
+        "excerpt": "Physicists at Heidelberg University have developed a new theory that finally unites two long-standing and seemingly incompatible views of how exotic particles behave inside quantum matter. The new framework shows these are not opposing realities after all, revealing how even very heavy particles can make tiny movements that allow quasiparticles to emerge.",
         "category": "science",
-        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260206012217.htm",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260208011010.htm",
         "sourceName": "Science Daily",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "mystery-solved-why-uranus-looked-so-strange-when-voyager-2-d",
-        "author": "Flora Fauna",
-        "imageUrl": "https://images.pexels.com/photos/8369518/pexels-photo-8369518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Sometimes the universe serves up mysteries that take decades to solve, and Voyager 2's puzzling encounter with Uranus is a perfect example. When the spacecraft zipped past the ice giant in 1986, it recorded radiation levels so bonkers that scientists have been scratching their heads for nearly 40 years.",
-          "body": [
-            "Picture this: you're cruising through the solar system on humanity's most ambitious road trip, and suddenly your instruments start going haywire around one particular planet. That's essentially what happened when Voyager 2 made its historic flyby of Uranus, detecting radiation readings that seemed way too extreme for what scientists expected from the chilly, distant world.",
-            "For almost four decades, researchers have been trying to figure out what the heck was going on. Was there something fundamentally wrong with our understanding of Uranus? Did the spacecraft's instruments malfunction? Turns out, according to new research, Voyager 2 just happened to show up at exactly the wrong (or right, depending on your perspective) time.",
-            "The latest findings suggest that our robotic explorer caught Uranus during a rare solar wind event that absolutely flooded the planet's radiation belts with extra energy. It's like walking into a normally quiet library during the one day they're hosting a rock concert – the timing was spectacularly unusual, which explains why the readings seemed so out of whack with what we thought we knew about the seventh planet from the sun."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source: Voyager 2's 1986 Uranus flyby, the extreme radiation levels that puzzled scientists for nearly 40 years, and the new research conclusion that this occurred during a rare solar wind event that flooded the planet's radiation belts with extra energy. While the article uses casual, conversational language and analogies not present in the source, it does not fabricate quotes, misstate facts, or make unsupported claims. All core information aligns with the original source material."
-        }
-      },
-      {
-        "originalTitle": "Scents From 3,500 Years Ago Recreated to Give Museum Visitors a Whiff of History",
-        "headline": "Making Scents of History: Scientists Bring 3,500-Year-Old Aromas Back to Life",
-        "excerpt": "Bio-molecular archaeology can bring ancient odors to life and allow people to breathe in the past. Advances in the field have shown that ancient objects can retain the 'molecular fingerprints' of past aromatic practices, giving museum visitors a whiff of history.",
-        "category": "science",
-        "sourceUrl": "https://www.goodnewsnetwork.org/scents-from-3500-years-ago-recreated-to-give-museum-visitors-a-whiff-of-history/",
-        "sourceName": "Good News Network",
         "readTime": 5,
         "isHomepageFeatured": true,
-        "slug": "making-scents-of-history-scientists-bring-3500-year-old-arom",
+        "slug": "quantum-mystery-finally-solved-after-decades-of-head-scratch",
         "author": "Al Gorithm",
-        "imageUrl": "https://images.pexels.com/photos/3735715/pexels-photo-3735715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "imageUrl": "https://images.pexels.com/photos/18498316/pexels-photo-18498316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "What if you could literally smell history? Thanks to some seriously clever scientists, museum visitors can now catch a whiff of scents from 3,500 years ago – and trust us, this is way cooler than it sounds.",
+          "lead": "Sometimes the biggest breakthroughs come from realizing that two things you thought were fighting were actually best friends all along. That's exactly what happened when physicists at Heidelberg University cracked a quantum puzzle that had been stumping scientists for decades.",
           "body": [
-            "Bio-molecular archaeology is making the impossible possible, bringing ancient odors back to life so people can actually breathe in the past. It's like time travel, but for your nose.",
-            "The science behind this aromatic archaeology is fascinating: advances in the field have revealed that ancient objects can retain what researchers call 'molecular fingerprints' of past aromatic practices. Basically, old stuff remembers how it used to smell, and we've figured out how to unlock those memories.",
-            "This breakthrough means museum visitors don't just have to imagine what ancient civilizations were like – they can actually experience one of the most powerful senses that connects us to memory and place. Whether it's incense from ancient temples or perfumes from long-lost cultures, these recreated scents are giving us a whole new way to connect with our ancestors.",
-            "It's pretty amazing to think that something as fleeting as a smell can survive thousands of years, just waiting for the right technology to bring it back. Who knows? Maybe the next time you visit a museum, you'll walk away not just with new knowledge, but with the actual scent of history lingering in your memory."
+            "For years, researchers have been scratching their heads over two completely different explanations for how exotic particles behave inside quantum matter. It was like having two expert witnesses giving totally contradictory testimony about the same event – both seemed right, but they couldn't possibly both be true. Or so everyone thought.",
+            "The Heidelberg team developed a brilliant new theoretical framework that shows these aren't competing explanations at all. According to the report, their theory reveals how even very heavy particles can make tiny movements that allow something called quasiparticles to emerge. Think of it like discovering that what looked like a heated argument between two people was actually an intricate dance they'd been performing together the whole time.",
+            "What makes this discovery so exciting isn't just that it solves a long-standing mystery – it's that it opens up new ways of understanding the quantum world. When scientists can finally see how seemingly opposite ideas actually work together, it usually means we're about to learn a whole lot more about how the universe really ticks."
           ],
           "pullQuote": null
         },
@@ -836,8 +893,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately represents all key facts from the source material. The 3,500-year timeframe, bio-molecular archaeology field, concept of 'molecular fingerprints,' and the ability for ancient objects to retain aromatic traces are all correctly stated. While the article expands with additional context and uses a more casual tone, no factual inaccuracies, fabricated quotes, or unsupported claims were found."
-        }
+          "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Heidelberg University as the institution, accurately describes the breakthrough as uniting two incompatible views of exotic particle behavior in quantum matter, and properly explains the discovery about heavy particles making tiny movements that allow quasiparticles to emerge. While the article uses more casual language and analogies than the original, all factual claims are supported by the source material and no information is fabricated or misrepresented."
+        },
+        "approved": true,
+        "_index": 14
       },
       {
         "originalTitle": "The Collaboration that Brought you the First Image of a Black Hole Just Released Photos of its Massive Jet",
@@ -870,28 +929,30 @@
           "confidence": "high",
           "summary": "While the core facts about the Event Horizon Telescope collaboration, Messier 87 galaxy, new data release, and radio light measurements are accurate, the article makes several unsupported claims about photos/images of jets and includes contextual information about the 2019 breakthrough that isn't present in the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 16
       }
     ],
     "wildlife": [
       {
-        "originalTitle": "Do eagles stay active during winter?",
-        "headline": "Winter Warriors: How Eagles Master the Cold Season Hunt",
-        "excerpt": "Eagles remain actively hunting and thriving throughout the winter months, though their behavior and strategies adapt significantly to the colder temperatures and altered food availability. These magnificent birds have evolved remarkable adaptations to stay successful predators even in harsh winter conditions.",
+        "originalTitle": "Numbers of Rare Butterfly Eggs are Best on Record After Hedges are Allowed to Grow Wild",
+        "headline": "Wild About Results: Rare Butterfly Eggs Hit Record High When Hedges Go Au Naturel",
+        "excerpt": "Numbers of rare butterfly eggs have skyrocketed in South Wales after landowners let their hedgerows grow wild. Volunteers for the UK nonprofit Butterfly Conservation have counted record tallies of Brown Hairstreak eggs this winter around the Welsh county of Carmarthenshire.",
         "category": "wildlife",
-        "sourceUrl": "https://www.lifesciencesworld.com/do-eagles-stay-active-during-winter/",
-        "sourceName": "Lifesciencesworld.com",
+        "sourceUrl": "https://www.goodnewsnetwork.org/numbers-of-rare-butterfly-eggs-are-best-on-record-after-hedges-allowed-to-grow-wild/",
+        "sourceName": "Good News Network",
         "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "winter-warriors-how-eagles-master-the-cold-season-hunt",
-        "author": "Buck Wild",
-        "imageUrl": "https://images.pexels.com/photos/7152827/pexels-photo-7152827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "isHomepageHero": true,
+        "slug": "wild-about-results-rare-butterfly-eggs-hit-record-high-when",
+        "author": "Coral Bay",
+        "imageUrl": "https://images.pexels.com/photos/7722490/pexels-photo-7722490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "While many of us are bundling up and dreaming of hibernation, eagles are out there living their best winter lives. These magnificent birds don't just survive the cold months – they actively thrive, adapting their hunting strategies and behavior to stay successful predators even when temperatures drop.",
+          "lead": "Sometimes the best conservation strategy is simply stepping back and letting nature do its thing. That's exactly what's happening in South Wales, where a hands-off approach to hedge maintenance has led to a butterfly bonanza that's breaking records.",
           "body": [
-            "According to research from Lifesciencesworld.com, eagles remain actively hunting throughout winter, proving that nature's apex predators don't believe in taking a seasonal break. Rather than retreating or going dormant like some wildlife, these impressive birds have evolved remarkable adaptations that keep them soaring and hunting successfully.",
-            "The secret to their winter success lies in their ability to adapt. Eagles significantly adjust both their behavior and hunting strategies when faced with colder temperatures and changes in food availability. It's like watching a master chef work with whatever ingredients are in season – these birds know how to make the most of what winter offers.",
-            "This adaptability showcases just how resilient and intelligent these magnificent creatures truly are. While winter presents obvious challenges with altered food sources and harsh conditions, eagles have turned these obstacles into just another part of their year-round hunting game plan, continuing to demonstrate why they've earned their reputation as some of nature's most successful predators."
+            "Numbers of rare Brown Hairstreak butterfly eggs have absolutely soared in the Welsh county of Carmarthenshire, all thanks to landowners who decided to let their hedgerows grow wild instead of keeping them neatly trimmed. It's a perfect example of how what looks 'messy' to human eyes can be a five-star hotel for wildlife.",
+            "Volunteers for the UK nonprofit Butterfly Conservation have been out this winter doing the important (if slightly tedious) work of counting butterfly eggs, and their tallies are the best on record. The Brown Hairstreak is particularly picky about where it lays its eggs, and apparently wild, unmanaged hedgerows are exactly what these butterflies have been looking for.",
+            "This success story is a beautiful reminder that sometimes conservation doesn't require expensive interventions or complex management plans. Sometimes it just requires giving wildlife the space to thrive – even if that means letting things get a little wild around the edges."
           ],
           "pullQuote": null
         },
@@ -899,8 +960,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately reflects all key information from the original source. It correctly states that eagles remain actively hunting throughout winter, adapt their behavior and strategies to cold temperatures and altered food availability, and have evolved remarkable adaptations to stay successful predators in harsh conditions. The source is properly attributed to Lifesciencesworld.com, no quotes are fabricated, and all claims are supported by the original material."
-        }
+          "summary": "The generated article accurately reflects all key facts from the source: Brown Hairstreak butterfly eggs reached record numbers in Carmarthenshire, South Wales, after landowners let hedgerows grow wild, with volunteers from UK nonprofit Butterfly Conservation conducting the winter egg counts. No quotes were fabricated, all names and locations are correct, and while the article adds interpretive language and context, it doesn't make any unsupported factual claims."
+        },
+        "approved": true,
+        "_index": 0
       },
       {
         "originalTitle": "This weird deep-sea creature was named by thousands of people online",
@@ -929,26 +992,28 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately presents all key facts from the source: the deep-sea creature discovery nearly three miles beneath the ocean surface, its appearance in a popular YouTube video, the global naming effort with over 8,000 suggestions, and the final name 'Ferreiraella populi' meaning 'of the people.' No quotes were fabricated, all statistics match, and no unsupported claims were made. The article adds contextual information about chitons and editorial commentary, but these additions don't contradict or misrepresent the source material."
-        }
+        },
+        "approved": true,
+        "_index": 4
       },
       {
-        "originalTitle": "Numbers of Rare Butterfly Eggs are Best on Record After Hedges are Allowed to Grow Wild",
-        "headline": "Wild About Results: Rare Butterfly Eggs Hit Record High When Hedges Go Au Naturel",
-        "excerpt": "Numbers of rare butterfly eggs have skyrocketed in South Wales after landowners let their hedgerows grow wild. Volunteers for the UK nonprofit Butterfly Conservation have counted record tallies of Brown Hairstreak eggs this winter around the Welsh county of Carmarthenshire.",
+        "originalTitle": "Do eagles stay active during winter?",
+        "headline": "Winter Warriors: How Eagles Master the Cold Season Hunt",
+        "excerpt": "Eagles remain actively hunting and thriving throughout the winter months, though their behavior and strategies adapt significantly to the colder temperatures and altered food availability. These magnificent birds have evolved remarkable adaptations to stay successful predators even in harsh winter conditions.",
         "category": "wildlife",
-        "sourceUrl": "https://www.goodnewsnetwork.org/numbers-of-rare-butterfly-eggs-are-best-on-record-after-hedges-allowed-to-grow-wild/",
-        "sourceName": "Good News Network",
+        "sourceUrl": "https://www.lifesciencesworld.com/do-eagles-stay-active-during-winter/",
+        "sourceName": "Lifesciencesworld.com",
         "readTime": 4,
-        "isHomepageHero": true,
-        "slug": "wild-about-results-rare-butterfly-eggs-hit-record-high-when",
-        "author": "Coral Bay",
-        "imageUrl": "https://images.pexels.com/photos/7722490/pexels-photo-7722490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "isHomepageFeatured": true,
+        "slug": "winter-warriors-how-eagles-master-the-cold-season-hunt",
+        "author": "Buck Wild",
+        "imageUrl": "https://images.pexels.com/photos/7152827/pexels-photo-7152827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Sometimes the best conservation strategy is simply stepping back and letting nature do its thing. That's exactly what's happening in South Wales, where a hands-off approach to hedge maintenance has led to a butterfly bonanza that's breaking records.",
+          "lead": "While many of us are bundling up and dreaming of hibernation, eagles are out there living their best winter lives. These magnificent birds don't just survive the cold months – they actively thrive, adapting their hunting strategies and behavior to stay successful predators even when temperatures drop.",
           "body": [
-            "Numbers of rare Brown Hairstreak butterfly eggs have absolutely soared in the Welsh county of Carmarthenshire, all thanks to landowners who decided to let their hedgerows grow wild instead of keeping them neatly trimmed. It's a perfect example of how what looks 'messy' to human eyes can be a five-star hotel for wildlife.",
-            "Volunteers for the UK nonprofit Butterfly Conservation have been out this winter doing the important (if slightly tedious) work of counting butterfly eggs, and their tallies are the best on record. The Brown Hairstreak is particularly picky about where it lays its eggs, and apparently wild, unmanaged hedgerows are exactly what these butterflies have been looking for.",
-            "This success story is a beautiful reminder that sometimes conservation doesn't require expensive interventions or complex management plans. Sometimes it just requires giving wildlife the space to thrive – even if that means letting things get a little wild around the edges."
+            "According to research from Lifesciencesworld.com, eagles remain actively hunting throughout winter, proving that nature's apex predators don't believe in taking a seasonal break. Rather than retreating or going dormant like some wildlife, these impressive birds have evolved remarkable adaptations that keep them soaring and hunting successfully.",
+            "The secret to their winter success lies in their ability to adapt. Eagles significantly adjust both their behavior and hunting strategies when faced with colder temperatures and changes in food availability. It's like watching a master chef work with whatever ingredients are in season – these birds know how to make the most of what winter offers.",
+            "This adaptability showcases just how resilient and intelligent these magnificent creatures truly are. While winter presents obvious challenges with altered food sources and harsh conditions, eagles have turned these obstacles into just another part of their year-round hunting game plan, continuing to demonstrate why they've earned their reputation as some of nature's most successful predators."
           ],
           "pullQuote": null
         },
@@ -956,8 +1021,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source: Brown Hairstreak butterfly eggs reached record numbers in Carmarthenshire, South Wales, after landowners let hedgerows grow wild, with volunteers from UK nonprofit Butterfly Conservation conducting the winter egg counts. No quotes were fabricated, all names and locations are correct, and while the article adds interpretive language and context, it doesn't make any unsupported factual claims."
-        }
+          "summary": "The generated article accurately reflects all key information from the original source. It correctly states that eagles remain actively hunting throughout winter, adapt their behavior and strategies to cold temperatures and altered food availability, and have evolved remarkable adaptations to stay successful predators in harsh conditions. The source is properly attributed to Lifesciencesworld.com, no quotes are fabricated, and all claims are supported by the original material."
+        },
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "New batch of cheetahs from Botswana expected to arrive around February-end: Environment minister",
@@ -984,38 +1051,12 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: cheetahs arriving from Botswana by month-end/end of February, announcement by Union Minister Bhupender Yadav, and the context of ongoing conservation efforts building momentum over decades. No quotes were fabricated, all names and places are correct, and the article appropriately notes when details aren't provided in the source material."
-        }
+        },
+        "approved": true,
+        "_index": 19
       }
     ],
     "people": [
-      {
-        "originalTitle": "Thiruvananthapuram airport achieves milestone of handling 4.5 lakh passengers in Jan 2026",
-        "headline": "Kerala Airport Soars to New Heights with Record-Breaking Passenger Numbers",
-        "excerpt": "Thiruvananthapuram International Airport achieved a historic milestone by handling its highest ever monthly passenger traffic in January 2026. The airport processed 4.5 lakh passengers, with both international and domestic passenger numbers crossing significant marks.",
-        "category": "people",
-        "sourceUrl": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/thiruvananthapuram-airport-achieves-milestone-of-handling-4-5-lakh-passengers-in-jan-2026/articleshow/128035295.cms",
-        "sourceName": "The Times of India",
-        "readTime": 3,
-        "isHomepageFeatured": true,
-        "slug": "kerala-airport-soars-to-new-heights-with-record-breaking-pas",
-        "author": "Joy Fuller",
-        "imageUrl": "https://images.pexels.com/photos/4374000/pexels-photo-4374000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Some places just know how to soar, and Thiruvananthapuram International Airport is definitely one of them. This January, the airport in India's Kerala state hit a record-breaking milestone that has aviation enthusiasts doing a little happy dance.",
-          "body": [
-            "The airport processed an impressive 4.5 lakh passengers in January 2026 – that's 450,000 travelers for those of us who need the conversion – making it the busiest month in the airport's history. It's the kind of achievement that shows just how much this corner of southern India has become a travel hotspot.",
-            "What makes this milestone even sweeter is that it wasn't just one type of travel driving the numbers. According to the report, both international and domestic passenger traffic crossed significant marks, suggesting that Thiruvananthapuram is attracting visitors from near and far alike.",
-            "For an airport that serves the capital city of Kerala – a state known for its backwaters, spices, and stunning coastline – this kind of growth speaks to both the region's appeal and the airport's ability to handle increasing demand. Sometimes good news really does have wings."
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source: the 4.5 lakh passenger figure, January 2026 timeframe, historic milestone nature, and that both international and domestic traffic crossed significant marks. The airport name and location details are correct. No direct quotes were claimed, and all information can be traced back to the original source."
-        }
-      },
       {
         "originalTitle": "Office buzz: UK employers turn to beehives to boost workplace wellbeing",
         "headline": "The Buzz at Work: Companies Install Beehives to Keep Employees Happy and Healthy",
@@ -1042,7 +1083,39 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately represents all factual information from the original source. It correctly cites The Guardian, accurately describes the geographic scope (Manchester to Milton Keynes), installation locations (rooftops, courtyards, car parks), the partnership with professional beekeepers, rising demand from providers, and the reported benefits (mental health, stress relief, community building, nature reconnection). No quotes were fabricated - the article paraphrases rather than quotes directly. The article adds commentary and creative language but does not introduce any unsupported factual claims."
-        }
+        },
+        "approved": true,
+        "_index": 3
+      },
+      {
+        "originalTitle": "Thiruvananthapuram airport achieves milestone of handling 4.5 lakh passengers in Jan 2026",
+        "headline": "Kerala Airport Soars to New Heights with Record-Breaking Passenger Numbers",
+        "excerpt": "Thiruvananthapuram International Airport achieved a historic milestone by handling its highest ever monthly passenger traffic in January 2026. The airport processed 4.5 lakh passengers, with both international and domestic passenger numbers crossing significant marks.",
+        "category": "people",
+        "sourceUrl": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/thiruvananthapuram-airport-achieves-milestone-of-handling-4-5-lakh-passengers-in-jan-2026/articleshow/128035295.cms",
+        "sourceName": "The Times of India",
+        "readTime": 3,
+        "isHomepageFeatured": true,
+        "slug": "kerala-airport-soars-to-new-heights-with-record-breaking-pas",
+        "author": "Joy Fuller",
+        "imageUrl": "https://images.pexels.com/photos/4374000/pexels-photo-4374000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Some places just know how to soar, and Thiruvananthapuram International Airport is definitely one of them. This January, the airport in India's Kerala state hit a record-breaking milestone that has aviation enthusiasts doing a little happy dance.",
+          "body": [
+            "The airport processed an impressive 4.5 lakh passengers in January 2026 – that's 450,000 travelers for those of us who need the conversion – making it the busiest month in the airport's history. It's the kind of achievement that shows just how much this corner of southern India has become a travel hotspot.",
+            "What makes this milestone even sweeter is that it wasn't just one type of travel driving the numbers. According to the report, both international and domestic passenger traffic crossed significant marks, suggesting that Thiruvananthapuram is attracting visitors from near and far alike.",
+            "For an airport that serves the capital city of Kerala – a state known for its backwaters, spices, and stunning coastline – this kind of growth speaks to both the region's appeal and the airport's ability to handle increasing demand. Sometimes good news really does have wings."
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all key facts from the source: the 4.5 lakh passenger figure, January 2026 timeframe, historic milestone nature, and that both international and domestic traffic crossed significant marks. The airport name and location details are correct. No direct quotes were claimed, and all information can be traced back to the original source."
+        },
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "Pulaski-native Deedra Irwin seeks Olympic glory in Milan with support from near & far",
@@ -1069,7 +1142,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All factual claims in the generated article are supported by the source material. The article correctly states Deedra Irwin is from Pulaski, achieved a historic 7th-place finish in the 15km individual race at the 2022 Beijing Olympics (the best-ever Olympic finish for her sport), is now competing in Milan, and has hometown support. No direct quotes were used, so no attribution issues. The article adds editorial commentary and interpretation but does not contradict or fabricate any facts from the source."
-        }
+        },
+        "approved": true,
+        "_index": 21
       }
     ]
   },
@@ -1100,7 +1175,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: Brown Hairstreak butterfly eggs reached record numbers in Carmarthenshire, South Wales, after landowners let hedgerows grow wild, with volunteers from UK nonprofit Butterfly Conservation conducting the winter egg counts. No quotes were fabricated, all names and locations are correct, and while the article adds interpretive language and context, it doesn't make any unsupported factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 0
     },
     {
       "originalTitle": "Scents From 3,500 Years Ago Recreated to Give Museum Visitors a Whiff of History",
@@ -1129,7 +1206,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. The 3,500-year timeframe, bio-molecular archaeology field, concept of 'molecular fingerprints,' and the ability for ancient objects to retain aromatic traces are all correctly stated. While the article expands with additional context and uses a more casual tone, no factual inaccuracies, fabricated quotes, or unsupported claims were found."
-      }
+      },
+      "approved": true,
+      "_index": 1
     },
     {
       "originalTitle": "Something supercharged Uranus when Voyager 2 flew past",
@@ -1157,7 +1236,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: Voyager 2's 1986 Uranus flyby, the extreme radiation levels that puzzled scientists for nearly 40 years, and the new research conclusion that this occurred during a rare solar wind event that flooded the planet's radiation belts with extra energy. While the article uses casual, conversational language and analogies not present in the source, it does not fabricate quotes, misstate facts, or make unsupported claims. All core information aligns with the original source material."
-      }
+      },
+      "approved": true,
+      "_index": 2
     },
     {
       "originalTitle": "Office buzz: UK employers turn to beehives to boost workplace wellbeing",
@@ -1185,7 +1266,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the original source. It correctly cites The Guardian, accurately describes the geographic scope (Manchester to Milton Keynes), installation locations (rooftops, courtyards, car parks), the partnership with professional beekeepers, rising demand from providers, and the reported benefits (mental health, stress relief, community building, nature reconnection). No quotes were fabricated - the article paraphrases rather than quotes directly. The article adds commentary and creative language but does not introduce any unsupported factual claims."
-      }
+      },
+      "approved": true,
+      "_index": 3
     },
     {
       "originalTitle": "This weird deep-sea creature was named by thousands of people online",
@@ -1214,7 +1297,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents all key facts from the source: the deep-sea creature discovery nearly three miles beneath the ocean surface, its appearance in a popular YouTube video, the global naming effort with over 8,000 suggestions, and the final name 'Ferreiraella populi' meaning 'of the people.' No quotes were fabricated, all statistics match, and no unsupported claims were made. The article adds contextual information about chitons and editorial commentary, but these additions don't contradict or misrepresent the source material."
-      }
+      },
+      "approved": true,
+      "_index": 4
     },
     {
       "originalTitle": "Solar Set to Surpass Coal in China, But There's a Catch",
@@ -1243,7 +1328,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: China's solar capacity surpassing coal for the first time this year, the China Electricity Council as the source, and the 50% figure for combined solar and wind capacity. The article appropriately distinguishes between installed capacity and actual generation, and no quotes were fabricated. All organization names and claims are properly supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 5
     },
     {
       "originalTitle": "A hidden Aloe vera compound takes aim at Alzheimer's",
@@ -1272,7 +1359,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies beta-sitosterol as the compound found in aloe vera, accurately describes the computer modeling methodology, and properly states that the compound interacts with two key enzymes involved in memory loss and cognitive decline. While the article uses more casual, engaging language and adds contextual information about aloe vera's common uses, it does not make any factual claims that contradict or go beyond what's supported by the source material."
-      }
+      },
+      "approved": true,
+      "_index": 6
     },
     {
       "originalTitle": "Scientists found a gut compound that helps protect the liver",
@@ -1300,7 +1389,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies indole as a natural compound produced by gut bacteria, accurately describes the study involving mice whose mothers ate high-fat, high-sugar diets during pregnancy, and properly reports all the beneficial effects found: dramatic reduction in fatty liver disease, liver protection, improved blood sugar, limited weight gain, and lasting gut microbiome changes. While the article uses a more casual, engaging tone with creative analogies, it maintains factual accuracy throughout and does not make any unsupported claims or misattribute information."
-      }
+      },
+      "approved": true,
+      "_index": 7
     },
     {
       "originalTitle": "LT3001 DEMONSTRATES FUNCTIONAL IMPROVEMENTS IN PATIENTS WITH DISABLING ACUTE ISCHEMIC STROKE",
@@ -1328,7 +1419,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual information from the source. It correctly states that LT3001 underwent a Phase 2 trial, demonstrated meaningful functional improvements in patients with disabling acute ischemic stroke, and showed particular promise for patients ineligible for standard reperfusion therapies. No quotes were fabricated, all key claims are supported by the source material, and the medical terminology and drug name are accurate. The article adds contextual explanation about stroke types and reperfusion therapies that is medically accurate and helps reader understanding without contradicting the source."
-      }
+      },
+      "approved": true,
+      "_index": 8
     },
     {
       "originalTitle": "Novartis breaks ground on new global Biomedical Research center in San Diego to accelerate drug discovery",
@@ -1356,7 +1449,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All core facts in the generated article are accurate to the source material. The article correctly reports that Novartis broke ground on a new global Biomedical Research center in San Diego, California, that it's described as 'state-of-the-art,' features world-class scientific infrastructure, has drug-discovery capabilities, and is designed to advance research efforts. No quotes are fabricated (the article uses 'state-of-the-art' as a description rather than claiming it as a direct quote). While the article adds editorial commentary and context about San Diego's biotech scene, it doesn't make any unsupported factual claims about the facility itself."
-      }
+      },
+      "approved": true,
+      "_index": 9
     },
     {
       "originalTitle": "This tiny molecular trick makes spider silk almost unbreakable",
@@ -1385,7 +1480,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all factual claims from the original source. Key facts are correctly stated: spider silk's strength comes from tiny molecular interactions acting like natural glue, these hold silk proteins together during liquid-to-fiber transformation, and spider silk is stronger than steel by weight and tougher than Kevlar. No quotes were fabricated, no statistics were misrepresented, and no unsupported claims were made. The article adds creative language and context but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 10
     },
     {
       "originalTitle": "Do eagles stay active during winter?",
@@ -1413,7 +1510,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key information from the original source. It correctly states that eagles remain actively hunting throughout winter, adapt their behavior and strategies to cold temperatures and altered food availability, and have evolved remarkable adaptations to stay successful predators in harsh conditions. The source is properly attributed to Lifesciencesworld.com, no quotes are fabricated, and all claims are supported by the original material."
-      }
+      },
+      "approved": true,
+      "_index": 11
     },
     {
       "originalTitle": "Thiruvananthapuram airport achieves milestone of handling 4.5 lakh passengers in Jan 2026",
@@ -1441,7 +1540,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: the 4.5 lakh passenger figure, January 2026 timeframe, historic milestone nature, and that both international and domestic traffic crossed significant marks. The airport name and location details are correct. No direct quotes were claimed, and all information can be traced back to the original source."
-      }
+      },
+      "approved": true,
+      "_index": 12
     },
     {
       "originalTitle": "Scientists find a missing link between Epstein-Barr virus and multiple sclerosis",
@@ -1469,7 +1570,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. It correctly states that Epstein-Barr virus may actively provoke the immune system in MS patients, mentions the large buildups of virus-targeting immune cells in MS patients' nervous systems, accurately reports that one viral gene was active only in people with MS, and properly notes that findings could guide new treatment approaches. No statistics, quotes, names, or organizations were mentioned in either text to verify. The article uses informal language and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true,
+      "_index": 13
     },
     {
       "originalTitle": "Physicists solve a quantum mystery that stumped scientists for decades",
@@ -1497,7 +1600,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source material. It correctly identifies Heidelberg University as the institution, accurately describes the breakthrough as uniting two incompatible views of exotic particle behavior in quantum matter, and properly explains the discovery about heavy particles making tiny movements that allow quasiparticles to emerge. While the article uses more casual language and analogies than the original, all factual claims are supported by the source material and no information is fabricated or misrepresented."
-      }
+      },
+      "approved": true,
+      "_index": 14
     },
     {
       "originalTitle": "Hemex Health Receives FDA Breakthrough Device Designation for Gazelle® Hb Variant Test",
@@ -1529,7 +1634,9 @@
         "confidence": "high",
         "summary": "While the core facts (company name, device name, FDA designation, and general purpose) are accurate, the article contains several unsupported claims including statistics about sickle cell disease prevalence and detailed explanations of FDA processes not present in the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 15
     },
     {
       "originalTitle": "The Collaboration that Brought you the First Image of a Black Hole Just Released Photos of its Massive Jet",
@@ -1562,7 +1669,9 @@
         "confidence": "high",
         "summary": "While the core facts about the Event Horizon Telescope collaboration, Messier 87 galaxy, new data release, and radio light measurements are accurate, the article makes several unsupported claims about photos/images of jets and includes contextual information about the 2019 breakthrough that isn't present in the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 16
     },
     {
       "originalTitle": "Why colorectal cancer breaks the immune system's rules",
@@ -1590,7 +1699,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source. It correctly explains that colorectal cancer patients do better when their tumors contain regulatory T cells (unlike other cancers), that scientists have been puzzled by this phenomenon, and that new research reveals these T cells 'aren't always what they seem.' The article properly attributes the research to Science Daily and doesn't fabricate any quotes, statistics, or specific details not present in the source. The casual, accessible writing style doesn't compromise factual accuracy."
-      }
+      },
+      "approved": true,
+      "_index": 17
     },
     {
       "originalTitle": "Peak Coal Expectations Return with 2025 Import Dip",
@@ -1623,7 +1734,9 @@
         "confidence": "high",
         "summary": "While the core facts about Asian coal import decline and peak coal speculation are accurate to the source, the article contains a significant temporal inconsistency and makes several interpretive claims that go well beyond what the source material supports."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 18
     },
     {
       "originalTitle": "New batch of cheetahs from Botswana expected to arrive around February-end: Environment minister",
@@ -1650,7 +1763,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: cheetahs arriving from Botswana by month-end/end of February, announcement by Union Minister Bhupender Yadav, and the context of ongoing conservation efforts building momentum over decades. No quotes were fabricated, all names and places are correct, and the article appropriately notes when details aren't provided in the source material."
-      }
+      },
+      "approved": true,
+      "_index": 19
     },
     {
       "originalTitle": "New minister names forest protection as top 100-day KPI",
@@ -1677,7 +1792,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts are accurately represented: Minister's name and title are correct, forest protection as 100-day KPI is accurate, and the urgency emphasis matches the source. The article adds commentary and interpretation but doesn't fabricate quotes or misstate facts from the original source."
-      }
+      },
+      "approved": true,
+      "_index": 20
     },
     {
       "originalTitle": "Pulaski-native Deedra Irwin seeks Olympic glory in Milan with support from near & far",
@@ -1704,7 +1821,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual claims in the generated article are supported by the source material. The article correctly states Deedra Irwin is from Pulaski, achieved a historic 7th-place finish in the 15km individual race at the 2022 Beijing Olympics (the best-ever Olympic finish for her sport), is now competing in Milan, and has hometown support. No direct quotes were used, so no attribution issues. The article adds editorial commentary and interpretation but does not contradict or fabricate any facts from the source."
-      }
+      },
+      "approved": true,
+      "_index": 21
     }
   ]
 }
