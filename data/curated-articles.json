@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T15:09:34.654Z",
-  "publishedAt": "2026-02-08T15:09:34.654Z",
+  "publishedAt": "2026-02-08T17:26:03.489Z",
   "homepage": {
     "hero": {
       "originalTitle": "Numbers of Rare Butterfly Eggs are Best on Record After Hedges are Allowed to Grow Wild",
@@ -1825,5 +1825,6 @@
       "approved": true,
       "_index": 21
     }
-  ]
+  ],
+  "autoPublished": true
 }
