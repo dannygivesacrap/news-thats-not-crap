@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-02-08T21:18:39.012Z",
+  "generatedAt": "2026-02-08T21:22:05.851Z",
+  "publishedAt": "2026-02-08T21:22:05.852Z",
   "homepage": {
     "hero": {
       "originalTitle": "What went right this week: the good news that matters",
@@ -41,7 +42,9 @@
         "confidence": "high",
         "summary": "The generated article cannot be fact-checked because the main content is corrupted, displaying '[object Object]' instead of readable text. While the introduction paragraph aligns with the source's general themes, the body content is inaccessible for verification."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 0
     },
     "featured": [
       {
@@ -84,7 +87,9 @@
           "confidence": "low",
           "summary": "While the opening paragraph aligns with the source material regarding Denmark's connection to Lego and Hans Christian Andersen, and the initiative to promote analogue play as an antidote to digital overload, the article appears to have technical issues with '[object Object]' appearing where content should be. This makes it impossible to fully verify the accuracy of the complete article against the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 1
       },
       {
         "originalTitle": "Will Pride in Place put communities back in charge of regeneration?",
@@ -126,7 +131,9 @@
           "confidence": "low",
           "summary": "The generated article has technical display issues showing '[object Object]' placeholders instead of content. While the visible opening paragraph accurately reflects the source material about the UK's 'Pride in Place' initiative and community control over regeneration, the majority of the article is unreadable due to these technical errors, preventing proper fact-checking."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 2
       },
       {
         "originalTitle": "Apes Show Ability to Imagine in 'Tea Party' Experiments, and Scientists are Very Excited",
@@ -168,7 +175,9 @@
           "confidence": "low",
           "summary": "The generated article appears to be corrupted or improperly formatted, showing '[object Object]' instead of actual content. The opening paragraph aligns with the source material about apes and tea party experiments, but the majority of the article is unreadable, making comprehensive fact-checking impossible."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 3
       },
       {
         "originalTitle": "'Crime-Fighting' Llamas Catch Thief by Surrounding Him in a Field Until Cops Arrive",
@@ -205,7 +214,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: llamas surrounded and corralled a fleeing thief in a field until police arrived, and they alerted farm owners with alarm calls during a nighttime incident. No statistics, quotes, or specific names were provided in the source to verify. The article adds creative narrative elements and humor but doesn't contradict or fabricate any factual claims from the original source."
-        }
+        },
+        "approved": true,
+        "_index": 4
       },
       {
         "originalTitle": "Roche's fenebrutinib is the first investigational medicine in over a decade that reduces disability progression in primary progressive multiple sclerosis (PPMS)",
@@ -242,7 +253,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects all key facts from the source: Roche's fenebrutinib is an investigational medicine that met its primary endpoint in a Phase III study (FENtrepid), it's the first such treatment in over a decade for PPMS disability progression, and it's a Bruton's tyrosine kinase inhibitor. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article appropriately uses cautious language about potential benefits rather than stating definitive outcomes."
-        }
+        },
+        "approved": true,
+        "_index": 5
       },
       {
         "originalTitle": "Mexico moves to combat pollution following Guardian investigations",
@@ -284,7 +297,9 @@
           "confidence": "high",
           "summary": "The generated article is technically broken with '[object Object]' placeholders replacing what should be content. While the opening paragraph appears to align with the source material's general theme about Guardian investigations leading to Mexican government action on pollution, the rest of the article is unreadable and cannot be fact-checked."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 6
       },
       {
         "originalTitle": "Life lessons: former Olympian Aimee Fuller on what life so far has taught her",
@@ -321,7 +336,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All verifiable facts in the generated article align with the source material. Key details confirmed: Aimee Fuller is a former Team GB Olympic snowboarder, she is now presenting/preparing to present the 2026 Winter Games on TNT, and the focus is on life lessons from her career transition. No fabricated quotes, statistics, or unsupported claims were found. The article appears incomplete with '[object Object]' placeholders, but the factual content present is accurate."
-        }
+        },
+        "approved": true,
+        "_index": 7
       },
       {
         "originalTitle": "We tried to buy nothing new for the whole of January. Here's how we got on",
@@ -363,7 +380,9 @@
           "confidence": "high",
           "summary": "The generated article is technically unusable for fact-checking as most of the content displays as '[object Object]' rather than readable text. The visible introductory paragraph correctly identifies the source (Positive News) and the general concept (Buy Nothing New Month challenge in January), but without the full article content, it's impossible to verify factual accuracy, quotes, or specific claims against the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 8
       },
       {
         "originalTitle": "Betting company Polymarket opens NYC's first free grocery store in downtown Manhattan (for 1 week only)",
@@ -405,7 +424,9 @@
           "confidence": "high",
           "summary": "While the basic facts about Polymarket opening NYC's first free grocery store in downtown Manhattan for one week are accurate, the article contains technical errors with object placeholders and adds unsupported editorial commentary that goes beyond the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "How did the mongoose save the baby?",
@@ -448,7 +469,9 @@
           "confidence": "high",
           "summary": "The generated article makes specific claims about mongooses protecting human babies and making headlines that cannot be verified against the very limited source material provided. The source only contains a brief abstract-like description without the detailed information needed to support the claims made in the generated article."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 10
       },
       {
         "originalTitle": "How aggressive free agency moves led the Patriots and Seahawks to the Super Bowl",
@@ -491,7 +514,9 @@
           "confidence": "high",
           "summary": "The article contains the basic factual information from the source but has significant technical errors (object placeholders) and adds substantial editorial content not present in the original. The core claim about Patriots and Seahawks is accurate, but the informal tone and added commentary go beyond what's supported by the source."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 11
       },
       {
         "originalTitle": "Detroit's AHL Griffins Give Fans Hockey Fix During NHL Hiatus",
@@ -533,7 +558,9 @@
           "confidence": "high",
           "summary": "The generated article contains a significant location discrepancy (Grand Rapids vs Detroit) and is incomplete with placeholder text. While the general theme about the Griffins performing well during NHL hiatus matches the source, the location error is a clear factual inaccuracy."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "What are critical minerals and why do countries need them?",
@@ -575,7 +602,9 @@
           "confidence": "high",
           "summary": "The generated article appears incomplete due to placeholder text and contains specific claims that cannot be verified against the brief source excerpt provided. While the general theme about countries racing to secure critical minerals matches the source, the specific examples and details cannot be fact-checked."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "Rat-free forest offers rare boost for kōkako north of Rotorua",
@@ -612,54 +641,14 @@
           "issues": [],
           "confidence": "high",
           "summary": "All key facts are accurately represented: 700 hectares, Kaimai Mamaku forest location north of Rotorua, rat-free environment created by conservation project, and benefit to endangered kōkako. No quotes were fabricated, and all place names and details match the source. The article uses more descriptive language but doesn't introduce any unsupported claims."
-        }
+        },
+        "approved": true,
+        "_index": 14
       }
     ]
   },
   "sections": {
     "climate": [
-      {
-        "originalTitle": "We tried to buy nothing new for the whole of January. Here's how we got on",
-        "headline": "Buy Nothing New January: Team Takes on the Ultimate Shopping Challenge",
-        "excerpt": "A team challenged themselves to participate in Buy Nothing New Month throughout January, with varying degrees of success. Their experience offers insights into sustainable consumption habits, revealing both the difficulties and unexpected benefits of avoiding new purchases for an entire month.",
-        "category": "climate",
-        "sourceUrl": "https://www.positive.news/lifestyle/we-tried-to-buy-nothing-new-for-the-whole-of-january-heres-how-we-got-on/",
-        "sourceName": "Positive News",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "buy-nothing-new-january-team-takes-on-the-ultimate-shopping",
-        "author": "River Stone",
-        "imageUrl": "https://images.pexels.com/photos/7937373/pexels-photo-7937373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "January: the month of resolutions, gym memberships that'll last exactly three weeks, and apparently, the perfect time to see if you can survive without buying anything new. A team from Positive News decided to take on this delightfully masochistic challenge called Buy Nothing New Month, and their adventure into the world of sustainable consumption is both inspiring and refreshingly honest about just how tricky it can be.",
-          "body": [
-            {
-              "subheading": "The Great Shopping Detox",
-              "content": "The concept is beautifully simple: for 31 whole days, resist the siren call of shiny new things and see what happens. The team approached this challenge with varying degrees of success – because let's be honest, we're all human, and sometimes you really do need that thing you definitely don't need. Their experience revealed both the genuine difficulties of breaking our buying habits and some unexpected benefits that came with stepping off the consumption carousel.\n\nWhat makes this experiment particularly fascinating is how it shines a light on our automatic shopping behaviors. You know, those moments when you find yourself in a store wondering how you got there, clutching something you're pretty sure you already own at home."
-            },
-            {
-              "subheading": "Why Your Wallet (and Planet) Will Thank You",
-              "content": "The insights from their month-long experiment offer a window into sustainable consumption habits that go way beyond just saving money – though your bank account certainly won't complain. The challenge revealed how much of our purchasing is driven by habit rather than genuine need, and how stepping back can help us distinguish between wants and actual necessities.\n\nThis kind of conscious consumption experiment taps into a growing movement of people questioning whether more stuff actually equals more happiness. Spoiler alert: it usually doesn't, and often leads to cluttered homes and that peculiar guilt that comes with realizing you bought the same thing twice."
-            },
-            {
-              "subheading": "The Takeaway",
-              "content": "Whether you're ready to commit to a full month or just curious about your own shopping habits, experiments like Buy Nothing New Month remind us that sometimes the best purchases are the ones we don't make. Plus, think of all the extra space you'll have for the things that actually matter – like that collection of houseplants that's definitely not getting out of hand."
-            }
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": false,
-          "issues": [
-            "Article appears to be incomplete or corrupted with '[object Object]' placeholders instead of actual content",
-            "Cannot verify accuracy of facts, statistics, quotes, or claims due to missing article body",
-            "Only the introductory paragraph is readable for fact-checking"
-          ],
-          "confidence": "high",
-          "summary": "The generated article is technically unusable for fact-checking as most of the content displays as '[object Object]' rather than readable text. The visible introductory paragraph correctly identifies the source (Positive News) and the general concept (Buy Nothing New Month challenge in January), but without the full article content, it's impossible to verify factual accuracy, quotes, or specific claims against the source material."
-        },
-        "factCheckFailed": true
-      },
       {
         "originalTitle": "Mexico moves to combat pollution following Guardian investigations",
         "headline": "Mexico Takes Action: $4.8M in Fines and New Monitoring After Pollution Exposé",
@@ -700,47 +689,56 @@
           "confidence": "high",
           "summary": "The generated article is technically broken with '[object Object]' placeholders replacing what should be content. While the opening paragraph appears to align with the source material's general theme about Guardian investigations leading to Mexican government action on pollution, the rest of the article is unreadable and cannot be fact-checked."
         },
-        "factCheckFailed": true
-      }
-    ],
-    "health": [
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 6
+      },
       {
-        "originalTitle": "Roche's fenebrutinib is the first investigational medicine in over a decade that reduces disability progression in primary progressive multiple sclerosis (PPMS)",
-        "headline": "Major MS Breakthrough: First New Treatment in a Decade Shows Promise",
-        "excerpt": "Roche has announced promising results from their Phase III FENtrepid study of fenebrutinib, an investigational Bruton's tyrosine kinase inhibitor. The treatment met its primary endpoint and represents the first potential new medicine in over a decade that could reduce disability progression in primary progressive multiple sclerosis.",
-        "category": "health",
-        "sourceUrl": "https://www.globenewswire.com/news-release/2026/02/07/3234177/0/en/Roche-s-fenebrutinib-is-the-first-investigational-medicine-in-over-a-decade-that-reduces-disability-progression-in-primary-progressive-multiple-sclerosis-PPMS.html",
-        "sourceName": "GlobeNewswire",
-        "readTime": 5,
+        "originalTitle": "We tried to buy nothing new for the whole of January. Here's how we got on",
+        "headline": "Buy Nothing New January: Team Takes on the Ultimate Shopping Challenge",
+        "excerpt": "A team challenged themselves to participate in Buy Nothing New Month throughout January, with varying degrees of success. Their experience offers insights into sustainable consumption habits, revealing both the difficulties and unexpected benefits of avoiding new purchases for an entire month.",
+        "category": "climate",
+        "sourceUrl": "https://www.positive.news/lifestyle/we-tried-to-buy-nothing-new-for-the-whole-of-january-heres-how-we-got-on/",
+        "sourceName": "Positive News",
+        "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "major-ms-breakthrough-first-new-treatment-in-a-decade-shows",
-        "author": "Vi Tality",
-        "imageUrl": "https://images.pexels.com/photos/5995193/pexels-photo-5995193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "buy-nothing-new-january-team-takes-on-the-ultimate-shopping",
+        "author": "River Stone",
+        "imageUrl": "https://images.pexels.com/photos/7937373/pexels-photo-7937373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "After more than a decade of waiting, people living with primary progressive multiple sclerosis might finally have some genuinely good news heading their way. Roche has announced that their experimental treatment, fenebrutinib, successfully met its primary goal in a major Phase III clinical trial – becoming the first investigational medicine in over ten years that could actually slow down disability progression in this particularly challenging form of MS.",
+          "lead": "January: the month of resolutions, gym memberships that'll last exactly three weeks, and apparently, the perfect time to see if you can survive without buying anything new. A team from Positive News decided to take on this delightfully masochistic challenge called Buy Nothing New Month, and their adventure into the world of sustainable consumption is both inspiring and refreshingly honest about just how tricky it can be.",
           "body": [
             {
-              "subheading": "Breaking Through the Treatment Drought",
-              "content": "Let's break this down for those of us who didn't major in medical terminology. Primary progressive multiple sclerosis (PPMS) is the less common but more relentless cousin of the MS family – it steadily worsens from the get-go, without the remission periods that other forms might offer. It's been a tough nut to crack for researchers, which is why this breakthrough feels so significant.\n\nFenebrutinib is what scientists call a Bruton's tyrosine kinase inhibitor (try saying that three times fast). The treatment was put through its paces in something called the FENtrepid study, and according to Roche's announcement, it successfully met its primary endpoint – medical speak for \"it did what we hoped it would do.\""
+              "subheading": "The Great Shopping Detox",
+              "content": "The concept is beautifully simple: for 31 whole days, resist the siren call of shiny new things and see what happens. The team approached this challenge with varying degrees of success – because let's be honest, we're all human, and sometimes you really do need that thing you definitely don't need. Their experience revealed both the genuine difficulties of breaking our buying habits and some unexpected benefits that came with stepping off the consumption carousel.\n\nWhat makes this experiment particularly fascinating is how it shines a light on our automatic shopping behaviors. You know, those moments when you find yourself in a store wondering how you got there, clutching something you're pretty sure you already own at home."
             },
             {
-              "subheading": "Why This Actually Matters",
-              "content": "Here's the thing about PPMS – it affects a smaller percentage of people with MS, but those who have it have been watching and waiting while treatments for other forms of the disease have steadily improved. The fact that this is the first potential new medicine in over a decade specifically targeting disability progression in PPMS isn't just a statistic – it represents hope for people who haven't had many options.\n\nWhile we don't have all the nitty-gritty details about exactly how much the treatment helped or what the side effects might be, the fact that it cleared this major hurdle in testing is genuinely encouraging news for the PPMS community."
+              "subheading": "Why Your Wallet (and Planet) Will Thank You",
+              "content": "The insights from their month-long experiment offer a window into sustainable consumption habits that go way beyond just saving money – though your bank account certainly won't complain. The challenge revealed how much of our purchasing is driven by habit rather than genuine need, and how stepping back can help us distinguish between wants and actual necessities.\n\nThis kind of conscious consumption experiment taps into a growing movement of people questioning whether more stuff actually equals more happiness. Spoiler alert: it usually doesn't, and often leads to cluttered homes and that peculiar guilt that comes with realizing you bought the same thing twice."
             },
             {
-              "subheading": "The Road Ahead",
-              "content": "Of course, we're still in investigational territory here – fenebrutinib isn't ready for your medicine cabinet just yet. But after years of limited options for PPMS, having something new show real promise in a rigorous clinical trial feels like a pretty big deal. Sometimes the best news is simply that smart people are making progress on really hard problems, one breakthrough at a time."
+              "subheading": "The Takeaway",
+              "content": "Whether you're ready to commit to a full month or just curious about your own shopping habits, experiments like Buy Nothing New Month remind us that sometimes the best purchases are the ones we don't make. Plus, think of all the extra space you'll have for the things that actually matter – like that collection of houseplants that's definitely not getting out of hand."
             }
           ],
           "pullQuote": null
         },
         "factCheck": {
-          "passed": true,
-          "issues": [],
+          "passed": false,
+          "issues": [
+            "Article appears to be incomplete or corrupted with '[object Object]' placeholders instead of actual content",
+            "Cannot verify accuracy of facts, statistics, quotes, or claims due to missing article body",
+            "Only the introductory paragraph is readable for fact-checking"
+          ],
           "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source: Roche's fenebrutinib is an investigational medicine that met its primary endpoint in a Phase III study (FENtrepid), it's the first such treatment in over a decade for PPMS disability progression, and it's a Bruton's tyrosine kinase inhibitor. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article appropriately uses cautious language about potential benefits rather than stating definitive outcomes."
-        }
-      },
+          "summary": "The generated article is technically unusable for fact-checking as most of the content displays as '[object Object]' rather than readable text. The visible introductory paragraph correctly identifies the source (Positive News) and the general concept (Buy Nothing New Month challenge in January), but without the full article content, it's impossible to verify factual accuracy, quotes, or specific claims against the source material."
+        },
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 8
+      }
+    ],
+    "health": [
       {
         "originalTitle": "What went right this week: the good news that matters",
         "headline": "The Week's Bright Spots: Cancer Prevention, Solar Power, and Tax Justice",
@@ -781,7 +779,48 @@
           "confidence": "high",
           "summary": "The generated article cannot be fact-checked because the main content is corrupted, displaying '[object Object]' instead of readable text. While the introduction paragraph aligns with the source's general themes, the body content is inaccessible for verification."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 0
+      },
+      {
+        "originalTitle": "Roche's fenebrutinib is the first investigational medicine in over a decade that reduces disability progression in primary progressive multiple sclerosis (PPMS)",
+        "headline": "Major MS Breakthrough: First New Treatment in a Decade Shows Promise",
+        "excerpt": "Roche has announced promising results from their Phase III FENtrepid study of fenebrutinib, an investigational Bruton's tyrosine kinase inhibitor. The treatment met its primary endpoint and represents the first potential new medicine in over a decade that could reduce disability progression in primary progressive multiple sclerosis.",
+        "category": "health",
+        "sourceUrl": "https://www.globenewswire.com/news-release/2026/02/07/3234177/0/en/Roche-s-fenebrutinib-is-the-first-investigational-medicine-in-over-a-decade-that-reduces-disability-progression-in-primary-progressive-multiple-sclerosis-PPMS.html",
+        "sourceName": "GlobeNewswire",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "major-ms-breakthrough-first-new-treatment-in-a-decade-shows",
+        "author": "Vi Tality",
+        "imageUrl": "https://images.pexels.com/photos/5995193/pexels-photo-5995193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "After more than a decade of waiting, people living with primary progressive multiple sclerosis might finally have some genuinely good news heading their way. Roche has announced that their experimental treatment, fenebrutinib, successfully met its primary goal in a major Phase III clinical trial – becoming the first investigational medicine in over ten years that could actually slow down disability progression in this particularly challenging form of MS.",
+          "body": [
+            {
+              "subheading": "Breaking Through the Treatment Drought",
+              "content": "Let's break this down for those of us who didn't major in medical terminology. Primary progressive multiple sclerosis (PPMS) is the less common but more relentless cousin of the MS family – it steadily worsens from the get-go, without the remission periods that other forms might offer. It's been a tough nut to crack for researchers, which is why this breakthrough feels so significant.\n\nFenebrutinib is what scientists call a Bruton's tyrosine kinase inhibitor (try saying that three times fast). The treatment was put through its paces in something called the FENtrepid study, and according to Roche's announcement, it successfully met its primary endpoint – medical speak for \"it did what we hoped it would do.\""
+            },
+            {
+              "subheading": "Why This Actually Matters",
+              "content": "Here's the thing about PPMS – it affects a smaller percentage of people with MS, but those who have it have been watching and waiting while treatments for other forms of the disease have steadily improved. The fact that this is the first potential new medicine in over a decade specifically targeting disability progression in PPMS isn't just a statistic – it represents hope for people who haven't had many options.\n\nWhile we don't have all the nitty-gritty details about exactly how much the treatment helped or what the side effects might be, the fact that it cleared this major hurdle in testing is genuinely encouraging news for the PPMS community."
+            },
+            {
+              "subheading": "The Road Ahead",
+              "content": "Of course, we're still in investigational territory here – fenebrutinib isn't ready for your medicine cabinet just yet. But after years of limited options for PPMS, having something new show real promise in a rigorous clinical trial feels like a pretty big deal. Sometimes the best news is simply that smart people are making progress on really hard problems, one breakthrough at a time."
+            }
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "The generated article accurately reflects all key facts from the source: Roche's fenebrutinib is an investigational medicine that met its primary endpoint in a Phase III study (FENtrepid), it's the first such treatment in over a decade for PPMS disability progression, and it's a Bruton's tyrosine kinase inhibitor. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article appropriately uses cautious language about potential benefits rather than stating definitive outcomes."
+        },
+        "approved": true,
+        "_index": 5
       },
       {
         "originalTitle": "Is mapping a baby's genetic disease risk a healthcare miracle or a step too far?",
@@ -822,52 +861,12 @@
           "confidence": "high",
           "summary": "While the opening paragraph of the generated article appears to accurately reflect the source material's main points about advancing newborn genomic testing, the article contains technical errors ('[object Object]' placeholders) that make it incomplete and prevent proper fact-checking of the full content."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 19
       }
     ],
     "science": [
-      {
-        "originalTitle": "What are critical minerals and why do countries need them?",
-        "headline": "The Hidden Treasures Countries Are Racing to Find",
-        "excerpt": "Countries around the world are racing to secure critical minerals and rare earths that are essential for making vital products. Understanding what these materials are and why they're so important helps explain one of the most significant resource challenges of our time.",
-        "category": "science",
-        "sourceUrl": "https://www.bbc.com/news/articles/cj6wwx7zxd9o?at_medium=RSS&at_campaign=rss",
-        "sourceName": "BBC Science",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "the-hidden-treasures-countries-are-racing-to-find",
-        "author": "Flora Fauna",
-        "imageUrl": "https://images.pexels.com/photos/1252907/pexels-photo-1252907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Pop quiz: What do your smartphone, electric car, and wind turbines all have in common? They're all desperately dependent on a handful of materials most of us have never heard of. While we've been busy arguing about which streaming service has the best shows, countries worldwide have been quietly engaged in what might be the most important treasure hunt of our time – the race to secure critical minerals and rare earths.",
-          "body": [
-            {
-              "subheading": "The Elements of Everything",
-              "content": "So what exactly are these mysterious materials everyone's scrambling for? Critical minerals and rare earths are the unsung heroes of modern technology – the essential ingredients that make our vital products actually work. Think of them as the secret sauce in the recipe for everything from renewable energy systems to the device you're probably reading this on right now.\n\nThe thing is, these materials aren't just nice-to-have extras. They're absolutely essential for creating the products that power our daily lives and, crucially, our transition to cleaner energy. Without them, our grand plans for electric vehicles and renewable power would be about as useful as a chocolate teapot.\n\nCountries are racing to secure these materials because, well, nobody wants to be left holding the bag when the music stops. It's like musical chairs, but instead of chairs, it's the building blocks of modern civilization, and instead of being out of the game, you're out of the global economy."
-            },
-            {
-              "subheading": "Why This Matters to All of Us",
-              "content": "This isn't just some abstract geopolitical chess game – it's one of the most significant resource challenges of our time, and it affects everything from the price of your next phone to whether we can actually build enough solar panels to tackle climate change.\n\nWhen countries can't access these critical materials, supply chains get wonky, prices go up, and suddenly that green energy revolution everyone's talking about hits some very real roadblocks. It's a reminder that even in our interconnected world, some things are still surprisingly scarce and geographically concentrated."
-            },
-            {
-              "subheading": "The Silver Lining",
-              "content": "Here's the encouraging part: recognizing the problem is the first step to solving it. Countries are finally taking this challenge seriously, which means we're likely to see more investment in recycling these materials, finding alternatives, and diversifying supply chains. Sometimes a good old-fashioned resource scramble is exactly what it takes to spark innovation and cooperation. Who knows? This mineral rush might just be the push we need to build a more sustainable and resilient future."
-            }
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": false,
-          "issues": [
-            "Generated article contains placeholder text '[object Object]' repeated three times instead of actual content",
-            "Cannot verify accuracy of specific claims about smartphones, electric cars, and wind turbines as these details are not present in the source excerpt",
-            "The casual tone and specific examples (streaming services, treasure hunt analogy) cannot be verified against the limited source material provided"
-          ],
-          "confidence": "high",
-          "summary": "The generated article appears incomplete due to placeholder text and contains specific claims that cannot be verified against the brief source excerpt provided. While the general theme about countries racing to secure critical minerals matches the source, the specific examples and details cannot be fact-checked."
-        },
-        "factCheckFailed": true
-      },
       {
         "originalTitle": "Apes Show Ability to Imagine in 'Tea Party' Experiments, and Scientists are Very Excited",
         "headline": "Apes Host Imaginary Tea Parties, Blow Scientists' Minds",
@@ -908,7 +907,53 @@
           "confidence": "low",
           "summary": "The generated article appears to be corrupted or improperly formatted, showing '[object Object]' instead of actual content. The opening paragraph aligns with the source material about apes and tea party experiments, but the majority of the article is unreadable, making comprehensive fact-checking impossible."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 3
+      },
+      {
+        "originalTitle": "What are critical minerals and why do countries need them?",
+        "headline": "The Hidden Treasures Countries Are Racing to Find",
+        "excerpt": "Countries around the world are racing to secure critical minerals and rare earths that are essential for making vital products. Understanding what these materials are and why they're so important helps explain one of the most significant resource challenges of our time.",
+        "category": "science",
+        "sourceUrl": "https://www.bbc.com/news/articles/cj6wwx7zxd9o?at_medium=RSS&at_campaign=rss",
+        "sourceName": "BBC Science",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "the-hidden-treasures-countries-are-racing-to-find",
+        "author": "Flora Fauna",
+        "imageUrl": "https://images.pexels.com/photos/1252907/pexels-photo-1252907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Pop quiz: What do your smartphone, electric car, and wind turbines all have in common? They're all desperately dependent on a handful of materials most of us have never heard of. While we've been busy arguing about which streaming service has the best shows, countries worldwide have been quietly engaged in what might be the most important treasure hunt of our time – the race to secure critical minerals and rare earths.",
+          "body": [
+            {
+              "subheading": "The Elements of Everything",
+              "content": "So what exactly are these mysterious materials everyone's scrambling for? Critical minerals and rare earths are the unsung heroes of modern technology – the essential ingredients that make our vital products actually work. Think of them as the secret sauce in the recipe for everything from renewable energy systems to the device you're probably reading this on right now.\n\nThe thing is, these materials aren't just nice-to-have extras. They're absolutely essential for creating the products that power our daily lives and, crucially, our transition to cleaner energy. Without them, our grand plans for electric vehicles and renewable power would be about as useful as a chocolate teapot.\n\nCountries are racing to secure these materials because, well, nobody wants to be left holding the bag when the music stops. It's like musical chairs, but instead of chairs, it's the building blocks of modern civilization, and instead of being out of the game, you're out of the global economy."
+            },
+            {
+              "subheading": "Why This Matters to All of Us",
+              "content": "This isn't just some abstract geopolitical chess game – it's one of the most significant resource challenges of our time, and it affects everything from the price of your next phone to whether we can actually build enough solar panels to tackle climate change.\n\nWhen countries can't access these critical materials, supply chains get wonky, prices go up, and suddenly that green energy revolution everyone's talking about hits some very real roadblocks. It's a reminder that even in our interconnected world, some things are still surprisingly scarce and geographically concentrated."
+            },
+            {
+              "subheading": "The Silver Lining",
+              "content": "Here's the encouraging part: recognizing the problem is the first step to solving it. Countries are finally taking this challenge seriously, which means we're likely to see more investment in recycling these materials, finding alternatives, and diversifying supply chains. Sometimes a good old-fashioned resource scramble is exactly what it takes to spark innovation and cooperation. Who knows? This mineral rush might just be the push we need to build a more sustainable and resilient future."
+            }
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": false,
+          "issues": [
+            "Generated article contains placeholder text '[object Object]' repeated three times instead of actual content",
+            "Cannot verify accuracy of specific claims about smartphones, electric cars, and wind turbines as these details are not present in the source excerpt",
+            "The casual tone and specific examples (streaming services, treasure hunt analogy) cannot be verified against the limited source material provided"
+          ],
+          "confidence": "high",
+          "summary": "The generated article appears incomplete due to placeholder text and contains specific claims that cannot be verified against the brief source excerpt provided. While the general theme about countries racing to secure critical minerals matches the source, the specific examples and details cannot be fact-checked."
+        },
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 13
       },
       {
         "originalTitle": "Researchers Get Their First Ever Look At Neanderthal Nasal Cavities, And It Didn't Look Like Models Predicted",
@@ -944,7 +989,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "The generated article accurately reflects the key facts from the source: researchers achieved their first detailed look at Neanderthal nasal cavities, the results didn't match scientific model predictions, and this discovery helps understand ancient human relatives and their environmental adaptations. While the article uses a more casual, engaging tone with added narrative elements, it doesn't introduce any factual inaccuracies or unsupported claims. No quotes, statistics, names, or specific details are fabricated."
-        }
+        },
+        "approved": true,
+        "_index": 17
       },
       {
         "originalTitle": "STRENGTHENING NATIONAL SPACE INFRASTRUCTURE",
@@ -986,7 +1033,9 @@
           "confidence": "high",
           "summary": "The generated article appears to be incomplete or corrupted, containing '[object Object]' placeholders instead of actual content. While the introductory paragraph accurately reflects the source material about India's 2025 space infrastructure progress, the majority of the article is missing, making fact-checking impossible."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 18
       },
       {
         "originalTitle": "Musk predicts more AI capacity will be in orbit than on earth in 5 years, with SpaceX becoming a 'hyper-hyper' scaler",
@@ -1027,36 +1076,38 @@
           "confidence": "high",
           "summary": "The generated article is incomplete or corrupted, displaying '[object Object]' placeholders instead of actual content. While the opening paragraph accurately reflects Musk's prediction about AI computing capacity in orbit within five years, the majority of the article is unreadable, making proper fact-checking impossible."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 21
       }
     ],
     "wildlife": [
       {
-        "originalTitle": "Rat-free forest offers rare boost for kōkako north of Rotorua",
-        "headline": "New Zealand Forest Goes Rat-Free, Gives Rare Birds Room to Sing",
-        "excerpt": "A conservation project has successfully wiped out rodent predators across 700 hectares of Kaimai Mamaku forest. The rat-free environment offers a rare boost for the endangered kōkako, giving these native birds a much-needed sanctuary to thrive.",
+        "originalTitle": "'Crime-Fighting' Llamas Catch Thief by Surrounding Him in a Field Until Cops Arrive",
+        "headline": "Llama Drama: Furry Heroes Corner Crook Until Cops Come Calling",
+        "excerpt": "A would-be thief got more than he bargained for when a herd of llamas took justice into their own hooves. The animals surrounded the fleeing suspect in a field and kept him corralled until police could arrive, after alerting farm owners with their loud alarm calls during the nighttime incident.",
         "category": "wildlife",
-        "sourceUrl": "https://www.nzherald.co.nz/rotorua-daily-post/news/rat-free-forest-offers-rare-boost-for-kokako-north-of-rotorua/JSN4GDHBGNEIVBYFFSI6NARDQY/",
-        "sourceName": "New Zealand Herald",
-        "readTime": 4,
+        "sourceUrl": "https://www.goodnewsnetwork.org/crime-fighting-llamas-catch-thief-by-surrounding-him-in-a-field-until-cops-arrive/",
+        "sourceName": "Good News Network",
+        "readTime": 3,
         "isHomepageFeatured": true,
-        "slug": "new-zealand-forest-goes-rat-free-gives-rare-birds-room-to-si",
-        "author": "Fauna Flora",
-        "imageUrl": "https://images.pexels.com/photos/4593037/pexels-photo-4593037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "llama-drama-furry-heroes-corner-crook-until-cops-come-callin",
+        "author": "Coral Bay",
+        "imageUrl": "https://images.pexels.com/photos/14951493/pexels-photo-14951493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Picture this: 700 hectares of New Zealand forest where native birds can finally breathe easy, free from the scurrying menace that's been making their lives miserable for decades. It sounds almost too good to be true, but conservationists in the Kaimai Mamaku forest north of Rotorua have pulled off something remarkable – they've created a completely rat-free sanctuary.\n\nFor the endangered kōkako, those ethereal blue-gray songbirds that are among New Zealand's most treasured natives, this rodent-free zone isn't just good news – it's a lifeline.",
+          "lead": "Picture this: You're a would-be thief making your getaway through what seems like an empty field, probably congratulating yourself on a clean escape. Then suddenly, you're surrounded by a circle of fluffy, long-necked animals staring you down like a jury of your peers. Welcome to what might be the most unusual citizen's arrest in recent memory, courtesy of some very civic-minded llamas.\n\nA herd of llamas recently took justice into their own hooves when they spotted a fleeing suspect in their field. These woolly vigilantes didn't just watch the drama unfold—they actively corralled the thief, surrounding him and keeping him in place until police could arrive on the scene.",
           "body": [
             {
-              "subheading": "Mission Im-paws-ible: Accomplished",
-              "content": "The conservation project has successfully wiped out rodent predators across the entire 700-hectare stretch of forest, according to the New Zealand Herald. Now, before you start imagining some sort of woodland action movie, this wasn't achieved overnight or with dramatic flair – it was the result of careful, methodical conservation work that's finally paying off.\n\nFor the kōkako calling this forest home, the absence of rats means something profound: a chance to actually thrive instead of just survive. These birds have been struggling against introduced predators for so long that a truly safe space feels almost revolutionary.\n\nThe rat-free environment offers what conservationists are calling a rare boost for the species, giving these native birds a much-needed sanctuary where they can focus on what birds do best – being birds, without constantly looking over their shoulders."
+              "subheading": "Drama Llamas to the Rescue",
+              "content": "The nighttime incident began when the llamas' loud alarm calls alerted the farm owners to trouble brewing on their property. But these weren't just your average farm animals raising a ruckus—they were about to become four-legged law enforcement officers. When the suspect tried to flee through their field, the llamas sprang into action with what can only be described as a perfectly executed containment strategy.\n\nThe animals formed a circle around the would-be thief and held their ground, effectively creating a living, breathing holding pen until the actual authorities could take over. It's like something out of a cartoon, except it really happened—and it worked. The suspect found himself facing a jury of llamas who clearly weren't buying whatever excuse he might have had for trespassing on their turf."
             },
             {
               "subheading": "Why This Matters",
-              "content": "Here's the thing about conservation wins: they're often small victories in a much larger battle, but those small victories add up to something beautiful. The kōkako's story is one that many native species around the world know all too well – they're trying to make it in a world that's been dramatically altered by human activity and introduced species.\n\nCreating predator-free sanctuaries like this one doesn't just help individual species survive; it gives us a glimpse of what ecosystems can look like when native wildlife gets the breathing room it needs. It's proof that targeted, thoughtful conservation efforts can work, even when the odds seem stacked against our feathered friends."
+              "content": "Beyond the obvious entertainment value of llamas moonlighting as security guards, this story highlights something genuinely heartwarming about the bond between animals and their human families. These llamas didn't just passively witness a crime—they actively worked to protect their home and alert their owners to danger.\n\nIt's also a delightful reminder that help can come from the most unexpected places. In a world where we're often focused on human solutions to human problems, sometimes the best backup comes with four legs and a serious attitude about property rights."
             },
             {
               "subheading": "The Bottom Line",
-              "content": "Seven hundred hectares might not sound massive in the grand scheme of things, but for a kōkako pair looking to raise their chicks without the constant threat of rodent predators, it might as well be paradise. Sometimes the best news comes in the form of quiet victories – less dramatic than a Hollywood ending, but infinitely more meaningful for the creatures whose lives literally depend on it."
+              "content": "While we can't recommend recruiting llamas for your neighborhood watch program, there's something wonderfully reassuring about animals who take their guard duty seriously. These crime-fighting llamas prove that heroes come in all shapes, sizes, and species—and sometimes they're covered in wool and have really good hearing. The next time someone asks about the benefits of farm life, we now have one very unique answer to add to the list."
             }
           ],
           "pullQuote": null
@@ -1065,8 +1116,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "All key facts are accurately represented: 700 hectares, Kaimai Mamaku forest location north of Rotorua, rat-free environment created by conservation project, and benefit to endangered kōkako. No quotes were fabricated, and all place names and details match the source. The article uses more descriptive language but doesn't introduce any unsupported claims."
-        }
+          "summary": "The generated article accurately reflects all key facts from the source: llamas surrounded and corralled a fleeing thief in a field until police arrived, and they alerted farm owners with alarm calls during a nighttime incident. No statistics, quotes, or specific names were provided in the source to verify. The article adds creative narrative elements and humor but doesn't contradict or fabricate any factual claims from the original source."
+        },
+        "approved": true,
+        "_index": 4
       },
       {
         "originalTitle": "How did the mongoose save the baby?",
@@ -1109,34 +1162,36 @@
           "confidence": "high",
           "summary": "The generated article makes specific claims about mongooses protecting human babies and making headlines that cannot be verified against the very limited source material provided. The source only contains a brief abstract-like description without the detailed information needed to support the claims made in the generated article."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 10
       },
       {
-        "originalTitle": "'Crime-Fighting' Llamas Catch Thief by Surrounding Him in a Field Until Cops Arrive",
-        "headline": "Llama Drama: Furry Heroes Corner Crook Until Cops Come Calling",
-        "excerpt": "A would-be thief got more than he bargained for when a herd of llamas took justice into their own hooves. The animals surrounded the fleeing suspect in a field and kept him corralled until police could arrive, after alerting farm owners with their loud alarm calls during the nighttime incident.",
+        "originalTitle": "Rat-free forest offers rare boost for kōkako north of Rotorua",
+        "headline": "New Zealand Forest Goes Rat-Free, Gives Rare Birds Room to Sing",
+        "excerpt": "A conservation project has successfully wiped out rodent predators across 700 hectares of Kaimai Mamaku forest. The rat-free environment offers a rare boost for the endangered kōkako, giving these native birds a much-needed sanctuary to thrive.",
         "category": "wildlife",
-        "sourceUrl": "https://www.goodnewsnetwork.org/crime-fighting-llamas-catch-thief-by-surrounding-him-in-a-field-until-cops-arrive/",
-        "sourceName": "Good News Network",
-        "readTime": 3,
+        "sourceUrl": "https://www.nzherald.co.nz/rotorua-daily-post/news/rat-free-forest-offers-rare-boost-for-kokako-north-of-rotorua/JSN4GDHBGNEIVBYFFSI6NARDQY/",
+        "sourceName": "New Zealand Herald",
+        "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "llama-drama-furry-heroes-corner-crook-until-cops-come-callin",
-        "author": "Coral Bay",
-        "imageUrl": "https://images.pexels.com/photos/14951493/pexels-photo-14951493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "new-zealand-forest-goes-rat-free-gives-rare-birds-room-to-si",
+        "author": "Fauna Flora",
+        "imageUrl": "https://images.pexels.com/photos/4593037/pexels-photo-4593037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Picture this: You're a would-be thief making your getaway through what seems like an empty field, probably congratulating yourself on a clean escape. Then suddenly, you're surrounded by a circle of fluffy, long-necked animals staring you down like a jury of your peers. Welcome to what might be the most unusual citizen's arrest in recent memory, courtesy of some very civic-minded llamas.\n\nA herd of llamas recently took justice into their own hooves when they spotted a fleeing suspect in their field. These woolly vigilantes didn't just watch the drama unfold—they actively corralled the thief, surrounding him and keeping him in place until police could arrive on the scene.",
+          "lead": "Picture this: 700 hectares of New Zealand forest where native birds can finally breathe easy, free from the scurrying menace that's been making their lives miserable for decades. It sounds almost too good to be true, but conservationists in the Kaimai Mamaku forest north of Rotorua have pulled off something remarkable – they've created a completely rat-free sanctuary.\n\nFor the endangered kōkako, those ethereal blue-gray songbirds that are among New Zealand's most treasured natives, this rodent-free zone isn't just good news – it's a lifeline.",
           "body": [
             {
-              "subheading": "Drama Llamas to the Rescue",
-              "content": "The nighttime incident began when the llamas' loud alarm calls alerted the farm owners to trouble brewing on their property. But these weren't just your average farm animals raising a ruckus—they were about to become four-legged law enforcement officers. When the suspect tried to flee through their field, the llamas sprang into action with what can only be described as a perfectly executed containment strategy.\n\nThe animals formed a circle around the would-be thief and held their ground, effectively creating a living, breathing holding pen until the actual authorities could take over. It's like something out of a cartoon, except it really happened—and it worked. The suspect found himself facing a jury of llamas who clearly weren't buying whatever excuse he might have had for trespassing on their turf."
+              "subheading": "Mission Im-paws-ible: Accomplished",
+              "content": "The conservation project has successfully wiped out rodent predators across the entire 700-hectare stretch of forest, according to the New Zealand Herald. Now, before you start imagining some sort of woodland action movie, this wasn't achieved overnight or with dramatic flair – it was the result of careful, methodical conservation work that's finally paying off.\n\nFor the kōkako calling this forest home, the absence of rats means something profound: a chance to actually thrive instead of just survive. These birds have been struggling against introduced predators for so long that a truly safe space feels almost revolutionary.\n\nThe rat-free environment offers what conservationists are calling a rare boost for the species, giving these native birds a much-needed sanctuary where they can focus on what birds do best – being birds, without constantly looking over their shoulders."
             },
             {
               "subheading": "Why This Matters",
-              "content": "Beyond the obvious entertainment value of llamas moonlighting as security guards, this story highlights something genuinely heartwarming about the bond between animals and their human families. These llamas didn't just passively witness a crime—they actively worked to protect their home and alert their owners to danger.\n\nIt's also a delightful reminder that help can come from the most unexpected places. In a world where we're often focused on human solutions to human problems, sometimes the best backup comes with four legs and a serious attitude about property rights."
+              "content": "Here's the thing about conservation wins: they're often small victories in a much larger battle, but those small victories add up to something beautiful. The kōkako's story is one that many native species around the world know all too well – they're trying to make it in a world that's been dramatically altered by human activity and introduced species.\n\nCreating predator-free sanctuaries like this one doesn't just help individual species survive; it gives us a glimpse of what ecosystems can look like when native wildlife gets the breathing room it needs. It's proof that targeted, thoughtful conservation efforts can work, even when the odds seem stacked against our feathered friends."
             },
             {
               "subheading": "The Bottom Line",
-              "content": "While we can't recommend recruiting llamas for your neighborhood watch program, there's something wonderfully reassuring about animals who take their guard duty seriously. These crime-fighting llamas prove that heroes come in all shapes, sizes, and species—and sometimes they're covered in wool and have really good hearing. The next time someone asks about the benefits of farm life, we now have one very unique answer to add to the list."
+              "content": "Seven hundred hectares might not sound massive in the grand scheme of things, but for a kōkako pair looking to raise their chicks without the constant threat of rodent predators, it might as well be paradise. Sometimes the best news comes in the form of quiet victories – less dramatic than a Hollywood ending, but infinitely more meaningful for the creatures whose lives literally depend on it."
             }
           ],
           "pullQuote": null
@@ -1145,8 +1200,10 @@
           "passed": true,
           "issues": [],
           "confidence": "high",
-          "summary": "The generated article accurately reflects all key facts from the source: llamas surrounded and corralled a fleeing thief in a field until police arrived, and they alerted farm owners with alarm calls during a nighttime incident. No statistics, quotes, or specific names were provided in the source to verify. The article adds creative narrative elements and humor but doesn't contradict or fabricate any factual claims from the original source."
-        }
+          "summary": "All key facts are accurately represented: 700 hectares, Kaimai Mamaku forest location north of Rotorua, rat-free environment created by conservation project, and benefit to endangered kōkako. No quotes were fabricated, and all place names and details match the source. The article uses more descriptive language but doesn't introduce any unsupported claims."
+        },
+        "approved": true,
+        "_index": 14
       },
       {
         "originalTitle": "Before Steve Irwin, there was Alby Mangels. This is why you no longer hear his name",
@@ -1188,36 +1245,38 @@
           "confidence": "high",
           "summary": "While the core facts about Alby Mangels being a 1980s Australian filmmaker who preceded Steve Irwin and was box office successful are accurate, the article contains technical formatting errors and includes unsupported characterizations and claims not found in the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 20
       }
     ],
     "people": [
       {
-        "originalTitle": "Detroit's AHL Griffins Give Fans Hockey Fix During NHL Hiatus",
-        "headline": "Detroit Fans Get Their Hockey Fix Thanks to Rising AHL Stars",
-        "excerpt": "The Detroit Red Wings' AHL affiliate, the Griffins, are dominating the league and giving fans an impressive hockey experience during the NHL hiatus. The team showcases rising prospects and delivers exciting games, providing a much-needed hockey fix for dedicated fans in Detroit.",
+        "originalTitle": "How Denmark is inviting visitors to rediscover analogue play",
+        "headline": "Denmark Says 'Let's Play': A Digital Detox in Lego's Homeland",
+        "excerpt": "In the birthplace of Lego and Hans Christian Andersen, Denmark is launching initiatives to help visitors rediscover the joy of analogue play. The country is positioning traditional, hands-on activities as an antidote to digital overload, encouraging people to reconnect with physical, creative experiences.",
         "category": "people",
-        "sourceUrl": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/detroit-s-ahl-griffins-give-fans-hockey-fix-during-nhl-hiatus",
-        "sourceName": "The Hockey News",
-        "readTime": 4,
+        "sourceUrl": "https://www.positive.news/lifestyle/culture/how-denmark-is-inviting-visitors-to-rediscover-analogue-play/",
+        "sourceName": "Positive News",
+        "readTime": 5,
         "isHomepageFeatured": true,
-        "slug": "detroit-fans-get-their-hockey-fix-thanks-to-rising-ahl-stars",
-        "author": "Sol Idarity",
-        "imageUrl": "https://images.pexels.com/photos/26840203/pexels-photo-26840203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "denmark-says-lets-play-a-digital-detox-in-legos-homeland",
+        "author": "Hope Rising",
+        "imageUrl": "https://images.pexels.com/photos/12823543/pexels-photo-12823543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "While NHL fans have been dealing with a hockey drought, Detroit sports enthusiasts have discovered something pretty wonderful: their city's minor league team is absolutely crushing it. The Detroit Red Wings' AHL affiliate, the Grand Rapids Griffins, are putting on quite the show and giving fans exactly what they've been craving during the NHL's absence.",
+          "lead": "Remember when the most advanced technology in your pocket was a handful of colorful plastic bricks? Denmark certainly does. The Nordic nation that gave us both Lego and the fairy tales of Hans Christian Andersen is now on a mission to help visitors rediscover something that's been getting lost in our swipe-happy world: the simple magic of analogue play.",
           "body": [
             {
-              "subheading": "When the Farm Team Becomes the Main Event",
-              "content": "The Griffins aren't just filling the hockey void – they're dominating their league and delivering the kind of exciting games that make you forget you're not watching the big leagues. According to The Hockey News, the team is showcasing rising prospects who are clearly hungry to prove themselves. For fans who've been missing their regular dose of fast-paced hockey action, the Griffins are serving up an impressive alternative that's got people talking.\n\nWhat makes this even better is that fans are getting a preview of the Red Wings' future stars. These aren't just placeholder games – they're watching the next generation of Detroit hockey talent develop their skills and chemistry on the ice."
+              "subheading": "Building Blocks of a Better Vacation",
+              "content": "Denmark is launching initiatives designed to pull people away from their screens and back into the physical world of hands-on creativity. The country is positioning traditional, tactile activities as the perfect antidote to our collective digital overload. Think of it as a national prescription for reconnecting with the kind of play that doesn't require Wi-Fi, updates, or a charging cable.\n\nThis isn't just about nostalgia – though there's plenty of that to go around in a country that literally invented the building blocks of childhood imagination. Denmark is making a deliberate case that physical, creative experiences offer something our hyper-connected lives are missing."
             },
             {
-              "subheading": "Why This Matters Beyond the Rink",
-              "content": "Here's what's really beautiful about this story: it shows how sports communities adapt and thrive even when their main attraction isn't available. Detroit hockey fans aren't just passively waiting for the NHL to return – they're discovering new reasons to get excited about their team's organization as a whole.\n\nPlus, there's something genuinely heartwarming about a city rallying around its rising stars. These young players are getting the support and attention they deserve, which can only help their development as they work toward their NHL dreams."
+              "subheading": "Why This Matters",
+              "content": "In a world where 'unplugged' has become a luxury rather than the default, Denmark's approach feels both revolutionary and refreshingly simple. By championing analogue play as a tourist draw, they're acknowledging what many of us suspect but rarely admit: sometimes the best technology is no technology at all.\n\nThis movement comes at a time when digital fatigue is real, and people are actively seeking ways to disconnect and recharge – not their devices, but themselves. Denmark isn't just offering visitors a chance to see the sights; they're offering a chance to remember what it feels like to create something with your hands, to play without notifications, and to engage with the world in three dimensions."
             },
             {
-              "subheading": "The Sweet Spot",
-              "content": "Sometimes the best discoveries happen when we're forced to look beyond our usual go-tos. Detroit fans are getting quality hockey entertainment while supporting the future of their favorite franchise – and the Griffins are proving that great hockey doesn't always need the biggest stage to shine. It's a win-win that's keeping the Motor City's hockey spirit alive and thriving."
+              "subheading": "The Bottom Line",
+              "content": "Sometimes the most innovative thing you can do is go backward – or in Denmark's case, go analog. By celebrating the birthright of Lego and fairy tales, Denmark is reminding us that the best stories and the most satisfying play often happen when we put down our phones and pick up something real. Now that's what we call a smart move."
             }
           ],
           "pullQuote": null
@@ -1225,14 +1284,143 @@
         "factCheck": {
           "passed": false,
           "issues": [
-            "The generated article states the team is located in Grand Rapids ('Grand Rapids Griffins'), but the original source refers to them as 'Detroit's AHL Griffins' and mentions 'fans in Detroit', suggesting a Detroit location",
-            "The generated article appears incomplete with '[object Object]' placeholders, making full verification impossible",
-            "The article claims fans have 'discovered' the team during the hiatus, but this interpretation isn't clearly supported by the source"
+            "Article appears incomplete or corrupted - contains '[object Object]' placeholders instead of actual content",
+            "Cannot verify accuracy of claims beyond the opening paragraph due to missing content",
+            "Technical formatting issues prevent full fact-checking assessment"
+          ],
+          "confidence": "low",
+          "summary": "While the opening paragraph aligns with the source material regarding Denmark's connection to Lego and Hans Christian Andersen, and the initiative to promote analogue play as an antidote to digital overload, the article appears to have technical issues with '[object Object]' appearing where content should be. This makes it impossible to fully verify the accuracy of the complete article against the source material."
+        },
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 1
+      },
+      {
+        "originalTitle": "Will Pride in Place put communities back in charge of regeneration?",
+        "headline": "Power to the People: New Scheme Puts Communities in the Driver's Seat",
+        "excerpt": "The UK has launched a new initiative called 'Pride in Place' designed to give communities more control over neighborhood regeneration projects. The scheme aims to help local residents revive their areas by taking charge of development decisions that affect their communities.",
+        "category": "people",
+        "sourceUrl": "https://www.positive.news/society/will-pride-in-place-put-communities-back-in-charge-of-regeneration/",
+        "sourceName": "Positive News",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "power-to-the-people-new-scheme-puts-communities-in-the-drive",
+        "author": "Charity Case",
+        "imageUrl": "https://images.pexels.com/photos/5965023/pexels-photo-5965023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Here's a revolutionary idea: what if the people who actually live in neighborhoods got to decide what happens to them? Wild concept, we know. But the UK has just launched something called 'Pride in Place' that's designed to do exactly that – putting communities back in the driver's seat when it comes to local development decisions.",
+          "body": [
+            {
+              "subheading": "Power to the (Local) People",
+              "content": "The Pride in Place initiative is all about flipping the script on how neighborhood regeneration typically works. Instead of having decisions made by distant developers or government officials who might visit once for a photo op, this scheme aims to help local residents take charge of the development choices that will actually shape their daily lives.\n\nThe goal is refreshingly straightforward: give communities the tools and authority to revive their own areas. It's based on the simple but often overlooked principle that the people who walk these streets, shop at these corners, and raise their kids in these neighborhoods might just have some pretty good ideas about what would make them better."
+            },
+            {
+              "subheading": "Why This Actually Matters",
+              "content": "Community-led regeneration isn't just feel-good policy – it's smart policy. When locals have genuine input into development decisions, projects are more likely to address real needs rather than someone's best guess about what a community wants. Plus, there's something beautifully democratic about letting people shape the places they call home.\n\nThis approach could mark a significant shift away from top-down development that sometimes leaves residents feeling like passive observers of changes happening around them. Instead, Pride in Place positions communities as the experts on their own neighborhoods – which, when you think about it, they absolutely are."
+            },
+            {
+              "subheading": "The Bigger Picture",
+              "content": "While the specifics of how Pride in Place will work are still taking shape, the initiative represents something hopeful: recognition that sustainable community improvement comes from within. It's a bet on local knowledge, local pride, and local ownership of solutions. And in a world where so many decisions feel like they're made by people who've never set foot in the places those decisions affect, that's pretty refreshing news indeed."
+            }
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": false,
+          "issues": [
+            "Generated article contains technical errors showing '[object Object]' placeholders instead of actual content",
+            "Article appears incomplete or corrupted, making full fact-checking impossible",
+            "Cannot verify accuracy of unseen content due to display errors"
+          ],
+          "confidence": "low",
+          "summary": "The generated article has technical display issues showing '[object Object]' placeholders instead of content. While the visible opening paragraph accurately reflects the source material about the UK's 'Pride in Place' initiative and community control over regeneration, the majority of the article is unreadable due to these technical errors, preventing proper fact-checking."
+        },
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 2
+      },
+      {
+        "originalTitle": "Life lessons: former Olympian Aimee Fuller on what life so far has taught her",
+        "headline": "From Slopes to Studio: Olympic Snowboarder Shares Life Wisdom",
+        "excerpt": "Former Team GB Olympic snowboarder Aimee Fuller, now presenting the 2026 Winter Games on TNT, reflects on the valuable lessons that have shaped her journey beyond competitive sports. The athlete-turned-presenter shares insights about what life has taught her throughout her career transitions.",
+        "category": "people",
+        "sourceUrl": "https://www.positive.news/society/life-lessons-aimee-fuller/",
+        "sourceName": "Positive News",
+        "readTime": 5,
+        "isHomepageFeatured": true,
+        "slug": "from-slopes-to-studio-olympic-snowboarder-shares-life-wisdom",
+        "author": "Charity Case",
+        "imageUrl": "https://images.pexels.com/photos/11012422/pexels-photo-11012422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Picture this: you've spent years perfecting gravity-defying tricks on a snowboard, representing your country on the world's biggest stage, and then... what comes next? For former Team GB Olympic snowboarder Aimee Fuller, the answer involves a microphone, a broadcasting booth, and a whole new kind of performance pressure.\n\nFuller, who once carved her way down Olympic slopes, is now carving out a fresh career path as she prepares to present the 2026 Winter Games on TNT. But this career pivot isn't just about swapping snow boots for studio shoes – it's become a masterclass in the life lessons that shape us long after we hang up our competitive gear.",
+          "body": [
+            {
+              "subheading": "From Slopes to Studios: A New Kind of Gold Medal Performance",
+              "content": "The transition from athlete to presenter might seem like trading one spotlight for another, but Fuller's journey represents something deeper. According to the report, she's been reflecting on the valuable lessons that have shaped her path beyond competitive sports – insights that go far beyond perfecting a halfpipe routine.\n\nWhile we don't have the specific details of Fuller's wisdom just yet, her story highlights a fascinating trend: Olympic athletes who successfully reinvent themselves in entirely new fields. The mental toughness, dedication, and ability to perform under pressure that served her on the slopes are now being channeled into broadcast journalism.\n\nWhat makes Fuller's transition particularly intriguing is the timing – she's not just moving into any presenting role, but specifically into covering the 2026 Winter Games. Talk about coming full circle, but this time with a press pass instead of a competition bib."
+            },
+            {
+              "subheading": "Why This Matters More Than You'd Think",
+              "content": "Fuller's career evolution touches on something many of us grapple with: how do we take the lessons from one chapter of our lives and apply them to something completely different? Whether you're switching careers, picking up a new hobby, or just trying to figure out what's next, there's something universally relatable about reinvention.\n\nThe fact that Fuller is sharing these insights publicly also matters. Too often, we only hear from people at the peak of their original success, not from those navigating the messy, uncertain, but ultimately rewarding process of becoming something new."
+            },
+            {
+              "subheading": "The Bottom Line",
+              "content": "Sometimes the most interesting stories aren't about reaching the top of the mountain – they're about what you do with the view once you get there. Fuller's journey from Olympic competitor to broadcast presenter reminds us that our biggest adventures might just be the ones we haven't planned yet. And honestly, isn't that kind of exciting?"
+            }
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": true,
+          "issues": [],
+          "confidence": "high",
+          "summary": "All verifiable facts in the generated article align with the source material. Key details confirmed: Aimee Fuller is a former Team GB Olympic snowboarder, she is now presenting/preparing to present the 2026 Winter Games on TNT, and the focus is on life lessons from her career transition. No fabricated quotes, statistics, or unsupported claims were found. The article appears incomplete with '[object Object]' placeholders, but the factual content present is accurate."
+        },
+        "approved": true,
+        "_index": 7
+      },
+      {
+        "originalTitle": "Betting company Polymarket opens NYC's first free grocery store in downtown Manhattan (for 1 week only)",
+        "headline": "Free Groceries in Manhattan? This Company Just Made It Happen",
+        "excerpt": "A prediction market company is launching what it calls New York City's first-ever free grocery store in downtown Manhattan. The innovative store will be open for New Yorkers for one week, offering completely free groceries to anyone who visits.",
+        "category": "people",
+        "sourceUrl": "https://freerepublic.com/focus/f-chat/4365831/posts",
+        "sourceName": "Freerepublic.com",
+        "readTime": 4,
+        "isHomepageFeatured": true,
+        "slug": "free-groceries-in-manhattan-this-company-just-made-it-happen",
+        "author": "Faith Forward",
+        "imageUrl": "https://images.pexels.com/photos/34875284/pexels-photo-34875284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "fullContent": {
+          "lead": "Picture this: you stroll into a grocery store in downtown Manhattan, fill your cart with everything you need, and walk out without paying a dime. No, you haven't accidentally wandered into a fever dream or a very elaborate prank – you've just discovered what's being called New York City's first-ever free grocery store.\n\nPolymarket, a prediction market company, has opened this grocery wonderland that's making 'free lunch' a literal reality for one glorious week. Because apparently, someone finally figured out how to make grocery shopping not hurt your wallet.",
+          "body": [
+            {
+              "subheading": "No Catch, Just Cart-Filling Joy",
+              "content": "Located in the heart of downtown Manhattan, this innovative store is exactly what it sounds like – a place where New Yorkers can grab groceries without spending a single cent. The concept is refreshingly simple: walk in, take what you need, and leave with your dignity (and bank account) intact.\n\nPolymarket is behind this generous experiment, though the connection between prediction markets and free food might seem about as clear as subway announcements during rush hour. Regardless of the 'why,' the 'what' is pretty spectacular: completely free groceries for anyone who visits during the store's week-long run.\n\nThe timing couldn't be better for a city where a single apple can cost more than some people's entire lunch budget. For seven days, at least, grocery shopping in Manhattan doesn't have to feel like participating in an extreme sport."
+            },
+            {
+              "subheading": "Why This Matters",
+              "content": "Beyond the obvious appeal of free stuff, this initiative highlights something important about food accessibility in one of the world's most expensive cities. When a company can afford to give away groceries for a week, it underscores just how much markup typically exists in our food system.\n\nIt's also a fascinating glimpse into creative corporate outreach. Instead of another boring press release or billboard campaign, Polymarket chose to literally put food on people's tables. That's the kind of marketing that actually makes people's lives better, even if just for a week."
+            },
+            {
+              "subheading": "The Bottom Line",
+              "content": "While this free grocery store experiment is only temporary, it's giving New Yorkers a taste of what food security could look like. Plus, it's creating one of those rare moments when walking through Manhattan doesn't automatically drain your bank account. Sometimes the best innovations are the simplest ones – and it doesn't get much simpler than 'here's free food, enjoy.'"
+            }
+          ],
+          "pullQuote": null
+        },
+        "factCheck": {
+          "passed": false,
+          "issues": [
+            "Generated article contains '[object Object]' placeholders indicating incomplete or corrupted content",
+            "Article makes unsupported editorial claims like 'making grocery shopping not hurt your wallet' and 'grocery wonderland' which go beyond the factual information in the source",
+            "The tone and commentary ('fever dream', 'very elaborate prank', 'glorious week') add subjective interpretations not present in the source"
           ],
           "confidence": "high",
-          "summary": "The generated article contains a significant location discrepancy (Grand Rapids vs Detroit) and is incomplete with placeholder text. While the general theme about the Griffins performing well during NHL hiatus matches the source, the location error is a clear factual inaccuracy."
+          "summary": "While the basic facts about Polymarket opening NYC's first free grocery store in downtown Manhattan for one week are accurate, the article contains technical errors with object placeholders and adds unsupported editorial commentary that goes beyond the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 9
       },
       {
         "originalTitle": "How aggressive free agency moves led the Patriots and Seahawks to the Super Bowl",
@@ -1275,34 +1463,36 @@
           "confidence": "high",
           "summary": "The article contains the basic factual information from the source but has significant technical errors (object placeholders) and adds substantial editorial content not present in the original. The core claim about Patriots and Seahawks is accurate, but the informal tone and added commentary go beyond what's supported by the source."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 11
       },
       {
-        "originalTitle": "Betting company Polymarket opens NYC's first free grocery store in downtown Manhattan (for 1 week only)",
-        "headline": "Free Groceries in Manhattan? This Company Just Made It Happen",
-        "excerpt": "A prediction market company is launching what it calls New York City's first-ever free grocery store in downtown Manhattan. The innovative store will be open for New Yorkers for one week, offering completely free groceries to anyone who visits.",
+        "originalTitle": "Detroit's AHL Griffins Give Fans Hockey Fix During NHL Hiatus",
+        "headline": "Detroit Fans Get Their Hockey Fix Thanks to Rising AHL Stars",
+        "excerpt": "The Detroit Red Wings' AHL affiliate, the Griffins, are dominating the league and giving fans an impressive hockey experience during the NHL hiatus. The team showcases rising prospects and delivers exciting games, providing a much-needed hockey fix for dedicated fans in Detroit.",
         "category": "people",
-        "sourceUrl": "https://freerepublic.com/focus/f-chat/4365831/posts",
-        "sourceName": "Freerepublic.com",
+        "sourceUrl": "https://thehockeynews.com/nhl/detroit-red-wings/latest-news/detroit-s-ahl-griffins-give-fans-hockey-fix-during-nhl-hiatus",
+        "sourceName": "The Hockey News",
         "readTime": 4,
         "isHomepageFeatured": true,
-        "slug": "free-groceries-in-manhattan-this-company-just-made-it-happen",
-        "author": "Faith Forward",
-        "imageUrl": "https://images.pexels.com/photos/34875284/pexels-photo-34875284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "slug": "detroit-fans-get-their-hockey-fix-thanks-to-rising-ahl-stars",
+        "author": "Sol Idarity",
+        "imageUrl": "https://images.pexels.com/photos/26840203/pexels-photo-26840203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "fullContent": {
-          "lead": "Picture this: you stroll into a grocery store in downtown Manhattan, fill your cart with everything you need, and walk out without paying a dime. No, you haven't accidentally wandered into a fever dream or a very elaborate prank – you've just discovered what's being called New York City's first-ever free grocery store.\n\nPolymarket, a prediction market company, has opened this grocery wonderland that's making 'free lunch' a literal reality for one glorious week. Because apparently, someone finally figured out how to make grocery shopping not hurt your wallet.",
+          "lead": "While NHL fans have been dealing with a hockey drought, Detroit sports enthusiasts have discovered something pretty wonderful: their city's minor league team is absolutely crushing it. The Detroit Red Wings' AHL affiliate, the Grand Rapids Griffins, are putting on quite the show and giving fans exactly what they've been craving during the NHL's absence.",
           "body": [
             {
-              "subheading": "No Catch, Just Cart-Filling Joy",
-              "content": "Located in the heart of downtown Manhattan, this innovative store is exactly what it sounds like – a place where New Yorkers can grab groceries without spending a single cent. The concept is refreshingly simple: walk in, take what you need, and leave with your dignity (and bank account) intact.\n\nPolymarket is behind this generous experiment, though the connection between prediction markets and free food might seem about as clear as subway announcements during rush hour. Regardless of the 'why,' the 'what' is pretty spectacular: completely free groceries for anyone who visits during the store's week-long run.\n\nThe timing couldn't be better for a city where a single apple can cost more than some people's entire lunch budget. For seven days, at least, grocery shopping in Manhattan doesn't have to feel like participating in an extreme sport."
+              "subheading": "When the Farm Team Becomes the Main Event",
+              "content": "The Griffins aren't just filling the hockey void – they're dominating their league and delivering the kind of exciting games that make you forget you're not watching the big leagues. According to The Hockey News, the team is showcasing rising prospects who are clearly hungry to prove themselves. For fans who've been missing their regular dose of fast-paced hockey action, the Griffins are serving up an impressive alternative that's got people talking.\n\nWhat makes this even better is that fans are getting a preview of the Red Wings' future stars. These aren't just placeholder games – they're watching the next generation of Detroit hockey talent develop their skills and chemistry on the ice."
             },
             {
-              "subheading": "Why This Matters",
-              "content": "Beyond the obvious appeal of free stuff, this initiative highlights something important about food accessibility in one of the world's most expensive cities. When a company can afford to give away groceries for a week, it underscores just how much markup typically exists in our food system.\n\nIt's also a fascinating glimpse into creative corporate outreach. Instead of another boring press release or billboard campaign, Polymarket chose to literally put food on people's tables. That's the kind of marketing that actually makes people's lives better, even if just for a week."
+              "subheading": "Why This Matters Beyond the Rink",
+              "content": "Here's what's really beautiful about this story: it shows how sports communities adapt and thrive even when their main attraction isn't available. Detroit hockey fans aren't just passively waiting for the NHL to return – they're discovering new reasons to get excited about their team's organization as a whole.\n\nPlus, there's something genuinely heartwarming about a city rallying around its rising stars. These young players are getting the support and attention they deserve, which can only help their development as they work toward their NHL dreams."
             },
             {
-              "subheading": "The Bottom Line",
-              "content": "While this free grocery store experiment is only temporary, it's giving New Yorkers a taste of what food security could look like. Plus, it's creating one of those rare moments when walking through Manhattan doesn't automatically drain your bank account. Sometimes the best innovations are the simplest ones – and it doesn't get much simpler than 'here's free food, enjoy.'"
+              "subheading": "The Sweet Spot",
+              "content": "Sometimes the best discoveries happen when we're forced to look beyond our usual go-tos. Detroit fans are getting quality hockey entertainment while supporting the future of their favorite franchise – and the Griffins are proving that great hockey doesn't always need the biggest stage to shine. It's a win-win that's keeping the Motor City's hockey spirit alive and thriving."
             }
           ],
           "pullQuote": null
@@ -1310,135 +1500,16 @@
         "factCheck": {
           "passed": false,
           "issues": [
-            "Generated article contains '[object Object]' placeholders indicating incomplete or corrupted content",
-            "Article makes unsupported editorial claims like 'making grocery shopping not hurt your wallet' and 'grocery wonderland' which go beyond the factual information in the source",
-            "The tone and commentary ('fever dream', 'very elaborate prank', 'glorious week') add subjective interpretations not present in the source"
+            "The generated article states the team is located in Grand Rapids ('Grand Rapids Griffins'), but the original source refers to them as 'Detroit's AHL Griffins' and mentions 'fans in Detroit', suggesting a Detroit location",
+            "The generated article appears incomplete with '[object Object]' placeholders, making full verification impossible",
+            "The article claims fans have 'discovered' the team during the hiatus, but this interpretation isn't clearly supported by the source"
           ],
           "confidence": "high",
-          "summary": "While the basic facts about Polymarket opening NYC's first free grocery store in downtown Manhattan for one week are accurate, the article contains technical errors with object placeholders and adds unsupported editorial commentary that goes beyond the source material."
+          "summary": "The generated article contains a significant location discrepancy (Grand Rapids vs Detroit) and is incomplete with placeholder text. While the general theme about the Griffins performing well during NHL hiatus matches the source, the location error is a clear factual inaccuracy."
         },
-        "factCheckFailed": true
-      },
-      {
-        "originalTitle": "Life lessons: former Olympian Aimee Fuller on what life so far has taught her",
-        "headline": "From Slopes to Studio: Olympic Snowboarder Shares Life Wisdom",
-        "excerpt": "Former Team GB Olympic snowboarder Aimee Fuller, now presenting the 2026 Winter Games on TNT, reflects on the valuable lessons that have shaped her journey beyond competitive sports. The athlete-turned-presenter shares insights about what life has taught her throughout her career transitions.",
-        "category": "people",
-        "sourceUrl": "https://www.positive.news/society/life-lessons-aimee-fuller/",
-        "sourceName": "Positive News",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "from-slopes-to-studio-olympic-snowboarder-shares-life-wisdom",
-        "author": "Charity Case",
-        "imageUrl": "https://images.pexels.com/photos/11012422/pexels-photo-11012422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Picture this: you've spent years perfecting gravity-defying tricks on a snowboard, representing your country on the world's biggest stage, and then... what comes next? For former Team GB Olympic snowboarder Aimee Fuller, the answer involves a microphone, a broadcasting booth, and a whole new kind of performance pressure.\n\nFuller, who once carved her way down Olympic slopes, is now carving out a fresh career path as she prepares to present the 2026 Winter Games on TNT. But this career pivot isn't just about swapping snow boots for studio shoes – it's become a masterclass in the life lessons that shape us long after we hang up our competitive gear.",
-          "body": [
-            {
-              "subheading": "From Slopes to Studios: A New Kind of Gold Medal Performance",
-              "content": "The transition from athlete to presenter might seem like trading one spotlight for another, but Fuller's journey represents something deeper. According to the report, she's been reflecting on the valuable lessons that have shaped her path beyond competitive sports – insights that go far beyond perfecting a halfpipe routine.\n\nWhile we don't have the specific details of Fuller's wisdom just yet, her story highlights a fascinating trend: Olympic athletes who successfully reinvent themselves in entirely new fields. The mental toughness, dedication, and ability to perform under pressure that served her on the slopes are now being channeled into broadcast journalism.\n\nWhat makes Fuller's transition particularly intriguing is the timing – she's not just moving into any presenting role, but specifically into covering the 2026 Winter Games. Talk about coming full circle, but this time with a press pass instead of a competition bib."
-            },
-            {
-              "subheading": "Why This Matters More Than You'd Think",
-              "content": "Fuller's career evolution touches on something many of us grapple with: how do we take the lessons from one chapter of our lives and apply them to something completely different? Whether you're switching careers, picking up a new hobby, or just trying to figure out what's next, there's something universally relatable about reinvention.\n\nThe fact that Fuller is sharing these insights publicly also matters. Too often, we only hear from people at the peak of their original success, not from those navigating the messy, uncertain, but ultimately rewarding process of becoming something new."
-            },
-            {
-              "subheading": "The Bottom Line",
-              "content": "Sometimes the most interesting stories aren't about reaching the top of the mountain – they're about what you do with the view once you get there. Fuller's journey from Olympic competitor to broadcast presenter reminds us that our biggest adventures might just be the ones we haven't planned yet. And honestly, isn't that kind of exciting?"
-            }
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": true,
-          "issues": [],
-          "confidence": "high",
-          "summary": "All verifiable facts in the generated article align with the source material. Key details confirmed: Aimee Fuller is a former Team GB Olympic snowboarder, she is now presenting/preparing to present the 2026 Winter Games on TNT, and the focus is on life lessons from her career transition. No fabricated quotes, statistics, or unsupported claims were found. The article appears incomplete with '[object Object]' placeholders, but the factual content present is accurate."
-        }
-      },
-      {
-        "originalTitle": "Will Pride in Place put communities back in charge of regeneration?",
-        "headline": "Power to the People: New Scheme Puts Communities in the Driver's Seat",
-        "excerpt": "The UK has launched a new initiative called 'Pride in Place' designed to give communities more control over neighborhood regeneration projects. The scheme aims to help local residents revive their areas by taking charge of development decisions that affect their communities.",
-        "category": "people",
-        "sourceUrl": "https://www.positive.news/society/will-pride-in-place-put-communities-back-in-charge-of-regeneration/",
-        "sourceName": "Positive News",
-        "readTime": 4,
-        "isHomepageFeatured": true,
-        "slug": "power-to-the-people-new-scheme-puts-communities-in-the-drive",
-        "author": "Charity Case",
-        "imageUrl": "https://images.pexels.com/photos/5965023/pexels-photo-5965023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Here's a revolutionary idea: what if the people who actually live in neighborhoods got to decide what happens to them? Wild concept, we know. But the UK has just launched something called 'Pride in Place' that's designed to do exactly that – putting communities back in the driver's seat when it comes to local development decisions.",
-          "body": [
-            {
-              "subheading": "Power to the (Local) People",
-              "content": "The Pride in Place initiative is all about flipping the script on how neighborhood regeneration typically works. Instead of having decisions made by distant developers or government officials who might visit once for a photo op, this scheme aims to help local residents take charge of the development choices that will actually shape their daily lives.\n\nThe goal is refreshingly straightforward: give communities the tools and authority to revive their own areas. It's based on the simple but often overlooked principle that the people who walk these streets, shop at these corners, and raise their kids in these neighborhoods might just have some pretty good ideas about what would make them better."
-            },
-            {
-              "subheading": "Why This Actually Matters",
-              "content": "Community-led regeneration isn't just feel-good policy – it's smart policy. When locals have genuine input into development decisions, projects are more likely to address real needs rather than someone's best guess about what a community wants. Plus, there's something beautifully democratic about letting people shape the places they call home.\n\nThis approach could mark a significant shift away from top-down development that sometimes leaves residents feeling like passive observers of changes happening around them. Instead, Pride in Place positions communities as the experts on their own neighborhoods – which, when you think about it, they absolutely are."
-            },
-            {
-              "subheading": "The Bigger Picture",
-              "content": "While the specifics of how Pride in Place will work are still taking shape, the initiative represents something hopeful: recognition that sustainable community improvement comes from within. It's a bet on local knowledge, local pride, and local ownership of solutions. And in a world where so many decisions feel like they're made by people who've never set foot in the places those decisions affect, that's pretty refreshing news indeed."
-            }
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": false,
-          "issues": [
-            "Generated article contains technical errors showing '[object Object]' placeholders instead of actual content",
-            "Article appears incomplete or corrupted, making full fact-checking impossible",
-            "Cannot verify accuracy of unseen content due to display errors"
-          ],
-          "confidence": "low",
-          "summary": "The generated article has technical display issues showing '[object Object]' placeholders instead of content. While the visible opening paragraph accurately reflects the source material about the UK's 'Pride in Place' initiative and community control over regeneration, the majority of the article is unreadable due to these technical errors, preventing proper fact-checking."
-        },
-        "factCheckFailed": true
-      },
-      {
-        "originalTitle": "How Denmark is inviting visitors to rediscover analogue play",
-        "headline": "Denmark Says 'Let's Play': A Digital Detox in Lego's Homeland",
-        "excerpt": "In the birthplace of Lego and Hans Christian Andersen, Denmark is launching initiatives to help visitors rediscover the joy of analogue play. The country is positioning traditional, hands-on activities as an antidote to digital overload, encouraging people to reconnect with physical, creative experiences.",
-        "category": "people",
-        "sourceUrl": "https://www.positive.news/lifestyle/culture/how-denmark-is-inviting-visitors-to-rediscover-analogue-play/",
-        "sourceName": "Positive News",
-        "readTime": 5,
-        "isHomepageFeatured": true,
-        "slug": "denmark-says-lets-play-a-digital-detox-in-legos-homeland",
-        "author": "Hope Rising",
-        "imageUrl": "https://images.pexels.com/photos/12823543/pexels-photo-12823543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "fullContent": {
-          "lead": "Remember when the most advanced technology in your pocket was a handful of colorful plastic bricks? Denmark certainly does. The Nordic nation that gave us both Lego and the fairy tales of Hans Christian Andersen is now on a mission to help visitors rediscover something that's been getting lost in our swipe-happy world: the simple magic of analogue play.",
-          "body": [
-            {
-              "subheading": "Building Blocks of a Better Vacation",
-              "content": "Denmark is launching initiatives designed to pull people away from their screens and back into the physical world of hands-on creativity. The country is positioning traditional, tactile activities as the perfect antidote to our collective digital overload. Think of it as a national prescription for reconnecting with the kind of play that doesn't require Wi-Fi, updates, or a charging cable.\n\nThis isn't just about nostalgia – though there's plenty of that to go around in a country that literally invented the building blocks of childhood imagination. Denmark is making a deliberate case that physical, creative experiences offer something our hyper-connected lives are missing."
-            },
-            {
-              "subheading": "Why This Matters",
-              "content": "In a world where 'unplugged' has become a luxury rather than the default, Denmark's approach feels both revolutionary and refreshingly simple. By championing analogue play as a tourist draw, they're acknowledging what many of us suspect but rarely admit: sometimes the best technology is no technology at all.\n\nThis movement comes at a time when digital fatigue is real, and people are actively seeking ways to disconnect and recharge – not their devices, but themselves. Denmark isn't just offering visitors a chance to see the sights; they're offering a chance to remember what it feels like to create something with your hands, to play without notifications, and to engage with the world in three dimensions."
-            },
-            {
-              "subheading": "The Bottom Line",
-              "content": "Sometimes the most innovative thing you can do is go backward – or in Denmark's case, go analog. By celebrating the birthright of Lego and fairy tales, Denmark is reminding us that the best stories and the most satisfying play often happen when we put down our phones and pick up something real. Now that's what we call a smart move."
-            }
-          ],
-          "pullQuote": null
-        },
-        "factCheck": {
-          "passed": false,
-          "issues": [
-            "Article appears incomplete or corrupted - contains '[object Object]' placeholders instead of actual content",
-            "Cannot verify accuracy of claims beyond the opening paragraph due to missing content",
-            "Technical formatting issues prevent full fact-checking assessment"
-          ],
-          "confidence": "low",
-          "summary": "While the opening paragraph aligns with the source material regarding Denmark's connection to Lego and Hans Christian Andersen, and the initiative to promote analogue play as an antidote to digital overload, the article appears to have technical issues with '[object Object]' appearing where content should be. This makes it impossible to fully verify the accuracy of the complete article against the source material."
-        },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 12
       },
       {
         "originalTitle": "From Beijing to Milan, Olympics fuel China's winter sports",
@@ -1480,7 +1551,9 @@
           "confidence": "high",
           "summary": "The generated article contains a major factual error about the 2026 Olympics timeline, includes corrupted content placeholders, and makes numerous unsupported claims that go well beyond the limited source material provided."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 15
       },
       {
         "originalTitle": "Judit Polgár Was the No. 1 Female Chess Player at 12. Now She's Looking Back on Her Record-Breaking Career (Exclusive)",
@@ -1516,7 +1589,9 @@
           "issues": [],
           "confidence": "high",
           "summary": "All factual information in the generated article is accurate to the source. Key facts verified: Judit Polgár became world's #1 female chess player at age 12, director Rory Kennedy is making film 'Queen of Chess' about her career, and the film celebrates her groundbreaking achievements. No quotes were fabricated (none were included), and all names and details match the source exactly."
-        }
+        },
+        "approved": true,
+        "_index": 16
       },
       {
         "originalTitle": "What went right this week: not-so-lawless Britain, plus more",
@@ -1557,7 +1632,9 @@
           "confidence": "high",
           "summary": "The generated article is technically corrupted with '[object Object]' placeholders replacing the actual content. While the introductory paragraph aligns with the source's mention of 'genuinely good news' and references crime drops and digital boundaries for kids, the bulk of the article is unreadable and therefore cannot be fact-checked against the source material."
         },
-        "factCheckFailed": true
+        "factCheckFailed": true,
+        "approved": true,
+        "_index": 22
       }
     ]
   },
@@ -1602,7 +1679,9 @@
         "confidence": "high",
         "summary": "The generated article cannot be fact-checked because the main content is corrupted, displaying '[object Object]' instead of readable text. While the introduction paragraph aligns with the source's general themes, the body content is inaccessible for verification."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 0
     },
     {
       "originalTitle": "How Denmark is inviting visitors to rediscover analogue play",
@@ -1644,7 +1723,9 @@
         "confidence": "low",
         "summary": "While the opening paragraph aligns with the source material regarding Denmark's connection to Lego and Hans Christian Andersen, and the initiative to promote analogue play as an antidote to digital overload, the article appears to have technical issues with '[object Object]' appearing where content should be. This makes it impossible to fully verify the accuracy of the complete article against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 1
     },
     {
       "originalTitle": "Will Pride in Place put communities back in charge of regeneration?",
@@ -1686,7 +1767,9 @@
         "confidence": "low",
         "summary": "The generated article has technical display issues showing '[object Object]' placeholders instead of content. While the visible opening paragraph accurately reflects the source material about the UK's 'Pride in Place' initiative and community control over regeneration, the majority of the article is unreadable due to these technical errors, preventing proper fact-checking."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 2
     },
     {
       "originalTitle": "Apes Show Ability to Imagine in 'Tea Party' Experiments, and Scientists are Very Excited",
@@ -1728,7 +1811,9 @@
         "confidence": "low",
         "summary": "The generated article appears to be corrupted or improperly formatted, showing '[object Object]' instead of actual content. The opening paragraph aligns with the source material about apes and tea party experiments, but the majority of the article is unreadable, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 3
     },
     {
       "originalTitle": "'Crime-Fighting' Llamas Catch Thief by Surrounding Him in a Field Until Cops Arrive",
@@ -1765,7 +1850,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: llamas surrounded and corralled a fleeing thief in a field until police arrived, and they alerted farm owners with alarm calls during a nighttime incident. No statistics, quotes, or specific names were provided in the source to verify. The article adds creative narrative elements and humor but doesn't contradict or fabricate any factual claims from the original source."
-      }
+      },
+      "approved": true,
+      "_index": 4
     },
     {
       "originalTitle": "Roche's fenebrutinib is the first investigational medicine in over a decade that reduces disability progression in primary progressive multiple sclerosis (PPMS)",
@@ -1802,7 +1889,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: Roche's fenebrutinib is an investigational medicine that met its primary endpoint in a Phase III study (FENtrepid), it's the first such treatment in over a decade for PPMS disability progression, and it's a Bruton's tyrosine kinase inhibitor. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article appropriately uses cautious language about potential benefits rather than stating definitive outcomes."
-      }
+      },
+      "approved": true,
+      "_index": 5
     },
     {
       "originalTitle": "Mexico moves to combat pollution following Guardian investigations",
@@ -1844,7 +1933,9 @@
         "confidence": "high",
         "summary": "The generated article is technically broken with '[object Object]' placeholders replacing what should be content. While the opening paragraph appears to align with the source material's general theme about Guardian investigations leading to Mexican government action on pollution, the rest of the article is unreadable and cannot be fact-checked."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 6
     },
     {
       "originalTitle": "Life lessons: former Olympian Aimee Fuller on what life so far has taught her",
@@ -1881,7 +1972,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All verifiable facts in the generated article align with the source material. Key details confirmed: Aimee Fuller is a former Team GB Olympic snowboarder, she is now presenting/preparing to present the 2026 Winter Games on TNT, and the focus is on life lessons from her career transition. No fabricated quotes, statistics, or unsupported claims were found. The article appears incomplete with '[object Object]' placeholders, but the factual content present is accurate."
-      }
+      },
+      "approved": true,
+      "_index": 7
     },
     {
       "originalTitle": "We tried to buy nothing new for the whole of January. Here's how we got on",
@@ -1923,7 +2016,9 @@
         "confidence": "high",
         "summary": "The generated article is technically unusable for fact-checking as most of the content displays as '[object Object]' rather than readable text. The visible introductory paragraph correctly identifies the source (Positive News) and the general concept (Buy Nothing New Month challenge in January), but without the full article content, it's impossible to verify factual accuracy, quotes, or specific claims against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 8
     },
     {
       "originalTitle": "Betting company Polymarket opens NYC's first free grocery store in downtown Manhattan (for 1 week only)",
@@ -1965,7 +2060,9 @@
         "confidence": "high",
         "summary": "While the basic facts about Polymarket opening NYC's first free grocery store in downtown Manhattan for one week are accurate, the article contains technical errors with object placeholders and adds unsupported editorial commentary that goes beyond the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 9
     },
     {
       "originalTitle": "How did the mongoose save the baby?",
@@ -2008,7 +2105,9 @@
         "confidence": "high",
         "summary": "The generated article makes specific claims about mongooses protecting human babies and making headlines that cannot be verified against the very limited source material provided. The source only contains a brief abstract-like description without the detailed information needed to support the claims made in the generated article."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 10
     },
     {
       "originalTitle": "How aggressive free agency moves led the Patriots and Seahawks to the Super Bowl",
@@ -2051,7 +2150,9 @@
         "confidence": "high",
         "summary": "The article contains the basic factual information from the source but has significant technical errors (object placeholders) and adds substantial editorial content not present in the original. The core claim about Patriots and Seahawks is accurate, but the informal tone and added commentary go beyond what's supported by the source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 11
     },
     {
       "originalTitle": "Detroit's AHL Griffins Give Fans Hockey Fix During NHL Hiatus",
@@ -2093,7 +2194,9 @@
         "confidence": "high",
         "summary": "The generated article contains a significant location discrepancy (Grand Rapids vs Detroit) and is incomplete with placeholder text. While the general theme about the Griffins performing well during NHL hiatus matches the source, the location error is a clear factual inaccuracy."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 12
     },
     {
       "originalTitle": "What are critical minerals and why do countries need them?",
@@ -2135,7 +2238,9 @@
         "confidence": "high",
         "summary": "The generated article appears incomplete due to placeholder text and contains specific claims that cannot be verified against the brief source excerpt provided. While the general theme about countries racing to secure critical minerals matches the source, the specific examples and details cannot be fact-checked."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 13
     },
     {
       "originalTitle": "Rat-free forest offers rare boost for kōkako north of Rotorua",
@@ -2172,7 +2277,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts are accurately represented: 700 hectares, Kaimai Mamaku forest location north of Rotorua, rat-free environment created by conservation project, and benefit to endangered kōkako. No quotes were fabricated, and all place names and details match the source. The article uses more descriptive language but doesn't introduce any unsupported claims."
-      }
+      },
+      "approved": true,
+      "_index": 14
     },
     {
       "originalTitle": "From Beijing to Milan, Olympics fuel China's winter sports",
@@ -2214,7 +2321,9 @@
         "confidence": "high",
         "summary": "The generated article contains a major factual error about the 2026 Olympics timeline, includes corrupted content placeholders, and makes numerous unsupported claims that go well beyond the limited source material provided."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 15
     },
     {
       "originalTitle": "Judit Polgár Was the No. 1 Female Chess Player at 12. Now She's Looking Back on Her Record-Breaking Career (Exclusive)",
@@ -2250,7 +2359,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual information in the generated article is accurate to the source. Key facts verified: Judit Polgár became world's #1 female chess player at age 12, director Rory Kennedy is making film 'Queen of Chess' about her career, and the film celebrates her groundbreaking achievements. No quotes were fabricated (none were included), and all names and details match the source exactly."
-      }
+      },
+      "approved": true,
+      "_index": 16
     },
     {
       "originalTitle": "Researchers Get Their First Ever Look At Neanderthal Nasal Cavities, And It Didn't Look Like Models Predicted",
@@ -2286,7 +2397,9 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: researchers achieved their first detailed look at Neanderthal nasal cavities, the results didn't match scientific model predictions, and this discovery helps understand ancient human relatives and their environmental adaptations. While the article uses a more casual, engaging tone with added narrative elements, it doesn't introduce any factual inaccuracies or unsupported claims. No quotes, statistics, names, or specific details are fabricated."
-      }
+      },
+      "approved": true,
+      "_index": 17
     },
     {
       "originalTitle": "STRENGTHENING NATIONAL SPACE INFRASTRUCTURE",
@@ -2328,7 +2441,9 @@
         "confidence": "high",
         "summary": "The generated article appears to be incomplete or corrupted, containing '[object Object]' placeholders instead of actual content. While the introductory paragraph accurately reflects the source material about India's 2025 space infrastructure progress, the majority of the article is missing, making fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 18
     },
     {
       "originalTitle": "Is mapping a baby's genetic disease risk a healthcare miracle or a step too far?",
@@ -2369,7 +2484,9 @@
         "confidence": "high",
         "summary": "While the opening paragraph of the generated article appears to accurately reflect the source material's main points about advancing newborn genomic testing, the article contains technical errors ('[object Object]' placeholders) that make it incomplete and prevent proper fact-checking of the full content."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 19
     },
     {
       "originalTitle": "Before Steve Irwin, there was Alby Mangels. This is why you no longer hear his name",
@@ -2411,7 +2528,9 @@
         "confidence": "high",
         "summary": "While the core facts about Alby Mangels being a 1980s Australian filmmaker who preceded Steve Irwin and was box office successful are accurate, the article contains technical formatting errors and includes unsupported characterizations and claims not found in the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 20
     },
     {
       "originalTitle": "Musk predicts more AI capacity will be in orbit than on earth in 5 years, with SpaceX becoming a 'hyper-hyper' scaler",
@@ -2452,7 +2571,9 @@
         "confidence": "high",
         "summary": "The generated article is incomplete or corrupted, displaying '[object Object]' placeholders instead of actual content. While the opening paragraph accurately reflects Musk's prediction about AI computing capacity in orbit within five years, the majority of the article is unreadable, making proper fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 21
     },
     {
       "originalTitle": "What went right this week: not-so-lawless Britain, plus more",
@@ -2493,7 +2614,9 @@
         "confidence": "high",
         "summary": "The generated article is technically corrupted with '[object Object]' placeholders replacing the actual content. While the introductory paragraph aligns with the source's mention of 'genuinely good news' and references crime drops and digital boundaries for kids, the bulk of the article is unreadable and therefore cannot be fact-checked against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true,
+      "_index": 22
     }
   ]
 }
