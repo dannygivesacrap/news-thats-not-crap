@@ -2146,7 +2146,8 @@
         "confidence": "high",
         "summary": "While core facts about Jonathan Schreiber being an Austrian teenager who built wind power systems from scrap metal with his grandfather's encouragement are accurate, the article contains technical display errors, fabricated quotes, unsupported generalizations, and misrepresents the timeline of when he started with wind power."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "A secret cell alliance may explain why ovarian cancer is so deadly",
@@ -2183,7 +2184,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that scientists discovered why ovarian cancer spreads rapidly through the abdomen, that cancer cells recruit protective abdominal cells to form mixed groups for tissue invasion, and that these helper cells enable faster spread and chemotherapy resistance. While the article uses creative analogies and informal language, it does not fabricate any facts, quotes, statistics, or names that aren't supported by the source."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Scientists were wrong for decades about DNA knots",
@@ -2220,7 +2222,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source material. It correctly states that scientists were wrong for decades about DNA knots, that what were thought to be knots causing messy electrical signals are actually twisted coils called plectonemes, and uses the appropriate phone cord analogy mentioned in the source. The article appears incomplete (showing [object Object] placeholders), but the visible content contains no factual inaccuracies."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Rethinking ADHD as 'hypercuriosity'",
@@ -2263,7 +2266,8 @@
         "confidence": "high",
         "summary": "While the generated article captures the general theme of reframing ADHD traits as curiosity rather than disorder, it contains technical errors, introduces quoted terminology not present in the source, and makes claims that go beyond what the original source material supports."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "How Denmark is inviting visitors to rediscover analogue play",
@@ -2300,7 +2304,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: Denmark as birthplace of Lego and Hans Christian Andersen, the country's initiative to invite visitors to rediscover play, and the focus on analog activities as an antidote to digital overload. No fabricated quotes, statistics, or unsupported claims were found. The article expands creatively on the source material while maintaining factual accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Apes Show Ability to Imagine in 'Tea Party' Experiments, and Scientists are Very Excited",
@@ -2342,7 +2347,8 @@
         "confidence": "low",
         "summary": "The article appears to have technical formatting issues with '[object Object]' placeholders replacing most of the content. The visible introductory paragraph correctly mentions Johns Hopkins University and tea party experiments with apes, which aligns with the source, but the bulk of the article is unreadable and therefore cannot be fact-checked."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "'Crime-Fighting' Llamas Catch Thief by Surrounding Him in a Field Until Cops Arrive",
@@ -2385,7 +2391,8 @@
         "confidence": "high",
         "summary": "The generated article is technically flawed with '[object Object]' placeholders and appears incomplete. While the opening paragraphs align with the source's basic premise of llamas catching a thief, the article cannot be properly fact-checked due to missing content and technical errors in generation."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "This Ancient Man's Piercing Hazel Eyes Drew Almost $1 Million in 'Mummy Portrait' Auction",
@@ -2422,7 +2429,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: the painting is from Roman-controlled Egypt, sold at Sotheby's for almost $1 million, features a man with hazel eyes, and is nearly 2,000 years old (consistent with 'first century CE'). No quotes were fabricated, names are accurate, and no unsupported claims were made. The article stays faithful to the source material while adding appropriate creative language."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Artist Uses Cremation Ashes to Create Unique Memorial Paintings With Personal Meanings",
@@ -2464,7 +2472,8 @@
         "confidence": "low",
         "summary": "The opening paragraph accurately reflects the source material regarding Gary Harper's memorial painting technique using cremation ashes. However, the article appears to have technical issues with '[object Object]' placeholders replacing actual content, making it impossible to verify the accuracy of the complete article against the source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "We tried to buy nothing new for the whole of January. Here's how we got on",
@@ -2506,7 +2515,8 @@
         "confidence": "high",
         "summary": "The article appears to be incomplete or corrupted, containing placeholder '[object Object]' text instead of actual content. While the introduction accurately reflects the basic premise from the source (team challenge for Buy Nothing New Month), the missing body content makes it impossible to verify factual accuracy of the full article."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "'Extinct' Snail Found in Alleyway Results in Species Pulled Back From the Brink: A 'Once in a Career' Moment",
@@ -2543,7 +2553,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: the greater Bermuda snail was thought extinct, was rediscovered in an alleyway in Hamilton, Bermuda a decade ago, and the discovery led to successful conservation efforts. The article uses informal, engaging language but maintains factual accuracy. No fabricated quotes, incorrect statistics, or unsupported claims were found. The '[object Object]' entries appear to be formatting errors rather than factual content."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Ancient Chinese medicine may hold the key to hair regrowth",
@@ -2585,7 +2596,8 @@
         "confidence": "high",
         "summary": "While the opening paragraphs accurately reflect the source material about Polygonum multiflorum being studied as a potential hair loss treatment, the article is fundamentally flawed due to technical rendering issues that replace content with '[object Object]' placeholders. This makes it impossible to verify the complete accuracy and renders the article unusable."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Roche's fenebrutinib is the first investigational medicine in over a decade that reduces disability progression in primary progressive multiple sclerosis (PPMS)",
@@ -2622,7 +2634,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source material. The drug name (fenebrutinib), company (Roche), study name (Phase III FENtrepid study), condition (PPMS), and the significant claim about being the first investigational medicine in over a decade to reduce disability progression are all correctly stated. No fabricated quotes were found, and all factual claims are supported by the source."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Scientists may have found the brain network behind Parkinson's",
@@ -2665,7 +2678,8 @@
         "confidence": "high",
         "summary": "The article appears to have technical formatting issues with '[object Object]' placeholders and incomplete content. While the introductory paragraphs align with the source material's general findings about an international study identifying a specific brain network in Parkinson's disease, the article is corrupted and cannot be properly fact-checked due to missing content."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Connecting home solar and electric vehicle batteries to the grid could boost South Africa's clean energy and strengthen the electricity system",
@@ -2707,7 +2721,8 @@
         "confidence": "high",
         "summary": "The article cannot be properly fact-checked because the main content is replaced with '[object Object]' placeholder text, indicating a technical error in content generation. While the opening paragraph appears to align with the source's general message about feeding solar and EV power back to the grid, the rest of the article is unreadable."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Mexico moves to combat pollution following Guardian investigations",
@@ -2748,7 +2763,8 @@
         "confidence": "high",
         "summary": "The generated article is technically malformed, displaying '[object Object]' instead of readable content, making fact-checking impossible. The opening paragraph mentions the general topic correctly but the rest of the article is unreadable."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Menopause linked to grey matter loss in key brain regions",
@@ -2790,7 +2806,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or incompletely rendered, showing only '[object Object]' placeholders instead of actual content. This makes fact-checking impossible as there is no substantive text to compare against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Lehigh Valley officials want congressional help for rising energy costs",
@@ -2831,7 +2848,8 @@
         "confidence": "high",
         "summary": "While the opening paragraph captures the basic premise from the source (Lehigh Valley officials seeking congressional help for energy costs), the article is fundamentally flawed due to technical formatting issues that render most of it unreadable. The '[object Object]' placeholders suggest a system error rather than actual content, making proper fact-checking impossible for the majority of the piece."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "This tiny organism refused to die under Mars-like conditions",
@@ -2873,7 +2891,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical placeholders instead of actual content, making fact-checking impossible. Only the opening paragraph is readable, which contains informal commentary about yeast but no specific factual claims to verify against the source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "A legendary golden fabric lost for 2,000 years has been brought back",
@@ -2916,7 +2935,8 @@
         "confidence": "high",
         "summary": "While the core facts about Korean scientists recreating sea silk using clams are accurate, the article contains significant embellishments about historical exclusivity, royal obsession, and the fabric's properties that are not supported by the source material. The article also appears incomplete with placeholder text."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Good news for taxpayers in old tax regime: Higher HRA benefits extended to these new cities in new draft Income Tax Rules, 2026",
@@ -2952,7 +2972,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual claims in the generated article align with the source material. The cities (Bengaluru, Hyderabad, Pune, Ahmedabad), the 50% HRA exemption rate, the old tax regime specification, and the April 1, 2026 effective date are all accurately reported. The article uses more casual language but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "How COVID and H1N1 swept through U.S. cities in just weeks",
@@ -2994,7 +3015,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted with '[object Object]' placeholders replacing most content. The visible introduction makes claims about air travel's specific role that go beyond what the source supports, and uses speculative language not grounded in the provided source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "What are critical minerals and why do countries need them?",
@@ -3036,7 +3058,8 @@
         "confidence": "high",
         "summary": "The generated article makes numerous specific claims about minerals and their applications that cannot be verified against the provided source excerpt. While the general theme aligns with countries securing critical minerals, the specific examples and mineral names are not supported by the source material provided."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Forty years of forest data reveal a changing Amazon",
@@ -3072,7 +3095,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: 40 years of tree data, research across Andes and Amazon, climate change reshaping forests unevenly with regional gains and losses, and rainfall patterns being as important as temperature. No fabricated quotes, statistics, or unsupported claims were found. The article uses casual, engaging language but maintains factual accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "One of Earth's most abundant lifeforms has a fatal flaw",
@@ -3113,7 +3137,8 @@
         "confidence": "high",
         "summary": "The article appears to have technical errors with corrupted content rendering as '[object Object]' placeholders. While the opening paragraphs seem to align with the source material about SAR11 being abundant and efficient ocean bacteria, the majority of the article content is missing or corrupted, making it impossible to verify the accuracy of the full piece against the source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "The fat you can't see could be shrinking your brain",
@@ -3155,7 +3180,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical errors ('[object Object]' placeholders) that prevent proper fact-checking. While the opening paragraph appears consistent with the source's theme about hidden fat and brain aging, the majority of the article is missing, making comprehensive verification impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Next-gen nuclear's tipping point: Meta and hyperscalers start deals with Bill Gates' TerraPower, Sam Altman-backed Oklo, and more",
@@ -3196,7 +3222,8 @@
         "confidence": "high",
         "summary": "The generated article is technically corrupted and unreadable due to '[object Object]' placeholders replacing what should be actual article content. While the opening paragraph accurately reflects the source information about Meta, Google, and Amazon partnering with next-gen nuclear firms, the rest of the article cannot be fact-checked due to display/formatting issues."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Britain's growth sectors to get major skills boost from new 'fast track' apprenticeships reforms",
@@ -3232,7 +3259,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the original source: Britain's government is implementing 'fast track' apprenticeship reforms, these aim to get young people into high-quality jobs faster, the reforms involve cutting red tape, and the goal is to boost skills in Britain's growth sectors. No fabricated quotes, statistics, or unsupported claims were found. The article uses a casual tone but maintains factual accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "How far can a greater glider fly?",
@@ -3268,7 +3296,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents the key factual information from the source. The gliding distance of 20 to 100 meters is correctly stated, and the mention that terrain and wind conditions affect flight range aligns with the source material. While the article uses a more casual, entertaining tone with creative descriptions, all factual claims are supported by the original source."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "How often do eagles flap their wings?",
@@ -3309,7 +3338,8 @@
         "confidence": "high",
         "summary": "The generated article is technically defective, containing only placeholder text '[object Object]' instead of actual article content. While the opening paragraph's general tone about eagles' flight efficiency aligns with the source's theme of energy conservation, the bulk of the article is missing or corrupted, making proper fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Which bird has the largest wingspan in Africa?",
@@ -3345,7 +3375,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts are accurate: marabou stork has the largest wingspan in Africa at 3.7 meters (12 feet). The article uses creative language and metaphors but maintains factual accuracy. No quotes are fabricated, and all claims are supported by the source material."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Why are lemurs special?",
@@ -3386,7 +3417,8 @@
         "confidence": "high",
         "summary": "The generated article appears to have technical issues displaying '[object Object]' instead of content. The visible introductory paragraph aligns thematically with the source (evolutionary uniqueness, Madagascar isolation, biodiversity) but uses informal language not present in the original. Cannot complete full fact-checking due to missing content."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Can alligators regrow arms?",
@@ -3427,7 +3459,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or incomplete, containing only placeholder text '[object Object]' instead of actual content. While the opening paragraph correctly states that alligators cannot regrow entire arms, the rest of the article is missing, making fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Can you do anything for a bird with a broken wing?",
@@ -3469,7 +3502,8 @@
         "confidence": "high",
         "summary": "The generated article is technically defective with '[object Object]' placeholders replacing actual content. While the opening sentiment aligns with the source's message that birds with broken wings can be helped, the bulk of the article is unreadable and therefore cannot be fact-checked for accuracy."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Health Ministry to focus more on prevention as costs for treating NCDs balloon",
@@ -3505,7 +3539,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: Malaysia's Health Ministry is shifting focus to prevention, tens of billions of ringgit are spent annually on non-communicable diseases, and the new approach aims to prevent illness rather than just treat it. No quotes were fabricated, all factual claims are supported by the source material, and organization names are accurate. The article uses a more conversational tone but maintains factual integrity."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "STRENGTHENING NATIONAL SPACE INFRASTRUCTURE",
@@ -3546,7 +3581,8 @@
         "confidence": "low",
         "summary": "While the opening paragraph of the generated article accurately reflects the source material about India's 2025 space infrastructure progress, the article contains technical formatting errors ('[object Object]' placeholders) that prevent complete verification. The factual content that is readable appears consistent with the source, but the article is incomplete or corrupted."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Wearable Airbag Vest Will Help Protect Downhill Skiers from Extreme Speeds at Olympics in Italy",
@@ -3587,7 +3623,10 @@
         "confidence": "high",
         "summary": "The generated article is technically corrupted with '[object Object]' placeholders replacing what should be content. While the opening paragraph's tone and general topic align with the source (Olympic speed skiers using airbag vests in Italy), the article cannot be properly fact-checked due to missing content caused by technical issues."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     }
-  ]
+  ],
+  "autoPublished": true,
+  "publishedAt": "2026-02-09T17:50:59.116Z"
 }
