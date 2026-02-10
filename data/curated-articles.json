@@ -2145,7 +2145,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: India doubled its tiger population in the decade before COVID-19, this was part of conservation efforts, and represents a significant conservation achievement. No fabricated quotes, statistics, or unsupported claims were found. The article uses different phrasing but maintains factual accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "MacKenzie Scott Donated $7.1 Billion to Nonprofits in 2025, a Major Increase with More to Come",
@@ -2187,7 +2188,8 @@
         "confidence": "high",
         "summary": "The generated article contains a significant factual error regarding timing (claiming 2025 donations when source refers to past events) and appears to be incomplete with technical placeholders instead of content. The $7.1 billion figure matches the source, but the temporal context is incorrect."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "A Century After Vanishing, a Gentle Giant Returns",
@@ -2224,7 +2226,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: European bison returning to southern Carpathian Mountains in southwestern Romania after vanishing a century ago. The location (Armeniș village area) is correctly mentioned, the timeframe is accurate, and the rewilding context is properly represented. No fabricated quotes, statistics, or unsupported claims were found. The article uses creative analogies and engaging language but maintains factual accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Radiance Renewables raises $100 million from European DFIs",
@@ -2267,7 +2270,8 @@
         "confidence": "low",
         "summary": "The article cannot be properly fact-checked due to technical issues showing '[object Object]' placeholders instead of actual content. The visible portion correctly states the $100 million funding amount and European DFI source, but the majority of the article is unreadable, making comprehensive verification impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Maruti Suzuki notches all-time high rail dispatches in 2025",
@@ -2304,7 +2308,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual claims in the generated article are accurate to the source material. The key statistics (5.85 lakh vehicles, 18% increase, record dispatches in 2025) are correctly reported. No quotes were fabricated - the article uses paraphrasing rather than direct quotes. The company name and context are accurate. While the writing style is casual and creative, it doesn't introduce any factual inaccuracies or unsupported claims."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "This underwater sculpture will soon be a sanctuary for marine life",
@@ -2341,7 +2346,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts are accurate to the source: 40-tonne weight, location off Tokunoshima Japan, designed as marine sanctuary combining art with ocean conservation. No quotes were fabricated (none claimed), and all place names are correct. The article uses creative language but doesn't introduce any inaccurate information."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Toronto River Once So Polluted it Caught on Fire Now Is Flush with Fish",
@@ -2378,7 +2384,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts in the generated article accurately match the source material. The Don River's transformation from being so polluted it could catch fire to supporting over 20 species of fish is correctly presented. The location (Toronto) and the context of urban river restoration in the Great Lakes Region are accurate. No quotes were fabricated, and all claims are supported by the source."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Scientists achieve major breakthrough in pursuit of nearly limitless energy source: 'Cutting-edge upgrades'",
@@ -2421,7 +2428,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete or corrupted, displaying '[object Object]' instead of actual content, making proper fact-checking impossible. While the opening paragraph aligns with the general theme of the source material about a breakthrough in nearly limitless energy, the technical issues prevent verification of the full article."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "What is being done to save hummingbirds?",
@@ -2465,7 +2473,8 @@
         "confidence": "high",
         "summary": "The generated article introduces multiple factual claims and statistics about hummingbirds that are not present in the original source material. While it correctly identifies conservation efforts as comprehensive and mentions 'jewel-toned creatures' from the source, it adds unsupported details about wing beats, weight, and flight capabilities. The article also appears incomplete with placeholder text."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "AI reads brain MRIs in seconds and flags emergencies",
@@ -2507,7 +2516,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete with technical placeholders replacing the actual content. Only the opening paragraph is readable, which appears consistent with the source's general premise but lacks specific verifiable details. A complete article is needed for proper fact-checking."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "A massive ADHD study reveals what actually works",
@@ -2549,7 +2559,8 @@
         "confidence": "low",
         "summary": "While the introductory paragraphs accurately reflect the source material (mentioning the interactive website, 200+ meta-analyses review, and the goal of providing evidence-based ADHD treatment information), the article contains technical formatting errors with '[object Object]' placeholders, making it impossible to fully fact-check the complete content."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Marine protection in the Azores: a triumph for conservation and sustainability",
@@ -2592,7 +2603,8 @@
         "confidence": "high",
         "summary": "While the article correctly identifies the Azores' marine conservation achievement and properly attributes the Nature source, it contains technical display errors and includes vivid descriptive details about marine life and landscapes that are not supported by the provided source material. The core facts about the conservation milestone are accurate, but the article adds unsupported scenic descriptions."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "A simple discovery is shaking the foundations of spintronics",
@@ -2635,7 +2647,8 @@
         "confidence": "high",
         "summary": "While the introductory portion accurately represents the source material's main points about a simple solution to unusual magnetoresistance in spintronics, the article is severely incomplete with placeholder objects instead of content. The technical explanation from the source is entirely missing."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Aldosterone synthase inhibitors for hypertension: A breakthrough facing barriers to adoption",
@@ -2678,7 +2691,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical artifacts ('[object Object]') instead of actual content. While the opening paragraph touches on hypertension as a topic matching the source, no specific claims, quotes, or facts from the original source material are present to fact-check. The article appears to be corrupted or improperly generated."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Jony Ive Designed Ferrari Luce EV Interior",
@@ -2715,7 +2729,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: Jony Ive as Apple's former design chief, his design of the Ferrari Luce EV interior, and this being Ferrari's first electric vehicle. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article adds appropriate editorial commentary while maintaining factual accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "FG to kickstart solar project in new Oyo varsity",
@@ -2751,7 +2766,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts are accurate: 1MW solar project, Federal University in Okeho, Oyo State, clean/renewable energy focus, and Federal Government initiative. No quotes were fabricated (none claimed), and no unsupported claims were made. The article uses informal, engaging language but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "UK backs biggest English onshore windfarm in a decade among 190 green energy projects",
@@ -2787,7 +2803,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reports the key facts from the source: 190 renewable energy projects were approved, including the largest onshore windfarm in England in a decade. No quotes were fabricated, all numbers match the source, and no unsupported claims were made. The article stays faithful to the source material while using more casual, engaging language."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Transform Your Small Business with a Custom Mobile Business Van from Vanlife Customs",
@@ -2830,7 +2847,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be incomplete with technical errors showing '[object Object]' instead of content. The introductory paragraph discusses mobile business services which aligns with the source theme, but lacks specific attribution to Vanlife Customs and cannot be fully verified due to the incomplete generation."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Dozens of researchers will move to France from US following high-profile bid to lure talent",
@@ -2872,7 +2890,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or incomplete, containing only placeholder text '[object Object]' for most of its content. What little readable content exists uses an overly casual tone inappropriate for factual reporting. Complete fact-checking is impossible due to the technical issues with the article generation."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Physicists discover what controls the speed of quantum time",
@@ -2913,7 +2932,8 @@
         "confidence": "low",
         "summary": "The article appears to be incomplete or corrupted, containing placeholder text instead of actual content. While the opening paragraph broadly aligns with the source material's main points about quantum events having measurable duration and depending on atomic structure, the majority of the article is unreadable, preventing proper fact-checking verification."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "SeaStar Medical Announces Publication in Pediatric Nephrology of Positive Real-World Experience for QUELIMMUNE™ (SCD-PED) Therapy in Pediatric Acute Kidney Injury (AKI)",
@@ -2955,7 +2975,8 @@
         "confidence": "low",
         "summary": "While the visible portion of the article appears to accurately reflect the source information about QUELIMMUNE therapy showing positive results for pediatric AKI with good survival data, the article contains technical errors ('[object Object]' placeholders) and appears incomplete, making a thorough fact-check impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "AI Tool Maps the Brain Stem, Our Most Elusive Wiring, for the First Time",
@@ -2991,7 +3012,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: AI was used to map the brain stem for the first time, the brain stem controls breathing/heartbeat/consciousness, and this represents a groundbreaking achievement. No statistics, quotes, or specific names were provided in the source to verify. The article uses casual language but maintains factual accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Biofrontera Announces Positive Results in Phase 3 Study of Ameluz® PDT for Actinic Keratoses on the Extremities, Neck, and Trunk, Meeting Primary Endpoint",
@@ -3032,7 +3054,8 @@
         "confidence": "high",
         "summary": "The generated article is technically broken with placeholder objects instead of content. While the opening paragraph's general description of actinic keratoses as precancerous lesions and light therapy treatment aligns with the source concept, the bulk of the article is unreadable, preventing proper fact-checking of specific claims, statistics, or quotes."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Assessing the diagnostic performance of clinical, serological and molecular approaches to improve dengue case detection in the Peruvian Amazon",
@@ -3073,7 +3096,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical errors ('[object Object]' placeholders) that prevent proper fact-checking. While the opening paragraph's general tone and context about dengue diagnosis in the Amazon aligns with the source material, the bulk of the article is missing, making it impossible to verify factual accuracy, quotes, or specific claims against the original source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Shark Tank India's Kanika Tekriwal recollects cancer journey at 21, says she fought with a lot of pain during chemotherapy: 'Now sitting with a head full of hair'",
@@ -3114,7 +3138,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical errors (object placeholders) rather than proper content. While the basic facts mentioned (cancer at 21, Shark Tank India appearance, successful recovery) align with the source, the article lacks the specific quotes and details from the original, making it impossible to fully verify accuracy."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Singapore Airshow 2026 Milestone Edition: 20 Years of Shaping the Aerospace Landscape as Asia-Pacific Drives Global",
@@ -3156,7 +3181,8 @@
         "confidence": "high",
         "summary": "While the basic facts about dates, location, and milestone edition are accurate, the article contains mathematical errors about timing, unsupported claims about the event's history, formatting issues, and editorial interpretations not present in the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "What is the highest flying bird in the world?",
@@ -3197,7 +3223,8 @@
         "confidence": "high",
         "summary": "The generated article cannot be properly fact-checked because it appears to be incomplete or corrupted, showing '[object Object]' instead of readable content. While the opening paragraph correctly identifies the Rüppell's vulture as the highest flying bird, the rest of the article is not accessible for verification against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Choosing the best route: Comparative optimization of wheat transformation methods for improving yield by targeting TaARE1-D with CRISPR/Cas9",
@@ -3233,7 +3260,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source material. It correctly identifies CRISPR/Cas9 as the gene editing tool, mentions the targeting of TaARE1-D gene, states that improved methods were developed for enhancing wheat yield, and references the food security implications. While the article uses casual, engaging language and analogies not present in the source, it does not introduce any factual inaccuracies or unsupported claims. The core scientific information is faithfully represented."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Regnase-1-mediated regulation of neutrophils modulates SARS-CoV-2 pneumonia",
@@ -3275,7 +3303,8 @@
         "confidence": "high",
         "summary": "The generated article has significant technical formatting issues with '[object Object]' placeholders replacing actual content. While the opening paragraph's core concept about neutrophils and SARS-CoV-2 aligns with the source theme, it uses colloquial language and analogies not present in the original scientific material. The majority of the article is unverifiable due to formatting errors."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "How do you identify a condor?",
@@ -3316,7 +3345,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be incomplete or corrupted, containing only an introduction paragraph followed by '[object Object]' placeholders instead of actual content. While the introduction's tone about condors being large birds aligns with the source material mentioning 'massive size,' the specific identifying characteristics (distinctive plumage patterns, flight characteristics, comparison to other raptors) cannot be verified as they are not present in the readable portion of the generated article."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "What is it called when squirrels have babies?",
@@ -3355,7 +3385,8 @@
         "confidence": "high",
         "summary": "The generated article appears to have technical formatting issues with '[object Object]' appearing three times instead of readable content. While the opening paragraph suggests it will discuss the term for squirrel births (which would align with the source material about 'kitting'), the actual factual content cannot be verified due to these placeholder objects."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "How long do baby foxes stay with their mom?",
@@ -3397,7 +3428,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or incomplete, displaying '[object Object]' placeholders instead of actual content. This makes it impossible to verify any factual claims against the source material about fox kits staying with their mothers for seven months."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "21 Years Ago Today, an Iconic Marvel Team Made Their First Appearance (And They've Only Gotten Better With Time)",
@@ -3433,7 +3465,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the source information. The 21-year anniversary, comparison to legendary Marvel teams (Fantastic Four, X-Men, Avengers), and the claim that the team has 'only gotten better with time' are all consistent with the original source. The article correctly attributes information to ComicBook.com and doesn't fabricate quotes or add unsupported claims. The cultural references about dial-up internet and iPods are contextual additions that don't contradict the source material."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Stakeholder perspectives on depression management: A design thinking exploration for person-centered digital health",
@@ -3469,7 +3502,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the core information from the original source. It correctly identifies the use of design thinking and participatory methods for creating digital health tools for depression management, and accurately describes the stakeholder engagement approach (patients, caregivers, clinicians). While the tone is more casual and conversational than the original, all factual content aligns with the source material. No fabricated quotes, statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Quote of the day by Muhammad Ali: 'Don't quit. Suffer now and live the rest of your life as a champion'",
@@ -3511,7 +3545,8 @@
         "confidence": "high",
         "summary": "While the core quote is accurate and properly attributed, the article contains significant technical formatting issues and makes several claims about Muhammad Ali and interpretations of his quote that are not supported by the provided source material. The source only mentions the quote's inspirational nature and Ali's emphasis on perseverance, but the article expands well beyond this with unsupported details."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Thought of the Day by Nicole Kidman: 'I believe that as much as you take, you have to…'",
@@ -3553,7 +3588,8 @@
         "confidence": "high",
         "summary": "The generated article is technically incomplete with placeholder text and fails to include the actual quoted content that should be the centerpiece of the piece. While the general theme about reciprocity and success philosophy aligns with the source, the lack of specific quotes and presence of '[object Object]' text indicates a generation error."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Milestone for Rewilding as Ostriches Return to Saudi Desert After 100-year Absence",
@@ -3594,7 +3630,10 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical errors ('[object Object]' placeholders) that prevent proper fact-checking. While the opening paragraph correctly references the 100-year absence of ostriches from Saudi desert, the rest of the content is unreadable and cannot be verified against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     }
-  ]
+  ],
+  "autoPublished": true,
+  "publishedAt": "2026-02-10T18:01:52.768Z"
 }
