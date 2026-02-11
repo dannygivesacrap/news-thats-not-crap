@@ -2018,7 +2018,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: Britain's largest-ever clean energy auction, record achievements in solar/onshore wind/tidal projects, and reference to previous offshore wind success. No statistics, quotes, names, or unsupported claims were added. The article uses creative metaphorical language but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "U.S. Food and Drug Administration Accepts New Drug Application and Grants Priority Review for Takeda's Oveporexton (TAK-861) as a Potential First-in-Class Therapy for Narcolepsy Type 1",
@@ -2060,7 +2061,8 @@
         "confidence": "high",
         "summary": "The generated article cannot be fact-checked as it appears to contain technical errors or formatting issues that prevent the actual content from being displayed. Only placeholder text '[object Object]' is visible, making it impossible to verify any factual claims against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Lost Painting by the 'Illustrious Woman' Painter of the Renaissance Surfaces in N. Carolina After 100 Years",
@@ -2102,7 +2104,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete/corrupted with only a brief introductory paragraph and '[object Object]' placeholders where content should be. While the intro paragraph's general premise aligns with the source (discovery by Michael Cole at North Carolina estate), the bulk of the article is missing, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "AI and Data Centres Surge in Global Electricity Consumption Projected to Reach 1,300 TWh by 2035, AI to Save USD 110 Billion in Power Plant Operations",
@@ -2143,7 +2146,8 @@
         "confidence": "low",
         "summary": "The generated article appears to be incomplete or corrupted, containing only an opening paragraph with accurate statistics (1,300 TWh consumption by 2035 and $110 billion savings) followed by '[object Object]' placeholders instead of actual content. While the factual claims in the visible portion match the source material, the article cannot be properly fact-checked due to missing content."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "The shifting reality of knife crime in the UK",
@@ -2185,7 +2189,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or improperly formatted, displaying only placeholder text instead of actual content. While the opening paragraph aligns with the source's general theme about challenging negative narratives regarding UK crime, the rest of the article is unreadable, making fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Transcendental Meditation Found to Calm Genes Associated with Both Aging and Stress",
@@ -2228,7 +2233,8 @@
         "confidence": "high",
         "summary": "The generated article is technically incomplete with placeholder text, making it impossible to fact-check the majority of content. The visible introductory portion takes a casual, potentially sensationalized tone that may not accurately represent the scientific nature of the original study findings."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Scientists discover how life experiences rewrite the immune system",
@@ -2271,7 +2277,8 @@
         "confidence": "high",
         "summary": "The generated article appears to have technical formatting issues that prevent proper fact-checking. The content shows '[object Object]' placeholders instead of readable text, making it impossible to verify accuracy against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Kainova Therapeutics Secures $32M CAD to Accelerate Development of Immuno-Oncology and Inflammation Therapies",
@@ -2308,7 +2315,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts are accurate: company name (Kainova Therapeutics), funding amount ($32 million CAD), treatment focus (GPCR targeting for cancer and inflammatory conditions), and lead investor (Investissement Québec). The article adds contextual information like the Montreal location and GPCR explanation, but doesn't contradict the source. No fabricated quotes detected."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Gray wolf appears in Los Angeles county for first time in more than 100 years",
@@ -2345,7 +2353,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual information in the generated article accurately matches the original source. The wolf's designation (BEY03F), age (three-year-old), date and time of crossing (February 7th at 6am), the historical significance (first time in over 100 years), and the attribution to California's Department of Fish and Wildlife are all correct. The article uses a casual, humorous tone but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "'The normal should be darkness': why one Belgian national park is turning off 'pointless' streetlights",
@@ -2387,7 +2396,8 @@
         "confidence": "low",
         "summary": "The article appears to have technical issues with '[object Object]' placeholders replacing actual content. The visible introduction accurately paraphrases the source material about Belgium being light-polluted and a national park turning off lights, but without the full article content, a complete fact-check is impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Scientists find genes that existed before all life on Earth",
@@ -2429,7 +2439,8 @@
         "confidence": "low",
         "summary": "The opening paragraph accurately reflects the source material with an appropriate analogy, but the article is incomplete with placeholder text instead of actual content. Cannot perform full fact-checking verification due to missing article body."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "This ancient animal was one of the first to eat plants on land",
@@ -2466,7 +2477,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the source are accurately represented: the 307-million-year age, creature name 'Tyrannoroter heberti', football-sized description, stocky build, plant-eating behavior, and the significance of rewriting early land animal dietary evolution. The article uses a casual, humorous tone but maintains factual accuracy. No fabricated quotes or unsupported claims were found."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Your cat's purr says more than you think",
@@ -2508,7 +2520,8 @@
         "confidence": "low",
         "summary": "The article appears to be technically corrupted or incomplete, with most content replaced by '[object Object]' placeholders. While the opening paragraph generally aligns with the source's main points about meow flexibility and purr consistency, the incomplete nature makes full fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "A bonobo's pretend tea party is rewriting what we know about imagination",
@@ -2550,7 +2563,8 @@
         "confidence": "low",
         "summary": "The article appears to have technical issues with most content displaying as '[object Object]' rather than readable text. The opening paragraph correctly identifies Kanzi as a bonobo who participated in pretend tea party experiments, but includes an unverifiable comparison about toddlers' manners. Cannot complete full fact-checking due to corrupted article content."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Scientists find a clue to human brain evolution in finger length",
@@ -2594,7 +2608,8 @@
         "confidence": "high",
         "summary": "The article has significant technical issues with '[object Object]' placeholders and oversimplifies the research findings. While it correctly mentions the finger length-hormone connection, it fails to accurately convey the specific finding about estrogen, head size, and newborn boys. The article makes broader evolutionary claims than supported by the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Nasa's mega Moon rocket arrives at launch pad for Artemis II mission",
@@ -2630,7 +2645,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: NASA's Moon rocket has arrived at the launch pad, it's for the Artemis II mission, and this represents the first crewed lunar mission in over 50 years. The article uses creative language and metaphors but doesn't introduce any factual inaccuracies or unsupported claims. No quotes are fabricated, and all verifiable information aligns with the source material."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Italy's Winter Olympics are stunning from space",
@@ -2671,7 +2687,8 @@
         "confidence": "medium",
         "summary": "The article captures the general concept accurately but makes assumptions about ceremony locations, adds unsourced altitude details, and omits key geographical features mentioned in the source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "When immune cells stop fighting cancer and start helping it",
@@ -2711,7 +2728,8 @@
         "confidence": "high",
         "summary": "While the introductory paragraphs accurately reflect the source material (University of Geneva research, neutrophils being reprogrammed in tumors, the security guard analogy is appropriate), the article contains technical formatting errors with '[object Object]' placeholders and appears to be incomplete. The factual content that is present aligns with the source, but the article cannot be properly verified due to missing/corrupted sections."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "The multi-faceted effects of technology-driven productivity surge in the crop & livestock sector in Greece: Evidence from the FABLE Calculator",
@@ -2752,7 +2770,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be incomplete or corrupted, containing only a brief introduction and placeholder '[object Object]' text instead of actual content. While the introductory paragraph correctly identifies the source as PLOS ONE and mentions technology-driven agricultural improvements in Greece, the majority of the article is missing, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Quote of the day by George Bernard Shaw: \"The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself\" Why \"the unreasonable man\" matters in modern progress",
@@ -2793,7 +2812,8 @@
         "confidence": "low",
         "summary": "While the quote attribution to George Bernard Shaw and his description as a Nobel Prize-winning playwright appear accurate based on the source, the article contains significant technical display errors that make it impossible to fact-check the complete content. The visible portions align with the source material, but the '[object Object]' errors indicate corrupted or improperly rendered content."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "When does the Nasa Moon mission launch and who are the Artemis II crew?",
@@ -2829,7 +2849,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: February launch timeframe, first crewed Moon mission in 50 years, and the Artemis II mission name. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses casual, enthusiastic language but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "SpaceX pulls off Starship rocket launch in much-needed comeback",
@@ -2872,7 +2893,8 @@
         "confidence": "high",
         "summary": "The generated article has significant technical issues with '[object Object]' placeholders and fails to include key information from the source. While it captures the general theme of a successful comeback launch, it lacks specific details and contains formatting errors that render it incomplete."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "What Is Quantum Computing and Its Future Impact?",
@@ -2913,7 +2935,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be incomplete with placeholder objects instead of actual content. While the opening paragraph aligns with the source's general message about quantum computing's revolutionary potential in various industries, the majority of the article is unreadable due to technical errors, preventing proper fact-checking."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "BioCardia Files Pre-Submission for FDA Approval of Helix™ Transendocardial Delivery Catheter for Therapeutic and Diagnostic Agent Delivery to the Heart",
@@ -2949,7 +2972,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: BioCardia has filed a Pre-Submission to the FDA for the Helix™ Transendocardial Delivery Catheter, which is designed for therapeutic and diagnostic agent delivery to the heart. The company name, device name, regulatory action, and device purpose are all correctly stated. The article uses creative language and analogies but doesn't introduce any factual inaccuracies or unsupported claims. No quotes are fabricated or misattributed."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Acceptability and safety of one versus three months of rifapentine and isoniazid to prevent tuberculosis in people exposed in the household or workplace in Brazil: The Ultra-Curto randomized controlled trial",
@@ -2990,7 +3014,8 @@
         "confidence": "high",
         "summary": "The generated article appears to have technical rendering issues with '[object Object]' placeholders replacing the actual content. While the opening question about 1-month vs 3-month treatment duration aligns with the source material, the bulk of the article is unreadable and cannot be fact-checked against the original source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Effects of pentosan polysulfate sodium on joint structure and function out to six months in naturally-occurring canine osteoarthritis",
@@ -3031,7 +3056,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical placeholders rather than actual content. While the opening paragraph's tone and general topic (canine osteoarthritis) align with the source material, there are no specific factual claims about pentosan polysulfate sodium, the 6-month study duration, or 26-week treatment effects that can be verified. The article appears to be a technical malfunction rather than a complete piece."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Investigations of a new EPS-insulated mortar-free reusable interlocking block for sustainable buildings",
@@ -3072,7 +3098,8 @@
         "confidence": "low",
         "summary": "The generated article appears to be corrupted or incomplete, showing technical placeholders instead of actual content. While the opening paragraph's general concept aligns with the source material about reusable interlocking blocks, the majority of the article is unreadable, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Spain Construction Equipment Industry Report 2025-2030 Featuring Prominent Vendors - Caterpillar, Komatsu, Volvo, Hitachi, Liebherr, SANY, XCMG, JCB, Kobelco, Zoomlion, Hyundai",
@@ -3108,7 +3135,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts and statistics in the generated article accurately match the source material. The market size figures (26,800 units in 2024 to 34,966 units by 2030), CAGR of 4.53%, and the explanation about tariffs on non-EU imports boosting demand for local and European equipment are all correctly stated. No quotes were fabricated, and no unsupported claims were made. The article contains some technical display errors ([object Object]) but these don't affect the factual accuracy of the content."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Mexico Construction Equipment Industry Report 2026-2031 - Caterpillar, LiuGong, Komatsu, Liebherr, Volvo CE, John Deere, XCMG are the Front-runners by Offering a Diverse Set of Equipment",
@@ -3144,7 +3172,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts and statistics in the generated article accurately match the original source. The market size (32,188 units in 2025), projection (38,612 units by 2031), growth rate (3.08% CAGR), and focus on earthmoving equipment led by excavators are all correctly stated. No quotes were fabricated or misattributed, and no unsupported claims were made. The article stays within the bounds of the source material while adding appropriate context and tone."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Phenom strengthens AI hiring platform with Be Applied acquisition",
@@ -3185,7 +3214,8 @@
         "confidence": "low",
         "summary": "While the basic facts about Phenom People acquiring Be Applied Ltd. appear accurate, the article contains technical errors showing '[object Object]' instead of content, and makes unsupported claims about the acquisition's impact. The source material is too limited to verify most of the article's assertions."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "South Africa records decline in rhino poaching",
@@ -3226,7 +3256,8 @@
         "confidence": "high",
         "summary": "The generated article is technically malformed with '[object Object]' placeholders replacing what should be actual content. While the opening paragraph's tone and general topic align with the source material, the rest of the article is unreadable and unverifiable due to formatting errors or technical issues."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Consultations open on four new fisheries management plans",
@@ -3262,7 +3293,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reports the core facts from the source: UK government opened consultations on four new fisheries management plans for long-term sustainability of fish stocks. While the article uses casual, informal language and analogies not present in the source, it does not misstate any factual information, numbers, or make unsupported claims. The technical issues with '[object Object]' appear to be formatting errors rather than factual inaccuracies."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Pet Sanctuary Takes in Overflow from Homeless Shelter Amid Unprecedented Cold Snap",
@@ -3298,7 +3330,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: Safe Haven Pet Sanctuary in Green Bay opened its doors to people during extreme cold, the sanctuary typically cares for cats with special needs and disabilities, and this action was taken when warming shelters became overcrowded. No quotes were fabricated, all names and locations match, and no unsupported claims were made. The article adds creative language and context but maintains factual accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Frog Wiped Out by Disease Returns to the Wild With the Help of 'Frog Spas' and 'Frog Saunas'",
@@ -3334,7 +3367,10 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: the green and golden bell frog reintroduction around Canberra, the population collapse due to chytrid fungus, captive breeding with immunization, and release in groups of 15. The creative framing with 'frog spas' and 'frog saunas' matches the original title's terminology. No fabricated quotes, statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true
     }
-  ]
+  ],
+  "autoPublished": true,
+  "publishedAt": "2026-02-11T17:55:47.861Z"
 }
