@@ -2220,7 +2220,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual claims in the generated article are accurate to the source material. The 30% price drop statistic, negative pricing phenomenon, and location (South Australia) are all correctly stated. The article uses a more casual, engaging tone but doesn't fabricate any facts or quotes. The final sentence appears to be directly quoted from the source."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Scientists discover protein that rejuvenates aging brain cells",
@@ -2263,7 +2264,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical errors ('[object Object]' placeholders) instead of actual content. While the introductory paragraph appears to align with the source material's general theme about brain cell rejuvenation, the rest of the article is missing, making it impossible to fact-check the complete piece."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Greenbacker completes $440 million tax equity financing for the 674 MW Cider solar project — the largest in New York State",
@@ -2305,7 +2307,8 @@
         "confidence": "high",
         "summary": "The generated article cannot be properly fact-checked because it displays technical formatting errors ('[object Object]') instead of readable content. While the opening sentence appears consistent with the source material's context about New York's solar project, the bulk of the article is unreadable and therefore cannot be verified for accuracy."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "China's Clean Energy Boom Still Rests on Coal, Oil, and Gas",
@@ -2347,7 +2350,8 @@
         "confidence": "high",
         "summary": "While the article correctly states that China's renewable energy sectors are the fastest-growing and outpacing overall economic growth, it contains a major factual error about China being the world's largest economy, technical formatting issues, and uses inappropriate promotional language not supported by the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Novel paint could aid drought-hit regions",
@@ -2384,7 +2388,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the original source: Australian researchers developed a dual-purpose paint that addresses both heat and water scarcity issues simultaneously, potentially helping drought-hit regions. No fabricated quotes, statistics, or unsupported claims were found. The article uses a more casual, engaging tone but maintains factual accuracy to the source material."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Is This the Most Radical School Ever Built?",
@@ -2426,7 +2431,8 @@
         "confidence": "low",
         "summary": "The article opening accurately reflects the source material (converted industrial garage location in Cambridge, MA, alternative education for struggling teens), but the article appears corrupted or incomplete with placeholder text instead of actual content, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "A Passing 'Angel' Rescues Woman 8-Months Pregnant from Her Sinking Car",
@@ -2463,7 +2469,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All verifiable facts in the generated article match the original source perfectly. The woman's name (Shedly Appolon), age (29th birthday), pregnancy status (8 months pregnant), location (I-95 in Martin County), and the sequence of events (dizziness while driving leading to sinking car rescue) are all accurate. No fabricated quotes or unsupported claims were found in the provided excerpt."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Heroic Neighbor Uses Sledgehammer to Rescue 85-year-old Woman in Wheelchair from House Fire",
@@ -2505,7 +2512,8 @@
         "confidence": "low",
         "summary": "The generated article appears to be corrupted or incomplete, showing '[object Object]' instead of actual content after the opening paragraph. While the introduction accurately reflects the source material, the majority of the article cannot be fact-checked due to technical issues in the generation."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Bird Droppings Powered the Rise of this Little-Known Coastal Kingdom, Archaeologists Find",
@@ -2548,7 +2556,8 @@
         "confidence": "high",
         "summary": "The generated article contains technical display errors and makes several claims that go beyond what the source material supports, including overstating the role of guano and making absolute claims about how these civilizations rose to power."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Good News in History, February 12",
@@ -2585,7 +2594,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: the 25-year timeframe, spacecraft name (NEAR Shoemaker), asteroid name (Eros 433), the historic nature of the mission, the orbital period of one year, and the successful landing. While the writing style is more casual and creative than the source, no factual inaccuracies were introduced."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Life may have started as sticky goo clinging to rocks",
@@ -2627,7 +2637,8 @@
         "confidence": "low",
         "summary": "The generated article appears to be incomplete or corrupted, showing '[object Object]' instead of actual content. The visible introductory paragraph accurately reflects the source's main concept about life starting as sticky, rock-hugging gels, but the majority of the article content is missing, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Energy diagram: Investigation and application of a design-thinking-driven wind environment simulation tool for sustainable architecture",
@@ -2670,7 +2681,8 @@
         "confidence": "high",
         "summary": "While the core facts about researchers developing a wind-environment simulation tool for sustainable building design are accurate, the article contains technical errors (object placeholders), unsupported dramatic claims, and goes well beyond what can be verified from the limited source material provided."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "K.P. Energy wins order for 100 MW ISTS-connected Wind Power Project under IPP segment",
@@ -2712,7 +2724,8 @@
         "confidence": "high",
         "summary": "The generated article is technically defective with '[object Object]' placeholders replacing the actual content. While the opening paragraph style is readable, the main factual content is missing/corrupted, making it impossible to verify accuracy against the source material about K.P. Energy's 100 MW wind power project order from SECI."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Mountain America Credit Union Partners with University of Utah Health's Center for Medical Innovation on Bench to Bedside Program",
@@ -2754,7 +2767,8 @@
         "confidence": "high",
         "summary": "While the opening paragraph accurately reflects the source information about Mountain America Credit Union partnering with University of Utah Health's Center for Medical Innovation on the Bench to Bedside Program, the article contains technical formatting errors that make it incomplete and unpublishable."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Hepatitis B Treatment Market Size is Projected to Reach USD 7.74 Billion by 2033 Due to the Increasing Disease Management Trends Globally",
@@ -2791,7 +2805,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts from the source are accurately represented: the $7.74 billion projection by 2033, the three main drivers (rising chronic cases, antiviral innovation, and expanding screening programs), and the overall theme of increasing disease management trends and improved global access. No quotes were fabricated, and no unsupported claims were made. The article maintains factual accuracy while adding interpretive commentary."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Goldi Solar Is Said to Consider $350 Million India IPO",
@@ -2833,7 +2848,8 @@
         "confidence": "high",
         "summary": "While the core facts about Goldi Solar considering a $350 million IPO are accurate, the generated article has serious formatting issues with placeholder text and contains unsupported commentary. The verifiable facts match the source, but the article appears incomplete or corrupted."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Comstock Inc. Featured on Water Tower Research Small-Cap Spotlight Podcast",
@@ -2874,7 +2890,8 @@
         "confidence": "low",
         "summary": "While the opening paragraph accurately reflects the source information about Comstock Inc. being featured on the podcast and their role in solar panel recycling, the article contains technical errors with '[object Object]' placeholders and appears incomplete, making it impossible to fully fact-check the entire piece."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Siemens Energy Books Record Gas Turbine Orders on Power Boom",
@@ -2910,7 +2927,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: Siemens Energy AG is experiencing record orders for gas turbines and power-grid products due to surging electricity demand. The company name is correct, and no specific statistics, quotes, or unsupported claims were made. The casual tone doesn't alter the factual accuracy of the core information presented."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Precious Metal Catalysts Market to Exceed US$ 119.11 Billion by 2032 | Emission Regulations and Hydrogen Fuel Cell Adoption Drive Growth, Says Astute Analytica",
@@ -2951,7 +2969,8 @@
         "confidence": "high",
         "summary": "While the basic facts about the market projection and the three metals (platinum, palladium, rhodium) are consistent with the source, the article has technical formatting issues with placeholder objects and lacks the precision of the original figure. The article appears to be incomplete or corrupted."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Tolerance to total dissolved gas supersaturation in Atlantic salmon, brown trout, rainbow trout, and European minnow",
@@ -2992,7 +3011,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be incomplete or corrupted, containing placeholder text instead of actual content. While the opening paragraph's basic premise about gas supersaturation affecting fish downstream of hydroelectric plants aligns with the source, the article is largely unverifiable due to missing content and contains unsupported analogies."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Highly Fatal Virus May Finally Be Treatable with First Vaccine–Clinical Trials Starting",
@@ -3028,7 +3048,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: Nipah virus clinical trials are starting, the virus is often lethal, it spreads between humans and animals, and previously only supportive care was available. No fabricated quotes, statistics, or unsupported claims were found. The article adds stylistic commentary but maintains factual accuracy throughout the substantive portions."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Europe's \"untouched\" wilderness was shaped by Neanderthals and hunter-gatherers",
@@ -3069,7 +3090,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or improperly formatted, showing '[object Object]' instead of actual content. While the opening paragraph aligns with the source's general message about ancient peoples shaping European landscapes, the majority of the article is unreadable and therefore cannot be fact-checked for accuracy."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Changing when you eat dramatically reduced Crohn's disease symptoms",
@@ -3110,7 +3132,8 @@
         "confidence": "low",
         "summary": "The article appears to have technical issues with '[object Object]' appearing instead of actual content. The opening paragraph correctly references the 8-hour eating window concept from the source, but the majority of the article is unreadable, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "This kefir and fiber combo beat omega-3 in slashing inflammation",
@@ -3146,7 +3169,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the original source: University of Nottingham conducted the study, kefir paired with prebiotic fiber outperformed omega-3 supplements in reducing inflammation-related proteins, and the mechanism involves beneficial microbes producing compounds like butyrate for improved immune and metabolic health. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses a more casual, engaging tone but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Just 5 weeks of brain training may protect against dementia for 20 years",
@@ -3182,7 +3206,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts are accurate: the 20-year study timeframe, the 5-6 weeks of training duration, the 25% lower dementia risk, and the target population of adults 65 and older. No quotes are fabricated, and no unsupported claims are made. The article correctly represents the source material's main findings."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Snowball Earth was not completely frozen, new study reveals",
@@ -3218,7 +3243,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: it correctly describes Snowball Earth as a period when ice sheets reached the tropics, accurately attributes the research to ancient Scottish rocks, and properly conveys the main finding that climate rhythms similar to today's seasons and solar cycles persisted beneath the ice. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses more casual language but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Astronomers discover an Earth-like planet that may be colder than Mars",
@@ -3254,7 +3280,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: the planet name (HD 137010 b), its Earth-like size and orbit, the fact it may be colder than Mars due to a dimmer star, and that it's a newly discovered planet candidate. No quotes were fabricated, no statistics were misrepresented, and no unsupported claims were made. The article uses casual, humorous language but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Shiitake mushroom fermentation breakthrough unlocks new China export market",
@@ -3296,7 +3323,8 @@
         "confidence": "high",
         "summary": "The generated article has significant technical issues with '[object Object]' placeholders replacing actual content. While the opening paragraph's general theme aligns with the source (shiitake fermentation breakthrough for export), the majority of the article is unreadable due to technical errors, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Eddie Vedder Changed Kids' Lives with Pearl Jam. Now He and his Wife Jill Are Trying to Save Them",
@@ -3337,7 +3365,8 @@
         "confidence": "low",
         "summary": "The generated article appears to be incomplete or corrupted, showing '[object Object]' placeholders instead of actual content. While the opening paragraph aligns with the basic facts from the source (Netflix documentary 'Matter of Time', Eddie Vedder and wife Jill's charity work), the majority of the article is unreadable, making thorough fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Karnataka: Minister Patil urges global health experts to unite & build stronger nations",
@@ -3379,7 +3408,8 @@
         "confidence": "high",
         "summary": "The generated article is corrupted or incomplete, containing only placeholder text '[object Object]' instead of actual article content. This makes it impossible to verify facts, quotes, or claims against the source material about Minister Patil's address at the World Health Exhibition in Dubai."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Biofrontera Announces FDA Filing Acceptance of Supplemental New Drug Application for Ameluz® PDT in Superficial Basal Cell Carcinoma",
@@ -3420,7 +3450,8 @@
         "confidence": "high",
         "summary": "The generated article is not a readable article but rather contains only placeholder objects. There is no actual content to fact-check against the original source about Biofrontera's FDA filing for Ameluz® PDT treatment."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Jupiter International commissions 3rd solar cell plant, doubles capacity",
@@ -3461,7 +3492,8 @@
         "confidence": "low",
         "summary": "While the factual content that is present (location: Baddi, Himachal Pradesh; capacity: 1 GW new plant doubling total to 2 GW; company name: Jupiter International) matches the source material accurately, the article contains technical errors with '[object Object]' placeholders and appears incomplete. The verifiable portions are factually correct, but the article's integrity is compromised by formatting issues."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "All the Easter Eggs You May Have Missed in Bad Bunny's Super Bowl Halftime Show",
@@ -3502,7 +3534,8 @@
         "confidence": "high",
         "summary": "The generated article is fundamentally flawed due to placeholder text and appears to present speculative information as fact. While the core claim about Bad Bunny being the first to perform entirely in Spanish matches the source, the article's format issues and presentation make it unreliable for fact-checking."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Community celebration fills Capitol Theater for UNESCO World Greek Language Day",
@@ -3543,7 +3576,8 @@
         "confidence": "low",
         "summary": "While the opening paragraph accurately reflects the source material (Capitol Theater venue, UNESCO World Greek Language Day event, community celebration), the article contains technical errors with '[object Object]' placeholders that prevent proper verification of the complete content. The factual elements that are readable appear consistent with the source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "How do you know if a baby bird can fly?",
@@ -3584,7 +3618,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or incomplete, showing only '[object Object]' placeholders where the main content should be. While the opening paragraph seems thematically appropriate, the lack of actual content makes it impossible to fact-check against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "A comparison of vertebral preparation techniques for increasing reader precision and agreement in vertebral band pair identification of Northeast Atlantic skates",
@@ -3625,7 +3660,8 @@
         "confidence": "high",
         "summary": "The generated article is corrupted or incomplete, containing only placeholder objects instead of actual content. While the introductory paragraph accurately reflects the general topic from the source (vertebral preparation techniques for Northeast Atlantic skates), the rest of the article is non-functional and cannot be fact-checked."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "UP govt presents Rs 9.12 lakh crore Budget: Big push for roads, jobs, healthcare — what it means for you",
@@ -3661,7 +3697,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts are accurate: budget amount (₹9.12 lakh crore), percentage increase (12.9%), Finance Minister's name (Suresh Khanna), and focus areas (roads, jobs, healthcare) all match the source. No fabricated quotes were used. The article maintains factual accuracy while using a more conversational tone."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "How Democratic Socialists of America Has Developed Into a \"Movement Party\"",
@@ -3703,7 +3740,8 @@
         "confidence": "high",
         "summary": "The generated article is technically corrupted with '[object Object]' placeholders replacing what should be actual content. This makes fact-checking impossible as the substantive claims, data, and quotes are not visible. The article needs to be regenerated properly before fact-checking can be performed."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Goldi Solar plans $350 million IPO",
@@ -3743,7 +3781,10 @@
         "confidence": "low",
         "summary": "While the factual content present (company name 'Goldi Solar', $350 million IPO amount, shortlisted advisers) matches the source material, the generated article contains technical errors with '[object Object]' placeholders and appears incomplete. Cannot fully verify accuracy due to missing content."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     }
-  ]
+  ],
+  "autoPublished": true,
+  "publishedAt": "2026-02-12T17:56:50.208Z"
 }
