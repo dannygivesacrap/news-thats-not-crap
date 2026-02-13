@@ -2072,7 +2072,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All verifiable facts in the generated article match the original source. The 6,100-acre figure, decade-long battle timeframe, Bay Area location, Sargent Ranch name, sand quarry threat, conservation purpose, and description as 'one of the largest private land purchases for conservation in California's Bay Area' are all accurate. The article uses dramatic storytelling language but does not make any factual claims that contradict or exceed the source material."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Special Devices Let Crowds at the Deaflympics Feel Power of Judo Slams Like Never Before",
@@ -2114,7 +2115,8 @@
         "confidence": "low",
         "summary": "The generated article appears to be technically corrupted or incomplete, showing '[object Object]' placeholders instead of actual content. While the opening paragraph seems consistent with the source material mentioning the 2025 Summer Deaflympics in Tokyo and technology allowing spectators to feel judo movements, the rest of the article cannot be evaluated for factual accuracy."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Woman's Prosthetic Leg Swept Out to Sea Is Thrilled its Been Found 10 Months Later",
@@ -2156,7 +2158,8 @@
         "confidence": "high",
         "summary": "The generated article appears to have technical issues with content rendering, showing '[object Object]' placeholders instead of actual article text. This makes it impossible to fact-check against the source material about Brenda Ogden's prosthetic leg recovery."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Kashmir's Lotus Stems Rise Again",
@@ -2193,7 +2196,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the source material. All key facts are correct: nadur refers to lotus stem, it's a traditional crop in Kashmir that sustained families, it had nearly disappeared due to pollution/floods/erratic weather, and farmers are now reviving it to adapt to climate challenges. No fabricated quotes, statistics, or unsupported claims were found. The article uses more descriptive language but maintains factual accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "FDA Approves First-of-Its-Kind Device to Treat Pancreatic Cancer",
@@ -2230,7 +2234,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the original source: FDA approval of a first-of-its-kind device for treating locally advanced pancreatic cancer in adult patients. No fabricated quotes, statistics, or unsupported claims were found. The article uses appropriate paraphrasing and maintains factual accuracy while adding contextual commentary about the significance of the approval."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Omega-3 fish oil supplements could backfire without this key enzyme",
@@ -2267,7 +2272,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: omega-3 supplements (EPA and DHA) only help with colorectal cancer when ALOX15 enzyme is present, without the enzyme fish oil can increase tumor growth (particularly DHA), the research was conducted on mice, and genetics determine who benefits from supplementation. No fabricated quotes, statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Polymers from earth can make cement more climate-friendly",
@@ -2309,7 +2315,8 @@
         "confidence": "high",
         "summary": "While the opening paragraph correctly states the 8% emissions statistic from the source, the article is incomplete with placeholder text '[object Object]' appearing three times instead of actual content. This makes it impossible to fact-check the majority of the article and suggests a technical error in generation or transmission."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "What We're Reading: Eliminating 'Forever Chemicals' at the Olympics",
@@ -2346,7 +2353,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: Winter Olympics addressing 'forever chemicals' in sports equipment, the performance implications where nanosecond differences matter, and the significance of eliminating PFAS chemicals from competitive sports. While the writing style is more casual and includes analogies not in the source, no factual inaccuracies were found. The core information is faithfully represented."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "What went right this week: the good news that matters",
@@ -2388,7 +2396,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or incomplete, containing technical placeholders instead of actual content. While the introductory paragraph correctly references the three main topics from the source (Ireland's artist program, women's health progress, and Arctic/polar bear news), the substantive content is missing, making fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "What went right this week: the preventable side of cancer, plus more",
@@ -2430,7 +2439,8 @@
         "confidence": "high",
         "summary": "While the opening paragraph accurately reflects the source material about preventable cancer cases, the article is fundamentally flawed due to technical issues that replaced content with '[object Object]' placeholders. The one-third cancer prevention statistic and general framing appear consistent with the source, but the article is incomplete and unpublishable in its current state."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Naga community bans Pangolin hunting in Nagaland",
@@ -2472,7 +2482,8 @@
         "confidence": "low",
         "summary": "The article appears to be corrupted or incomplete, showing only the introductory paragraph followed by '[object Object]' placeholders. While the opening paragraph's basic premise aligns with the source (Sangtam Naga community protecting pangolins in Northeast India), the majority of the article content is missing, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "River Thames spot among 13 sites shortlisted for swimming status",
@@ -2515,7 +2526,8 @@
         "confidence": "high",
         "summary": "The article appears to be incomplete or corrupted with placeholder text. The visible portion accurately identifies Thames at Ham as London's first designated bathing spot, but includes unsupported subjective commentary about the river's condition and property market context not found in the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Scientists discover hidden trigger behind achilles pain and tennis elbow",
@@ -2558,7 +2570,8 @@
         "confidence": "low",
         "summary": "The generated article appears to be corrupted or incomplete, showing '[object Object]' placeholders instead of actual content. While the visible introductory paragraph doesn't contain obvious factual errors and maintains the casual tone without making specific claims that contradict the source, the majority of the article is unreadable and therefore cannot be properly fact-checked against the original source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "AI startup The Biological Computing Co. raises $25M to swap out silicon for lab-grown brains",
@@ -2600,7 +2613,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains only placeholder text ([object Object]) rather than actual content. While the opening paragraph mentions concepts aligned with the source (AI startup, lab-grown computing), the rest of the article is unreadable, making proper fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Inox Clean Energy ties-up with RJ Corp in African renewable energy foray",
@@ -2642,7 +2656,8 @@
         "confidence": "high",
         "summary": "The generated article is severely malformed with '[object Object]' placeholders replacing what should be the main content. While the introductory paragraph mentions companies partnering in African renewable energy (which aligns with the source topic), the rest of the article contains no verifiable content to fact-check against the original source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "China's Emissions Fell Last Year in First Decline Since 2022",
@@ -2684,7 +2699,8 @@
         "confidence": "high",
         "summary": "The generated article contains a critical factual error regarding the year (2024 vs 2025) and makes unsupported claims about China's emissions relative to other regions. It also omits important context from the source about energy demand growth and economic decoupling."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "How China will Run Rings around Trump's US on Lucrative Green Energy in 2026",
@@ -2724,7 +2740,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or incomplete, containing only placeholder text rather than actual content. This makes fact-checking impossible as there are no substantive claims, statistics, or quotes to verify against the original source material about China's clean energy exports."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Bio-Preservation Market to Reach US$ 44.45 Billion by 2035 | Cold Chain Expansion and Cell & Gene Therapy Commercialization Drive Growth Says Astute Analytica",
@@ -2765,7 +2782,8 @@
         "confidence": "high",
         "summary": "The generated article is technically defective and contains no verifiable content. While the opening paragraph mentions bio-preservation in general terms consistent with the source topic, the bulk of the article consists of '[object Object]' placeholders, making factual verification impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "60,000 years ago humans were already using poisoned arrows",
@@ -2807,7 +2825,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical errors ('[object Object]' placeholders). While the opening paragraph correctly references the 60,000-year timeframe and mentions it being the oldest direct evidence of arrow poison, the rest of the article is unreadable, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Scientists discover hidden brain cells that help heal spinal cord injuries",
@@ -2848,7 +2867,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and corrupted, containing only a brief introductory paragraph followed by '[object Object]' placeholders. While the opening paragraph's general concept aligns with the source material about behind-the-scenes cellular repair mechanisms, the bulk of the article is missing, making it impossible to fact-check the content thoroughly."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "This vegan diet cut insulin use by nearly 30% in type 1 diabetes",
@@ -2884,7 +2904,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: the 28% reduction in insulin use for vegan diet participants, the lack of meaningful change in the portion-controlled group, the diet being low-fat vegan without calorie or carb restrictions, the focus on type 1 diabetes, and the publication in BMC Nutrition. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Predictable serendipity: how new tools turn serendipity into systematic breakthroughs",
@@ -2920,7 +2941,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the source material. It correctly attributes the research to LSE, accurately paraphrases the key findings about transforming serendipity from random chance into systematic breakthroughs, and mentions the focus on technological advances enabling reproducible innovation methods. No fabricated quotes, statistics, or unsupported claims were found. The article appears incomplete (with [object Object] placeholders), but the content that is present is factually accurate to the source."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "World Rugby releases first postpartum return to play guidelines for mums - Opinion",
@@ -2961,7 +2983,8 @@
         "confidence": "medium",
         "summary": "While the core facts about World Rugby releasing first-ever postpartum return to play guidelines are accurate, the generated article contains technical formatting errors with '[object Object]' placeholders and appears incomplete. The factual content that is visible aligns with the source, but the article's technical issues prevent full verification."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Gene editing that spreads within the body could cure more diseases",
@@ -3002,7 +3025,8 @@
         "confidence": "high",
         "summary": "The generated article is technically defective and contains no readable content beyond the opening paragraph. While the introductory paragraph appears consistent with the source's description of self-amplifying gene editing technology, the bulk of the article shows '[object Object]' errors, making fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "One year of free health check program, a healthy start to productivity",
@@ -3045,7 +3069,8 @@
         "confidence": "high",
         "summary": "The generated article contains technical errors with object placeholders, takes excessive editorial liberties with tone and examples not found in the source, and makes claims that extend beyond what the original excerpt supports. While the core facts about a one-year free health check program and prevention focus are accurate, the article's presentation and additional details are problematic."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Data-driven optimization of diet formulation to enhance survival and growth in Japanese Eel (Anguilla japonica) larvae",
@@ -3088,7 +3113,8 @@
         "confidence": "high",
         "summary": "The generated article contains technical errors with '[object Object]' placeholders, makes unsupported claims about eel behavior not found in the source, and uses informal language that misrepresents the research findings. While it correctly mentions the data-driven optimization approach and the challenge in eel aquaculture, the article is fundamentally flawed due to incomplete generation and unsubstantiated claims."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Treating prolonged grief disorder with CBT for insomnia: A replicated single-case experimental study protocol",
@@ -3128,7 +3154,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be malformed with placeholder text rather than actual content. While the opening paragraph aligns with the source's theme about CBT for insomnia as a treatment for prolonged grief, the rest consists of '[object Object]' entries, indicating a technical error in content generation rather than factual inaccuracies."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "What animal has wings but is not a bird?",
@@ -3164,7 +3191,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source material. It correctly states that bats are mammals capable of true flight, that they use wings to fly like birds, and that they represent one of nature's most remarkable evolutionary achievements in flight development. While the article uses more casual, engaging language and adds stylistic elements not in the source, it does not make any factual claims that contradict or go beyond the original information. The core scientific facts are preserved and accurately presented."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "The UBC/SIRT5/DRP1 axis regulates mitochondrial dynamics to alleviate Staphylococcus aureus-induced oxidative stress and senescence in bovine mammary epithelial cells",
@@ -3205,7 +3233,8 @@
         "confidence": "medium",
         "summary": "While the visible portions of the article accurately reflect the source material about Staphylococcus aureus research and bovine mastitis, the article contains technical errors ('[object Object]' placeholders) and appears incomplete, making full fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "How do you clean an old pond?",
@@ -3246,7 +3275,8 @@
         "confidence": "high",
         "summary": "The generated article is technically corrupted, displaying '[object Object]' placeholders instead of actual content. While the opening paragraph's tone and general topic align with the source material about pond cleaning, there is no substantive factual information present to fact-check against the original source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Apache Arrow is 10 years old",
@@ -3287,7 +3317,8 @@
         "confidence": "high",
         "summary": "The generated article contains a significant factual error regarding Apache Arrow's age and timeline, plus technical formatting issues with placeholder text. The core facts about the February 5th, 2016 git commit date are accurate, but the age calculation and 'this month' timing reference are incorrect."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Good News in History, February 11",
@@ -3328,7 +3359,8 @@
         "confidence": "high",
         "summary": "While the core facts about Paul Bocuse being an iconic chef born on February 11th are supported, there are technical issues with the article content, a potential date calculation error, and unsupported editorial claims not present in the original source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "The 10 Best Movie Soundtracks of the 2010s",
@@ -3370,7 +3402,8 @@
         "confidence": "high",
         "summary": "The generated article has significant technical issues with '[object Object]' placeholders replacing actual content, making it incomplete and unpublishable. While the basic premise about JoBlo.com's list of 10 best movie soundtracks from the 2010s is accurate, the article fails to deliver the promised information and contains unverifiable claims about timing."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Boralex: Dividend Declaration",
@@ -3406,7 +3439,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual information in the generated article accurately matches the source material. The company name (Boralex Inc.), dividend amount ($0.165 per common share), payment date (March 16, 2026), and recipient details (shareholders of record) are all correct. While the article adds editorial commentary and informal language, it does not introduce any factual errors or unsupported claims. The core financial information is faithfully preserved despite the conversational tone."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Used sleds, crumbling venues, crushing costs, Canada's path back to bobsled success is an uphill climb",
@@ -3448,7 +3482,10 @@
         "confidence": "high",
         "summary": "The generated article appears to be incomplete or corrupted, containing placeholder text instead of actual content. While the general theme about Canada's bobsled challenges aligns with the source title and excerpt, the article's technical issues make it impossible to properly fact-check the content. The metaphorical language used cannot be verified against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     }
-  ]
+  ],
+  "autoPublished": true,
+  "publishedAt": "2026-02-13T17:39:24.390Z"
 }
