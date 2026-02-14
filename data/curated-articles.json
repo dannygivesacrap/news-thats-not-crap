@@ -1897,7 +1897,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents the key facts from the source: 1,000 whiskers on elephant trunks, their role in touch sensitivity, and the ability to precisely grab small objects like peanuts. No quotes were fabricated, numbers match the source, and no unsupported claims were made. The article uses more casual language but maintains factual accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Africa Becomes World's Fastest-Growing Solar Market in 2025 Despite Global Slowdown",
@@ -1934,7 +1935,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual claims in the generated article are accurate to the source. The 17% expansion figure is correct, Africa is properly identified as the world's fastest-growing solar market in 2025, and the global renewable energy slowdown context is accurately represented. The article uses creative language and metaphors but maintains factual accuracy throughout. No quotes were fabricated, and all names/places are accurate."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Life lessons: former Olympian Aimee Fuller on what life so far has taught her",
@@ -1977,7 +1979,8 @@
         "confidence": "high",
         "summary": "The generated article is largely unverifiable due to technical issues showing '[object Object]' placeholders. The introductory paragraph makes unsupported characterizations about Fuller's personality and attitude toward her career transition that cannot be confirmed from the brief source excerpt provided."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Can wild swimming unite communities against single-use plastics?",
@@ -2019,7 +2022,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or incomplete, showing only an opening paragraph followed by '[object Object]' placeholders where the main content should be. This makes fact-checking impossible as the actual claims, data, and quotes cannot be evaluated against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Will Pride in Place put communities back in charge of regeneration?",
@@ -2061,7 +2065,8 @@
         "confidence": "low",
         "summary": "The generated article appears to have technical issues displaying properly, showing '[object Object]' instead of readable content. While the opening paragraph aligns with the source material about Pride in Place being a UK government scheme for community-led regeneration, the rest of the article cannot be fact-checked due to formatting corruption."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Minnesota Tow Truck Driver Returns Abandoned Vehicles to Families After ICE Arrests",
@@ -2104,7 +2109,8 @@
         "confidence": "high",
         "summary": "The generated article contains technical errors (object placeholders) and adds specific details about ICE arrests that are not supported by the original source. While the basic premise about Juan Leon and his tow truck service is accurate, the article expands beyond the source material with unsupported claims."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Monks Arrival After 15 Weeks of Walking Fills DC Streets With Peace and Compassion",
@@ -2141,7 +2147,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All key facts match the source: 15 weeks of walking, Buddhist monks, barefoot arrival at National Cathedral steps in DC, locals describing unprecedented peace and compassion, and leader calling it memorable. The generated article adds stylistic commentary but doesn't misrepresent any factual information from the source."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Redefining 'normal': A Canadian case study of cancer survivors' experiences remaining and/or returning to work during the COVID-19 pandemic",
@@ -2183,7 +2190,8 @@
         "confidence": "high",
         "summary": "The article is fundamentally flawed due to technical issues showing '[object Object]' instead of content, and makes unsupported claims about study findings that aren't present in the source material. While the basic premise about a Canadian study on cancer survivors and work during COVID-19 is accurate, the article cannot be verified as factual due to missing content and unsupported claims."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "The oxygen economy: Mushroom World Umbrella pins hopes on AlgaeTree's tech-green canopy",
@@ -2225,7 +2233,8 @@
         "confidence": "high",
         "summary": "The generated article appears incomplete with technical placeholders replacing actual content. While the opening paragraph correctly identifies the Mushroom World Group and AlgaeTree Project, the article's informal tone suggests potential embellishment, and the missing content makes comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Alberta's Plan for parks aims to balance conservation with tourism",
@@ -2267,7 +2276,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical errors ('[object Object]' placeholders). While the opening paragraph accurately reflects the source's theme about balancing conservation with tourism and managing crowded parks, the majority of the article is missing or corrupted, making proper fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Machine Learning Manager",
@@ -2310,7 +2320,8 @@
         "confidence": "low",
         "summary": "The generated article appears to have technical issues with '[object Object]' placeholders replacing actual content. The opening paragraph correctly identifies Isomorphic Labs and their goal of solving all disease, which aligns with the source. However, the casual tone and specific examples used cannot be verified against the original source, and the majority of the article is unreadable due to formatting problems."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Effects of matcha green tea on the pharmacokinetics of nadolol in rats",
@@ -2352,7 +2363,8 @@
         "confidence": "high",
         "summary": "The generated article is technically defective with '[object Object]' placeholders replacing what should be article content. While the opening paragraph's tone and general topic align with the source material about matcha-medication interactions, the bulk of the article is unreadable and cannot be fact-checked."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "South Korea Construction Industry Databook Report 2026: Semiconductor Megaclusters, 1.35M Housing Target & Offshore Wind Projects Redefine the Next Investment Cycle - Forecast to 2030",
@@ -2395,7 +2407,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete with technical errors showing '[object Object]' instead of content. The visible portions use subjective, unverifiable language that doesn't match the factual tone of the source material. Proper fact-checking cannot be completed due to the incomplete generation."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "XCMG unveils world's biggest all-electric wheel loader for Fortescue",
@@ -2432,7 +2445,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual information in the generated article accurately reflects the source material. The company name (XCMG), product models (XC9260BEWL and XC9260BEWD), customer (Fortescue), location (Australia), equipment type (electric wheel loaders), the $400 million figure, and the record-setting nature of the order all match the source exactly. No quotes were used, so no attribution issues exist. The article adds contextual descriptions and analogies but doesn't make any unsupported factual claims."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "France to Scale Back Solar, Wind Plans as Power Demand Slows",
@@ -2474,7 +2488,8 @@
         "confidence": "high",
         "summary": "The generated article is fundamentally flawed due to technical errors showing '[object Object]' instead of content. The limited visible text also mischaracterizes the source material by oversimplifying the reasons for scaling back renewable plans and framing it as purely positive when the source indicates more nuanced challenges."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "BTS begins again",
@@ -2515,7 +2530,8 @@
         "confidence": "high",
         "summary": "While the opening paragraph accurately reflects the source information about BTS's four-year hiatus for military service and upcoming reunion, the article is corrupted with '[object Object]' placeholders instead of actual content, making it impossible to verify the complete article's accuracy."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Why is Mewgenics such a breakout hit? #gaming",
@@ -2551,7 +2567,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: 14-year development period, commercial success, and indie game creators. The article adds appropriate commentary and metaphors but doesn't contradict or fabricate any facts from the original source. No quotes are presented, so no attribution issues exist."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Nose for trouble: Italian town seeks 'odour evaluators' to sniff out bad smells",
@@ -2587,7 +2604,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All verifiable facts in the generated article accurately match the source material. The mayor's name (Bruno Beltrame), town name (Brendola), location (northern Italy), number of positions (six 'odour evaluators'), and the reason for the initiative (resident complaints about industrial odors) are all correct. While the article uses a more casual, humorous tone and includes creative flourishes not present in the source, it does not contain any factual inaccuracies or unsupported claims about the core story."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Scientists discover a hidden gut bacterium linked to good health",
@@ -2629,7 +2647,8 @@
         "confidence": "high",
         "summary": "The generated article is technically incomplete with placeholder text '[object Object]' repeated three times instead of actual content. While the opening paragraph accurately introduces CAG-170 as gut bacteria linked to good health (consistent with the source), the bulk of the article is missing, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "CAR-T therapy provides relief for children with autoimmune diseases",
@@ -2670,7 +2689,8 @@
         "confidence": "high",
         "summary": "The generated article contains unsupported claims about CAR-T therapy's original purpose and includes corrupted placeholder text. While the core concept of CAR-T therapy helping children with autoimmune diseases matches the source, additional claims about the therapy's history are not substantiated by the provided source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "AI digital twin startup Simile raises $100M in funding",
@@ -2706,7 +2726,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All verifiable facts in the generated article accurately match the source material. The company name (Simile Inc.), funding amount ($100 million), lead investor (Index Ventures), and business focus (AI-generated digital twins of individuals) are all correct. The article contains no quotes to verify, and while it includes speculative/commentary content, no unsupported factual claims are made about the company or deal."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Ai2 introduces AutoDiscovery, an automated scientific discovery AI system",
@@ -2742,7 +2763,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual claims in the generated article are accurate to the source. The system name 'AutoDiscovery', the organization 'Allen Institute for AI', and the core functionality (helping researchers discover patterns across research papers when overwhelmed with data) are correctly represented. No statistics, quotes, or specific claims were fabricated. The article uses a more casual, engaging tone but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Grant proposals drafted with AI help more likely to win NIH funding",
@@ -2783,7 +2805,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or improperly formatted, displaying '[object Object]' instead of readable content. While the introductory paragraph aligns with the source material's basic premise about AI helping with NIH grant proposals, the majority of the article is unreadable and therefore cannot be fact-checked for accuracy."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Dive behind the scenes of the breakthrough Williamsburg swim team",
@@ -2824,7 +2847,8 @@
         "confidence": "high",
         "summary": "The generated article cannot be fact-checked because it contains technical errors showing '[object Object]' instead of readable content. While the opening paragraph appears consistent with the source material mentioning Williamsburg's growing swim team, the rest of the article is unreadable and therefore cannot be verified for accuracy."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Children to be better protected from second-hand smoking & vaping",
@@ -2865,7 +2889,8 @@
         "confidence": "high",
         "summary": "The generated article appears to have technical formatting issues with '[object Object]' placeholders replacing the actual content. While the opening paragraph seems relevant to the source topic about UK government consultation on smoke-free and vape-free spaces, the majority of the article is unreadable, making factual verification impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "XLRI Records Strong Final Placements for PGDM (BM) & PGDM (HRM) Batch 2024–26",
@@ -2906,7 +2931,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains placeholder text instead of actual content. While the opening paragraph accurately reflects the source information about XLRI's strong final placements for PGDM (BM) & PGDM (HRM) batch 2024-26, the rest of the article is corrupted with '[object Object]' placeholders, making it impossible to verify the accuracy of the complete piece."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "A First Safari in the Serengeti, Where Every Drive Is a Game Drive",
@@ -2942,7 +2968,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the source material. It correctly identifies Tanzania's Serengeti as the location, references the specific example of lions mating in the road, and captures the main theme that every drive becomes a game drive with remarkable wildlife encounters. No fabricated quotes, incorrect statistics, or unsupported claims were found. The writing style is more casual and humorous than the source, but the factual content remains faithful to the original."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Assessing stress restorative potential of plant species richness and plant landscape types of pocket parks: The mediating role of aesthetic quality",
@@ -2983,7 +3010,8 @@
         "confidence": "low",
         "summary": "The generated article appears to be incomplete or corrupted, containing technical placeholders instead of actual content. While the opening paragraph accurately reflects the general topic and source publication (PLOS ONE research on pocket parks and stress restoration), the majority of the article is missing, making it impossible to verify the accuracy of the full content against the source material."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "20 Remarkable Winning Photos From Close-Up Photographer Of The Year Competition",
@@ -3019,7 +3047,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the source information. It correctly identifies the competition name, mentions 20 remarkable winning photos, and accurately describes the subject matter (dewdrops on grass, insect wing geometry, tiny details). The creative writing style adds engaging language while maintaining factual accuracy. No fabricated quotes, statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Darwiniana for Darwin Day",
@@ -3055,7 +3084,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key information from the source: Darwin Day celebration, Friends of Darwin Newsletter website, the 'Darwiniana' collection, and the three main components (pollination research discussions, book recommendations, and extensive resources honoring Darwin). No fabricated quotes, statistics, or unsupported claims were found. The article expands with stylistic flourishes but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Kiteskraft unveils their latest publication, The Power List to announce the mentors and change-makers that are shaping progress in India",
@@ -3091,7 +3121,10 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents the core facts from the source: Kiteskraft unveiled The Power List, it's a new publication, and it recognizes mentors and change-makers shaping progress across India. No statistics, quotes, or specific names beyond the organization are present to verify. The article adds editorial commentary and style but doesn't contradict or misrepresent the source material."
-      }
+      },
+      "approved": true
     }
-  ]
+  ],
+  "autoPublished": true,
+  "publishedAt": "2026-02-14T17:25:12.519Z"
 }
