@@ -1672,7 +1672,8 @@
         "confidence": "high",
         "summary": "The generated article appears to have technical formatting errors with '[object Object]' placeholders replacing the actual content. Without the complete article text, it's impossible to verify factual accuracy against the source material about insulinoma treatment."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Brits Travel to Town Called Lover to Send Valentine's Day Cards From World's Most Romantic Post Office",
@@ -1709,7 +1710,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: the village is called Lover, it's dubbed the world's most romantic village, Brits travel there to send Valentine's cards with special postmarks, and thousands of cards are sent from there each February. No fabricated quotes, statistics, or unsupported claims were found. The article expands on the factual foundation with appropriate commentary and context while maintaining accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "A Father's Vision: How Pharmacist Devan Patel Pioneered the World's First Postbiotic Eye Gummy",
@@ -1746,7 +1748,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: Devan Patel is correctly identified as a pharmacist, his two daughters experienced myopia and digital eye strain from screen time, and he developed the world's first postbiotic eye gummy. No quotes were fabricated, and all names and claims are supported by the source material. The article uses creative, engaging language but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "FEATURE FRIDAY: Catching up with Super Bowl champion J.R. Singleton",
@@ -1788,7 +1791,8 @@
         "confidence": "high",
         "summary": "The generated article appears to have a technical error displaying '[object Object]' instead of readable content, making it impossible to fact-check against the source material. While the opening paragraph about J.R. Singleton appears consistent with the source's basic facts, the rest of the article cannot be verified due to the formatting issue."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Scientists find nerves actively fuel pancreatic cancer",
@@ -1830,7 +1834,8 @@
         "confidence": "low",
         "summary": "The article appears to have technical formatting issues with '[object Object]' placeholders replacing actual content. The visible introductory paragraph aligns with the source material's key points about nerve fibers being recruited to fuel pancreatic cancer growth, but the majority of the article is unreadable due to formatting problems, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Discovery tools: how powerful new scientific methods and instruments emerge and catalyse innovation",
@@ -1872,7 +1877,8 @@
         "confidence": "high",
         "summary": "The generated article is technically defective with placeholder text instead of actual content. While the opening paragraph aligns with the source material's general theme about scientific tools driving innovation across fields, the presence of '[object Object]' indicates a generation error that renders the article incomplete and unpublishable."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Can you save an injured bird?",
@@ -1914,7 +1920,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be corrupted or incomplete, showing '[object Object]' placeholders instead of actual content. While the opening paragraph's tone and topic align with the source material about helping injured birds, the bulk of the article is unreadable, making factual verification impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "How did the mongoose save the baby?",
@@ -1957,7 +1964,8 @@
         "confidence": "high",
         "summary": "The generated article appears incomplete with technical errors ([object Object] placeholders) and makes specific claims that cannot be verified against the provided source excerpt, which only contains a brief summary rather than detailed factual content."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Communications chief says Türkiye's mediator role rooted in 'consistent foreign policy'",
@@ -1999,7 +2007,8 @@
         "confidence": "high",
         "summary": "The generated article appears to be incomplete or corrupted, containing technical placeholders instead of actual content. While the opening paragraph correctly identifies Burhanettin Duran as Turkey's Communications Director and accurately reflects the general theme about Turkey's mediator role being intentional rather than accidental, the bulk of the article is unreadable and unverifiable."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Stop eating 3 hours before bed to improve heart health",
@@ -2036,7 +2045,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the original source: adults stopped eating 3 hours before bed, dimmed lights, saw cardiovascular improvements (blood pressure, heart rate, blood sugar), and did not cut calories. No fabricated quotes, statistics, or unsupported claims were found. The article stays true to the source material while using engaging language."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "AI uncovers the hidden genetic control centers driving Alzheimer's",
@@ -2073,7 +2083,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the original source. It correctly describes scientists creating detailed maps of gene control in Alzheimer's brains, mentions the AI system SIGNET, and references the discovery of cause-and-effect relationships between genes across brain cell types. The article uses accessible language and metaphors while maintaining factual accuracy. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Scientists found a way to plant ideas in dreams to boost creativity",
@@ -2116,7 +2127,8 @@
         "confidence": "high",
         "summary": "The generated article appears to have technical issues with corrupted content displaying as '[object Object]' instead of readable text. This makes it impossible to fact-check the actual claims against the source material about Northwestern University's dream manipulation research."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Tracking global water circulation using atomic fingerprints",
@@ -2158,7 +2170,8 @@
         "confidence": "high",
         "summary": "The generated article is corrupted and displays '[object Object]' instead of readable content, making it impossible to fact-check against the source material. The article needs to be regenerated to allow for proper verification."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Breakthrough Study Confirms HYD LLC's 30-Year Research on Deuterium Modulation in Cancer Gene Expression",
@@ -2202,7 +2215,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical errors (object placeholders). While the basic concept of deuterium modulation research and the 30-year timeframe are accurate, key details like the company name (HYD LLC), specific study title, and source attribution are missing. The article cannot be properly fact-checked due to the incomplete generation."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Global Conjugate Vaccine Market to Reach USD 21.77 Billion by 2030 | MarketsandMarkets™",
@@ -2245,7 +2259,8 @@
         "confidence": "high",
         "summary": "The article appears to have technical formatting issues with '[object Object]' placeholders replacing the actual content. Only the $21.77 billion by 2030 projection can be verified as accurate. The rest of the article content is not displayable, making comprehensive fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Science Alone Won't Stop Lassa Fever",
@@ -2281,7 +2296,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source material: three promising Lassa fever vaccine candidates in development, one potentially available for licensing within the next decade, and the focus on West Africa. No fabricated quotes, incorrect statistics, or unsupported claims were found. The article uses a more casual tone but maintains factual accuracy."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "'From Chai to Chips': PM Modi pitches Assam's growth story ahead of Assembly elections",
@@ -2322,7 +2338,8 @@
         "confidence": "low",
         "summary": "The generated article cannot be properly fact-checked as it contains technical errors showing '[object Object]' instead of actual content. While the opening paragraph correctly mentions Modi's 'chai to chips' slogan for Assam, the rest of the article is unreadable due to formatting issues."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Airline Welcomes VIP Endangered Turtle Who Needed Hospital After it was Blown Off Course By Powerful Winter Storm",
@@ -2358,7 +2375,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All factual elements in the generated article accurately match the source material. The article correctly states the turtle species (loggerhead), location (Island of Jersey), storm name (Storm Goretti), wind speed (110 mph), distance traveled (hundreds of miles), the turtle's endangered status, and that it received VIP airline treatment for hospital care. While the writing style is creative and humorous, no facts were altered or fabricated."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "New Spray-on Powder Instantly Seals Life-Threatening Wounds in Battle or During Disasters",
@@ -2394,7 +2412,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: South Korean scientists developed a spray-on powder that stops bleeding in one second and could save lives by preventing excessive bleeding. The article uses creative language and analogies but doesn't introduce any factual inaccuracies or unsupported claims. All core information matches the original source."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "All About Beavers",
@@ -2435,7 +2454,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete and contains technical errors ('[object Object]' placeholders) that prevent proper fact-checking. While the opening paragraph aligns thematically with the source material about beavers being influential and impactful, the article cannot be verified due to its incomplete state."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "LA passes grants for Jal Shakti, Forest, TA departments",
@@ -2476,7 +2496,8 @@
         "confidence": "high",
         "summary": "The factual information present in the generated article accurately reflects the source material, but the article contains significant technical errors ('[object Object]' placeholders) that make it incomplete and unprofessional. These technical issues prevent the article from being considered factually reliable despite the accurate content that is visible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Being Jamaican in Canada meant we didn't talk about mental health — until depression forced me to",
@@ -2512,7 +2533,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the source information. Key facts are correct: Bria Barrows was diagnosed with depression as a high school student, her Jamaican family initially struggled with discussing mental health, and there has been progress toward more open conversations. No quotes are fabricated, names are accurate, and all claims are supported by the source material. The article appears incomplete with '[object Object]' placeholders, but the factual content present is accurate."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "How fast can a dingo run?",
@@ -2548,7 +2570,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents the key factual information from the source. The dingo's maximum speed of 60 kilometers per hour (37 miles per hour) is correctly stated and matches the original source exactly. No quotes were fabricated or misattributed. While the article uses a more casual, engaging tone with additional context and comparisons not found in the source, it does not make any unsupported factual claims or contradict the source material."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "How do birds get birds pregnant?",
@@ -2589,7 +2612,8 @@
         "confidence": "high",
         "summary": "While the introductory paragraph accurately references the 'cloacal kiss' concept from the source, the generated article is incomplete or corrupted, showing '[object Object]' instead of actual content. The visible portion does correctly convey that birds have a unique reproductive process different from mammals, but the technical issues prevent full fact-checking of the complete article."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Good News in History, February 15",
@@ -2630,7 +2654,10 @@
         "confidence": "high",
         "summary": "The article contains a clear factual error regarding the year (1943 vs. the actual timeframe indicated by '80 years ago'), adds unsupported descriptive details about the poster's appearance, and has technical formatting issues. While the core facts about Westinghouse, Pittsburgh, and the poster's purpose are accurate, the specific inaccuracies make it fail fact-checking standards."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     }
-  ]
+  ],
+  "autoPublished": true,
+  "publishedAt": "2026-02-15T17:25:25.996Z"
 }
