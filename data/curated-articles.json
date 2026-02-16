@@ -1805,7 +1805,8 @@
         "confidence": "high",
         "summary": "The generated article contains factual inaccuracies in interpreting the fish stock numbers, omits key specific details from the source material, and appears to be incomplete with placeholder text remaining in the content."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "8-Year-Old Maryland Girl Becomes Youngest Grammy Winner Ever with Daddy-Daughter Album",
@@ -1842,7 +1843,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "All core facts are accurate: Aura V. is 8 years old from Maryland, she won with her father for Best Children's Music Album for their album 'Harmony', and she became the youngest Grammy winner ever. The generated article uses creative language and hypothetical scenarios (like missing recess for acceptance speech) but doesn't present any false factual claims. No quotes are fabricated or misattributed."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "From 10% to 47%: Cardiac Survival Rates Surge in Texas City That's Empowering Citizens to Save Lives",
@@ -1884,7 +1886,8 @@
         "confidence": "low",
         "summary": "The generated article appears to be corrupted or incomplete, showing '[object Object]' instead of actual content. While the opening paragraph correctly references the survival rate improvement from 10% to 47% in a Texas city, the majority of the article cannot be fact-checked due to technical issues in the content generation."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Two Lost 'Jungle Book' Original Paintings Found in Family's Home After a Century–They had No Clue What They Were",
@@ -1921,7 +1924,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: two original Jungle Book illustrations were found in a London family's home after being lost for over a century, and the family was unaware of their value. The article uses creative storytelling language but doesn't add any unsupported facts or fabricated quotes. The core information is faithfully preserved."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Lab grown human spinal cord heals after injury in major breakthrough",
@@ -1958,7 +1962,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the original source. It correctly describes that researchers built a human mini spinal cord in the lab, simulated injury to it, and used a treatment involving 'dancing molecules' that resulted in nerve fiber regrowth and scar tissue reduction. The article uses accessible language to explain the scientific breakthrough without introducing any factual inaccuracies or unsupported claims. No quotes are present to verify, and no specific names, organizations, or statistics are mentioned that could be cross-checked."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Web of undersea cables poised to become marine observatory",
@@ -2000,7 +2005,8 @@
         "confidence": "high",
         "summary": "The generated article is incomplete or corrupted, displaying '[object Object]' instead of actual article content. While the opening paragraph aligns with the source's theme of undersea cables being repurposed for marine conservation, the rest of the article is unreadable, making fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "What Happens When a Neighborhood Is Built Around a Farm?",
@@ -2043,7 +2049,8 @@
         "confidence": "high",
         "summary": "The generated article is fundamentally flawed due to technical errors showing '[object Object]' instead of content, and the visible portion contains specific details not supported by the source material. Cannot properly fact-check an incomplete article."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "New FDA-Approved Device Uses Electric Fields to Treat Pancreatic Cancer",
@@ -2080,7 +2087,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects all key facts from the source: FDA approval of a wearable device using electric fields to treat pancreatic cancer, ability to disrupt tumor growth, and patients being able to continue daily activities at home. No quotes were fabricated, no statistics were misrepresented, and no unsupported claims were made. The article adds stylistic elements and analogies but maintains factual accuracy throughout."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "India's power generation capacity addition crosses 50 GW during April-January period",
@@ -2117,7 +2125,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source material. The 52+ GW capacity addition figure and April-January timeframe are correct. While the article uses a casual, humorous tone with metaphorical language ('light up a small continent', 'casually added'), it doesn't make any factual claims that contradict the source. No fabricated quotes or inaccurate names/organizations were found. The article stays within the bounds of the information provided in the original source."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Exercise may be one of the most powerful treatments for depression and anxiety",
@@ -2154,7 +2163,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key findings from the original source. It correctly states that exercise (particularly aerobic activities) can be as effective as medication and talk therapy for depression and anxiety, based on a global research review. While the article uses more casual, engaging language ('pair of sneakers,' 'happy dance'), all factual claims align with the source material. No fabricated quotes, inaccurate statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Shinya Yamanaka Was Ranked Last in School—Then Won a Nobel Prize",
@@ -2196,7 +2206,8 @@
         "confidence": "low",
         "summary": "The article cannot be properly fact-checked due to technical issues that render most of the content as '[object Object]' placeholders. The visible opening paragraph aligns with the source material, but the majority of the article is inaccessible for verification."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Brain inspired machines are better at math than expected",
@@ -2233,7 +2244,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents all key facts from the source: neuromorphic computers can solve complex physics equations previously requiring supercomputers, they are energy-efficient compared to traditional supercomputers, and this represents a significant breakthrough. No fabricated quotes, statistics, or unsupported claims were found. The casual, engaging tone doesn't alter the factual accuracy of the content."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "India adds a record 52.5 GW of power generation capacity so far in FY26",
@@ -2276,7 +2288,8 @@
         "confidence": "high",
         "summary": "The generated article is technically corrupted with '[object Object]' placeholders replacing the actual content, making fact-checking impossible. The brief introductory paragraph contains unsupported commentary rather than factual information from the source."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Large study finds no link between mRNA COVID vaccine in pregnancy and autism",
@@ -2319,7 +2332,8 @@
         "confidence": "low",
         "summary": "The generated article appears to be incomplete with technical placeholders instead of actual content. While the introductory paragraph's tone and general topic align with the source material, the missing body content makes fact-checking impossible. The article would need to be properly generated before accurate verification can occur."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "One in three people carry this brain parasite but the body has a kill switch",
@@ -2361,7 +2375,8 @@
         "confidence": "high",
         "summary": "While the visible portions of the article appear to accurately reflect the source material (mentioning the parasite affecting one in three people and hijacking immune cells), the article contains technical errors with '[object Object]' placeholders and appears incomplete. The factual content that is present seems consistent with the source, but the article cannot be fully fact-checked due to these technical issues."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Humans Have a Third Set of Teeth, New Medicine May Help Them Grow",
@@ -2403,7 +2418,8 @@
         "confidence": "high",
         "summary": "The generated article makes unsupported claims about humans having a third set of teeth and contains technical errors. The source material discusses gene targeting to regrow teeth, not activating a pre-existing third set of teeth."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Brain inflammation may be driving compulsive behavior",
@@ -2439,7 +2455,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately represents the key findings from the original source. It correctly states that brain inflammation made rat behavior more deliberate rather than automatic, and that this challenges conventional understanding of compulsive behavior as a loss of control. While the article uses casual language and analogies not present in the source, all factual claims align with the original research findings. There are no fabricated quotes, incorrect statistics, or unsupported claims."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "New Energy Storage Solutions Are Killing Trump's Coal Power Fantasy",
@@ -2480,7 +2497,8 @@
         "confidence": "high",
         "summary": "The generated article cannot be properly fact-checked because it contains placeholder '[object Object]' text instead of actual content. While the opening paragraph aligns with the source's general theme about energy storage undermining coal power, the majority of the article is unreadable due to technical issues in generation."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Meet the American spies who helped mammograms save more lives",
@@ -2516,7 +2534,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: American spies who worked on finding hidden Russian missile bases were recruited to help improve breast cancer detection through mammograms. The article presents this information in a more narrative style but maintains factual accuracy. No specific statistics, quotes, names, or organizations were mentioned in either text to verify. The core claim about intelligence professionals applying their skills to medical imaging is correctly represented."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "7 Herbal teas that may boost sleep, digestion, immunity and overall wellness",
@@ -2552,7 +2571,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the source material. It correctly states that herbal teas are made from dried fruits, flowers, roots and herbs (unlike traditional teas from Camellia sinensis), that most are naturally caffeine-free, and that they are used for wellness purposes. The article uses creative rewording and adds engaging language while maintaining factual accuracy. No statistics, quotes, or specific names were provided in the source to verify, and no unsupported claims were made."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "India adds record over 52 GW power capacity in FY26",
@@ -2594,7 +2614,8 @@
         "confidence": "high",
         "summary": "While the 52 GW figure is accurate, the article incorrectly presents this as a completed achievement when the source indicates FY26 (a future fiscal year). The article also contains technical formatting errors and omits key details like the total capacity figure."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Power generation capacity addition crosses 50 GW during Apr-Jan period",
@@ -2630,7 +2651,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reports the key facts from the source: India added over 50 GW of power generation capacity during the April-January period of the fiscal year, and this represents a record achievement. The article uses a casual, humorous tone with analogies, but the core factual information is correct. No fabricated quotes, incorrect statistics, or unsupported claims were found."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Forrest launches battery-powered trains as green deadline nears",
@@ -2671,7 +2693,8 @@
         "confidence": "high",
         "summary": "The generated article is fundamentally flawed due to technical issues showing placeholder text instead of content. While the opening paragraph aligns with the source material about Forrest launching battery-powered trains in the Pilbara, the rest of the article is unreadable and unverifiable."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "The great fitness mistake most of us make – and the simple solution that works",
@@ -2712,7 +2735,8 @@
         "confidence": "high",
         "summary": "The generated article has significant technical issues with placeholder text and appears incomplete. While the basic facts about Monique Alexander being a celebrity trainer who works with Anne Hathaway and advocates against 'all or nothing' approaches are consistent with the source, the article contains formatting errors and adds unsupported details about 'superhero shape.' The incomplete nature prevents proper verification of the full content."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Indonesia takes emergency steps to save Mahakam dolphin",
@@ -2748,7 +2772,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately reflects the key facts from the source: the Mahakam dolphin (Orcaella brevirostris) lives in the Mahakam River in East Kalimantan, Indonesia, and has declining numbers. The article adds descriptive context about river dolphins but doesn't contradict or fabricate information from the source. No statistics, quotes, or specific claims beyond the source material are presented."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "Why do they throw the fish back?",
@@ -2789,7 +2814,8 @@
         "confidence": "high",
         "summary": "The generated article is technically defective with '[object Object]' placeholders replacing the actual content. While the introductory paragraph aligns conceptually with the source's theme about catch and release being scientifically sound for conservation, the bulk of the article is unreadable and therefore cannot be fact-checked for accuracy."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "Hard work, clear goals, discipline essential for success in life: Chief Justice of India Surya Kant",
@@ -2830,7 +2856,8 @@
         "confidence": "high",
         "summary": "The generated article has significant technical issues with '[object Object]' placeholders replacing actual content. While the opening paragraph accurately reflects the basic facts from the source (Chief Justice Surya Kant speaking at Maharshi Dayanand University's 50th anniversary about success principles), the majority of the article is unreadable due to formatting problems, making proper fact-checking impossible."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     },
     {
       "originalTitle": "At what age do black bear cubs leave their mother?",
@@ -2866,7 +2893,8 @@
         "issues": [],
         "confidence": "high",
         "summary": "The generated article accurately presents the key facts from the source: cubs leave their mother in spring of their second year at 16-18 months old after denning together for a second winter. While the article uses a more casual, storytelling tone, all factual claims align with the original source material. No fabricated quotes or unsupported claims were found."
-      }
+      },
+      "approved": true
     },
     {
       "originalTitle": "The Qld farm putting troubled youth on the straight and narrow",
@@ -2907,7 +2935,10 @@
         "confidence": "high",
         "summary": "The generated article is technically corrupted or incomplete, containing '[object Object]' placeholders instead of actual content. While the opening paragraph accurately reflects the source information about the Woodstock farm program and Mt Tamborine location, the rest of the article cannot be fact-checked due to rendering issues."
       },
-      "factCheckFailed": true
+      "factCheckFailed": true,
+      "approved": true
     }
-  ]
+  ],
+  "autoPublished": true,
+  "publishedAt": "2026-02-16T17:37:01.874Z"
 }
