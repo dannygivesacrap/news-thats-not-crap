@@ -10,16 +10,6 @@
     "positivityScore": 13
   },
   {
-    "title": "Scientists discover Europe's ancient forests were nothing like we imagined",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
-    "description": "Scientists have uncovered evidence that Europe was dominated for more than 20 million years by open woodlands, colorful meadows, and large grazing animals, not the dense forests long considered its natural state. The surprising discovery challenges modern reforestation strategies, suggesting that planting thick forests could actually harm the biodiversity conservationists hope to protect.",
-    "pubDate": "Sat, 07 Nov 2026 04:44:48 EST",
-    "source": "Science Daily Climate",
-    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
-    "category": "climate",
-    "positivityScore": 12
-  },
-  {
     "title": "Family Is Thankful Their Baby, Given Weeks to Live on Christmas Eve, Now Brain Cancer-Free",
     "link": "https://www.goodnewsnetwork.org/girl-given-weeks-to-live-on-christmas-eve-makes-miracle-recovery-after-serendipitous-call-to-st-jude/",
     "description": "An infant girl with weeks to live from aggressive brain cancer has made a full recovery after her case arrived at the desk of a hospital which had just finished a rigorous study on her form of cancer. The trial had run at St. Jude Children’s Hospital—one of 15 institutions that the family sent the […]\nThe post Family Is Thankful Their Baby, Given Weeks to Live on Christmas Eve, Now Brain Cancer-Free appeared first on Good News Network.",
@@ -76,6 +66,16 @@
     "pubDate": "Mon, 23 Nov 2026 12:30:42 +0000",
     "source": "Good News Network",
     "sourceUrl": "https://www.goodnewsnetwork.org/first-of-3-consecutive-supermoons-to-begin-tonight-look-to-the-east-for-the-beaver-moon/",
+    "category": "general",
+    "positivityScore": 9
+  },
+  {
+    "title": "Making Peace With a Himalayan ‘Ghost’",
+    "link": "https://reasonstobecheerful.world/snow-leopard-conservation-himalayas/",
+    "description": "Last winter, Deachen Chuskit took her cows to graze in the upper Himalayan desert of Ladakh. The snow had covered the pasturelands nearby, forcing her and other villagers to take their livestock farther from their village, Saspotse, for grazing. When she returned for the animals in the evening, she found...\nThe post Making Peace With a Himalayan ‘Ghost’ appeared first on Reasons to be Cheerful.",
+    "pubDate": "Fri, 27 Nov 2026 08:00:59 +0000",
+    "source": "Reasons to be Cheerful",
+    "sourceUrl": "https://reasonstobecheerful.world/snow-leopard-conservation-himalayas/",
     "category": "general",
     "positivityScore": 9
   },
@@ -141,14 +141,14 @@
     "positivityScore": 8
   },
   {
-    "title": "Spatially constrained clustering of urban morphology for solar and wind performance assessment: The case of Addis Ababa, Ethiopia",
-    "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0363628",
-    "description": "Addis Ababa, a rapidly growing city in sub-Saharan Africa, is characterized by spontaneous and unplanned urban development, making it challenging to derive simplified spatial models for sustainable urban analysis. This study examines urban morphological clust…",
-    "pubDate": "2026-11-25T14:00:00Z",
-    "source": "Plos.org",
-    "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0363628",
+    "title": "Cool ways to use solar panels on campus",
+    "link": "https://www.cbc.ca/news/climate/what-on-earth-solar-western-9.7436816",
+    "description": "In this issue of our environmental newsletter, we get a university campus tour featuring some neat ways to use solar panels; see what's happening to old EV batteries instead of recycling; and find out how a B.C. First Nation is protecting itself from wildfire…",
+    "pubDate": "2026-11-26T19:00:00Z",
+    "source": "CBC News",
+    "sourceUrl": "https://www.cbc.ca/news/climate/what-on-earth-solar-western-9.7436816",
     "category": "climate",
-    "author": "Wondwosen Debebe Mekonnen, Tibebu Assefa Woldeamanuel",
+    "author": "Last Updated: November 26",
     "positivityScore": 8
   },
   {
@@ -302,6 +302,36 @@
     "positivityScore": 7
   },
   {
+    "title": "Google told to halt Belgium datacentre construction over lack of planning permit",
+    "link": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
+    "description": "Greenpeace publishes report showing tech firm is continuing to build despite planning appeal still unresolved\nBelgian authorities have ordered Google to halt construction work on a large datacentre in the south of the country because the US tech firm’s requests to modify the original terms of the planning permission did not have approval.\n“Inspectors visited the site and observed that the building was almost finished, with the structural work completed, even though the permit had been refused,” Raphaël Stokis, a Wallonia regional official, told the public broadcaster RTBF.\n Continue reading...",
+    "pubDate": "Fri, 27 Nov 2026 17:21:18 GMT",
+    "source": "The Guardian Environment",
+    "sourceUrl": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
+    "category": "climate",
+    "positivityScore": 6
+  },
+  {
+    "title": "The narwhal’s legendary “unicorn horn” holds a remarkable engineering secret",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm",
+    "description": "The narwhal’s iconic spiral tusk, once prized in Europe as the horn of a mythical unicorn, conceals an extraordinary feat of natural engineering. Using advanced X-ray technology, an international team of scientists discovered that the tusk contains two intertwined microscopic spirals that twist in opposite directions.",
+    "pubDate": "Fri, 27 Nov 2026 05:01:39 EST",
+    "source": "Science Daily Environment",
+    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm",
+    "category": "climate",
+    "positivityScore": 6
+  },
+  {
+    "title": "Scientists turn one of the world’s hardest-to-recycle plastics into high-performance lubricating oil",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261126033501.htm",
+    "description": "Virginia Tech scientists have discovered how to transform one of the world's hardest-to-recycle plastics into a valuable ingredient for high-performance engine oil. Their innovative process converts discarded PVC into a useful lubricant material in just three hours. The breakthrough could turn a major source of plastic pollution into a valuable industrial resource while making lubricant production more sustainable.",
+    "pubDate": "Fri, 27 Nov 2026 04:52:24 EST",
+    "source": "Science Daily Environment",
+    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261126033501.htm",
+    "category": "climate",
+    "positivityScore": 6
+  },
+  {
     "title": "Scientists discover a surprising twist in how the body burns calories",
     "link": "https://www.sciencedaily.com/releases/2026/11/261124055856.htm",
     "description": "Researchers have discovered that a drug can significantly increase the body's energy expenditure without clearly activating calorie-burning brown fat. The unexpected finding reveals a new challenge in developing obesity treatments that harness the body's natural fat-burning machinery.",
@@ -332,14 +362,25 @@
     "positivityScore": 6
   },
   {
-    "title": "Elizabethtown Area installs geothermal energy at East High Street for $35K in annual savings",
-    "link": "https://lancasteronline.com/news/local/elizabethtown-area-installs-geothermal-energy-at-east-high-street-for-35k-in-annual-savings/article_c98c8fb3-98c1-42eb-abbc-8ed95f697b81.html",
-    "description": "The Elizabethtown Area School District already has a track record of looking to the skies for ways to save money — just look at the solar panels installed between two of the district’s school buildings.",
-    "pubDate": "2026-11-24T20:14:00Z",
-    "source": "LancasterOnline",
-    "sourceUrl": "https://lancasteronline.com/news/local/elizabethtown-area-installs-geothermal-energy-at-east-high-street-for-35k-in-annual-savings/article_c98c8fb3-98c1-42eb-abbc-8ed95f697b81.html",
+    "title": "ANTECH™ Laboratories Unveils Scientific Breakthrough to Better Diagnose and Monitor Treatment of Feline Infectious Peritonitis",
+    "link": "https://biztoc.com/x/4072af83688bf18f",
+    "description": "LILLE, France, November 26, 2026--(BUSINESS WIRE)--ANTECH Laboratories, a leading veterinary-owned and led reference laboratory in Massy, France, today announced a major scientific advancement in the Alpha-1-Acid Glycoprotein (AGP) test that veterinarians use…",
+    "pubDate": "2026-11-26T08:21:05Z",
+    "source": "Biztoc.com",
+    "sourceUrl": "https://biztoc.com/x/4072af83688bf18f",
+    "category": "science",
+    "author": null,
+    "positivityScore": 6
+  },
+  {
+    "title": "Beneath the Solar Panels: A Colorado Farm Rethinks the Future of Food Production — Coalition of Action for Soil Health",
+    "link": "https://www.coalitionforsoilhealth.org/news/beneath-the-solar-panels-a-colorado-farm-rethinks-the-future-of-food-production",
+    "description": "At   Jack's Solar Garden  , 3,276 solar panels cover just over four acres of land. But beneath them, something else is happening. Vegetables are growing, berries are being established, and grasslands continue to thrive.  It's a practical example of how though…",
+    "pubDate": "2026-11-26T16:51:25Z",
+    "source": "Coalitionforsoilhealth.org",
+    "sourceUrl": "https://www.coalitionforsoilhealth.org/news/beneath-the-solar-panels-a-colorado-farm-rethinks-the-future-of-food-production",
     "category": "climate",
-    "author": "ASHLEY STALNECKER",
+    "author": "Colleen Knox",
     "positivityScore": 6
   },
   {
@@ -354,15 +395,14 @@
     "positivityScore": 6
   },
   {
-    "title": "Lone Wolf Preserve Opening: 65-acre woodland gains protection; visitors can hike and birdwatch",
-    "link": "https://timesofindia.indiatimes.com/world/us/a-65-acre-new-jersey-woodland-has-opened-as-a-protected-nature-preserve-after-conservation-groups-bought-it-to-prevent-development-adding-habitat-for-bobcats-and-eagles-to-a-growing-wildlife-corridor/articleshow/136147537.cms",
-    "description": "The 65-acre Lone Wolf Preserve in Frankford Township achieves permanent protection, enhancing wildlife conservation efforts throughout northwestern New Jersey. This initiative not only encourages low-impact outdoor activities for visitors but also forms part …",
-    "pubDate": "2026-11-25T21:24:00Z",
-    "source": "The Times of India",
-    "sourceUrl": "https://timesofindia.indiatimes.com/world/us/a-65-acre-new-jersey-woodland-has-opened-as-a-protected-nature-preserve-after-conservation-groups-bought-it-to-prevent-development-adding-habitat-for-bobcats-and-eagles-to-a-growing-wildlife-corridor/articleshow/136147537.cms",
-    "category": "wildlife",
-    "author": "TOI World Desk",
-    "positivityScore": 6
+    "title": "British Gas owner seeks urgent government talks over future of storage facility",
+    "link": "https://www.theguardian.com/business/2026/nov/27/british-gas-owner-seeks-urgent-government-talks-gas-storage-faciity-future",
+    "description": "Centrica boss memo to 400 workers at gas plant off Yorkshire coast says utility doing all it can ‘to save your jobs’\nThe boss of the British Gas owner Centrica has told hundreds of staff at its largest gas storage facility that he was seeking urgent talks with Andy Burnham and would do everything he could to save jobs.\nChris O’Shea, the chief executive of Centrica, reportedly told staff at the Rough gas storage facility off the east Yorkshire that the government had rebuffed the company’s plea for short-term support to run the store over the winter.\n Continue reading...",
+    "pubDate": "Fri, 27 Nov 2026 15:56:31 GMT",
+    "source": "The Guardian Environment",
+    "sourceUrl": "https://www.theguardian.com/business/2026/nov/27/british-gas-owner-seeks-urgent-government-talks-gas-storage-faciity-future",
+    "category": "climate",
+    "positivityScore": 4
   },
   {
     "title": "Working in Cape Cod’s waters, he saw an unusual clam. It was the start of an invasion",
@@ -465,23 +505,13 @@
     "positivityScore": 4
   },
   {
-    "title": "Tiny magnets deep inside the brain could transform Parkinson’s treatment",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261116023354.htm",
-    "description": "Scientists have developed a new technique that uses magnetic nanoparticles to stimulate deep brain regions, dramatically improving Parkinson’s-like movement problems in mice without permanently implanted electrodes. The breakthrough could pave the way for less invasive treatments using injectable particles and wearable magnetic headbands.",
-    "pubDate": "Tue, 17 Nov 2026 22:49:24 EST",
+    "title": "For decades, scientists may have misunderstood how brain cells work",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261125045302.htm",
+    "description": "A major new study challenges a long-standing assumption about how the brain works, revealing that most neurons are versatile multitaskers rather than highly specialized workers. By analyzing recordings from 43 regions of the mouse brain, researchers discovered that although some neurons are dedicated to specific functions, most respond to a wide variety of information in remarkably distinct ways.",
+    "pubDate": "Thu, 26 Nov 2026 16:36:09 EST",
     "source": "Science Daily Mind",
-    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261116023354.htm",
+    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261125045302.htm",
     "category": "health",
-    "positivityScore": 4
-  },
-  {
-    "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
-    "link": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
-    "description": "Officials say no lead has been detected in the surrounding area, which continues to be tested following concerns from locals.",
-    "pubDate": "Thu, 26 Nov 2026 10:38:35 GMT",
-    "source": "BBC Science",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
-    "category": "science",
     "positivityScore": 4
   },
   {
@@ -515,16 +545,6 @@
     "positivityScore": 4
   },
   {
-    "title": "A black hole the size of an atom could destroy an entire star",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261122060332.htm",
-    "description": "MIT scientists have discovered that tiny black holes left over from the Big Bang could slowly devour stars from within, eventually triggering spectacular explosions visible across galaxies. Detecting these unusual cosmic events could reveal the existence of primordial black holes and help solve the mystery of dark matter.",
-    "pubDate": "Tue, 24 Nov 2026 15:58:15 EST",
-    "source": "Science Daily Top",
-    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261122060332.htm",
-    "category": "science",
-    "positivityScore": 4
-  },
-  {
     "title": "Quantum leap: computing’s next frontier takes shape",
     "link": "https://www.digitaljournal.com/article/quantum-leap-computings-next-frontier-takes-shape/",
     "description": "After several dashed predictions, quantum computing is accelerating rapidly with actual use cases and scientific breakthroughs now expected within years, not decades. \nThe post Quantum leap: computing’s next frontier takes shape appeared first on Digital Jour…",
@@ -547,28 +567,6 @@
     "positivityScore": 4
   },
   {
-    "title": "Jensen Huang admits \"terrible mistakes\", apologises to employees over code of conduct violations in first address after Nvidia comeback",
-    "link": "https://m.economictimes.com/news/international/business/jensen-huang-admits-terrible-mistakes-apologises-to-employees-over-code-of-conduct-violations-in-first-address-after-nvidia-comeback/articleshow/136171464.cms",
-    "description": "Jensen Huang, the chief executive of Nvidia, acknowledged making terrible mistakes in a recent meeting. He expressed regret for his personal misconduct, which impacted his family and colleagues. Huang stated that he is undergoing therapy while his actions led…",
-    "pubDate": "2026-11-25T18:54:38Z",
-    "source": "Economictimes.com",
-    "sourceUrl": "https://m.economictimes.com/news/international/business/jensen-huang-admits-terrible-mistakes-apologises-to-employees-over-code-of-conduct-violations-in-first-address-after-nvidia-comeback/articleshow/136171464.cms",
-    "category": "health",
-    "author": "ANI",
-    "positivityScore": 4
-  },
-  {
-    "title": "New drug combo has 'transformative' potential for pancreatic cancer treatment",
-    "link": "https://www.medicalnewstoday.com/articles/new-drug-combo-has-transformative-potential-for-pancreatic-cancer-treatment",
-    "description": "A new treatment approach for late-stage pancreatic cancer, combining the novel drug daraxonrasib with chemotherapy, may help significantly boost survival.",
-    "pubDate": "2026-11-25T19:15:00Z",
-    "source": "Medical News Today",
-    "sourceUrl": "https://www.medicalnewstoday.com/articles/new-drug-combo-has-transformative-potential-for-pancreatic-cancer-treatment",
-    "category": "health",
-    "author": "Katharine Lang",
-    "positivityScore": 4
-  },
-  {
     "title": "Bihar, Haryana and UP lead India's company boom as active firms grow 12%",
     "link": "https://www.business-standard.com/finance/personal-finance/bihar-haryana-and-up-lead-india-s-company-boom-as-active-firms-grow-12-126112500639_1.html",
     "description": "Active companies in India grew 12% YoY in FY26, while new company registrations increased 37% YoY, reaching approximately 248,000 new companies.",
@@ -577,6 +575,39 @@
     "sourceUrl": "https://www.business-standard.com/finance/personal-finance/bihar-haryana-and-up-lead-india-s-company-boom-as-active-firms-grow-12-126112500639_1.html",
     "category": "climate",
     "author": "Sunainaa Chadha",
+    "positivityScore": 4
+  },
+  {
+    "title": "Europe’s food security starts with resilient farms",
+    "link": "https://www.politico.eu/sponsored-content/europes-food-security-starts-with-resilient-farms/",
+    "description": "Regenerative agriculture supports farmers’ livelihoods, biodiversity and food resilience. It is a win-win situation.",
+    "pubDate": "2026-11-26T14:00:00Z",
+    "source": "POLITICO.eu",
+    "sourceUrl": "https://www.politico.eu/sponsored-content/europes-food-security-starts-with-resilient-farms/",
+    "category": "climate",
+    "author": "Guillaume Le Cunff",
+    "positivityScore": 4
+  },
+  {
+    "title": "Carbon Dioxide Is a Climate Problem. It Might Also Be a Laundry Solution.",
+    "link": "https://goodmenproject.com/featured-content/carbon-dioxide-is-a-climate-problem-it-might-also-be-a-laundry-solution/",
+    "description": "A technology born in aerospace uses liquid CO2 to wash clothes without water or a dryer. The challenge is making it work in a home appliance.\nThe post Carbon Dioxide Is a Climate Problem. It Might Also Be a Laundry Solution. appeared first on The Good Men Pro…",
+    "pubDate": "2026-11-26T11:00:09Z",
+    "source": "The Good Men Project",
+    "sourceUrl": "https://goodmenproject.com/featured-content/carbon-dioxide-is-a-climate-problem-it-might-also-be-a-laundry-solution/",
+    "category": "climate",
+    "author": "Grist",
+    "positivityScore": 4
+  },
+  {
+    "title": "SpaceX Wins FCC Approval To Deploy 1 Million Orbital Data Center Satellites",
+    "link": "https://tech.slashdot.org/story/26/11/25/1936200/spacex-wins-fcc-approval-to-deploy-1-million-orbital-data-center-satellites",
+    "description": "The Federal Communications Commission (FCC) has authorized SpaceX to deploy one million AI computing satellites into orbit as part of its solar-powered Starmind data center constellation. The approval comes despite opposition from Amazon, Viasat and the Ameri…",
+    "pubDate": "2026-11-26T07:00:00Z",
+    "source": "Slashdot.org",
+    "sourceUrl": "https://tech.slashdot.org/story/26/11/25/1936200/spacex-wins-fcc-approval-to-deploy-1-million-orbital-data-center-satellites",
+    "category": "climate",
+    "author": "BeauHD",
     "positivityScore": 4
   },
   {
@@ -602,14 +633,14 @@
     "positivityScore": 4
   },
   {
-    "title": "The return of the wolf divides the densely populated Netherlands",
-    "link": "https://abcnews.com/Technology/wireStory/return-wolf-divides-densely-populated-netherlands-138434425",
-    "description": "The return of wolves to the Netherlands was once hailed as a conservation success story",
-    "pubDate": "2026-11-25T11:08:38Z",
-    "source": "Abcnews.com",
-    "sourceUrl": "https://abcnews.com/Technology/wireStory/return-wolf-divides-densely-populated-netherlands-138434425",
+    "title": "Gray wolves roaming northern Minnesota may help wild blueberries spread: researchers found 96% of seeds recovered from wolf droppings sprouted, compared with 69% of uneaten seeds in a laboratory test",
+    "link": "https://timesofindia.indiatimes.com/science/wildlife/gray-wolves-roaming-northern-minnesota-may-help-wild-blueberries-spread-researchers-found-96-of-seeds-recovered-from-wolf-droppings-sprouted-compared-with-69-of-uneaten-seeds-in-a-laboratory-test/articleshow/136154747.cms",
+    "description": "In Minnesota, wolves play a surprising role in nature by consuming blueberries, and recent research indicates that their digestion processes beneficially influence seed germination. Remarkably, 96% of blueberry seeds found in wolf scat germinated successfully…",
+    "pubDate": "2026-11-26T05:28:48Z",
+    "source": "The Times of India",
+    "sourceUrl": "https://timesofindia.indiatimes.com/science/wildlife/gray-wolves-roaming-northern-minnesota-may-help-wild-blueberries-spread-researchers-found-96-of-seeds-recovered-from-wolf-droppings-sprouted-compared-with-69-of-uneaten-seeds-in-a-laboratory-test/articleshow/136154747.cms",
     "category": "wildlife",
-    "author": "ALEKSANDAR FURTULA Associated Press, MIKE CORDER Associated Press, PETER DEJONG Associated Press",
+    "author": "TOI Science Desk",
     "positivityScore": 4
   },
   {
@@ -624,28 +655,6 @@
     "positivityScore": 4
   },
   {
-    "title": "In 1925, a Canadian family began farming in southern Alberta; 101 years later, descendants have donated 160 acres of native grassland that will remain protected while ranchers continue grazing cattle",
-    "link": "https://timesofindia.indiatimes.com/world/rest-of-world/in-1925-a-canadian-family-began-farming-in-southern-alberta-101-years-later-descendants-have-donated-160-acres-of-native-grassland-that-will-remain-protected-while-ranchers-continue-grazing-cattle/articleshow/136171418.cms",
-    "description": "A remarkable commitment to conservation has been made by a ranching family in southern Alberta, who have donated 160 acres of untouched prairie land for long-term protection. This initiative allows cattle grazing to persist while maintaining the delicate bala…",
-    "pubDate": "2026-11-25T19:00:25Z",
-    "source": "The Times of India",
-    "sourceUrl": "https://timesofindia.indiatimes.com/world/rest-of-world/in-1925-a-canadian-family-began-farming-in-southern-alberta-101-years-later-descendants-have-donated-160-acres-of-native-grassland-that-will-remain-protected-while-ranchers-continue-grazing-cattle/articleshow/136171418.cms",
-    "category": "wildlife",
-    "author": "TOI World Desk",
-    "positivityScore": 4
-  },
-  {
-    "title": "Talking Success In VR Gaming With Dungeons Of Eternity's Ryan Rutherford",
-    "link": "https://www.uploadvr.com/vr-spotlight-interview-ryan-rutherford-dungeons-of-eternity/",
-    "description": "On VR Spotlight, our live interview series, we spoke with Othergate co-founder Ryan Rutherford about Dungeons of Eternity's sustainable success in VR, PlayStation VR2, Steam Frame, and upcoming mod plans.",
-    "pubDate": "2026-11-25T19:24:48Z",
-    "source": "UploadVR",
-    "sourceUrl": "https://www.uploadvr.com/vr-spotlight-interview-ryan-rutherford-dungeons-of-eternity/",
-    "category": "people",
-    "author": "UploadBot",
-    "positivityScore": 4
-  },
-  {
     "title": "Trump’s Imperialist Fantasy for Latin America Is Already Failing",
     "link": "https://theintercept.com/2026/11/25/trump-latin-america-intervention-influence/",
     "description": "Despite Hegseth’s victory lap, Trump’s “Donroe Doctrine” may already be on life support.\nThe post Trump’s Imperialist Fantasy for Latin America Is Already Failing appeared first on The Intercept.",
@@ -657,32 +666,22 @@
     "positivityScore": 4
   },
   {
+    "title": "The US army just detonated a poison bomb over Iowa | Steven Donziger",
+    "link": "https://www.theguardian.com/commentisfree/2026/nov/27/army-lead-poison-bomb-iowa",
+    "description": "The shocking situation in Iowa is a metaphor for much of what is wrong with the United States\nThere’s no way to hide it: the US government just deliberately detonated a poison bomb of lead azide over the state of Iowa when a totally safe alternative was available.\nThe problem in Iowa was relatively simple to solve. The army for decades had stored lead underground at a munitions facility. As far back as 2009, the government knew the lead was deteriorating and might blow up on its own. But it procrastinated. Finally, in March, the army hired a Georgia-based company to use a chemical spray to neutralize the lead, creating a non-hazardous byproduct that can be disposed of in landfills.\nSteven Donziger is a US-based human rights and environmental lawyer and the author of Donziger On Justice on Substack\n Continue reading...",
+    "pubDate": "Fri, 27 Nov 2026 19:30:18 GMT",
+    "source": "The Guardian Environment",
+    "sourceUrl": "https://www.theguardian.com/commentisfree/2026/nov/27/army-lead-poison-bomb-iowa",
+    "category": "climate",
+    "positivityScore": 2
+  },
+  {
     "title": "Suit alleges Louisiana land deal between SpaceX and ExxonMobil violates open meetings law",
     "link": "https://www.theguardian.com/us-news/2026/nov/26/louisiana-spacex-exxonmobil-land-deal-lawsuit",
     "description": "Suit says parish board was manipulated to allow deal to go through and settlement agreement hidden from public\nAfter ending a lawsuit over ExxonMobil’s damage to wetlands, Louisiana officials moved quickly to approve a deal giving SpaceX access to 125,000 acres (50,600 hectares) of marsh formerly owned by the oil company. A new lawsuit now alleges they did so in violation of the state’s open meetings law.\nThe lawsuit, filed by three south-central Louisiana residents, follows state and Vermilion parish officials’ approval of what is estimated to be a record $27.5bn tax incentive package for SpaceX’s Starbase Louisiana project, announced over the summer. The officials violated the state’s open meetings law eight times while facilitating the agreement in attempts to “keep the public in the dark about what they are doing for SpaceX”, the lawsuit alleges.\n Continue reading...",
     "pubDate": "Thu, 26 Nov 2026 12:00:33 GMT",
     "source": "The Guardian Environment",
     "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/26/louisiana-spacex-exxonmobil-land-deal-lawsuit",
-    "category": "climate",
-    "positivityScore": 2
-  },
-  {
-    "title": "California ‘king tides’ stress test San Francisco as low-lying areas flood",
-    "link": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
-    "description": "Monthly tide records were set across the city, with some expected to hit even higher tomorrow\n\nExplainer: What to know about flooding in California over Thanksgiving\n\nCalifornia is grappling with the stress test of record-high or close to record-high November tides up and down the coast this week, with flooding of low-lying roadways in San Francisco and an evacuation of one community in northern California.\nLocal residents and media outlets shared images of floodwaters rushing over the bayfront Embarcadero at the center of San Francisco’s tourist district, and flooded roadways from San Rafael to Redwood Shores, despite blue skies overhead.\n Continue reading...",
-    "pubDate": "Tue, 24 Nov 2026 23:20:24 GMT",
-    "source": "The Guardian Environment",
-    "sourceUrl": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
-    "category": "climate",
-    "positivityScore": 2
-  },
-  {
-    "title": "Water levels fell sharply in world’s rivers and lakes in two hottest years on record, study finds",
-    "link": "https://www.theguardian.com/environment/2026/nov/26/water-levels-fall-rivers-lakes-reservoirs-global-study",
-    "description": "Researchers say effects particularly felt in South America where levels plunged even as some areas had extreme rain\nExtreme global heat caused an unprecedented decline in the water levels of lakes, rivers and reservoirs around the world in 2023 and 2024, an international study has found.\nThe analysis of global water systems, a collaboration led by the Chinese Academy of Sciences, found that the planet’s surface freshwater fell sharply during the two years, which were the hottest on record. Global river flows fell to about 5.7% below normal, while the water stored in lakes and reservoirs dropped by 9.5%. Together, this was the largest synchronised decline in surface water since at least 1991.\n Continue reading...",
-    "pubDate": "Thu, 26 Nov 2026 19:00:41 GMT",
-    "source": "The Guardian Environment",
-    "sourceUrl": "https://www.theguardian.com/environment/2026/nov/26/water-levels-fall-rivers-lakes-reservoirs-global-study",
     "category": "climate",
     "positivityScore": 2
   },
@@ -737,26 +736,6 @@
     "positivityScore": 2
   },
   {
-    "title": "A 3-million-year-old child just made human evolution far more complicated",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm",
-    "description": "A groundbreaking study of the 3-million-year-old Taung Child fossil suggests that several ancient human ancestors once thought to belong to the same species may actually represent different branches of our evolutionary family tree. The discovery challenges a century of assumptions and reveals how dramatic climate changes helped shape a surprisingly complex story of human origins.",
-    "pubDate": "Thu, 19 Nov 2026 22:17:52 EST",
-    "source": "Science Daily Environment",
-    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm",
-    "category": "climate",
-    "positivityScore": 2
-  },
-  {
-    "title": "Something strange is living beneath the skin of deep-sea pigs",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261118065512.htm",
-    "description": "Scientists have discovered a strange bacterium hiding beneath the skin of deep-sea creatures known as sea pigs, revealing an unexpected biological partnership. The microbe has an unusually tiny genome, yet more than a quarter of its DNA is devoted to making surface proteins, some of them exceptionally large. Researchers suspect it depends heavily on its host for survival, but what the sea pigs gain in return remains a mystery.",
-    "pubDate": "Thu, 19 Nov 2026 05:33:03 EST",
-    "source": "Science Daily Environment",
-    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261118065512.htm",
-    "category": "climate",
-    "positivityScore": 2
-  },
-  {
     "title": "125,000 years ago, hippos roamed what is now the vast Arabian Desert",
     "link": "https://www.sciencedaily.com/releases/2026/11/261115085537.htm",
     "description": "A remarkable 125,000-year-old discovery in Saudi Arabia reveals that early humans once thrived beside enormous lakes filled with wildlife in what is now a vast desert. Thousands of stone tools and ancient plant remains suggest these prehistoric people used sophisticated hunting techniques, potentially including weapons enhanced with poisonous plant compounds.",
@@ -797,6 +776,36 @@
     "positivityScore": 2
   },
   {
+    "title": "A fat-burning molecule has an unexpected benefit for your muscles",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261126063315.htm",
+    "description": "Researchers have discovered that a naturally occurring molecule released during exercise helps muscles become stronger, resist fatigue, and withstand damage. The molecule, already available as a dietary supplement, could open new avenues for treating muscle deterioration associated with type 2 diabetes.",
+    "pubDate": "Thu, 26 Nov 2026 23:42:17 EST",
+    "source": "Science Daily Health",
+    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261126063315.htm",
+    "category": "health",
+    "positivityScore": 2
+  },
+  {
+    "title": "This dietary supplement may have an unexpected benefit for the brain",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261125045311.htm",
+    "description": "A naturally derived dietary supplement called urolithin A may help the brain get more oxygen and nutrients when it needs them most. In a randomized clinical trial involving 50 middle-aged adults with obesity, researchers found that taking the supplement daily for four weeks increased blood flow to the brain during a challenging memory task, particularly in a region involved in working memory.",
+    "pubDate": "Thu, 26 Nov 2026 18:34:32 EST",
+    "source": "Science Daily Health",
+    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261125045311.htm",
+    "category": "health",
+    "positivityScore": 2
+  },
+  {
+    "title": "A tiny injectable sensor could change how millions of people monitor blood sugar",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261125045256.htm",
+    "description": "Texas A&M researchers have discovered a way to dramatically reduce the cost of a key component in an experimental injectable glucose sensor without sacrificing performance. The technology uses fluorescent light to measure glucose levels from beneath the skin.",
+    "pubDate": "Wed, 25 Nov 2026 04:52:56 EST",
+    "source": "Science Daily Health",
+    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261125045256.htm",
+    "category": "health",
+    "positivityScore": 2
+  },
+  {
     "title": "Scientists discover a new type of depression that common antidepressants struggle to treat",
     "link": "https://www.sciencedaily.com/releases/2026/11/261123005352.htm",
     "description": "Researchers have discovered a new subtype of depression that may affect nearly one in four people with severe, recurrent, or persistent depression. Known as \"circadian depression,\" it is linked to the body's internal clock and is associated with night owl tendencies, excessive sleep, persistent exhaustion, and more severe symptoms. Traditional antidepressants often work less effectively for these individuals, potentially explaining why some people struggle to find relief.",
@@ -817,12 +826,12 @@
     "positivityScore": 2
   },
   {
-    "title": "U.S. loses measles elimination status after 25 years as vaccine myths persist",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261122060323.htm",
-    "description": "The United States has lost its measles elimination status after more than 25 years, and a new survey reveals widespread misconceptions about the deadly disease and its vaccine. With measles cases surging, more than one-third of Americans still believe or are uncertain about the debunked vaccine-autism link, while most don't know the disease's risks or how many vaccine doses children need.",
-    "pubDate": "Sun, 22 Nov 2026 20:16:17 EST",
-    "source": "Science Daily Health",
-    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261122060323.htm",
+    "title": "Scientists identify two ages when children may be most vulnerable to screen time",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261126033220.htm",
+    "description": "Scientists have identified two potentially critical periods when screen time may be especially detrimental to children's learning and memory: infancy and the start of formal schooling. Greater screen exposure during these developmental windows was linked to poorer academic performance and weaker working memory years later.",
+    "pubDate": "Thu, 26 Nov 2026 22:56:06 EST",
+    "source": "Science Daily Mind",
+    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261126033220.htm",
     "category": "health",
     "positivityScore": 2
   },
@@ -857,23 +866,13 @@
     "positivityScore": 2
   },
   {
-    "title": "The hidden language of psychopathy is not what scientists expected",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261116023346.htm",
-    "description": "Scientists have discovered that psychopathic traits are associated with surprisingly different patterns of language, with some individuals using more positive words and others expressing greater negativity or less anxiety. The findings challenge familiar stereotypes about psychopathy and suggest that the stories people tell about their lives may offer important clues about their personalities.",
-    "pubDate": "Tue, 17 Nov 2026 06:51:35 EST",
-    "source": "Science Daily Mind",
-    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261116023346.htm",
-    "category": "health",
-    "positivityScore": 2
-  },
-  {
-    "title": "Autistic brains look surprisingly similar on average. Then scientists looked closer.",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261116023344.htm",
-    "description": "Scientists discovered that although people with and without autism show surprisingly similar average brain activity, individuals with autism exhibit much greater differences from one another, especially in regions involved in social understanding. The findings suggest that traditional research methods may be overlooking crucial differences that could help unlock more personalized autism support.",
-    "pubDate": "Tue, 17 Nov 2026 20:10:14 EST",
-    "source": "Science Daily Mind",
-    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261116023344.htm",
-    "category": "health",
+    "title": "Want your research cited in patents? Publishing open access increases your chances",
+    "link": "https://www.nature.com/articles/d41586-026-03754-0",
+    "description": "",
+    "pubDate": "2026-11-27T00:00:00.000Z",
+    "source": "Nature",
+    "sourceUrl": "https://www.nature.com/articles/d41586-026-03754-0",
+    "category": "science",
     "positivityScore": 2
   },
   {
@@ -897,32 +896,22 @@
     "positivityScore": 2
   },
   {
-    "title": "Expect fewer frosts and more hot days as UK seasons shift, says Met Office",
-    "link": "https://www.bbc.co.uk/weather/articles/cr3eg1py3gv5o?at_medium=RSS&at_campaign=rss",
-    "description": "Changing seasons are affecting wildlife and leading some farmers to grow different crops.",
-    "pubDate": "Thu, 26 Nov 2026 00:08:07 GMT",
+    "title": "Hundreds of thousands still without power a day after US slammed with Thanksgiving storms",
+    "link": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
+    "description": "Pennsylvania and neighbouring states remain badly affected on Friday after both coasts were lashed with wind and rain.",
+    "pubDate": "Fri, 27 Nov 2026 22:29:46 GMT",
     "source": "BBC Science",
-    "sourceUrl": "https://www.bbc.co.uk/weather/articles/cr3eg1py3gv5o?at_medium=RSS&at_campaign=rss",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
     "category": "science",
     "positivityScore": 2
   },
   {
-    "title": "Canadian astronaut welcomes baby girl  from space station",
-    "link": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
-    "description": "Joshua Kutryk, currently on his first space mission, is just the fourth astronaut in history to miss the birth of a child while aboard the International Space Station.",
-    "pubDate": "Wed, 25 Nov 2026 15:41:39 GMT",
+    "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+    "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+    "description": "Almost one million customers in the US had no power on Thursday evening as storms descended on both US coasts, bringing wind gusts, heavy rain and flooding.",
+    "pubDate": "Fri, 27 Nov 2026 05:15:26 GMT",
     "source": "BBC Science",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
-    "category": "science",
-    "positivityScore": 2
-  },
-  {
-    "title": "Why has China sent the first Pakistani astronaut to space?",
-    "link": "https://www.bbc.co.uk/news/videos/cj5y1p067kxno?at_medium=RSS&at_campaign=rss",
-    "description": "Pakistan's Muhammad Zeeshan Ali has become the first foreign national to board China's Tiangong space station.",
-    "pubDate": "Wed, 25 Nov 2026 10:26:50 GMT",
-    "source": "BBC Science",
-    "sourceUrl": "https://www.bbc.co.uk/news/videos/cj5y1p067kxno?at_medium=RSS&at_campaign=rss",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
     "category": "science",
     "positivityScore": 2
   },
@@ -957,23 +946,23 @@
     "positivityScore": 2
   },
   {
-    "title": "Two monster black holes from the dawn of time defy explanation",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261122060342.htm",
-    "description": "Astronomers have discovered the oldest known compact pair of quasars, powered by two enormous black holes that existed just 900 million years after the Big Bang. Weighing an astonishing 1.5 billion and 400 million times the mass of the Sun, these cosmic giants somehow grew to incredible sizes far earlier than current theories can explain.",
-    "pubDate": "Mon, 23 Nov 2026 06:21:06 EST",
-    "source": "Science Daily Top",
-    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261122060342.htm",
-    "category": "science",
+    "title": "A 3-million-year-old child just made human evolution far more complicated",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm",
+    "description": "A groundbreaking study of the 3-million-year-old Taung Child fossil suggests that several ancient human ancestors once thought to belong to the same species may actually represent different branches of our evolutionary family tree. The discovery challenges a century of assumptions and reveals how dramatic climate changes helped shape a surprisingly complex story of human origins.",
+    "pubDate": "Thu, 19 Nov 2026 22:17:52 EST",
+    "source": "Science Daily Animals",
+    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm",
+    "category": "wildlife",
     "positivityScore": 2
   },
   {
-    "title": "A galactic shock wave could rewrite the map of the Milky Way",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261122060329.htm",
-    "description": "A surprising discovery suggests the Milky Way may be making stars in places where most galaxies cannot. Scientists found evidence that a massive rotating structure near the galactic center is creating powerful shock waves that trigger star formation rather than suppress it. Even more unexpectedly, part of the Norma spiral arm may not be a spiral arm at all, but a vast region where new stars are being born.",
-    "pubDate": "Mon, 23 Nov 2026 06:41:39 EST",
-    "source": "Science Daily Top",
-    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261122060329.htm",
-    "category": "science",
+    "title": "Something strange is living beneath the skin of deep-sea pigs",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261118065512.htm",
+    "description": "Scientists have discovered a strange bacterium hiding beneath the skin of deep-sea creatures known as sea pigs, revealing an unexpected biological partnership. The microbe has an unusually tiny genome, yet more than a quarter of its DNA is devoted to making surface proteins, some of them exceptionally large. Researchers suspect it depends heavily on its host for survival, but what the sea pigs gain in return remains a mystery.",
+    "pubDate": "Thu, 19 Nov 2026 05:33:03 EST",
+    "source": "Science Daily Animals",
+    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261118065512.htm",
+    "category": "wildlife",
     "positivityScore": 2
   },
   {
@@ -997,13 +986,25 @@
     "positivityScore": 2
   },
   {
-    "title": "Crows can make decisions twice as fast as humans, scientists discover",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
-    "description": "Crows may be even smarter than we thought, and their brains are astonishingly fast. Researchers at the University of Tübingen discovered that crows can make visual decisions twice as quickly as humans and monkeys, taking just 235 milliseconds on average to identify the direction of moving dots while maintaining remarkable accuracy.",
-    "pubDate": "Thu, 12 Nov 2026 07:17:19 EST",
-    "source": "Science Daily Animals",
-    "sourceUrl": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
-    "category": "wildlife",
+    "title": "Painting to Transform the World",
+    "link": "https://www.nybooks.com/articles/2026/12/17/painting-to-transform-the-world-jacques-louis-david/",
+    "description": "A recent exhibition at the Louvre of the work of Jacques-Louis David presented him as an artist whose political and artistic activities were deeply intertwined.",
+    "pubDate": "2026-11-26T13:00:00Z",
+    "source": "The New York Review of Books",
+    "sourceUrl": "https://www.nybooks.com/articles/2026/12/17/painting-to-transform-the-world-jacques-louis-david/",
+    "category": "science",
+    "author": "Colin B. Bailey",
+    "positivityScore": 2
+  },
+  {
+    "title": "One Little Hummingbird Flew Over 4,000 Miles in a Record-Breaking Migration",
+    "link": "https://www.sciencealert.com/one-little-hummingbird-flew-over-4000-miles-in-a-record-breaking-migration",
+    "description": "Small as a sparrow and light as a sugar cube, one male rufous hummingbird traversed a record-breaking 6,526 cumulative kilometers (4,055 miles) from Alabama to Alaska in just 38 days.",
+    "pubDate": "2026-11-26T11:00:00Z",
+    "source": "ScienceAlert",
+    "sourceUrl": "https://www.sciencealert.com/one-little-hummingbird-flew-over-4000-miles-in-a-record-breaking-migration",
+    "category": "science",
+    "author": "Jess Cockerill",
     "positivityScore": 2
   },
   {
